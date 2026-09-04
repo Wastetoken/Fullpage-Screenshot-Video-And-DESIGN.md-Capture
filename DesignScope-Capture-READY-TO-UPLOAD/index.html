@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DesignScope Capture</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      max-width: 720px;
+      text-align: center;
+      padding: 2rem;
+    }
+    .logo { width: 96px; height: 96px; margin: 0 auto 1.5rem; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 2rem; font-size: 1.05rem; }
+    .pages {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .card {
+      display: block;
+      padding: 1.25rem;
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      text-decoration: none;
+      color: #e2e8f0;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .card:hover { border-color: #3b82f6; background: #233449; }
+    .card h3 { font-size: 1rem; margin-bottom: 0.35rem; }
+    .card p { font-size: 0.85rem; color: #94a3b8; }
+    .note {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #1e293b;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: #94a3b8;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="src/assets/icons/icon128.png" alt="DesignScope Capture" class="logo">
+    <h1>DesignScope Capture</h1>
+    <p class="subtitle">Chrome Extension — Screenshot, Recording &amp; Design Extraction</p>
+
+    <div class="pages">
+      <a class="card" href="src/pages/popup.html"><h3>Popup</h3><p>Main extension popup UI</p></a>
+      <a class="card" href="src/pages/options.html"><h3>Options</h3><p>Settings page</p></a>
+      <a class="card" href="src/pages/history.html"><h3>History</h3><p>Screenshot history</p></a>
+      <a class="card" href="src/pages/quick_view.html"><h3>Quick View</h3><p>Quick viewer</p></a>
+      <a class="card" href="recorder.html"><h3>Recorder</h3><p>Screen recorder</p></a>
+      <a class="card" href="video-editor.html"><h3>Video Editor</h3><p>Video editing surface</p></a>
+      <a class="card" href="camera.html"><h3>Camera</h3><p>Camera capture</p></a>
+      <a class="card" href="region.html"><h3>Region</h3><p>Region recorder</p></a>
+      <a class="card" href="backup.html"><h3>Backup</h3><p>Backup &amp; restore</p></a>
+      <a class="card" href="download.html"><h3>Download</h3><p>Download helper</p></a>
+      <a class="card" href="permissions.html"><h3>Permissions</h3><p>Permission requests</p></a>
+    </div>
+
+    <div class="note">
+      This is a Chrome extension (Manifest V3) served as static files for preview.
+      Extension-specific APIs (chrome.tabs, chrome.storage, etc.) only work when loaded
+      as an unpacked extension in Chrome. To use the full extension, load this folder via
+      <strong>chrome://extensions → Developer mode → Load unpacked</strong>.
+    </div>
+  </div>
+</body>
+</html>
