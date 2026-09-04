@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: ekraanipilt ja ekraanisalvesti"
+    "message": "DesignScope: ekraanipilt ja ekraanisalvesti"
   },
   "extDescription": {
     "message": "Jäädvustage terve lehe ekraanipilte ja salvestage ekraani MP4-vormingus koos märkustega. Kaasas klõpsatavate linkidega PDF-eksport."
@@ -450,19 +450,19 @@
     "message": "Kas piltide kaasamine allalaadimisse"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "See funktsioon nõuab CocoShot Pro versiooni"
+    "message": "See funktsioon nõuab DesignScope Pro versiooni"
   },
   "proUpgradeButton": {
     "message": "Täienda Pro versioonile"
   },
   "proSaveRestricted": {
-    "message": "Selle sisu salvestamine nõuab CocoShot Pro versiooni"
+    "message": "Selle sisu salvestamine nõuab DesignScope Pro versiooni"
   },
   "qv_title": {
-    "message": "CocoShot-i eelvaade"
+    "message": "DesignScope-i eelvaade"
   },
   "qv_preview_mode": {
     "message": "Eelvaaterežiim"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot ei saa ilmselt juurdepääsu teie kaamerale ega mikrofonile. Selle probleemi lahendamiseks tühjendage blokeering brauseri seadetes ja andke vajalikud õigused.",
+    "message": "DesignScope ei saa ilmselt juurdepääsu teie kaamerale ega mikrofonile. Selle probleemi lahendamiseks tühjendage blokeering brauseri seadetes ja andke vajalikud õigused.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot'il pole luba teie ekraani salvestada",
+    "message": "DesignScope'il pole luba teie ekraani salvestada",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "Ekraani salvestamise toimimiseks peate lubama CocoShot'il teie ekraani jäädvustada, kui õiguste taotlus kuvatakse.(Saate selle igal ajal laienduse seadetes tühistada.)",
+    "message": "Ekraani salvestamise toimimiseks peate lubama DesignScope'il teie ekraani jäädvustada, kui õiguste taotlus kuvatakse.(Saate selle igal ajal laienduse seadetes tühistada.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Tere tulemast uude CocoShotti!",
+    "message": "Tere tulemast uude DesignScopeti!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Salvestusprotsessi käivitamisel tekkis viga. Taaskäivitage brauser ja proovige uuesti. Kui probleem jätkub, võtke meiega ühendust aadressil support@cocoshot.net.",
+    "message": "Salvestusprotsessi käivitamisel tekkis viga. Taaskäivitage brauser ja proovige uuesti. Kui probleem jätkub, võtke meiega ühendust aadressil the project issue tracker.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot vajab salvestamiseks vähemalt 1GB vaba ruumi. Vabastage ruumi ja proovige uuesti.",
+    "message": "DesignScope vajab salvestamiseks vähemalt 1GB vaba ruumi. Vabastage ruumi ja proovige uuesti.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Toores videofail viitab muutmata salvestusele, mille CocoShot lõi otse. Kuna seda faili pole töödeldud ega redigeeritud, võib see olla üsna suur ja mõne seadmega ühildamatu. Kui teil on töödeldud versiooniga probleeme, saate selle faili abil oma originaalsalvestuse taastada.",
+    "message": "Toores videofail viitab muutmata salvestusele, mille DesignScope lõi otse. Kuna seda faili pole töödeldud ega redigeeritud, võib see olla üsna suur ja mõne seadmega ühildamatu. Kui teil on töödeldud versiooniga probleeme, saate selle faili abil oma originaalsalvestuse taastada.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Kui olete faili alla laadinud, saatke see koos lisadetaiIidega, mis võivad kasulikud olla, aadressile support@cocoshot.net. Kasutame seda teavet, et aidata teil lahendada probleeme laiendusega ja võimalusel taastada teie video.",
+    "message": "Kui olete faili alla laadinud, saatke see koos lisadetaiIidega, mis võivad kasulikud olla, aadressile the project issue tracker. Kasutame seda teavet, et aidata teil lahendada probleeme laiendusega ja võimalusel taastada teie video.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Kuna CocoShot seab esikohale privaatsuse ja töötab täielikult teie kohalikul seadmel, on see piiratud teie riistvara võimalustega. Selle pikkusega videoga tegelemine oleks liiga ajakulukas ja nõuaks märkimisväärseid süsteemiressursse. Saate siiski WEBM-faili või tooresalvestuse, kuigi redigeerimisfunktsioonid ja MP4 eksport pole saadaval. Kui olete teadlikud võimalikest väljakutsetest, võite siiski video töötlemisega jätkata.",
+    "message": "Kuna DesignScope seab esikohale privaatsuse ja töötab täielikult teie kohalikul seadmel, on see piiratud teie riistvara võimalustega. Selle pikkusega videoga tegelemine oleks liiga ajakulukas ja nõuaks märkimisväärseid süsteemiressursse. Saate siiski WEBM-faili või tooresalvestuse, kuigi redigeerimisfunktsioonid ja MP4 eksport pole saadaval. Kui olete teadlikud võimalikest väljakutsetest, võite siiski video töötlemisega jätkata.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot ei ühildu vahekaardiga, mida te just kasutasite. Saate sellelt lehelt siiski salvestamise alustada ja seejärel naasta sellele vahekaardile, kuid pidage meeles, et teie kaameravoo ja redigeerimise tööriistariba ei kuvata.",
+    "message": "DesignScope ei ühildu vahekaardiga, mida te just kasutasite. Saate sellelt lehelt siiski salvestamise alustada ja seejärel naasta sellele vahekaardile, kuid pidage meeles, et teie kaameravoo ja redigeerimise tööriistariba ei kuvata.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Seadistage kohalik varukoopia oma CocoShot-salvestustele",
+    "message": "Seadistage kohalik varukoopia oma DesignScope-salvestustele",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Kinnitage juurdepääs oma kohalikule CocoShot varunduskaustale",
+    "message": "Kinnitage juurdepääs oma kohalikule DesignScope varunduskaustale",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Luba CocoShot'il jätkata salvestuste varundamist",
+    "message": "Luba DesignScope'il jätkata salvestuste varundamist",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot Recordings",
+    "message": "DesignScope Recordings",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

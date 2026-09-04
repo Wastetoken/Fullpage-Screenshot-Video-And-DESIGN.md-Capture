@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: لقطة شاشة ومسجل شاشة"
+    "message": "DesignScope: لقطة شاشة ومسجل شاشة"
   },
   "extDescription": {
     "message": "التقط لقطات شاشة كاملة للصفحة وسجل الشاشة فيديو MP4 مع التوضيحات. تصدير PDF مع روابط قابلة للنقر."
@@ -450,19 +450,19 @@
     "message": "ما إذا كان سيتم تضمين الصور في التنزيل"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "هذه الميزة تتطلب CocoShot Pro"
+    "message": "هذه الميزة تتطلب DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "الترقية إلى النسخة الاحترافية"
   },
   "proSaveRestricted": {
-    "message": "يحتاج حفظ هذا المحتوى إلى CocoShot Pro"
+    "message": "يحتاج حفظ هذا المحتوى إلى DesignScope Pro"
   },
   "qv_title": {
-    "message": "معاينة CocoShot"
+    "message": "معاينة DesignScope"
   },
   "qv_preview_mode": {
     "message": "وضع المعاينة"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "يبدو أن CocoShot لا يمكنه الوصول إلى الكاميرا أو الميكروفون الخاص بك. لحل هذه المشكلة، يرجى إلغاء حظرها في إعدادات المتصفح ومنح الأذونات اللازمة.",
+    "message": "يبدو أن DesignScope لا يمكنه الوصول إلى الكاميرا أو الميكروفون الخاص بك. لحل هذه المشكلة، يرجى إلغاء حظرها في إعدادات المتصفح ومنح الأذونات اللازمة.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "ليس لدى CocoShot إذن لتسجيل شاشتك",
+    "message": "ليس لدى DesignScope إذن لتسجيل شاشتك",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "لكي يعمل تسجيل الشاشة، ستحتاج إلى السماح لـ CocoShot بالتقاط شاشتك عند ظهور طلب الإذن.(يمكنك إلغاء ذلك في أي وقت في إعدادات الإضافة.)",
+    "message": "لكي يعمل تسجيل الشاشة، ستحتاج إلى السماح لـ DesignScope بالتقاط شاشتك عند ظهور طلب الإذن.(يمكنك إلغاء ذلك في أي وقت في إعدادات الإضافة.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "مرحباً بك في CocoShot الجديد!",
+    "message": "مرحباً بك في DesignScope الجديد!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "حدث خطأ أثناء بدء عملية التسجيل. يرجى إعادة تشغيل المتصفح والمحاولة مرة أخرى. إذا استمرت المشكلة، تواصل معنا على support@cocoshot.net للحصول على مزيد من المساعدة.",
+    "message": "حدث خطأ أثناء بدء عملية التسجيل. يرجى إعادة تشغيل المتصفح والمحاولة مرة أخرى. إذا استمرت المشكلة، تواصل معنا على the project issue tracker للحصول على مزيد من المساعدة.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "يحتاج CocoShot إلى 1GB على الأقل من المساحة الحرة للتسجيل. يرجى تحرير بعض المساحة وحاول مرة أخرى.",
+    "message": "يحتاج DesignScope إلى 1GB على الأقل من المساحة الحرة للتسجيل. يرجى تحرير بعض المساحة وحاول مرة أخرى.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "يشير ملف الفيديو الخام إلى التسجيل غير المعدل الذي أنشأه CocoShot مباشرة. نظراً لأن هذا الملف لم تتم معالجته أو تعديله، قد يكون كبيراً جداً وغير متوافق مع بعض الأجهزة. إذا واجهت مشاكل مع النسخة المعالجة، يمكنك استخدام هذا الملف لاستعادة تسجيلك الأصلي.",
+    "message": "يشير ملف الفيديو الخام إلى التسجيل غير المعدل الذي أنشأه DesignScope مباشرة. نظراً لأن هذا الملف لم تتم معالجته أو تعديله، قد يكون كبيراً جداً وغير متوافق مع بعض الأجهزة. إذا واجهت مشاكل مع النسخة المعالجة، يمكنك استخدام هذا الملف لاستعادة تسجيلك الأصلي.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "بمجرد تحميل الملف، يرجى إرساله إلى support@cocoshot.net مع أي تفاصيل إضافية قد تكون مفيدة. سنستخدم هذه المعلومات لمساعدتك في حل أي مشاكل مع الإضافة وإذا كان ذلك ممكناً، استعادة الفيديو الخاص بك.",
+    "message": "بمجرد تحميل الملف، يرجى إرساله إلى the project issue tracker مع أي تفاصيل إضافية قد تكون مفيدة. سنستخدم هذه المعلومات لمساعدتك في حل أي مشاكل مع الإضافة وإذا كان ذلك ممكناً، استعادة الفيديو الخاص بك.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "نظراً لأن CocoShot يعطي الأولوية للخصوصية ويعمل بالكامل على جهازك المحلي، فهو مقيد بقدراتك硬件. معالجة فيديو بهذه المدة ستستغرق وقتاً طويلاً وتتطلب موارد نظام كبيرة. لا يزال يمكنك الحصول على ملف WEBM أو التسجيل الخام، لكن ميزات التحرير وتصدير MP4 لن تكون متاحة. ومع ذلك، إذا كنت على دراية بالتحديات المحتملة، يمكنك المضي قدماً في معالجة الفيديو على أي حال.",
+    "message": "نظراً لأن DesignScope يعطي الأولوية للخصوصية ويعمل بالكامل على جهازك المحلي، فهو مقيد بقدراتك硬件. معالجة فيديو بهذه المدة ستستغرق وقتاً طويلاً وتتطلب موارد نظام كبيرة. لا يزال يمكنك الحصول على ملف WEBM أو التسجيل الخام، لكن ميزات التحرير وتصدير MP4 لن تكون متاحة. ومع ذلك، إذا كنت على دراية بالتحديات المحتملة، يمكنك المضي قدماً في معالجة الفيديو على أي حال.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot غير متوافق مع علامة التبويب التي كنت تستخدمها للتو. لا يزال يمكنك بدء التسجيل من هذه الصفحة ثم العودة إلى علامة التبويب تلك، لكن يرجى ملاحظة أن موجز الكاميرا وشريط أدوات التحرير لن يتم عرضهما.",
+    "message": "DesignScope غير متوافق مع علامة التبويب التي كنت تستخدمها للتو. لا يزال يمكنك بدء التسجيل من هذه الصفحة ثم العودة إلى علامة التبويب تلك، لكن يرجى ملاحظة أن موجز الكاميرا وشريط أدوات التحرير لن يتم عرضهما.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "إعداد نسخة احتياطية محلية لتسجيلات CocoShot",
+    "message": "إعداد نسخة احتياطية محلية لتسجيلات DesignScope",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "يرجى إعادة تأكيد الوصول إلى مجلد النسخ الاحتياطي المحلي لـ CocoShot",
+    "message": "يرجى إعادة تأكيد الوصول إلى مجلد النسخ الاحتياطي المحلي لـ DesignScope",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "السماح لـ CocoShot بمواصلة نسخ التسجيلات احتياطياً",
+    "message": "السماح لـ DesignScope بمواصلة نسخ التسجيلات احتياطياً",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "تسجيلات CocoShot",
+    "message": "تسجيلات DesignScope",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: 屏幕截图与录屏工具"
+    "message": "DesignScope: 屏幕截图与录屏工具"
   },
   "extDescription": {
     "message": "支持全网页截图与带标注的 MP4 录屏。内置强大编辑器。可导出带超链接的 PDF。"
@@ -450,19 +450,19 @@
     "message": "是否包含图片一起下载"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "此功能需要CocoShot Pro才能使用"
+    "message": "此功能需要DesignScope Pro才能使用"
   },
   "proUpgradeButton": {
     "message": "升级到Pro"
   },
   "proSaveRestricted": {
-    "message": "保存此内容需要CocoShot Pro"
+    "message": "保存此内容需要DesignScope Pro"
   },
   "qv_title": {
-    "message": "CocoShot 预览"
+    "message": "DesignScope 预览"
   },
   "qv_preview_mode": {
     "message": "预览模式"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot似乎无法使用您的摄像头或麦克风。要解决此问题，请在浏览器的设置里解除阻止并授予必要的访问权限。",
+    "message": "DesignScope似乎无法使用您的摄像头或麦克风。要解决此问题，请在浏览器的设置里解除阻止并授予必要的访问权限。",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot 没有权限录制您的屏幕",
+    "message": "DesignScope 没有权限录制您的屏幕",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "要使屏幕录制功能正常工作，当权限请求出现时，您需要允许CocoShot捕获您的屏幕。(您可以随时在扩展程序的设置中撤销它。)",
+    "message": "要使屏幕录制功能正常工作，当权限请求出现时，您需要允许DesignScope捕获您的屏幕。(您可以随时在扩展程序的设置中撤销它。)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1176,7 +1176,7 @@
     "description": "Only show toolbar on hover button"
   },
   "updateAnnouncementTitle": {
-    "message": "欢迎使用新版 CocoShot！",
+    "message": "欢迎使用新版 DesignScope！",
     "description": "现有用户的更新公告标题"
   },
   "updateAnnouncementLearnMore": {
@@ -1192,7 +1192,7 @@
     "description": "流错误模态框标题"
   },
   "streamErrorModalDescription": {
-    "message": "启动录制过程时发生了错误。请重新启动浏览器并再次尝试。如果问题持续存在，请通过 support@cocoshot.net 联系我们获取进一步帮助。",
+    "message": "启动录制过程时发生了错误。请重新启动浏览器并再次尝试。如果问题持续存在，请通过 the project issue tracker 联系我们获取进一步帮助。",
     "description": "流错误模态框描述"
   },
   "highestQuality": {
@@ -1244,7 +1244,7 @@
     "description": "空间不足标题"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot需要至少1GB的空闲空间进行录制。请释放设备上的空间并重试。",
+    "message": "DesignScope需要至少1GB的空闲空间进行录制。请释放设备上的空间并重试。",
     "description": "空间不足描述"
   },
   "clearSpaceButton": {
@@ -1276,7 +1276,7 @@
     "description": "原始录制模态框标题"
   },
   "rawRecordingModalDescription": {
-    "message": "原始视频文件指的是由CocoShot直接创建的未经修改的录制文件。由于此文件未经处理或编辑，它可能会非常大，并且与某些设备不兼容。如果您在处理后的版本遇到问题，可以使用此文件检索您的原始录制。",
+    "message": "原始视频文件指的是由DesignScope直接创建的未经修改的录制文件。由于此文件未经处理或编辑，它可能会非常大，并且与某些设备不兼容。如果您在处理后的版本遇到问题，可以使用此文件检索您的原始录制。",
     "description": "原始录制模态框描述"
   },
   "rawRecordingModalButton": {
@@ -1292,7 +1292,7 @@
     "description": "故障排除模态框标题"
   },
   "troubleshootModalDescription": {
-    "message": "下载文件后，请将其发送至support@cocoshot.net，并附上任何可能有帮助的额外详情。我们将使用这些信息协助您解决扩展程序的任何问题，并在可行的情况下恢复您的视频。",
+    "message": "下载文件后，请将其发送至the project issue tracker，并附上任何可能有帮助的额外详情。我们将使用这些信息协助您解决扩展程序的任何问题，并在可行的情况下恢复您的视频。",
     "description": "故障排除模态框描述"
   },
   "troubleshootModalButton": {
@@ -1304,7 +1304,7 @@
     "description": "超过5分钟限制的模态框标题"
   },
   "overLimitModalDescription": {
-    "message": "由于CocoShot优先考虑隐私并完全在您的本地设备上运行，它受限于您的硬件能力。处理此时长的视频将耗时过长且需要大量系统资源。您仍然可以获取WEBM文件或原始录制，但无法使用编辑功能和MP4导出。不过，如果您了解潜在挑战，仍可以继续处理视频。",
+    "message": "由于DesignScope优先考虑隐私并完全在您的本地设备上运行，它受限于您的硬件能力。处理此时长的视频将耗时过长且需要大量系统资源。您仍然可以获取WEBM文件或原始录制，但无法使用编辑功能和MP4导出。不过，如果您了解潜在挑战，仍可以继续处理视频。",
     "description": "超过5分钟限制的模态框描述"
   },
   "overLimitModalButton": {
@@ -1346,11 +1346,11 @@
     "description": "选项卡上不支持的扩展标题"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot与您刚才使用的选项卡不兼容。您仍然可以从本页启动录制，然后返回该选项卡，但请注意，您的摄像头画面和编辑工具栏将不会显示。",
+    "message": "DesignScope与您刚才使用的选项卡不兼容。您仍然可以从本页启动录制，然后返回该选项卡，但请注意，您的摄像头画面和编辑工具栏将不会显示。",
     "description": "选项卡上不支持扩展的说明"
   },
   "backupsTitle": {
-    "message": "为CocoShot录制设置本地备份",
+    "message": "为DesignScope录制设置本地备份",
     "description": "备份标题"
   },
   "backupsDescription1": {
@@ -1386,7 +1386,7 @@
     "description": "停止备份按钮"
   },
   "backupsConfirmTitle": {
-    "message": "请重新确认对CocoShot本地备份文件夹的访问权限",
+    "message": "请重新确认对DesignScope本地备份文件夹的访问权限",
     "description": "备份确认标题"
   },
   "backupsConfirmDescription": {
@@ -1394,7 +1394,7 @@
     "description": "备份确认说明"
   },
   "backupsConfirmAllow": {
-    "message": "允许CocoShot继续备份录制",
+    "message": "允许DesignScope继续备份录制",
     "description": "备份确认中的允许按钮"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "特粗线条宽度预设标签"
   },
   "backupsFolderName": {
-    "message": "CocoShot 录制",
+    "message": "DesignScope 录制",
     "description": "存储备份的文件夹名称"
   },
   "backupSetupFailed": {

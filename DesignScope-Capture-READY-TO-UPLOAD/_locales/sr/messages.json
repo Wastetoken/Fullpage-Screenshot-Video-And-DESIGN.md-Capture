@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Снимак екрана и снимач екрана"
+    "message": "DesignScope: Снимак екрана и снимач екрана"
   },
   "extDescription": {
     "message": "Снимите снимке екрана целе странице и снимите екран у МП4 са напоменама. Извоз ПДФ-а са везама на које се може кликнути је укључен."
@@ -450,19 +450,19 @@
     "message": "Да ли да укључи слике у преузимање"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Ова функција захтева CocoShot Pro"
+    "message": "Ова функција захтева DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "Надоградите на Pro"
   },
   "proSaveRestricted": {
-    "message": "Чување овог садржаја захтева CocoShot Pro"
+    "message": "Чување овог садржаја захтева DesignScope Pro"
   },
   "qv_title": {
-    "message": "CocoShot pregled"
+    "message": "DesignScope pregled"
   },
   "qv_preview_mode": {
     "message": "Režim pregleda"
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Дошло је до грешке при покретању процеса снимања. Молимо вас да поново покренете прегледач и покушате поново. Ако проблем настави, обратите нам се на support@cocoshot.net.",
+    "message": "Дошло је до грешке при покретању процеса снимања. Молимо вас да поново покренете прегледач и покушате поново. Ако проблем настави, обратите нам се на the project issue tracker.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Када преузмете датотеку, молимо вас да је пошаљете на support@cocoshot.net заједно са било којим додатним детаљима који би могли бити од помоћи. Користићемо ове информације да вам помогнемо у решавању проблема са екстензијом и, ако је могуће, враћању вашег видеа.",
+    "message": "Када преузмете датотеку, молимо вас да је пошаљете на the project issue tracker заједно са било којим додатним детаљима који би могли бити од помоћи. Користићемо ове информације да вам помогнемо у решавању проблема са екстензијом и, ако је могуће, враћању вашег видеа.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {

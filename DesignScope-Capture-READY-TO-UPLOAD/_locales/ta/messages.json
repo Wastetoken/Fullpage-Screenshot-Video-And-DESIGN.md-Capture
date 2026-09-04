@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: ஸ்கிரீன்ஷாட் & ஸ்கிரீன் ரெக்கார்டர்"
+    "message": "DesignScope: ஸ்கிரீன்ஷாட் & ஸ்கிரீன் ரெக்கார்டர்"
   },
   "extDescription": {
     "message": "முழுப் பக்க ஸ்கிரீன்ஷாட்களைப் பிடிக்கவும் மற்றும் சிறுகுறிப்புகளுடன் திரையை MP4 இல் பதிவு செய்யவும். கிளிக் செய்யக்கூடிய இணைப்புக..."
@@ -450,19 +450,19 @@
     "message": "பதிவிறக்கத்தில் படங்களைச் சேர்க்க வேண்டுமா"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "இந்த அம்சத்திற்கு CocoShot Pro தேவை"
+    "message": "இந்த அம்சத்திற்கு DesignScope Pro தேவை"
   },
   "proUpgradeButton": {
     "message": "Pro க்கு மேம்படுத்து"
   },
   "proSaveRestricted": {
-    "message": "இந்த உள்ளடக்கத்தைச் சேமிக்க CocoShot Pro தேவை"
+    "message": "இந்த உள்ளடக்கத்தைச் சேமிக்க DesignScope Pro தேவை"
   },
   "qv_title": {
-    "message": "CocoShot முன்னோட்டம்"
+    "message": "DesignScope முன்னோட்டம்"
   },
   "qv_preview_mode": {
     "message": "முன்னோட்ட முறை"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot க்கு உங்கள் கேமரா அல்லது மைக்ரோஃபோனை அணுகுவதில் சிக்கல் உள்ளது. இந்தச் சிக்கலைத் தீர்க்க, உங்கள் உலாவி அமைப்புகளில் அதைத் தடையற்று தேவையான அனுமதிகளை வழங்கவும்.",
+    "message": "DesignScope க்கு உங்கள் கேமரா அல்லது மைக்ரோஃபோனை அணுகுவதில் சிக்கல் உள்ளது. இந்தச் சிக்கலைத் தீர்க்க, உங்கள் உலாவி அமைப்புகளில் அதைத் தடையற்று தேவையான அனுமதிகளை வழங்கவும்.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "உங்கள் திரையைப் பதிவுச் செய்ய CocoShotக்கு அனுமதி இல்லை",
+    "message": "உங்கள் திரையைப் பதிவுச் செய்ய DesignScopeக்கு அனுமதி இல்லை",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "திரைப் பதிவு செயல்பட, அனுமதி கோரிக்கை தோன்றும் போது CocoShot உங்கள் திரையைப் பிடிக்க அனுமதிக்க வேண்டும்.(நீங்கள் எந்த நேரத்திலும் நீட்டிப்பின் அமைப்புகளில் இதைத் திரும்பப் பெறலாம்.)",
+    "message": "திரைப் பதிவு செயல்பட, அனுமதி கோரிக்கை தோன்றும் போது DesignScope உங்கள் திரையைப் பிடிக்க அனுமதிக்க வேண்டும்.(நீங்கள் எந்த நேரத்திலும் நீட்டிப்பின் அமைப்புகளில் இதைத் திரும்பப் பெறலாம்.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "புதிய CocoShot க்கு வரவேற்பு!",
+    "message": "புதிய DesignScope க்கு வரவேற்பு!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "பதிவுச் செயல்முறையைத் தொடங்கும் போது பிழை ஏற்பட்டது. உலாவியை மறுதொடக்கம் செய்து மீண்டும் முயலவும். சிக்கல் தொடர்ந்தால், support@cocoshot.net இல் எங்களைத் தொடர்பு கொள்ளவும்.",
+    "message": "பதிவுச் செயல்முறையைத் தொடங்கும் போது பிழை ஏற்பட்டது. உலாவியை மறுதொடக்கம் செய்து மீண்டும் முயலவும். சிக்கல் தொடர்ந்தால், the project issue tracker இல் எங்களைத் தொடர்பு கொள்ளவும்.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot жазу үшін кемінде 1 ГБ бос орын қажет. Бос орын босатып, қайталап көріңіз.",
+    "message": "DesignScope жазу үшін кемінде 1 ГБ бос орын қажет. Бос орын босатып, қайталап көріңіз.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Жасырын бейне файлы CocoShot құрған өзгертілмеген жазуды білдіреді. Бұл файл өнделмеген немесе өзгертілмегендіктен, ол өте үлкен болуы мүмкін және кейбір құрылғылармен үйлесімсіз болуы мүмкін. Өнделген нұсқасымен мәселе туындаса, түпнұсқа жазбаны алу үшін осы файлды пайдалана аласыз.",
+    "message": "Жасырын бейне файлы DesignScope құрған өзгертілмеген жазуды білдіреді. Бұл файл өнделмеген немесе өзгертілмегендіктен, ол өте үлкен болуы мүмкін және кейбір құрылғылармен үйлесімсіз болуы мүмкін. Өнделген нұсқасымен мәселе туындаса, түпнұсқа жазбаны алу үшін осы файлды пайдалана аласыз.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Файлды жүктеп алғаннан кейін, оны кез келген қосымша ақпаратпен бірге support@cocoshot.net мекенжайына жіберіңіз. Біз осы ақпаратты кеңейту мәселелерін шешуге және мүмкін болса, бейнеңізді қалпына келтіруге көмектесу үшін пайдаланамыз.",
+    "message": "Файлды жүктеп алғаннан кейін, оны кез келген қосымша ақпаратпен бірге the project issue tracker мекенжайына жіберіңіз. Біз осы ақпаратты кеңейту мәселелерін шешуге және мүмкін болса, бейнеңізді қалпына келтіруге көмектесу үшін пайдаланамыз.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "CocoShot құпиялылықты басымыш етеді және құрылғыңызда толық жергілікті жұмыс істейтіндіктен, ол аппараттық мүмкіндіктеріңізбен шектелген. Мұндай ұзындықтағы бейнені өңдеу өте ұзақ уақыт алып, айтарлықтай жүйе ресурстарын талап етеді. Сіз әлі де WebM файлын немесе жасырын жазуды ала аласыз, дегенмен өңдеу функциялары мен MP4 экспорты қолжетімді болмайды. Алайда, ықтимал қиындықтарды білсеңіз, бейнені өңдеуді жалғастыра аласыз.",
+    "message": "DesignScope құпиялылықты басымыш етеді және құрылғыңызда толық жергілікті жұмыс істейтіндіктен, ол аппараттық мүмкіндіктеріңізбен шектелген. Мұндай ұзындықтағы бейнені өңдеу өте ұзақ уақыт алып, айтарлықтай жүйе ресурстарын талап етеді. Сіз әлі де WebM файлын немесе жасырын жазуды ала аласыз, дегенмен өңдеу функциялары мен MP4 экспорты қолжетімді болмайды. Алайда, ықтимал қиындықтарды білсеңіз, бейнені өңдеуді жалғастыра аласыз.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot пайдаланған бетпен үйлесімді емес. Сіз осы беттен жазуды бастай аласыз, содан кейін сол бетке орала аласыз, бірақ камера желісі мен өңдеу тақтасы көрсетілмейтінін ескеріңіз.",
+    "message": "DesignScope пайдаланған бетпен үйлесімді емес. Сіз осы беттен жазуды бастай аласыз, содан кейін сол бетке орала аласыз, бірақ камера желісі мен өңдеу тақтасы көрсетілмейтінін ескеріңіз.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "CocoShot жазбаларыңыз үшін жергілікті сақтық көшірмесін орнатыңыз",
+    "message": "DesignScope жазбаларыңыз үшін жергілікті сақтық көшірмесін орнатыңыз",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Жергілікті CocoShot сақтық көшірме қалтасына қол жеткізуді растаңыз",
+    "message": "Жергілікті DesignScope сақтық көшірме қалтасына қол жеткізуді растаңыз",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "CocoShot-тың жазбаларды сақтық көшірмелеуді жалғастыруына рұқсат беру",
+    "message": "DesignScope-тың жазбаларды сақтық көшірмелеуді жалғастыруына рұқсат беру",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,11 +1586,11 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot Жазбалары",
+    "message": "DesignScope Жазбалары",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {
-    "message": "Жергілікті сақтық көшірмесін орнату мүмкін болмады. Көбірек ақпарат үшін support@cocoshot.net мекенжайына хабарласыңыз. Сіз әлі де экраныңызды жаза аласыз.",
+    "message": "Жергілікті сақтық көшірмесін орнату мүмкін болмады. Көбірек ақпарат үшін the project issue tracker мекенжайына хабарласыңыз. Сіз әлі де экраныңызды жаза аласыз.",
     "description": "Error message when backup setup fails",
     "placeholders": {
       "supportEmail": {
@@ -1600,7 +1600,7 @@
     }
   },
   "backupBrowserNotSupported": {
-    "message": "Браузеріңіз жергілікті сақтық көшірмелерді қолдамайды. Көбірек ақпарат үшін support@cocoshot.net мекенжайына хабарласыңыз. Сіз әлі де экраныңызды жаза аласыз.",
+    "message": "Браузеріңіз жергілікті сақтық көшірмелерді қолдамайды. Көбірек ақпарат үшін the project issue tracker мекенжайына хабарласыңыз. Сіз әлі де экраныңызды жаза аласыз.",
     "description": "Error message when browser doesn't support backups",
     "placeholders": {
       "supportEmail": {

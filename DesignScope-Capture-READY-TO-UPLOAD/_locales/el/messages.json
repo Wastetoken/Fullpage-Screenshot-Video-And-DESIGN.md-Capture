@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Στιγμιότυπο oθόνης και Kαταγραφή oθόνης"
+    "message": "DesignScope: Στιγμιότυπο oθόνης και Kαταγραφή oθόνης"
   },
   "extDescription": {
     "message": "Λήψη στιγμιότυπων οθόνης πλήρους σελίδας και εγγραφή οθόνης σε MP4 με σχόλια. Περιλαμβάνεται εξαγωγή PDF με συνδέσμους."
@@ -450,19 +450,19 @@
     "message": "Αν θα συμπεριλαμβάνονται εικόνες στη λήψη"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Αυτή η λειτουργία απαιτεί το CocoShot Pro"
+    "message": "Αυτή η λειτουργία απαιτεί το DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "Αναβάθμιση σε Pro"
   },
   "proSaveRestricted": {
-    "message": "Η αποθήκευση αυτού του περιεχομένου απαιτεί το CocoShot Pro"
+    "message": "Η αποθήκευση αυτού του περιεχομένου απαιτεί το DesignScope Pro"
   },
   "qv_title": {
-    "message": "Προεπισκόπηση CocoShot"
+    "message": "Προεπισκόπηση DesignScope"
   },
   "qv_preview_mode": {
     "message": "Λειτουργία προεπισκόπησης"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "Το CocoShot φαίνεται να μην μπορεί να αποκτήσει πρόσβαση στην κάμερα ή το μικρόφωνό σας. Για να επιλύσετε αυτό το πρόβλημα, ξεμπλοκάρετέ το στις ρυθμίσεις του προγράμματος περιήγησης και χορηγήστε τα απαραίτητα δικαιώματα.",
+    "message": "Το DesignScope φαίνεται να μην μπορεί να αποκτήσει πρόσβαση στην κάμερα ή το μικρόφωνό σας. Για να επιλύσετε αυτό το πρόβλημα, ξεμπλοκάρετέ το στις ρυθμίσεις του προγράμματος περιήγησης και χορηγήστε τα απαραίτητα δικαιώματα.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "Το CocoShot δεν έχει δικαίωμα εγγραφής της οθόνης σας",
+    "message": "Το DesignScope δεν έχει δικαίωμα εγγραφής της οθόνης σας",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "Για να λειτουργήσει η εγγραφή οθόνης, θα πρέπει να επιτρέψετε στο CocoShot να καταγράφει την οθόνη σας όταν εμφανιστεί το αίτημα δικαιώματος.(Μπορείτε να το ανακαλέσετε ανά πάσα στιγμή στις ρυθμίσεις της επέκτασης.)",
+    "message": "Για να λειτουργήσει η εγγραφή οθόνης, θα πρέπει να επιτρέψετε στο DesignScope να καταγράφει την οθόνη σας όταν εμφανιστεί το αίτημα δικαιώματος.(Μπορείτε να το ανακαλέσετε ανά πάσα στιγμή στις ρυθμίσεις της επέκτασης.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Καλώς ήρθατε στο νέο CocoShot!",
+    "message": "Καλώς ήρθατε στο νέο DesignScope!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Προέκυψε σφάλμα κατά την εκκίνηση της διαδικασίας εγγραφής. Επανεκκινήστε το πρόγραμμα περιήγησης και προσπαθήστε ξανά. Εάν το πρόβλημα συνεχίζεται, επικοινωνήστε μαζί μας στο support@cocoshot.net.",
+    "message": "Προέκυψε σφάλμα κατά την εκκίνηση της διαδικασίας εγγραφής. Επανεκκινήστε το πρόγραμμα περιήγησης και προσπαθήστε ξανά. Εάν το πρόβλημα συνεχίζεται, επικοινωνήστε μαζί μας στο the project issue tracker.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "Το CocoShot χρειάζεται τουλάχιστον 1GB ελεύθερο χώρο για εγγραφή. Ελευθερώστε χώρο και δοκιμάστε ξανά.",
+    "message": "Το DesignScope χρειάζεται τουλάχιστον 1GB ελεύθερο χώρο για εγγραφή. Ελευθερώστε χώρο και δοκιμάστε ξανά.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Το ακατέργαστο αρχείο βίντεο αναφέρεται στην αμετάβλητη εγγραφή που δημιουργήθηκε απευθείας από το CocoShot. Επειδή αυτό το αρχείο δεν έχει υποστεί επεξεργασία ή επεξεργασία, μπορεί να είναι αρκετά μεγάλο και ασύμβατο με ορισμένες συσκευές. Εάν αντιμετωπίζετε προβλήματα με την επεξεργασμένη έκδοση, μπορείτε να χρησιμοποιήσετε αυτό το αρχείο για να ανακτήσετε την αρχική σας εγγραφή.",
+    "message": "Το ακατέργαστο αρχείο βίντεο αναφέρεται στην αμετάβλητη εγγραφή που δημιουργήθηκε απευθείας από το DesignScope. Επειδή αυτό το αρχείο δεν έχει υποστεί επεξεργασία ή επεξεργασία, μπορεί να είναι αρκετά μεγάλο και ασύμβατο με ορισμένες συσκευές. Εάν αντιμετωπίζετε προβλήματα με την επεξεργασμένη έκδοση, μπορείτε να χρησιμοποιήσετε αυτό το αρχείο για να ανακτήσετε την αρχική σας εγγραφή.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Μόλις κατεβάσετε το αρχείο, στείλτε το στο support@cocoshot.net μαζί με τυχόν επιπλέον λεπτομέρειες που μπορεί να είναι χρήσιμες. Θα χρησιμοποιήσουμε αυτές τις πληροφορίες για να σας βοηθήσουμε να επιλύσετε τυχόν προβλήματα με την επέκταση και, εάν είναι δυνατόν, να ανακτήσετε το βίντεό σας.",
+    "message": "Μόλις κατεβάσετε το αρχείο, στείλτε το στο the project issue tracker μαζί με τυχόν επιπλέον λεπτομέρειες που μπορεί να είναι χρήσιμες. Θα χρησιμοποιήσουμε αυτές τις πληροφορίες για να σας βοηθήσουμε να επιλύσετε τυχόν προβλήματα με την επέκταση και, εάν είναι δυνατόν, να ανακτήσετε το βίντεό σας.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Επειδή το CocoShot δίνει προτεραιότητα στο απόρρητο και λειτουργεί εξ ολοκλήρου στη συσκευή σας, περιορίζεται από τις δυνατότητες του υλικού σας. Ο χειρισμός ενός βίντεο αυτής της διάρκειας θα ήταν υπερβολικά χρονοβόρος και θα απαιτούσε σημαντικούς πόρους συστήματος. Μπορείτε ακόμα να αποκτήσετε το αρχείο WEBM ή την ακατέργαστη εγγραφή, αν και οι λειτουργίες επεξεργασίας και εξαγωγής MP4 δεν θα είναι διαθέσιμες. Ωστόσο, εάν γνωρίζετε τις πιθανές προκλήσεις, μπορείτε να προχωρήσετε στην επεξεργασία του βίντεο ούτως ή άλλως.",
+    "message": "Επειδή το DesignScope δίνει προτεραιότητα στο απόρρητο και λειτουργεί εξ ολοκλήρου στη συσκευή σας, περιορίζεται από τις δυνατότητες του υλικού σας. Ο χειρισμός ενός βίντεο αυτής της διάρκειας θα ήταν υπερβολικά χρονοβόρος και θα απαιτούσε σημαντικούς πόρους συστήματος. Μπορείτε ακόμα να αποκτήσετε το αρχείο WEBM ή την ακατέργαστη εγγραφή, αν και οι λειτουργίες επεξεργασίας και εξαγωγής MP4 δεν θα είναι διαθέσιμες. Ωστόσο, εάν γνωρίζετε τις πιθανές προκλήσεις, μπορείτε να προχωρήσετε στην επεξεργασία του βίντεο ούτως ή άλλως.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "Το CocoShot δεν είναι συμβατό με την καρτέλα που μόλις χρησιμοποιήσατε. Μπορείτε ακόμα να ξεκινήσετε εγγραφή από αυτήν τη σελίδα και στη συνέχεια να επιστρέψετε σε εκείνη την καρτέλα, αλλά λάβετε υπόψη ότι η ροή της κάμερας και η γραμμή εργαλείων επεξεργασίας δεν θα εμφανιστούν.",
+    "message": "Το DesignScope δεν είναι συμβατό με την καρτέλα που μόλις χρησιμοποιήσατε. Μπορείτε ακόμα να ξεκινήσετε εγγραφή από αυτήν τη σελίδα και στη συνέχεια να επιστρέψετε σε εκείνη την καρτέλα, αλλά λάβετε υπόψη ότι η ροή της κάμερας και η γραμμή εργαλείων επεξεργασίας δεν θα εμφανιστούν.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Ρυθμίστε μια τοπική δημιουργία αντιγράφων ασφαλείας για τις εγγραφές σας CocoShot",
+    "message": "Ρυθμίστε μια τοπική δημιουργία αντιγράφων ασφαλείας για τις εγγραφές σας DesignScope",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Επιβεβαιώστε ξανά την πρόσβαση στον τοπικό φάκελο δημιουργίας αντιγράφων ασφαλείας του CocoShot",
+    "message": "Επιβεβαιώστε ξανά την πρόσβαση στον τοπικό φάκελο δημιουργίας αντιγράφων ασφαλείας του DesignScope",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Επιτρέψτε στο CocoShot να συνεχίσει τη δημιουργία αντιγράφων ασφαλείας εγγραφών",
+    "message": "Επιτρέψτε στο DesignScope να συνεχίσει τη δημιουργία αντιγράφων ασφαλείας εγγραφών",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot Recordings",
+    "message": "DesignScope Recordings",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

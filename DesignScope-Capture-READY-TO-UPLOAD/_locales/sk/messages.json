@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Snímka obrazovky a záznam obrazovky"
+    "message": "DesignScope: Snímka obrazovky a záznam obrazovky"
   },
   "extDescription": {
     "message": "Snímajte snímky celej stránky a nahrávajte obrazovku do MP4 s poznámkami. Vrátane exportu do PDF s klikateľnými odkazmi."
@@ -450,19 +450,19 @@
     "message": "Či zahrnúť obrázky do sťahovania"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Táto funkcia vyžaduje CocoShot Pro"
+    "message": "Táto funkcia vyžaduje DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "Inovovať na Pro"
   },
   "proSaveRestricted": {
-    "message": "Uloženie tohto obsahu vyžaduje CocoShot Pro"
+    "message": "Uloženie tohto obsahu vyžaduje DesignScope Pro"
   },
   "qv_title": {
-    "message": "Náhľad CocoShot"
+    "message": "Náhľad DesignScope"
   },
   "qv_preview_mode": {
     "message": "Režim náhľadu"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot nemôže získať prístup k vašej kamere alebo mikrofónu. Ak chcete tento problém vyriešiť, odblokujte ho v nastaveniach prehliadača a udelte potrebné povolenia.",
+    "message": "DesignScope nemôže získať prístup k vašej kamere alebo mikrofónu. Ak chcete tento problém vyriešiť, odblokujte ho v nastaveniach prehliadača a udelte potrebné povolenia.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot nemá povolenie nahrávať vašu obrazovku",
+    "message": "DesignScope nemá povolenie nahrávať vašu obrazovku",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "Aby nahrávanie obrazovky fungovalo, budete musieť povoliť CocoShot zachytávať vašu obrazovku, keď sa zobrazí požiadavka na povolenie. (Môžete kedykoľvek odvolať v nastaveniach rozšírenia.)",
+    "message": "Aby nahrávanie obrazovky fungovalo, budete musieť povoliť DesignScope zachytávať vašu obrazovku, keď sa zobrazí požiadavka na povolenie. (Môžete kedykoľvek odvolať v nastaveniach rozšírenia.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Vitajte v novom CocoShot!",
+    "message": "Vitajte v novom DesignScope!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Pri spúšťaní procesu nahrávania sa vyskytla chyba. Prosím, reštartujte prehliadač a skúste znova. Ak problém pretrváva, kontaktujte nás na support@cocoshot.net.",
+    "message": "Pri spúšťaní procesu nahrávania sa vyskytla chyba. Prosím, reštartujte prehliadač a skúste znova. Ak problém pretrváva, kontaktujte nás na the project issue tracker.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot potrebuje minimálne 1GB voľného miesta na nahrávanie. Prosím, uvoľnite miesto a skúste znova.",
+    "message": "DesignScope potrebuje minimálne 1GB voľného miesta na nahrávanie. Prosím, uvoľnite miesto a skúste znova.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Surový video súbor sa vzťahuje na nezmenenú nahrávku vytvorenú priamo aplikáciou CocoShot. Keďže tento súbor nebol spracovaný alebo upravený, môže byť pomerne veľký a nekompatibilný s niektorými zariadeniami. Ak narazíte na problémy so spracovanou verziou, môžete použiť tento súbor na získanie pôvodnej nahrávky.",
+    "message": "Surový video súbor sa vzťahuje na nezmenenú nahrávku vytvorenú priamo aplikáciou DesignScope. Keďže tento súbor nebol spracovaný alebo upravený, môže byť pomerne veľký a nekompatibilný s niektorými zariadeniami. Ak narazíte na problémy so spracovanou verziou, môžete použiť tento súbor na získanie pôvodnej nahrávky.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Po stiahnutí súboru ho prosím pošlite na support@cocoshot.net spolu s akýmikoľvek ďalšími podrobnosťami, ktoré by mohli byť užitočné. Použijeme tieto informácie na pomoc pri riešení problémov s rozšírením a, ak je to možné, obnovenie vášho videa.",
+    "message": "Po stiahnutí súboru ho prosím pošlite na the project issue tracker spolu s akýmikoľvek ďalšími podrobnosťami, ktoré by mohli byť užitočné. Použijeme tieto informácie na pomoc pri riešení problémov s rozšírením a, ak je to možné, obnovenie vášho videa.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Keďže CocoShot uprednostňuje súkromie a funguje úplne na vašom lokálnom zariadení, je obmedzený možnosťami vášho hardvéru. Spracovanie videa tejto dĺžky by bolo príliš časovo náročné a vyžadovalo by značné systémové prostriedky. Stále môžete získať WEBM súbor alebo surovú nahrávku, hoci funkcie úpravy a export MP4 nebudú dostupné. Ak ste si však vedomí potenciálnych výziev, môžete pokračovať so spracovaním videa.",
+    "message": "Keďže DesignScope uprednostňuje súkromie a funguje úplne na vašom lokálnom zariadení, je obmedzený možnosťami vášho hardvéru. Spracovanie videa tejto dĺžky by bolo príliš časovo náročné a vyžadovalo by značné systémové prostriedky. Stále môžete získať WEBM súbor alebo surovú nahrávku, hoci funkcie úpravy a export MP4 nebudú dostupné. Ak ste si však vedomí potenciálnych výziev, môžete pokračovať so spracovaním videa.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot nie je kompatibilný so záložkou, ktorú ste práve používali. Stále môžete spustiť nahrávanie z tejto stránky a potom sa vrátiť na túto záložku, ale uvedomte si, že kanál kamery a panel nástrojov úpravy sa nezobrazia.",
+    "message": "DesignScope nie je kompatibilný so záložkou, ktorú ste práve používali. Stále môžete spustiť nahrávanie z tejto stránky a potom sa vrátiť na túto záložku, ale uvedomte si, že kanál kamery a panel nástrojov úpravy sa nezobrazia.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Nastavte lokálnu zálohu pre vaše CocoShot nahrávky",
+    "message": "Nastavte lokálnu zálohu pre vaše DesignScope nahrávky",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Prosím, potvrďte prístup k vášmu lokálnemu priečinku záloh CocoShot",
+    "message": "Prosím, potvrďte prístup k vášmu lokálnemu priečinku záloh DesignScope",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Povoliť CocoShot pokračovať v zálohovaní nahrávok",
+    "message": "Povoliť DesignScope pokračovať v zálohovaní nahrávok",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot nahrávky",
+    "message": "DesignScope nahrávky",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

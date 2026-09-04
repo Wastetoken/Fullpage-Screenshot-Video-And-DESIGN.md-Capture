@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಮತ್ತು ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡರ್"
+    "message": "DesignScope: ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಮತ್ತು ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡರ್"
   },
   "extDescription": {
     "message": "ಪೂರ್ಣ ಪುಟದ ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳನ್ನು ಸೆರೆಹಿಡಿಯಿರಿ ಮತ್ತು ಟಿಪ್ಪಣಿಗಳೊಂದಿಗೆ ಪರದೆಯನ್ನು MP4 ಗೆ ರೆಕಾರ್ಡ್ ಮಾಡಿ. ಕ್ಲಿಕ್ ಮಾಡಬಹುದಾದ ಲಿಂಕ್‌ಗಳೊಂದಿಗ..."
@@ -450,19 +450,19 @@
     "message": "ಡೌನ್‌ಲೋಡ್‌ನಲ್ಲಿ ಚಿತ್ರಗಳನ್ನು ಸೇರಿಸಬೇಕೆ"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ CocoShot Pro ಅಗತ್ಯವಿದೆ"
+    "message": "ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ DesignScope Pro ಅಗತ್ಯವಿದೆ"
   },
   "proUpgradeButton": {
     "message": "ಪ್ರೊಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ"
   },
   "proSaveRestricted": {
-    "message": "ಈ ಕಂಟೆಂಟ್ ಅನ್ನು ಉಳಿಸಲು CocoShot Pro ಅಗತ್ಯವಿದೆ"
+    "message": "ಈ ಕಂಟೆಂಟ್ ಅನ್ನು ಉಳಿಸಲು DesignScope Pro ಅಗತ್ಯವಿದೆ"
   },
   "qv_title": {
-    "message": "CocoShot ಮುನ್ನೋಟ"
+    "message": "DesignScope ಮುನ್ನೋಟ"
   },
   "qv_preview_mode": {
     "message": "ಮುನ್ನೋಟ ಮೋಡ್"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot ನಿಮ್ಮ ಕ್ಯಾಮರಾ ಅಥವಾ ಮೈಕ್ರೋಫೋನ್ ಅನ್ನು ಪ್ರವೇಶಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ ಎಂದು ತೋರುತ್ತದೆ। ಈ ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು, ದಯವಿಟ್ಟು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಇದನ್ನು ಅನ್ಬ್ಲಾಕ್ ಮಾಡಿ ಮತ್ತು ಅಗತ್ಯ ಅನುಮತಿಗಳನ್ನು ನೀಡಿ।",
+    "message": "DesignScope ನಿಮ್ಮ ಕ್ಯಾಮರಾ ಅಥವಾ ಮೈಕ್ರೋಫೋನ್ ಅನ್ನು ಪ್ರವೇಶಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ ಎಂದು ತೋರುತ್ತದೆ। ಈ ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು, ದಯವಿಟ್ಟು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಇದನ್ನು ಅನ್ಬ್ಲಾಕ್ ಮಾಡಿ ಮತ್ತು ಅಗತ್ಯ ಅನುಮತಿಗಳನ್ನು ನೀಡಿ।",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡ್ ಮಾಡಲು CocoShot ಗೆ ಅನುಮತಿಯಿಲ್ಲ",
+    "message": "ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡ್ ಮಾಡಲು DesignScope ಗೆ ಅನುಮತಿಯಿಲ್ಲ",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡಿಂಗ್ ಕಾರ್ಯನಿರ್ವಹಿಸಲು, ಅನುಮತಿ ವಿನಂತಿ ಕಾಣಿಸಿಕೊಂಡಾಗ CocoShot ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಕ್ಯಾಪ್ಚರ್ ಮಾಡಲು ಅನುಮತಿಸಬೇಕು। (ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ವಿಸ್ತರಣೆಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಇದನ್ನು ರದ್ದುಗೊಳಿಸಬಹುದು।)",
+    "message": "ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡಿಂಗ್ ಕಾರ್ಯನಿರ್ವಹಿಸಲು, ಅನುಮತಿ ವಿನಂತಿ ಕಾಣಿಸಿಕೊಂಡಾಗ DesignScope ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಕ್ಯಾಪ್ಚರ್ ಮಾಡಲು ಅನುಮತಿಸಬೇಕು। (ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ವಿಸ್ತರಣೆಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಇದನ್ನು ರದ್ದುಗೊಳಿಸಬಹುದು।)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "ಹೊಸ CocoShot ಗೆ ಸ್ವಾಗತ!",
+    "message": "ಹೊಸ DesignScope ಗೆ ಸ್ವಾಗತ!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಕ್ರಿಯೆ ಪ್ರಾರಂಭಿಸುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ। ದಯವಿಟ್ಟು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ। ಸಮಸ್ಯೆ ಮುಂದುವರಿದರೆ, ಹೆಚ್ಚಿನ ಸಹಾಯಕ್ಕಾಗಿ support@cocoshot.net ನಲ್ಲಿ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ।",
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಕ್ರಿಯೆ ಪ್ರಾರಂಭಿಸುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ। ದಯವಿಟ್ಟು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ। ಸಮಸ್ಯೆ ಮುಂದುವರಿದರೆ, ಹೆಚ್ಚಿನ ಸಹಾಯಕ್ಕಾಗಿ the project issue tracker ನಲ್ಲಿ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ।",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot ರೆಕಾರ್ಡ್ ಮಾಡಲು ಕನಿಷ್ಟ 1GB ಮುಕ್ತ ಸ್ಥಳ ಬೇಕು। ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸ್ಥಳವನ್ನು ಮುಕ್ತಗೊಳಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ।",
+    "message": "DesignScope ರೆಕಾರ್ಡ್ ಮಾಡಲು ಕನಿಷ್ಟ 1GB ಮುಕ್ತ ಸ್ಥಳ ಬೇಕು। ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸ್ಥಳವನ್ನು ಮುಕ್ತಗೊಳಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ।",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "ಕಚ್ಚಾ ವೀಡಿಯೊ ಫೈಲ್ ಎಂಬುದು CocoShot ನಿಂದ ನೇರವಾಗಿ ರಚಿಸಲಾದ ಬದಲಾವಣೆಯಿಲ್ಲದ ರೆಕಾರ್ಡಿಂಗ್ ಆಗಿದೆ। ಈ ಫೈಲ್ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗಿಲ್ಲ ಅಥವಾ ಸಂಪಾದಿಸಲಾಗಿಲ್ಲವಾದ್ದರಿಂದ, ಇದು ಸಾಕಷ್ಟು ದೊಡ್ಡದಾಗಿರಬಹುದು ಮತ್ತು ಕೆಲವು ಸಾಧನಗಳೊಂದಿಗೆ ಹೊಂದಾಣಿಕೆಯಾಗದಿರಬಹುದು। ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಿದ ಆವೃತ್ತಿಯಲ್ಲಿ ಸಮಸ್ಯೆಗಳು ಇದ್ದರೆ, ನೀವು ಈ ಫೈಲ್ ಬಳಸಿ ನಿಮ್ಮ ಮೂಲ ರೆಕಾರ್ಡಿಂಗ್ ಪಡೆಯಬಹುದು।",
+    "message": "ಕಚ್ಚಾ ವೀಡಿಯೊ ಫೈಲ್ ಎಂಬುದು DesignScope ನಿಂದ ನೇರವಾಗಿ ರಚಿಸಲಾದ ಬದಲಾವಣೆಯಿಲ್ಲದ ರೆಕಾರ್ಡಿಂಗ್ ಆಗಿದೆ। ಈ ಫೈಲ್ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗಿಲ್ಲ ಅಥವಾ ಸಂಪಾದಿಸಲಾಗಿಲ್ಲವಾದ್ದರಿಂದ, ಇದು ಸಾಕಷ್ಟು ದೊಡ್ಡದಾಗಿರಬಹುದು ಮತ್ತು ಕೆಲವು ಸಾಧನಗಳೊಂದಿಗೆ ಹೊಂದಾಣಿಕೆಯಾಗದಿರಬಹುದು। ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಿದ ಆವೃತ್ತಿಯಲ್ಲಿ ಸಮಸ್ಯೆಗಳು ಇದ್ದರೆ, ನೀವು ಈ ಫೈಲ್ ಬಳಸಿ ನಿಮ್ಮ ಮೂಲ ರೆಕಾರ್ಡಿಂಗ್ ಪಡೆಯಬಹುದು।",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "ಫೈಲ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ನಂತರ, ದಯವಿಟ್ಟು ಅದನ್ನು ಯಾವುದೇ ಹೆಚ್ಚುವರಿ ವಿವರಗಳೊಂದಿಗೆ support@cocoshot.net ಗೆ ಕಳುಹಿಸಿ। ಈ ಮಾಹಿತಿಯನ್ನು ಬಳಸಿ ವಿಸ್ತರಣೆಯೊಂದಿಗಿನ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸಲು ಸಹಾಯ ಮಾಡಲು ಮತ್ತು ಸಾಧ್ಯವಾದರೆ ನಿಮ್ಮ ವೀಡಿಯೊ ಮರುಪಡೆಯಲು ಬಳಸುತ್ತೇವೆ।",
+    "message": "ಫೈಲ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ನಂತರ, ದಯವಿಟ್ಟು ಅದನ್ನು ಯಾವುದೇ ಹೆಚ್ಚುವರಿ ವಿವರಗಳೊಂದಿಗೆ the project issue tracker ಗೆ ಕಳುಹಿಸಿ। ಈ ಮಾಹಿತಿಯನ್ನು ಬಳಸಿ ವಿಸ್ತರಣೆಯೊಂದಿಗಿನ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸಲು ಸಹಾಯ ಮಾಡಲು ಮತ್ತು ಸಾಧ್ಯವಾದರೆ ನಿಮ್ಮ ವೀಡಿಯೊ ಮರುಪಡೆಯಲು ಬಳಸುತ್ತೇವೆ।",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "CocoShot ಗೋಪನೀಯತೆಗೆ ಆದ್ಯತೆ ನೀಡುತ್ತದೆ ಮತ್ತು ಸಂಪೂರ್ಣವಾಗಿ ನಿಮ್ಮ ಸ್ಥಳೀಯ ಸಾಧನದಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, ಇದು ನಿಮ್ಮ ಹಾರ್ಡ್‌ವೇರ್ ಸಾಮರ್ಥ್ಯಗಳಿಂದ ಸೀಮಿತವಾಗಿದೆ। ಈ ಅವಧಿಯ ವೀಡಿಯೊ ನಿರ್ವಹಿಸುವುದು ಅತಿಯಾಗಿ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಗಮನಾರ್ಹ ಸಿಸ್ಟಂ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಬೇಡಿಕೆ ಮಾಡುತ್ತದೆ। ನೀವು ಇನ್ನೂ WEBM ಫೈಲ್ ಅಥವಾ ಕಚ್ಚಾ ರೆಕಾರ್ಡಿಂಗ್ ಪಡೆಯಬಹುದು, ಆದರೂ ಸಂಪಾದನೆ ಫೀಚರ್‌ಗಳು ಮತ್ತು MP4 ರಫ್ತು ಲಭ್ಯವಿಲ್ಲದಿರಬಹುದು। ಆದಾಗ್ಯೂ, ಸಂಭಾವ್ಯ ಸವಾಲುಗಳ ಬಗ್ಗೆ ನಿಮಗೆ ತಿಳಿದಿದ್ದರೆ, ನೀವು ಹೇಗೆಯಾದರೂ ವೀಡಿಯೊ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಮುಂದುವರಿಯಬಹುದು।",
+    "message": "DesignScope ಗೋಪನೀಯತೆಗೆ ಆದ್ಯತೆ ನೀಡುತ್ತದೆ ಮತ್ತು ಸಂಪೂರ್ಣವಾಗಿ ನಿಮ್ಮ ಸ್ಥಳೀಯ ಸಾಧನದಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, ಇದು ನಿಮ್ಮ ಹಾರ್ಡ್‌ವೇರ್ ಸಾಮರ್ಥ್ಯಗಳಿಂದ ಸೀಮಿತವಾಗಿದೆ। ಈ ಅವಧಿಯ ವೀಡಿಯೊ ನಿರ್ವಹಿಸುವುದು ಅತಿಯಾಗಿ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಗಮನಾರ್ಹ ಸಿಸ್ಟಂ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಬೇಡಿಕೆ ಮಾಡುತ್ತದೆ। ನೀವು ಇನ್ನೂ WEBM ಫೈಲ್ ಅಥವಾ ಕಚ್ಚಾ ರೆಕಾರ್ಡಿಂಗ್ ಪಡೆಯಬಹುದು, ಆದರೂ ಸಂಪಾದನೆ ಫೀಚರ್‌ಗಳು ಮತ್ತು MP4 ರಫ್ತು ಲಭ್ಯವಿಲ್ಲದಿರಬಹುದು। ಆದಾಗ್ಯೂ, ಸಂಭಾವ್ಯ ಸವಾಲುಗಳ ಬಗ್ಗೆ ನಿಮಗೆ ತಿಳಿದಿದ್ದರೆ, ನೀವು ಹೇಗೆಯಾದರೂ ವೀಡಿಯೊ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಮುಂದುವರಿಯಬಹುದು।",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot ನೀವು ಬಳಸುತ್ತಿದ್ದ ಟ್ಯಾಬ್‌ನೊಂದಿಗೆ ಹೊಂದಾಣಿಕೆಯಾಗುವುದಿಲ್ಲ। ನೀವು ಈ ಪುಟದಿಂದ ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಭಿಸಬಹುದು ಮತ್ತು ನಂತರ ಆ ಟ್ಯಾಬ್‌ಗೆ ಹಿಂದಿರುಗಬಹುದು, ಆದರೆ ದಯವಿಟ್ಟು ನಿಮ್ಮ ಕ್ಯಾಮರಾ ಫೀಡ್ ಮತ್ತು ಸಂಪಾದನೆ ಟೂಲ್‌ಬಾರ್ ಪ್ರದರ್ಶಿಸಲಾಗುವುದಿಲ್ಲ ಎಂಬುದನ್ನು ಗಮನಿಸಿ।",
+    "message": "DesignScope ನೀವು ಬಳಸುತ್ತಿದ್ದ ಟ್ಯಾಬ್‌ನೊಂದಿಗೆ ಹೊಂದಾಣಿಕೆಯಾಗುವುದಿಲ್ಲ। ನೀವು ಈ ಪುಟದಿಂದ ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಭಿಸಬಹುದು ಮತ್ತು ನಂತರ ಆ ಟ್ಯಾಬ್‌ಗೆ ಹಿಂದಿರುಗಬಹುದು, ಆದರೆ ದಯವಿಟ್ಟು ನಿಮ್ಮ ಕ್ಯಾಮರಾ ಫೀಡ್ ಮತ್ತು ಸಂಪಾದನೆ ಟೂಲ್‌ಬಾರ್ ಪ್ರದರ್ಶಿಸಲಾಗುವುದಿಲ್ಲ ಎಂಬುದನ್ನು ಗಮನಿಸಿ।",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "ನಿಮ್ಮ CocoShot ರೆಕಾರ್ಡಿಂಗ್‌ಗಳಿಗೆ ಸ್ಥಳೀಯ ಬ್ಯಾಕಪ್ ಹೊಂದಿಸಿ",
+    "message": "ನಿಮ್ಮ DesignScope ರೆಕಾರ್ಡಿಂಗ್‌ಗಳಿಗೆ ಸ್ಥಳೀಯ ಬ್ಯಾಕಪ್ ಹೊಂದಿಸಿ",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸ್ಥಳೀಯ CocoShot ಬ್ಯಾಕಪ್ ಫೋಲ್ಡರ್‌ಗೆ ಪ್ರವೇಶವನ್ನು ಮತ್ತೆ ನಿರ್ಧರಿಸಿ",
+    "message": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸ್ಥಳೀಯ DesignScope ಬ್ಯಾಕಪ್ ಫೋಲ್ಡರ್‌ಗೆ ಪ್ರವೇಶವನ್ನು ಮತ್ತೆ ನಿರ್ಧರಿಸಿ",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "CocoShot ಗೆ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳ ಬ್ಯಾಕಪ್ ಮುಂದುವರಿಸಲು ಅನುಮತಿಸಿ",
+    "message": "DesignScope ಗೆ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳ ಬ್ಯಾಕಪ್ ಮುಂದುವರಿಸಲು ಅನುಮತಿಸಿ",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot ರೆಕಾರ್ಡಿಂಗ್‌ಗಳು",
+    "message": "DesignScope ರೆಕಾರ್ಡಿಂಗ್‌ಗಳು",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

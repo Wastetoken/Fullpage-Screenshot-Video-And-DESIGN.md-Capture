@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: スクリーンショット & 画面録画"
+    "message": "DesignScope: スクリーンショット & 画面録画"
   },
   "extDescription": {
     "message": "ページ全体のスクリーンショットをキャプチャし、注釈付きで画面をMP4に録画します。クリック可能なリンクを含むPDFエクスポート機能付き。"
@@ -450,19 +450,19 @@
     "message": "ダウンロードに画像を含めるかどうか"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "この機能にはCocoShot Proが必要です"
+    "message": "この機能にはDesignScope Proが必要です"
   },
   "proUpgradeButton": {
     "message": "Pro版にアップグレード"
   },
   "proSaveRestricted": {
-    "message": "このコンテンツを保存するにはCocoShot Proが必要です"
+    "message": "このコンテンツを保存するにはDesignScope Proが必要です"
   },
   "qv_title": {
-    "message": "CocoShot プレビュー"
+    "message": "DesignScope プレビュー"
   },
   "qv_preview_mode": {
     "message": "プレビューモード"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShotがカメラまたはマイクにアクセスできないようです。この問題を解決するには、ブラウザ設定でブロックを解除し、必要な権限を付与してください。",
+    "message": "DesignScopeがカメラまたはマイクにアクセスできないようです。この問題を解決するには、ブラウザ設定でブロックを解除し、必要な権限を付与してください。",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShotには画面を録画する権限がありません",
+    "message": "DesignScopeには画面を録画する権限がありません",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "画面録画を有効にするには、権限 запросが表示されたときにCocoShotが画面をキャプチャすることを許可する必要があります。（拡張機能の設定でいつでも取り消すことができます。）",
+    "message": "画面録画を有効にするには、権限 запросが表示されたときにDesignScopeが画面をキャプチャすることを許可する必要があります。（拡張機能の設定でいつでも取り消すことができます。）",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "新版CocoShotへようこそ！",
+    "message": "新版DesignScopeへようこそ！",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "録画プロセス開始中にエラーが発生しました。ブラウザを再起動して再試行してください。問題が解決しない場合は、support@cocoshot.netまで联系我们。",
+    "message": "録画プロセス開始中にエラーが発生しました。ブラウザを再起動して再試行してください。問題が解決しない場合は、the project issue trackerまで联系我们。",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot録画には少なくとも1GBの空き容量が必要です。容量を確保して再試行してください。",
+    "message": "DesignScope録画には少なくとも1GBの空き容量が必要です。容量を確保して再試行してください。",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "生のビデオファイルとは、CocoShotによって直接作成された加工されていない録画データです。このファイルは処理または編集されていないため非常大線で、一部のデバイスと互換性がない場合があります。処理されたバージョンに問題が生じた場合、このファイルを使用して元の録画を復元できます。",
+    "message": "生のビデオファイルとは、DesignScopeによって直接作成された加工されていない録画データです。このファイルは処理または編集されていないため非常大線で、一部のデバイスと互換性がない場合があります。処理されたバージョンに問題が生じた場合、このファイルを使用して元の録画を復元できます。",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "ファイルをダウンロードしたら、追加の詳細とともにsupport@cocoshot.netに送信してください。この情報を使用して、拡張機能の解決を支援し、可能であれば動画を回復します。",
+    "message": "ファイルをダウンロードしたら、追加の詳細とともにthe project issue trackerに送信してください。この情報を使用して、拡張機能の解決を支援し、可能であれば動画を回復します。",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "CocoShotはプライバシーを優先し、完全にローカルデバイスで動作するため、ハードウェア能力に制約されています。この長さの動画を処理するには非常に時間がかかり、大量のシステムリソースが必要です。WEBMファイルまたは生の録画を取得できますが、編集機能とMP4エクスポートは利用できません。ただし、潜在的な課題を理解している場合は、動画を処理続行こともできます。",
+    "message": "DesignScopeはプライバシーを優先し、完全にローカルデバイスで動作するため、ハードウェア能力に制約されています。この長さの動画を処理するには非常に時間がかかり、大量のシステムリソースが必要です。WEBMファイルまたは生の録画を取得できますが、編集機能とMP4エクスポートは利用できません。ただし、潜在的な課題を理解している場合は、動画を処理続行こともできます。",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShotは使用したタブと互換性がありません。このページから録画を開始して、そのタブに戻ることができますが、カメラフィードと編集ツールバーは表示されないことに注意してください。",
+    "message": "DesignScopeは使用したタブと互換性がありません。このページから録画を開始して、そのタブに戻ることができますが、カメラフィードと編集ツールバーは表示されないことに注意してください。",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "CocoShot録画のローカルバックアップを設定",
+    "message": "DesignScope録画のローカルバックアップを設定",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "ローカルCocoShotバックアップフォルダへのアクセスを再確認してください",
+    "message": "ローカルDesignScopeバックアップフォルダへのアクセスを再確認してください",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "CocoShotが録画のバックアップを続けることを許可",
+    "message": "DesignScopeが録画のバックアップを続けることを許可",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,11 +1586,11 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot Recordings",
+    "message": "DesignScope Recordings",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {
-    "message": "ローカルバックアップの設定に失敗しました。詳細についてはsupport@cocoshot.netまで联系我们。録画は続行できます。",
+    "message": "ローカルバックアップの設定に失敗しました。詳細についてはthe project issue trackerまで联系我们。録画は続行できます。",
     "description": "Error message when backup setup fails",
     "placeholders": {
       "supportEmail": {
@@ -1600,7 +1600,7 @@
     }
   },
   "backupBrowserNotSupported": {
-    "message": "ブラウザはローカルバックアップをサポートしていません。詳細についてはsupport@cocoshot.netまで联系我们。録画は続行できます。",
+    "message": "ブラウザはローカルバックアップをサポートしていません。詳細についてはthe project issue trackerまで联系我们。録画は続行できます。",
     "description": "Error message when browser doesn't support backups",
     "placeholders": {
       "supportEmail": {

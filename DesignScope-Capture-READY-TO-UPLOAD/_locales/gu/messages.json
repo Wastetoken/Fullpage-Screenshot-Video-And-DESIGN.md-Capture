@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: સ્ક્રીનશોટ અને સ્ક્રીન રેકોર્ડર"
+    "message": "DesignScope: સ્ક્રીનશોટ અને સ્ક્રીન રેકોર્ડર"
   },
   "extDescription": {
     "message": "સંપૂર્ણ પૃષ્ઠના સ્ક્રીનશોટ લો અને ટિપ્પણીઓ સાથે MP4 પર સ્ક્રીન રેકોર્ડ કરો. ક્લિક કરી શકાય તેવી લિંક્સ સાથે PDF નિકાસ શામેલ છે."
@@ -450,19 +450,19 @@
     "message": "શું ડાઉનલોડમાં ચિત્રો સામેલ કરવાના છે"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "આ સુવિધા માટે CocoShot Pro જરૂરી છે"
+    "message": "આ સુવિધા માટે DesignScope Pro જરૂરી છે"
   },
   "proUpgradeButton": {
     "message": "પ્રો પર અપગ્રેડ કરો"
   },
   "proSaveRestricted": {
-    "message": "આ સામગ્રી સાચવવા માટે CocoShot Pro જરૂરી છે"
+    "message": "આ સામગ્રી સાચવવા માટે DesignScope Pro જરૂરી છે"
   },
   "qv_title": {
-    "message": "CocoShot પૂર્વાવલોકન"
+    "message": "DesignScope પૂર્વાવલોકન"
   },
   "qv_preview_mode": {
     "message": "પૂર્વાવલોકન મોડ"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "Mukhang hindi ma-access ng CocoShot ang iyong camera o microphone. Para maayos ito, i-unblock ito sa settings ng iyong browser at bigay ang mga kinakailangang pahintulot.",
+    "message": "Mukhang hindi ma-access ng DesignScope ang iyong camera o microphone. Para maayos ito, i-unblock ito sa settings ng iyong browser at bigay ang mga kinakailangang pahintulot.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "Walang pahintulot ang CocoShot na i-record ang iyong screen",
+    "message": "Walang pahintulot ang DesignScope na i-record ang iyong screen",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "Para gumana ang screen recording, kailangan mong payagan ang CocoShot na i-capture ang iyong screen kapag lumabas ang permission request.(Maari mong i-revoke ito anytime sa settings ng extension.)",
+    "message": "Para gumana ang screen recording, kailangan mong payagan ang DesignScope na i-capture ang iyong screen kapag lumabas ang permission request.(Maari mong i-revoke ito anytime sa settings ng extension.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Welcome sa bagong CocoShot!",
+    "message": "Welcome sa bagong DesignScope!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "May nangyaring error habang sinisimulan ang recording process. I-restart ang iyong browser at subukan ulit. Kung patuloy ang problema, makipag-ugnayan sa amin sa support@cocoshot.net.",
+    "message": "May nangyaring error habang sinisimulan ang recording process. I-restart ang iyong browser at subukan ulit. Kung patuloy ang problema, makipag-ugnayan sa amin sa the project issue tracker.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "Kailangan ng CocoShot ng hindi kukulangin sa 1GB na free space para makapag-record. Pakifree ang space at subukan muli.",
+    "message": "Kailangan ng DesignScope ng hindi kukulangin sa 1GB na free space para makapag-record. Pakifree ang space at subukan muli.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Ang raw video file ay tumutukoy sa hindi binagong recording na ginawa mismo ng CocoShot. Dahil hindi ito na-process o na-edit, maaring malaki at hindi compatible sa ibang devices. Kung may problema sa processed version, maari mong gamitin ito para ma-recover ang original recording mo.",
+    "message": "Ang raw video file ay tumutukoy sa hindi binagong recording na ginawa mismo ng DesignScope. Dahil hindi ito na-process o na-edit, maaring malaki at hindi compatible sa ibang devices. Kung may problema sa processed version, maari mong gamitin ito para ma-recover ang original recording mo.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Kapag na-download mo na ang file, paki-send ito sa support@cocoshot.net kasama ang ibang details na maaring makatulong. Gagamitin namin ito para tulungan kang ma-solve ang mga problema sa extension at kung maaari, ma-recover ang iyong video.",
+    "message": "Kapag na-download mo na ang file, paki-send ito sa the project issue tracker kasama ang ibang details na maaring makatulong. Gagamitin namin ito para tulungan kang ma-solve ang mga problema sa extension at kung maaari, ma-recover ang iyong video.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Dahil priority ng CocoShot ang privacy at gumagana lang sa local device mo, limitado ito ng capabilities ng hardware mo. Magiging masyado ring time-consuming at mangangailangan ng significant system resources ang pag-handle ng video ng ganitong haba. Maari mo pang makakuha ng WEBM file o raw recording, kahit hindi available ang editing features at MP4 export. Pero kung aware ka sa mga possible challenges, maari kang magpatuloy sa pag-process ng video.",
+    "message": "Dahil priority ng DesignScope ang privacy at gumagana lang sa local device mo, limitado ito ng capabilities ng hardware mo. Magiging masyado ring time-consuming at mangangailangan ng significant system resources ang pag-handle ng video ng ganitong haba. Maari mo pang makakuha ng WEBM file o raw recording, kahit hindi available ang editing features at MP4 export. Pero kung aware ka sa mga possible challenges, maari kang magpatuloy sa pag-process ng video.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "Hindi compatible ang CocoShot sa tab na ginamit mo lang. Maari ka pang magsimula ng recording mula sa page na ito at bumalik sa tab na iyon, pero tandaan na hindi ipapakita ang camera feed mo at editing toolbar.",
+    "message": "Hindi compatible ang DesignScope sa tab na ginamit mo lang. Maari ka pang magsimula ng recording mula sa page na ito at bumalik sa tab na iyon, pero tandaan na hindi ipapakita ang camera feed mo at editing toolbar.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Mag-set up ng local backup para sa iyong CocoShot recordings",
+    "message": "Mag-set up ng local backup para sa iyong DesignScope recordings",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Pakikumpirma ang access sa iyong local CocoShot backup folder",
+    "message": "Pakikumpirma ang access sa iyong local DesignScope backup folder",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Payagan ang CocoShot na magpatuloy sa pagba-backup ng recordings",
+    "message": "Payagan ang DesignScope na magpatuloy sa pagba-backup ng recordings",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot Recordings",
+    "message": "DesignScope Recordings",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Képernyőkép és képernyőrögzítő"
+    "message": "DesignScope: Képernyőkép és képernyőrögzítő"
   },
   "extDescription": {
     "message": "Rögzítsen teljes oldalas képernyőképeket, és rögzítse a képernyőt MP4 formátumban kommentárokkal. PDF exportálás kattintható link..."
@@ -450,19 +450,19 @@
     "message": "A képek bekerüljenek-e a letöltésbe"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Ehhez a funkcióhoz CocoShot Pro szükséges"
+    "message": "Ehhez a funkcióhoz DesignScope Pro szükséges"
   },
   "proUpgradeButton": {
     "message": "Frissítés Pro verzióra"
   },
   "proSaveRestricted": {
-    "message": "A tartalom mentéséhez CocoShot Pro szükséges"
+    "message": "A tartalom mentéséhez DesignScope Pro szükséges"
   },
   "qv_title": {
-    "message": "CocoShot előnézet"
+    "message": "DesignScope előnézet"
   },
   "qv_preview_mode": {
     "message": "Előnézeti mód"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "A CocoShot parece que no puede acceder a tu cámara o micrófono. Para solucionar este problema, desbloquéalo en la configuración de tu navegador y concede los permisos necesarios.",
+    "message": "A DesignScope parece que no puede acceder a tu cámara o micrófono. Para solucionar este problema, desbloquéalo en la configuración de tu navegador y concede los permisos necesarios.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "A CocoShot-nak nincs engedélye a képernyőd felvételére",
+    "message": "A DesignScope-nak nincs engedélye a képernyőd felvételére",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "A képernyőfelvétel működéséhez engedélyezned kell a CocoShot-nak, hogy rögzítse a képernyődet, amikor megjelenik az engedélykérés. (Bármikor visszavonhatod a bővítmény beállításaiban.)",
+    "message": "A képernyőfelvétel működéséhez engedélyezned kell a DesignScope-nak, hogy rögzítse a képernyődet, amikor megjelenik az engedélykérés. (Bármikor visszavonhatod a bővítmény beállításaiban.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Üdvözöljük az új CocoShot-ban!",
+    "message": "Üdvözöljük az új DesignScope-ban!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Hiba történt a felvételi folyamat indításakor. Kérlek, indítsd újra a böngészőt és próbáld újra. Ha a probléma folytatódik, fordulj hozzánk a support@cocoshot.net címen.",
+    "message": "Hiba történt a felvételi folyamat indításakor. Kérlek, indítsd újra a böngészőt és próbáld újra. Ha a probléma folytatódik, fordulj hozzánk a the project issue tracker címen.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "A CocoShot-nak legalább 1 GB szabad helyre van szüksége a felvételhez. Szabadíts fel helyet és próbáld újra.",
+    "message": "A DesignScope-nak legalább 1 GB szabad helyre van szüksége a felvételhez. Szabadíts fel helyet és próbáld újra.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "A nyers videófájl a CocoShot által közvetlenül készített módosítás nélküli felvételre utal. Mivel ez a fájl nincs feldolgozva vagy szerkesztve, elég nagy lehet és nem kompatibilis néhány eszközzel. Ha problémákat észlelsz a feldolgozott verzióval, használd ezt a fájlt az eredeti felvétel visszanyeréséhez.",
+    "message": "A nyers videófájl a DesignScope által közvetlenül készített módosítás nélküli felvételre utal. Mivel ez a fájl nincs feldolgozva vagy szerkesztve, elég nagy lehet és nem kompatibilis néhány eszközzel. Ha problémákat észlelsz a feldolgozott verzióval, használd ezt a fájlt az eredeti felvétel visszanyeréséhez.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Miután letöltötted a fájlt, kérlek küldd el a support@cocoshot.net címre bármilyen további részletekkel, amelyek hasznosak lehetnek. Ezeket az információkat használjuk a bővítmény problémáinak megoldásához és a videód visszanyeréséhez, ha lehetséges.",
+    "message": "Miután letöltötted a fájlt, kérlek küldd el a the project issue tracker címre bármilyen további részletekkel, amelyek hasznosak lehetnek. Ezeket az információkat használjuk a bővítmény problémáinak megoldásához és a videód visszanyeréséhez, ha lehetséges.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Mivel a CocoShot a adatvédelmet helyezi előtérbe és teljesen a helyi eszközödön működik, a hardvered korlátaihoz van kötve. Egy ilyen hosszúságú videó kezelése túlzottan időigényes lenne és jelentős rendszererőforrásokat igényel. A WEBM fájlt vagy a nyers felvételt továbbra is megszerezheted, bár a szerkesztési funkciók és az MP4 export nem lesznek elérhetők. Ha however tudatában vagy a lehetséges kihívásoknak, folytathatod a videó feldolgozását.",
+    "message": "Mivel a DesignScope a adatvédelmet helyezi előtérbe és teljesen a helyi eszközödön működik, a hardvered korlátaihoz van kötve. Egy ilyen hosszúságú videó kezelése túlzottan időigényes lenne és jelentős rendszererőforrásokat igényel. A WEBM fájlt vagy a nyers felvételt továbbra is megszerezheted, bár a szerkesztési funkciók és az MP4 export nem lesznek elérhetők. Ha however tudatában vagy a lehetséges kihívásoknak, folytathatod a videó feldolgozását.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "A CocoShot nem kompatibilis a füllel, amelyet most használtál. Még mindig kezdeményezhetsz felvételt erről az oldalról, majd visszatérhetsz arra a fülre, de kérlek vedd figyelembe, hogy a kamerád és a szerkesztő eszköztár nem jelenik meg.",
+    "message": "A DesignScope nem kompatibilis a füllel, amelyet most használtál. Még mindig kezdeményezhetsz felvételt erről az oldalról, majd visszatérhetsz arra a fülre, de kérlek vedd figyelembe, hogy a kamerád és a szerkesztő eszköztár nem jelenik meg.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Helyi biztonsági másolat beállítása a CocoShot felvételeidhez",
+    "message": "Helyi biztonsági másolat beállítása a DesignScope felvételeidhez",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Kérjük, erősítsd meg a hozzáférést a helyi CocoShot biztonsági másolat mappához",
+    "message": "Kérjük, erősítsd meg a hozzáférést a helyi DesignScope biztonsági másolat mappához",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Engedélyezd a CocoShot-nak, hogy folytassa a felvételek biztonsági másolását",
+    "message": "Engedélyezd a DesignScope-nak, hogy folytassa a felvételek biztonsági másolását",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot Felvételek",
+    "message": "DesignScope Felvételek",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

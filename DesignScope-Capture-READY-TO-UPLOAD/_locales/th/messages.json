@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: ภาพหน้าจอและบันทึกหน้าจอ"
+    "message": "DesignScope: ภาพหน้าจอและบันทึกหน้าจอ"
   },
   "extDescription": {
     "message": "จับภาพหน้าจอแบบเต็มหน้าและบันทึกหน้าจอเป็น MP4 พร้อมคำอธิบายประกอบ รวมการส่งออก PDF พร้อมลิงก์ที่คลิกได้"
@@ -450,19 +450,19 @@
     "message": "ไม่ว่าจะรวมรูปภาพในการดาวน์โหลดหรือไม่"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "คุณลักษณะนี้ต้องใช้ CocoShot Pro"
+    "message": "คุณลักษณะนี้ต้องใช้ DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "อัปเกรดเป็น Pro"
   },
   "proSaveRestricted": {
-    "message": "การบันทึกเนื้อหานี้ต้องใช้ CocoShot Pro"
+    "message": "การบันทึกเนื้อหานี้ต้องใช้ DesignScope Pro"
   },
   "qv_title": {
-    "message": "ตัวอย่าง CocoShot"
+    "message": "ตัวอย่าง DesignScope"
   },
   "qv_preview_mode": {
     "message": "โหมดตัวอย่าง"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot ดูเหมือนจะไม่สามารถเข้าถึงกล้องหรือไมโครโฟนของคุณได้ เพื่อแก้ไขปัญหานี้ โปรดปลดล็อกในการตั้งค่าเบราว์เซอร์และให้สิทธิ์ที่จำเป็น",
+    "message": "DesignScope ดูเหมือนจะไม่สามารถเข้าถึงกล้องหรือไมโครโฟนของคุณได้ เพื่อแก้ไขปัญหานี้ โปรดปลดล็อกในการตั้งค่าเบราว์เซอร์และให้สิทธิ์ที่จำเป็น",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot ไม่มีสิทธิ์บันทึกหน้าจอของคุณ",
+    "message": "DesignScope ไม่มีสิทธิ์บันทึกหน้าจอของคุณ",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "เพื่อให้การบันทึกหน้าจอทำงานได้ คุณจะต้องอนุญาตให้ CocoShot จับภาพหน้าจอของคุณเมื่อคำขอสิทธิ์ปรากฏ (คุณสามารถเพิกถอนได้ทุกเมื่อในการตั้งค่าส่วนขยาย)",
+    "message": "เพื่อให้การบันทึกหน้าจอทำงานได้ คุณจะต้องอนุญาตให้ DesignScope จับภาพหน้าจอของคุณเมื่อคำขอสิทธิ์ปรากฏ (คุณสามารถเพิกถอนได้ทุกเมื่อในการตั้งค่าส่วนขยาย)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "ยินดีต้อนรับสู่ CocoShot ใหม่!",
+    "message": "ยินดีต้อนรับสู่ DesignScope ใหม่!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "เกิดข้อผิดพลาดขณะเริ่มกระบวนการบันทึก โปรดรีสตาร์ทเบราว์เซอร์และลองอีกครั้ง หากปัญหายังคงอยู่ โปรดติดต่อเราที่ support@cocoshot.net เพื่อขอความช่วยเหลือเพิ่มเติม",
+    "message": "เกิดข้อผิดพลาดขณะเริ่มกระบวนการบันทึก โปรดรีสตาร์ทเบราว์เซอร์และลองอีกครั้ง หากปัญหายังคงอยู่ โปรดติดต่อเราที่ the project issue tracker เพื่อขอความช่วยเหลือเพิ่มเติม",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot ต้องการพื้นที่ว่างอย่างน้อย 1GB เพื่อบันทึก โปรดควบคุมพื้นที่บางส่วนและลองอีกครั้ง",
+    "message": "DesignScope ต้องการพื้นที่ว่างอย่างน้อย 1GB เพื่อบันทึก โปรดควบคุมพื้นที่บางส่วนและลองอีกครั้ง",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "ไฟล์วิดีโอดิบหมายถึงข้อมูลการบันทึกที่ไม่เปลี่ยนแปลงซึ่งสร้างโดยตรงโดย CocoShot เนื่องจากไฟล์นี้ไม่ได้รับการประมวลผลหรือแก้ไข อาจมีขนาดค่อนข้างใหญ่และเข้ากันไม่ได้กับบางอุปกรณ์ หากคุณประสบปัญหากับเวอร์ชันที่ประมวลผลแล้ว คุณสามารถใช้ไฟล์นี้เพื่อกู้คืนการบันทึกดั้งเดิมของคุณ",
+    "message": "ไฟล์วิดีโอดิบหมายถึงข้อมูลการบันทึกที่ไม่เปลี่ยนแปลงซึ่งสร้างโดยตรงโดย DesignScope เนื่องจากไฟล์นี้ไม่ได้รับการประมวลผลหรือแก้ไข อาจมีขนาดค่อนข้างใหญ่และเข้ากันไม่ได้กับบางอุปกรณ์ หากคุณประสบปัญหากับเวอร์ชันที่ประมวลผลแล้ว คุณสามารถใช้ไฟล์นี้เพื่อกู้คืนการบันทึกดั้งเดิมของคุณ",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "เมื่อคุณดาวน์โหลดไฟล์แล้ว โปรดส่งไปที่ support@cocoshot.net พร้อมรายละเอียดเพิ่มเติมที่อาจเป็นประโยชน์ เราจะใช้ข้อมูลนี้เพื่อช่วยคุณแก้ไขปัญหากับส่วนขยายและหากเป็นไปได้ กู้คืนวิดีโอของคุณ",
+    "message": "เมื่อคุณดาวน์โหลดไฟล์แล้ว โปรดส่งไปที่ the project issue tracker พร้อมรายละเอียดเพิ่มเติมที่อาจเป็นประโยชน์ เราจะใช้ข้อมูลนี้เพื่อช่วยคุณแก้ไขปัญหากับส่วนขยายและหากเป็นไปได้ กู้คืนวิดีโอของคุณ",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "เนื่องจาก CocoShot ให้ความสำคัญกับความเป็นส่วนตัวและทำงานบนอุปกรณ์ในเครื่องของคุณโดยสมบูรณ์ จึงถูกจำกัดด้วยความสามารถของฮาร์ดแวร์ การประมวลผลวิดีโอที่มีความยาวเช่นนี้จะใช้เวลานานเกินไปและต้องการทรัพยากรระบบจำนวนมาก คุณยังสามารถรับไฟล์ WEBM หรือการบันทึกดิบได้ แม้ว่าคุณสมบัติการแก้ไขและการส่งออก MP4 จะไม่สามารถเข้าถึงได้ อย่างไรก็ตาม หากคุณตระหนักถึงความท้าทายที่อาจเกิดขึ้น คุณสามารถดำเนินการประมวลผลวิดีโอต่อไปได้",
+    "message": "เนื่องจาก DesignScope ให้ความสำคัญกับความเป็นส่วนตัวและทำงานบนอุปกรณ์ในเครื่องของคุณโดยสมบูรณ์ จึงถูกจำกัดด้วยความสามารถของฮาร์ดแวร์ การประมวลผลวิดีโอที่มีความยาวเช่นนี้จะใช้เวลานานเกินไปและต้องการทรัพยากรระบบจำนวนมาก คุณยังสามารถรับไฟล์ WEBM หรือการบันทึกดิบได้ แม้ว่าคุณสมบัติการแก้ไขและการส่งออก MP4 จะไม่สามารถเข้าถึงได้ อย่างไรก็ตาม หากคุณตระหนักถึงความท้าทายที่อาจเกิดขึ้น คุณสามารถดำเนินการประมวลผลวิดีโอต่อไปได้",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot ไม่สามารถใช้งานร่วมกับแท็บที่คุณเพิ่งใช้งาน คุณยังสามารถเริ่มการบันทึกจากหน้านี้แล้วกลับไปยังแท็บนั้นได้ แต่โปรดทราบว่าฟีดกล้องและแถบเครื่องมือแก้ไขจะไม่แสดง",
+    "message": "DesignScope ไม่สามารถใช้งานร่วมกับแท็บที่คุณเพิ่งใช้งาน คุณยังสามารถเริ่มการบันทึกจากหน้านี้แล้วกลับไปยังแท็บนั้นได้ แต่โปรดทราบว่าฟีดกล้องและแถบเครื่องมือแก้ไขจะไม่แสดง",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "ตั้งค่าสำรองข้อมูลในเครื่องสำหรับการบันทึก CocoShot ของคุณ",
+    "message": "ตั้งค่าสำรองข้อมูลในเครื่องสำหรับการบันทึก DesignScope ของคุณ",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "โปรดยืนยันการเข้าถึงโฟลเดอร์สำรองข้อมูลในเครื่อง CocoShot ของคุณอีกครั้ง",
+    "message": "โปรดยืนยันการเข้าถึงโฟลเดอร์สำรองข้อมูลในเครื่อง DesignScope ของคุณอีกครั้ง",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "อนุญาตให้ CocoShot สำรองข้อมูลการบันทึกต่อไป",
+    "message": "อนุญาตให้ DesignScope สำรองข้อมูลการบันทึกต่อไป",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,11 +1586,11 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "การบันทึก CocoShot",
+    "message": "การบันทึก DesignScope",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {
-    "message": "การตั้งค่าสำรองข้อมูลในเครื่องล้มเหลว ติดต่อเราที่ support@cocoshot.net เพื่อขอความช่วยเหลือเพิ่มเติม คุณยังสามารถบันทึกหน้าจอได้",
+    "message": "การตั้งค่าสำรองข้อมูลในเครื่องล้มเหลว ติดต่อเราที่ the project issue tracker เพื่อขอความช่วยเหลือเพิ่มเติม คุณยังสามารถบันทึกหน้าจอได้",
     "description": "Error message when backup setup fails",
     "placeholders": {
       "supportEmail": {
@@ -1600,7 +1600,7 @@
     }
   },
   "backupBrowserNotSupported": {
-    "message": "เบราว์เซอร์ของคุณไม่รองรับการสำรองข้อมูลในเครื่อง ติดต่อเราที่ support@cocoshot.net เพื่อขอความช่วยเหลือเพิ่มเติม คุณยังสามารถบันทึกหน้าจอได้",
+    "message": "เบราว์เซอร์ของคุณไม่รองรับการสำรองข้อมูลในเครื่อง ติดต่อเราที่ the project issue tracker เพื่อขอความช่วยเหลือเพิ่มเติม คุณยังสามารถบันทึกหน้าจอได้",
     "description": "Error message when browser doesn't support backups",
     "placeholders": {
       "supportEmail": {

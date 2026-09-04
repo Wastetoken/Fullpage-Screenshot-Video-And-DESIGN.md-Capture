@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: screenshot en schermrecorder"
+    "message": "DesignScope: screenshot en schermrecorder"
   },
   "extDescription": {
     "message": "Maak screenshots van volledige pagina's en neem het scherm op in MP4 met annotaties. PDF-export met aanklikbare links inbegrepen."
@@ -450,19 +450,19 @@
     "message": "Of afbeeldingen moeten worden meegenomen in de download"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Voor deze functie is CocoShot Pro vereist"
+    "message": "Voor deze functie is DesignScope Pro vereist"
   },
   "proUpgradeButton": {
     "message": "Upgrade naar Pro"
   },
   "proSaveRestricted": {
-    "message": "Om deze inhoud op te slaan is CocoShot Pro vereist"
+    "message": "Om deze inhoud op te slaan is DesignScope Pro vereist"
   },
   "qv_title": {
-    "message": "CocoShot-voorbeeld"
+    "message": "DesignScope-voorbeeld"
   },
   "qv_preview_mode": {
     "message": "Voorbeeldmodus"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot lijkt geen toegang te hebben tot je camera of microfoon. Om dit probleem op te lossen, debloekeer het dan in je browserinstellingen en verleen de benodigde machtigingen.",
+    "message": "DesignScope lijkt geen toegang te hebben tot je camera of microfoon. Om dit probleem op te lossen, debloekeer het dan in je browserinstellingen en verleen de benodigde machtigingen.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot heeft geen toestemming om je scherm op te nemen",
+    "message": "DesignScope heeft geen toestemming om je scherm op te nemen",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "Om schermopname te laten werken, moet je CocoShot toestaan je scherm te capturen wanneer de toestemmingsvraag verschijnt. (Je kunt dit te allen tijde intrekken in de instellingen van de extensie.)",
+    "message": "Om schermopname te laten werken, moet je DesignScope toestaan je scherm te capturen wanneer de toestemmingsvraag verschijnt. (Je kunt dit te allen tijde intrekken in de instellingen van de extensie.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Welkom bij de nieuwe CocoShot!",
+    "message": "Welkom bij de nieuwe DesignScope!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Er is een fout opgetreden bij het starten van het opnameproces. Start je browser opnieuw en probeer het opnieuw. Als het probleem aanhoudt, neem dan contact met ons op via support@cocoshot.net voor verdere hulp.",
+    "message": "Er is een fout opgetreden bij het starten van het opnameproces. Start je browser opnieuw en probeer het opnieuw. Als het probleem aanhoudt, neem dan contact met ons op via the project issue tracker voor verdere hulp.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot heeft minstens 1GB vrije ruimte nodig om op te nemen. Maak ruimte vrij op je apparaat en probeer het opnieuw.",
+    "message": "DesignScope heeft minstens 1GB vrije ruimte nodig om op te nemen. Maak ruimte vrij op je apparaat en probeer het opnieuw.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Het ruwe videobestand verwijst naar de ongewijzigde opname die rechtstreeks door CocoShot is gemaakt. Omdat dit bestand niet is verwerkt of bewerkt, kan het vrij groot zijn en incompatibel met sommige apparaten. Als je problemen ondervindt met de verwerkte versie, kun je dit bestand gebruiken om je originele opname te herstellen.",
+    "message": "Het ruwe videobestand verwijst naar de ongewijzigde opname die rechtstreeks door DesignScope is gemaakt. Omdat dit bestand niet is verwerkt of bewerkt, kan het vrij groot zijn en incompatibel met sommige apparaten. Als je problemen ondervindt met de verwerkte versie, kun je dit bestand gebruiken om je originele opname te herstellen.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Nadat je het bestand hebt gedownload, stuur het dan naar support@cocoshot.net samen met eventuele aanvullende details die nuttig could zijn. We zullen deze informatie gebruiken om je te helpen bij het oplossen van problemen met de extensie en, indien mogelijk, je video te herstellen.",
+    "message": "Nadat je het bestand hebt gedownload, stuur het dan naar the project issue tracker samen met eventuele aanvullende details die nuttig could zijn. We zullen deze informatie gebruiken om je te helpen bij het oplossen van problemen met de extensie en, indien mogelijk, je video te herstellen.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Omdat CocoShot prioriteit geeft aan privacy en volledig op je lokale apparaat werkt, is het beperkt door je hardwarecapaciteiten. Het verwerken van een video van deze duur zou overdreven lang duren en aanzienlijke systeembronnen vereisen. Je kunt nog steeds het WEBM-bestand of de ruwe opname krijgen, hoewel bewerkingsfuncties en MP4-export niet toegankelijk zullen zijn. Als je je echter bewust bent van de potentiële uitdagingen, kun je toch doorgaan met het verwerken van de video.",
+    "message": "Omdat DesignScope prioriteit geeft aan privacy en volledig op je lokale apparaat werkt, is het beperkt door je hardwarecapaciteiten. Het verwerken van een video van deze duur zou overdreven lang duren en aanzienlijke systeembronnen vereisen. Je kunt nog steeds het WEBM-bestand of de ruwe opname krijgen, hoewel bewerkingsfuncties en MP4-export niet toegankelijk zullen zijn. Als je je echter bewust bent van de potentiële uitdagingen, kun je toch doorgaan met het verwerken van de video.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot is niet compatibel met het tabblad dat je net hebt gebruikt. Je kunt nog steeds de opname starten vanaf deze pagina en dan terugkeren naar dat tabblad, maar let op dat je camerafeed en bewerkingswerkbalk niet worden weergegeven.",
+    "message": "DesignScope is niet compatibel met het tabblad dat je net hebt gebruikt. Je kunt nog steeds de opname starten vanaf deze pagina en dan terugkeren naar dat tabblad, maar let op dat je camerafeed en bewerkingswerkbalk niet worden weergegeven.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Stel een lokale back-up in voor je CocoShot-opnames",
+    "message": "Stel een lokale back-up in voor je DesignScope-opnames",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Bevestig de toegang tot je lokale CocoShot-back-upmap opnieuw",
+    "message": "Bevestig de toegang tot je lokale DesignScope-back-upmap opnieuw",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "CocoShot toestaan door te gaan met back-uppen van opnames",
+    "message": "DesignScope toestaan door te gaan met back-uppen van opnames",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot-opnames",
+    "message": "DesignScope-opnames",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

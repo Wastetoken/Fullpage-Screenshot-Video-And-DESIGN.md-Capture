@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Picha ya skrini na Rekoda ya Skrini"
+    "message": "DesignScope: Picha ya skrini na Rekoda ya Skrini"
   },
   "extDescription": {
     "message": "Piga picha za skrini nzima na urekodi skrini kwa MP4 yenye maelezo. Uhamishaji wa PDF na viungo vinavyobofya umejumuishwa."
@@ -450,19 +450,19 @@
     "message": "Je, picha zitajumuishwa kwenye upakuaji"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Kipengele hiki kinahitaji CocoShot Pro"
+    "message": "Kipengele hiki kinahitaji DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "Boresha hadi Pro"
   },
   "proSaveRestricted": {
-    "message": "Kuhifadhi maudhui haya kunahitaji CocoShot Pro"
+    "message": "Kuhifadhi maudhui haya kunahitaji DesignScope Pro"
   },
   "qv_title": {
-    "message": "Onyesho la CocoShot"
+    "message": "Onyesho la DesignScope"
   },
   "qv_preview_mode": {
     "message": "Hali ya Onyesho"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot inaonekana haupate kupata kamera au mikrofoni yako. Ili kusahihisha tatizo hili, tafadhalizuia katika mipangilio ya kivinjari yako nautoa ruhusa zinazohitajika.",
+    "message": "DesignScope inaonekana haupate kupata kamera au mikrofoni yako. Ili kusahihisha tatizo hili, tafadhalizuia katika mipangilio ya kivinjari yako nautoa ruhusa zinazohitajika.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot haina ruhusa ya kurekodi skrini yako",
+    "message": "DesignScope haina ruhusa ya kurekodi skrini yako",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "Ili kurekodi skrini ifanye kazi, utahitaji kuruhusu CocoShot kukamata skrini yako wakati ombi la ruhusa linapojitokeza.(Unaweza kuiondoa wakati wowote katika mipangilio ya kiungo.)",
+    "message": "Ili kurekodi skrini ifanye kazi, utahitaji kuruhusu DesignScope kukamata skrini yako wakati ombi la ruhusa linapojitokeza.(Unaweza kuiondoa wakati wowote katika mipangilio ya kiungo.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Karibu kwenye CocoShot mpya!",
+    "message": "Karibu kwenye DesignScope mpya!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Kosa lilitokea wakati wa kuanzisha mchakato wa rekodi. Tafadhali anza upya kivinjari yako na jaribu tena. Tatizo likiendelea, wasiliana nasi support@cocoshot.net kwa msaada zaidi.",
+    "message": "Kosa lilitokea wakati wa kuanzisha mchakato wa rekodi. Tafadhali anza upya kivinjari yako na jaribu tena. Tatizo likiendelea, wasiliana nasi the project issue tracker kwa msaada zaidi.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot inahitaji angalia 1GB ya nafasi huru kurekodi. Tafadhali hapasha nafasi na jaribu tena.",
+    "message": "DesignScope inahitaji angalia 1GB ya nafasi huru kurekodi. Tafadhali hapasha nafasi na jaribu tena.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Faili la video ghafi linarejea kwenye rekodi isiyobadilika iliyoundwa moja kwa moja na CocoShot. Kwa sababu faili hili halijashughulikiwa au kuhaririwa, inaweza kuwa kubwa sana na isiyoambatana na baadhi ya vifaa. Ukipata matatizo na toleo lililoshughulikiwa, unaweza kutumia faili hili ili kupata rekodi yako asili.",
+    "message": "Faili la video ghafi linarejea kwenye rekodi isiyobadilika iliyoundwa moja kwa moja na DesignScope. Kwa sababu faili hili halijashughulikiwa au kuhaririwa, inaweza kuwa kubwa sana na isiyoambatana na baadhi ya vifaa. Ukipata matatizo na toleo lililoshughulikiwa, unaweza kutumia faili hili ili kupata rekodi yako asili.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Ukipakua faili, tafadhali litume support@cocoshot.net pamoja na maelezo yoyote ya ziada ambayo yanaweza kusaidia. Tutatumia maelezo haya kukusaidia kusahihisha matatizo ya kiungo na, ikiwezekana, kupisha video yako.",
+    "message": "Ukipakua faili, tafadhali litume the project issue tracker pamoja na maelezo yoyote ya ziada ambayo yanaweza kusaidia. Tutatumia maelezo haya kukusaidia kusahihisha matatizo ya kiungo na, ikiwezekana, kupisha video yako.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Kwa sababu CocoShot inaprioriti faragha na inafanya kazi kikamilifu kwenye kifaa chako cha ndani, imekuwa na vikomo na uwezo wa mashine yako. Kushughulikia video wa muda huu ingekuwa na muda mwingi mno na mahitaji makubwa ya rasilimali za mfumo. Bado unaweza kupata faili la WEBM au rekodi ghafi, ingawa vipengele vya kuhariri na usafirishaji wa MP4 havipatikani. Hata hivyo, ikiwa unafahamu changamoto zinazowezekana, unaweza kuendelea na usindikaji wa video bila kujali.",
+    "message": "Kwa sababu DesignScope inaprioriti faragha na inafanya kazi kikamilifu kwenye kifaa chako cha ndani, imekuwa na vikomo na uwezo wa mashine yako. Kushughulikia video wa muda huu ingekuwa na muda mwingi mno na mahitaji makubwa ya rasilimali za mfumo. Bado unaweza kupata faili la WEBM au rekodi ghafi, ingawa vipengele vya kuhariri na usafirishaji wa MP4 havipatikani. Hata hivyo, ikiwa unafahamu changamoto zinazowezekana, unaweza kuendelea na usindikaji wa video bila kujali.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot haipatikani na kichupuli ulichokuwa ukitumia. Bado unaweza kuanza kurekodi kutoka kwenye ukurasa huu na kurudi kwenye kichupuli husika, lakini tafadhali kumbatie kwamba mwendo wa kamera na upau wa zana ya kuhariri hautaonyeshwa.",
+    "message": "DesignScope haipatikani na kichupuli ulichokuwa ukitumia. Bado unaweza kuanza kurekodi kutoka kwenye ukurasa huu na kurudi kwenye kichupuli husika, lakini tafadhali kumbatie kwamba mwendo wa kamera na upau wa zana ya kuhariri hautaonyeshwa.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Weka nakala ya ndani kwa ajili ya rekodi za CocoShot zako",
+    "message": "Weka nakala ya ndani kwa ajili ya rekodi za DesignScope zako",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Tafadhali thibitisha upatikanaji wa foldi yako ya nakala ya ndani ya CocoShot",
+    "message": "Tafadhali thibitisha upatikanaji wa foldi yako ya nakala ya ndani ya DesignScope",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Ruhusu CocoShot kuendelea nakala za rekodi",
+    "message": "Ruhusu DesignScope kuendelea nakala za rekodi",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,11 +1586,11 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "Rekodi za CocoShot",
+    "message": "Rekodi za DesignScope",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {
-    "message": "Imefeli kuweka nakala ya ndani. Wasiliana nasi support@cocoshot.net kwa msaada zaidi. Bado unaweza kurekodi skrini yako.",
+    "message": "Imefeli kuweka nakala ya ndani. Wasiliana nasi the project issue tracker kwa msaada zaidi. Bado unaweza kurekodi skrini yako.",
     "description": "Error message when backup setup fails",
     "placeholders": {
       "supportEmail": {
@@ -1600,7 +1600,7 @@
     }
   },
   "backupBrowserNotSupported": {
-    "message": "Kivinjari chako hakiteuliwi nakala za ndani. Wasiliana nasi support@cocoshot.net kwa msaada zaidi. Bado unaweza kurekodi skrini yako.",
+    "message": "Kivinjari chako hakiteuliwi nakala za ndani. Wasiliana nasi the project issue tracker kwa msaada zaidi. Bado unaweza kurekodi skrini yako.",
     "description": "Error message when browser doesn't support backups",
     "placeholders": {
       "supportEmail": {

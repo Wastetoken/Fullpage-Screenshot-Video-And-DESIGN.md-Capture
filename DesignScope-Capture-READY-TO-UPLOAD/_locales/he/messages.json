@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: צילום מסך ומקליט מסך"
+    "message": "DesignScope: צילום מסך ומקליט מסך"
   },
   "extDescription": {
     "message": "צלם צילומי מסך של דף מלא והקלט מסך ל-MP4 עם הערות. ייצוא PDF עם קישורים לחיצים כלול."
@@ -450,19 +450,19 @@
     "message": "האם לכלול תמונות בהורדה"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "תכונה זו מצריכה את CocoShot Pro"
+    "message": "תכונה זו מצריכה את DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "שדרוג לגרסה Pro"
   },
   "proSaveRestricted": {
-    "message": "שמירה של תוכן זה מצריכה את CocoShot Pro"
+    "message": "שמירה של תוכן זה מצריכה את DesignScope Pro"
   },
   "qv_title": {
-    "message": "תצוגה מקדימה של CocoShot"
+    "message": "תצוגה מקדימה של DesignScope"
   },
   "qv_preview_mode": {
     "message": "מצב תצוגה מקדימה"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "נראה של-CocoShot אין גישה למצלמה או למיקרופון שלך. כדי לפתור בעיה זו, בטל את החסימה בהגדרות הדפדפן שלך והעניק את ההרשאות הנדרשות.",
+    "message": "נראה של-DesignScope אין גישה למצלמה או למיקרופון שלך. כדי לפתור בעיה זו, בטל את החסימה בהגדרות הדפדפן שלך והעניק את ההרשאות הנדרשות.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "ל-CocoShot אין הרשאה להקליט את המסך שלך",
+    "message": "ל-DesignScope אין הרשאה להקליט את המסך שלך",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "כדי שהקלטת מסך תעבוד, עליך לאפשר ל-CocoShot ללכוד את המסך שלך כשתופיע בקשת ההרשאה.",
+    "message": "כדי שהקלטת מסך תעבוד, עליך לאפשר ל-DesignScope ללכוד את המסך שלך כשתופיע בקשת ההרשאה.",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "ברוך הבא ל-CocoShot החדש!",
+    "message": "ברוך הבא ל-DesignScope החדש!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot צריך לפחות 1GB מקום פנוי להקלטה.",
+    "message": "DesignScope צריך לפחות 1GB מקום פנוי להקלטה.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "הקובץ הגולמי מתייחס להקלטה שלא שונתה על ידי CocoShot.",
+    "message": "הקובץ הגולמי מתייחס להקלטה שלא שונתה על ידי DesignScope.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot אינו תואם לכרטיסייה שבה השתמשת.",
+    "message": "DesignScope אינו תואם לכרטיסייה שבה השתמשת.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "הגדר גיבוי מקומי להקלטות CocoShot שלך",
+    "message": "הגדר גיבוי מקומי להקלטות DesignScope שלך",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "אפשר ל-CocoShot להמשיך לגבות הקלטות",
+    "message": "אפשר ל-DesignScope להמשיך לגבות הקלטות",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot Recordings",
+    "message": "DesignScope Recordings",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

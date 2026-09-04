@@ -45,18 +45,6 @@
     "<all_urls>",
     "file://*/*"
   ],
-  "content_scripts": [
-    {
-      "js": [
-        "assets/contentscript.js-loader-8jJAiHza.js"
-      ],
-      "matches": [
-        "*://shot.cococut.net/*",
-        "*://cocoshot.net/*"
-      ],
-      "run_at": "document_start"
-    }
-  ],
   "commands": {
     "capture": {
       "suggested_key": {

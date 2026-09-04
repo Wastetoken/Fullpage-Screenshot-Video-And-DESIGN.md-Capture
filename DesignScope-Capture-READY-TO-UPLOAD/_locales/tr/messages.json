@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Ekran Görüntüsü ve Ekran Kaydedici"
+    "message": "DesignScope: Ekran Görüntüsü ve Ekran Kaydedici"
   },
   "extDescription": {
     "message": "Tam sayfa ekran görüntüleri alın ve açıklamalarla ekranı MP4'e kaydedin. Tıklanabilir bağlantılar içeren PDF dışa aktarımı dahildir."
@@ -450,19 +450,19 @@
     "message": "Görsellerin indirmeye dahil edilip edilmeyeceği"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Bu özellik CocoShot Pro gerektirir"
+    "message": "Bu özellik DesignScope Pro gerektirir"
   },
   "proUpgradeButton": {
     "message": "Pro Sürüme Yükselt"
   },
   "proSaveRestricted": {
-    "message": "Bu içeriği kaydetmek CocoShot Pro gerektirir"
+    "message": "Bu içeriği kaydetmek DesignScope Pro gerektirir"
   },
   "qv_title": {
-    "message": "CocoShot Önizleme"
+    "message": "DesignScope Önizleme"
   },
   "qv_preview_mode": {
     "message": "Önizleme Modu"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot'un kameranıza veya mikrofonunuza erişemediği görünüyor. Bu sorunu çözmek için lütfen tarayıcı ayarlarında engelini kaldırın ve gerekli izinleri verin.",
+    "message": "DesignScope'un kameranıza veya mikrofonunuza erişemediği görünüyor. Bu sorunu çözmek için lütfen tarayıcı ayarlarında engelini kaldırın ve gerekli izinleri verin.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot'un ekranınızı kaydetme izni yok",
+    "message": "DesignScope'un ekranınızı kaydetme izni yok",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "Ekran kaydının çalışması için, izin isteği göründüğünde CocoShot'un ekranınızı yakalamasına izin vermeniz gerekir. (Bunu istediğiniz zaman uzantı ayarlarından iptal edebilirsiniz.)",
+    "message": "Ekran kaydının çalışması için, izin isteği göründüğünde DesignScope'un ekranınızı yakalamasına izin vermeniz gerekir. (Bunu istediğiniz zaman uzantı ayarlarından iptal edebilirsiniz.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Yeni CocoShot'a hoş geldiniz!",
+    "message": "Yeni DesignScope'a hoş geldiniz!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Kayıt işlemi başlatılırken bir hata oluştu. Lütfen tarayıcınızı yeniden başlatın ve tekrar deneyin. Sorun devam ederse, daha fazla yardım için support@cocoshot.net adresinden bizimle iletişime geçin.",
+    "message": "Kayıt işlemi başlatılırken bir hata oluştu. Lütfen tarayıcınızı yeniden başlatın ve tekrar deneyin. Sorun devam ederse, daha fazla yardım için the project issue tracker adresinden bizimle iletişime geçin.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot'un kayıt yapabilmesi için en az 1GB boş alan gerekiyor. Lütfen alan boşaltın ve tekrar deneyin.",
+    "message": "DesignScope'un kayıt yapabilmesi için en az 1GB boş alan gerekiyor. Lütfen alan boşaltın ve tekrar deneyin.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Ham video dosyası, CocoShot tarafından doğrudan oluşturulan değiştirilmemiş kaydı ifade eder. Bu dosya işlenmediği veya düzenlenmediği için oldukça büyük olabilir ve bazı cihazlarla uyumlu olmayabilir. İşlenmiş sürümle sorun yaşarsanız, orijinal kaydınızı almak için bu dosyayı kullanabilirsiniz.",
+    "message": "Ham video dosyası, DesignScope tarafından doğrudan oluşturulan değiştirilmemiş kaydı ifade eder. Bu dosya işlenmediği veya düzenlenmediği için oldukça büyük olabilir ve bazı cihazlarla uyumlu olmayabilir. İşlenmiş sürümle sorun yaşarsanız, orijinal kaydınızı almak için bu dosyayı kullanabilirsiniz.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Dosyayı indirdikten sonra, lütfen yardımcı olabilecek ek ayrıntılarla birlikte support@cocoshot.net adresine gönderin. Bu bilgileri uzantıdaki sorunları çözmenize ve mümkünse videonuzu kurtarmanıza yardımcı olmak için kullanacağız.",
+    "message": "Dosyayı indirdikten sonra, lütfen yardımcı olabilecek ek ayrıntılarla birlikte the project issue tracker adresine gönderin. Bu bilgileri uzantıdaki sorunları çözmenize ve mümkünse videonuzu kurtarmanıza yardımcı olmak için kullanacağız.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "CocoShot gizliliği ön planda tuttuğu ve tamamen cihazınızda yerel olarak çalıştığı için, donanım yeteneklerinizle sınırlıdır. Bu uzunluktaki bir videoyu işlemek çok zaman alacak ve önemli sistem kaynakları gerektirecektir. Yine de WebM dosyasını veya ham kaydı alabilirsiniz, ancak düzenleme özellikleri ve MP4 dışa aktarma erişilebilir olmayacaktır. Ancak olası zorlukların farkındaysanız, videoyu yine de işlemeye devam edebilirsiniz.",
+    "message": "DesignScope gizliliği ön planda tuttuğu ve tamamen cihazınızda yerel olarak çalıştığı için, donanım yeteneklerinizle sınırlıdır. Bu uzunluktaki bir videoyu işlemek çok zaman alacak ve önemli sistem kaynakları gerektirecektir. Yine de WebM dosyasını veya ham kaydı alabilirsiniz, ancak düzenleme özellikleri ve MP4 dışa aktarma erişilebilir olmayacaktır. Ancak olası zorlukların farkındaysanız, videoyu yine de işlemeye devam edebilirsiniz.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot, kullandığınız sekmeyle uyumlu değil. Yine de bu sayfadan kayıt başlatabilir ve ardından o sekmeye dönebilirsiniz, ancak kamera beslemesi ve düzenleme araç çubuğunun görüntülenmeyeceğini lütfen unutmayın.",
+    "message": "DesignScope, kullandığınız sekmeyle uyumlu değil. Yine de bu sayfadan kayıt başlatabilir ve ardından o sekmeye dönebilirsiniz, ancak kamera beslemesi ve düzenleme araç çubuğunun görüntülenmeyeceğini lütfen unutmayın.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "CocoShot kayıtlarınız için yerel bir yedekleme kurun",
+    "message": "DesignScope kayıtlarınız için yerel bir yedekleme kurun",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Lütfen yerel CocoShot yedekleme klasörünüze erişimi yeniden onaylayın",
+    "message": "Lütfen yerel DesignScope yedekleme klasörünüze erişimi yeniden onaylayın",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "CocoShot'un kayıtları yedeklemeye devam etmesine izin ver",
+    "message": "DesignScope'un kayıtları yedeklemeye devam etmesine izin ver",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,11 +1586,11 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot Kayıtları",
+    "message": "DesignScope Kayıtları",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {
-    "message": "Yerel yedekleme kurulumu başarısız oldu. Daha fazla yardım için support@cocoshot.net adresinden bizimle iletişime geçin. Yine de ekranınızı kaydedebilirsiniz.",
+    "message": "Yerel yedekleme kurulumu başarısız oldu. Daha fazla yardım için the project issue tracker adresinden bizimle iletişime geçin. Yine de ekranınızı kaydedebilirsiniz.",
     "description": "Error message when backup setup fails",
     "placeholders": {
       "supportEmail": {
@@ -1600,7 +1600,7 @@
     }
   },
   "backupBrowserNotSupported": {
-    "message": "Tarayıcınız yerel yedeklemeleri desteklemiyor. Daha fazla yardım için support@cocoshot.net adresinden bizimle iletişime geçin. Yine de ekranınızı kaydedebilirsiniz.",
+    "message": "Tarayıcınız yerel yedeklemeleri desteklemiyor. Daha fazla yardım için the project issue tracker adresinden bizimle iletişime geçin. Yine de ekranınızı kaydedebilirsiniz.",
     "description": "Error message when browser doesn't support backups",
     "placeholders": {
       "supportEmail": {

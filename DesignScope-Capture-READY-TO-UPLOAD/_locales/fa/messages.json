@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: اسکرین شات و ضبط صفحه"
+    "message": "DesignScope: اسکرین شات و ضبط صفحه"
   },
   "extDescription": {
     "message": "اسکرین شات های تمام صفحه بگیرید و صفحه را با فرمت MP4 با توضیحات ضبط کنید. صادرات PDF با لینک های قابل کلیک گنجانده شده است."
@@ -450,19 +450,19 @@
     "message": "کیا ڈاؤن لوڈ میں تصاویر شامل کریں"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "اس خصوصیت کے لیے CocoShot Pro درکار ہے"
+    "message": "اس خصوصیت کے لیے DesignScope Pro درکار ہے"
   },
   "proUpgradeButton": {
     "message": "پرو میں اپ گریڈ کریں"
   },
   "proSaveRestricted": {
-    "message": "اس مواد کو محفوظ کرنے کے لیے CocoShot Pro درکار ہے"
+    "message": "اس مواد کو محفوظ کرنے کے لیے DesignScope Pro درکار ہے"
   },
   "qv_title": {
-    "message": "پیش‌نمایش CocoShot"
+    "message": "پیش‌نمایش DesignScope"
   },
   "qv_preview_mode": {
     "message": "حالت پیش‌نمایش"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "به نظر می‌رسد CocoShot نمی‌تواند به دوربین یا میکروفون شما دسترسی پیدا کند. برای حل این مشکل، آن را در تنظیمات مرورگر خود رفع انسداد کنید و مجوزهای لازم را اعطا کنید.",
+    "message": "به نظر می‌رسد DesignScope نمی‌تواند به دوربین یا میکروفون شما دسترسی پیدا کند. برای حل این مشکل، آن را در تنظیمات مرورگر خود رفع انسداد کنید و مجوزهای لازم را اعطا کنید.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot مجوز ضبط صفحه شما را ندارد",
+    "message": "DesignScope مجوز ضبط صفحه شما را ندارد",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "برای عملکرد ضبط صفحه، باید به CocoShot اجازه دهید صفحه شما را هنگام درخواست مجوز ضبط کند.(می‌توانید آن را در هر زمان در تنظیمات برنامه لغو کنید.)",
+    "message": "برای عملکرد ضبط صفحه، باید به DesignScope اجازه دهید صفحه شما را هنگام درخواست مجوز ضبط کند.(می‌توانید آن را در هر زمان در تنظیمات برنامه لغو کنید.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "به CocoShot جدید خوش آمدید!",
+    "message": "به DesignScope جدید خوش آمدید!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "خطایی در شروع فرآیند ضبط رخ داد. لطفاً مرورگر را مجدداً راه‌اندازی کنید و دوباره امتحان کنید. اگر مشکل ادامه داشت، با ما در support@cocoshot.net تماس بگیرید.",
+    "message": "خطایی در شروع فرآیند ضبط رخ داد. لطفاً مرورگر را مجدداً راه‌اندازی کنید و دوباره امتحان کنید. اگر مشکل ادامه داشت، با ما در the project issue tracker تماس بگیرید.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot برای ضبط به حداقل 1 گیگابایت فضای خالی نیاز دارد. لطفاً فضا را خالی کنید و دوباره امتحان کنید.",
+    "message": "DesignScope برای ضبط به حداقل 1 گیگابایت فضای خالی نیاز دارد. لطفاً فضا را خالی کنید و دوباره امتحان کنید.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "فایل ویدیویی خام به ضبط تغییر نکرده‌ای اشاره دارد که مستقیماً توسط CocoShot ایجاد شده است. از آنجایی که این فایل پردازش یا ویرایش نشده است، ممکن است بسیار بزرگ و با برخی دستگاه‌ها ناسازگار باشد. اگر با نسخه پردازش‌شده مشکل دارید، می‌توانید از این فایل برای بازیابی ضبط اصلی خود استفاده کنید.",
+    "message": "فایل ویدیویی خام به ضبط تغییر نکرده‌ای اشاره دارد که مستقیماً توسط DesignScope ایجاد شده است. از آنجایی که این فایل پردازش یا ویرایش نشده است، ممکن است بسیار بزرگ و با برخی دستگاه‌ها ناسازگار باشد. اگر با نسخه پردازش‌شده مشکل دارید، می‌توانید از این فایل برای بازیابی ضبط اصلی خود استفاده کنید.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "پس از دانلود فایل، لطفاً آن را همراه با هرگونه جزئیات اضافی که ممکن است مفید باشند به support@cocoshot.net ارسال کنید. ما از این اطلاعات برای کمک به شما در حل مشکلات برنامه و در صورت امکان بازیابی ویدیوی شما استفاده خواهیم کرد.",
+    "message": "پس از دانلود فایل، لطفاً آن را همراه با هرگونه جزئیات اضافی که ممکن است مفید باشند به the project issue tracker ارسال کنید. ما از این اطلاعات برای کمک به شما در حل مشکلات برنامه و در صورت امکان بازیابی ویدیوی شما استفاده خواهیم کرد.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "از آنجایی که CocoShot حریم خصوصی را در اولویت قرار می‌دهد و کاملاً روی دستگاه محلی شما کار می‌کند، توسط قابلیت‌های سخت‌افزاری شما محدود است. مدیریت ویدیویی با این مدت زمان بسیار وقت‌گیر خواهد بود و به منابع قابل توجهی سیستم نیاز دارد. همچنان می‌توانید فایل WEBM یا ضبط خام را دریافت کنید، اگرچه ویژگی‌های ویرایش و صادرات MP4 در دسترس نخواهند بود. با این حال، اگر از چالش‌های احتمالی آگاه هستید، می‌توانید صرف‌نظر از این موضوع به پردازش ویدیو ادامه دهید.",
+    "message": "از آنجایی که DesignScope حریم خصوصی را در اولویت قرار می‌دهد و کاملاً روی دستگاه محلی شما کار می‌کند، توسط قابلیت‌های سخت‌افزاری شما محدود است. مدیریت ویدیویی با این مدت زمان بسیار وقت‌گیر خواهد بود و به منابع قابل توجهی سیستم نیاز دارد. همچنان می‌توانید فایل WEBM یا ضبط خام را دریافت کنید، اگرچه ویژگی‌های ویرایش و صادرات MP4 در دسترس نخواهند بود. با این حال، اگر از چالش‌های احتمالی آگاه هستید، می‌توانید صرف‌نظر از این موضوع به پردازش ویدیو ادامه دهید.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot با تبی که اخیراً استفاده کردید سازگار نیست. همچنان می‌توانید ضبط را از این صفحه شروع کنید و سپس به آن تب برگردید، اما توجه داشته باشید که فید دوربین و نوار ابزار ویرایش نمایش داده نخواهد شد.",
+    "message": "DesignScope با تبی که اخیراً استفاده کردید سازگار نیست. همچنان می‌توانید ضبط را از این صفحه شروع کنید و سپس به آن تب برگردید، اما توجه داشته باشید که فید دوربین و نوار ابزار ویرایش نمایش داده نخواهد شد.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "یک پشتیبان محلی برای ضبط‌های CocoShot خود تنظیم کنید",
+    "message": "یک پشتیبان محلی برای ضبط‌های DesignScope خود تنظیم کنید",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "لطفاً دسترسی به پوشه پشتیبان محلی CocoShot را تأیید کنید",
+    "message": "لطفاً دسترسی به پوشه پشتیبان محلی DesignScope را تأیید کنید",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "به CocoShot اجازه دهید به پشتیبان‌گیری از ضبط‌ها ادامه دهد",
+    "message": "به DesignScope اجازه دهید به پشتیبان‌گیری از ضبط‌ها ادامه دهد",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "ضبط‌های CocoShot",
+    "message": "ضبط‌های DesignScope",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

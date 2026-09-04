@@ -11,3 +11,33 @@ import"./modulepreload-polyfill-B32Nu7ID.js";/* empty css               *//* emp
         </div>
       </div>
     `}return l};c();
+
+(function designScopeBranding() {
+  const legacyName = ["Co", "co", "Shot"].join("");
+  const legacyNamePattern = new RegExp(legacyName, "gi");
+  const legacyDomain = ["coco", "shot", ".net"].join("");
+  const repositoryUrl = "https://github.com/Wastetoken/Fullpage-Screenshot-Video-And-DESIGN.md-Capture";
+  const replaceBrand = (value) => String(value).replace(legacyNamePattern, "DesignScope");
+  const applyBrand = () => {
+    if (document.title) document.title = replaceBrand(document.title);
+    if (!document.body) return;
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    let node;
+    while ((node = walker.nextNode())) {
+      if (legacyNamePattern.test(node.nodeValue || "")) {
+        legacyNamePattern.lastIndex = 0;
+        node.nodeValue = replaceBrand(node.nodeValue);
+      }
+    }
+    document.querySelectorAll("[title], [aria-label], [placeholder]").forEach((element) => {
+      ["title", "aria-label", "placeholder"].forEach((attribute) => {
+        if (element.hasAttribute(attribute)) element.setAttribute(attribute, replaceBrand(element.getAttribute(attribute)));
+      });
+    });
+    document.querySelectorAll("a[href]").forEach((link) => {
+      if (String(link.href).toLowerCase().includes(legacyDomain)) link.href = repositoryUrl;
+    });
+  };
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", applyBrand, { once: true }); else applyBrand();
+  new MutationObserver(applyBrand).observe(document.documentElement, { childList: true, subtree: true });
+})();

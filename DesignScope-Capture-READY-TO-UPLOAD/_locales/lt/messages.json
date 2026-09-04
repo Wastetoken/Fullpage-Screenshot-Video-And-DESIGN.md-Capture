@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: ekrano kopija ir ekrano įrašymo įrenginys"
+    "message": "DesignScope: ekrano kopija ir ekrano įrašymo įrenginys"
   },
   "extDescription": {
     "message": "Užfiksuokite viso puslapio ekrano kopijas ir įrašykite ekraną į MP4 su komentarais. Įtrauktas PDF eksportavimas su spustelėjamomi..."
@@ -450,19 +450,19 @@
     "message": "Ar įtraukti paveikslėlius į atsisiuntimą"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Šiai funkcijai reikia „CocoShot Pro“"
+    "message": "Šiai funkcijai reikia „DesignScope Pro“"
   },
   "proUpgradeButton": {
     "message": "Atnaujinti į Pro versiją"
   },
   "proSaveRestricted": {
-    "message": "Norint išsaugoti šį turinį, reikia „CocoShot Pro“"
+    "message": "Norint išsaugoti šį turinį, reikia „DesignScope Pro“"
   },
   "qv_title": {
-    "message": "CocoShot peržiūra"
+    "message": "DesignScope peržiūra"
   },
   "qv_preview_mode": {
     "message": "Peržiūros režimas"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot atrodo, kad negali pasiekti jūsų kameros ar mikrofono. Norėdami išspręsti šią problemą, atblokuokite ją naršyklės nustatymuose ir suteikite reikalingus leidimus.",
+    "message": "DesignScope atrodo, kad negali pasiekti jūsų kameros ar mikrofono. Norėdami išspręsti šią problemą, atblokuokite ją naršyklės nustatymuose ir suteikite reikalingus leidimus.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "„CocoShot neturi leidimo įrašyti jūsų ekraną",
+    "message": "„DesignScope neturi leidimo įrašyti jūsų ekraną",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "Kad veiktų ekrano įrašymas, turėsite leisti „CocoShot įrašyti jūsų ekraną, kai pasirodys leidimo užklausa. (Galite bet kada atšaukti plėtinio nustatymuose.)",
+    "message": "Kad veiktų ekrano įrašymas, turėsite leisti „DesignScope įrašyti jūsų ekraną, kai pasirodys leidimo užklausa. (Galite bet kada atšaukti plėtinio nustatymuose.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Sveiki atvykę į naująjį „CocoShot!",
+    "message": "Sveiki atvykę į naująjį „DesignScope!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Įvyko klaida pradedant įrašymo procesą. Paleiskite naršyklę iš naujo ir bandykite dar kartą. Jei problema nesibaigia, susisiekite su mumis adresu support@cocoshot.net.",
+    "message": "Įvyko klaida pradedant įrašymo procesą. Paleiskite naršyklę iš naujo ir bandykite dar kartą. Jei problema nesibaigia, susisiekite su mumis adresu the project issue tracker.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "„CocoShot reikia bent 1 GB laisvos vietos įrašymui. Atlaisvinkite vietos ir bandykite dar kartą.",
+    "message": "„DesignScope reikia bent 1 GB laisvos vietos įrašymui. Atlaisvinkite vietos ir bandykite dar kartą.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Žalias vaizdo failas reiškia nepakeistą įrašą, kurį sukūrė tiesiogiai „CocoShot. Kadangi šis failas nebuvo apdorotas ar redaguotas, jis gali būti gana didelis ir nesuderinamas su kai kuriais įrenginiais. Jei kyla problemų su apdorota versija, galite naudoti šį failą, jei norite susigrąžinti originalų įrašą.",
+    "message": "Žalias vaizdo failas reiškia nepakeistą įrašą, kurį sukūrė tiesiogiai „DesignScope. Kadangi šis failas nebuvo apdorotas ar redaguotas, jis gali būti gana didelis ir nesuderinamas su kai kuriais įrenginiais. Jei kyla problemų su apdorota versija, galite naudoti šį failą, jei norite susigrąžinti originalų įrašą.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Atsisiuntę failą, išsiųskite jį į support@cocoshot.net kartu su bet kokia papildoma informacija, kuri gali padėti. Naudosime šią informaciją jums padėti išspręsti problemas su plėtiniu ir, jei įmanoma, atkurti jūsų vaizdo įrašą.",
+    "message": "Atsisiuntę failą, išsiųskite jį į the project issue tracker kartu su bet kokia papildoma informacija, kuri gali padėti. Naudosime šią informaciją jums padėti išspręsti problemas su plėtiniu ir, jei įmanoma, atkurti jūsų vaizdo įrašą.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Kadangi „CocoShot teikia pirmenybę privatumui ir veikia visiškai jūsų vietiniame įrenginyje, jis yra susietas su jūsų techninės įrangos galimybėmis. Tokios trukmės vaizdo įrašo tvarkymas būtų pernelyg daug laiko reikalaujantis ir reikalautų didelių sistemos išteklių. Vis tiek galite gauti WEBM failą arba žalią įrašą, nors redagavimo funkcijos ir MP4 eksportas nebus prieinami. Tačiau jei žinote apie galimus iššūkius, galite tęsti vaizdo įrašo apdorojimą.",
+    "message": "Kadangi „DesignScope teikia pirmenybę privatumui ir veikia visiškai jūsų vietiniame įrenginyje, jis yra susietas su jūsų techninės įrangos galimybėmis. Tokios trukmės vaizdo įrašo tvarkymas būtų pernelyg daug laiko reikalaujantis ir reikalautų didelių sistemos išteklių. Vis tiek galite gauti WEBM failą arba žalią įrašą, nors redagavimo funkcijos ir MP4 eksportas nebus prieinami. Tačiau jei žinote apie galimus iššūkius, galite tęsti vaizdo įrašo apdorojimą.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "„CocoShot nesuderinamas su skirtuku, kurį ką tik naudojote. Vis tiek galite pradėti įrašymą iš šio puslapio ir grįžti į tą skirtuką, bet atkreipkite dėmesį, kad jūsų kameros rodinys ir redagavimo įrankių juosta nebus rodomi.",
+    "message": "„DesignScope nesuderinamas su skirtuku, kurį ką tik naudojote. Vis tiek galite pradėti įrašymą iš šio puslapio ir grįžti į tą skirtuką, bet atkreipkite dėmesį, kad jūsų kameros rodinys ir redagavimo įrankių juosta nebus rodomi.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Nustatykite vietinę atsarginę kopiją savo „CocoShot įrašams",
+    "message": "Nustatykite vietinę atsarginę kopiją savo „DesignScope įrašams",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Patvirtinkite prieigą prie vietinės „CocoShot atsarginės kopijos aplanko",
+    "message": "Patvirtinkite prieigą prie vietinės „DesignScope atsarginės kopijos aplanko",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Leisti „CocoShot tęsti įrašų atsarginį kopijavimą",
+    "message": "Leisti „DesignScope tęsti įrašų atsarginį kopijavimą",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "„CocoShot įrašai",
+    "message": "„DesignScope įrašai",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

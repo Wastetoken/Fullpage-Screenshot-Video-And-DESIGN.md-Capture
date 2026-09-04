@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: ቅጽበታዊ ገጽ እይታ እና ማያ መቅጃ"
+    "message": "DesignScope: ቅጽበታዊ ገጽ እይታ እና ማያ መቅጃ"
   },
   "extDescription": {
     "message": "ሙሉ ገጽ ቅጽበታዊ ገጽ እይታዎችን ያንሱ እና ማያ ገጹን በMP4 ወደ ማብራሪያዎች ይቅረጹ። ጠቅ ሊደረጉ የሚችሉ አገናኞች ያለው የፒዲኤፍ መላክ ተካትቷል።"
@@ -450,19 +450,19 @@
     "message": "ፎቶዎች በማውረድ ውስጥ መካተት አለባቸው"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "ይህ ባህሪ ለመተግበር CocoShot Pro ያስፈልገዋል"
+    "message": "ይህ ባህሪ ለመተግበር DesignScope Pro ያስፈልገዋል"
   },
   "proUpgradeButton": {
     "message": "ወደ ፕሮ ደረጃ ያሻሽሉ"
   },
   "proSaveRestricted": {
-    "message": "ይህንን ይዘት ለማስቀመጥ CocoShot Pro ያስፈልገዋል"
+    "message": "ይህንን ይዘት ለማስቀመጥ DesignScope Pro ያስፈልገዋል"
   },
   "qv_title": {
-    "message": "CocoShot ቅድመ-እይታ"
+    "message": "DesignScope ቅድመ-እይታ"
   },
   "qv_preview_mode": {
     "message": "የቅድመ-እይታ ሁነታ"
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "መቅዳት ሂደት ሲጀምር ስህተት አገኘ። እባክዎ በረራዎን እንደገና ያስጀምሩ። ችግሩ ቢቀጥል፣ በ support@cocoshot.net ይደወሉ።",
+    "message": "መቅዳት ሂደት ሲጀምር ስህተት አገኘ። እባክዎ በረራዎን እንደገና ያስጀምሩ። ችግሩ ቢቀጥል፣ በ the project issue tracker ይደወሉ።",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "ፋይሉን ካወረድክ በኋላ፣ እባክዎ ከማንኛውም ተጨማሪ ዝርዝር ጋር ወደ support@cocoshot.net ላክ። ይህንን መረጃ ተጠቅመን በተጨማሪ እና በማስተካከል ችግሮች ለመፍታት ይጠቀማል፣ እና ቪድዮዎን ማግኘት ካለተቻለም።",
+    "message": "ፋይሉን ካወረድክ በኋላ፣ እባክዎ ከማንኛውም ተጨማሪ ዝርዝር ጋር ወደ the project issue tracker ላክ። ይህንን መረጃ ተጠቅመን በተጨማሪ እና በማስተካከል ችግሮች ለመፍታት ይጠቀማል፣ እና ቪድዮዎን ማግኘት ካለተቻለም።",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {

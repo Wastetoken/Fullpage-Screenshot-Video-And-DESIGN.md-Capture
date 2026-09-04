@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Chụp màn hình & Ghi màn hình"
+    "message": "DesignScope: Chụp màn hình & Ghi màn hình"
   },
   "extDescription": {
     "message": "Chụp ảnh màn hình toàn trang và ghi lại màn hình sang MP4 có chú thích. Xuất PDF với các liên kết có thể nhấp được bao gồm."
@@ -450,19 +450,19 @@
     "message": "Có bao gồm hình ảnh trong bản tải về hay không"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Tính năng này yêu cầu CocoShot Pro"
+    "message": "Tính năng này yêu cầu DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "Nâng cấp lên Pro"
   },
   "proSaveRestricted": {
-    "message": "Lưu nội dung này yêu cầu CocoShot Pro"
+    "message": "Lưu nội dung này yêu cầu DesignScope Pro"
   },
   "qv_title": {
-    "message": "Xem trước CocoShot"
+    "message": "Xem trước DesignScope"
   },
   "qv_preview_mode": {
     "message": "Chế độ xem trước"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot dường như không thể truy cập máy ảnh hoặc mic của bạn. Để giải quyết vấn đề này, vui lòng bỏ chặn trong cài đặt trình duyệt và cấp các quyền cần thiết.",
+    "message": "DesignScope dường như không thể truy cập máy ảnh hoặc mic của bạn. Để giải quyết vấn đề này, vui lòng bỏ chặn trong cài đặt trình duyệt và cấp các quyền cần thiết.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot không có quyền ghi hình màn hình của bạn",
+    "message": "DesignScope không có quyền ghi hình màn hình của bạn",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "�ể ghi hình màn hình hoạt động, bạn cần cho phép CocoShot ghi hình màn hình khi xuất hiện yêu cầu quyền. (Bạn có thể thu hồi bất kỳ lúc nào trong cài đặt tiện ích mở rộng.)",
+    "message": "�ể ghi hình màn hình hoạt động, bạn cần cho phép DesignScope ghi hình màn hình khi xuất hiện yêu cầu quyền. (Bạn có thể thu hồi bất kỳ lúc nào trong cài đặt tiện ích mở rộng.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Chào mừng đến với CocoShot mới!",
+    "message": "Chào mừng đến với DesignScope mới!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Đã xảy ra lỗi khi bắt đầu quy trình ghi hình. Vui lòng khởi động lại trình duyệt và thử lại. Nếu vấn đề tiếp tục, hãy liên hệ với chúng tôi tại support@cocoshot.net để được hỗ trợ thêm.",
+    "message": "Đã xảy ra lỗi khi bắt đầu quy trình ghi hình. Vui lòng khởi động lại trình duyệt và thử lại. Nếu vấn đề tiếp tục, hãy liên hệ với chúng tôi tại the project issue tracker để được hỗ trợ thêm.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot cần ít nhất 1GB dung lượng trống để ghi hình. Vui lòng giải phóng một số không gian và thử lại.",
+    "message": "DesignScope cần ít nhất 1GB dung lượng trống để ghi hình. Vui lòng giải phóng một số không gian và thử lại.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Tệp video thô đề cập đến dữ liệu ghi hình không thay đổi được tạo trực tiếp bởi CocoShot. Vì tệp này chưa được xử lý hoặc chỉnh sửa, nó có thể khá lớn và không tương thích với một số thiết bị. Nếu bạn gặp vấn đề với phiên bản đã xử lý, bạn có thể sử dụng tệp này để truy xuất ghi hình gốc của mình.",
+    "message": "Tệp video thô đề cập đến dữ liệu ghi hình không thay đổi được tạo trực tiếp bởi DesignScope. Vì tệp này chưa được xử lý hoặc chỉnh sửa, nó có thể khá lớn và không tương thích với một số thiết bị. Nếu bạn gặp vấn đề với phiên bản đã xử lý, bạn có thể sử dụng tệp này để truy xuất ghi hình gốc của mình.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Sau khi bạn đã tải xuống tệp, vui lòng gửi nó đến support@cocoshot.net cùng với bất kỳ chi tiết bổ sung nào có thể hữu ích. Chúng tôi sẽ sử dụng thông tin này để hỗ trợ bạn giải quyết các vấn đề với tiện ích mở rộng và, nếu có thể, khôi phục video của bạn.",
+    "message": "Sau khi bạn đã tải xuống tệp, vui lòng gửi nó đến the project issue tracker cùng với bất kỳ chi tiết bổ sung nào có thể hữu ích. Chúng tôi sẽ sử dụng thông tin này để hỗ trợ bạn giải quyết các vấn đề với tiện ích mở rộng và, nếu có thể, khôi phục video của bạn.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Vì CocoShot ưu tiên quyền riêng tư và hoạt động hoàn toàn trên thiết bị cục bộ của bạn, nó bị giới hạn bởi khả năng phần cứng. Xử lý một video có thời lượng như vậy sẽ tốn quá nhiều thời gian và đòi hỏi nhiều tài nguyên hệ thống. Bạn vẫn có thể lấy tệp WEBM hoặc ghi hình thô, mặc dù các tính năng chỉnh sửa và xuất MP4 sẽ không thể truy cập. Tuy nhiên, nếu bạn nhận thức được những thách thức tiềm năng, bạn có thể tiếp tục xử lý video.",
+    "message": "Vì DesignScope ưu tiên quyền riêng tư và hoạt động hoàn toàn trên thiết bị cục bộ của bạn, nó bị giới hạn bởi khả năng phần cứng. Xử lý một video có thời lượng như vậy sẽ tốn quá nhiều thời gian và đòi hỏi nhiều tài nguyên hệ thống. Bạn vẫn có thể lấy tệp WEBM hoặc ghi hình thô, mặc dù các tính năng chỉnh sửa và xuất MP4 sẽ không thể truy cập. Tuy nhiên, nếu bạn nhận thức được những thách thức tiềm năng, bạn có thể tiếp tục xử lý video.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot không tương thích với tab bạn vừa sử dụng. Bạn vẫn có thể bắt đầu ghi hình từ trang này rồi quay lại tab đó, nhưng xin lưu ý rằng nguồn cấp dữ liệu máy ảnh và thanh công cụ chỉnh sửa sẽ không hiển thị.",
+    "message": "DesignScope không tương thích với tab bạn vừa sử dụng. Bạn vẫn có thể bắt đầu ghi hình từ trang này rồi quay lại tab đó, nhưng xin lưu ý rằng nguồn cấp dữ liệu máy ảnh và thanh công cụ chỉnh sửa sẽ không hiển thị.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Thiết lập bản sao lưu cục bộ cho các ghi hình CocoShot của bạn",
+    "message": "Thiết lập bản sao lưu cục bộ cho các ghi hình DesignScope của bạn",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Vui lòng xác nhận lại quyền truy cập vào thư mục sao lưu cục bộ CocoShot của bạn",
+    "message": "Vui lòng xác nhận lại quyền truy cập vào thư mục sao lưu cục bộ DesignScope của bạn",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Cho phép CocoShot tiếp tục sao lưu các ghi hình",
+    "message": "Cho phép DesignScope tiếp tục sao lưu các ghi hình",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,11 +1586,11 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "Bản ghi CocoShot",
+    "message": "Bản ghi DesignScope",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {
-    "message": "Thiết lập bản sao lưu cục bộ thất bại. Liên hệ với chúng tôi tại support@cocoshot.net để được hỗ trợ thêm. Bạn vẫn có thể ghi hình màn hình.",
+    "message": "Thiết lập bản sao lưu cục bộ thất bại. Liên hệ với chúng tôi tại the project issue tracker để được hỗ trợ thêm. Bạn vẫn có thể ghi hình màn hình.",
     "description": "Error message when backup setup fails",
     "placeholders": {
       "supportEmail": {
@@ -1600,7 +1600,7 @@
     }
   },
   "backupBrowserNotSupported": {
-    "message": "Trình duyệt của bạn không hỗ trợ bản sao lưu cục bộ. Liên hệ với chúng tôi tại support@cocoshot.net để được hỗ trợ thêm. Bạn vẫn có thể ghi hình màn hình.",
+    "message": "Trình duyệt của bạn không hỗ trợ bản sao lưu cục bộ. Liên hệ với chúng tôi tại the project issue tracker để được hỗ trợ thêm. Bạn vẫn có thể ghi hình màn hình.",
     "description": "Error message when browser doesn't support backups",
     "placeholders": {
       "supportEmail": {

@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Знімок екрана та запис екрана"
+    "message": "DesignScope: Знімок екрана та запис екрана"
   },
   "extDescription": {
     "message": "Робіть скріншоти повної сторінки та записуйте екран у MP4 з анотаціями. Експорт PDF із посиланнями, які можна натиснути."
@@ -450,19 +450,19 @@
     "message": "Чи включати зображення до завантаження"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Для цієї функції потрібно CocoShot Pro"
+    "message": "Для цієї функції потрібно DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "Оновити до Pro"
   },
   "proSaveRestricted": {
-    "message": "Для збереження цього вмісту потрібно CocoShot Pro"
+    "message": "Для збереження цього вмісту потрібно DesignScope Pro"
   },
   "qv_title": {
-    "message": "Предпросмотр CocoShot"
+    "message": "Предпросмотр DesignScope"
   },
   "qv_preview_mode": {
     "message": "Режим передпрогляду"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "Здається, CocoShot не може отримати доступ до вашої камери або мікрофона. Щоб вирішити цю проблему, будь ласка, розблокуйте його в налаштуваннях браузера та надайте необхідні дозволи.",
+    "message": "Здається, DesignScope не може отримати доступ до вашої камери або мікрофона. Щоб вирішити цю проблему, будь ласка, розблокуйте його в налаштуваннях браузера та надайте необхідні дозволи.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot не має дозволу записувати ваш екран",
+    "message": "DesignScope не має дозволу записувати ваш екран",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "Для роботи запису екрану вам потрібно дозволити CocoShot захоплювати ваш екран, коли з'явиться запит на дозвіл.(Ви можете скасувати його в будь-який час у налаштуваннях розширення.)",
+    "message": "Для роботи запису екрану вам потрібно дозволити DesignScope захоплювати ваш екран, коли з'явиться запит на дозвіл.(Ви можете скасувати його в будь-який час у налаштуваннях розширення.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Ласкаво просимо до нової версії CocoShot!",
+    "message": "Ласкаво просимо до нової версії DesignScope!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Виникла помилка під час запуску процесу запису. Будь ласка, перезапустіть браузер і спробуйте ще раз. Якщо проблема продовжується, зв'яжіться з нами за адресою support@cocoshot.net для отримання додаткової допомоги.",
+    "message": "Виникла помилка під час запуску процесу запису. Будь ласка, перезапустіть браузер і спробуйте ще раз. Якщо проблема продовжується, зв'яжіться з нами за адресою the project issue tracker для отримання додаткової допомоги.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot потребує принаймні 1 ГБ вільного місця для запису. Будь ласка, звільніть місце та спробуйте ще раз.",
+    "message": "DesignScope потребує принаймні 1 ГБ вільного місця для запису. Будь ласка, звільніть місце та спробуйте ще раз.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Необроблений відеофайл відноситься до запису без змін, створеного безпосередньо CocoShot. Оскільки цей файл не був оброблений або відредагований, він може бути досить великим і несумісним з деякими пристроями. Якщо у вас виникнуть проблеми з обробленою версією, ви можете використати цей файл для отримання оригінального запису.",
+    "message": "Необроблений відеофайл відноситься до запису без змін, створеного безпосередньо DesignScope. Оскільки цей файл не був оброблений або відредагований, він може бути досить великим і несумісним з деякими пристроями. Якщо у вас виникнуть проблеми з обробленою версією, ви можете використати цей файл для отримання оригінального запису.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Завантаживши файл, будь ласка, надішліть його на support@cocoshot.net разом з будь-якими додатковими деталями, які можуть бути корисними. Ми використаємо цю інформацію, щоб допомогти вам вирішити будь-які проблеми з розширенням і, якщо можливо, відновити ваше відео.",
+    "message": "Завантаживши файл, будь ласка, надішліть його на the project issue tracker разом з будь-якими додатковими деталями, які можуть бути корисними. Ми використаємо цю інформацію, щоб допомогти вам вирішити будь-які проблеми з розширенням і, якщо можливо, відновити ваше відео.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Оскільки CocoShot надає пріоритет конфіденційності та працює повністю на вашому локальному пристрої, він обмежений можливостями вашого обладнання. Обробка відео такої тривалості займе надто багато часу та потребуватиме значних системних ресурсів. Ви все ще можете отримати файл WEBM або необроблений запис, хоча функції редагування та експорту MP4 не будуть доступні. Однак, якщо ви усвідомлюєте потенційні труднощі, ви можете продовжити обробку відео в будь-якому випадку.",
+    "message": "Оскільки DesignScope надає пріоритет конфіденційності та працює повністю на вашому локальному пристрої, він обмежений можливостями вашого обладнання. Обробка відео такої тривалості займе надто багато часу та потребуватиме значних системних ресурсів. Ви все ще можете отримати файл WEBM або необроблений запис, хоча функції редагування та експорту MP4 не будуть доступні. Однак, якщо ви усвідомлюєте потенційні труднощі, ви можете продовжити обробку відео в будь-якому випадку.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot не сумісний з вкладкою, яку ви щойно використовували. Ви все ще можете ініціювати запис з цієї сторінки, а потім повернутися до цієї вкладки, але майте на увазі, що трансляція камери та панель інструментів редагування не відображатимуться.",
+    "message": "DesignScope не сумісний з вкладкою, яку ви щойно використовували. Ви все ще можете ініціювати запис з цієї сторінки, а потім повернутися до цієї вкладки, але майте на увазі, що трансляція камери та панель інструментів редагування не відображатимуться.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Налаштуйте локальне резервне копіювання для записів CocoShot",
+    "message": "Налаштуйте локальне резервне копіювання для записів DesignScope",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Будь ласка, підтвердіть доступ до локальної папки резервного копіювання CocoShot",
+    "message": "Будь ласка, підтвердіть доступ до локальної папки резервного копіювання DesignScope",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Дозволити CocoShot продовжувати резервне копіювання записів",
+    "message": "Дозволити DesignScope продовжувати резервне копіювання записів",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,11 +1586,11 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "Записи CocoShot",
+    "message": "Записи DesignScope",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {
-    "message": "Не вдалося налаштувати локальне резервне копіювання. Зверніться до нас за адресою support@cocoshot.net для отримання додаткової допомоги. Ви все ще можете записувати екран.",
+    "message": "Не вдалося налаштувати локальне резервне копіювання. Зверніться до нас за адресою the project issue tracker для отримання додаткової допомоги. Ви все ще можете записувати екран.",
     "description": "Error message when backup setup fails",
     "placeholders": {
       "supportEmail": {
@@ -1600,7 +1600,7 @@
     }
   },
   "backupBrowserNotSupported": {
-    "message": "Ваш браузер не підтримує локальне резервне копіювання. Зверніться до нас за адресою support@cocoshot.net для отримання додаткової допомоги. Ви все ще можете записувати екран.",
+    "message": "Ваш браузер не підтримує локальне резервне копіювання. Зверніться до нас за адресою the project issue tracker для отримання додаткової допомоги. Ви все ще можете записувати екран.",
     "description": "Error message when browser doesn't support backups",
     "placeholders": {
       "supportEmail": {

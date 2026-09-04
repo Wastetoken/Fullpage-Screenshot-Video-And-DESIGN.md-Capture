@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: captura de pantalla i gravadora de pantalla"
+    "message": "DesignScope: captura de pantalla i gravadora de pantalla"
   },
   "extDescription": {
     "message": "Captureu captures de pantalla de pàgina completa i graveu la pantalla a MP4 amb anotacions. Exportació de PDF amb enllaços clicab..."
@@ -450,19 +450,19 @@
     "message": "Si s'han d'incloure imatges a la descàrrega"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Aquesta funció requereix CocoShot Pro"
+    "message": "Aquesta funció requereix DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "Actualitzar a Pro"
   },
   "proSaveRestricted": {
-    "message": "Per desar aquest contingut cal CocoShot Pro"
+    "message": "Per desar aquest contingut cal DesignScope Pro"
   },
   "qv_title": {
-    "message": "Vista prèvia de CocoShot"
+    "message": "Vista prèvia de DesignScope"
   },
   "qv_preview_mode": {
     "message": "Mode de vista prèvia"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "Sembla que CocoShot no pot accedir a la càmera o al micròfon. Per resoldre-ho, desblogueu-lo a la configuració del navegador i atorgueu els permisos necessaris.",
+    "message": "Sembla que DesignScope no pot accedir a la càmera o al micròfon. Per resoldre-ho, desblogueu-lo a la configuració del navegador i atorgueu els permisos necessaris.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot no té permís per gravar la vostra pantalla",
+    "message": "DesignScope no té permís per gravar la vostra pantalla",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "Perquè la gravació de pantalla funcioni, haureu de permetre que CocoShot capturi la vostra pantalla quan aparegui la sol·licitud de permís. (Podeu revocar-lo en qualsevol moment a la configuració de l'extensió.)",
+    "message": "Perquè la gravació de pantalla funcioni, haureu de permetre que DesignScope capturi la vostra pantalla quan aparegui la sol·licitud de permís. (Podeu revocar-lo en qualsevol moment a la configuració de l'extensió.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Benvinguts al nou CocoShot!",
+    "message": "Benvinguts al nou DesignScope!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "S'ha produït un error en iniciar el procés de gravació. Reinicieu el navegador i torneu a provar. Si el problema continua, contacteu-nos a support@cocoshot.net per obtenir més assistència.",
+    "message": "S'ha produït un error en iniciar el procés de gravació. Reinicieu el navegador i torneu a provar. Si el problema continua, contacteu-nos a the project issue tracker per obtenir més assistència.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot necessita almenys 1GB d'espai lliure per gravar. Allibereu una mica d'espai i torneu a provar.",
+    "message": "DesignScope necessita almenys 1GB d'espai lliure per gravar. Allibereu una mica d'espai i torneu a provar.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "El fitxer de vídeo en brut es refereix a les dades de gravació inalterades creades directament per CocoShot. Com que aquest fitxer no s'ha processat ni editat, pot ser força gran i incompatible amb alguns dispositius. Si trobeu problemes amb la versió processada, podeu utilitzar aquest fitxer per recuperar la gravació original.",
+    "message": "El fitxer de vídeo en brut es refereix a les dades de gravació inalterades creades directament per DesignScope. Com que aquest fitxer no s'ha processat ni editat, pot ser força gran i incompatible amb alguns dispositius. Si trobeu problemes amb la versió processada, podeu utilitzar aquest fitxer per recuperar la gravació original.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Un cop hagueu descarregat el fitxer, envieu-lo a support@cocoshot.net juntament amb qualsevol detall addicional que pugui ser útil. Utilitzarem aquesta informació per ajudar-vos a resoldre problemes amb l'extensió i, si és possible, recuperar el vostre vídeo.",
+    "message": "Un cop hagueu descarregat el fitxer, envieu-lo a the project issue tracker juntament amb qualsevol detall addicional que pugui ser útil. Utilitzarem aquesta informació per ajudar-vos a resoldre problemes amb l'extensió i, si és possible, recuperar el vostre vídeo.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Com que CocoShot prioritza la privadesa i opera completament al vostre dispositiu local, està limitat per les capacitats del vostre maquinari. Processar un vídeo d'aquesta durada requerirà massa temps i recursos significatius del sistema. Encara podeu obtenir el fitxer WEBM o la gravació en brut, encara que les funcions d'edició i l'exportació MP4 no estaran disponibles. Tanmateix, si esteu assabentats dels reptes potencials, podeu procedir amb el processament del vídeo.",
+    "message": "Com que DesignScope prioritza la privadesa i opera completament al vostre dispositiu local, està limitat per les capacitats del vostre maquinari. Processar un vídeo d'aquesta durada requerirà massa temps i recursos significatius del sistema. Encara podeu obtenir el fitxer WEBM o la gravació en brut, encara que les funcions d'edició i l'exportació MP4 no estaran disponibles. Tanmateix, si esteu assabentats dels reptes potencials, podeu procedir amb el processament del vídeo.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot no és compatible amb la pestanya que heu estat utilitzant. Podeu iniciar la gravació des d'aquesta pàgina i tornar a aquella pestanya, però tingueu en compte que la font de la càmera i la barra d'eines d'edició no es mostraran.",
+    "message": "DesignScope no és compatible amb la pestanya que heu estat utilitzant. Podeu iniciar la gravació des d'aquesta pàgina i tornar a aquella pestanya, però tingueu en compte que la font de la càmera i la barra d'eines d'edició no es mostraran.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Configurar una còpia de seguretat local per a les gravacions de CocoShot",
+    "message": "Configurar una còpia de seguretat local per a les gravacions de DesignScope",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Confirmeu de nou l'accés a la carpeta de còpia de seguretat local de CocoShot",
+    "message": "Confirmeu de nou l'accés a la carpeta de còpia de seguretat local de DesignScope",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Permetre que CocoShot continuï fent còpies de seguretat de les gravacions",
+    "message": "Permetre que DesignScope continuï fent còpies de seguretat de les gravacions",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,11 +1586,11 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "Gravacions de CocoShot",
+    "message": "Gravacions de DesignScope",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {
-    "message": "Error en configurar la còpia de seguretat local. Contacteu-nos a support@cocoshot.net per més ajuda. Encara podeu gravar la pantalla.",
+    "message": "Error en configurar la còpia de seguretat local. Contacteu-nos a the project issue tracker per més ajuda. Encara podeu gravar la pantalla.",
     "description": "Error message when backup setup fails",
     "placeholders": {
       "supportEmail": {
@@ -1600,7 +1600,7 @@
     }
   },
   "backupBrowserNotSupported": {
-    "message": "El vostre navegador no suporta còpies de seguretat locals. Contacteu-nos a support@cocoshot.net per més ajuda. Encara podeu gravar la pantalla.",
+    "message": "El vostre navegador no suporta còpies de seguretat locals. Contacteu-nos a the project issue tracker per més ajuda. Encara podeu gravar la pantalla.",
     "description": "Error message when browser doesn't support backups",
     "placeholders": {
       "supportEmail": {

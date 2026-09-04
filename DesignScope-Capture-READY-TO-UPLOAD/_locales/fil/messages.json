@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Screenshot at Screen Recorder"
+    "message": "DesignScope: Screenshot at Screen Recorder"
   },
   "extDescription": {
     "message": "Kumuha ng buong pahinang mga screenshot at i-record ang screen sa MP4 na may mga anotasyon. Kasama ang pag-export ng PDF na may m..."
@@ -450,19 +450,19 @@
     "message": "Kung isasama ang mga larawan sa pag-download"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Nangangailangan ang tampok na ito ng CocoShot Pro"
+    "message": "Nangangailangan ang tampok na ito ng DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "I-upgrade sa Pro"
   },
   "proSaveRestricted": {
-    "message": "Nangangailangan ang pag-save ng content na ito ng CocoShot Pro"
+    "message": "Nangangailangan ang pag-save ng content na ito ng DesignScope Pro"
   },
   "qv_title": {
-    "message": "CocoShot Preview"
+    "message": "DesignScope Preview"
   },
   "qv_preview_mode": {
     "message": "Preview Mode"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot ei näytä pääsevän käyttämään kameraasi tai mikrofoniasi. Ratkaise tämä ongelma poistamalla esto selaimen asetuksista ja myönnä tarvittavat käyttöoikeudet.",
+    "message": "DesignScope ei näytä pääsevän käyttämään kameraasi tai mikrofoniasi. Ratkaise tämä ongelma poistamalla esto selaimen asetuksista ja myönnä tarvittavat käyttöoikeudet.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShotilla ei ole lupaa tallentaa näyttöäsi",
+    "message": "DesignScopeilla ei ole lupaa tallentaa näyttöäsi",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "Jotta näytön tallennus toimisi, sinun on sallittava CocoShotin kaapata näyttösi, kun käyttöoikeuspyyntö tulee näkyviin.(Voit peruuttaa sen milloin tahansa laajennuksen asetuksissa.)",
+    "message": "Jotta näytön tallennus toimisi, sinun on sallittava DesignScopein kaapata näyttösi, kun käyttöoikeuspyyntö tulee näkyviin.(Voit peruuttaa sen milloin tahansa laajennuksen asetuksissa.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Tervetuloa uuteen CocoShottiin!",
+    "message": "Tervetuloa uuteen DesignScopetiin!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Tallennusprosessin käynnistämisessä tapahtui virhe. Käynnistä selain uudelleen ja yritä uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä osoitteessa support@cocoshot.net.",
+    "message": "Tallennusprosessin käynnistämisessä tapahtui virhe. Käynnistä selain uudelleen ja yritä uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä osoitteessa the project issue tracker.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot tarvitsee vähintään 1GB vapaata tilaa tallennukseen. Vapauta tilaa ja yritä uudelleen.",
+    "message": "DesignScope tarvitsee vähintään 1GB vapaata tilaa tallennukseen. Vapauta tilaa ja yritä uudelleen.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Raakavideotiedosto viittaa muokkaamattomaan tallennukseen, jonka CocoShot loi suoraan. Koska tätä tiedostoa ei ole käsitelty tai muokattu, se voi olla melko suuri ja yhteensopimaton joidenkin laitteiden kanssa. Jos kohtaat ongelmia käsitellyn version kanssa, voit käyttää tätä tiedostoa alkuperäisen tallennuksen palauttamiseen.",
+    "message": "Raakavideotiedosto viittaa muokkaamattomaan tallennukseen, jonka DesignScope loi suoraan. Koska tätä tiedostoa ei ole käsitelty tai muokattu, se voi olla melko suuri ja yhteensopimaton joidenkin laitteiden kanssa. Jos kohtaat ongelmia käsitellyn version kanssa, voit käyttää tätä tiedostoa alkuperäisen tallennuksen palauttamiseen.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Kun olet ladannut tiedoston, lähetä se osoitteeseen support@cocoshot.net yhdessä kaikkien lisätietojen kanssa, jotka voivat olla hyödyllisiä. Käytämme näitä tietoja auttaaksemme sinua ratkaisemaan ongelmia laajennuksen kanssa ja palauttamaan videosi mahdollisuuksien mukaan.",
+    "message": "Kun olet ladannut tiedoston, lähetä se osoitteeseen the project issue tracker yhdessä kaikkien lisätietojen kanssa, jotka voivat olla hyödyllisiä. Käytämme näitä tietoja auttaaksemme sinua ratkaisemaan ongelmia laajennuksen kanssa ja palauttamaan videosi mahdollisuuksien mukaan.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Koska CocoShot asettaa yksityisyyden etusijalle ja toimii kokonaan paikallisesti laitteellasi, se on rajoitettu laitteistosi ominaisuuksilla. Tämän pituisen videon käsittely olisi liian aikaa vievää ja vaatisi merkittäviä järjestelmäresursseja. Voit silti saada WEBM-tiedoston tai raakatallennuksen, vaikka muokkausominaisuudet ja MP4-vienti eivät ole käytettävissä. Jos olet tietoinen mahdollisista haasteista, voit kuitenkin jatkaa videon käsittelyä.",
+    "message": "Koska DesignScope asettaa yksityisyyden etusijalle ja toimii kokonaan paikallisesti laitteellasi, se on rajoitettu laitteistosi ominaisuuksilla. Tämän pituisen videon käsittely olisi liian aikaa vievää ja vaatisi merkittäviä järjestelmäresursseja. Voit silti saada WEBM-tiedoston tai raakatallennuksen, vaikka muokkausominaisuudet ja MP4-vienti eivät ole käytettävissä. Jos olet tietoinen mahdollisista haasteista, voit kuitenkin jatkaa videon käsittelyä.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot ei ole yhteensopiva välilehden kanssa, jota juuri käytit. Voit silti aloittaa tallennuksen tältä sivulta ja palata takaisin sille välilehdelle, mutta huomaa, että kamerasyöte ja muokkaustyökalupalkki eivät näy.",
+    "message": "DesignScope ei ole yhteensopiva välilehden kanssa, jota juuri käytit. Voit silti aloittaa tallennuksen tältä sivulta ja palata takaisin sille välilehdelle, mutta huomaa, että kamerasyöte ja muokkaustyökalupalkki eivät näy.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Määritä paikallinen varmuuskopiointi CocoShot-tallennuksillesi",
+    "message": "Määritä paikallinen varmuuskopiointi DesignScope-tallennuksillesi",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Vahvista pääsy paikalliseen CocoShot-varmuuskansiokansioon",
+    "message": "Vahvista pääsy paikalliseen DesignScope-varmuuskansiokansioon",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Salli CocoShotin jatkaa tallennusten varmuuskopiointia",
+    "message": "Salli DesignScopein jatkaa tallennusten varmuuskopiointia",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot Recordings",
+    "message": "DesignScope Recordings",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

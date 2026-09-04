@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Снимка на екрана и запис на екрана"
+    "message": "DesignScope: Снимка на екрана и запис на екрана"
   },
   "extDescription": {
     "message": "Заснемане на пълни екранни снимки на страници и запис на екрана в MP4 с анотации. Включен е експорт в PDF с връзки."
@@ -450,19 +450,19 @@
     "message": "Дали да се включат изображенията в изтеглянето"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Тази функция изисква CocoShot Pro"
+    "message": "Тази функция изисква DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "Надграждане до Pro"
   },
   "proSaveRestricted": {
-    "message": "Запазването на това съдържание изисква CocoShot Pro"
+    "message": "Запазването на това съдържание изисква DesignScope Pro"
   },
   "qv_title": {
-    "message": "Преглед на CocoShot"
+    "message": "Преглед на DesignScope"
   },
   "qv_preview_mode": {
     "message": "Режим на преглед"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot изглежда не може да осъществи достъп до вашата камера или микрофон. За да разрешите този проблем, моля, отблокирайте го в настройките на браузъра си и предоставят необходимите разрешения.",
+    "message": "DesignScope изглежда не може да осъществи достъп до вашата камера или микрофон. За да разрешите този проблем, моля, отблокирайте го в настройките на браузъра си и предоставят необходимите разрешения.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot няма разрешение да записва екрана ви",
+    "message": "DesignScope няма разрешение да записва екрана ви",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "За да работи записът на екрана, ще трябва да разрешите на CocoShot да улавя екрана ви когато се появи заявката за разрешение. (Можете да я оттеглите по всяко време в настройките на разширението.)",
+    "message": "За да работи записът на екрана, ще трябва да разрешите на DesignScope да улавя екрана ви когато се появи заявката за разрешение. (Можете да я оттеглите по всяко време в настройките на разширението.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Добре дошли в новия CocoShot!",
+    "message": "Добре дошли в новия DesignScope!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Възникна грешка при стартиране на процеса на запис. Моля, рестартирайте браузъра си и опитайте отново. Ако проблемът продължи, свържете се с нас на support@cocoshot.net за допълнителна помощ.",
+    "message": "Възникна грешка при стартиране на процеса на запис. Моля, рестартирайте браузъра си и опитайте отново. Ако проблемът продължи, свържете се с нас на the project issue tracker за допълнителна помощ.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot се нуждае от поне 1GB свободно място за запис. Моля, освободете място и опитайте отново.",
+    "message": "DesignScope се нуждае от поне 1GB свободно място за запис. Моля, освободете място и опитайте отново.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Суров видео файл се отнася до необработените данни от записа, създадени директно от CocoShot. Тъй като този файл не е обработен или редактиран, може да е доста голям и несъвместим с някои устройства. Ако срещнете проблеми с обработената версия, можете да използвате този файл, за да възстановите оригиналния си запис.",
+    "message": "Суров видео файл се отнася до необработените данни от записа, създадени директно от DesignScope. Тъй като този файл не е обработен или редактиран, може да е доста голям и несъвместим с някои устройства. Ако срещнете проблеми с обработената версия, можете да използвате този файл, за да възстановите оригиналния си запис.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "След като изтеглите файла, моля, изпратете го на support@cocoshot.net заедно с всякакви допълнителни подробности, които могат да са полезни. Ще използваме тази информация, за да ви помогнем да разрешите проблеми с разширението и, ако е възможно, да възстановим видеото ви.",
+    "message": "След като изтеглите файла, моля, изпратете го на the project issue tracker заедно с всякакви допълнителни подробности, които могат да са полезни. Ще използваме тази информация, за да ви помогнем да разрешите проблеми с разширението и, ако е възможно, да възстановим видеото ви.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Тъй като CocoShot дава приоритет на поверителността и работи изцяло на вашето локално устройство, то е ограничено от възможностите на вашия хардуер. Обработката на видео с такава продължителност ще отнеме прекалено много време и ще изисква значителни системни ресурси. Все още можете да получите WEBM файла или суров запис, въпреки че функциите за редактиране и MP4 експорт няма да бъдат достъпни. Въпреки това, ако сте наясно с потенциалните предизвикателства, можете да продължите с обработката на видеото.",
+    "message": "Тъй като DesignScope дава приоритет на поверителността и работи изцяло на вашето локално устройство, то е ограничено от възможностите на вашия хардуер. Обработката на видео с такава продължителност ще отнеме прекалено много време и ще изисква значителни системни ресурси. Все още можете да получите WEBM файла или суров запис, въпреки че функциите за редактиране и MP4 експорт няма да бъдат достъпни. Въпреки това, ако сте наясно с потенциалните предизвикателства, можете да продължите с обработката на видеото.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot не е съвместим с раздела, който току-що използвахте. Все още можете да започнете запис от тази страница и да се върнете към този раздел, но имайте предвид, че емисията от камерата и лентата с инструменти за редактиране няма да се показват.",
+    "message": "DesignScope не е съвместим с раздела, който току-що използвахте. Все още можете да започнете запис от тази страница и да се върнете към този раздел, но имайте предвид, че емисията от камерата и лентата с инструменти за редактиране няма да се показват.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Настройване на локално архивиране за вашите записи на CocoShot",
+    "message": "Настройване на локално архивиране за вашите записи на DesignScope",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Моля, потвърдете отново достъпа до вашата локална папка за архивиране на CocoShot",
+    "message": "Моля, потвърдете отново достъпа до вашата локална папка за архивиране на DesignScope",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Позволете на CocoShot да продължи да архивира записи",
+    "message": "Позволете на DesignScope да продължи да архивира записи",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,11 +1586,11 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot Записи",
+    "message": "DesignScope Записи",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {
-    "message": "Неуспешна настройка на локалното архивиране. Свържете се с нас на support@cocoshot.net за повече помощ. Все още можете да записвате екрана си.",
+    "message": "Неуспешна настройка на локалното архивиране. Свържете се с нас на the project issue tracker за повече помощ. Все още можете да записвате екрана си.",
     "description": "Error message when backup setup fails",
     "placeholders": {
       "supportEmail": {
@@ -1600,7 +1600,7 @@
     }
   },
   "backupBrowserNotSupported": {
-    "message": "Вашият браузър не поддържа локални архиви. Свържете се с нас на support@cocoshot.net за повече помощ. Все още можете да записвате екрана си.",
+    "message": "Вашият браузър не поддържа локални архиви. Свържете се с нас на the project issue tracker за повече помощ. Все още можете да записвате екрана си.",
     "description": "Error message when browser doesn't support backups",
     "placeholders": {
       "supportEmail": {

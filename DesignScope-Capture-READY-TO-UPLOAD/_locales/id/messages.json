@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Tangkapan Layar & Perekam Layar"
+    "message": "DesignScope: Tangkapan Layar & Perekam Layar"
   },
   "extDescription": {
     "message": "Ambil tangkapan layar halaman penuh dan rekam layar ke MP4 dengan anotasi. Ekspor PDF dengan tautan yang dapat diklik disertakan."
@@ -450,19 +450,19 @@
     "message": "Apakah akan menyertakan gambar dalam unduhan"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Fitur ini membutuhkan CocoShot Pro"
+    "message": "Fitur ini membutuhkan DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "Tingkatkan ke Pro"
   },
   "proSaveRestricted": {
-    "message": "Menyimpan konten ini membutuhkan CocoShot Pro"
+    "message": "Menyimpan konten ini membutuhkan DesignScope Pro"
   },
   "qv_title": {
-    "message": "Pratinjau CocoShot"
+    "message": "Pratinjau DesignScope"
   },
   "qv_preview_mode": {
     "message": "Mode Pratinjau"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot tampaknya tidak dapat mengakses kamera atau mikrofon Anda. Untuk解决 masalah ini, mohon解除封锁 di pengaturan browser dan berikan izin yang diperlukan.",
+    "message": "DesignScope tampaknya tidak dapat mengakses kamera atau mikrofon Anda. Untuk解决 masalah ini, mohon解除封锁 di pengaturan browser dan berikan izin yang diperlukan.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot tidak memiliki izin untuk merekam layar Anda",
+    "message": "DesignScope tidak memiliki izin untuk merekam layar Anda",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "Agar perekaman layar berfungsi, Anda perlu mengizinkan CocoShot untuk merekam layar Anda saat permintaan izin muncul. (Anda dapat mencabutnya kapan saja di pengaturan ekstensi.)",
+    "message": "Agar perekaman layar berfungsi, Anda perlu mengizinkan DesignScope untuk merekam layar Anda saat permintaan izin muncul. (Anda dapat mencabutnya kapan saja di pengaturan ekstensi.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Selamat datang di CocoShot baru!",
+    "message": "Selamat datang di DesignScope baru!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Terjadi kesalahan saat memulai proses perekaman. Harap restart browser dan coba lagi. Jika masalah berlanjut, hubungi kami di support@cocoshot.net untuk bantuan lebih lanjut.",
+    "message": "Terjadi kesalahan saat memulai proses perekaman. Harap restart browser dan coba lagi. Jika masalah berlanjut, hubungi kami di the project issue tracker untuk bantuan lebih lanjut.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot membutuhkan setidaknya 1GB ruang bebas untuk merekam. Harap bebaskan beberapa ruang dan coba lagi.",
+    "message": "DesignScope membutuhkan setidaknya 1GB ruang bebas untuk merekam. Harap bebaskan beberapa ruang dan coba lagi.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "File video mentah mengacu pada rekaman tanpa perubahan yang dibuat langsung oleh CocoShot. Karena file ini belum diproses atau diedit, mungkin cukup besar dan tidak kompatibel dengan beberapa perangkat. Jika Anda mengalami masalah dengan versi yang diproses, Anda dapat menggunakan file ini untuk mengambil rekaman asli Anda.",
+    "message": "File video mentah mengacu pada rekaman tanpa perubahan yang dibuat langsung oleh DesignScope. Karena file ini belum diproses atau diedit, mungkin cukup besar dan tidak kompatibel dengan beberapa perangkat. Jika Anda mengalami masalah dengan versi yang diproses, Anda dapat menggunakan file ini untuk mengambil rekaman asli Anda.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Setelah Anda mengunduh file, harap kirimkan ke support@cocoshot.net bersama dengan detail tambahan yang mungkin membantu. Kami akan menggunakan informasi ini untuk membantu menyelesaikan masalah dengan ekstensi dan, jika memungkinkan, memulihkan video Anda.",
+    "message": "Setelah Anda mengunduh file, harap kirimkan ke the project issue tracker bersama dengan detail tambahan yang mungkin membantu. Kami akan menggunakan informasi ini untuk membantu menyelesaikan masalah dengan ekstensi dan, jika memungkinkan, memulihkan video Anda.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Karena CocoShot memprioritaskan privasi dan beroperasi sepenuhnya di perangkat lokal Anda, perangkat Anda terikat oleh kemampuan perangkat keras Anda. Menangani video dengan durasi ini akan sangat memakan waktu dan membutuhkan sumber daya sistem yang signifikan. Anda masih dapat memperoleh file WEBM atau rekaman mentah, meskipun fitur pengeditan dan ekspor MP4 tidak akan tersedia. Namun, jika Anda menyadari tantangan potensial, Anda dapat melanjutkan pemrosesan video meskipun demikian.",
+    "message": "Karena DesignScope memprioritaskan privasi dan beroperasi sepenuhnya di perangkat lokal Anda, perangkat Anda terikat oleh kemampuan perangkat keras Anda. Menangani video dengan durasi ini akan sangat memakan waktu dan membutuhkan sumber daya sistem yang signifikan. Anda masih dapat memperoleh file WEBM atau rekaman mentah, meskipun fitur pengeditan dan ekspor MP4 tidak akan tersedia. Namun, jika Anda menyadari tantangan potensial, Anda dapat melanjutkan pemrosesan video meskipun demikian.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot tidak kompatibel dengan tab yang baru saja Anda gunakan. Anda masih dapat memulai rekaman dari halaman ini dan kemudian kembali ke tab tersebut, namun perlu diperhatikan bahwa umpan kamera dan toolbar pengeditan tidak akan ditampilkan.",
+    "message": "DesignScope tidak kompatibel dengan tab yang baru saja Anda gunakan. Anda masih dapat memulai rekaman dari halaman ini dan kemudian kembali ke tab tersebut, namun perlu diperhatikan bahwa umpan kamera dan toolbar pengeditan tidak akan ditampilkan.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Siapkan cadangan lokal untuk rekaman CocoShot Anda",
+    "message": "Siapkan cadangan lokal untuk rekaman DesignScope Anda",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Harap konfirmasi akses ke folder cadangan lokal CocoShot Anda",
+    "message": "Harap konfirmasi akses ke folder cadangan lokal DesignScope Anda",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Izinkan CocoShot untuk terus mencadangkan rekaman",
+    "message": "Izinkan DesignScope untuk terus mencadangkan rekaman",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "Rekaman CocoShot",
+    "message": "Rekaman DesignScope",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

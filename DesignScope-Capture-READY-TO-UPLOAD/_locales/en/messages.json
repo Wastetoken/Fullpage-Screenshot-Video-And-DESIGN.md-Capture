@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Screenshot & Screen Recorder"
+    "message": "DesignScope: Screenshot & Screen Recorder"
   },
   "extDescription": {
     "message": "Capture full page screenshots and record screen to MP4 with annotations. PDF export with clickable links included."
@@ -450,19 +450,19 @@
     "message": "Whether to include images in the download"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "This feature requires CocoShot Pro"
+    "message": "This feature requires DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "Upgrade to Pro"
   },
   "proSaveRestricted": {
-    "message": "Saving this content requires CocoShot Pro"
+    "message": "Saving this content requires DesignScope Pro"
   },
   "qv_title": {
-    "message": "CocoShot Quick View"
+    "message": "DesignScope Quick View"
   },
   "qv_preview_mode": {
     "message": "Preview Mode"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot seems unable to access your camera or microphone. To resolve this issue, please unblock it in your browser settings and grant the necessary permissions.",
+    "message": "DesignScope seems unable to access your camera or microphone. To resolve this issue, please unblock it in your browser settings and grant the necessary permissions.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot doesn't have permission to record your screen",
+    "message": "DesignScope doesn't have permission to record your screen",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "For screen recording to work, you'll need to allow CocoShot to capture your screen when the permission request appears.(You can revoke it at any time at extension's settings.)",
+    "message": "For screen recording to work, you'll need to allow DesignScope to capture your screen when the permission request appears.(You can revoke it at any time at extension's settings.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Welcome to the new CocoShot!",
+    "message": "Welcome to the new DesignScope!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "An error occurred while starting the recording process. Please restart your browser and attempt again. If the problem continues, reach out to us at support@cocoshot.net for further assistance.",
+    "message": "An error occurred while starting the recording process. Please restart your browser and attempt again. If the problem continues, reach out to us at the project issue tracker for further assistance.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot needs at least 1GB of free space to record. Please free up some space and try again.",
+    "message": "DesignScope needs at least 1GB of free space to record. Please free up some space and try again.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "The raw video file refers to the unaltered recording created directly by CocoShot. Since this file hasn't been processed or edited, it might be quite large and incompatible with some devices. If you encounter problems with the processed version, you can use this file to retrieve your original recording.",
+    "message": "The raw video file refers to the unaltered recording created directly by DesignScope. Since this file hasn't been processed or edited, it might be quite large and incompatible with some devices. If you encounter problems with the processed version, you can use this file to retrieve your original recording.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Once you've downloaded the file, please send it to support@cocoshot.net along with any additional details that might be helpful. We'll use this information to assist you in resolving any problems with the extension and, if feasible, recover your video.",
+    "message": "Once you've downloaded the file, please send it to the project issue tracker along with any additional details that might be helpful. We'll use this information to assist you in resolving any problems with the extension and, if feasible, recover your video.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Because CocoShot prioritizes privacy and operates entirely on your local device, it's constrained by your hardware capabilities. Handling a video of this duration would be excessively time-consuming and demand significant system resources. You can still obtain the WEBM file or raw recording, though editing features and MP4 export won't be accessible. However, if you're aware of the potential challenges, you can proceed with processing the video regardless.",
+    "message": "Because DesignScope prioritizes privacy and operates entirely on your local device, it's constrained by your hardware capabilities. Handling a video of this duration would be excessively time-consuming and demand significant system resources. You can still obtain the WEBM file or raw recording, though editing features and MP4 export won't be accessible. However, if you're aware of the potential challenges, you can proceed with processing the video regardless.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot isn't compatible with the tab you were just using. You can still initiate recording from this page and then return to that tab, but please note that your camera feed and editing toolbar won't be displayed.",
+    "message": "DesignScope isn't compatible with the tab you were just using. You can still initiate recording from this page and then return to that tab, but please note that your camera feed and editing toolbar won't be displayed.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Set up a local backup for your CocoShot recordings",
+    "message": "Set up a local backup for your DesignScope recordings",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Please reconfirm access to your local CocoShot backup folder",
+    "message": "Please reconfirm access to your local DesignScope backup folder",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Allow CocoShot to keep backing up recordings",
+    "message": "Allow DesignScope to keep backing up recordings",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot Recordings",
+    "message": "DesignScope Recordings",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {

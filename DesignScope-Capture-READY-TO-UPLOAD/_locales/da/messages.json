@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "CocoShot: Skærmbillede og skærmoptager"
+    "message": "DesignScope: Skærmbillede og skærmoptager"
   },
   "extDescription": {
     "message": "Tag skærmbilleder af hele siden, og optag skærmen til MP4 med noter. PDF-eksport med klikbare links inkluderet."
@@ -450,19 +450,19 @@
     "message": "Om billeder skal inkluderes i downloaden"
   },
   "proTitle": {
-    "message": "CocoShot Pro"
+    "message": "DesignScope Pro"
   },
   "proFeatureNotAvailable": {
-    "message": "Denne funktion kræver CocoShot Pro"
+    "message": "Denne funktion kræver DesignScope Pro"
   },
   "proUpgradeButton": {
     "message": "Opgrader til Pro"
   },
   "proSaveRestricted": {
-    "message": "At gemme dette indhold kræver CocoShot Pro"
+    "message": "At gemme dette indhold kræver DesignScope Pro"
   },
   "qv_title": {
-    "message": "CocoShot Forhåndsvisning"
+    "message": "DesignScope Forhåndsvisning"
   },
   "qv_preview_mode": {
     "message": "Forhåndsvisningstilstand"
@@ -520,7 +520,7 @@
     "description": "Camera / microphone permissions warning modal title"
   },
   "permissionsModalDescription": {
-    "message": "CocoShot ser ud til at have problemer med at få adgang til dit kamera eller mikrofon. Løs dette ved at fjerne blokeringen i dine browserindstillinger og give de nødvendige tilladelser.",
+    "message": "DesignScope ser ud til at have problemer med at få adgang til dit kamera eller mikrofon. Løs dette ved at fjerne blokeringen i dine browserindstillinger og give de nødvendige tilladelser.",
     "description": "Camera / microphone permissions warning modal description"
   },
   "permissionsModalDismiss": {
@@ -1100,11 +1100,11 @@
     "description": "Paused recording modal title"
   },
   "chromePermissionsModalTitle": {
-    "message": "CocoShot har ikke tilladelse til at optage din skærm",
+    "message": "DesignScope har ikke tilladelse til at optage din skærm",
     "description": "Permission modal title"
   },
   "chromePermissionsModalDescription": {
-    "message": "For at skærmoptagelse skal virke, skal du tillade CocoShot at optage din skærm, når tilladelsesanmodningen vises.(Du kan tilbagekalde det når som helst i udvidelsens indstillinger.)",
+    "message": "For at skærmoptagelse skal virke, skal du tillade DesignScope at optage din skærm, når tilladelsesanmodningen vises.(Du kan tilbagekalde det når som helst i udvidelsens indstillinger.)",
     "description": "Permission modal description"
   },
   "chromePermissionsModalAction": {
@@ -1184,7 +1184,7 @@
     "description": "Stop recording button in recording scren"
   },
   "updateAnnouncementTitle": {
-    "message": "Velkommen til den nye CocoShot!",
+    "message": "Velkommen til den nye DesignScope!",
     "description": "Update announcement title for existing users"
   },
   "updateAnnouncementLearnMore": {
@@ -1200,7 +1200,7 @@
     "description": "Stream error modal title"
   },
   "streamErrorModalDescription": {
-    "message": "Der opstod en fejl under start af optagelsesprocessen. Genstart din browser og prøv igen. Hvis problemet fortsætter, kan du kontakte os på support@cocoshot.net.",
+    "message": "Der opstod en fejl under start af optagelsesprocessen. Genstart din browser og prøv igen. Hvis problemet fortsætter, kan du kontakte os på the project issue tracker.",
     "description": "Stream error modal description"
   },
   "highestQuality": {
@@ -1252,7 +1252,7 @@
     "description": "Not enough space title"
   },
   "notEnoughSpaceDescription": {
-    "message": "CocoShot har brug for mindst 1GB fri plads til at optage. Frigør plads og prøv igen.",
+    "message": "DesignScope har brug for mindst 1GB fri plads til at optage. Frigør plads og prøv igen.",
     "description": "Not enough space description"
   },
   "clearSpaceButton": {
@@ -1284,7 +1284,7 @@
     "description": "Raw recording modal title"
   },
   "rawRecordingModalDescription": {
-    "message": "Den rå videofil refererer til den uændrede optagelse, der blev oprettet direkte af CocoShot. Da denne fil ikke er blevet behandlet eller redigeret, kan den være ret stor og inkompatibel med nogle enheder. Hvis du oplever problemer med den behandlede version, kan du bruge denne fil til at hente din originale optagelse.",
+    "message": "Den rå videofil refererer til den uændrede optagelse, der blev oprettet direkte af DesignScope. Da denne fil ikke er blevet behandlet eller redigeret, kan den være ret stor og inkompatibel med nogle enheder. Hvis du oplever problemer med den behandlede version, kan du bruge denne fil til at hente din originale optagelse.",
     "description": "Raw recording modal description"
   },
   "rawRecordingModalButton": {
@@ -1300,7 +1300,7 @@
     "description": "Troubleshoot modal title"
   },
   "troubleshootModalDescription": {
-    "message": "Når du har downloadet filen, skal du sende den til support@cocoshot.net sammen med eventuelle yderligere detaljer, der kan være nyttige. Vi vil bruge disse oplysninger til at hjælpe dig med at løse problemer med udvidelsen og, hvis muligt, gendanne din video.",
+    "message": "Når du har downloadet filen, skal du sende den til the project issue tracker sammen med eventuelle yderligere detaljer, der kan være nyttige. Vi vil bruge disse oplysninger til at hjælpe dig med at løse problemer med udvidelsen og, hvis muligt, gendanne din video.",
     "description": "Troubleshoot modal description"
   },
   "troubleshootModalButton": {
@@ -1312,7 +1312,7 @@
     "description": "Over 5 minutes limit modal title"
   },
   "overLimitModalDescription": {
-    "message": "Da CocoShot prioriterer privatlivets fred og fungerer udelukkende på din lokale enhed, er den begrænset af dit hardwarens kapacitet. At håndtere en video af denne varighed ville være alt for tidskrævende og kræve betydelige systemressourcer. Du kan stadig få WEBM-filen eller råoptagelsen, selvom redigeringsfunktioner og MP4-eksport ikke vil være tilgængelige. Men hvis du er opmærksom på de potentielle udfordringer, kan du fortsætte med at behandle videoen alligevel.",
+    "message": "Da DesignScope prioriterer privatlivets fred og fungerer udelukkende på din lokale enhed, er den begrænset af dit hardwarens kapacitet. At håndtere en video af denne varighed ville være alt for tidskrævende og kræve betydelige systemressourcer. Du kan stadig få WEBM-filen eller råoptagelsen, selvom redigeringsfunktioner og MP4-eksport ikke vil være tilgængelige. Men hvis du er opmærksom på de potentielle udfordringer, kan du fortsætte med at behandle videoen alligevel.",
     "description": "Over 5 minutes limit modal description"
   },
   "overLimitModalButton": {
@@ -1354,11 +1354,11 @@
     "description": "Extension not supported on tab"
   },
   "extensionNotSupportedDescription": {
-    "message": "CocoShot er ikke kompatibel med den fane, du lige har brugt. Du kan stadig starte optagelse fra denne side og derefter vende tilbage til den fane, men vær opmærksom på, at dit kamerahjem og redigeringsværktøjslinjen ikke vises.",
+    "message": "DesignScope er ikke kompatibel med den fane, du lige har brugt. Du kan stadig starte optagelse fra denne side og derefter vende tilbage til den fane, men vær opmærksom på, at dit kamerahjem og redigeringsværktøjslinjen ikke vises.",
     "description": "Extension not supported on tab description"
   },
   "backupsTitle": {
-    "message": "Konfigurer en lokal backup til dine CocoShot-optagelser",
+    "message": "Konfigurer en lokal backup til dine DesignScope-optagelser",
     "description": "Backups title"
   },
   "backupsDescription1": {
@@ -1394,7 +1394,7 @@
     "description": "Stop backups button"
   },
   "backupsConfirmTitle": {
-    "message": "Bekræft venligst adgang til din lokale CocoShot-backupmappe",
+    "message": "Bekræft venligst adgang til din lokale DesignScope-backupmappe",
     "description": "Backups confirm title"
   },
   "backupsConfirmDescription": {
@@ -1402,7 +1402,7 @@
     "description": "Backups confirm description"
   },
   "backupsConfirmAllow": {
-    "message": "Tillad CocoShot at fortsætte med at sikkerhedskopiere optagelser",
+    "message": "Tillad DesignScope at fortsætte med at sikkerhedskopiere optagelser",
     "description": "Backups confirm allow button"
   },
   "backupsToggle": {
@@ -1586,7 +1586,7 @@
     "description": "Extra bold line width preset label"
   },
   "backupsFolderName": {
-    "message": "CocoShot-optagelser",
+    "message": "DesignScope-optagelser",
     "description": "Name of the folder where backups are stored"
   },
   "backupSetupFailed": {
