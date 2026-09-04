@@ -70,3 +70,166 @@ import"./modulepreload-polyfill-B32Nu7ID.js";/* empty css               */import
     z-index: 1;
   `,s.textContent="×",a.appendChild(s),document.body.appendChild(e),document.body.appendChild(a);const r=()=>{a.remove(),e.remove(),document.removeEventListener("click",o)},i=a.querySelector(".cocoshot-pro-upgrade-btn");i&&i.addEventListener("click",()=>{r()}),s.addEventListener("click",()=>{r()});const o=l=>{a.contains(l.target)||r()};document.addEventListener("click",o)}async function Gt(){return await D()?!0:(mt("save"),!1)}function Jt(){chrome.runtime.onMessage.addListener((n,t,e)=>{if(["checkProStatus","updateProStatus","isProFeatureAllowed","handleProSave"].includes(n.action))return(async()=>{switch(n.action){case"checkProStatus":const s=await D();e({isPro:s,isProSystemEnabled:Vt});break;case"updateProStatus":const r=await zt(n.proData);e({success:!0,data:r});break;case"isProFeatureAllowed":const i=await Yt(n.featureType);e({isAllowed:i});break;case"handleProSave":const o=await Gt();e({canSave:o});break}})(),!0})}Jt();function Kt(){const n=navigator.userAgent.toLowerCase();let t="Unknown";return n.indexOf("chrome")>-1?n.indexOf("edge")>-1||n.indexOf("edg")>-1?t="Edge":n.indexOf("opr")>-1||n.indexOf("opera")>-1?t="Opera":t="Chrome":n.indexOf("safari")>-1?t="Safari":n.indexOf("firefox")>-1?t="Firefox":n.indexOf("edg")>-1&&(t="Edge"),t}function Qt(n){const t=Kt(),s=t==="Edge"?["edge://","https://microsoftedge.microsoft.com/addons"]:t==="Chrome"?["chrome://","https://chrome.google.com","https://chromewebstore.google.com"]:[];try{if(s.some(r=>n.includes(r)))return!0}catch{}}var d={_currentTab:null,getCurrentTab:async function(){if(d._currentTab)return d._currentTab;const n=await chrome.tabs.query({active:!0,currentWindow:!0});return d._currentTab=n[0],d._currentTab},disabled:!1,special:!1,userData:null,getSettings:async function(){return await Z.loadOption()},saveSettings:async function(n){await Z.saveOption(n)},initUserData:async function(){d.userData=await lt()},ready:async function(){H(!0),St(),d.sendMessage({data:"popup_open"}),d.initMessage(),d.initCtlArea(),await d.initUserData(),await d.initTabs(),await d.initAccordion(),await d.checkSupport(),!d.disabled&&(window.onblur=function(){d.sendMessage({data:"popup_closed"}),H(!0)})},initMessage:function(){Mt(Ct.POP_CALL,this.popCall)},initTabs:async function(){const n=w(".tab-button"),t=w(".tab-content");function e(i){w(".tabs").css("display","flex"),t.removeClass("active").hide(),n.removeClass("active"),w(`.tab-button[data-tab="${i}"]`).addClass("active"),w(`#${i}`).addClass("active").show()}const s=(await d.getSettings()).activeTab;let r="tab-capture";s&&w(`#${s}`).length>0&&(r=s),e(r),n.on("click",async function(){const i=w(this).data("tab");e(i);const o=await d.getSettings();o.activeTab=i,await d.saveSettings(o)})},initAccordion:async function(){const n=w(".accordion-header");n.on("click",async function(){const i=w(this),o=i.hasClass("active"),u=i.closest(".accordion-item").attr("id");if(n.removeClass("active"),o){const c=await d.getSettings();delete c.activeAccordion,await d.saveSettings(c)}else{i.addClass("active");const c=await d.getSettings();c.activeAccordion=u,await d.saveSettings(c)}});const e=(await d.getSettings()).activeAccordion;e&&w(`#${e}`).length>0?w(`#${e}`).find(".accordion-header").addClass("active"):n.length>0&&n.first().addClass("active"),w("#tab-ai-tools .accordion-button").on("click",ae);const a=document.querySelectorAll(".toggle-switch"),s=document.querySelectorAll(".toggle-checkbox");if(!await D())s.forEach(i=>{i.checked=!1});else{const i=await d.getSettings();s.forEach(o=>{const l=o.id;o.checked=i[l]||!1})}s.forEach(i=>{i.addEventListener("click",o=>{o.stopPropagation(),o.preventDefault()})}),a.forEach(i=>{i.addEventListener("click",async o=>{o.stopPropagation();const l=i.querySelector(".toggle-checkbox");if(!l)return;if(!await D()){mt("feature");return}l.checked=!l.checked;const c=await d.getSettings(),h=l.id;c[h]=l.checked,await d.saveSettings(c)})})},initCtlArea:function(){w("#ctlarea").css("display","flex"),w("#captureAll").on("click",d.captureAll),w("#pCaptV").on("click",d.captureVisible),w("#pSingle").on("click",d.genSinglefile),w(".pDesktop").on("click",d.desktopScreenshot),w("#pAreaCut").on("click",d.areaCut),w("#startRecorder").on("click",d.startCocoshotRecorder)},checkSupport:async function(){const n=await d.getCurrentTab();await t(n);async function t(e){var a=e.url;const s=(a==null?void 0:a.startsWith("chrome://"))||(a==null?void 0:a.startsWith("chrome-extension://"))||(a==null?void 0:a.startsWith("ftp://"))||(a==null?void 0:a.startsWith("chrome-search://"))||(a==null?void 0:a.startsWith("edge://")),r=(a==null?void 0:a.startsWith("file:"))||(a==null?void 0:a.startsWith("data:"))||(a==null?void 0:a.startsWith("about:"));try{if(a&&Qt(a)&&(s?(d.special=!0,w(".browserlimit").hide()):d.disableScrollSupport()),r){let i=function(){d.disabled=!0,w(".top-bar").hide(),w(".tab-content").hide(),w("#disableRestrict h2").html(k("fileUrlsPermission")),w("#disableRestrict .disabled-desc").html(k("fileUrlsPermissionDesc")),w("#disableRestrict .disabled-actions").html(k("pFileUrl")).on("click",function(){chrome.tabs.create({url:"chrome://extensions?id="+chrome.runtime.id})}).css({cursor:"pointer",color:"blue",textDecoration:"underline"}),w("#disabled").addClass("active").show()};d.special=!0,w(".filepagelimit").hide();try{await chrome.extension.isAllowedFileSchemeAccess()||i()}catch{i()}}}catch{}}},disableScrollSupport:function(){d.disabled=!0,w(".top-bar").hide(),w(".tab-content").hide(),w("#disabled").addClass("active").show()},popCall:async function(n){switch(w(".top-bar").hide(),w(".tab-content").hide(),w("#working").fadeOut(),w("#message").fadeOut(),H(!0),n.type){case"working":H(!1),w("#working").fadeIn();break;case"message":w("#message").fadeIn().find(".message-container").text(n.message);break;case"centerMessage":d.centerMessage(n.message,n.duration);break;case"close":window.close();case"reset":await d.initTabs();break;default:}},centerMessage:function(n,t=3e3){const e=w("#centerMessage");e.find(".center-message-content").text(n),e.fadeIn(),setTimeout(()=>{e.fadeOut()},t)},desktopScreenshot:async function(){await d.clearAreaCutUI(),d.sendMessage({data:"getDesktopss"})},genSinglefile:async function(n){if(n&&(n.target.closest(".toggle-switch")||n.target.classList.contains("toggle-checkbox")||n.target.classList.contains("toggle-label")))return;await d.clearAreaCutUI(),d.popCall({type:"working"}),q("plain_status",k("analyzingPageForHTML"));const t=document.getElementById("pSingle"),e=t?t.querySelector(".toggle-checkbox"):null,a=e?e.checked:!1;d.sendMessageToTab({type:"genSigleFile",includeImages:a},function(s){d.popCall({type:"close"})})},captureVisible:async function(){await d.clearAreaCutUI(),await d.sendMessage({data:"captureVisible",special:d.special,isNewUser:d.userData.isNewUser}),window.close()},handleSitefixerOptions:async function(n){const t=await W.getItem("expandScrollableOn"),e=await W.getItem("hideFixedOn"),a=await W.getItem("preScrollOn");let s=!1;const r=await d.getCurrentTab();try{if(a&&(d.centerMessage(k("preScrollOn")+"("+k("canBeDisabled")+")"),await d.preScrollSite()),t||e){let i=[];t&&i.push(k("expandScrollableOn")),e&&i.push(k("hideFixedOn")),i.length>0&&d.centerMessage(i.join(", ")+`
 (`+k("canBeDisabled")+")"),await d.patchSite(),s=!0}n&&await n(),s&&d.sendMessage({data:"scheduleRevertSitePatch",tabId:r.id})}catch{await n()}},captureAll:async function(){const n=Date.now();await d.handleSitefixerOptions(async()=>{await d.clearAreaCutUI(),chrome.runtime.sendMessage({action:"recusr",recAction:"captureAll",startTime:n,metadata:{timestamp:n,source:"popup"}}),await Nt(d.popCall)})},captureRegion:function(){d.sendMessage({data:"captureRegion"})},captureWebcam:function(){d.sendMessage({data:"captureWebcam"})},captureDesktop:function(){chrome.permissions.request({permissions:["desktopCapture"]},function(){d.sendMessage({data:"captureDesktop"})})},captureClipboard:function(){d.sendMessage({data:"captureClipboard"})},editContent:function(){d.sendMessage({data:"editContent"})},sendMessage:async function(n){if(n.data&&["captureVisible","getDesktopss","startAreaCut","genSigleFile"].includes(n.data)){const t=Date.now();return chrome.runtime.sendMessage({action:"recusr",recAction:n.data,startTime:t,metadata:{timestamp:t,source:"popup"}}),await chrome.runtime.sendMessage(n)}else return await chrome.runtime.sendMessage(n)},sendMessageToTab:async function(n,t=null){try{const e=await d.getCurrentTab(),a=await chrome.tabs.sendMessage(e.id,n);t&&t(a)}catch{}},areaCut:async function(){d.sendMessage({data:"startAreaCut"}),window.close()},clearAreaCutUI:async function(){await d.sendMessageToTab({action:"screenshotCancel"})},patchSite:async function(){const n=await d.getCurrentTab();return await d.sendMessage({data:"patchSite",tabId:n.id})},revertPatchSite:async function(){const n=await d.getCurrentTab();return await d.sendMessage({data:"revertSitePatch",tabId:n.id})},preScrollSite:async function(){const n=await d.getCurrentTab();return await d.sendMessage({data:"preScrollSite",tabId:n.id})},startCocoshotRecorder:async function(){await d.clearAreaCutUI(),d.sendMessage({type:"startCocoshotRecorder"}),d.popCall({type:"close"})}};function pt(){const n=document.getElementById("drawer-menu");return n&&n.classList.contains("active")}function Xt(){const n=document.getElementById("drawer-menu");n&&(pt()?n.classList.remove("active"):(n.classList.add("active"),n.offsetWidth))}function A(){const n=document.getElementById("drawer-menu");n&&n.classList.remove("active")}function Zt(){chrome.runtime.openOptionsPage()}function te(){const n=chrome.runtime.getURL("src/pages/history.html");chrome.tabs.create({url:n})}function ee(){window.open(`${L}/image-tools/`,"_blank")}function ne(){window.open(`${L}/faq.html`,"_blank")}w(d.ready);w(document).ready(()=>{var n,t,e,a,s,r,i;(n=document.getElementById("logo"))==null||n.addEventListener("click",o=>{o.preventDefault(),o.stopPropagation(),Xt(),o.stopImmediatePropagation()}),(t=document.getElementById("close-drawer"))==null||t.addEventListener("click",A),(e=document.getElementById("open-settings"))==null||e.addEventListener("click",Zt),(a=document.getElementById("screenshot-history-link"))==null||a.addEventListener("click",o=>{o.preventDefault(),te(),A()}),(s=document.getElementById("image-tools-link"))==null||s.addEventListener("click",o=>{o.preventDefault(),ee(),A()}),(r=document.getElementById("help-feedback-link"))==null||r.addEventListener("click",o=>{o.preventDefault(),ne(),A()}),(i=document.getElementById("recorder-feedback-link"))==null||i.addEventListener("click",o=>{o.preventDefault(),window.open(`${L}/feedback/?recorder=true`,"_blank")}),document.addEventListener("click",o=>{const l=document.getElementById("drawer-menu"),u=document.getElementById("logo"),c=o.target===u||u.contains(o.target);pt()&&!l.contains(o.target)&&!c&&!o.target.closest("#drawer-menu")&&A()})});chrome.runtime.onMessage.addListener((n,t,e)=>{n.action==="triggerCaptureAll"&&d.captureAll()});const ae=async function(n){if(n.target.closest(".toggle-switch"))return;const t=n.target.closest(".accordion-button[data-id]");if(!t)return;const e=t.querySelector(".toggle-checkbox"),a=e?e.checked:!1,s=Date.now(),r=t.dataset.id;if(r)try{const[i]=await chrome.tabs.query({active:!0,currentWindow:!0});if(!i)return;switch(r){case"download_md":await d.handleSitefixerOptions(),await d.clearAreaCutUI(),d.popCall({type:"working"}),q("plain_status",k("analyzingPageForHTML")),chrome.runtime.sendMessage({action:"recusr",recAction:"download_md",startTime:s,metadata:{timestamp:new Date().toISOString(),source:"ai_tools"}}),d.sendMessageToTab({type:"genMdFile",includeImages:a},function(o){d.sendMessage({data:"scheduleRevertSitePatch",tabId:i.id}),d.popCall({type:"close"})});break;case"download_pdf":await d.handleSitefixerOptions(),await d.clearAreaCutUI(),d.popCall({type:"working"}),q("plain_status",k("analyzingPageForHTML")),chrome.runtime.sendMessage({action:"recusr",recAction:"download_pdf",startTime:s,metadata:{timestamp:new Date().toISOString(),source:"ai_tools"}}),d.sendMessageToTab({type:"genPdfFile",includeImages:a},async function(o){qt(o.htmlContent,i.id),d.sendMessage({data:"scheduleRevertSitePatch",tabId:i.id}),d.popCall({type:"close"})});break;default:}}catch{}};
+
+(function installMergedDesignExtractor() {
+  const PANEL_ID = "typeui-design-extractor-panel";
+  const ACTION_ID = "typeui-design-extractor-action";
+  let state = { mode: "design", markdown: "", filename: "", busy: false, result: null };
+  let modulesPromise;
+
+  function install() {
+    const host = document.querySelector("#accordion-item-llm .accordion-content");
+    if (!host || document.getElementById(ACTION_ID)) return;
+    const action = document.createElement("button");
+    action.id = ACTION_ID;
+    action.type = "button";
+    action.className = "accordion-button typeui-design-action";
+    action.innerHTML = '<span style="font-size:18px;line-height:1">✦</span><span>Extract DESIGN.md / SKILL.md</span>';
+    action.title = "Extract the active page design system for AI coding tools";
+    action.addEventListener("click", openPanel);
+    host.appendChild(action);
+  }
+
+  function getModules() {
+    if (!modulesPromise) {
+      const base = chrome.runtime.getURL("design-extractor/lib/");
+      modulesPromise = Promise.all([
+        import(base + "normalize.mjs"),
+        import(base + "generate-design-md.mjs"),
+        import(base + "generate-skill-md.mjs"),
+        import(base + "validate.mjs")
+      ]);
+    }
+    return modulesPromise;
+  }
+
+  function openPanel() {
+    const activeTab = document.querySelector(".tab-content.active, .tab-content[style*='display: block']");
+    state.previousView = activeTab && activeTab.id ? activeTab.id : "tab-ai-tools";
+    document.querySelectorAll(".tab-content").forEach((element) => { element.style.display = "none"; });
+    let panel = document.getElementById(PANEL_ID);
+    if (!panel) panel = createPanel();
+    panel.style.display = "block";
+    runExtraction(panel).catch((error) => setPanelStatus(panel, errorMessage(error), true));
+  }
+
+  function createPanel() {
+    const panel = document.createElement("section");
+    panel.id = PANEL_ID;
+    panel.className = "typeui-design-panel";
+    panel.innerHTML = '<div class="typeui-design-panel-header"><button type="button" class="typeui-design-back">← AI Tools</button><span class="typeui-design-label">DESIGN EXTRACTOR</span></div><h2>Extract a page design system</h2><p class="typeui-design-intro">Turn the active page into implementation-ready DESIGN.md or SKILL.md guidance.</p><div class="typeui-design-modes"><button type="button" data-typeui-mode="design" class="is-active">DESIGN.md</button><button type="button" data-typeui-mode="skill">SKILL.md</button></div><div class="typeui-design-actions"><button type="button" class="typeui-design-primary" data-typeui-run>Extract active page</button><button type="button" data-typeui-copy disabled>Copy</button><button type="button" data-typeui-download disabled>Download</button></div><p class="typeui-design-status" data-typeui-status hidden></p><ul class="typeui-design-issues" data-typeui-issues hidden></ul><textarea class="typeui-design-preview" data-typeui-preview readonly spellcheck="false" placeholder="Generated markdown appears here..."></textarea><div class="typeui-design-details" data-typeui-details>The extractor samples visible elements, normalizes repeated tokens, and validates the output.</div>';
+    document.body.appendChild(panel);
+    panel.querySelector(".typeui-design-back").addEventListener("click", closePanel);
+    panel.querySelector("[data-typeui-run]").addEventListener("click", () => runExtraction(panel).catch((error) => setPanelStatus(panel, errorMessage(error), true)));
+    panel.querySelector("[data-typeui-copy]").addEventListener("click", () => copyMarkdown(panel).catch((error) => setPanelStatus(panel, errorMessage(error), true)));
+    panel.querySelector("[data-typeui-download]").addEventListener("click", () => downloadMarkdown(panel).catch((error) => setPanelStatus(panel, errorMessage(error), true)));
+    panel.querySelectorAll("[data-typeui-mode]").forEach((button) => button.addEventListener("click", () => {
+      if (state.busy || button.dataset.typeuiMode === state.mode) return;
+      state.mode = button.dataset.typeuiMode === "skill" ? "skill" : "design";
+      panel.querySelectorAll("[data-typeui-mode]").forEach((candidate) => candidate.classList.toggle("is-active", candidate === button));
+      if (state.result) regenerate(panel);
+    }));
+    return panel;
+  }
+
+  function closePanel() {
+    const panel = document.getElementById(PANEL_ID);
+    if (panel) panel.style.display = "none";
+    const previous = document.getElementById(state.previousView || "tab-ai-tools");
+    if (previous) previous.style.display = "block";
+  }
+
+  async function runExtraction(panel) {
+    if (state.busy) return;
+    state.busy = true;
+    setPanelBusy(panel, true);
+    setPanelStatus(panel, "Reading the active page...");
+    try {
+      const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+      if (!tab || !tab.id) throw new Error("No active tab is available.");
+      if (/^(chrome|edge|about|opera):/i.test(String(tab.url || ""))) throw new Error("Browser-internal pages cannot be inspected. Open a regular website and try again.");
+      await chrome.scripting.executeScript({ target: { tabId: tab.id }, files: ["design-content-script.js"] });
+      const response = await chrome.tabs.sendMessage(tab.id, { type: "TYPEUI_EXTRACT_STYLES" });
+      if (!response || !response.ok) throw new Error(response && response.error ? response.error : "The page did not return extraction data.");
+      const loaded = await getModules();
+      const normalized = loaded[0].normalizeExtractedStyles(response.payload || {});
+      const markdown = state.mode === "skill" ? loaded[2].generateSkillMarkdown({ normalized: normalized }) : loaded[1].generateDesignMarkdown({ normalized: normalized });
+      const validation = loaded[3].validateMarkdownOutput(state.mode, markdown);
+      state.result = { normalized: normalized, validation: validation };
+      state.markdown = markdown;
+      state.filename = state.mode === "skill" ? "SKILL.md" : "DESIGN.md";
+      renderPanel(panel);
+      setPanelStatus(panel, "Extracted the active page successfully.");
+    } finally {
+      state.busy = false;
+      setPanelBusy(panel, false);
+    }
+  }
+
+  async function regenerate(panel) {
+    if (!state.result) return;
+    const loaded = await getModules();
+    const normalized = state.result.normalized;
+    state.markdown = state.mode === "skill" ? loaded[2].generateSkillMarkdown({ normalized: normalized }) : loaded[1].generateDesignMarkdown({ normalized: normalized });
+    state.result.validation = loaded[3].validateMarkdownOutput(state.mode, state.markdown);
+    state.filename = state.mode === "skill" ? "SKILL.md" : "DESIGN.md";
+    renderPanel(panel);
+  }
+
+  function renderPanel(panel) {
+    panel.querySelector("[data-typeui-preview]").value = state.markdown;
+    panel.querySelector("[data-typeui-copy]").disabled = !state.markdown;
+    panel.querySelector("[data-typeui-download]").disabled = !state.markdown;
+    const validation = state.result && state.result.validation ? state.result.validation : {};
+    const problems = (validation.errors || []).concat(validation.warnings || []);
+    const list = panel.querySelector("[data-typeui-issues]");
+    list.innerHTML = "";
+    list.hidden = problems.length === 0;
+    problems.forEach((problem) => { const item = document.createElement("li"); item.textContent = problem; list.appendChild(item); });
+    const normalized = state.result && state.result.normalized ? state.result.normalized : {};
+    const checks = validation.checks || [];
+    const passed = checks.filter((check) => check.ok).length;
+    const profile = normalized.siteProfile || {};
+    panel.querySelector("[data-typeui-details]").textContent = String(normalized.sampledElements || 0) + " visible elements sampled; " + String((normalized.colorPalette || []).length) + " color tokens, " + String((normalized.typographyScale || []).length) + " typography tokens, " + String((normalized.spacingScale || []).length) + " spacing tokens. Validation: " + passed + "/" + checks.length + " checks passed." + (profile.productSurface ? " Surface: " + profile.productSurface + "." : "");
+  }
+
+  async function copyMarkdown(panel) {
+    await navigator.clipboard.writeText(state.markdown);
+    setPanelStatus(panel, "Copied " + state.filename + " to the clipboard.");
+  }
+
+  function downloadMarkdown(panel) {
+    const url = URL.createObjectURL(new Blob([state.markdown], { type: "text/markdown;charset=utf-8" }));
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = state.filename;
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    setPanelStatus(panel, "Downloaded " + state.filename + ".");
+  }
+
+  function setPanelBusy(panel, busy) {
+    const controls = panel.querySelectorAll("button");
+    controls.forEach((button) => { if (!button.classList.contains("typeui-design-back")) button.disabled = busy; });
+  }
+
+  function setPanelStatus(panel, message, isError) {
+    const element = panel.querySelector("[data-typeui-status]");
+    element.hidden = !message;
+    element.textContent = message || "";
+    element.classList.toggle("is-error", Boolean(isError));
+  }
+
+  function errorMessage(error) { return error instanceof Error ? error.message : String(error || "Unknown error"); }
+
+  const style = document.createElement("style");
+  style.textContent = '.typeui-design-panel{padding:14px 16px;color:#172033;background:#fff}.typeui-design-panel-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:11px}.typeui-design-back{border:0;padding:0;color:#2563eb;background:transparent;font-size:11px;font-weight:700;cursor:pointer}.typeui-design-label{color:#64748b;font-size:9px;font-weight:800;letter-spacing:.12em}.typeui-design-panel h2{margin:0;font-size:17px}.typeui-design-intro{margin:5px 0 12px;color:#64748b;font-size:11px;line-height:1.4}.typeui-design-modes{display:flex;gap:4px;padding:3px;border-radius:7px;background:#f1f5f9}.typeui-design-modes button{flex:1;border:0;border-radius:5px;padding:7px;color:#64748b;background:transparent;font-size:10px;font-weight:700;cursor:pointer}.typeui-design-modes button.is-active{color:#172033;background:#fff;box-shadow:0 1px 3px #0002}.typeui-design-actions{display:flex;gap:6px;margin:10px 0}.typeui-design-actions button{border:1px solid #dbe2ea;border-radius:6px;padding:7px 9px;color:#334155;background:#fff;font-size:10px;font-weight:700;cursor:pointer}.typeui-design-actions .typeui-design-primary{flex:1;border-color:#2f88ff;color:#fff;background:#2f88ff}.typeui-design-actions button:disabled{opacity:.5;cursor:wait}.typeui-design-status{margin:7px 0;padding:7px 8px;border-radius:5px;color:#334155;background:#f8fafc;font-size:10px}.typeui-design-status.is-error{color:#b42318;background:#fff1f0}.typeui-design-issues{margin:6px 0;padding:7px 8px 7px 23px;border-radius:5px;color:#92400e;background:#fffbeb;font-size:9px;line-height:1.4}.typeui-design-preview{display:block;width:100%;height:230px;resize:vertical;border:1px solid #dbe2ea;border-radius:6px;padding:8px;color:#334155;background:#fbfdff;font:10px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}.typeui-design-details{margin-top:9px;color:#64748b;font-size:10px;line-height:1.4}.typeui-design-action{gap:8px!important}';
+  document.head.appendChild(style);
+  setTimeout(install, 0);
+  document.addEventListener("click", (event) => {
+    if (event.target && event.target.closest && event.target.closest(".tab-button")) {
+      const panel = document.getElementById(PANEL_ID);
+      if (panel && panel.style.display !== "none") panel.style.display = "none";
+    }
+  }, true);
+})();
