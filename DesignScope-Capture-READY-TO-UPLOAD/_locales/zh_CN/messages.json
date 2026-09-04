@@ -1595,7 +1595,7 @@
     "placeholders": {
       "supportEmail": {
         "content": "$1",
-        "example": "support@coco-shot.io"
+        "example": "support@designscope.app"
       }
     }
   },
@@ -1605,7 +1605,7 @@
     "placeholders": {
       "supportEmail": {
         "content": "$1",
-        "example": "support@coco-shot.io"
+        "example": "support@designscope.app"
       }
     }
   },
