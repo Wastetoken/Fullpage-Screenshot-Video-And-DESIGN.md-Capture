@@ -1,9 +1,9 @@
 {
   "update_url": "https://clients2.google.com/service/update2/crx",
   "manifest_version": 3,
-  "name": "__MSG_extName__",
-  "description": "Capture screenshots, record screens, and extract implementation-ready DESIGN.md or SKILL.md guidance from any active page.",
-  "version": "1.38",
+  "name": "DesignScope Capture",
+  "description": "Capture screenshots, record video, and extract implementation-ready design systems from any active page.",
+  "version": "1.0.0",
   "default_locale": "en",
   "action": {
     "default_icon": {
@@ -13,7 +13,7 @@
       "64": "src/assets/icons/icon64_gray.png",
       "128": "src/assets/icons/icon128_gray.png"
     },
-    "default_title": "Screenshot - CocoShot",
+    "default_title": "DesignScope Capture",
     "default_popup": "src/pages/popup.html"
   },
   "icons": {
@@ -88,5 +88,6 @@
         "<all_urls>"
       ]
     }
-  ]
+  ],
+  "short_name": "DesignScope"
 }
