@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: ekrano kopija ir ekrano įrašymo įrenginys"
+  },
+  "extDescription": {
+    "message": "Užfiksuokite viso puslapio ekrano kopijas ir įrašykite ekraną į MP4 su komentarais. Įtrauktas PDF eksportavimas su spustelėjamomi..."
+  },
+  "pDisable": {
+    "message": "Išjungta šioje puslapio dalyje"
+  },
+  "pDisableDesc": {
+    "message": "Galite tai vykdyti bet kuriame puslapyje, išskyrus tuos, kuriuose naršyklė riboja plėtinių vykdomas scripts. Tai apima plėtinių parduotuvę, naršyklės nustatymų puslapius ir kitus plėtinių puslapius."
+  },
+  "pDisableExp": {
+    "message": "Ši apribojimas kyla iš pačios naršyklės dėl saugumo rizikų."
+  },
+  "pDisableTry": {
+    "message": "Galite atidaryti naują puslapį ir išbandyti užfiksavimo funkciją."
+  },
+  "pStart": {
+    "message": "Pradėti"
+  },
+  "pFileUrl": {
+    "message": "Eikite į \"edge://extensions/\" ir pažymėkite langelį \"Leisti prieigą prie failų URL\"."
+  },
+  "pCaptV": {
+    "message": "Užfiksuoti ekrano nuotrauką iš matomų puslapio dalių."
+  },
+  "pAsOne": {
+    "message": "Išsaugoti kaip vieną HTML failą."
+  },
+  "pDesktop": {
+    "message": "Užfiksuoti ekrano nuotraukas iš tam tikro puslapio, skirtuko, lango ar viso ekrano."
+  },
+  "pCaptFull": {
+    "message": "Užfiksuoti viso puslapio ekrano nuotrauką."
+  },
+  "pDesableOpt": {
+    "message": "Arba galite pabandyti:"
+  },
+  "pAreaCut": {
+    "message": "Pasirinkite puslapio dalį, kad užfiksuotumėte ekrano nuotrauką."
+  },
+  "fullpageTooLarge": {
+    "message": "Pastaba: Naršyklė negali užfiksuoti viso puslapio kaip vieno paveikslėlio dėl jo dydžio. Vietoj to, jis bus padalintas į <strong>$1</strong> atskirus paveikslėlius."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Įspėjimas: Šis plėtinys nėra skirtas ypač didelio turinio fiksavimui. Gali būti, kad jis negalės sėkmingai užbaigti šio puslapio fiksavimo."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Reikalingas papildomas leidimas"
+  },
+  "framePermDesc": {
+    "message": "Ši svetainė rodo turinį per įdėtą iframe, kuris reikalauja papildomų leidimų, kad galėtų pasiekti."
+  },
+  "WhatisIframe": {
+    "message": "Spustelėkite, kad sužinotumėte, kas yra iframe."
+  },
+  "framePermMore": {
+    "message": "Po šio dialogo naudojimo gali tekti perkrauti plėtinį. Atšaukimas užfiksuos tik matomą ekraną."
+  },
+  "framePermConfirm": {
+    "message": "Leisti"
+  },
+  "framePermSave": {
+    "message": "Išsaugoti šį leidimą vėlesniam naudojimui (galite jį bet kada atšaukti)."
+  },
+  "error": {
+    "message": "Klaida"
+  },
+  "captureError": {
+    "message": "Klaida įrašant, bandykite vėl vėliau. Jei problema išlieka, susisiekite su kūrėju adresu $1"
+  },
+  "btnOk": {
+    "message": "Gerai"
+  },
+  "btnCancel": {
+    "message": "Atšaukti"
+  },
+  "saveFramePermission": {
+    "message": "Leisti užfiksuoti turinį iš visų rėmelių"
+  },
+  "permissions": {
+    "message": "Leidimai"
+  },
+  "saveframepDesc": {
+    "message": "Šis leidimas reikalingas, kad būtų galima užfiksuoti turinį iš iframe arba frameset puslapyje. Atsakymas į šį leidimą gali apriboti tam tikrų svetainių elementų užfiksavimą."
+  },
+  "processingScreenshot": {
+    "message": "Apdorojamas ekrano vaizdas..."
+  },
+  "screenshotSaved": {
+    "message": "Ekrano nuotrauka išsaugota aplanke „Atsisiuntimai“"
+  },
+  "screenshotLoadFailed": {
+    "message": "Nepavyko įkelti ekrano vaizdo. Bandykite dar kartą."
+  },
+  "getScreenshotFailed": {
+    "message": "Nepavyko padaryti ekrano nuotraukos. Bandykite dar kartą."
+  },
+  "processingAllAreas": {
+    "message": "Apdorojami visų sričių ekrano vaizdai..."
+  },
+  "allAreasSaved": {
+    "message": "Sėkmingai išsaugota $1 sričių ekrano vaizdų"
+  },
+  "areaNotVisible": {
+    "message": "Pasirinkta sritis beveik visiškai už matomo ploto ribų, todėl negalima padaryti ekrano nuotraukos."
+  },
+  "partiallyVisible": {
+    "message": "Dalis srities yra už matomo ploto ribų. Užfiksuota matoma dalis."
+  },
+  "partiallyVisibleArea": {
+    "message": "Dalis pasirinktos srities yra už matomo ploto ribų. Užfiksuota matoma dalis."
+  },
+  "areaOutOfView": {
+    "message": "Pasirinkta sritis yra už matomo ploto ribų. Slinkite puslapį, kad ji būtų matoma, ir bandykite dar kartą."
+  },
+  "processingError": {
+    "message": "Klaida apdorojant ekrano vaizdą: $1"
+  },
+  "saveFailed": {
+    "message": "Nepavyko išsaugoti ekrano vaizdo: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Įjungtas išmanus ekrano vaizdo režimas. Spauskite, kad pasirinktumėte elementą (Enter – patvirtinti, Esc – atšaukti)."
+  },
+  "processing": {
+    "message": "Apdorojamas kopijavimas..."
+  },
+  "copyFailed": {
+    "message": "Kopijavimas nepavyko: $1"
+  },
+  "canvasContextError": {
+    "message": "Kopijavimas nepavyko: nepavyko gauti „Canvas“ konteksto."
+  },
+  "copied": {
+    "message": "Nukopijuota į iškarpinę"
+  },
+  "clipboardAccessDenied": {
+    "message": "Kopijavimas nepavyko: prieiga prie iškarpinės atmesta, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Kopijavimas nepavyko: iškarpinės API nepalaikoma"
+  },
+  "imageDataCreateFailed": {
+    "message": "Kopijavimas nepavyko: nepavyko sukurti vaizdo duomenų"
+  },
+  "copyAreaOutOfView": {
+    "message": "Kopijavimas nepavyko: pasirinkta sritis yra už matomo ploto ribų"
+  },
+  "imagePreviewShown": {
+    "message": "Rodyti vaizdo peržiūrą. Dešiniuoju pelės klavišu kopijuoti."
+  },
+  "escape": {
+    "message": "Atšaukti (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Vaizdo kokybė nustatyta: $1"
+  },
+  "qrDecoding": {
+    "message": "Dekoduojamas QR kodas..."
+  },
+  "qrSuccess": {
+    "message": "QR kodas sėkmingai dekoduotas. Nukopijuota į iškarpinę."
+  },
+  "qrNoQRFound": {
+    "message": "Nerasta tinkamo QR kodo"
+  },
+  "qrError": {
+    "message": "QR kodo dekodavimas nepavyko: $1"
+  },
+  "saveArea": {
+    "message": "Išsaugoti šią sritį"
+  },
+  "copyToClipboard": {
+    "message": "Kopijuoti šį pasirinkimą (šiuo metu pažymėta)"
+  },
+  "saveAllAreas": {
+    "message": "Išsaugoti visas sritis"
+  },
+  "keepAndContinue": {
+    "message": "Pridėti naują pasirinkimą"
+  },
+  "cancel": {
+    "message": "Atšaukti"
+  },
+  "lockSize": {
+    "message": "Fiksuoti dydį"
+  },
+  "lockSizeActive": {
+    "message": "✓ Fiksuoti dydį"
+  },
+  "freeRatio": {
+    "message": "Laisvas santykis"
+  },
+  "ratioLabel": {
+    "message": "Pasirinkti santykį"
+  },
+  "aiDialog": {
+    "message": "Išmanus dialogas"
+  },
+  "fileSizeEstimate": {
+    "message": "Apytiksliai $1 $2"
+  },
+  "qrDecode": {
+    "message": "Dekoduoti QR kodą"
+  },
+  "removeBackground": {
+    "message": "Pašalinti foną"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Šalinamas fonas..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Fono šalinimas nepavyko: vaizdo įkėlimo klaida"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Fono šalinimas nepavyko: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Fonas pašalintas ir nukopijuotas į iškarpinę"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Fono šalinimas nepavyko: nepavyko sukurti Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Pasirinkta sritis yra už matomo ploto ribų"
+  },
+  "screenshotFailed": {
+    "message": "Ekrano vaizdo padarymas nepavyko: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Vaizdo apdorojimas nepavyko, bandykite dar kartą"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Ekrano vaizdo sritis yra už matomo ploto ribų"
+  },
+  "errorProcessingImage": {
+    "message": "Klaida apdorojant vaizdą: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR kodo dekodavimo biblioteka neįkelta"
+  },
+  "qrDecodingFailed": {
+    "message": "QR kodo dekodavimas nepavyko: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "Pasirinktoje srityje nerastas QR kodas"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR kodas sėkmingai dekoduotas: $1"
+  },
+  "qrDecodingError": {
+    "message": "QR kodo dekodavimo klaida: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Fono šalinimas nepavyko: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Pirmiausia pasirinkite ekrano vaizdo sritį"
+  },
+  "aiDialogTitle": {
+    "message": "Vesti išmanų pokalbį apie ekrano turinį"
+  },
+  "qrDecodeTitle": {
+    "message": "Dekoduoti QR kodą ekrano vaizde"
+  },
+  "lockSizeTitle": {
+    "message": "Fiksuoti dabartinį dydį tęstiniam fiksavimui"
+  },
+  "moveHint": {
+    "message": "Tempti pasirinkimo sritį (Tarpas + tempimas)"
+  },
+  "saveAreaTooltip": {
+    "message": "Išsaugoti dabartinę sritį"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Išsaugoti visas pažymėtas sritis"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Kopijuoti ekrano vaizdą į iškarpinę"
+  },
+  "moreOptions": {
+    "message": "Daugiau parinkčių"
+  },
+  "removeBgTooltip": {
+    "message": "Pašalinti foną ir kopijuoti į iškarpinę"
+  },
+  "ratioLabelTooltip": {
+    "message": "Pasirinkti kraštinių santykį"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Išlaikyti dabartinį pasirinkimą ir tęsti"
+  },
+  "pCaptureTabLabel": {
+    "message": "Ekrano nuotrauka"
+  },
+  "pAiToolsTabLabel": {
+    "message": "DI įrankiai"
+  },
+  "pCaptureTitle": {
+    "message": "Viso puslapio ir pasirinktos ekrano srities ekrano nuotrauka"
+  },
+  "pAiToolsTitle": {
+    "message": "Su DI susiję įrankiai"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Žiniatinklio turinio eksportavimo įrankiai"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Vaizdo įrankiai"
+  },
+  "pDownloadAsMD": {
+    "message": "Atsisiųsti kaip „Markdown“"
+  },
+  "pDownloadAsPDF": {
+    "message": "Atsisiųsti kaip PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Atsisiųskite dabartinį tinklalapį kaip „Markdown“ failą"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Atsisiųskite dabartinį tinklalapį kaip PDF failą"
+  },
+  "pImageProcessing": {
+    "message": "Vaizdo apdorojimas"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Vaizdo apdorojimo įrankių rinkinys"
+  },
+  "fixThePage": {
+    "message": "Pataisyti puslapį"
+  },
+  "expandScrollableOn": {
+    "message": "Išplėsti slenkančias sritis"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Įgalinkite, kad prieš darydami ekrano nuotrauką išplėstumėte slenkančias sritis tinklalapyje"
+  },
+  "hideFixedOn": {
+    "message": "Slėpti fiksuotos padėties elementus"
+  },
+  "hideFixedOnDesc": {
+    "message": "Įgalinkite, kad paslėptumėte fiksuotos padėties elementus, kurie gali trukdyti fiksuoti"
+  },
+  "preScrollOn": {
+    "message": "Išankstinis tinklalapio įkėlimas slenkant"
+  },
+  "preScrollOnDesc": {
+    "message": "Daugelis žiniatinklio elementų (pvz., vaizdų) įkeliami tik slenkant. Kai įjungta, ji automatiškai aptinka ir slenka į puslapio apačią prieš darydama ekrano nuotrauką."
+  },
+  "canBeDisabled": {
+    "message": "galima išjungti per nustatymų puslapį"
+  },
+  "analyzingPageForHTML": {
+    "message": "Analizuojamas tinklalapio kodas ir turinys, sudėtingi puslapiai gali užtrukti ilgiau. Jei tai trunka per ilgai, atnaujinkite tinklalapį ir bandykite dar kartą."
+  },
+  "drawerSettings": {
+    "message": "Nustatymai"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Ekrano nuotraukų istorija"
+  },
+  "drawerImageTools": {
+    "message": "Ekrano nuotraukų tobulinimo įrankiai"
+  },
+  "drawerHelpFeedback": {
+    "message": "DUK ir atsiliepimai"
+  },
+  "drawerCloseMenu": {
+    "message": "Uždaryti šį meniu"
+  },
+  "logoTooltip": {
+    "message": "Rodyti daugiau"
+  },
+  "pRecorderTabLabel": {
+    "message": "Ekrano įrašymas"
+  },
+  "pRecorderTitle": {
+    "message": "Ekrano įrašymas"
+  },
+  "pStartRecorder": {
+    "message": "Pradėti ekrano įrašymą"
+  },
+  "pStartRecorderLabel": {
+    "message": "Ekrano įrašymas"
+  },
+  "pRecorderAlt": {
+    "message": "Įrašymas"
+  },
+  "pStartRecorderAlt": {
+    "message": "Ekrano įrašymas"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Tai beta versija"
+  },
+  "pRecorderFeedback": {
+    "message": "Pateikti atsilipimus"
+  },
+  "downloadsPermission": {
+    "message": "Leisti failų atsisiuntimą"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Šis leidimas reikalingas, kad ekrano nuotraukas būtų galima išsaugoti tiesiai į jūsų kompiuterį."
+  },
+  "webNavigationPermission": {
+    "message": "Leisti prieigą prie žiniatinklio naršymo"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Šis leidimas reikalingas, kad būtų galima aptikti puslapių pakeitimus ir prireikus pereiti į kitus puslapius."
+  },
+  "desktopCapturePermission": {
+    "message": "Leisti darbalaukio užfiksavimą"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Šis leidimas reikalingas, kad būtų galima užfiksuoti turinį iš jūsų darbalaukio arba konkrečių langų."
+  },
+  "tabsPermission": {
+    "message": "Leisti prieigą prie kortelių"
+  },
+  "tabsPermissionDesc": {
+    "message": "Šis leidimas reikalingas, kad būtų galima pasiekti ir valdyti naršyklės kortelių informaciją."
+  },
+  "tabCapturePermission": {
+    "message": "Leisti kortelės fiksavimą"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Šis leidimas reikalingas, kad būtų galima fiksuoti garsą ir vaizdą iš naršyklės kortelių."
+  },
+  "allUrlsPermission": {
+    "message": "Leisti prieigą prie visų svetainių"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Šis leidimas reikalingas, kad būtų galima daryti ekrano nuotraukas iš bet kurios svetainės."
+  },
+  "fileUrlsPermission": {
+    "message": "Leisti prieigą prie vietinių failų"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Šis leidimas reikalingas, kad būtų galima daryti ekrano nuotraukas iš vietinių failų (file:// URL)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Ar įtraukti paveikslėlius į atsisiuntimą"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Šiai funkcijai reikia „CocoShot Pro“"
+  },
+  "proUpgradeButton": {
+    "message": "Atnaujinti į Pro versiją"
+  },
+  "proSaveRestricted": {
+    "message": "Norint išsaugoti šį turinį, reikia „CocoShot Pro“"
+  },
+  "qv_title": {
+    "message": "CocoShot peržiūra"
+  },
+  "qv_preview_mode": {
+    "message": "Peržiūros režimas"
+  },
+  "qv_screenshot_preview": {
+    "message": "Ekrano nuotraukos peržiūra"
+  },
+  "qv_download": {
+    "message": "Atsisiųsti"
+  },
+  "qv_edit": {
+    "message": "Anotuoti, redaguoti (taip pat galima eksportuoti į PDF)"
+  },
+  "qv_hint": {
+    "message": "Patyrę vartotojai automatiškai praleis šį puslapį ir pateks į redaktorių."
+  },
+  "recordTab": {
+    "message": "Record",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Jūsų vaizdo įrašai",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Ekranas",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Skirtukas",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Tik kamera",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Maketas",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Pasirinktinio ploto įrašymas išjungtas",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Atnaujinkite Chrome į 110+ versiją",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Atnaujinti",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Patikrinkite savo leidimus",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot atrodo, kad negali pasiekti jūsų kameros ar mikrofono. Norėdami išspręsti šią problemą, atblokuokite ją naršyklės nustatymuose ir suteikite reikalingus leidimus.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Atmesti",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Leisti prieigą prie kameros",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Leisti prieigą prie mikrofono",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Paspauskite, norėdami kalbėti",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Nustatyti įrašymo plotą",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Apversti kamerą",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Fono efektai",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Pradėti įrašymą",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Pradedamas įrašymas...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Pasirinkite kamerą",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Daugiau parinkčių",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Sistemos garso įrenginys",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Slėpti įrankių juostą",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Atgalinė atskaita",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Nustatyti laiko limitą",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Blur",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Nėra",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Nėra kameros",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Nėra mikrofono",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Pasirinkite šaltinį",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Išjungta",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Plotis",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Aukštis",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Spustelėkite, jei norite įdėti vaizdą",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Baigti įrašymą",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Perkrauti įrašymą",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Pristabdyti įrašymą",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Tęsti įrašymą",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Atšaukti įrašymą",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Įjungti/išjungti piešimo įrankius",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Įjungti/išjungti blur įrankį",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Įjungti/išjungti žymeklio parinktis",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Išjungti kamerą",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Įjungti kamerą",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Nėra kameros leidimų",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Kameros nustatymai",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Veidrodinis kamera",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Fono suliejimas",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Išjungti mikrofoną",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Įjungti mikrofoną",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Nėra mikrofono leidimų",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Pasirinkti įrankį",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Pieštuko įrankis",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Paryškinimo įrankis",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Trintuko įrankis",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Teksto įrankis",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Formos įrankis",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Rodyklės įrankis",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Vaizdo įrankis",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Atšaukti",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Grąžinti",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Išvalyti drobę",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Daugiau spalvų",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Storas potėpis",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Vidutinis potėpis",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Plonas potėpis",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Įjungti/išjungti paveikslėlyje paveikslėlio režimą",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Įjungti/išjungti užpildą",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Piešimo režimas",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Suliejimo režimas",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Išvalyti visus sulietus elementus",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Paryškinti spustelėjimus",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Paryškinti žymeklį",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Žymeklio dėmesys",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Nerodyti daugiau",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Perkrauti įrašymą?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Jūsų dabartinis progresas bus prarastas.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Perkrauti",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Tęsti",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Atmesti įrašymą?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Jūsų dabartinis progresas bus prarastas.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Atmesti",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Tęsti",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Jūsų įrašas bus čia išsaugotas",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Įrašoma...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Palikite šį skirtuką atvirą. Jis užsivers, kai jūsų įrašas bus išsaugotas.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Ruošiamas įrašas...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Palikite šį skirtuką atvirą. Jis bus atnaujintas su jūsų įrašu, kai bus paruoštas.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Redaktorius",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Atšaukti",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Grąžinti į pradinę būseną",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Iš naujo",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Išsaugoti pakeitimus",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Išsaugoma...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Vilkite ir paleiskite garso failą",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Arba spustelėkite, jei norite naršyti",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Nustatymai",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Garsumas",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Atnaujinti",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Apkarpyti",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Plotis",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Aukštis",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Kairė",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Viršus",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Vilkite rankenėles ir naudokite mygtukus kairėje, jei norite redaguoti pasirinktą skyrių.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Apkarpyti vaizdo įrašą",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Apkarpoma...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Iškirpti skyrių",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Iškirpiama...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Išjungti garsą",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Išjungiamas garsas...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Sužinokite daugiau.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Atšaukti",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Grąžinti",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Palikite atsiliepimą, tai padeda!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Šiuo metu esate atsijungęs",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Kai kurios funkcijos bus neprieinamos, kol vėl neprisijungsite",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Pabandykite dar kartą",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "„Chrome reikia atnaujinti",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Atnaujinkite, jei norite pasiekti daugiau funkcijų",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Sužinokite daugiau",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Vaizdo įrašas per ilgas, kad būtų galima apdoroti įrenginyje",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Redagavimas ir MP4 eksportas neprieinami",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Vaizdo įrašas apdorojamas vietoje...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Sužinokite apie greitesnę debesų versiją",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Redaguoti",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Nėra ryšio",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Neprieinama",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Redaguoti vaizdo įrašą",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Apkarpyti, iškirpti arba nutildyti vaizdo įrašą",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Ruošiamas vaizdo įrašas, prašome palaukti...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Apkarpyti",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Apkarpyti ir keisti vaizdo įrašo dydį",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Pridėti garso įrašą",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Įkelkite savo garso įrašą, jei norite pridėti prie vaizdo įrašo",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Išsaugoti",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Atsijungti nuo „Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Išsaugoma...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Išsaugoti į „Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Išsaugoti dabartinę versiją į „Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Prisijunkite ir išsaugokite į „Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Atsisiunčiama...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Atsisiųsti kaip .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Eksportuoti .webm vaizdo įrašą",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Atsisiųsti kaip .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Eksportuoti .mp4 vaizdo įrašą (rekomenduojama)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Atsisiųsti kaip .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Eksportuoti GIF (maks. 30 sekundžių)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Pakeisti esamą garso įrašą",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Pritraukti prie žymeklio",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Likti puslapyje įrašant",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Mikrofonas išjungtas įspėjimas",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Pagalba",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Įrašymas pristabdytas. Paspauskite atkūrimo mygtuką, jei norite tęsti.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "„CocoShot neturi leidimo įrašyti jūsų ekraną",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Kad veiktų ekrano įrašymas, turėsite leisti „CocoShot įrašyti jūsų ekraną, kai pasirodys leidimo užklausa. (Galite bet kada atšaukti plėtinio nustatymuose.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Įjungti ekrano įrašymą",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Atšaukti",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Jūsų mikrofonas nutildytas",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Jei norite, kad jūsų balsas būtų įtrauktas į įrašą, turėsite įjungti mikrofoną. Ar norite tęsti įrašymą be garso?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Taip, tęsti",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Atšaukti",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Atsipalaiduokite. Spustelėkite bet kur, jei norite sustabdyti atgalinę atskaitą.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Redagavimas gali būti netikslus trumpiems laiko intervalams dėl kadrų intervalų.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Vaizdo įrašas apdorojamas, atkūrimas gali būti netikslus arba nutrūkęs.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Apkarpymas gali užtrukti",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Atnaujinkite, jei norite greitesnio apdorojimo",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Mikrofonas įjungtas",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Mikrofonas išjungtas",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Įrašas buvo trumpesnis nei 3 sekundės ir nebuvo išsaugotas.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Slėpti sąsajos pranešimus",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Nerodyti daugiau",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Slėpti įrankių juostą, kai nenaudojama",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Pradėti įrašymą",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Sustabdyti įrašymą",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Sveiki atvykę į naująjį „CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Sužinokite daugiau apie atnaujinimą.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Pradėti",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Klaida pradedant įrašymą",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Įvyko klaida pradedant įrašymo procesą. Paleiskite naršyklę iš naujo ir bandykite dar kartą. Jei problema nesibaigia, susisiekite su mumis adresu support@cocoshot.net.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Aukščiausia kokybė",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Atkurti paskutinį vaizdo įrašą",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Kyla problemų?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Nematote savo įrašo?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Jei baigėte įrašymą, bet nematote vaizdo įrašo šiame puslapyje, galite pabandyti atsisiųsti žalius vaizdo duomenis, jei jie yra. Arba galite susisiekti su mumis pateikdami klaidų ataskaitą.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Atsisiųsti žalius vaizdo duomenis",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Pranešti apie klaidą",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Įrašas nerastas, atsiprašome :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Pasiekta atminties riba",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Jūsų įrenginyje nepakanka atminties įrašymui, todėl sesija baigiasi automatiškai. Jei norite įrašyti ilgesnius vaizdo įrašus, sumažinkite vaizdo įrašo kokybę arba atlaisvinkite vietos saugykloje.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Supratau",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Nepakanka vietos",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "„CocoShot reikia bent 1 GB laisvos vietos įrašymui. Atlaisvinkite vietos ir bandykite dar kartą.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Išvalyti ankstesnius įrašus",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Išplėstinė",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Atsisiųsti žalią vaizdo failą",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Eksportuoti originalius įrašymo duomenis",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Gaukite pagalbos dėl įrašo",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Atkurkite vaizdo įrašą ir išspręskite kitas problemas",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Atsisiųsti žalią vaizdo failą",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Žalias vaizdo failas reiškia nepakeistą įrašą, kurį sukūrė tiesiogiai „CocoShot. Kadangi šis failas nebuvo apdorotas ar redaguotas, jis gali būti gana didelis ir nesuderinamas su kai kuriais įrenginiais. Jei kyla problemų su apdorota versija, galite naudoti šį failą, jei norite susigrąžinti originalų įrašą.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Atsisiųsti",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Rodyti garso bangos formą",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Atsisiųsti sistemos informaciją ir vaizdo duomenis ir išsiųsti trikčių šalinimui",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Atsisiuntę failą, išsiųskite jį į support@cocoshot.net kartu su bet kokia papildoma informacija, kuri gali padėti. Naudosime šią informaciją jums padėti išspręsti problemas su plėtiniu ir, jei įmanoma, atkurti jūsų vaizdo įrašą.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Atsisiųsti",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Vaizdo įrašas per ilgas, kad būtų galima apdoroti jūsų įrenginyje",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Kadangi „CocoShot teikia pirmenybę privatumui ir veikia visiškai jūsų vietiniame įrenginyje, jis yra susietas su jūsų techninės įrangos galimybėmis. Tokios trukmės vaizdo įrašo tvarkymas būtų pernelyg daug laiko reikalaujantis ir reikalautų didelių sistemos išteklių. Vis tiek galite gauti WEBM failą arba žalią įrašą, nors redagavimo funkcijos ir MP4 eksportas nebus prieinami. Tačiau jei žinote apie galimus iššūkius, galite tęsti vaizdo įrašo apdorojimą.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Suprantu riziką, vis tiek bandyti",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Sužinokite daugiau apie ilgų vaizdo įrašų apdorojimą.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Atkūrimo režimas",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Atsisiųsti duomenis trikčių šalinimui",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Pagalbos centras",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Įrašyti kompiuterio garsą",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Jei norite įrašyti garsą iš šio puslapio, turite perjungti į „$tab$.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Plėtinys nepalaikomas skirtuke",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "„CocoShot nesuderinamas su skirtuku, kurį ką tik naudojote. Vis tiek galite pradėti įrašymą iš šio puslapio ir grįžti į tą skirtuką, bet atkreipkite dėmesį, kad jūsų kameros rodinys ir redagavimo įrankių juosta nebus rodomi.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Nustatykite vietinę atsarginę kopiją savo „CocoShot įrašams",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Išlaikykite kiekvieno jūsų sukurto įrašo kopijas. Nesusikūrę atsarginių kopijų, jūsų įrašai bus saugomi tik tada, kai aiškiai pasirinksite juos atsisiųsti.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Jei bandote išsaugoti įrašus į „Atsisiuntimai ar kitas sistemos aplankas, gali tekti iš anksto sukurti naują aplanką.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Pasirinkti aplanką",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Dabar ne",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Jūsų įrašams kuriamas vietinis atsarginis kopijavimas",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Kad nebūtų klausiama leidimo kiekvieną kartą įrašant, rekomenduojame palikti šį skirtuką atvirą.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Uždaryti skirtuką vis tiek",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Stabdyti visų įrašų atsarginį kopijavimą",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Patvirtinkite prieigą prie vietinės „CocoShot atsarginės kopijos aplanko",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Atsiprašome, bet mums reikia jūsų leidimo dar kartą, kad galėtume tęsti jūsų įrašų atsarginį kopijavimą. Deja, turėsime prašyti šio leidimo kiekvieną kartą, kai šis skirtukas užsidarys, o tai gali įvykti uždarant naršyklę arba paleidžiant kompiuterį iš naujo.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Leisti „CocoShot tęsti įrašų atsarginį kopijavimą",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Atsarginės įrašų kopijos",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Leidimas nebuvo suteiktas atsarginei įrašo kopijai",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Nepasirinkote aplanko, kuriame bus saugomos įrašų atsarginės kopijos. Priklausomai nuo naršyklės versijos ar operacinės sistemos, gali būti paprašyta pasirinkti šį aplanką kiekvieną kartą pradėjus įrašą. Galite dar kartą pabandyti nustatymų procesą arba išjungti atsargines kopijas, jei nenorite nuolat teikti leidimų.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Įrašyti kompiuterio garsą",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "„macOS sistemose esate ribojami įrašydami garsą iš atskirų skirtukų. Pasirinkite „Chrome skirtuko įrašymo parinktį ir patikrinkite, ar nustatymas „Taip pat dalytis skirtuko garsu yra įjungtas.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Įrašyti kompiuterio garsą",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Jei norite įrašyti garsą iš kompiuterio, įsitikinkite, kad parinktis „Dalytis sistemos garsu yra aktyvuota. Jei šios parinkties nematote, apsvarstykite galimybę atnaujinti „Chrome arba perjungti į skirtuko įrašymo režimą.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Maks. raiška",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Maks. FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Nepakanka RAM",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Keisti lango dydį",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Ekranas per mažas šiai raiškai",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Negalima įrašyti šia raiška jūsų įrenginyje",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Leidimas atmestas",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Įrašymui reikalingi kameros ir mikrofono leidimai. Suteikite leidimus naršyklės nustatymuose.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Įrašymui reikalingas kameros leidimas. Suteikite leidimą naršyklės nustatymuose.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Įrašymui reikalingas mikrofono leidimas. Suteikite leidimą naršyklės nustatymuose.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Pataisyti leidimus",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Ekrano įrašymo nustatymai",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "val",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "min",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "sek",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Prašoma kameros leidimo...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Prašoma mikrofono leidimo...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Prašyti kameros leidimo",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Prašyti mikrofono leidimo",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Peržiūrėti leidimus",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Tinkinti parinktis",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Įrašyti vaizdo įrašai",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Dar nėra įrašytų vaizdo įrašų",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Paspauskite, jei norite nutildyti",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Mums reikia jūsų leidimo pasiekti jūsų kamerą",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Mums reikia jūsų leidimo pasiekti jūsų mikrofoną",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Peržiūra",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Spalvų parinkiklis",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Uždaryti",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Pasirinkti spalvą iš ekrano",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "„EyeDropper API šioje naršyklėje nepalaikoma. Naudokite modernesnę naršyklę, pvz., „Chrome 95+ arba „Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Pasirinkti suliejimo regioną",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Ištrinti visus suliejimo regionus",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Linijos plotis",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Plonas",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Vidutinis",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Storas",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Ypač storas",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "„CocoShot įrašai",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Nepavyko nustatyti vietinės atsarginės kopijos. Susisiekite su mumis adresu $supportEmail$ jei reikia daugiau pagalbos. Vis tiek galite įrašyti ekraną.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Jūsų naršyklė nepalaiko vietinių atsarginių kopijų. Susisiekite su mumis adresu $supportEmail$ jei reikia daugiau pagalbos. Vis tiek galite įrašyti ekraną.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Kaip naudoti didinimą iki žymeklio",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Įrašymo metu laikykite nuspaudę klavišų trumpinį, jei norite priartėti prie žymeklio pozicijos. Atleiskite klavišus, jei norite nutolinti. Tai puikiai tinka norint parodyti konkrečias ekrano sritis įrašymo metu.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Supratau!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Regiono dydis",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Išankstiniai nustatymai",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Iš naujo",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Nėra",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Suliejimas",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Vaizdas",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Pirmiausia įkelkite vaizdo failą",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Atsisiųsti kaip WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Atsisiųsti kaip MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Konvertuojama...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Apdorojami fragmentai:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Vaizdo įrašo dydis viršija rekomenduojamą limitą (maks. 1GB), dėl ko gali nepavykti apdoroti",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Įkeliate didelį vaizdo įrašą (1GB). Apdorojimas gali užtrukti. Tęsti?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Nepalaikomas vaizdo formatas. Bandykite kitą vaizdo formatą.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Atsisiuntimas nepavyko. Bandykite dar kartą.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4 konvertavimas neprieinamas",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Šis vaizdo įrašas per didelis, kad būtų galima konvertuoti į MP4 naršyklėje. Atsisiųskite jį kaip WebM.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Konvertuojama į MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Nepavyko atsisiųsti vaizdo įrašo. Bandykite dar kartą.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "redaguoti vaizdo įrašą",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Jau greitai.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Vaizdo įrašo peržiūra",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "Gerai",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Rašoma į saugyklą...",
+    "description": "Message shown when writing video to storage"
+  }
+}

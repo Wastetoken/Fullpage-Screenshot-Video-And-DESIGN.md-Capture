@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Captură de ecran și Înregistrator de ecran"
+  },
+  "extDescription": {
+    "message": "Capturați capturi de ecran pe pagină completă și înregistrați ecranul în MP4 cu adnotări. Export PDF cu linkuri pe care se poate ..."
+  },
+  "pDisable": {
+    "message": "Dezactivat pe această pagină"
+  },
+  "pDisableDesc": {
+    "message": "Puteți rula acest lucru pe orice pagină web, cu excepția celor în care browserul restricționează extensiile să ruleze scripturi. Acestea includ magazinul de extensii, paginile de setări ale browserului și alte pagini ale extensiilor."
+  },
+  "pDisableExp": {
+    "message": "Această limitare provine din browserul însuși din cauza riscurilor de securitate."
+  },
+  "pDisableTry": {
+    "message": "Puteți deschide o pagină nouă și încerca funcția de captură."
+  },
+  "pStart": {
+    "message": "Începeți"
+  },
+  "pFileUrl": {
+    "message": "Mergeți la \"edge://extensions/\" și bifați caseta \"Permiteți accesul la URL-urile de fișiere\"."
+  },
+  "pCaptV": {
+    "message": "Capturați captura de ecran a părților vizibile ale paginii."
+  },
+  "pAsOne": {
+    "message": "Salvați ca un singur fișier HTML."
+  },
+  "pDesktop": {
+    "message": "Capturați capturi de ecran ale unei pagini web date, tab, fereastră sau întreaga ecran."
+  },
+  "pCaptFull": {
+    "message": "Capturați captura de ecran a întregii pagini."
+  },
+  "pDesableOpt": {
+    "message": "Sau puteți încerca:"
+  },
+  "pAreaCut": {
+    "message": "Selectați o parte a paginii pentru a captura captura de ecran"
+  },
+  "fullpageTooLarge": {
+    "message": "Notă: Browserul nu poate captura întreaga pagină ca o singură imagine din cauza dimensiunii sale. În schimb, va fi împărțită în <strong>$1</strong> imagini separate."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Avertisment: Această extensie nu este destinată capturării conținutului extrem de mare. Este posibil să nu poată finaliza cu succes capturarea acestei pagini."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Permisiune suplimentară necesară"
+  },
+  "framePermDesc": {
+    "message": "Acest site afișează conținut printr-un iframe încorporat, ceea ce necesită permisiuni suplimentare pentru acces."
+  },
+  "WhatisIframe": {
+    "message": "Apasă pentru a învăța ce este un iframe."
+  },
+  "framePermMore": {
+    "message": "Este posibil să fie necesar să repornești extensia după utilizarea acestui dialog. Anularea va captura doar ecranul vizibil."
+  },
+  "framePermConfirm": {
+    "message": "Permite"
+  },
+  "framePermSave": {
+    "message": "Salvează această permisiune pentru utilizare ulterioară (o poți revoca în orice moment)."
+  },
+  "error": {
+    "message": "Eroare"
+  },
+  "captureError": {
+    "message": "Capturarea a eșuat, te rugăm să încerci din nou mai târziu. Dacă problema persistă, contactează dezvoltatorul la $1"
+  },
+  "btnOk": {
+    "message": "OK"
+  },
+  "btnCancel": {
+    "message": "Anulează"
+  },
+  "saveFramePermission": {
+    "message": "Permite capturarea conținutului din toate cadrele"
+  },
+  "permissions": {
+    "message": "Permisiuni"
+  },
+  "saveframepDesc": {
+    "message": "Această permisiune este necesară pentru a captura conținut din iframe-uri sau frame-set-uri pe o pagină. Dezactivarea acesteia poate limita capacitatea de a captura anumite elemente ale paginii web."
+  },
+  "processingScreenshot": {
+    "message": "Se procesează captura de ecran..."
+  },
+  "screenshotSaved": {
+    "message": "Captura de ecran a fost salvată în folderul Descărcări"
+  },
+  "screenshotLoadFailed": {
+    "message": "Încărcarea capturii de ecran a eșuat. Vă rugăm să încercați din nou."
+  },
+  "getScreenshotFailed": {
+    "message": "Capturarea ecranului a eșuat. Vă rugăm să încercați din nou."
+  },
+  "processingAllAreas": {
+    "message": "Se procesează capturile de ecran pentru toate zonele..."
+  },
+  "allAreasSaved": {
+    "message": "Capturile pentru $1 zone au fost salvate cu succes"
+  },
+  "areaNotVisible": {
+    "message": "Zona selectată este aproape complet în afara razei vizibile și nu poate fi capturată."
+  },
+  "partiallyVisible": {
+    "message": "O parte din zonă este în afara razei vizibile. Partea vizibilă a fost capturată."
+  },
+  "partiallyVisibleArea": {
+    "message": "O parte din zona selectată este în afara razei vizibile. Partea vizibilă a fost capturată."
+  },
+  "areaOutOfView": {
+    "message": "Zona selectată este în afara razei vizibile. Vă rugăm să derulați pagina pentru a face zona vizibilă și încercați din nou."
+  },
+  "processingError": {
+    "message": "Eroare la procesarea capturii de ecran: $1"
+  },
+  "saveFailed": {
+    "message": "Salvarea capturii de ecran a eșuat: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Modul inteligent pentru captură de ecran activat. Click pentru a selecta un element de capturat (Enter pentru confirmare, Esc pentru anulare)."
+  },
+  "processing": {
+    "message": "Se procesează copierea..."
+  },
+  "copyFailed": {
+    "message": "Copiere eșuată: $1"
+  },
+  "canvasContextError": {
+    "message": "Copiere eșuată: Nu se poate obține contextul Canvas."
+  },
+  "copied": {
+    "message": "Copiat în clipboard"
+  },
+  "clipboardAccessDenied": {
+    "message": "Copiere eșuată: Accesul la clipboard refuzat, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Copiere eșuată: API-ul clipboard nu este suportat"
+  },
+  "imageDataCreateFailed": {
+    "message": "Copiere eșuată: Nu se pot crea datele imaginii"
+  },
+  "copyAreaOutOfView": {
+    "message": "Copiere eșuată: Zona selectată este în afara razei vizibile"
+  },
+  "imagePreviewShown": {
+    "message": "Previzualizarea imaginii afișată. Click dreapta pentru a copia."
+  },
+  "escape": {
+    "message": "Anulare (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Calitatea imaginii setată la: $1"
+  },
+  "qrDecoding": {
+    "message": "Se decodează codul QR..."
+  },
+  "qrSuccess": {
+    "message": "Codul QR a fost decodat cu succes. Copiat în clipboard."
+  },
+  "qrNoQRFound": {
+    "message": "Nu a fost detectat niciun cod QR valid"
+  },
+  "qrError": {
+    "message": "Decodificare cod QR eșuată: $1"
+  },
+  "saveArea": {
+    "message": "Salvează această zonă"
+  },
+  "copyToClipboard": {
+    "message": "Copiază selecția (selectată în prezent)"
+  },
+  "saveAllAreas": {
+    "message": "Salvează toate zonele"
+  },
+  "keepAndContinue": {
+    "message": "Adaugă o selecție nouă"
+  },
+  "cancel": {
+    "message": "Anulează"
+  },
+  "lockSize": {
+    "message": "Blochează dimensiunea"
+  },
+  "lockSizeActive": {
+    "message": "✓ Blochează dimensiunea"
+  },
+  "freeRatio": {
+    "message": "Raport liber"
+  },
+  "ratioLabel": {
+    "message": "Selectează raportul"
+  },
+  "aiDialog": {
+    "message": "Dialog inteligent"
+  },
+  "fileSizeEstimate": {
+    "message": "Aproximativ $1 $2"
+  },
+  "qrDecode": {
+    "message": "Decodează codul QR"
+  },
+  "removeBackground": {
+    "message": "Elimină fundalul"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Se elimină fundalul..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Eliminarea fundalului a eșuat: Eroare la încărcarea imaginii"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Eliminarea fundalului a eșuat: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Fundalul a fost eliminat și copiat în clipboard"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Eliminarea fundalului a eșuat: Nu se poate crea Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Zona selectată este în afara razei vizibile"
+  },
+  "screenshotFailed": {
+    "message": "Captura de ecran a eșuat: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Procesarea imaginii a eșuat, vă rugăm să încercați din nou"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Zona de captură este în afara razei vizibile"
+  },
+  "errorProcessingImage": {
+    "message": "Eroare la procesarea imaginii: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "Biblioteca pentru decodarea codului QR nu este încărcată"
+  },
+  "qrDecodingFailed": {
+    "message": "Decodificarea codului QR a eșuat: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "Nu a fost găsit niciun cod QR în zona selectată"
+  },
+  "qrDecodingSuccess": {
+    "message": "Codul QR a fost decodat cu succes: $1"
+  },
+  "qrDecodingError": {
+    "message": "Eroare la decodificarea codului QR: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Eliminarea fundalului a eșuat: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Vă rugăm să selectați mai întâi o zonă de captură"
+  },
+  "aiDialogTitle": {
+    "message": "Discuție inteligentă despre conținutul capturii de ecran"
+  },
+  "qrDecodeTitle": {
+    "message": "Decodează codul QR din captura de ecran"
+  },
+  "lockSizeTitle": {
+    "message": "Blochează dimensiunea curentă pentru captură continuă"
+  },
+  "moveHint": {
+    "message": "Trage zona de selecție (Space + tragere)"
+  },
+  "saveAreaTooltip": {
+    "message": "Salvează zona curentă"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Salvează toate zonele selectate"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Copiază captura de ecran în clipboard"
+  },
+  "moreOptions": {
+    "message": "Mai multe opțiuni"
+  },
+  "removeBgTooltip": {
+    "message": "Elimină fundalul și copiază în clipboard"
+  },
+  "ratioLabelTooltip": {
+    "message": "Selectează raportul de aspect"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Păstrează selecția curentă și continuă"
+  },
+  "pCaptureTabLabel": {
+    "message": "Captură de ecran"
+  },
+  "pAiToolsTabLabel": {
+    "message": "Instrumente AI"
+  },
+  "pCaptureTitle": {
+    "message": "Captură de ecran a paginii complete și a zonei de ecran selectate"
+  },
+  "pAiToolsTitle": {
+    "message": "Instrumente legate de AI"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Instrumente de export de conținut web"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Instrumente de imagine"
+  },
+  "pDownloadAsMD": {
+    "message": "Descărcați ca Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Descărcați ca PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Descărcați pagina web curentă ca fișier Markdown"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Descărcați pagina web curentă ca fișier PDF"
+  },
+  "pImageProcessing": {
+    "message": "Procesare de imagini"
+  },
+  "pImageProcessingTooltip": {
+    "message": "O colecție de instrumente pentru procesarea imaginilor"
+  },
+  "fixThePage": {
+    "message": "Reparați pagina"
+  },
+  "expandScrollableOn": {
+    "message": "Extindeți zonele derulabile"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Activați pentru a extinde zonele derulabile din pagina web înainte de a face o captură de ecran"
+  },
+  "hideFixedOn": {
+    "message": "Ascundeți elementele cu poziție fixă"
+  },
+  "hideFixedOnDesc": {
+    "message": "Activați pentru a ascunde elementele cu poziție fixă care ar putea interfera cu captura"
+  },
+  "preScrollOn": {
+    "message": "Preîncărcarea paginii web prin derulare"
+  },
+  "preScrollOnDesc": {
+    "message": "Multe elemente web (de exemplu, imagini) se încarcă numai la derulare. Când este activat, detectează și derulează automat în partea de jos a paginii înainte de a face o captură de ecran."
+  },
+  "canBeDisabled": {
+    "message": "poate fi dezactivat prin pagina de setări"
+  },
+  "analyzingPageForHTML": {
+    "message": "Se analizează codul și conținutul paginii web, paginile complexe pot dura mai mult. Dacă durează prea mult, reîmprospătați pagina web și încercați din nou."
+  },
+  "drawerSettings": {
+    "message": "Setări"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Istoricul capturilor de ecran"
+  },
+  "drawerImageTools": {
+    "message": "Instrumente de îmbunătățire a capturilor de ecran"
+  },
+  "drawerHelpFeedback": {
+    "message": "Întrebări frecvente și feedback"
+  },
+  "drawerCloseMenu": {
+    "message": "Închideți acest meniu"
+  },
+  "logoTooltip": {
+    "message": "Vezi mai mult"
+  },
+  "pRecorderTabLabel": {
+    "message": "Înregistrare ecran"
+  },
+  "pRecorderTitle": {
+    "message": "Înregistrare ecran"
+  },
+  "pStartRecorder": {
+    "message": "Pornește înregistrarea ecranului"
+  },
+  "pStartRecorderLabel": {
+    "message": "Înregistrare ecran"
+  },
+  "pRecorderAlt": {
+    "message": "Înregistrare"
+  },
+  "pStartRecorderAlt": {
+    "message": "Înregistrare ecran"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Aceasta este o versiune beta"
+  },
+  "pRecorderFeedback": {
+    "message": "Oferă feedback"
+  },
+  "downloadsPermission": {
+    "message": "Permite descărcarea fișierelor"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Această permisiune este necesară pentru a salva capturile de ecran direct pe calculatorul dvs."
+  },
+  "webNavigationPermission": {
+    "message": "Permite accesul la navigarea web"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Această permisiune este necesară pentru a detecta modificările paginii și a naviga la pagini diferite atunci când este necesar."
+  },
+  "desktopCapturePermission": {
+    "message": "Permite capturarea ecranului de birou"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Această permisiune este necesară pentru a captura conținutul de pe biroul dvs. sau ferestrele specifice."
+  },
+  "tabsPermission": {
+    "message": "Permite accesul la file"
+  },
+  "tabsPermissionDesc": {
+    "message": "Această permisiune este necesară pentru a accesa și gestiona informațiile despre filele browserului."
+  },
+  "tabCapturePermission": {
+    "message": "Permite capturarea filei"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Această permisiune este necesară pentru a captura sunetul și videoclipul din filele browserului."
+  },
+  "allUrlsPermission": {
+    "message": "Permite accesul la toate site-urile web"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Această permisiune este necesară pentru a captura ecrane de la orice site web."
+  },
+  "fileUrlsPermission": {
+    "message": "Permite accesul la fișierele locale"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Această permisiune este necesară pentru a captura ecrane din fișierele locale (adrese URL file://)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Dacă imaginile să fie incluse în descărcare"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Această funcție necesită CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "Treceți la Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Salvarea acestui conținut necesită CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "Previzualizare CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "Mod previzualizare"
+  },
+  "qv_screenshot_preview": {
+    "message": "Previzualizare captură de ecran"
+  },
+  "qv_download": {
+    "message": "Descărcare"
+  },
+  "qv_edit": {
+    "message": "Adnotare, Editare (se poate exporta și în PDF)"
+  },
+  "qv_hint": {
+    "message": "Utilizatorii experimentați vor omite automat această pagină și vor merge la editor."
+  },
+  "recordTab": {
+    "message": "Înregistrare",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Videoclipurile tale",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Ecran",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Filă",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Doar cameră",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Mockup",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Înregistrarea zonei personalizate dezactivată",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Actualizează Chrome la versiunea 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Actualizează",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Verifică permisiunile tale",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "Se pare că CocoShot nu poate accesa camera sau microfonul tău. Pentru a rezolva această problemă, te rugăm să-l deblochezi în setările browserului și să acorzi permisiunile necesare.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Respinge",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Permite accesul la cameră",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Permite accesul la microfon",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Apasă pentru a vorbi",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Setează zona de înregistrare",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Rotește camera",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Efecte de fundal",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Începe înregistrarea",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Se pornește înregistrarea...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Selectează o cameră",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Mai multe opțiuni",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Audio sistem",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Ascunde bara de instrumente",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Numărătoare inversă",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Setează limita de timp",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Blur",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Niciunul",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Nicio cameră",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Niciun microfon",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Selectează o sursă",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Oprit",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Lățime",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Înălțime",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Click pentru a plasa imaginea",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Finalizează înregistrarea",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Repornește înregistrarea",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Pauză înregistrare",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Reia înregistrarea",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Anulează înregistrarea",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Activează/dezactivează instrumentele de desen",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Activează/dezactivează instrumentul de blur",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Activează/dezactivează opțiunile cursorului",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Dezactivează camera",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Activează camera",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Fără permisiuni pentru cameră",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Setări cameră",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Oglindește camera",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Blur fundal",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Dezactivează microfonul",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Activează microfonul",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Fără permisiuni pentru microfon",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Selectează instrumentul",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Instrument stilou",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Instrument marker",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Instrument radieră",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Instrument text",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Instrument formă",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Instrument săgeată",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Instrument imagine",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Anulează",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Refă",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Curăță pânza",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Mai multe culori",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Trăsătură groasă",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Trăsătură medie",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Trăsătură subțire",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Activează/dezactivează modul imagine în imagine",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Activează/dezactivează umplerea",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Mod desenare",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Mod blur",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Curăță toate elementele blur",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Evidențiază click-urile",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Evidențiază cursorul",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Cursor spotlight",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Nu mai arăta",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Repornești înregistrarea?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Progresul tău actual va fi pierdut.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Repornește",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Reia",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Arunci înregistrarea?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Progresul tău actual va fi pierdut.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Aruncă",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Reia",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Înregistrarea ta va fi salvată aici",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Se înregistrează...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Păstrează această filă deschisă. Se va închide când înregistrarea ta este salvată.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Se pregătește înregistrarea...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Păstrează această filă deschisă. Se va actualiza cu înregistrarea ta când este gata.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Editor",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Anulează",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Revino la original",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Resetează",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Salvează modificările",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Se salvează...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Trage și plasează fișierul audio",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Sau click pentru a răsfoi",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Setări",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Volum",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Actualizează",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Decupează",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Lățime",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Înălțime",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Stânga",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Sus",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Trage mânerele și folosește butoanele din stânga pentru a edita secțiunea selectată.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Decupează video",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Se decupează...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Taie secțiunea",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Se taie...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Dezactivează sunetul",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Se dezactivează sunetul...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Află mai multe.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Anulează",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Refă",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Lasă o evaluare, ajută!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Ești offline momentan",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Unele funcții sunt indisponibile până te reconectezi",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Încearcă din nou",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome trebuie actualizat",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Actualizează pentru a accesa mai multe funcții",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Află mai multe",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Video prea lung pentru procesare pe dispozitiv",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Editarea și exportul MP4 nu sunt disponibile",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Video se procesează local...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Află despre versiunea cloud mai rapidă",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Editează",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Fără conexiune",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Nu este disponibil",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Editează video",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Decupează, taie sau dezactivează sunetul video",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Se pregătește video, te rog să aștepți...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Decupează",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Decupă și redimensionează video",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Adaugă audio",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Încarcă propriul tău audio pentru a-l adăuga la video",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Salvează",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Deconectează-te de la Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Se salvează...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Salvează în Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Salvează versiunea curentă în Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Conectează-te și salvează în Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Se descarcă...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Descarcă ca .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Exportă un video .webm",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Descarcă ca .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Exportă un video .mp4 (recomandat)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Descarcă ca .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Exportă un GIF (max. 30 secunde)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Înlocuiește audio existent",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Mărește la cursor",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Rămâi în pagină când înregistrezi",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Avertisment microfon oprit",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Ajutor",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Înregistrare pauzată. Apasă butonul de redare pentru a continua.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot nu are permisiunea să-ți înregistreze ecranul",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Pentru ca înregistrarea ecranului să funcționeze, va trebui să permiți CocoShot să captureze ecranul tău când apare cererea de permisiune. (O poți revoca oricând în setările extensiei.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Activează înregistrarea ecranului",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Anulează",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Microfonul tău este dezactivat",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Dacă vrei ca vocea ta să fie inclusă în înregistrare, va trebui să activezi microfonul. Dorești să continui înregistrarea fără audio?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Da, continuă",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Anulează",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Relaxează-te. Click oriunde pentru a opri numărătoarea inversă.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Editarea poate fi imprecisă pentru intervale de timp scurte din cauza intervalelor dintre cadre.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Video se procesează, redarea poate fi imprecisă sau întreruptă.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Decuparea poate dura",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Actualizează pentru procesare mai rapidă",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Microfon activat",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Microfon dezactivat",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Înregistrarea a fost mai scurtă de 3 secunde și nu a fost salvată.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Ascunde notificările UI",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Nu mai arăta",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Ascunde bara de instrumente când nu este folosită",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Începe înregistrarea",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Oprește înregistrarea",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Bine ai venit la noul CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Află mai multe despre actualizare.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Începe",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Eroare la pornirea înregistrării",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "A apărut o eroare la pornirea procesului de înregistrare. Te rog să restartezi browserul și să încerci din nou. Dacă problema continuă, contactează-ne la support@cocoshot.net.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Calitate maximă",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Restabilește ultima înregistrare video",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Ai probleme?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Nu vezi înregistrarea ta?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Dacă ai terminat înregistrarea dar nu vezi video-ul pe această pagină, poți încerca să descarci datele video brute dacă există. Alternativ, ne poți contacta trimitând un raport de eroare.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Descarcă datele video brute",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Raportează eroare",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Nu s-a găsit nicio înregistrare, scuze :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Limita de memorie atinsă",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Dispozitivul tău nu are suficientă memorie pentru înregistrare, ceea ce face ca sesiunea să se încheie automat. Pentru a înregistra video-uri mai lungi, consideră reducerea calității video sau eliberarea spațiului de stocare.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Am înțeles",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Spațiu insuficient",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot are nevoie de cel puțin 1GB spațiu liber pentru a înregistra. Te rog să eliberezi spațiu și să încerci din nou.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Șterge înregistrările anterioare",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Avansat",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Descarcă fișierul video brut",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Exportă datele originale de înregistrare",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Obține ajutor cu înregistrarea ta",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Recuperează video-ul și rezolvă alte probleme",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Descarcă fișierul video brut",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Fișierul video brut se referă la înregistrarea nemodificată creată direct de CocoShot. Deoarece acest fișier nu a fost procesat sau editat, poate fi destul de mare și incompatibil cu unele dispozitive. Dacă întâmpini probleme cu versiunea procesată, poți folosi acest fișier pentru a recupera înregistrarea originală.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Descarcă",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Afișează forma de undă audio",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Descarcă informații despre sistem și date video și trimite pentru depanare",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Odată ce ai descărcat fișierul, te rog să-l trimiți la support@cocoshot.net împreună cu orice detalii suplimentare care ar putea fi utile. Vom folosi aceste informații pentru a te ajuta să rezolvi problemele cu extensia și, dacă este posibil, să-ți recuperezi video-ul.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Descarcă",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Video-ul este prea lung pentru a fi procesat pe dispozitivul tău",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Deoarece CocoShot prioritizează confidențialitatea și operează complet pe dispozitivul tău local, este constrâns de capabilitățile hardware-ului tău. Procesarea unui video de această durată ar fi excesiv de consumatoare de timp și ar necesita resurse semnificative de sistem. Poți obține în continuare fișierul WEBM sau înregistrarea brută, deși funcțiile de editare și exportul MP4 nu vor fi disponibile. Totuși, dacă ești conștient de provocările potențiale, poți continua cu procesarea video-ului.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Înțeleg riscul, încearcă oricum",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Află mai multe despre procesarea video-urilor lungi.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Mod recuperare",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Descarcă date pentru depanare",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Centru de ajutor",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Înregistrează audio computer",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Pentru a înregistra audio de pe această pagină, trebuie să comuți la „$tab$”.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Extensie nesuportată pe filă",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot nu este compatibil cu fila pe care tocmai ai folosit-o. Poți începe înregistrarea de pe această pagină și apoi să te întorci la acea filă, dar te rog să reții că fluxul camerei și bara de instrumente de editare nu vor fi afișate.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Setează o copie de siguranță locală pentru înregistrările tale CocoShot",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Menține copii ale fiecărei înregistrări pe care o creezi. Fără a seta copii de siguranță, înregistrările tale vor fi salvate doar când alegi explicit să le descărci.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Dacă încerci să salvezi înregistrări în Descărcări sau alte directoare de sistem, s-ar putea să fie nevoie să creezi un folder nou înainte.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Selectează un folder",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Acum nu",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Înregistrările tale sunt copiate de siguranță local",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Pentru a preveni să fii întrebat pentru permisiuni de fiecare dată când înregistrezi, recomandăm să lași această filă deschisă.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Închide fila oricum",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Oprește copierea de siguranță pentru toate înregistrările",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Te rog să reconfiri accesul la folderul local de copiere de siguranță CocoShot",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Ne pare rău, dar avem nevoie de permisiunea ta din nou pentru a continua copierea de siguranță a înregistrărilor tale. Din păcate, va trebui să cerem această permisiune de fiecare dată când această filă este închisă, ceea ce se poate întâmpla când închizi browserul sau restartezi computerul.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Permite CocoShot să continue copierea de siguranță a înregistrărilor",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Copiere de siguranță înregistrări",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Permisiune neacordată pentru copierea de siguranță a înregistrării",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Nu ai ales un folder pentru stocarea copiilor de siguranță ale înregistrărilor tale. În funcție de versiunea browserului sau sistemul de operare, s-ar putea să fii rugat să selectezi acest folder de fiecare dată când începi o înregistrare. Poți încerca din nou procesul de configurare sau opri complet copiile de siguranță dacă nu dorești să acorzi permisiuni în mod repetat.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Înregistrează audio computer",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "Pe sistemele macOS, ești limitat la înregistrarea audio de pe file individuale. Alege opțiunea de înregistrare Filă Chrome și verifică că setarea 'De asemenea partajează audio filei' este activată.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Înregistrează audio computer",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Dacă dorești să capturezi audio de pe computerul tău, asigură-te că opțiunea 'Partajează audio sistem' este activată. Dacă această opțiune nu este vizibilă, consideră actualizarea Chrome sau comutarea la modul de înregistrare pe filă.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Rezoluție maximă",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "FPS maxim",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "RAM insuficient",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Redimensionează fereastra",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Ecranul este prea mic pentru această rezoluție",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Nu se poate înregistra cu această rezoluție pe dispozitivul tău",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Permisiune refuzată",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Permisiunile pentru cameră și microfon sunt necesare pentru înregistrare. Te rog să acorzi permisiuni în setările browserului.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Permisiunea pentru cameră este necesară pentru înregistrare. Te rog să acorzi permisiune în setările browserului.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Permisiunea pentru microfon este necesară pentru înregistrare. Te rog să acorzi permisiune în setările browserului.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Repară permisiunile",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Setări înregistrare ecran",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "h",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Se solicită permisiunea pentru cameră...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Se solicită permisiunea pentru microfon...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Solicită permisiune pentru cameră",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Solicită permisiune pentru microfon",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Revizuiește permisiunile",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Personalizează opțiunile",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Videoclipuri înregistrate",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Încă nu există video-uri înregistrate",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Apasă pentru a dezactiva",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Avem nevoie de permisiunea ta pentru a accesa camera ta",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Avem nevoie de permisiunea ta pentru a accesa microfonul tău",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Revizuire",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Selector de culoare",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Închide",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Alege culoarea de pe ecran",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "API-ul EyeDropper nu este suportat în acest browser. Te rog să folosești un browser modern precum Chrome 95+ sau Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Selectează regiunea de blur",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Șterge toate regiunile de blur",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Lățime linie",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Subțire",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Medie",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Groasă",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Foarte groasă",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "Înregistrări CocoShot",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Nu s-a putut configura copia de siguranță locală. Contactează-ne la $supportEmail$ pentru mai mult ajutor. Poți în continuare să înregistrezi ecranul.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Browserul tău nu suportă copii de siguranță locale. Contactează-ne la $supportEmail$ pentru mai mult ajutor. Poți în continuare să înregistrezi ecranul.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Cum să folosești Mărire la cursor",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "În timpul înregistrării, ține apăsată combinația de taste pentru a mări spre poziția cursorului tău. Eliberează tastele pentru a micșora. Este excelent pentru a evidenția zone specifice ale ecranului în timpul înregistrării.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Am înțeles!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Mărime regiune",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Presetări",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Resetează",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Niciunul",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Blur",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Imagine",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Te rog să încarci mai întâi un fișier video",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Descarcă ca WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Descarcă ca MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Se convertește...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Se procesează segmentele:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Mărimea video depășește limita recomandată (max 1GB), ceea ce poate cauza eșecul procesării",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Încarci un video mare (1GB). Procesarea poate dura mult. Continuă?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Format video nesuportat. Te rog să încerci un alt format video.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Descărcarea a eșuat. Te rog să încerci din nou.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "Conversie MP4 indisponibilă",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Acest video este prea mare pentru a fi convertit în MP4 în browser. Te rog să-l descarci ca WebM.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Se convertește în MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Nu s-a putut descărca video-ul. Te rog să încerci din nou.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "editează video",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "În curând.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Previzualizare video",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Se scrie în stocare...",
+    "description": "Message shown when writing video to storage"
+  }
+}

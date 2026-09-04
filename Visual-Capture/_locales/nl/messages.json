@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: screenshot en schermrecorder"
+  },
+  "extDescription": {
+    "message": "Maak screenshots van volledige pagina's en neem het scherm op in MP4 met annotaties. PDF-export met aanklikbare links inbegrepen."
+  },
+  "pDisable": {
+    "message": "Uitgeschakeld op deze pagina"
+  },
+  "pDisableDesc": {
+    "message": "U kunt dit op elke webpagina uitvoeren, behalve op pagina's waar de browser het uitvoeren van scripts door extensies beperkt. Dit omvat de extensiewinkel, de browserinstellingenpagina's en andere extensiepagin."
+  },
+  "pDisableExp": {
+    "message": "Deze beperking komt van de browser zelf vanwege beveiligingsrisico's."
+  },
+  "pDisableTry": {
+    "message": "U kunt een nieuwe pagina openen en de capture-functie proberen."
+  },
+  "pStart": {
+    "message": "Start"
+  },
+  "pFileUrl": {
+    "message": "Ga naar \"edge://extensions/\" en vink het vakje \"Toegang tot bestand-URL's toestaan\" aan."
+  },
+  "pCaptV": {
+    "message": "Maak een screenshot van de zichtbare delen van de pagina."
+  },
+  "pAsOne": {
+    "message": "Opslaan als een enkel HTML-bestand."
+  },
+  "pDesktop": {
+    "message": "Maak screenshots van een bepaalde webpagina, tabblad, venster of volledig scherm."
+  },
+  "pCaptFull": {
+    "message": "Maak een screenshot van de volledige pagina."
+  },
+  "pDesableOpt": {
+    "message": "Of u kunt proberen:"
+  },
+  "pAreaCut": {
+    "message": "Selecteer een deel van de pagina om een screenshot vast te leggen."
+  },
+  "fullpageTooLarge": {
+    "message": "Let op: De browser kan deze volledige pagina niet als één afbeelding vastleggen vanwege de grootte. In plaats daarvan wordt deze opgesplitst in <strong>$1</strong> aparte afbeeldingen."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Let op: Deze extensie is niet bedoeld voor het vastleggen van extreem grote inhoud. Het is mogelijk dat het vastleggen van deze pagina niet succesvol wordt voltooid."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Extra machtiging vereist"
+  },
+  "framePermDesc": {
+    "message": "Deze site toont inhoud via een ingesloten iframe, waarvoor extra machtigingen nodig zijn om toegang te krijgen."
+  },
+  "WhatisIframe": {
+    "message": "Klik om te leren wat een iframe is."
+  },
+  "framePermMore": {
+    "message": "Je moet mogelijk de extensie opnieuw opstarten na het gebruik van het dialoogvenster. Annuleren zal alleen het zichtbare scherm vastleggen."
+  },
+  "framePermConfirm": {
+    "message": "Toestaan"
+  },
+  "framePermSave": {
+    "message": "Bewaar deze machtiging voor later gebruik (je kunt deze op elk moment intrekken)."
+  },
+  "error": {
+    "message": "Fout"
+  },
+  "captureError": {
+    "message": "Ophalen mislukt, probeer het later opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met de ontwikkelaar op $1"
+  },
+  "btnOk": {
+    "message": "OK"
+  },
+  "btnCancel": {
+    "message": "Annuleren"
+  },
+  "saveFramePermission": {
+    "message": "Sta het vastleggen van inhoud uit alle frames toe"
+  },
+  "permissions": {
+    "message": "Machtigingen"
+  },
+  "saveframepDesc": {
+    "message": "Deze machtiging is vereist om inhoud van iframes of framesets op een pagina vast te leggen. Het uitschakelen hiervan kan de mogelijkheid om bepaalde webpagina-elementen vast te leggen beperken."
+  },
+  "processingScreenshot": {
+    "message": "Screenshot verwerken..."
+  },
+  "screenshotSaved": {
+    "message": "Screenshot opgeslagen in de map Downloads"
+  },
+  "screenshotLoadFailed": {
+    "message": "Laden van screenshot mislukt. Probeer het opnieuw."
+  },
+  "getScreenshotFailed": {
+    "message": "Screenshot maken mislukt. Probeer het opnieuw."
+  },
+  "processingAllAreas": {
+    "message": "Screenshots van alle gebieden verwerken..."
+  },
+  "allAreasSaved": {
+    "message": "Screenshots van $1 gebieden succesvol opgeslagen"
+  },
+  "areaNotVisible": {
+    "message": "Het geselecteerde gebied ligt vrijwel volledig buiten het zichtbare bereik en kan niet worden vastgelegd."
+  },
+  "partiallyVisible": {
+    "message": "Een deel van het gebied ligt buiten het zichtbare bereik. Het zichtbare gedeelte is vastgelegd."
+  },
+  "partiallyVisibleArea": {
+    "message": "Een deel van het geselecteerde gebied ligt buiten het zichtbare bereik. Het zichtbare gedeelte is vastgelegd."
+  },
+  "areaOutOfView": {
+    "message": "Het geselecteerde gebied ligt buiten het zichtbare bereik. Scrol de pagina zodat het gebied zichtbaar is en probeer het opnieuw."
+  },
+  "processingError": {
+    "message": "Fout bij verwerken van screenshot: $1"
+  },
+  "saveFailed": {
+    "message": "Opslaan van screenshot mislukt: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Slimme screenshotmodus ingeschakeld. Klik om een element te selecteren (Enter om te bevestigen, Esc om te annuleren)."
+  },
+  "processing": {
+    "message": "Bezig met kopiëren..."
+  },
+  "copyFailed": {
+    "message": "Kopiëren mislukt: $1"
+  },
+  "canvasContextError": {
+    "message": "Kopiëren mislukt: Canvas-context niet beschikbaar."
+  },
+  "copied": {
+    "message": "Gekopieerd naar klembord"
+  },
+  "clipboardAccessDenied": {
+    "message": "Kopiëren mislukt: Toegang tot klembord geweigerd, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Kopiëren mislukt: Klembord-API niet ondersteund"
+  },
+  "imageDataCreateFailed": {
+    "message": "Kopiëren mislukt: Kan geen afbeeldingsgegevens maken"
+  },
+  "copyAreaOutOfView": {
+    "message": "Kopiëren mislukt: Geselecteerd gebied ligt buiten het zichtbare bereik"
+  },
+  "imagePreviewShown": {
+    "message": "Voorbeeld van afbeelding weergegeven. Klik met de rechtermuisknop om te kopiëren."
+  },
+  "escape": {
+    "message": "Annuleren (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Beeldkwaliteit ingesteld op: $1"
+  },
+  "qrDecoding": {
+    "message": "QR-code wordt gedecodeerd..."
+  },
+  "qrSuccess": {
+    "message": "QR-code succesvol gedecodeerd. Gekopieerd naar klembord."
+  },
+  "qrNoQRFound": {
+    "message": "Geen geldige QR-code gevonden"
+  },
+  "qrError": {
+    "message": "Decoderen van QR-code mislukt: $1"
+  },
+  "saveArea": {
+    "message": "Dit gebied opslaan"
+  },
+  "copyToClipboard": {
+    "message": "Deze selectie kopiëren (momenteel geselecteerd)"
+  },
+  "saveAllAreas": {
+    "message": "Alle gebieden opslaan"
+  },
+  "keepAndContinue": {
+    "message": "Nieuwe selectie toevoegen"
+  },
+  "cancel": {
+    "message": "Annuleren"
+  },
+  "lockSize": {
+    "message": "Grootte vergrendelen"
+  },
+  "lockSizeActive": {
+    "message": "✓ Grootte vergrendeld"
+  },
+  "freeRatio": {
+    "message": "Vrije verhouding"
+  },
+  "ratioLabel": {
+    "message": "Selecteer verhouding"
+  },
+  "aiDialog": {
+    "message": "Slimme dialoog"
+  },
+  "fileSizeEstimate": {
+    "message": "Ongeveer $1 $2"
+  },
+  "qrDecode": {
+    "message": "QR-code decoderen"
+  },
+  "removeBackground": {
+    "message": "Achtergrond verwijderen"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Bezig met verwijderen van achtergrond..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Verwijderen van achtergrond mislukt: Fout bij laden van afbeelding"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Verwijderen van achtergrond mislukt: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Achtergrond verwijderd en gekopieerd naar klembord"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Verwijderen van achtergrond mislukt: Kan Blob niet maken"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Geselecteerd gebied ligt buiten het zichtbare bereik"
+  },
+  "screenshotFailed": {
+    "message": "Screenshot mislukt: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Afbeeldingsverwerking mislukt, probeer het opnieuw"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Screenshotgebied ligt buiten het zichtbare bereik"
+  },
+  "errorProcessingImage": {
+    "message": "Fout bij verwerken van afbeelding: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR-code bibliotheek niet geladen"
+  },
+  "qrDecodingFailed": {
+    "message": "Decoderen van QR-code mislukt: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "Geen QR-code gevonden in het geselecteerde gebied"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR-code succesvol gedecodeerd: $1"
+  },
+  "qrDecodingError": {
+    "message": "Fout bij decoderen van QR-code: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Verwijderen van achtergrond mislukt: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Selecteer eerst een screenshotgebied"
+  },
+  "aiDialogTitle": {
+    "message": "Voer een slimme dialoog over de screenshotinhoud"
+  },
+  "qrDecodeTitle": {
+    "message": "Decodeer de QR-code in de screenshot"
+  },
+  "lockSizeTitle": {
+    "message": "Vergrendel huidige grootte voor opeenvolgende screenshots"
+  },
+  "moveHint": {
+    "message": "Selectiegebied slepen (Spatie + slepen)"
+  },
+  "saveAreaTooltip": {
+    "message": "Huidig gebied opslaan"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Alle geselecteerde gebieden opslaan"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Screenshot kopiëren naar klembord"
+  },
+  "moreOptions": {
+    "message": "Meer opties"
+  },
+  "removeBgTooltip": {
+    "message": "Verwijder achtergrond en kopieer naar klembord"
+  },
+  "ratioLabelTooltip": {
+    "message": "Selecteer beeldverhouding"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Behoud huidige selectie en ga verder"
+  },
+  "pCaptureTabLabel": {
+    "message": "Schermafdruk"
+  },
+  "pAiToolsTabLabel": {
+    "message": "AI-tools"
+  },
+  "pCaptureTitle": {
+    "message": "Volledige pagina- en geselecteerde schermgebied schermafdruk"
+  },
+  "pAiToolsTitle": {
+    "message": "AI-gerelateerde tools"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Webcontent exporttools"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Afbeeldingstools"
+  },
+  "pDownloadAsMD": {
+    "message": "Downloaden als Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Downloaden als PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Download de huidige webpagina als Markdown-bestand"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Download de huidige webpagina als PDF-bestand"
+  },
+  "pImageProcessing": {
+    "message": "Afbeeldingsverwerking"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Een verzameling tools voor afbeeldingsverwerking"
+  },
+  "fixThePage": {
+    "message": "Pagina repareren"
+  },
+  "expandScrollableOn": {
+    "message": "Scrollbare gebieden uitbreiden"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Schakel in om de scrollbare gebieden binnen de webpagina uit te breiden vóór het maken van een schermafdruk"
+  },
+  "hideFixedOn": {
+    "message": "Elementen met vaste positie verbergen"
+  },
+  "hideFixedOnDesc": {
+    "message": "Schakel in om elementen met vaste positie te verbergen die de opname kunnen verstoren"
+  },
+  "preScrollOn": {
+    "message": "Vooraf scrollen bij het laden van de webpagina"
+  },
+  "preScrollOnDesc": {
+    "message": "Veel webelementen (bijvoorbeeld afbeeldingen) worden pas geladen tijdens het scrollen. Indien ingeschakeld, detecteert dit automatisch en scrolt naar de onderkant van de pagina vóór het maken van een schermafdruk."
+  },
+  "canBeDisabled": {
+    "message": "kan worden uitgeschakeld via de instellingenpagina"
+  },
+  "analyzingPageForHTML": {
+    "message": "Bezig met analyseren van webpagina-code en -inhoud, complexe pagina's kunnen langer duren. Als het te lang duurt, vernieuw dan de webpagina en probeer het opnieuw."
+  },
+  "drawerSettings": {
+    "message": "Instellingen"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Schermafdrukgeschiedenis"
+  },
+  "drawerImageTools": {
+    "message": "Schermafdrukwijzigingstools"
+  },
+  "drawerHelpFeedback": {
+    "message": "Veelgestelde vragen en feedback"
+  },
+  "drawerCloseMenu": {
+    "message": "Menu sluiten"
+  },
+  "logoTooltip": {
+    "message": "Meer weergeven"
+  },
+  "pRecorderTabLabel": {
+    "message": "Schermopname"
+  },
+  "pRecorderTitle": {
+    "message": "Schermopname"
+  },
+  "pStartRecorder": {
+    "message": "Start schermopname"
+  },
+  "pStartRecorderLabel": {
+    "message": "Schermopname"
+  },
+  "pRecorderAlt": {
+    "message": "Opname"
+  },
+  "pStartRecorderAlt": {
+    "message": "Schermopname"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Dit is een bètaversie"
+  },
+  "pRecorderFeedback": {
+    "message": "Feedback geven"
+  },
+  "downloadsPermission": {
+    "message": "Bestand downloads toestaan"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Deze toestemming is vereist om schermopnames direct op uw computer op te slaan."
+  },
+  "webNavigationPermission": {
+    "message": "Toegang tot webnavigatie toestaan"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Deze toestemming is vereist om paginawijzigingen te detecteren en indien nodig naar verschillende pagina's te navigeren."
+  },
+  "desktopCapturePermission": {
+    "message": "Bureaubladopname toestaan"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Deze toestemming is vereist om inhoud van uw bureaublad of specifieke vensters vast te leggen."
+  },
+  "tabsPermission": {
+    "message": "Toegang tot tabbladen toestaan"
+  },
+  "tabsPermissionDesc": {
+    "message": "Deze toestemming is vereist om toegang te krijgen tot en browser tabbladinformatie te beheren."
+  },
+  "tabCapturePermission": {
+    "message": "Tabbladopname toestaan"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Deze toestemming is vereist om audio en video van browsertabbladen vast te leggen."
+  },
+  "allUrlsPermission": {
+    "message": "Toegang tot alle websites toestaan"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Deze toestemming is vereist om schermopnames te maken vanaf elke website."
+  },
+  "fileUrlsPermission": {
+    "message": "Toegang tot lokale bestanden toestaan"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Deze toestemming is vereist om schermopnames te maken van lokale bestanden (file:// URL's)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Of afbeeldingen moeten worden meegenomen in de download"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Voor deze functie is CocoShot Pro vereist"
+  },
+  "proUpgradeButton": {
+    "message": "Upgrade naar Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Om deze inhoud op te slaan is CocoShot Pro vereist"
+  },
+  "qv_title": {
+    "message": "CocoShot-voorbeeld"
+  },
+  "qv_preview_mode": {
+    "message": "Voorbeeldmodus"
+  },
+  "qv_screenshot_preview": {
+    "message": "Schermafbeelding-voorbeeld"
+  },
+  "qv_download": {
+    "message": "Downloaden"
+  },
+  "qv_edit": {
+    "message": "Annoteren, Bewerken (kan ook naar PDF worden geëxporteerd)"
+  },
+  "qv_hint": {
+    "message": "Ervaren gebruikers slaan deze pagina automatisch over en gaan naar de editor."
+  },
+  "recordTab": {
+    "message": "Opnemen",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Jouw video's",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Scherm",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Tabblad",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Alleen camera",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Mockup",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Aangepaste gebiedsopname uitgeschakeld",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Update Chrome naar versie 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Updaten",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Controleer je machtigingen",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot lijkt geen toegang te hebben tot je camera of microfoon. Om dit probleem op te lossen, debloekeer het dan in je browserinstellingen en verleen de benodigde machtigingen.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Negeren",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Camera-toegang toestaan",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Microfoon-toegang toestaan",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Druk om te spreken",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Opnamegebied instellen",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Camera spiegelen",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Achtergrondeffecten",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Opname starten",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Opname starten...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Camera selecteren",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Meer opties",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Systeemgeluid",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Werkbalk verbergen",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Aftellen",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Tijdslimiet instellen",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Vervagen",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Geen",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Geen camera",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Geen microfoon",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Bron selecteren",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Uit",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Breedte",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Hoogte",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Klik om de image te plaatsen",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Opname beëindigen",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Opname herstarten",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Opname pauzeren",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Opname hervatten",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Opname annuleren",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Tekenhulpmiddelen in-/uitschakelen",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Vervagingshulpmiddel in-/uitschakelen",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Cursoropties in-/uitschakelen",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Camera uitschakelen",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Camera inschakelen",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Geen cameramachtigingen",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Camerainstellingen",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Cameraspiegel",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Achtergrondvervaging",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Microfoon uitschakelen",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Microfoon inschakelen",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Geen microfoonmachtigingen",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Hulpmiddel selecteren",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Penhulpmiddel",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Markeerhulpmiddel",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Gomhulpmiddel",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Teksthulpmiddel",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Vormhulpmiddel",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Pijlhulpmiddel",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Imagehulpmiddel",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Ongedaan maken",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Opnieuw doen",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Canvas wissen",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Meer kleuren",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Dikke lijn",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Medium lijn",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Dunne lijn",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Picture-in-picture modus in-/uitschakelen",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Vulling in-/uitschakelen",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Tekenmodus",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Vervagingsmodus",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Alle vervaagde elementen wissen",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Klikken markeren",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Cursor markeren",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Cursor spotlights",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Niet meer tonen",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Opname herstarten?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Je huidige voortgang gaat verloren.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Herstarten",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Hervatten",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Opname weggooien?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Je huidige voortgang gaat verloren.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Weggooien",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Hervatten",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Je opname wordt hier opgeslagen",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Opnemen...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Houd dit tabblad open. Het wordt gesloten zodra je opname is opgeslagen.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Opname voorbereiden...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Houd dit tabblad open. Het wordt bijgewerkt met je opname wanneer het klaar is.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Editor",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Annuleren",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Terugkeren naar origineel",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Resetten",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Wijzigingen opslaan",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Opslaan...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Sleep je audiobestand hier naartoe",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Of klik om te bladeren",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Instellingen",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Volume",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Updaten",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Bijsnijden",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Breedte",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Hoogte",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Links",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Boven",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Sleep de hendels en gebruik de knoppen links om het geselecteerde gedeelte te bewerken.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Video bijsnijden",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Bijsnijden...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Gedeelte knippen",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Knippen...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Geluid uitschakelen",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Geluid uitschakelen...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Meer info.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Ongedaan maken",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Opnieuw doen",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Laat een review achter",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Je bent momenteel offline",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Sommige functies zijn niet beschikbaar tot je weer verbinding hebt",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Opnieuw proberen",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome moet worden geüpdatet",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Update om toegang te krijgen tot meer functies",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Meer info",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Video te lang om op het apparaat te verwerken",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Bewerking en MP4-export niet beschikbaar",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Video wordt lokaal verwerkt...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Ontdek de snellere cloudversie",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Bewerken",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Geen verbinding",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Niet beschikbaar",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Video bewerken",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Video bijsnijden, knippen of geluid uitschakelen",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Video voorbereiden, even geduld...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Bijsnijden",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Video bijsnijden en formaat wijzigen",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Audio toevoegen",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Upload je eigen audio om aan de video toe te voegen",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Opslaan",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Uitloggen bij Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Opslaan...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Opslaan in Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "De huidige versie opslaan in Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Inloggen en opslaan in Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Downloaden...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Downloaden als .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Een .webm video exporteren",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Downloaden als .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Een .mp4 video exporteren (aanbevolen)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Downloaden als .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Een GIF exporteren (max. 30 seconden)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Bestaande audio vervangen",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Zoom naar cursor",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Op de pagina blijven tijdens opname",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Waarschuwing microfoon uit",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Help",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Opname gepauzeerd. Druk op de afspeelknop om verder te gaan.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot heeft geen toestemming om je scherm op te nemen",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Om schermopname te laten werken, moet je CocoShot toestaan je scherm te capturen wanneer de toestemmingsvraag verschijnt. (Je kunt dit te allen tijde intrekken in de instellingen van de extensie.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Schermopname inschakelen",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Annuleren",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Je microfoon is gedempt",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Als je wilt dat je stem wordt opgenomen, moet je je microfoon inschakelen. Wil je doorgaan met opnemen zonder audio?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Ja, doorgaan",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Annuleren",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Ontspan. Klik ergens om het aftellen te stoppen.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Vanwege de intervallen tussen frames kunnen bewerkingen onnauwkeurig zijn voor korte tijdbereiken.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Video wordt verwerkt, afspelen kan onnauwkeurig of onderbroken zijn.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Bijsnijden kan even duren",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Upgrade voor snellere verwerking",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Microfoon ingeschakeld",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Microfoon uitgeschakeld",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "De opname was korter dan 3 seconden en is niet opgeslagen.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "UI-meldingen verbergen",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Niet meer tonen",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Werkbalk verbergen wanneer niet in gebruik",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Opname starten",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Opname stoppen",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Welkom bij de nieuwe CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Meer info over de update.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Starten",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Fout bij starten opname",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Er is een fout opgetreden bij het starten van het opnameproces. Start je browser opnieuw en probeer het opnieuw. Als het probleem aanhoudt, neem dan contact met ons op via support@cocoshot.net voor verdere hulp.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Hoogste kwaliteit",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Laatste video-opname herstellen",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Problemen?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Zie je je opname niet?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Als je klaar bent met opnemen maar je video niet ziet op deze pagina, kun je proberen de ruwe videogegevens te downloaden als die bestaan. Alternatief kun je contact met ons opnemen door een bugreport in te dienen.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Ruwe videogegevens downloaden",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Bug melden",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Geen opname gevonden, sorry :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Geheugenlimiet bereikt",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Je apparaat heeft onvoldoende geheugen voor opname, waardoor de sessie automatisch eindigt. Om langere video's op te nemen, overweeg dan om de videokwaliteit te verlagen of opslagruimte vrij te maken op je apparaat.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Begrepen",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Onvoldoende ruimte",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot heeft minstens 1GB vrije ruimte nodig om op te nemen. Maak ruimte vrij op je apparaat en probeer het opnieuw.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Vorige opnames wissen",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Geavanceerd",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Rauw videobestand downloaden",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "De originele opnamegegevens exporteren",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Hulp krijgen met je opname",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Herstel je video en los andere problemen op",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Rauw videobestand downloaden",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Het ruwe videobestand verwijst naar de ongewijzigde opname die rechtstreeks door CocoShot is gemaakt. Omdat dit bestand niet is verwerkt of bewerkt, kan het vrij groot zijn en incompatibel met sommige apparaten. Als je problemen ondervindt met de verwerkte versie, kun je dit bestand gebruiken om je originele opname te herstellen.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Downloaden",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Audio-golfvorm tonen",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Systeeminformatie en videogegevens downloaden en verzenden voor probleemoplossing",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Nadat je het bestand hebt gedownload, stuur het dan naar support@cocoshot.net samen met eventuele aanvullende details die nuttig could zijn. We zullen deze informatie gebruiken om je te helpen bij het oplossen van problemen met de extensie en, indien mogelijk, je video te herstellen.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Downloaden",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Video te lang om op je apparaat te verwerken",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Omdat CocoShot prioriteit geeft aan privacy en volledig op je lokale apparaat werkt, is het beperkt door je hardwarecapaciteiten. Het verwerken van een video van deze duur zou overdreven lang duren en aanzienlijke systeembronnen vereisen. Je kunt nog steeds het WEBM-bestand of de ruwe opname krijgen, hoewel bewerkingsfuncties en MP4-export niet toegankelijk zullen zijn. Als je je echter bewust bent van de potentiële uitdagingen, kun je toch doorgaan met het verwerken van de video.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Ik begrijp het risico, toch proberen",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Meer info over het verwerken van lange video's.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Herstelmodus",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Gegevens downloaden voor probleemoplossing",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Helpcentrum",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Audio van computer opnemen",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Om audio van deze pagina op te nemen, moet je overschakelen naar '$tab$'.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Extensie niet ondersteund op tabblad",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot is niet compatibel met het tabblad dat je net hebt gebruikt. Je kunt nog steeds de opname starten vanaf deze pagina en dan terugkeren naar dat tabblad, maar let op dat je camerafeed en bewerkingswerkbalk niet worden weergegeven.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Stel een lokale back-up in voor je CocoShot-opnames",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Bewaar kopieën van elke opname die je maakt. Zonder back-ups te configureren, worden je opnames alleen opgeslagen wanneer je ze expliciet downloadt.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Als je opnames probeert op te slaan in Downloads of andere systeemmappen, moet je mogelijk eerst een nieuwe map maken.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Map selecteren",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Nu niet",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": "Je opnames worden lokaal geback-upt",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Om te voorkomen dat je om machtigingen wordt gevraagd elke keer dat je opneemt, raden we aan dit tabblad open te laten.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Tabblad toch sluiten",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Back-up van alle opnames stoppen",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Bevestig de toegang tot je lokale CocoShot-back-upmap opnieuw",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Onze excuses, maar we hebben je toestemming opnieuw nodig om door te gaan met het back-uppen van je opnames. Helaas moeten we deze toestemming elke keer vragen wanneer dit tabblad wordt gesloten, wat kan gebeuren wanneer je je browser afsluit of computer opnieuw opstart.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "CocoShot toestaan door te gaan met back-uppen van opnames",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Opnames back-uppen",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Toestemming niet verleend voor back-uppen van opname",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Je hebt geen map gekozen om je opname-back-ups op te slaan. Afhankelijk van je browserversie of besturingssysteem wordt je mogelijk gevraagd om deze map te selecteren elke keer dat je een opname start. Je kunt het installatieproces opnieuw proberen, of back-ups volledig uitschakelen als je liever niet herhaaldelijk toestemming verleent.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Audio van computer opnemen",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "Op macOS-systemen ben je beperkt tot het opnemen van audio van individuele tabbladen. Kies de Chrome-tabbladopname-optie en verifieer dat de instelling 'Ook tabbladgeluid delen' is ingeschakeld.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Audio van computer opnemen",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Als je audio van je computer wilt vastleggen, zorg er dan voor dat de optie 'Systeemgeluid delen' is ingeschakeld. Als deze optie niet zichtbaar is, overweeg dan om Chrome te updaten of over te schakelen naar de tabbladopnamemodus.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Maximale resolutie",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Max FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Onvoldoende RAM",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Vensterformaat wijzigen",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Het scherm is te klein voor deze resolutie",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Kan niet opnemen in deze resolutie op je apparaat",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Toestemming geweigerd",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Camera- en microfoonmachtigingen zijn vereist om op te nemen. Verleen machtigingen in je browserinstellingen.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Camaramachtiging is vereist om op te nemen. Verleen de machtiging in je browserinstellingen.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Microfoonmachtiging is vereist om op te nemen. Verleen de machtiging in je browserinstellingen.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Machtigingen corrigeren",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Schermopname-instellingen",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "u",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Camaramachtiging aanvragen...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Microfoonmachtiging aanvragen...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Camaramachtiging aanvragen",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Microfoonmachtiging aanvragen",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Machtigingen controleren",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Opties aanpassen",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Opgenomen video's",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Nog geen video's opgenomen",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Drukken om te dempen",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "We hebben je toestemming nodig om toegang te krijgen tot je camera",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "We hebben je toestemming nodig om toegang te krijgen tot je microfoon",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Controleren",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Kleurkiezer",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Sluiten",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Kleur van scherm pakken",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API wordt niet ondersteund in deze browser. Gebruik een moderne browser zoals Chrome 95+ of Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Vervagingsregio selecteren",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Alle vervagingsregio's verwijderen",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Lijnbreedte",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Dun",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Medium",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Dik",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Extra dik",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot-opnames",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Lokale back-up instellen mislukt. Neem contact met ons op via $supportEmail$ voor meer hulp. Je kunt nog steeds je scherm opnemen.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Je browser ondersteunt geen lokale back-ups. Neem contact met ons op via $supportEmail$ voor meer hulp. Je kunt nog steeds je scherm opnemen.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Hoe Zoom naar Cursor te gebruiken",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Houd tijdens het opnemen de sneltoets ingedrukt om in te zoomen naar de positie van je cursor. Laat de toetsen los om uit te zoomen. Geweldig om specifieke gebieden van het scherm te markeren tijdens je opname.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Begrepen!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Regiogrootte",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Snelle presets",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Resetten",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Geen",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Vervagen",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Afbeelding",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Upload eerst een videobestand",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Downloaden als WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Downloaden als MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Converteren...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Chunks verwerken:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Videogrootte overschrijdt het aanbevolen limiet (max. 1GB), wat kan leiden tot verwerkingsfout",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Je uploadt een groot videobestand (1GB). Verwerking kan lang duren. Doorgaan?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Niet-ondersteund videoformaat. Probeer een ander videoformaat.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Download mislukt. Probeer opnieuw.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4-conversie niet beschikbaar",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Dit video is te groot om in de browser naar MP4 te converteren. Download het als WebM.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Converteren naar MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Video downloaden mislukt. Probeer opnieuw.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "Video bewerken",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Binnenkort.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Videovoorbeeld",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Schrijven naar opslag...",
+    "description": "Message shown when writing video to storage"
+  }
+}

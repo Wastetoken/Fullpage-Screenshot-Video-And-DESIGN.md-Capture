@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: ekrānuzņēmums un ekrāna ierakstītājs"
+  },
+  "extDescription": {
+    "message": "Uzņemiet visas lapas ekrānuzņēmumus un ierakstiet ekrānu MP4 formātā ar anotācijām. Iekļauts PDF eksports ar noklikšķināmām saitēm."
+  },
+  "pDisable": {
+    "message": "Atspējots šajā lapā"
+  },
+  "pDisableDesc": {
+    "message": "Jūs varat to darboties jebkurā tīmekļa lapā, izņemot tās, kurās pārlūkprogrammas ierobežo paplašinājumu skriptu izpildi. Tas ietver paplašinājuma tīmekļa veikalu, pārlūkprogrammas iestatījumu lapas un citas paplašinājumu lapas."
+  },
+  "pDisableExp": {
+    "message": "Šis ierobežojums nāk no paša pārlūkprogrammas drošības risku dēļ."
+  },
+  "pDisableTry": {
+    "message": "Jūs varat atvērt jaunu lapu un izmēģināt tveršanas funkciju."
+  },
+  "pStart": {
+    "message": "Sākt"
+  },
+  "pFileUrl": {
+    "message": "Dodieties uz \"edge://extensions/\" un atzīmējiet rūtiņu \"Atļaut piekļuvi faila URL\"."
+  },
+  "pCaptV": {
+    "message": "Fiksēt ekrānuzņēmumu redzamajām lapas daļām."
+  },
+  "pAsOne": {
+    "message": "Saglabāt kā vienu HTML failu."
+  },
+  "pDesktop": {
+    "message": "Fiksēt ekrānuzņēmumus dotai tīmekļa lapai, cilnei, logam vai visam ekrānam."
+  },
+  "pCaptFull": {
+    "message": "Fiksēt pilna lapas ekrānuzņēmumu."
+  },
+  "pDesableOpt": {
+    "message": "Vai arī jūs varat izmēģināt:"
+  },
+  "pAreaCut": {
+    "message": "Izvēlieties lapas daļu, lai fiksētu ekrānuzņēmumu."
+  },
+  "fullpageTooLarge": {
+    "message": "Piezīme: Pārlūkprogramma nevar uzņemt visu lapu kā vienu attēlu tās izmēra dēļ. Tā vietā tā tiks sadalīta <strong>$1</strong> atsevišķos attēlos."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Brīdinājums: Šis paplašinājums nav paredzēts īpaši liela satura uzņemšanai. Iespējams, ka tas nevarēs veiksmīgi pabeigt šīs lapas uzņemšanu."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Nepieciešama papildu atļauja"
+  },
+  "framePermDesc": {
+    "message": "Šī vietne attēlo saturu, izmantojot iebūvētu iframe, kas prasa papildu atļaujas piekļuvei."
+  },
+  "WhatisIframe": {
+    "message": "Noklikšķiniet, lai uzzinātu, kas ir iframe."
+  },
+  "framePermMore": {
+    "message": "Pēc šī dialoga izmantošanas iespējams būs nepieciešams restartēt paplašinājumu. Atceļot, tiks uztverta tikai redzamā ekrāna daļa."
+  },
+  "framePermConfirm": {
+    "message": "Atļaut"
+  },
+  "framePermSave": {
+    "message": "Saglabāt šo atļauju turpmākai lietošanai (to var atsaukt jebkurā laikā)."
+  },
+  "error": {
+    "message": "Kļūda"
+  },
+  "captureError": {
+    "message": "Ekrāna uzņemšana neizdevās, lūdzu, mēģiniet vēlreiz vēlāk. Ja problēma turpinās, lūdzu, sazinieties ar izstrādātāju: $1"
+  },
+  "btnOk": {
+    "message": "Labi"
+  },
+  "btnCancel": {
+    "message": "Atcelt"
+  },
+  "saveFramePermission": {
+    "message": "Atļaut saturu no visiem ietvariem"
+  },
+  "permissions": {
+    "message": "Atļaujas"
+  },
+  "saveframepDesc": {
+    "message": "Šī atļauja ir nepieciešama, lai uzņemtu saturu no iframe vai frameset elementiem lapā. Atļaujas atslēgšana var ierobežot spēju uzņemt dažus tīmekļa lapas elementus."
+  },
+  "processingScreenshot": {
+    "message": "Notiek ekrānuzņēmuma apstrāde..."
+  },
+  "screenshotSaved": {
+    "message": "Ekrānuzņēmums saglabāts mapē Lejupielādes"
+  },
+  "screenshotLoadFailed": {
+    "message": "Neizdevās ielādēt ekrānuzņēmumu. Lūdzu, mēģiniet vēlreiz."
+  },
+  "getScreenshotFailed": {
+    "message": "Neizdevās uzņemt ekrānuzņēmumu. Lūdzu, mēģiniet vēlreiz."
+  },
+  "processingAllAreas": {
+    "message": "Notiek visu apgabalu ekrānuzņēmumu apstrāde..."
+  },
+  "allAreasSaved": {
+    "message": "Veiksmīgi saglabāti $1 apgabalu ekrānuzņēmumi"
+  },
+  "areaNotVisible": {
+    "message": "Izvēlētais apgabals gandrīz pilnībā atrodas ārpus redzamās zonas un nevar tikt uzņemts."
+  },
+  "partiallyVisible": {
+    "message": "Daļa apgabala ir ārpus redzamās zonas. Uzņemta tikai redzamā daļa."
+  },
+  "partiallyVisibleArea": {
+    "message": "Daļa izvēlētā apgabala ir ārpus redzamās zonas. Uzņemta tikai redzamā daļa."
+  },
+  "areaOutOfView": {
+    "message": "Izvēlētais apgabals atrodas ārpus redzamās zonas. Lūdzu, pabīdiet lapu, lai tas būtu redzams, un mēģiniet vēlreiz."
+  },
+  "processingError": {
+    "message": "Ekrānuzņēmuma apstrādes kļūda: $1"
+  },
+  "saveFailed": {
+    "message": "Neizdevās saglabāt ekrānuzņēmumu: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Ieslēgts viedais ekrānuzņēmuma režīms. Noklikšķiniet, lai izvēlētos elementu uzņemšanai (Enter - apstiprināt, Esc - atcelt)."
+  },
+  "processing": {
+    "message": "Notiek kopēšana..."
+  },
+  "copyFailed": {
+    "message": "Kopēšana neizdevās: $1"
+  },
+  "canvasContextError": {
+    "message": "Kopēšana neizdevās: Nevar iegūt Canvas kontekstu."
+  },
+  "copied": {
+    "message": "Nokopēts starpliktuvē"
+  },
+  "clipboardAccessDenied": {
+    "message": "Kopēšana neizdevās: Piekļuve starpliktuvei liegta, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Kopēšana neizdevās: Starpliktuves API nav atbalstīts"
+  },
+  "imageDataCreateFailed": {
+    "message": "Kopēšana neizdevās: Nevar izveidot attēla datus"
+  },
+  "copyAreaOutOfView": {
+    "message": "Kopēšana neizdevās: Izvēlētais apgabals atrodas ārpus redzamās zonas"
+  },
+  "imagePreviewShown": {
+    "message": "Attēla priekšskatījums parādīts. Ar labo peles pogu noklikšķiniet, lai kopētu."
+  },
+  "escape": {
+    "message": "Atcelt (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Attēla kvalitāte iestatīta uz: $1"
+  },
+  "qrDecoding": {
+    "message": "Notiek QR koda atpazīšana..."
+  },
+  "qrSuccess": {
+    "message": "QR kods veiksmīgi atpazīts. Nokopēts starpliktuvē."
+  },
+  "qrNoQRFound": {
+    "message": "Netika atrasts derīgs QR kods"
+  },
+  "qrError": {
+    "message": "QR koda atpazīšana neizdevās: $1"
+  },
+  "saveArea": {
+    "message": "Saglabāt šo apgabalu"
+  },
+  "copyToClipboard": {
+    "message": "Kopēt šo atlasi (pašlaik atlasīts)"
+  },
+  "saveAllAreas": {
+    "message": "Saglabāt visus apgabalus"
+  },
+  "keepAndContinue": {
+    "message": "Pievienot jaunu atlasi"
+  },
+  "cancel": {
+    "message": "Atcelt"
+  },
+  "lockSize": {
+    "message": "Fiksēt izmēru"
+  },
+  "lockSizeActive": {
+    "message": "✓ Fiksēt izmēru"
+  },
+  "freeRatio": {
+    "message": "Brīva attiecība"
+  },
+  "ratioLabel": {
+    "message": "Izvēlēties attiecību"
+  },
+  "aiDialog": {
+    "message": "Viedā saruna"
+  },
+  "fileSizeEstimate": {
+    "message": "Aptuveni $1 $2"
+  },
+  "qrDecode": {
+    "message": "Atpazīt QR kodu"
+  },
+  "removeBackground": {
+    "message": "Noņemt fonu"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Notiek fona noņemšana..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Fona noņemšana neizdevās: Attēla ielādes kļūda"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Fona noņemšana neizdevās: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Fons noņemts un nokopēts starpliktuvē"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Fona noņemšana neizdevās: Nevar izveidot Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Izvēlētais apgabals atrodas ārpus redzamās zonas"
+  },
+  "screenshotFailed": {
+    "message": "Ekrānuzņēmums neizdevās: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Attēla apstrāde neizdevās, lūdzu, mēģiniet vēlreiz"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Ekrānuzņēmuma apgabals atrodas ārpus redzamās zonas"
+  },
+  "errorProcessingImage": {
+    "message": "Attēla apstrādes kļūda: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR koda bibliotēka nav ielādēta"
+  },
+  "qrDecodingFailed": {
+    "message": "QR koda atpazīšana neizdevās: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "Izvēlētajā apgabalā netika atrasts QR kods"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR kods veiksmīgi atpazīts: $1"
+  },
+  "qrDecodingError": {
+    "message": "QR koda atpazīšanas kļūda: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Fona noņemšana neizdevās: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Lūdzu, vispirms izvēlieties ekrānuzņēmuma apgabalu"
+  },
+  "aiDialogTitle": {
+    "message": "Veiciet viedu sarunu par ekrānuzņēmuma saturu"
+  },
+  "qrDecodeTitle": {
+    "message": "Atpazīt QR kodu ekrānuzņēmumā"
+  },
+  "lockSizeTitle": {
+    "message": "Fiksēt pašreizējo izmēru nepārtrauktai uzņemšanai"
+  },
+  "moveHint": {
+    "message": "Velciet atlases apgabalu (Space + vilkšana)"
+  },
+  "saveAreaTooltip": {
+    "message": "Saglabāt pašreizējo apgabalu"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Saglabāt visus atlasītos apgabalus"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Kopēt ekrānuzņēmumu starpliktuvē"
+  },
+  "moreOptions": {
+    "message": "Vairāk opciju"
+  },
+  "removeBgTooltip": {
+    "message": "Noņemt fonu un kopēt uz starpliktuvi"
+  },
+  "ratioLabelTooltip": {
+    "message": "Izvēlēties malu attiecību"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Saglabāt pašreizējo atlasi un turpināt"
+  },
+  "pCaptureTabLabel": {
+    "message": "Ekrānuzņēmums"
+  },
+  "pAiToolsTabLabel": {
+    "message": "Mākslīgā intelekta rīki"
+  },
+  "pCaptureTitle": {
+    "message": "Pilnas lapas un atlasītā ekrāna apgabala ekrānuzņēmums"
+  },
+  "pAiToolsTitle": {
+    "message": "Ar mākslīgo intelektu saistīti rīki"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Tīmekļa satura eksportēšanas rīki"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Attēlu rīki"
+  },
+  "pDownloadAsMD": {
+    "message": "Lejupielādēt kā Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Lejupielādēt kā PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Lejupielādējiet pašreizējo tīmekļa lapu kā Markdown failu"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Lejupielādējiet pašreizējo tīmekļa lapu kā PDF failu"
+  },
+  "pImageProcessing": {
+    "message": "Attēlu apstrāde"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Attēlu apstrādes rīku kolekcija"
+  },
+  "fixThePage": {
+    "message": "Salabot lapu"
+  },
+  "expandScrollableOn": {
+    "message": "Izvērst ritināmos apgabalus"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Iespējojiet, lai pirms ekrānuzņēmuma uzņemšanas izvērstu ritināmos apgabalus tīmekļa lapā"
+  },
+  "hideFixedOn": {
+    "message": "Slēpt fiksētas pozīcijas elementus"
+  },
+  "hideFixedOnDesc": {
+    "message": "Iespējojiet, lai paslēptu fiksētas pozīcijas elementus, kas var traucēt uzņemšanai"
+  },
+  "preScrollOn": {
+    "message": "Iepriekšēja tīmekļa lapas ielāde ritinot"
+  },
+  "preScrollOnDesc": {
+    "message": "Daudzi tīmekļa elementi (piemēram, attēli) tiek ielādēti tikai ritinot. Kad tas ir iespējots, tas automātiski nosaka un ritina uz lapas apakšdaļu pirms ekrānuzņēmuma uzņemšanas."
+  },
+  "canBeDisabled": {
+    "message": "var atspējot iestatījumu lapā"
+  },
+  "analyzingPageForHTML": {
+    "message": "Tiek analizēts tīmekļa lapas kods un saturs, sarežģītas lapas var aizņemt ilgāku laiku. Ja tas aizņem pārāk ilgu laiku, lūdzu, atsvaidziniet tīmekļa lapu un mēģiniet vēlreiz."
+  },
+  "drawerSettings": {
+    "message": "Iestatījumi"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Ekrānuzņēmumu vēsture"
+  },
+  "drawerImageTools": {
+    "message": "Ekrānuzņēmumu uzlabošanas rīki"
+  },
+  "drawerHelpFeedback": {
+    "message": "Bieži uzdotie jautājumi un atsauksmes"
+  },
+  "drawerCloseMenu": {
+    "message": "Aizvērt šo izvēlni"
+  },
+  "logoTooltip": {
+    "message": "Skatīt vairāk"
+  },
+  "pRecorderTabLabel": {
+    "message": "Ekrāna ierakstītājs"
+  },
+  "pRecorderTitle": {
+    "message": "Ekrāna ierakstītājs"
+  },
+  "pStartRecorder": {
+    "message": "Sākt ekrāna ierakstīšanu"
+  },
+  "pStartRecorderLabel": {
+    "message": "Ekrāna ierakstīšana"
+  },
+  "pRecorderAlt": {
+    "message": "Ierakstītājs"
+  },
+  "pStartRecorderAlt": {
+    "message": "Ekrāna ierakstītājs"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Šī ir beta versija"
+  },
+  "pRecorderFeedback": {
+    "message": "Sniedziet atsauksmes"
+  },
+  "downloadsPermission": {
+    "message": "Atļaut failu lejupielādes"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Šī atļauja ir nepieciešama, lai tieši uzglabātu ekrānuzņēmumus savā datorā."
+  },
+  "webNavigationPermission": {
+    "message": "Atļaut piekļuvi tīmekļa navigācijai"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Šī atļauja ir nepieciešama, lai noteiktu lapu izmaiņas un vajadzības gadījumā pārvietotos uz citām lapām."
+  },
+  "desktopCapturePermission": {
+    "message": "Atļaut darbvirsmas tveršanu"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Šī atļauja ir nepieciešama, lai tvertu saturu no jūsu darbvirsmas vai noteiktiem logiem."
+  },
+  "tabsPermission": {
+    "message": "Atļaut piekļuvi cilnēm"
+  },
+  "tabsPermissionDesc": {
+    "message": "Šī atļauja ir nepieciešama, lai piekļūtu un pārvaldītu pārlūkprogrammas cilņu informācijai."
+  },
+  "tabCapturePermission": {
+    "message": "Atļaut cilnes tveršanu"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Šī atļauja ir nepieciešama, lai tvertu audio un video no pārlūkprogrammas cilnēm."
+  },
+  "allUrlsPermission": {
+    "message": "Atļaut piekļuvi visām tīmekļa vietnēm"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Šī atļauja ir nepieciešama, lai tvertu ekrānuzņēmumus no jebkuras tīmekļa vietnes."
+  },
+  "fileUrlsPermission": {
+    "message": "Atļaut piekļuvi lokālajiem failiem"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Šī atļauja ir nepieciešama, lai tvertu ekrānuzņēmumus no lokālajiem failiem (file:// URL)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Vai iekļaut attēlus lejupielādē"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Šai funkcijai ir nepieciešams CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "Jaunināt uz Pro versiju"
+  },
+  "proSaveRestricted": {
+    "message": "Lai saglabātu šo saturu, ir nepieciešams CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "CocoShot priekšskatījums"
+  },
+  "qv_preview_mode": {
+    "message": "Priekšskatījuma režīms"
+  },
+  "qv_screenshot_preview": {
+    "message": "Ekrānuzņēmuma priekšskatījums"
+  },
+  "qv_download": {
+    "message": "Lejupielādēt"
+  },
+  "qv_edit": {
+    "message": "Anotēt, rediģēt (var arī eksportēt uz PDF)"
+  },
+  "qv_hint": {
+    "message": "Pieredzējuši lietotāji automātiski izlaidīs šo lapu un dosies uz redaktoru."
+  },
+  "recordTab": {
+    "message": "Ierakstīšana",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Jūsu video",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Ekrrans",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Cilne",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Tikai kamera",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Makets",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Pielāgotā apgabala ierakstīšana atspējota",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Atjauniniet Chrome uz versiju 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Atjaunināt",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Pārbaudiet savas atļaujas",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "Šķiet, ka CocoShot nevar piekļūt jūsu kamerai vai mikrofonam. Lai atrisinātu šo problēmu, atbloķējiet to pārlūkprogrammas iestatījumos un piešķiriet nepieciešamās atļaujas.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Noraidīt",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Atļaut kameras piekļuvi",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Atļaut mikrofona piekļuvi",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Nospiediet, lai runātu",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Iestatīt ierakstīšanas apgabalu",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Apgriezt kameru",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Fona efekti",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Sākt ierakstīšanu",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Sākas ierakstīšana...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Izvēlieties kameru",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Vairāk opciju",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Sistēmas audio",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Slēpt rīkjoslu",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Atpakaļskaitīšana",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Iestatīt laika ierobežojumu",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Izplūšana",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Nav",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Nav kameras",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Nav mikrofona",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Izvēlieties avotu",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Izslēgts",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Platums",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Augstums",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Klikšķiniet, lai novietotu attēlu",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Pabeigt ierakstīšanu",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "restartRecordingTooltip",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Pauzēt ierakstīšanu",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Atsākt ierakstīšanu",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Atcelt ierakstīšanu",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Ieslēgt/izslēgt zīmēšanas rīkus",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Ieslēgt/izslēgt izplūšanas rīku",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Ieslēgt/izslēgt kursora opcijas",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Atspējot kameru",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Iespējot kameru",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Nav kameras atļauju",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Kameras iestatījumi",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Spoguļkamera",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Fona izplūšana",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Atspējot mikrofonu",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Iespējot mikrofonu",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Nav mikrofona atļauju",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Izvēlēties rīku",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Zīmula rīks",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Marķiera rīks",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Dzēšgumijas rīks",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Teksta rīks",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Formas rīks",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Bultas rīks",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Attēla rīks",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Atsaukt",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Atcelt atsaukšanu",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Notīrīt audeklu",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Vairāk krāsu",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Biezs triepiens",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Vidējs triepiens",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Tievs triepiens",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Ieslēgt/izslēgt attēls attēlā režīmu",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Ieslēgt/izslēgt aizpildīšanu",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Zīmēšanas režīms",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Izplūšanas režīms",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Notīrīt visus izplūdušos elementus",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Iezīmēt klikšķus",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Iezīmēt kursoru",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Kursora gaisma",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Nerādīt vēlreiz",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Restartēt ierakstīšanu?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Jūsu pašreizējais progress tiks zaudēts.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Restartēt",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Atsākt",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Atmest ierakstīšanu?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Jūsu pašreizējais progress tiks zaudēts.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Atmest",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Atsākt",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Jūsu ieraksts tiks saglabāts šeit",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Ierakstīšana...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Paturiet šo cilni atvērtu. Tā aizvērsies, kad jūsu ieraksts tiks saglabāts.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Sagatavo ierakstu...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Paturiet šo cilni atvērtu. Tā tiks atjaunināta ar jūsu ierakstu, kad tas būs gatavs.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Redaktors",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Atcelt",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Atjaunot sākotnējo",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Atiestatīt",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Saglabāt izmaiņas",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Saglabāšana...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Velciet un nometiet savu audio failu",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Vai noklikšķiniet, lai pārlūkotu",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Iestatījumi",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Skaļums",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Atjaunināt",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Apgriezt",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Platums",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Augstums",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Kreisā",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Augšējā",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Velciet rokturus un izmantojiet pogas pa kreisi, lai rediģētu izvēlēto sadaļu.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Apgriezt video",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Apgriešana...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Izgriezt sadaļu",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Izgriešana...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Izslēgt skaņu",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Skaņas izslēgšana...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Uzzināt vairāk.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Atsaukt",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Atcelt atsaukšanu",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Atstājiet atsauksmi, tas palīdz!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Jūs šobrīd esat bezsaistē",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Dažas funkcijas nebūs pieejamas, līdz atkal pieslēgsities",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Mēģināt vēlreiz",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome jāatjaunina",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Atjauniniet, lai piekļūtu vairāk funkcijām",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Uzzināt vairāk",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Video ir pārāk garš, lai to apstrādātu ierīcē",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Rediģēšana un MP4 eksports nav pieejami",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Video tiek lokāli apstrādāts...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Uzzināt par ātrāko mākoņversiju",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Rediģēt",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Nav savienojuma",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Nav pieejams",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Rediģēt video",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Apgriezt, izgriezt vai izslēgt skaņu video",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Sagatavo video, lūdzu, uzgaidiet...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Apgriezt",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Apgriezt un mainīt video izmēru",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Pievienot audio",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Augšupielādējiet savu audio, lai pievienotu video",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Saglabāt",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Izrakstīties no Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Saglabāšana...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Saglabāt Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Saglabāt pašreizējo versiju Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Pierakstieties un saglabājiet Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Lejupielādē...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Lejupielādēt kā .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Eksportēt .webm video",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Lejupielādēt kā .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Eksportēt .mp4 video (ieteicams)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Lejupielādēt kā .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Eksportēt GIF (maks. 30 sekundes)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Aizstāt esošo audio",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Pietuvināt līdz kursoram",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Palikt lapā ierakstīšanas laikā",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Mikrofons izslēgts brīdinājums",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Palīdzība",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Ierakstīšana pauzēta. Nospiediet atskaņošanas pogu, lai turpinātu.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot nav atļaujas ierakstīt jūsu ekrānu",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Lai ekrāna ierakstīšana darbotos, jums būs jāļauj CocoShot ierakstīt jūsu ekrānu, kad parādīsies atļaujas pieprasījums. (Jūs to varat atsaukt jebkurā laikā paplašinājuma iestatījumos.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Iespējot ekrāna ierakstīšanu",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Atcelt",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Jūsu mikrofons ir izslēgts",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Ja vēlaties, lai jūsu balss būtu iekļauta ierakstā, jums būs jāieslēdz mikrofons. Vai vēlaties turpināt ierakstīšanu bez audio?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Jā, turpināt",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Atcelt",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Relaksējieties. Noklikšķiniet jebkur, lai apturētu atpakaļskaitīšanu.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Rediģēšana var būt neprecīza īsiem laika diapazoniem kadru intervālu dēļ.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Video tiek apstrādāts, atskaņošana var būt neprecīza vai pārtraukta.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Apgriešana var aizņemt kādu laiku",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Uzlabojiet ātrākai apstrādei",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Mikrofons iespējots",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Mikrofons atspējots",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Ieraksts bija īsāks par 3 sekundēm un netika saglabāts.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Slēpt UI paziņojumus",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Nerādīt vēlreiz",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Slēpt rīkjoslu, kad netiek lietota",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Sākt ierakstīšanu",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Pārtraukt ierakstīšanu",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Laipni lūdzam jaunajā CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Uzzināt vairāk par atjauninājumu.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Sākt",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Kļūda sākot ierakstīšanu",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Ieradās kļūda, sākot ierakstīšanas procesu. Lūdzu, restartējiet pārlūkprogrammu un mēģiniet vēlreiz. Ja problēma turpinās, sazinieties ar mums support@cocoshot.net.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Augstākā kvalitāte",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Atjaunot pēdējo video ierakstu",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Ir problēmas?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Neredzat savu ierakstu?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Ja esat pabeidzis ierakstīšanu, bet neredzat savu video šajā lapā, varat mēģināt lejupielādēt neapstrādātos video datus, ja tie pastāv. Varat arī sazināties ar mums, iesniedzot kļūdas ziņojumu.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Lejupielādēt neapstrādātos video datus",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Ziņot par kļūdu",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Ieraksts nav atrads, atvainojiet :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Sasniegts atmiņas limits",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Jūsu ierīcei nav pietiekami daudz atmiņas ierakstīšanai, kā rezultātā sesija automātiski beidzas. Lai ierakstītu garākus video, apsveriet iespēju samazināt video kvalitāti vai atbrīvot vietu ierīcē.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Sapratu",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Nepietiek vietas",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot nepieciešams vismaz 1GB brīvas vietas ierakstīšanai. Lūdzu, atbrīvojiet vietu un mēģiniet vēlreiz.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Notīrīt iepriekšējos ierakstus",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Paplašināts",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Lejupielādēt neapstrādāto video failu",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Eksportēt oriģinālos ierakstīšanas datus",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Saņemt palīdzību ar ierakstu",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Atgūt video un atrisināt citas problēmas",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Lejupielādēt neapstrādāto video failu",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Neapstrādāts video fails attiecās uz neizmainītu ierakstu, kuru tieši izveidoja CocoShot. Tā kā šis fails nav apstrādāts vai rediģēts, tas var būt diezgan liels un nesaderīgs ar dažām ierīcēm. Ja rodas problēmas ar apstrādāto versiju, varat izmantot šo failu, lai atgūtu oriģinālo ierakstu.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Lejupielādēt",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Rādīt audio viļņveida formu",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Lejupielādēt sistēmas informāciju un video datus un nosūtīt problēmu risināšanai",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Kad esat lejupielādējis failu, lūdzu, nosūtiet to uz support@cocoshot.net kopā ar jebkādu papildu informāciju, kas varētu palīdzēt. Mēs izmantosim šo informāciju, lai palīdzētu jums atrisināt problēmas ar paplašinājumu un, ja iespējams, atgūt jūsu video.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Lejupielādēt",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Video ir pārāk garš, lai to apstrādātu jūsu ierīcē",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Tā kā CocoShot dod priekšroku privātumam un darbojas pilnībā jūsu vietējā ierīcē, tas ir saistīts ar jūsu aparatūras iespējām. Šāda garuma video apstrāde būtu pārāk laikietilpīga un prasītu ievērojamus sistēmas resursus. Jūs joprojām varat iegūt WEBM failu vai neapstrādātu ierakstu, lai gan rediģēšanas funkcijas un MP4 eksports nebūs pieejami. Tomēr, ja esat informēts par iespējamajiem izaicinājumiem, varat turpināt video apstrādi.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Es saprotu risku, mēģināt tomēr",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Uzzināt vairāk par garu video apstrādi.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Atjaunošanas režīms",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Lejupielādēt datus problēmu risināšanai",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Palīdzības centrs",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Ierakstīt datora audio",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Lai ierakstītu audio no šīs lapas, jums jāpārslēdzas uz '$tab$'.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Paplašinājums netiek atbalstīts cilnē",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot nav saderīgs ar cilni, kuru jūs tikko lietojāt. Jūs joprojām varat sākt ierakstīšanu no šīs lapas un atgriezties šajā cilnē, bet, lūdzu, ņemiet vērā, ka jūsu kameras plūsma un rediģēšanas rīkjosla netiks rādīta.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Iestatiet vietējo dublējumu saviem CocoShot ierakstiem",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Saglabājiet katra izveidotā ieraksta dublikātus. Neiestatot dublējumus, jūsu ieraksti tiks saglabāti tikai tad, kad jūs skaidri izvēlēsities tos lejupielādēt.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Ja mēģināt saglabāt ierakstus Lejupielādes vai citās sistēmas mapēs, iespējams, vispirms būs jāizveido jauna mape.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Izvēlēties mapi",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Tagad ne",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Jūsu ieraksti tiek vietēji dublēti",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Lai neprasītu atļauju katru reizi, kad ierakstāt, iesakām paturēt šo cilni atvērtu.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Aizvērt cilni tomēr",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Pārtraukt visu ierakstu dublēšanu",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Lūdzu, apstipriniet piekļuvi savai vietējai CocoShot dublējumu mapei",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Mums žēl, bet mums atkal nepieciešama jūsu atļauja, lai turpinātu jūsu ierakstu dublēšanu. Diemžēl mums šī atļauja būs jāpieprasa katru reizi, kad šī cilne aizveras, kas var notikt, aizverot pārlūkprogrammu vai restartējot datoru.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Atļaut CocoShot turpināt ierakstu dublēšanu",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Dublēt ierakstus",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Atļauja netika piešķirta ieraksta dublēšanai",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Jūs neesat izvēlējies mapi ierakstu dublējumu glabāšanai. Atkarībā no pārlūkprogrammas versijas vai operētājsistēmas, iespējams, katru reizi, kad sākat ierakstīšanu, tiks lūgts izvēlēties šo mapi. Varat mēģināt vēlreiz ar iestatīšanas procesu vai pilnībā izslēgt dublējumus, ja nevēlaties atkārtoti piešķirt atļaujas.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Ierakstīt datora audio",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "macOS sistēmās esat ierobežots ierakstīt audio no atsevišķām cilnēm. Izvēlieties Chrome cilnes ierakstīšanas opciju un pārbaudiet, vai ir ieslēgts iestatījums 'Arī kopīgot cilnes audio'.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Ierakstīt datora audio",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Ja vēlaties ierakstīt audio no sava datora, pārliecinieties, ka ir aktivizēta opcija 'Kopīgot sistēmas audio'. Ja šī opcija nav redzama, apsveriet Chrome atjaunināšanu vai pārslēgšanos uz cilnes ierakstīšanas režīmu.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Maks. izšķirtspēja",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Maks. kadru skaits sekundē",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Nepietiek RAM",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Mainīt loga izmēru",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Ekrāns ir pārāk mazs šai izšķirtspējai",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Nevar ierakstīt ar šo izšķirtspēju jūsu ierīcē",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Atļauja liegta",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Ierakstīšanai nepieciešamas kameras un mikrofona atļaujas. Lūdzu, piešķiriet atļaujas pārlūkprogrammas iestatījumos.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Ierakstīšanai nepieciešama kameras atļauja. Lūdzu, piešķiriet atļauju pārlūkprogrammas iestatījumos.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Ierakstīšanai nepieciešama mikrofona atļauja. Lūdzu, piešķiriet atļauju pārlūkprogrammas iestatījumos.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Labot atļaujas",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Ekrāna ierakstīšanas iestatījumi",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "h",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Pieprasa kameras atļauju...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Pieprasa mikrofona atļauju...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Pieprasīt kameras atļauju",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Pieprasīt mikrofona atļauju",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Pārskatīt atļaujas",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Pielāgot opcijas",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Ierakstītie video",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Vēl nav ierakstītu video",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Nospiediet, lai izslēgtu skaņu",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Mums nepieciešama jūsu atļauja, lai piekļūtu jūsu kamerai",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Mums nepieciešama jūsu atļauja, lai piekļūtu jūsu mikrofonam",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Pārskats",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Krāsu izvēle",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Aizvērt",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Izvēlēties krāsu no ekrāna",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API netiek atbalstīts šajā pārlūkprogrammā. Lūdzu, izmantojiet modernu pārlūkprogrammu, piemēram, Chrome 95+ vai Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Izvēlēties izplūšanas reģionu",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Izdzēst visus izplūšanas reģionus",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Līnijas platums",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Tieva",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Vidēja",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Treknraksts",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Īpaši treknraksts",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot ieraksti",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Neizdevās iestatīt vietējo dublējumu. Sazinieties ar mums $supportEmail$ lai saņemtu vairāk palīdzības. Jūs joprojām varat ierakstīt ekrānu.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Jūsu pārlūkprogramma neatbalsta vietējos dublējumus. Sazinieties ar mums $supportEmail$ lai saņemtu vairāk palīdzības. Jūs joprojām varat ierakstīt ekrānu.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Kā lietot Pietuvināt līdz kursoram",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Ierakstīšanas laikā turiet nospiestu tastatūras saīsni, lai tuvinātu uz kursoru. Atlaidiet taustiņus, lai attālinātu. Tas ir lieliski, lai izceltu noteiktas ekrāna zonas ierakstīšanas laikā.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Sapratu!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Reģiona izmērs",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Iepriekš iestatītie",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Atiestatīt",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Nav",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Izplūšana",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Attēls",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Lūdzu, vispirms ielādējiet video failu",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Lejupielādēt kā WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Lejupielādēt kā MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Konvertēšana...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Apstrādā fragmenti:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Video lielums pārsniedz ieteicamo limitu (maks. 1GB), kas var izraisīt apstrādes kļūmi",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Ielādējat lielu video (1GB). Apstrāde var aizņemt ilgu laiku. Turpināt?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Nepie supports video formāts. Lūdzu, izmēģiniet citu video formātu.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Lejupielāde neizdevās. Lūdzu, mēģiniet vēlreiz.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4 konvertēšana nav pieejama",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Šis video ir pārāk liels, lai to konvertētu uz MP4 pārlūkprogrammā. Lūdzu, lejupielādējiet to kā WebM.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Konvertēšana uz MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Neizdevās lejupielādēt video. Lūdzu, mēģiniet vēlreiz.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "rediģēt video",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Drīzumā.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Video priekšskatījums",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "Labi",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Rakstīšana krātuvē...",
+    "description": "Message shown when writing video to storage"
+  }
+}

@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: સ્ક્રીનશોટ અને સ્ક્રીન રેકોર્ડર"
+  },
+  "extDescription": {
+    "message": "સંપૂર્ણ પૃષ્ઠના સ્ક્રીનશોટ લો અને ટિપ્પણીઓ સાથે MP4 પર સ્ક્રીન રેકોર્ડ કરો. ક્લિક કરી શકાય તેવી લિંક્સ સાથે PDF નિકાસ શામેલ છે."
+  },
+  "pDisable": {
+    "message": "આ પેજ પર અક્ષમ"
+  },
+  "pDisableDesc": {
+    "message": "તમે આને કોઈ પણ વેબપેજ પર ચલાવી શકો છો, સિવાય તેમના જે બ્રાઉઝર સ્ક્રિપ્ટ ચલાવવાનું પ્રતિબંધિત કરે છે. આમાં એક્સ્ટેંશન વેબ સ્ટોર, બ્રાઉઝર સેટિંગ્સ પેજ અન્ય એક્સ્ટેંશન્સ પેજ સામેલ છે."
+  },
+  "pDisableExp": {
+    "message": "આ સીમા બ્રાઉઝર દ્વારા સલામતી જોખમો લીધે છે."
+  },
+  "pDisableTry": {
+    "message": "તમે એક નવું પેજ ખોલી શકો છો અને કૅપ્ચર ફંક્શન અજમાવી શકો છો."
+  },
+  "pStart": {
+    "message": "શરૂ કરવું"
+  },
+  "pFileUrl": {
+    "message": "ગઈને \"edge://extensions/\" પર, અને \"ફાઇલ URL ને પ્રવેશ આપવા\" બોક્સને તપાસો."
+  },
+  "pCaptV": {
+    "message": "પેજના દૃશ્યમાન ભાગોના સ્ક્રીનશોટ કૅપ્ચર કરો."
+  },
+  "pAsOne": {
+    "message": "એક જ HTML ફાઇલ તરીકે સાચવો."
+  },
+  "pDesktop": {
+    "message": "દિધેલા વેબ પેજ, ટેબ, વિન્ડો અથવા સમગ્ર સ્ક્રીનના સ્ક્રીનશોટ કૅપ્ચર કરો."
+  },
+  "pCaptFull": {
+    "message": "પૂર્ણ પેજના સ્ક્રીનશોટ કૅપ્ચર કરો."
+  },
+  "pDesableOpt": {
+    "message": "અથવા તમે પ્રયાસ કરી શકો છો:"
+  },
+  "pAreaCut": {
+    "message": "સ્ક્રીનશોટ કૅપ્ચર કરવા માટે પેજનો એક ભાગ પસંદ કરો."
+  },
+  "fullpageTooLarge": {
+    "message": "નોટિસ: બ્રાઉઝર તેના કદને કારણે સમગ્ર પેજને એક જ છબી તરીકે કૅપ્ચર કરી શકતું નથી. તેના બદલે, તે <strong>$1</strong> અલગ છબીઓમાં વિભાજિત થશે."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "ધ્યાન: આ એક્સ્ટેંશન વિશાળ સામગ્રી કૅપ્ચર કરવા માટે બનાવવામાં આવ્યું નથી. તે આ પેજનું કૅપ્ચર સફળતાપૂર્વક પૂર્ણ કરી શકશે નહીં."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "વધારાની પરવાનગી જરૂરી છે"
+  },
+  "framePermDesc": {
+    "message": "આ સાઇટ એન્જેડ આઇફ્રેમ મારફતે સામગ્રી બતાવે છે, જેเข้ સાથી પરવાનગીઓની જરૂર છે."
+  },
+  "WhatisIframe": {
+    "message": "ઇફ્રેમ શું છે તે શીખવા માટે ક્લિક કરો."
+  },
+  "framePermMore": {
+    "message": "ડાયલોગનો ઉપયોગ કર્યા પછી તમારે એક્સટેંશન ફરીથી પ્રારંભ કરવું પડી શકે છે. રદ્દ કરવાથી માત્ર દેખાતા સ્ક્રીન કૅપ્ચર થશે."
+  },
+  "framePermConfirm": {
+    "message": "મંજુર કરો"
+  },
+  "framePermSave": {
+    "message": "આ પરવાનગીને પછી માટે સાચવો (તમે તેને ક્યારેય રદ કરી શકો છો)."
+  },
+  "error": {
+    "message": "ભૂલ"
+  },
+  "captureError": {
+    "message": "કૅપ્ચર નિષ્ફળ, કૃપા કરીને પછીથી પુન: પ્રયાસ કરો. જો સમસ્યા ચાલુ રહે, તો કૃપા કરીને વિકાસકર્તાને સંપર્ક કરો: $1"
+  },
+  "btnOk": {
+    "message": "ઓક"
+  },
+  "btnCancel": {
+    "message": "રદ કરો"
+  },
+  "saveFramePermission": {
+    "message": "બધા ફ્રેમમાંથી સામગ્રી કૅપ્ચર કરવાની મંજૂરી આપો"
+  },
+  "permissions": {
+    "message": "પરવાનગીઓ"
+  },
+  "saveframepDesc": {
+    "message": "આ પરવાનગી પેજ પર ઇફ્રેમ અથવા ફ્રેમસેટમાંથી સામગ્રી કૅપ્ચર કરવા માટે જરૂરી છે. આને અक्षम કરવાથી કેટલીક વેબ પૃષ્ઠની ઘટકોને કૅપ્ચર કરવાનો શક્તિ મર્યાદિત થઈ શકે છે."
+  },
+  "processingScreenshot": {
+    "message": "સ્ક્રીનશોટ પ્રક્રિયા ચાલી રહી છે..."
+  },
+  "screenshotSaved": {
+    "message": "સ્ક્રીનશોટ ડાઉનલોડ ફોલ્ડરમાં સંગ્રહિત કરી શકાયું છે"
+  },
+  "screenshotLoadFailed": {
+    "message": "સ્ક્રીનશોટ લોડ કરવામાં નિષ્ફળ. કૃપા કરીને ફરી પ્રયાસ કરો."
+  },
+  "getScreenshotFailed": {
+    "message": "સ્ક્રીનશોટ લેવામાં નિષ્ફળ. કૃપા કરીને ફરી પ્રયાસ કરો."
+  },
+  "processingAllAreas": {
+    "message": "બધી વિસ્તારોના સ્ક્રીનશોટ્સ પ્રક્રિયા ચાલી રહી છે..."
+  },
+  "allAreasSaved": {
+    "message": "$1 વિસ્તારોના સ્ક્રીનશોટ સફળતાપૂર્વક સંગ્રહિત કર્યા."
+  },
+  "areaNotVisible": {
+    "message": "પસંદ કરેલો વિસ્તાર લગભગ દ્રશ્ય શ્રેણી બહાર છે અને સ્ક્રીનશોટ લઈ શકાયો નથી."
+  },
+  "partiallyVisible": {
+    "message": "વિસ્તારનો ભાગ દ્રશ્ય શ્રેણી બહાર છે. દ્રશ્ય ભાગ સ્ક્રીનશોટ કરવામાં આવ્યો છે."
+  },
+  "partiallyVisibleArea": {
+    "message": "પસંદ કરેલા વિસ્તારનો ભાગ દ્રશ્ય શ્રેણી બહાર છે. દ્રશ્ય ભાગ સ્ક્રીનશોટ કરવામાં આવ્યો છે."
+  },
+  "areaOutOfView": {
+    "message": "પસંદ કરેલો વિસ્તાર દ્રશ્ય શ્રેણી બહાર છે. કૃપા કરીને પાનું સ્ક્રોલ કરીને વિસ્તાર દ્રશ્યમાં લાવો અને ફરી પ્રયાસ કરો."
+  },
+  "processingError": {
+    "message": "સ્ક્રીનશોટ પ્રક્રિયામાં ભૂલ: $1"
+  },
+  "saveFailed": {
+    "message": "સ્ક્રીનશોટ સંગ્રહવામાં નિષ્ફળ: $1"
+  },
+  "smartModeEnabled": {
+    "message": "સ્માર્ટ સ્ક્રીનશોટ મોડ સક્રિય છે. ક્લિક કરીને કૅપ્ચર માટે તત્વ પસંદ કરો (Enter માટે પુષ્ટિ, Esc માટે રદ કરો)."
+  },
+  "processing": {
+    "message": "કૉપિ પ્રક્રિયા ચાલી રહી છે..."
+  },
+  "copyFailed": {
+    "message": "કૉપિ નિષ્ફળ: $1"
+  },
+  "canvasContextError": {
+    "message": "કૉપિ નિષ્ફળ: કેનવાસ કૉન્ટેક્સ્ટ પ્રાપ્ત કરી શકાયું નથી."
+  },
+  "copied": {
+    "message": "ક્લિપબોર્ડ પર કૉપિ થયું"
+  },
+  "clipboardAccessDenied": {
+    "message": "કૉપિ નિષ્ફળ: ક્લિપબોર્ડ ઍક્સેસ નિષેધિત, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "કૉપિ નિષ્ફળ: ક્લિપબોર્ડ API સમર્થિત નથી"
+  },
+  "imageDataCreateFailed": {
+    "message": "કૉપિ નિષ્ફળ: છબી ડેટા બનાવી શકાયું નથી"
+  },
+  "copyAreaOutOfView": {
+    "message": "કૉપિ નિષ્ફળ: પસંદ કરેલો વિસ્તાર દ્રશ્ય શ્રેણી બહાર છે"
+  },
+  "imagePreviewShown": {
+    "message": "છબી પૂર્વદર્શન દર્શાવવામાં આવ્યું છે. કૉપિ કરવા માટે રાઈટ-ક્લિક કરો."
+  },
+  "escape": {
+    "message": "રદ કરો (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "છબી ગુણવત્તા આ રીતે સેટ કરી: $1"
+  },
+  "qrDecoding": {
+    "message": "QR કોડ ડિકોડ કરી રહ્યું છે..."
+  },
+  "qrSuccess": {
+    "message": "QR કોડ સફળતાપૂર્વક ડિકોડ અને ક્લિપબોર્ડ પર કૉપિ થયો."
+  },
+  "qrNoQRFound": {
+    "message": "કોઈ માન્ય QR કોડ મળ્યો નથી"
+  },
+  "qrError": {
+    "message": "QR કોડ ડિકોડ નિષ્ફળ: $1"
+  },
+  "saveArea": {
+    "message": "આ વિસ્તાર સંગ્રહિત કરો"
+  },
+  "copyToClipboard": {
+    "message": "આ પસંદગી (હાલ પસંદ કરેલી) કૉપિ કરો"
+  },
+  "saveAllAreas": {
+    "message": "બધા વિસ્તારો સંગ્રહિત કરો"
+  },
+  "keepAndContinue": {
+    "message": "નવા પસંદગી ઉમેરો"
+  },
+  "cancel": {
+    "message": "રદ કરો"
+  },
+  "lockSize": {
+    "message": "આકાર લોક કરો"
+  },
+  "lockSizeActive": {
+    "message": "✓ આકાર લોક કરેલ છે"
+  },
+  "freeRatio": {
+    "message": "મુક્ત ગુણોત્તર"
+  },
+  "ratioLabel": {
+    "message": "ગુણોત્તર પસંદ કરો"
+  },
+  "aiDialog": {
+    "message": "સ્માર્ટ સંવાદ"
+  },
+  "fileSizeEstimate": {
+    "message": "લગભગ $1 $2"
+  },
+  "qrDecode": {
+    "message": "QR કોડ ડિકોડ કરો"
+  },
+  "removeBackground": {
+    "message": "પાછળનું ભાગ હટાવો"
+  },
+  "processingBackgroundRemoval": {
+    "message": "પાછળનું ભાગ દૂર કરી રહ્યું છે..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "પાછળનું ભાગ દૂર કરવામાં નિષ્ફળ: છબી લોડ કરવાની ભૂલ"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "પાછળનું ભાગ દૂર કરવામાં નિષ્ફળ: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "પાછળનું ભાગ દૂર કરી ક્લિપબોર્ડ પર કૉપિ થયું"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "પાછળનું ભાગ દૂર કરવામાં નિષ્ફળ: Blob બનાવી શકાયું નથી"
+  },
+  "selectedAreaOutOfView": {
+    "message": "પસંદ કરેલો વિસ્તાર દ્રશ્ય બહાર છે"
+  },
+  "screenshotFailed": {
+    "message": "સ્ક્રીનશોટ નિષ્ફળ: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "છબી પ્રક્રિયા નિષ્ફળ, કૃપા કરીને ફરી પ્રયાસ કરો"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "સ્ક્રીનશોટ વિસ્તાર દ્રશ્ય શ્રેણી બહાર છે"
+  },
+  "errorProcessingImage": {
+    "message": "છબી પ્રક્રિયામાં ભૂલ: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR કોડ ડિકોડિંગ લાઇબ્રેરી લોડ થઈ નથી"
+  },
+  "qrDecodingFailed": {
+    "message": "QR કોડ ડિકોડિંગ નિષ્ફળ: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "પસંદ કરેલા વિસ્તારમાં QR કોડ મળ્યો નથી"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR કોડ સફળતાપૂર્વક ડિકોડ થયું: $1"
+  },
+  "qrDecodingError": {
+    "message": "QR કોડ ડિકોડિંગ ભૂલ: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "પાછળનું ભાગ દૂર કરવામાં નિષ્ફળ: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "કૃપા કરીને પહેલા સ્ક્રીનશોટ વિસ્તાર પસંદ કરો"
+  },
+  "aiDialogTitle": {
+    "message": "સ્ક્રીનશોટની સામગ્રી પર બુદ્ધિશાળી સંવાદ કરો"
+  },
+  "qrDecodeTitle": {
+    "message": "સ્ક્રીનશોટમાં QR કોડ ડિકોડ કરો"
+  },
+  "lockSizeTitle": {
+    "message": "સતત કૅપ્ચર માટે વર્તમાન કદ લોક કરો"
+  },
+  "moveHint": {
+    "message": "પસંદગી વિસ્તાર ખસેડો (Space + ડ્રેગ)"
+  },
+  "saveAreaTooltip": {
+    "message": "વર્તમાન વિસ્તાર સંગ્રહિત કરો"
+  },
+  "saveAllAreasTooltip": {
+    "message": "બધા પસંદ કરેલા વિસ્તારો સંગ્રહિત કરો"
+  },
+  "copyToClipboardTooltip": {
+    "message": "સ્ક્રીનશોટ ક્લિપબોર્ડ પર કૉપિ કરો"
+  },
+  "moreOptions": {
+    "message": "વધુ વિકલ્પો"
+  },
+  "removeBgTooltip": {
+    "message": "પાછળનું ભાગ દૂર કરો અને ક્લિપબોર્ડ પર કૉપિ કરો"
+  },
+  "ratioLabelTooltip": {
+    "message": "આસ્પેક્ટ ગુણોત્તર પસંદ કરો"
+  },
+  "keepAndContinueTooltip": {
+    "message": "વર્તમાન પસંદગી જાળવો અને ચાલુ રાખો"
+  },
+  "pCaptureTabLabel": {
+    "message": "સ્ક્રીનશોટ"
+  },
+  "pAiToolsTabLabel": {
+    "message": "AI સાધનો"
+  },
+  "pCaptureTitle": {
+    "message": "આખું પૃષ્ઠ અને પસંદ કરેલ સ્ક્રીન વિસ્તારનો સ્ક્રીનશોટ"
+  },
+  "pAiToolsTitle": {
+    "message": "AI-સંબંધિત સાધનો"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "વેબ સામગ્રી નિકાસ સાધનો"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "છબી સાધનો"
+  },
+  "pDownloadAsMD": {
+    "message": "માર્કડાઉન તરીકે ડાઉનલોડ કરો"
+  },
+  "pDownloadAsPDF": {
+    "message": "પીડીએફ તરીકે ડાઉનલોડ કરો"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "વર્તમાન વેબપેજને માર્કડાઉન ફાઇલ તરીકે ડાઉનલોડ કરો"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "વર્તમાન વેબપેજને પીડીએફ ફાઇલ તરીકે ડાઉનલોડ કરો"
+  },
+  "pImageProcessing": {
+    "message": "છબી પ્રક્રિયા"
+  },
+  "pImageProcessingTooltip": {
+    "message": "છબી પ્રક્રિયા માટેના સાધનોનો સંગ્રહ"
+  },
+  "fixThePage": {
+    "message": "પૃષ્ઠને ઠીક કરો"
+  },
+  "expandScrollableOn": {
+    "message": "સ્ક્રોલ કરી શકાય તેવા વિસ્તારોને વિસ્તૃત કરો"
+  },
+  "expandScrollableOnDesc": {
+    "message": "સ્ક્રીનશોટ લેતા પહેલા વેબપેજની અંદર સ્ક્રોલ કરી શકાય તેવા વિસ્તારોને વિસ્તૃત કરવા માટે સક્ષમ કરો"
+  },
+  "hideFixedOn": {
+    "message": "નિશ્ચિત સ્થિતિ તત્વોને છુપાવો"
+  },
+  "hideFixedOnDesc": {
+    "message": "કેપ્ચરમાં દખલ કરી શકે તેવા નિશ્ચિત સ્થિતિ તત્વોને છુપાવવા માટે સક્ષમ કરો"
+  },
+  "preScrollOn": {
+    "message": "વેબપેજને પ્રી-સ્ક્રોલ લોડ કરી રહ્યું છે"
+  },
+  "preScrollOnDesc": {
+    "message": "ઘણા વેબ તત્વો (દા.ત., છબીઓ) ફક્ત સ્ક્રોલ પર લોડ થાય છે. જ્યારે સક્ષમ હોય, ત્યારે તે સ્ક્રીનશોટ લેતા પહેલા આપમેળે શોધી કાઢે છે અને પૃષ્ઠના તળિયે સ્ક્રોલ કરે છે."
+  },
+  "canBeDisabled": {
+    "message": "સેટિંગ્સ પૃષ્ઠ દ્વારા અક્ષમ કરી શકાય છે"
+  },
+  "analyzingPageForHTML": {
+    "message": "વેબપેજ કોડ અને સામગ્રીનું વિશ્લેષણ કરી રહ્યું છે, જટિલ પૃષ્ઠોમાં વધુ સમય લાગી શકે છે. જો વધુ સમય લાગે, તો કૃપા કરીને વેબપેજને તાજું કરો અને ફરી પ્રયાસ કરો."
+  },
+  "drawerSettings": {
+    "message": "સેટિંગ્સ"
+  },
+  "drawerScreenshotHistory": {
+    "message": "સ્ક્રીનશોટ ઇતિહાસ"
+  },
+  "drawerImageTools": {
+    "message": "સ્ક્રીનશોટ ઉન્નતીકરણ સાધનો"
+  },
+  "drawerHelpFeedback": {
+    "message": "વારંવાર પૂછાતા પ્રશ્નો અને પ્રતિસાદ"
+  },
+  "drawerCloseMenu": {
+    "message": "આ મેનુ બંધ કરો"
+  },
+  "logoTooltip": {
+    "message": "વધુ જુઓ"
+  },
+  "pRecorderTabLabel": {
+    "message": "સ્ક્રીન રેકોર્ડર"
+  },
+  "pRecorderTitle": {
+    "message": "સ્ક્રીન રેકોર્ડર"
+  },
+  "pStartRecorder": {
+    "message": "સ્ક્રીન રેકોર્ડિંગ શરૂ કરો"
+  },
+  "pStartRecorderLabel": {
+    "message": "સ્ક્રીન રેકોર્ડિંગ"
+  },
+  "pRecorderAlt": {
+    "message": "રેકોર્ડર"
+  },
+  "pStartRecorderAlt": {
+    "message": "સ્ક્રીન રેકોર્ડર"
+  },
+  "pRecorderBetaNotice": {
+    "message": "આ બીટા સંસ્કરણ છે"
+  },
+  "pRecorderFeedback": {
+    "message": "પ્રતિસાદ આપો"
+  },
+  "downloadsPermission": {
+    "message": "ફાઇલ ડાઉનલોડની મંજૂરી આપો"
+  },
+  "downloadsPermissionDesc": {
+    "message": "તમારા કમ્પ્યુટર પર સીધા સ્ક્રીનશૉટ સાચવવા આ પરવાનગીની જરૂર છે."
+  },
+  "webNavigationPermission": {
+    "message": "વેબ નેવિગેશન ઍક્સેસની મંજૂરી આપો"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "પૃષ્ઠ ફેરફારો શોધવા અને જરૂર પડે ત્યારે અલગ પૃષ્ઠો પર નેવિગેટ કરવા આ પરવાનગીની જરૂર છે."
+  },
+  "desktopCapturePermission": {
+    "message": "ડેસ્કટોપ કેપ્ચરની મંજૂરી આપો"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "તમારા ડેસ્કટોપ અથવા ચોક્કસ વિંડોઝમાંથી સામગ્રી કેપ્ચર કરવા આ પરવાનગીની જરૂર છે."
+  },
+  "tabsPermission": {
+    "message": "ટેબ્સ ઍક્સેસની મંજૂરી આપો"
+  },
+  "tabsPermissionDesc": {
+    "message": "બ્રાઉઝર ટેબ માહિતી ઍક્સેસ કરવા અને સંચાલિત કરવા આ પરવાનગીની જરૂર છે."
+  },
+  "tabCapturePermission": {
+    "message": "ટેબ કેપ્ચરની મંજૂરી આપો"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "બ્રાઉઝર ટેબ્સમાંથી ઓડિયો અને વીડિયો કેપ્ચર કરવા આ પરવાનગીની જરૂર છે."
+  },
+  "allUrlsPermission": {
+    "message": "બધી વેબસાઇટ્સ ઍક્સેસની મંજૂરી આપો"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "કોઈપણ વેબસાઇટ પરથી સ્ક્રીનશૉટ કેપ્ચર કરવા આ પરવાનગીની જરૂર છે."
+  },
+  "fileUrlsPermission": {
+    "message": "સ્થાનિક ફાઇલ્સ ઍક્સેસની મંજૂરી આપો"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "સ્થાનિક ફાઇલ્સ (file:// URL) માંથી સ્ક્રીનશૉટ કેપ્ચર કરવા આ પરવાનગીની જરૂર છે."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "શું ડાઉનલોડમાં ચિત્રો સામેલ કરવાના છે"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "આ સુવિધા માટે CocoShot Pro જરૂરી છે"
+  },
+  "proUpgradeButton": {
+    "message": "પ્રો પર અપગ્રેડ કરો"
+  },
+  "proSaveRestricted": {
+    "message": "આ સામગ્રી સાચવવા માટે CocoShot Pro જરૂરી છે"
+  },
+  "qv_title": {
+    "message": "CocoShot પૂર્વાવલોકન"
+  },
+  "qv_preview_mode": {
+    "message": "પૂર્વાવલોકન મોડ"
+  },
+  "qv_screenshot_preview": {
+    "message": "સ્ક્રીનશોટ પૂર્વાવલોકન"
+  },
+  "qv_download": {
+    "message": "ડાઉનલોડ કરો"
+  },
+  "qv_edit": {
+    "message": "એનોટેટ, એડિટ (PDF માં પણ નિકાસ કરી શકાય છે)"
+  },
+  "qv_hint": {
+    "message": "અનુભવી વપરાશકર્તાઓ આ પૃષ્ઠને આપમેળે છોડી દેશે અને સંપાદક પર જશે."
+  },
+  "recordTab": {
+    "message": "I-record",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Iyong mga video",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Screen",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Tab",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Camera lang",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Mockup",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Nak Disable ang custom area recording",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "I-update ang Chrome sa version 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "I-update",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Suriin ang iyong mga pahintulot",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "Mukhang hindi ma-access ng CocoShot ang iyong camera o microphone. Para maayos ito, i-unblock ito sa settings ng iyong browser at bigay ang mga kinakailangang pahintulot.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "I-dismiss",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Payagan ang access sa camera",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Payagan ang access sa microphone",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Pindutin para makapagsalita",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Itakda ang recording area",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "I-flip ang camera",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Background effects",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Magsimula ng recording",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Sinisimulan ang recording...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Pumili ng camera",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Mas maraming opsyon",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "System audio",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Itago ang toolbar",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Countdown",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Itakda ang time limit",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Blur",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Wala",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Walang camera",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Walang microphone",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Pumili ng source",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Off",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Lapad",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Taas",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Mag-click para ilagay ang image",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Tapusin ang recording",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "I-restart ang recording",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "I-pause ang recording",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Ipagpatuloy ang recording",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Kanselahin ang recording",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "I-toggle ang drawing tools",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "I-toggle ang blur tool",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "I-toggle ang cursor options",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "I-disable ang camera",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "I-enable ang camera",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Walang camera permissions",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Camera settings",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "I-mirror ang camera",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Background blur",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "I-disable ang microphone",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "I-enable ang microphone",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Walang microphone permissions",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Pumili ng tool",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Pen tool",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Highlighter tool",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Eraser tool",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Text tool",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Shape tool",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Arrow tool",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Image tool",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Undo",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Redo",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Clear canvas",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Mas maraming kulay",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Makapal na stroke",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Katamtamang stroke",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Manipis na stroke",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "I-toggle ang picture-in-picture mode",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "I-toggle ang fill",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Drawing mode",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Blur mode",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Burahin ang lahat ng blurred elements",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "I-highlight ang mga click",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "I-highlight ang cursor",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Spotlight cursor",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Huwag na ipakita muli",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "I-restart ang recording?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Mawawala ang kasalukuyang progress mo.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "I-restart",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Ipagpatuloy",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "I-discard ang recording?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Mawawala ang kasalukuyang progress mo.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "I-discard",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Ipagpatuloy",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "I-save ang iyong recording dito",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Nagre-record...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Panatilihing bukas ang tab na ito. Isasarado ito kapag nai-save na ang iyong recording.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Inihahanda ang recording...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Panatilihing bukas ang tab na ito. Ma-update ito ng iyong recording kapag handa na.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Editor",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Kanselahin",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Ibalik sa original",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "I-reset",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "I-save ang mga pagbabago",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Sinisave...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "I-drag at i-drop ang iyong audio file",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "O mag-click para mag-browse",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Settings",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Volume",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "I-update",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "I-crop",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Lapad",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Taas",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Kaliwa",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Taas",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "I-drag ang mga handle at gamitin ang mga button sa kaliwa para i-edit ang napiling section.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "I-crop ang video",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Inu-crop...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "I-cut ang section",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Inu-cut...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "I-mute ang audio",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Ini-mute...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Matuto pa.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "I-undo",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "I-redo",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Mag-iwan ng review, nakakatulong iyan!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Kasalukuyan kang offline",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Hindi available ang ilang features hanggang makakonekta ka ulit",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Subukan muli",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Kailangang i-update ang Chrome",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "I-update para ma-access ang mas maraming features",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Matuto pa",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Masyadong mahaba ang video para ma-process sa device",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Hindi available ang editing at MP4 export",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Napro-process ang video locally...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Alamin ang mas mabilis na cloud version",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "I-edit",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Walang koneksyon",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Hindi available",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "I-edit ang video",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "I-crop, i-cut, o i-mute ang video",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Inihahanda ang video, mangyaring maghintay...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "I-crop",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "I-crop at i-resize ang video",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Magdagdag ng audio",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "I-upload ang sarili mong audio para idagdag sa video",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "I-save",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Mag-sign out sa Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Sinisave...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "I-save sa Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "I-save ang kasalukuyang version sa Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Mag-sign in at i-save sa Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Downloading...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "I-download bilang .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Mag-export ng .webm video",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "I-download bilang .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Mag-export ng .mp4 video (recommended)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "I-download bilang .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Mag-export ng GIF (max 30 seconds)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Palitan ang existing na audio",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Zoom sa cursor",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Manatili sa page habang nagre-record",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Mic off warning",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Tulong",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Naka-pause ang recording. Pindutin ang play button para magpatuloy.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "Walang pahintulot ang CocoShot na i-record ang iyong screen",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Para gumana ang screen recording, kailangan mong payagan ang CocoShot na i-capture ang iyong screen kapag lumabas ang permission request.(Maari mong i-revoke ito anytime sa settings ng extension.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "I-enable ang screen recording",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Kanselahin",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Naka-mute ang iyong microphone",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Kung gusto mong kasama ang iyong boses sa recording, kailangan mong i-on ang iyong microphone. Gusto mo bang magpatuloy sa recording kahit walang audio?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Yes, magpatuloy",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Kanselahin",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Relax. Mag-click kahit saan para ihinto ang countdown.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Maling-mali ang edits para sa maikling time ranges dahil sa intervals sa pagitan ng frames.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Napro-process ang video, maaring mali o ma-interrupt ang playback.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Maaaring tumagal ang cropping",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Upgrade para sa mas mabilis na processing",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Naka-enable ang microphone",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Naka-disable ang microphone",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Mas maikli sa 3 segundo ang recording at hindi na-save.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Itago ang UI notifications",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Huwag na ipakita muli",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Itago ang toolbar kung hindi ginagamit",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Magsimula ng recording",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Itigil ang recording",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Welcome sa bagong CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Matuto pa tungkol sa update.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Magsimula",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Error sa pagsisimula ng recording",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "May nangyaring error habang sinisimulan ang recording process. I-restart ang iyong browser at subukan ulit. Kung patuloy ang problema, makipag-ugnayan sa amin sa support@cocoshot.net.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Highest quality",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "I-restore ang huling video recording",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "May mga isyu?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Hindi mo nakikita ang iyong recording?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Kung natapos mo ang recording pero hindi mo nakikita ang video sa page na ito, maari mong subukan i-download ang raw video data. O makipag-ugnayan sa amin sa pamamagitan ng pag-submit ng bug report.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "I-download ang raw video data",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "I-report ang bug",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Walang nakitang recording, sorry :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Na-reach ang memory limit",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Hindi sapat ang memory ng iyong device para sa recording, kaya automatic na natatapos ang session. Para sa mas mahabang videos, isaalang-alang ang pagbaba ng video quality o pag-free ng storage space sa device mo.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Nakaunawa",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Hindi sapat na espasyo",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "Kailangan ng CocoShot ng hindi kukulangin sa 1GB na free space para makapag-record. Pakifree ang space at subukan muli.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Burahin ang mga naunang recordings",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Advanced",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "I-download ang raw video file",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "I-export ang original recording data",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Kumuha ng tulong sa iyong recording",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "I-recover ang iyong video at ayusin ang ibang issues",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "I-download ang raw video file",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Ang raw video file ay tumutukoy sa hindi binagong recording na ginawa mismo ng CocoShot. Dahil hindi ito na-process o na-edit, maaring malaki at hindi compatible sa ibang devices. Kung may problema sa processed version, maari mong gamitin ito para ma-recover ang original recording mo.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "I-download",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Ipakita ang audio waveform",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "I-download ang system information at video data at i-send para sa troubleshooting",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Kapag na-download mo na ang file, paki-send ito sa support@cocoshot.net kasama ang ibang details na maaring makatulong. Gagamitin namin ito para tulungan kang ma-solve ang mga problema sa extension at kung maaari, ma-recover ang iyong video.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "I-download",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Masyadong mahaba ang video para ma-process sa iyong device",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Dahil priority ng CocoShot ang privacy at gumagana lang sa local device mo, limitado ito ng capabilities ng hardware mo. Magiging masyado ring time-consuming at mangangailangan ng significant system resources ang pag-handle ng video ng ganitong haba. Maari mo pang makakuha ng WEBM file o raw recording, kahit hindi available ang editing features at MP4 export. Pero kung aware ka sa mga possible challenges, maari kang magpatuloy sa pag-process ng video.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Naiintindihan ko ang risk, subukan pa rin",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Matuto pa tungkol sa pagproseso ng mahabang videos.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Recovery mode",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "I-download ang data para sa troubleshooting",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Help center",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "I-record ang computer audio",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Para i-record ang audio mula sa page na ito, kailangan mong lumipat sa '$tab$'.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Hindi supported ang extension sa tab",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "Hindi compatible ang CocoShot sa tab na ginamit mo lang. Maari ka pang magsimula ng recording mula sa page na ito at bumalik sa tab na iyon, pero tandaan na hindi ipapakita ang camera feed mo at editing toolbar.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Mag-set up ng local backup para sa iyong CocoShot recordings",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Magpanatili ng duplicates ng bawat recording na ginagawa mo. Kung walang set up na backup, maii-save lang ang recordings mo kung eksaktong pipiliin mong i-download sila.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Kung sinusubukan mong i-save ang recordings sa Downloads o ibang system directories, maaring kailangan mong gumawa ng bagong folder muna.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Pumili ng folder",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Hindi ngayon",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Nagba-backup locally ang iyong recordings",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Para hindi ka tanungin ng permissions every time na nagre-record, nirerekomenda naming panatilihing bukas ang tab na ito.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Isara ang tab kahit pa",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Itigil ang pagba-backup ng lahat ng recordings",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Pakikumpirma ang access sa iyong local CocoShot backup folder",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Paumanhin, pero kailangan namin ng permission mo ulit para magpatuloy sa pagba-backup ng iyong recordings. Makakalungkot, pero kailangan naming humingi ng permission na ito each time na isasarado ang tab na ito, which pwede mangyari kapag isinara mo ang browser o ni-restart ang computer mo.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Payagan ang CocoShot na magpatuloy sa pagba-backup ng recordings",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Back up ang recordings",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Hindi binigay ang permission para i-back up ang recording",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Hindi ka pumili ng folder para sa iyong recording backups. Depende sa browser version o operating system mo, maaring tanungin kang pumili ng folder na ito each time na magsisimula ng recording. Maari mong subukan ang setup process ulit, o i-turn off ang backups completely kung ayaw mong bigyan ng permissions repeatedly.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "I-record ang computer audio",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "Sa macOS systems, limited ka sa pag-record ng audio mula sa individual tabs. Piliin ang Chrome Tab recording option at i-verify na naka-on ang 'Also share tab audio' setting.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "I-record ang computer audio",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Kung gusto mong i-capture ang audio mula sa computer mo, siguraduhing naka-on ang 'Share system audio' option. Kung hindi visible ang option na ito, isaalang-alang ang pag-update ng Chrome o paglipat sa tab recording mode.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Max resolution",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Max FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Hindi sapat ang RAM",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Resize window",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Masyadong maliit ang screen para sa resolution na ito",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Hindi maaaring i-record sa resolution na ito sa device mo",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Denied ang permission",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Kailangan ng camera at microphone permissions para makapag-record. Pakibigay ang permissions sa settings ng iyong browser.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Kailangan ng camera permission para makapag-record. Pakibigay ang permission sa settings ng iyong browser.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Kailangan ng microphone permission para makapag-record. Pakibigay ang permission sa settings ng iyong browser.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Ayusin ang Permissions",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Screen Recording Settings",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "o",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Humihingi ng camera permission...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Humihingi ng microphone permission...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Humingi ng camera permission",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Humingi ng microphone permission",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Suriin ang mga permission",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Customise ang options",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Mga Recorded Videos",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Wala pang nirecord na videos",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Pindutin para i-mute",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Kailangan namin ng iyong permission para ma-access ang iyong camera",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Kailangan namin ng iyong permission para ma-access ang iyong microphone",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Suriin",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Color Picker",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Isara",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Pumili ng Kulay mula sa Screen",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "Hindi supported ang EyeDropper API sa browser na ito. Mangyaring gumamit ng modernong browser tulad ng Chrome 95+ o Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Pumili ng blur region",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Burahin ang lahat ng blur regions",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Line Width",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Manipis",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Katamtaman",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Makapal",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Extra Makapal",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot Recordings",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Nabigong mag-set up ng local backup. Makipag-ugnayan sa amin sa $supportEmail$ para sa higit pang tulong. Maari ka pang mag-record ng screen mo.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Hindi supported ng browser mo ang local backups. Makipag-ugnayan sa amin sa $supportEmail$ para sa higit pang tulong. Maari ka pang mag-record ng screen mo.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Paano Gamitin ang Zoom to Cursor",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Habang nagre-record, hold ang keyboard shortcut para i-zoom in papunta sa position ng cursor mo. Release ang keys para i-zoom out ulit. Great ito para i-highlight ang specific areas ng screen during recording.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Gets mo!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Region Size",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Presets",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "I-reset",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Wala",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Blur",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Image",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Mangyaring mag-load muna ng video file",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "I-download bilang WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "I-download bilang MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Kino-convert...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Processing chunks:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Lumabas sa recommended limit ang video size (max 1GB), maaring maging sanhi ng processing failure",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Naglo-load ka ng malaking video (1GB). Maaring tumagal ang processing. Magpatuloy?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Hindi supported ang video format. Mangyaring subukan ang ibang video format.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Nabigo ang download. Mangyaring subukan muli.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "Hindi Available ang MP4 Conversion",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Masyadong malaki ang video na ito para ma-convert sa MP4 sa browser. I-download ito bilang WebM na lang.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Kino-convert sa MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Nabigo i-download ang video. Mangyaring subukan muli.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "i-edit ang video",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Darating din.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Video Preview",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Sinusulat sa storage...",
+    "description": "Message shown when writing video to storage"
+  }
+}

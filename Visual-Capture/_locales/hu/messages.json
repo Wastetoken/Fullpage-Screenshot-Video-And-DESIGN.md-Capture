@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Képernyőkép és képernyőrögzítő"
+  },
+  "extDescription": {
+    "message": "Rögzítsen teljes oldalas képernyőképeket, és rögzítse a képernyőt MP4 formátumban kommentárokkal. PDF exportálás kattintható link..."
+  },
+  "pDisable": {
+    "message": "Letiltva ezen az oldalon"
+  },
+  "pDisableDesc": {
+    "message": "Ezt bármely weboldalon futtathatja, kivéve azokat, ahol a böngésző korlátozza a kiterjesztések szkriptjeinek futtatását. Ez magában foglalja a kiterjesztés webáruházát, a böngésző beállítási oldalait és más kiterjesztési oldalakat."
+  },
+  "pDisableExp": {
+    "message": "Ez a korlátozás magából a böngészőből származik, a biztonsági kockázatok miatt."
+  },
+  "pDisableTry": {
+    "message": "Megnyithat egy új oldalt, és kipróbálhatja a rögzítési funkciót."
+  },
+  "pStart": {
+    "message": "Kezdés"
+  },
+  "pFileUrl": {
+    "message": "Lépjen a \"edge://extensions/\" oldalra, és jelölje be az \"Engedélyezze a fájl URL-ekhez való hozzáférést\" négyzetet."
+  },
+  "pCaptV": {
+    "message": "Képernyőkép rögzítése az oldal látható részeiről."
+  },
+  "pAsOne": {
+    "message": "Mentés egyetlen HTML fájlként."
+  },
+  "pDesktop": {
+    "message": "Képernyőképek rögzítése adott weboldalról, fülről, ablakról vagy az egész képernyőről."
+  },
+  "pCaptFull": {
+    "message": "Teljes oldal képernyőkép rögzítése."
+  },
+  "pDesableOpt": {
+    "message": "Vagy megpróbálhatja:"
+  },
+  "pAreaCut": {
+    "message": "Válasszon ki egy részt az oldalról, hogy képernyőképet készítsen."
+  },
+  "fullpageTooLarge": {
+    "message": "Figyelem: A böngésző nem tudja az egész oldalt egyetlen képként rögzíteni annak mérete miatt. Ehelyett <strong>$1</strong> különálló képre lesz felosztva."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Figyelmeztetés: Ez a kiterjesztés nem extrém nagy tartalom rögzítésére készült. Lehet, hogy nem tudja sikeresen befejezni ennek az oldalnak a rögzítését."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Extra engedély szükséges"
+  },
+  "framePermDesc": {
+    "message": "Ez az oldal egy beágyazott iframe-en keresztül jeleníti meg a tartalmat, ami további engedélyeket igényel a hozzáféréshez."
+  },
+  "WhatisIframe": {
+    "message": "Kattintson ide, hogy megtudja, mi az az iframe."
+  },
+  "framePermMore": {
+    "message": "Előfordulhat, hogy a párbeszédablak használata után újra kell indítani az kiegészítőt. A lemondás csak a látható képernyőt rögzíti."
+  },
+  "framePermConfirm": {
+    "message": "Engedélyezés"
+  },
+  "framePermSave": {
+    "message": "Mentse el ezt az engedélyt későbbi használatra (bármikor visszavonhatja)."
+  },
+  "error": {
+    "message": "Hiba"
+  },
+  "captureError": {
+    "message": "A rögzítés sikertelen, próbálja újra később. Ha a probléma továbbra is fennáll, kérjük, lépjen kapcsolatba a fejlesztővel: $1"
+  },
+  "btnOk": {
+    "message": "OK"
+  },
+  "btnCancel": {
+    "message": "Mégse"
+  },
+  "saveFramePermission": {
+    "message": "Engedélyezze a tartalom rögzítését minden iframe-ből"
+  },
+  "permissions": {
+    "message": "Engedélyek"
+  },
+  "saveframepDesc": {
+    "message": "Ez az engedély szükséges az iframe-ek vagy framesetek tartalmának rögzítéséhez egy oldalon. Ennek letiltása korlátozhatja egyes weboldalelemek rögzítését."
+  },
+  "processingScreenshot": {
+    "message": "Képernyőkép feldolgozása..."
+  },
+  "screenshotSaved": {
+    "message": "A képernyőkép elmentve a Letöltések mappába"
+  },
+  "screenshotLoadFailed": {
+    "message": "A képernyőkép betöltése sikertelen. Kérjük, próbálja újra."
+  },
+  "getScreenshotFailed": {
+    "message": "A képernyőkép rögzítése sikertelen. Kérjük, próbálja újra."
+  },
+  "processingAllAreas": {
+    "message": "Az összes terület képernyőképeinek feldolgozása..."
+  },
+  "allAreasSaved": {
+    "message": "$1 terület képernyőképei sikeresen elmentve"
+  },
+  "areaNotVisible": {
+    "message": "A kiválasztott terület szinte teljesen kívül esik a látható tartományon, nem rögzíthető."
+  },
+  "partiallyVisible": {
+    "message": "A terület egy része kívül esik a látható tartományon. A látható részt rögzítettük."
+  },
+  "partiallyVisibleArea": {
+    "message": "A kiválasztott terület egy része kívül esik a látható tartományon. A látható részt rögzítettük."
+  },
+  "areaOutOfView": {
+    "message": "A kiválasztott terület kívül esik a látható tartományon. Kérjük, görgessen az oldalra, hogy látható legyen a terület, majd próbálja újra."
+  },
+  "processingError": {
+    "message": "Hiba a képernyőkép feldolgozása közben: $1"
+  },
+  "saveFailed": {
+    "message": "A képernyőkép mentése sikertelen: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Okos képernyőkép mód engedélyezve. Kattintson egy elem kiválasztásához (Enter a megerősítéshez, Esc a megszakításhoz)."
+  },
+  "processing": {
+    "message": "Másolás feldolgozása..."
+  },
+  "copyFailed": {
+    "message": "Másolás sikertelen: $1"
+  },
+  "canvasContextError": {
+    "message": "Másolás sikertelen: Nem sikerült lekérni a vászon kontextust."
+  },
+  "copied": {
+    "message": "Vágólapra másolva"
+  },
+  "clipboardAccessDenied": {
+    "message": "Másolás sikertelen: Vágólaphoz való hozzáférés megtagadva, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Másolás sikertelen: A vágólap API nem támogatott"
+  },
+  "imageDataCreateFailed": {
+    "message": "Másolás sikertelen: Nem sikerült létrehozni a képadatokat"
+  },
+  "copyAreaOutOfView": {
+    "message": "Másolás sikertelen: A kiválasztott terület kívül esik a látható tartományon"
+  },
+  "imagePreviewShown": {
+    "message": "Képelőnézet megjelenítve. Jobb klikk a másoláshoz."
+  },
+  "escape": {
+    "message": "Mégse (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Képminőség beállítva erre: $1"
+  },
+  "qrDecoding": {
+    "message": "QR-kód dekódolása..."
+  },
+  "qrSuccess": {
+    "message": "QR-kód sikeresen dekódolva. Vágólapra másolva."
+  },
+  "qrNoQRFound": {
+    "message": "Érvényes QR-kód nem található"
+  },
+  "qrError": {
+    "message": "QR-kód dekódolási hiba: $1"
+  },
+  "saveArea": {
+    "message": "Terület mentése"
+  },
+  "copyToClipboard": {
+    "message": "Kiválasztás másolása (jelenleg kiválasztott)"
+  },
+  "saveAllAreas": {
+    "message": "Összes terület mentése"
+  },
+  "keepAndContinue": {
+    "message": "Új kiválasztás hozzáadása"
+  },
+  "cancel": {
+    "message": "Mégse"
+  },
+  "lockSize": {
+    "message": "Méret zárolása"
+  },
+  "lockSizeActive": {
+    "message": "✓ Méret zárolva"
+  },
+  "freeRatio": {
+    "message": "Szabad arány"
+  },
+  "ratioLabel": {
+    "message": "Arány kiválasztása"
+  },
+  "aiDialog": {
+    "message": "Okos párbeszéd"
+  },
+  "fileSizeEstimate": {
+    "message": "Kb. $1 $2"
+  },
+  "qrDecode": {
+    "message": "QR-kód dekódolása"
+  },
+  "removeBackground": {
+    "message": "Háttér eltávolítása"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Háttér eltávolítása folyamatban..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Háttér eltávolítása sikertelen: Kép betöltési hiba"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Háttér eltávolítása sikertelen: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Háttér eltávolítva és vágólapra másolva"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Háttér eltávolítása sikertelen: Nem sikerült létrehozni a Blobot"
+  },
+  "selectedAreaOutOfView": {
+    "message": "A kiválasztott terület kívül esik a látható tartományon"
+  },
+  "screenshotFailed": {
+    "message": "Képernyőkép sikertelen: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Képfeldolgozás sikertelen, kérjük próbálja újra"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "A képernyőkép területe kívül esik a látható tartományon"
+  },
+  "errorProcessingImage": {
+    "message": "Hiba a kép feldolgozása közben: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR-kód dekódoló könyvtár nincs betöltve"
+  },
+  "qrDecodingFailed": {
+    "message": "QR-kód dekódolás sikertelen: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "A kiválasztott területen nem található QR-kód"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR-kód sikeresen dekódolva: $1"
+  },
+  "qrDecodingError": {
+    "message": "QR-kód dekódolási hiba: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Háttér eltávolítás sikertelen: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Kérjük, először válasszon ki egy képernyőkép területet"
+  },
+  "aiDialogTitle": {
+    "message": "Intelligens beszélgetés a képernyőkép tartalmáról"
+  },
+  "qrDecodeTitle": {
+    "message": "QR-kód dekódolása a képernyőképen"
+  },
+  "lockSizeTitle": {
+    "message": "Jelenlegi méret zárolása folyamatos rögzítéshez"
+  },
+  "moveHint": {
+    "message": "Kiválasztási terület mozgatása (Space + húzás)"
+  },
+  "saveAreaTooltip": {
+    "message": "Jelenlegi terület mentése"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Az összes kiválasztott terület mentése"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Képernyőkép másolása a vágólapra"
+  },
+  "moreOptions": {
+    "message": "További opciók"
+  },
+  "removeBgTooltip": {
+    "message": "Háttér eltávolítása és másolása a vágólapra"
+  },
+  "ratioLabelTooltip": {
+    "message": "Képarány kiválasztása"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Jelenlegi kiválasztás megtartása és folytatás"
+  },
+  "pCaptureTabLabel": {
+    "message": "Képernyőkép"
+  },
+  "pAiToolsTabLabel": {
+    "message": "MI-eszközök"
+  },
+  "pCaptureTitle": {
+    "message": "Teljes oldalas és kijelölt képernyőterület képernyőképe"
+  },
+  "pAiToolsTitle": {
+    "message": "MI-vel kapcsolatos eszközök"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Webes tartalomexportáló eszközök"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Képeszközök"
+  },
+  "pDownloadAsMD": {
+    "message": "Letöltés Markdown-ként"
+  },
+  "pDownloadAsPDF": {
+    "message": "Letöltés PDF-ként"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Töltse le a jelenlegi weboldalt Markdown-fájlként"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Töltse le a jelenlegi weboldalt PDF-fájlként"
+  },
+  "pImageProcessing": {
+    "message": "Képfeldolgozás"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Képfeldolgozási eszközök gyűjteménye"
+  },
+  "fixThePage": {
+    "message": "Javítsa ki az oldalt"
+  },
+  "expandScrollableOn": {
+    "message": "Görgethető területek kibontása"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Engedélyezze a görgethető területek kibontását a weboldalon a képernyőkép készítése előtt"
+  },
+  "hideFixedOn": {
+    "message": "Fix pozíciójú elemek elrejtése"
+  },
+  "hideFixedOnDesc": {
+    "message": "Engedélyezze a rögzítést zavaró, fix pozíciójú elemek elrejtését"
+  },
+  "preScrollOn": {
+    "message": "A weboldal előgörgetése"
+  },
+  "preScrollOnDesc": {
+    "message": "Sok webes elem (pl. képek) csak görgetéskor töltődik be. Ha engedélyezve van, automatikusan észleli és a lap aljára görget a képernyőkép készítése előtt."
+  },
+  "canBeDisabled": {
+    "message": "letiltható a beállítások oldalon"
+  },
+  "analyzingPageForHTML": {
+    "message": "A weboldal kódjának és tartalmának elemzése, az összetett oldalak tovább tarthatnak. Ha túl sokáig tart, frissítse a weboldalt, és próbálja újra."
+  },
+  "drawerSettings": {
+    "message": "Beállítások"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Képernyőkép-előzmények"
+  },
+  "drawerImageTools": {
+    "message": "Képernyőkép-javító eszközök"
+  },
+  "drawerHelpFeedback": {
+    "message": "GYIK és visszajelzés"
+  },
+  "drawerCloseMenu": {
+    "message": "Menü bezárása"
+  },
+  "logoTooltip": {
+    "message": "Továbbiak megtekintése"
+  },
+  "pRecorderTabLabel": {
+    "message": "Képernyőfelvétel"
+  },
+  "pRecorderTitle": {
+    "message": "Képernyőfelvétel"
+  },
+  "pStartRecorder": {
+    "message": "Képernyőfelvétel indítása"
+  },
+  "pStartRecorderLabel": {
+    "message": "Képernyőfelvétel"
+  },
+  "pRecorderAlt": {
+    "message": "Felvétel"
+  },
+  "pStartRecorderAlt": {
+    "message": "Képernyőfelvétel"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Ez egy béta verzió"
+  },
+  "pRecorderFeedback": {
+    "message": "Visszajelzés küldése"
+  },
+  "downloadsPermission": {
+    "message": "Fájl letöltések engedélyezése"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Ez az engedély szükséges a képernyőképek közvetlenül a számítógépére való mentéséhez."
+  },
+  "webNavigationPermission": {
+    "message": "Webes navigációs hozzáférés engedélyezése"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Ez az engedély szükséges a lapváltozások észleléséhez és szükség esetén különböző oldalakra való navigáláshoz."
+  },
+  "desktopCapturePermission": {
+    "message": "Asztal rögzítésének engedélyezése"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Ez az engedély szükséges az asztaláról vagy meghatározott ablakokról származó tartalom rögzítéséhez."
+  },
+  "tabsPermission": {
+    "message": "Lapokhoz való hozzáférés engedélyezése"
+  },
+  "tabsPermissionDesc": {
+    "message": "Ez az engedély szükséges a böngészőlapok információinak eléréséhez és kezeléséhez."
+  },
+  "tabCapturePermission": {
+    "message": "Lap rögzítésének engedélyezése"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Ez az engedély szükséges a böngészőlapokról származó hang és videó rögzítéséhez."
+  },
+  "allUrlsPermission": {
+    "message": "Hozzáférés engedélyezése minden weboldalhoz"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Ez az engedély szükséges képernyőképek készítéséhez bármely weboldalról."
+  },
+  "fileUrlsPermission": {
+    "message": "Hozzáférés engedélyezése helyi fájlokhoz"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Ez az engedély szükséges képernyőképek készítéséhez helyi fájlokból (file:// URL-ek)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "A képek bekerüljenek-e a letöltésbe"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Ehhez a funkcióhoz CocoShot Pro szükséges"
+  },
+  "proUpgradeButton": {
+    "message": "Frissítés Pro verzióra"
+  },
+  "proSaveRestricted": {
+    "message": "A tartalom mentéséhez CocoShot Pro szükséges"
+  },
+  "qv_title": {
+    "message": "CocoShot előnézet"
+  },
+  "qv_preview_mode": {
+    "message": "Előnézeti mód"
+  },
+  "qv_screenshot_preview": {
+    "message": "Képernyőkép előnézete"
+  },
+  "qv_download": {
+    "message": "Letöltés"
+  },
+  "qv_edit": {
+    "message": "Jegyzetelés, szerkesztés (PDF-be is exportálható)"
+  },
+  "qv_hint": {
+    "message": "A tapasztalt felhasználók automatikusan átugorják ezt az oldalt, és a szerkesztőbe lépnek."
+  },
+  "recordTab": {
+    "message": "Felvétel",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Videóid",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Képernyő",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Fül",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Csak kamera",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Mockup",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Egyéni terület felvétele letiltva",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Frissítsd a Chrome-ot 110+ verzióra",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Frissítés",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Ellenőrizd az engedélyeket",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "A CocoShot parece que no puede acceder a tu cámara o micrófono. Para solucionar este problema, desbloquéalo en la configuración de tu navegador y concede los permisos necesarios.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Elutasítás",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Kamera-hozzáférés engedélyezése",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Mikrofon-hozzáférés engedélyezése",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Nyomd meg a beszédhez",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Felvételi terület beállítása",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Kamera megfordítása",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Háttéreffektusok",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Felvétel indítása",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Felvétel indítása...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Válassz kamerát",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "További lehetőségek",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Rendszerhang",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Eszköztár elrejtése",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Visszaszámlálás",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Időkorlát beállítása",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Elmosás",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Nincs",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Nincs kamera",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Nincs mikrofon",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Forrás kiválasztása",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Ki",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Szélesség",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Magasság",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Kattints a kép elhelyezéséhez",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Felvétel befejezése",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Felvétel újraindítása",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Felvétel szüneteltetése",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Felvétel folytatása",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Felvétel lemondása",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Rajzeszközök be/ki",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Elmosó eszköz be/ki",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Kurzorbeállítások be/ki",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Kamera letiltása",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Kamera engedélyezése",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Nincs kamera-engedély",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Kamerabeállítások",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Kamera tükrözése",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Háttér elmosása",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Mikrofon letiltása",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Mikrofon engedélyezése",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Nincs mikrofon-engedély",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Eszköz kiválasztása",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Toll eszköz",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Kiemelő eszköz",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Radír eszköz",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Szöveg eszköz",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Alakzat eszköz",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Nyíl eszköz",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Kép eszköz",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Visszavonás",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Újra",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Vászon törlése",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "További színek",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Vastag vonal",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Közepes vonal",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Vékony vonal",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Kép a képben mód be/ki",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Kitöltés be/ki",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Rajzolási mód",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Elmosási mód",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Az összes elmosott elem törlése",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Kattintások kiemelése",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Kurzor kiemelése",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Kurzor reflektorfény",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Ne jelenjen meg újra",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Felvétel újraindítása?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Az aktuális folyamat el fog veszni.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Újraindítás",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Folytatás",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Felvétel elvetése?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Az aktuális folyamat el fog veszni.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Elvetés",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Folytatás",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "A felvételed itt lesz elmentve",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Felvétel...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Tartsd nyitva ezt a fület. Bezáródik, amikor a felvétel el lesz mentve.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Felvétel előkészítése...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Tartsd nyitva ezt a fület. Frissülni fog a felvétellel, amikor elkészül.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Szerkesztő",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Mégse",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Visszaállítás az eredetire",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Visszaállítás",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Módosítások mentése",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Mentés...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Húzd ide az audio fájlt",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Vagy kattints a böngészéshez",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Beállítások",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Hangerő",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Frissítés",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Levágás",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Szélesség",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Magasság",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Bal",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Felső",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Húzd a fogantyúkat és használd a bal oldali gombokat a kiválasztott szakasz szerkesztéséhez.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Vágás",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Vágás...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Szakasz kivágása",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Kivágás...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Némítás",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Némítás...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Tudj meg többet.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Visszavonás",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Újra",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Írj értékelést, segít!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Jelenleg offline vagy",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Néhány funkció nem elérhető, amíg újra nem csatlakozol",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Próbáld újra",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "A Chrome-ot frissíteni kell",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Frissítsd a további funkciók eléréséhez",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Tudj meg többet",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "A videó túl hosszú a készüléken történő feldolgozáshoz",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "A szerkesztés és az MP4 export nem elérhető",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "A videó helyileg feldolgozás alatt...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Tudj meg többet a gyorsabb felhő verzióról",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Szerkesztés",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Nincs kapcsolat",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Nem elérhető",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Videó szerkesztése",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Vágás, kivágás vagy némítás",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Videó előkészítése, kérlek várj...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Levágás",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Videó levágása és átméretezése",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Hang hozzáadása",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Töltsd fel a saját hanganyagodat a videóhoz",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Mentés",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Kijelentkezés a Google Drive-ból",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Mentés...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Mentés a Google Drive-ra",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Az aktuális verzió mentése a Google Drive-ra",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Jelentkezz be és ments a Google Drive-ra",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Letöltés...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Letöltés .webm-ként",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": ".webm videó exportálása",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Letöltés .mp4-ként",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": ".mp4 videó exportálása (ajánlott)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Letöltés .gif-ként",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "GIF exportálása (max. 30 másodperc)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Meglévő hang cseréje",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Nagyítás a kurzorhoz",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Maradj az oldalon felvétel közben",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Mikrofon kikapcsolva figyelmeztetés",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Súgó",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "A felvétel szüneteltetve. Nyomd meg a lejátszás gombot a folytatáshoz.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "A CocoShot-nak nincs engedélye a képernyőd felvételére",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "A képernyőfelvétel működéséhez engedélyezned kell a CocoShot-nak, hogy rögzítse a képernyődet, amikor megjelenik az engedélykérés. (Bármikor visszavonhatod a bővítmény beállításaiban.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Képernyőfelvétel engedélyezése",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Mégse",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "A mikrofonod némítva van",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Ha szeretnéd, hogy a hangod benne legyen a felvételen, be kell kapcsolnod a mikrofont. Szeretnéd folytatni a felvételt hang nélkül?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Igen, folytatás",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Mégse",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Lazíts. Kattints bárhová a visszaszámlálás leállításához.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "A szerkesztés pontatlan lehet rövid időtartományoknál a keretek közötti intervallumok miatt.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "A videó feldolgozás alatt áll, a lejátszás pontatlan vagy megszakított lehet.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "A levágás eltarthat egy ideig",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Frissítsd a gyorsabb feldolgozásért",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Mikrofon engedélyezve",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Mikrofon letiltva",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "A felvétel 3 másodpercnél rövidebb volt, ezért nem lett elmentve.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Felületi értesítések elrejtése",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Ne jelenjen meg újra",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Eszköztár elrejtése, ha nincs használatban",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Felvétel indítása",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Felvétel leállítása",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Üdvözöljük az új CocoShot-ban!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Tudj meg többet a frissítésről.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Kezdj hozzá",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Hiba a felvétel indításakor",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Hiba történt a felvételi folyamat indításakor. Kérlek, indítsd újra a böngészőt és próbáld újra. Ha a probléma folytatódik, fordulj hozzánk a support@cocoshot.net címen.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Legjobb minőség",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Utolsó videó felvétel visszaállítása",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Problémáid vannak?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Nem látod a felvételed?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Ha befejezted a felvételt, de nem látod a videódat ezen az oldalon, megpróbálhatsz letölteni nyers videó adatokat, ha léteznek. Alternatívaként kapcsolatba léphetsz velünk hibajelentéssel.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Nyers videó adatok letöltése",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Hiba jelentése",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Nem található felvétel, sajnáljuk :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Memóriakorlát elérve",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "A készülékednek nincs elég memóriája a felvételhez, ezért a munkamenet automatikusan véget ér. Hosszabb videók felvételéhez csökkentsd a videó minőségét vagy szabadíts fel tárhelyet a készüléken.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Értem",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Nincs elég hely",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "A CocoShot-nak legalább 1 GB szabad helyre van szüksége a felvételhez. Szabadíts fel helyet és próbáld újra.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Előző felvételek törlése",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Speciális",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Nyers videófájl letöltése",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Eredeti felvételi adatok exportálása",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Segítség a felvétellel",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Videó helyreállítása és egyéb problémák megoldása",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Nyers videófájl letöltése",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "A nyers videófájl a CocoShot által közvetlenül készített módosítás nélküli felvételre utal. Mivel ez a fájl nincs feldolgozva vagy szerkesztve, elég nagy lehet és nem kompatibilis néhány eszközzel. Ha problémákat észlelsz a feldolgozott verzióval, használd ezt a fájlt az eredeti felvétel visszanyeréséhez.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Letöltés",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Audio hullámforma megjelenítése",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Rendszerinformációk és videó adatok letöltése és küldése hibaelhárításhoz",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Miután letöltötted a fájlt, kérlek küldd el a support@cocoshot.net címre bármilyen további részletekkel, amelyek hasznosak lehetnek. Ezeket az információkat használjuk a bővítmény problémáinak megoldásához és a videód visszanyeréséhez, ha lehetséges.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Letöltés",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "A videó túl hosszú a készüléken történő feldolgozáshoz",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Mivel a CocoShot a adatvédelmet helyezi előtérbe és teljesen a helyi eszközödön működik, a hardvered korlátaihoz van kötve. Egy ilyen hosszúságú videó kezelése túlzottan időigényes lenne és jelentős rendszererőforrásokat igényel. A WEBM fájlt vagy a nyers felvételt továbbra is megszerezheted, bár a szerkesztési funkciók és az MP4 export nem lesznek elérhetők. Ha however tudatában vagy a lehetséges kihívásoknak, folytathatod a videó feldolgozását.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Megértem a kockázatot, próbáljuk meg",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Tudj meg többet a hosszú videók feldolgozásáról.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Helyreállítási mód",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Adatok letöltése hibaelhárításhoz",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Súgóközpont",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Számítógép hang felvétele",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Ezen az oldalon lévő hang felvételéhez át kell váltanod a „$tab$” lehetőségre.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "A bővítmény nem támogatott ezen a fülön",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "A CocoShot nem kompatibilis a füllel, amelyet most használtál. Még mindig kezdeményezhetsz felvételt erről az oldalról, majd visszatérhetsz arra a fülre, de kérlek vedd figyelembe, hogy a kamerád és a szerkesztő eszköztár nem jelenik meg.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Helyi biztonsági másolat beállítása a CocoShot felvételeidhez",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Tartsd meg minden felvétel másolatát. A biztonsági másolatok beállítása nélkül a felvételeid csak akkor lesznek elmentve, amikor explicit módon letöltésre választod őket.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Ha a Letöltések vagy más rendszermappákba próbálsz menteni, előtte létre kell hoznod egy új mappát.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Mappa kiválasztása",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Most nem",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " A felvételeid helyileg biztonsági másolatban vannak",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Ahhoz, hogy ne kérjen engedélyt minden felvételnél, javasoljuk, hogy hagy nyitva ezt a fület.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Fül bezárása így is",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Minden felvétel biztonsági másolásának leállítása",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Kérjük, erősítsd meg a hozzáférést a helyi CocoShot biztonsági másolat mappához",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Sajnáljuk, de ismét szükségünk van az engedélyedre, hogy folytathassuk a felvételeid biztonsági másolását. Sajnos minden alkalommal kérnünk kell ezt az engedélyt, amikor ez a fül bezárul, ami történhet a böngésző leállításakor vagy a számítógép újraindításakor.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Engedélyezd a CocoShot-nak, hogy folytassa a felvételek biztonsági másolását",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Felvételek biztonsági másolása",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Nem kapott engedélyt a felvétel biztonsági másolására",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Nem választottál mappát a felvételi biztonsági másolatok tárolásához. A böngésző verziójától vagy operációs rendszertől függően előfordulhat, hogy minden felvétel indításakor megkérjük a mappa kiválasztására. Megpróbálhatod újra a beállítási folyamatot, vagy kikapcsolhatod a biztonsági másolást, ha nem akarod repeatedly engedélyeket adni.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Számítógép hang felvétele",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "macOS rendszereken egyedi fülek hangjának felvételére vagy korlátozva. Válaszd a Chrome Fül felvételi opciót és ellenőrizd, hogy a 'Fül hang megosztása' beállítás be van kapcsolva.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Számítógép hang felvétele",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Ha szeretnéd rögzíteni a számítógéped hangját, győződj meg róla, hogy a 'Rendszerhang megosztása' opció aktiválva van. Ha ez az opció nem látható, fontolj meg egy Chrome frissítést vagy váltást a fül felvételi módra.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Max felbontás",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Max FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Nincs elég RAM",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Ablak átméretezése",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "A képernyő túl kicsi ehhez a felbontáshoz",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Nem lehet felvenni ezzel a felbontással a készülékeden",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Engedély megtagadva",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "A felvételhez kamera és mikrofon engedélyek szükségesek. Kérj engedélyeket a böngésző beállításaiban.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "A felvételhez kamera engedély szükséges. Kérj engedélyt a böngésző beállításaiban.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "A felvételhez mikrofon engedély szükséges. Kérj engedélyt a böngésző beállításaiban.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Engedélyek javítása",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Képernyőfelvételi beállítások",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "ó",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "p",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "mp",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Kamera engedély kérése...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Mikrofon engedély kérése...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Kamera engedély kérése",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Mikrofon engedély kérése",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Engedélyek áttekintése",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Beállítások testreszabása",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Felvett videók",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Még nincs felvett videó",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Nyomd a némításhoz",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Szükségünk van az engedélyedre a kamerád eléréséhez",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Szükségünk van az engedélyedre a mikrofonod eléréséhez",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Áttekintés",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Színválasztó",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Bezárás",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Szín kiválasztása a képernyőről",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "Az EyeDropper API nem támogatott ebben a böngészőben. Kérjük, használj modern böngészőt, mint a Chrome 95+ vagy az Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Elmosandó régió kiválasztása",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Minden elmosott régió törlése",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Vonalszélesség",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Vékony",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Közepes",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Vastag",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Extra vastag",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot Felvételek",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "A helyi biztonsági másolat beállítása sikertelen. Fordulj hozzánk a $supportEmail$ címen további segítségért. Még mindig felveheted a képernyőt.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "A böngésződ nem támogatja a helyi biztonsági másolatokat. Fordulj hozzánk a $supportEmail$ címen további segítségért. Még mindig felveheted a képernyőt.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "A nagyítás kurzorhoz használata",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Felvétel közben tartsd lenyomva a billentyűparancsot a nagyításhoz a kurzor pozíciója felé. Engedd fel a billentyűket a kicsinyítéshez. Ez nagyszerű a képernyő specifikus területeinek kiemelésére a felvétel során.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Rendben!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Régió mérete",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Előbeállítások",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Visszaállítás",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Nincs",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Elmosás",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Kép",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Először tölts be egy videófájlt",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Letöltés WebM-ként",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Letöltés MP4-ként",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Átalakítás...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Darabok feldolgozása:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "A videó mérete meghaladja az ajánlott korlátot (max. 1GB), ami feldolgozási hibát okozhat",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Nagy videót (1GB) töltöttél be. A feldolgozás sokáig tarthat. Folytatod?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Nem támogatott videó formátum. Próbálj meg egy másik videó formátumot.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "A letöltés sikertelen. Próbáld újra.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4 átalakítás nem elérhető",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Ez a videó túl nagy az MP4-re átalakításhoz a böngészőben. Kérjük, töltsd le WebM-ként helyette.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Átalakítás MP4-re...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "A videó letöltése sikertelen. Próbáld újra.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "videó szerkesztése",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Hamarosan.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Videó előnézet",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Írás a tárhelyre...",
+    "description": "Message shown when writing video to storage"
+  }
+}

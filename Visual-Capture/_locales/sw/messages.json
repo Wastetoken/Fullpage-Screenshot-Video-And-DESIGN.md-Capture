@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Picha ya skrini na Rekoda ya Skrini"
+  },
+  "extDescription": {
+    "message": "Piga picha za skrini nzima na urekodi skrini kwa MP4 yenye maelezo. Uhamishaji wa PDF na viungo vinavyobofya umejumuishwa."
+  },
+  "pDisable": {
+    "message": "Imekataliwa kwenye ukurasa huu"
+  },
+  "pDisableDesc": {
+    "message": "Unaweza kutumia hii kwenye ukurasa wowote, isipokuwa zile ambapo kivinjari kinazuia nyongeza kutekeleza scripts. Hii inajumuisha tovuti za nyongeza, kurasa za mipangilio ya kivinjari, na kurasa za nyongeza nyingine."
+  },
+  "pDisableExp": {
+    "message": "Kikwazo hiki kinatokana na kivinjari yenyewe kwa sababu ya hatari za usalama."
+  },
+  "pDisableTry": {
+    "message": "Unaweza kufungua ukurasa mpya na kujaribu kazi ya kunasa."
+  },
+  "pStart": {
+    "message": "Anza"
+  },
+  "pFileUrl": {
+    "message": "Nenda kwa \"edge://extensions/\", kisha angalia kisanduku \"Ruhusu ufikiaji wa URL za faili\"."
+  },
+  "pCaptV": {
+    "message": "Kunasa picha ya sehemu zinazonekana za ukurasa."
+  },
+  "pAsOne": {
+    "message": "Hifadhi kama faili moja ya HTML."
+  },
+  "pDesktop": {
+    "message": "Kunasa picha za skrini za ukurasa fulani, tab, dirisha, au skrini nzima."
+  },
+  "pCaptFull": {
+    "message": "Kunasa picha ya skrini ya ukurasa mzima."
+  },
+  "pDesableOpt": {
+    "message": "Au unaweza kujaribu:"
+  },
+  "pAreaCut": {
+    "message": "Chagua sehemu ya ukurasa ili kunasa picha ya skrini"
+  },
+  "fullpageTooLarge": {
+    "message": "Angalizo: Kivinjari hakiwezi kunasa ukurasa mzima kama picha moja kutokana na ukubwa wake. Badala yake, itagawanywa katika <strong>$1</strong> picha tofauti."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Tahadhari: Kiendelezi hiki hakikusudiwi kunasa maudhui makubwa sana. Huenda kisikamilishe kunasa ukurasa huu kwa mafanikio."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Ruhusa ya Ziada Inahitajika"
+  },
+  "framePermDesc": {
+    "message": "Tovuti hii inaonyesha maudhui kupitia iframe iliyopachikwa, ambayo inahitaji ruhusa ya ziada kufikiwa."
+  },
+  "WhatisIframe": {
+    "message": "Bofya kujifunza iframe ni nini."
+  },
+  "framePermMore": {
+    "message": "Huenda ukahitaji kuanzisha tena kiendelezi baada ya kutumia kisanduku hiki. Ukighairi, utakamata tu skrini inayoonekana."
+  },
+  "framePermConfirm": {
+    "message": "Ruhusu"
+  },
+  "framePermSave": {
+    "message": "Hifadhi ruhusa hii kwa matumizi ya baadaye (Unaweza kuiondoa wakati wowote)."
+  },
+  "error": {
+    "message": "Hitilafu"
+  },
+  "captureError": {
+    "message": "Imeshindikana kunasa, tafadhali jaribu tena baadaye. Ikiwa tatizo litaendelea, tafadhali wasiliana na msanidi programu kwa $1"
+  },
+  "btnOk": {
+    "message": "Sawa"
+  },
+  "btnCancel": {
+    "message": "Ghairi"
+  },
+  "saveFramePermission": {
+    "message": "Ruhusu kunasa maudhui kutoka kwa fremu zote"
+  },
+  "permissions": {
+    "message": "Ruhusa"
+  },
+  "saveframepDesc": {
+    "message": "Ruhusa hii inahitajika ili kunasa maudhui kutoka kwa iframe au frameset kwenye ukurasa. Kuzima hii kunaweza kuzuia uwezo wa kunasa baadhi ya vipengele vya ukurasa wa wavuti."
+  },
+  "processingScreenshot": {
+    "message": "Inaprocessi picha ya skrini..."
+  },
+  "screenshotSaved": {
+    "message": "Picha ya skrini imehifadhiwa kwenye folda ya Pakuliwa"
+  },
+  "screenshotLoadFailed": {
+    "message": "Imeshindikana kupakia picha ya skrini. Tafadhali jaribu tena."
+  },
+  "getScreenshotFailed": {
+    "message": "Imeshindikana kunasa picha ya skrini. Tafadhali jaribu tena."
+  },
+  "processingAllAreas": {
+    "message": "Inaprocessi picha za skrini za maeneo yote..."
+  },
+  "allAreasSaved": {
+    "message": "Picha za skrini za maeneo $1 zimehifadhiwa kwa mafanikio"
+  },
+  "areaNotVisible": {
+    "message": "Eneo lililochaguliwa karibu kabisa halionekani na haliwezi kunaswa."
+  },
+  "partiallyVisible": {
+    "message": "Sehemu ya eneo iko nje ya mwonekano. Sehemu inayoweza kuonekana imenaswa."
+  },
+  "partiallyVisibleArea": {
+    "message": "Sehemu ya eneo lililochaguliwa iko nje ya mwonekano. Sehemu inayoweza kuonekana imenaswa."
+  },
+  "areaOutOfView": {
+    "message": "Eneo lililochaguliwa liko nje ya mwonekano. Tafadhali shuka ukurasa kufanya eneo lionekane kisha jaribu tena."
+  },
+  "processingError": {
+    "message": "Hitilafu katika kuprocess picha ya skrini: $1"
+  },
+  "saveFailed": {
+    "message": "Imeshindikana kuhifadhi picha ya skrini: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Hali ya picha ya skrini ya akili imewashwa. Bonyeza kuchagua kipengele cha kunasa (Ingiza kuthibitisha, Esc kughairi)."
+  },
+  "processing": {
+    "message": "Inaprocessi kunakili..."
+  },
+  "copyFailed": {
+    "message": "Kunakili kmeshindikana: $1"
+  },
+  "canvasContextError": {
+    "message": "Kunakili kmeshindikana: Haiwezi kupata muktadha wa Canvas."
+  },
+  "copied": {
+    "message": "Imenakiliwa kwenye ubao wa kunakili"
+  },
+  "clipboardAccessDenied": {
+    "message": "Kunakili kmeshindikana: Ruhusa ya ubao wa kunakili imekataliwa, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Kunakili kmeshindikana: API ya ubao wa kunakili haitegemezwi"
+  },
+  "imageDataCreateFailed": {
+    "message": "Kunakili kmeshindikana: Haiwezi kuunda data ya picha"
+  },
+  "copyAreaOutOfView": {
+    "message": "Kunakili kmeshindikana: Eneo lililochaguliwa liko nje ya mwonekano"
+  },
+  "imagePreviewShown": {
+    "message": "Muonekano wa picha umeonyeshwa. Bonyeza kitufe cha kulia kunakili."
+  },
+  "escape": {
+    "message": "Ghairi (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Ubora wa picha umewekwa: $1"
+  },
+  "qrDecoding": {
+    "message": "Inatafsiri msimbo wa QR..."
+  },
+  "qrSuccess": {
+    "message": "Msimbo wa QR umefanikiwa kutafsiriwa. Umenakiliwa kwenye ubao wa kunakili."
+  },
+  "qrNoQRFound": {
+    "message": "Hakuna msimbo halali wa QR ulioonekana"
+  },
+  "qrError": {
+    "message": "Kosa katika kutafsiri msimbo wa QR: $1"
+  },
+  "saveArea": {
+    "message": "Hifadhi eneo hili"
+  },
+  "copyToClipboard": {
+    "message": "Nakili chaguo hili (kilichochaguliwa sasa)"
+  },
+  "saveAllAreas": {
+    "message": "Hifadhi maeneo yote"
+  },
+  "keepAndContinue": {
+    "message": "Ongeza chaguo jipya"
+  },
+  "cancel": {
+    "message": "Ghairi"
+  },
+  "lockSize": {
+    "message": "Funga ukubwa"
+  },
+  "lockSizeActive": {
+    "message": "✓ Funga ukubwa"
+  },
+  "freeRatio": {
+    "message": "Uwiano huru"
+  },
+  "ratioLabel": {
+    "message": "Chagua uwiano"
+  },
+  "aiDialog": {
+    "message": "Mjadala wa akili"
+  },
+  "fileSizeEstimate": {
+    "message": "Takriban $1 $2"
+  },
+  "qrDecode": {
+    "message": "Tafsiri msimbo wa QR"
+  },
+  "removeBackground": {
+    "message": "Ondoa nyuma"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Inaondoa nyuma..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Uondoaji wa nyuma umeshindwa: Hitilafu ya kupakia picha"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Uondoaji wa nyuma umeshindwa: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Nyuma imeondolewa na kuandikwa kwenye ubao wa kunakili"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Uondoaji wa nyuma umeshindwa: Haiwezi kuunda Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Eneo lililochaguliwa liko nje ya mwonekano"
+  },
+  "screenshotFailed": {
+    "message": "Picha ya skrini imeshindikana: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Kuprocess picha kmeshindikana, tafadhali jaribu tena"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Eneo la picha ya skrini liko nje ya mwonekano"
+  },
+  "errorProcessingImage": {
+    "message": "Hitilafu katika kuprocess picha: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "Maktaba ya kutafsiri msimbo wa QR haijapakiwa"
+  },
+  "qrDecodingFailed": {
+    "message": "Kutafsiri msimbo wa QR kmeshindikana: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "Hakuna msimbo wa QR uliopatikana kwenye eneo lililochaguliwa"
+  },
+  "qrDecodingSuccess": {
+    "message": "Msimbo wa QR umefanikiwa kutafsiriwa: $1"
+  },
+  "qrDecodingError": {
+    "message": "Hitilafu katika kutafsiri msimbo wa QR: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Uondoaji wa nyuma umeshindwa: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Tafadhali chagua eneo la picha ya skrini kwanza"
+  },
+  "aiDialogTitle": {
+    "message": "Fanya mazungumzo ya akili kuhusu yaliyomo kwenye picha ya skrini"
+  },
+  "qrDecodeTitle": {
+    "message": "Tafsiri msimbo wa QR kwenye picha ya skrini"
+  },
+  "lockSizeTitle": {
+    "message": "Funga ukubwa wa sasa kwa kunasa mfululizo"
+  },
+  "moveHint": {
+    "message": "Vuta eneo la uchaguzi (Space + vuta)"
+  },
+  "saveAreaTooltip": {
+    "message": "Hifadhi eneo la sasa"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Hifadhi maeneo yote yaliyochaguliwa"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Nakili picha ya skrini kwenye ubao wa kunakili"
+  },
+  "moreOptions": {
+    "message": "Chaguzi zaidi"
+  },
+  "removeBgTooltip": {
+    "message": "Ondoa nyuma na nakili kwenye ubao wa kunakili"
+  },
+  "ratioLabelTooltip": {
+    "message": "Chagua uwiano wa pembetatu"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Hifadhi chaguo la sasa na endelea"
+  },
+  "pCaptureTabLabel": {
+    "message": "Picha ya skrini"
+  },
+  "pAiToolsTabLabel": {
+    "message": "Zana za AI"
+  },
+  "pCaptureTitle": {
+    "message": "Picha ya skrini ya ukurasa mzima na eneo la skrini lililochaguliwa"
+  },
+  "pAiToolsTitle": {
+    "message": "Zana zinazohusiana na AI"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Zana za Kuhamisha Maudhui ya Wavuti"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Zana za Picha"
+  },
+  "pDownloadAsMD": {
+    "message": "Pakua kama Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Pakua kama PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Pakua ukurasa wa sasa wa wavuti kama faili ya Markdown"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Pakua ukurasa wa sasa wa wavuti kama faili ya PDF"
+  },
+  "pImageProcessing": {
+    "message": "Usindikaji wa picha"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Mkusanyiko wa zana za usindikaji wa picha"
+  },
+  "fixThePage": {
+    "message": "Rekebisha ukurasa"
+  },
+  "expandScrollableOn": {
+    "message": "Panua maeneo yanayoweza kusogezwa"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Washa ili kupanua maeneo yanayoweza kusogezwa ndani ya ukurasa wa wavuti kabla ya kupiga picha ya skrini"
+  },
+  "hideFixedOn": {
+    "message": "Ficha vipengee vya msimamo usiobadilika"
+  },
+  "hideFixedOnDesc": {
+    "message": "Washa ili kuficha vipengee vya msimamo usiobadilika ambavyo vinaweza kuingilia kunasa"
+  },
+  "preScrollOn": {
+    "message": "Inapakia ukurasa wa wavuti kwa kusogeza awali"
+  },
+  "preScrollOnDesc": {
+    "message": "Vipengee vingi vya wavuti (k.m., picha) hupakia tu unapovinjari. Inapowashwa, hugundua na kusogeza kiotomatiki hadi chini ya ukurasa kabla ya kupiga picha ya skrini."
+  },
+  "canBeDisabled": {
+    "message": "inaweza kuzimwa kupitia ukurasa wa mipangilio"
+  },
+  "analyzingPageForHTML": {
+    "message": "Inachanganua msimbo na maudhui ya ukurasa wa wavuti, kurasa changamano zinaweza kuchukua muda mrefu. Ikiwa itachukua muda mrefu sana, tafadhali onyesha upya ukurasa wa wavuti na ujaribu tena."
+  },
+  "drawerSettings": {
+    "message": "Mipangilio"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Historia ya Picha za Skrini"
+  },
+  "drawerImageTools": {
+    "message": "Zana za Kuboresha Picha za Skrini"
+  },
+  "drawerHelpFeedback": {
+    "message": "Maswali Yanayoulizwa Mara kwa Mara na Maoni"
+  },
+  "drawerCloseMenu": {
+    "message": "Funga Menyu hii"
+  },
+  "logoTooltip": {
+    "message": "Tazama Zaidi"
+  },
+  "pRecorderTabLabel": {
+    "message": "Kirekoda ya skrini"
+  },
+  "pRecorderTitle": {
+    "message": "Kirekoda ya skrini"
+  },
+  "pStartRecorder": {
+    "message": "Anza kurekoda skrini"
+  },
+  "pStartRecorderLabel": {
+    "message": "Kurekoda skrini"
+  },
+  "pRecorderAlt": {
+    "message": "Kirekoda"
+  },
+  "pStartRecorderAlt": {
+    "message": "Kirekoda ya skrini"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Hii ni toleo la beta"
+  },
+  "pRecorderFeedback": {
+    "message": "Toa Maoni"
+  },
+  "downloadsPermission": {
+    "message": "Ruhusu upakuaji wa faili"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Ruhusa hii inahitajika ili kuhifadhi picha za skrini moja kwa moja kwenye kompyuta yako."
+  },
+  "webNavigationPermission": {
+    "message": "Ruhusu ufikiaji wa urambazaji wa wavuti"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Ruhusa hii inahitajika ili kugundua mabadiliko ya ukurasa na kurambaza katika kurasa tofauti wakati unahitaji."
+  },
+  "desktopCapturePermission": {
+    "message": "Ruhusu kuchukua desktop"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Ruhusa hii inahitajika ili kuchukua maudhui kutoka kwenye desktop yako au madirisha maalum."
+  },
+  "tabsPermission": {
+    "message": "Ruhusu ufikiaji wa vichupo"
+  },
+  "tabsPermissionDesc": {
+    "message": "Ruhusa hii inahitajika ili kufikia na kudhibiti taarifa za vichupo vya kivinjari."
+  },
+  "tabCapturePermission": {
+    "message": "Ruhusu kuchukua kichupo"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Ruhusa hii inahitajika ili kuchukua sauti na video kutoka kwenye vichupo vya kivinjari."
+  },
+  "allUrlsPermission": {
+    "message": "Ruhusu ufikiaji wa tovuti zote"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Ruhusa hii inahitajika ili kuchukua picha za skrini kutoka kwenye tovuti yoyote."
+  },
+  "fileUrlsPermission": {
+    "message": "Ruhusu ufikiaji wa faili za ndani"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Ruhusa hii inahitajika ili kuchukua picha za skrini kutoka kwenye faili za ndani (file:// URL)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Je, picha zitajumuishwa kwenye upakuaji"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Kipengele hiki kinahitaji CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "Boresha hadi Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Kuhifadhi maudhui haya kunahitaji CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "Onyesho la CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "Hali ya Onyesho"
+  },
+  "qv_screenshot_preview": {
+    "message": "Onyesho la Picha ya Skrini"
+  },
+  "qv_download": {
+    "message": "Pakua"
+  },
+  "qv_edit": {
+    "message": "Anatofautisha, Hariri (inaweza pia kuhamishwa kwenda PDF)"
+  },
+  "qv_hint": {
+    "message": "Watumiaji wenye uzoefu wataruka ukurasa huu kiotomatiki na kwenda kwenye mhariri."
+  },
+  "recordTab": {
+    "message": "Rekodi",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Video zako",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Skrini",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Kichupuli",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Kamera peke yako",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Muonekano",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Urekodi wa eneo maalum umezimwa",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Sasisha Chrome hadi toleo la 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Sasisha",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Angalia ruhusa zako",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot inaonekana haupate kupata kamera au mikrofoni yako. Ili kusahihisha tatizo hili, tafadhalizuia katika mipangilio ya kivinjari yako nautoa ruhusa zinazohitajika.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Funga",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Ruhusu upatikanaji wa kamera",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Ruhusu upatikanaji wa mikrofoni",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Bonyeza ili kusema",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Weka eneo la kurekodi",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Pindua kamera",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Madhara ya us背景",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Anza kurekodi",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Inaanzisha rekodi...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Chagua kamera",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Chaguo zaidi",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Sauti ya mfumo",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Funga upau wa zana",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Kuhesabu kwa nyuma",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Weka muda wa kikomo",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Fanya kitelezi",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Hakuna",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Hakuna kamera",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Hakuna mikrofoni",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Chagua chanzo",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Zima",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Upana",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Urefu",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Bonyeza ili kuweka picha",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Maliza kurekodi",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Anza upya kurekodi",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Sitisha kurekodi",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Endelea na kurekodi",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Ghairi kurekodi",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Badilisha zana za kuchora",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Badilisha zana ya kufanya kitelezi",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Badilisha chaguo za kielekezo",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Zima kamera",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Washa kamera",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Hakuna ruhusa za kamera",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Mipangilio ya kamera",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Kamera ya kioo",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Fanya kitelezi us背景",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Zima mikrofoni",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Washa mikrofoni",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Hakuna ruhusa za mikrofoni",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Chagua zana",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Zana ya kalamu",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Zana ya kuangaza",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Zana ya kufuta",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Zana ya maandishi",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Zana ya muundo",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Zana ya mishale",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Zana ya picha",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Fanya upya",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Rudia",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Futa meza",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Rangi zaidi",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Mstari mkubwa",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Mstari wa kati",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Mstari mwembamba",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Badilisha hali ya picha katika picha",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Badilisha ujazaji",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Hali ya kuchora",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Hali ya kufanya kitelezi",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Futa vipengele vyote vilivyofanywa kitelezi",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Kuangaza mbonyezo",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Kuangaza kielekezo",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Mwanga wa kielekezo",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Usionyeshe tena",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Anza upya kurekodi?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Maendeleo yako ya sasa yatapotea.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Anza upya",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Endelea",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Ondoa rekodi?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Maendeleo yako ya sasa yatapotea.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Ondoa",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Endelea",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Rekodi yako itahifadhiwa hapa",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Inarekodi...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Iacha kichupuli hiki wazi. Kitafungwa baada ya kuhifadhiwa rekodi yako.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Inaandaa rekodi...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Iacha kichupuli hiki wazi. Kitahusishwa na rekodi yako wakati tayari.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Hariri",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Ghairi",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Rudisha hadi ya asili",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Weka upya",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Hifadhi mabadiliko",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Inahifadhi...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Buruta na uangushe faili yako ya sauti",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Au bonyeza ili kupitia",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Mipangilio",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Sauti",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Sasisha",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Kunja",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Upana",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Urefu",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Kushoto",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Juu",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Buruta vitufe na utumie vitufe upande wa kushoto ili kuhariri sehemu iliyochaguliwa.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Kunja video",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Inakunja...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Kata sehemu",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Inakata...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Fanya sauti",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Inafanya sauti...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Pata maelezo zaidi.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Fanya upya",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Rudia",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Toa ukaguzi, inasaidia!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Uko offline",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Baadhi ya vipengele havipatikani hadi uunganishwe",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Jaribu tena",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome inahitaji kusasishwa",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Sasisha ili kupata vipengele zaidi",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Pata maelezo zaidi",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Video ndefu mno kushughulikiwa kwenye kifaa",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Uhariri na usafirishaji wa MP4 havipatikani",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Video inashughulikiwa ndani...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Jua kuhusu toleo la awali linaloharakati zaidi",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Hariri",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Hakuna uunganisho",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Haipatikani",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Hariri video",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Kunja, kata, au fanya sauti video",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Inaandaa video, tafadhali subiri...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Kunja",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Kunja na badilisha ukubwa wa video",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Ongeza sauti",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Pakia sauti yako mwenyewe ili kuiongeza kwenye video",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Hifadhi",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Ondoka kwenye Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Inahifadhi...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Hifadhi kwenye Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Hifadhi toleo la sasa kwenye Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Ingia na uhifadhi kwenye Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Inapakia...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Pakua kama .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Outa video ya .webm",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Pakua kama .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Outa video ya .mp4 (inapendekezwa)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Pakua kama .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Outa GIF (hadhi sekunde 30)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Badilisha sauti iliyopo",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Kuelekea kielekezo",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Baki kwenye ukurasa wakati wa kurekodi",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Mikrofoni imefungwa onyo",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Msaada",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Rekodi imesimama. Bonyeza kitufe cha kucheza ili kuendelea.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot haina ruhusa ya kurekodi skrini yako",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Ili kurekodi skrini ifanye kazi, utahitaji kuruhusu CocoShot kukamata skrini yako wakati ombi la ruhusa linapojitokeza.(Unaweza kuiondoa wakati wowote katika mipangilio ya kiungo.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Washa kurekodi skrini",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Ghairi",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Mikrofoni yako imefungwa",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Ikiwa unataka sauti yako ijumuishwe kwenye rekodi, utahitaji kuwasha mikrofoni yako. Je, ungependa kuendelea na rekodi bila sauti?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Ndiyo, endelea",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Ghairi",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Tulia. Bonyeza kila sehemu ili kusimamisha hesabu.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Mabadiliko yanaweza kuwa sahihi kwa masafa ya muda mfupi kutokana na vipindi kati ya frema.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Video inashughulikiwa, uchezaji unaweza kuwa sahihi au kuvunjika.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Kukunja kunaweza kuchukua muda mrefu",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Boresha kwa usindikaji wa haraka",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Mikrofoni imewashwa",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Mikrofoni imefungwa",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Rekodi ilikuwa chini ya sekunde 3 na haikuhifadhiwa.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Funga arifa za UI",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Usionyeshe tena",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Funga upau wa zana wakati hauitumiki",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Anza kurekodi",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Simamisha kurekodi",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Karibu kwenye CocoShot mpya!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Jua kuhusu sasisho hili.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Anza",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Kosa la kuanzisha rekodi",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Kosa lilitokea wakati wa kuanzisha mchakato wa rekodi. Tafadhali anza upya kivinjari yako na jaribu tena. Tatizo likiendelea, wasiliana nasi support@cocoshot.net kwa msaada zaidi.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Ubora wa juu zaidi",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Rudisha rekodi ya video ya mwisho",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Una matatizo?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Huoni rekodi yako?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Umekamilisha kurekodi lakini huoni video yako kwenye ukurasa huu, unaweza kupakua data ya video ghafi ikiipo. Vinginevyo, unaweza kuwasiliana nasi kwa kuwasilisha ripoti ya mdudu.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Pakua data ya video ghafi",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Ripoti mdudu",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Hakuna rekodi kupatikana, pole :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Kikomo cha kumbukumbu kimefikiwa",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Kifaa chako hakina kumbukumbu ya kutosha kurekodi, kusababisha kipindi kishaisha moja kwa moja. Kurekodi video ndefu, z考虑 kupunguza ubora wa video au kupeleka nafasi ya kuhifadhi kifaa chako.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Nimeelewa",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Nafasi haitoshi",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot inahitaji angalia 1GB ya nafasi huru kurekodi. Tafadhali hapasha nafasi na jaribu tena.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Futa rekodi zilizopita",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Maalum",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Pakua faili la video ghafi",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Outa data ya rekodi asili",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Pata msaada na rekodi yako",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Pisha video yako na tatua matatizo mengine",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Pakua faili la video ghafi",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Faili la video ghafi linarejea kwenye rekodi isiyobadilika iliyoundwa moja kwa moja na CocoShot. Kwa sababu faili hili halijashughulikiwa au kuhaririwa, inaweza kuwa kubwa sana na isiyoambatana na baadhi ya vifaa. Ukipata matatizo na toleo lililoshughulikiwa, unaweza kutumia faili hili ili kupata rekodi yako asili.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Pakua",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Onyesha mchoro wa sauti",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Pakua maelezo ya mfumo na data ya video na tuma kwa ajili ya kutatua matatizo",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Ukipakua faili, tafadhali litume support@cocoshot.net pamoja na maelezo yoyote ya ziada ambayo yanaweza kusaidia. Tutatumia maelezo haya kukusaidia kusahihisha matatizo ya kiungo na, ikiwezekana, kupisha video yako.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Pakua",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Video ndefu mno kushughulikiwa kwenye kifaa chako",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Kwa sababu CocoShot inaprioriti faragha na inafanya kazi kikamilifu kwenye kifaa chako cha ndani, imekuwa na vikomo na uwezo wa mashine yako. Kushughulikia video wa muda huu ingekuwa na muda mwingi mno na mahitaji makubwa ya rasilimali za mfumo. Bado unaweza kupata faili la WEBM au rekodi ghafi, ingawa vipengele vya kuhariri na usafirishaji wa MP4 havipatikani. Hata hivyo, ikiwa unafahamu changamoto zinazowezekana, unaweza kuendelea na usindikaji wa video bila kujali.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Naelewa hatari, jaribu tu",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Jua kuhusu usindikaji wa video ndefu.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Hali ya upakuaji",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Pakua data kwa ajili ya kutatua matatizo",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Kituo cha msaada",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Rekodi sauti ya kompyuta",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Ili kurekodi sauti kutoka kwenye ukurasa huu, unahitaji kubadili hadi '$tab$'.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Kiungo hakiteuliwa kwenye kichupuli",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot haipatikani na kichupuli ulichokuwa ukitumia. Bado unaweza kuanza kurekodi kutoka kwenye ukurasa huu na kurudi kwenye kichupuli husika, lakini tafadhali kumbatie kwamba mwendo wa kamera na upau wa zana ya kuhariri hautaonyeshwa.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Weka nakala ya ndani kwa ajili ya rekodi za CocoShot zako",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Dika nakala za kila rekodi unayounda. bila kuweka nakala, rekodi zako zitahifadhiwa tu unapochagua kuzipakua.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Ikiwa unajaribu kuhifadhi rekodi kwenye Pakua au saraka nyingine za mfumo, unaweza kuwa na hitaji la kuunda foldi mpya kabla.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Chagua foldi",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Sasa hivi",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Rekodi zako zinakopishwa ndani",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Ili kuzuiliwa kuulizwa ruhusa kila wakati unaporekodi, tunapendekeza kuacha kichupuli hiki wazi.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Funga kichupuli vyovyote",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Simamisha nakala za rekodi zote",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Tafadhali thibitisha upatikanaji wa foldi yako ya nakala ya ndani ya CocoShot",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Tunaomba msamaha, lakini tunahitaji ruhusa yako tena ili kuendelea nakala za rekodi zako. kwa bahati mbaya, tutahitaji kuomba ruhusa hii kila wakati kichupuli hiki kinapofungwa, ambayo inaweza kutokea unapofunga kivinjari au kuwasha kompyuta.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Ruhusu CocoShot kuendelea nakala za rekodi",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Nakala za rekodi",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Ruhusa haikutolewa kwa ajili ya nakala ya rekodi",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Hujachagua foldi ya kuhifadhi nakala za rekodi yako. Kulingana na toleo la kivinjari au mfumo wa uendeshaji, unaweza kuagizwa kuchagua foldi hii kila wakati unaapoanza rekodi. Unaweza jaribu mchakato wa usetini tena, au uzime nakala kabisa ikiwa unapendelea kutotoa ruhusa mara kwa mara.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Rekodi sauti ya kompyuta",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "Kwenye mfumo wa macOS, unawekwa kupelekwa kurekodi sauti kutoka kwa vichupuli moja tu. Chagua chaguo la Rekodi ya Tab ya Chrome na uthibitishe kuwa muktadha wa 'Pia shiriki sauti ya tab' umewashwa.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Rekodi sauti ya kompyuta",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Ikiwa unataka kukamata sauti kutoka kwa kompyuta yako, hakikisha chaguo la 'Shiriki sauti ya mfumo' limewashwa. Ikiwa chaguo hili halionyeshi, z考虑 kusasisha Chrome au kubadili hadi hali ya rekodi ya tab.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Kufikia azimio",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Kufikia FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "RAM haitoshi",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Badilisha ukubwa wa dirisha",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Skrini ni ndogo mno kwa azimio hili",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Haifai kurekodi kwa azimio hili kwenye kifaa chako",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Ruhusa imekataliwa",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Ruhusa za kamera na mikrofoni zinahitajika kurekodi. Tafadhaliutoa katika mipangilio ya kivinjari yako.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Ruhusa ya kamera inahitajika kurekodi. Tafadhaliutoa katika mipangilio ya kivinjari yako.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Ruhusa ya mikrofoni inahitajika kurekodi. Tafadhaliutoa katika mipangilio ya kivinjari yako.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Sahihisha Ruhusa",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Mipangilio ya Rekodi ya Skrini",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "h",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Inaomba ruhusa ya kamera...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Inaomba ruhusa ya mikrofoni...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Omba ruhusa ya kamera",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Omba ruhusa ya mikrofoni",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Kagua ruhusa",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Binafsisha chaguo",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Video Zilizorekodiwa",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Bado hakuna video zilizorekodiwa",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Bonyeza ili kusimamisha",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Tunahitaji ruhusa yako ili kupata kamera yako",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Tunahitaji ruhusa yako ili kupata mikrofoni yako",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Kagua",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Kichagua Rangi",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Funga",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Chagua Rangi kutoka Skrini",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropAPI haiteuliwa kwenye kivinjari hiki. Tafadhali tumia kivinjari cha kisasa kama Chrome 95+ au Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Chagua eneo la kufanya kitelezi",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Futa maeneo yote ya kufanya kitelezi",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Upana wa Mstari",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Mfupi",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Kati",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Nene",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Ziada Nene",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "Rekodi za CocoShot",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Imefeli kuweka nakala ya ndani. Wasiliana nasi support@cocoshot.net kwa msaada zaidi. Bado unaweza kurekodi skrini yako.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Kivinjari chako hakiteuliwi nakala za ndani. Wasiliana nasi support@cocoshot.net kwa msaada zaidi. Bado unaweza kurekodi skrini yako.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Jinsi ya kutumia Kuelekea Kuelekezo",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Wakati wa kurekodi, shika kifupisho cha kibodi ili kuelekea kuelekezo chako. Acha funguo ili kuelekea tena. Hii nzuri kwa kuangaza maeneo maalum ya skrini wakati wa rekodi yako.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Nimepata!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Ukubwa wa Eneo",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Vihifadhi",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Weka upya",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Hakuna",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Fanya kitelezi",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Picha",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Tafadhali pakua faili la video kwanza",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Pakua kama WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Pakua kama MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Inabadilisha...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Inashughulikiwa vipande:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Ukubwa wa video umezidi hadi iliyopendekezwa (hadhi 1GB), ambayo inaweza kusababisha kushindwa kushughulikia",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Unapakua video kubwa (1GB). Kushughulikia inaweza kuchukua muda mrefu. Endelea?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Muundo wa video haiteuliwa. Tafadhali jaribu muundo tofauti wa video.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Imefeli kupakua. Tafadhali jaribu tena.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "Ubadilishaji wa MP4 Haiteuliwa",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Video hii kubwa mno ili kubadilishwa kuwa MP4 kwenye kivinjari. Tafadhali ipakue kama WebM badala yake.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Inabadilisha hadi MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Imefeli kupakua video. Tafadhali jaribu tena.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "hariri video",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Inakuja hivi karibuni.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Mwonekano wa Video",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "Sawa",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Inaandika kwenye hifadhi...",
+    "description": "Message shown when writing video to storage"
+  }
+}

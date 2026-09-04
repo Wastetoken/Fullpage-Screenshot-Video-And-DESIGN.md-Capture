@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Snímek obrazovky a záznam obrazovky"
+  },
+  "extDescription": {
+    "message": "Pořizujte snímky celé stránky a nahrávejte obrazovku do MP4 s anotacemi. Včetně exportu do PDF s klikacími odkazy."
+  },
+  "pDisable": {
+    "message": "Zakázáno na této stránce"
+  },
+  "pDisableDesc": {
+    "message": "Toto můžete spustit na libovolné webové stránce, kromě těch, kde prohlížeč omezuje rozšíření spouštění skriptů. To zahrnuje webový obchod rozšíření, stránky nastavení prohlížeče a další stránky rozšíření."
+  },
+  "pDisableExp": {
+    "message": "Toto omezení pochází přímo z prohlížeče kvůli bezpečnostním rizikům."
+  },
+  "pDisableTry": {
+    "message": "Můžete otevřít novou stránku a vyzkoušet funkci snímání."
+  },
+  "pStart": {
+    "message": "Začít"
+  },
+  "pFileUrl": {
+    "message": "Přejděte na \"edge://extensions/\" a zaškrtněte políčko \"Povolit přístup k URL souborům\"."
+  },
+  "pCaptV": {
+    "message": "Zachytit snímek viditelných částí stránky."
+  },
+  "pAsOne": {
+    "message": "Uložit jako jeden HTML soubor."
+  },
+  "pDesktop": {
+    "message": "Zachytit snímky dané webové stránky, karty, okna nebo celé obrazovky."
+  },
+  "pCaptFull": {
+    "message": "Zachytit snímek celé stránky."
+  },
+  "pDesableOpt": {
+    "message": "Nebo můžete zkusit:"
+  },
+  "pAreaCut": {
+    "message": "Vyberte část stránky pro zachycení snímku"
+  },
+  "fullpageTooLarge": {
+    "message": "Poznámka: Prohlížeč nemůže zachytit celou stránku jako jeden obrázek kvůli její velikosti. Místo toho bude rozdělena na <strong>$1</strong> samostatných obrázků."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Upozornění: Toto rozšíření není určeno pro zachycení extrémně velkého obsahu. Je možné, že nebude schopno úspěšně dokončit zachycení této stránky."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Je vyžadováno další oprávnění"
+  },
+  "framePermDesc": {
+    "message": "Tato stránka zobrazuje obsah prostřednictvím vloženého iframe, který vyžaduje další oprávnění k přístupu."
+  },
+  "WhatisIframe": {
+    "message": "Kliknutím zjistíte, co je to iframe."
+  },
+  "framePermMore": {
+    "message": "Po použití tohoto dialogu může být nutné rozšíření restartovat. Zrušením bude zachycena pouze viditelná část obrazovky."
+  },
+  "framePermConfirm": {
+    "message": "Povolit"
+  },
+  "framePermSave": {
+    "message": "Uložit toto oprávnění pro pozdější použití (můžete jej kdykoli odvolat)."
+  },
+  "error": {
+    "message": "Chyba"
+  },
+  "captureError": {
+    "message": "Zachycení selhalo, zkuste to prosím znovu později. Pokud problém přetrvává, kontaktujte vývojáře na $1"
+  },
+  "btnOk": {
+    "message": "OK"
+  },
+  "btnCancel": {
+    "message": "Zrušit"
+  },
+  "saveFramePermission": {
+    "message": "Povolit zachycení obsahu ze všech rámců"
+  },
+  "permissions": {
+    "message": "Oprávnění"
+  },
+  "saveframepDesc": {
+    "message": "Toto oprávnění je vyžadováno pro zachycení obsahu z iframe nebo framesetů na stránce. Jeho zakázání může omezit schopnost zachytit určité prvky webové stránky."
+  },
+  "processingScreenshot": {
+    "message": "Zpracovávání snímku obrazovky..."
+  },
+  "screenshotSaved": {
+    "message": "Snímek obrazovky byl uložen do složky Stažené"
+  },
+  "screenshotLoadFailed": {
+    "message": "Nepodařilo se načíst snímek obrazovky. Zkuste to prosím znovu."
+  },
+  "getScreenshotFailed": {
+    "message": "Nepodařilo se zachytit snímek obrazovky. Zkuste to prosím znovu."
+  },
+  "processingAllAreas": {
+    "message": "Zpracovávání snímků všech oblastí..."
+  },
+  "allAreasSaved": {
+    "message": "Úspěšně uloženy snímky $1 oblastí"
+  },
+  "areaNotVisible": {
+    "message": "Vybraná oblast je téměř celá mimo viditelnou oblast a nelze ji zachytit."
+  },
+  "partiallyVisible": {
+    "message": "Část oblasti je mimo viditelnou oblast. Byla zachycena viditelná část."
+  },
+  "partiallyVisibleArea": {
+    "message": "Část vybrané oblasti je mimo viditelnou oblast. Byla zachycena viditelná část."
+  },
+  "areaOutOfView": {
+    "message": "Vybraná oblast je mimo viditelnou oblast. Posuňte stránku tak, aby byla oblast viditelná, a zkuste to znovu."
+  },
+  "processingError": {
+    "message": "Chyba při zpracování snímku: $1"
+  },
+  "saveFailed": {
+    "message": "Nepodařilo se uložit snímek: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Režim chytrého snímání aktivován. Kliknutím vyberte prvek ke snímání (Enter pro potvrzení, Esc pro zrušení)."
+  },
+  "processing": {
+    "message": "Zpracovávání kopie..."
+  },
+  "copyFailed": {
+    "message": "Kopírování se nezdařilo: $1"
+  },
+  "canvasContextError": {
+    "message": "Kopírování se nezdařilo: Nelze získat kontext Canvas."
+  },
+  "copied": {
+    "message": "Zkopírováno do schránky"
+  },
+  "clipboardAccessDenied": {
+    "message": "Kopírování se nezdařilo: Přístup ke schránce byl odepřen, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Kopírování se nezdařilo: API schránky není podporováno"
+  },
+  "imageDataCreateFailed": {
+    "message": "Kopírování se nezdařilo: Nelze vytvořit obrazová data"
+  },
+  "copyAreaOutOfView": {
+    "message": "Kopírování se nezdařilo: Vybraná oblast je mimo viditelnou oblast"
+  },
+  "imagePreviewShown": {
+    "message": "Náhled obrázku zobrazen. Klikněte pravým tlačítkem pro kopírování."
+  },
+  "escape": {
+    "message": "Zrušit (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Kvalita obrázku nastavena na: $1"
+  },
+  "qrDecoding": {
+    "message": "Dekódování QR kódu..."
+  },
+  "qrSuccess": {
+    "message": "QR kód úspěšně dekódován. Zkopírováno do schránky."
+  },
+  "qrNoQRFound": {
+    "message": "Nebyl rozpoznán žádný platný QR kód"
+  },
+  "qrError": {
+    "message": "Dekódování QR kódu se nezdařilo: $1"
+  },
+  "saveArea": {
+    "message": "Uložit tuto oblast"
+  },
+  "copyToClipboard": {
+    "message": "Zkopírovat tento výběr (aktuálně vybráno)"
+  },
+  "saveAllAreas": {
+    "message": "Uložit všechny oblasti"
+  },
+  "keepAndContinue": {
+    "message": "Přidat nový výběr"
+  },
+  "cancel": {
+    "message": "Zrušit"
+  },
+  "lockSize": {
+    "message": "Uzamknout velikost"
+  },
+  "lockSizeActive": {
+    "message": "✓ Uzamknout velikost"
+  },
+  "freeRatio": {
+    "message": "Volný poměr"
+  },
+  "ratioLabel": {
+    "message": "Vybrat poměr"
+  },
+  "aiDialog": {
+    "message": "Chytrý dialog"
+  },
+  "fileSizeEstimate": {
+    "message": "Přibližně $1 $2"
+  },
+  "qrDecode": {
+    "message": "Dekódovat QR kód"
+  },
+  "removeBackground": {
+    "message": "Odstranit pozadí"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Odstraňování pozadí..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Odstranění pozadí se nezdařilo: Chyba při načítání obrázku"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Odstranění pozadí se nezdařilo: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Pozadí odstraněno a zkopírováno do schránky"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Odstranění pozadí se nezdařilo: Nelze vytvořit Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Vybraná oblast je mimo viditelnou oblast"
+  },
+  "screenshotFailed": {
+    "message": "Snímek obrazovky se nezdařil: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Zpracování obrázku se nezdařilo, zkuste to prosím znovu"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Oblast snímku je mimo viditelnou oblast"
+  },
+  "errorProcessingImage": {
+    "message": "Chyba při zpracování obrázku: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "Knihovna pro dekódování QR kódu nebyla načtena"
+  },
+  "qrDecodingFailed": {
+    "message": "Dekódování QR kódu se nezdařilo: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "V označené oblasti nebyl nalezen žádný QR kód"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR kód úspěšně dekódován: $1"
+  },
+  "qrDecodingError": {
+    "message": "Chyba při dekódování QR kódu: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Odstranění pozadí se nezdařilo: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Nejprve prosím vyberte oblast pro snímek obrazovky"
+  },
+  "aiDialogTitle": {
+    "message": "Vést inteligentní konverzaci o obsahu snímku"
+  },
+  "qrDecodeTitle": {
+    "message": "Dekódovat QR kód na snímku"
+  },
+  "lockSizeTitle": {
+    "message": "Uzamknout aktuální velikost pro opakované snímání"
+  },
+  "moveHint": {
+    "message": "Přetáhnout výběr (Mezerník + tažení)"
+  },
+  "saveAreaTooltip": {
+    "message": "Uložit aktuální oblast"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Uložit všechny vybrané oblasti"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Zkopírovat snímek obrazovky do schránky"
+  },
+  "moreOptions": {
+    "message": "Více možností"
+  },
+  "removeBgTooltip": {
+    "message": "Odstranit pozadí a zkopírovat do schránky"
+  },
+  "ratioLabelTooltip": {
+    "message": "Vybrat poměr stran"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Zachovat aktuální výběr a pokračovat"
+  },
+  "pCaptureTabLabel": {
+    "message": "Snímek obrazovky"
+  },
+  "pAiToolsTabLabel": {
+    "message": "Nástroje AI"
+  },
+  "pCaptureTitle": {
+    "message": "Snímek celé stránky a vybrané oblasti obrazovky"
+  },
+  "pAiToolsTitle": {
+    "message": "Nástroje související s AI"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Nástroje pro export webového obsahu"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Nástroje pro obrázky"
+  },
+  "pDownloadAsMD": {
+    "message": "Stáhnout jako Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Stáhnout jako PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Stáhněte si aktuální webovou stránku jako soubor Markdown"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Stáhněte si aktuální webovou stránku jako soubor PDF"
+  },
+  "pImageProcessing": {
+    "message": "Zpracování obrazu"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Sada nástrojů pro zpracování obrazu"
+  },
+  "fixThePage": {
+    "message": "Opravit stránku"
+  },
+  "expandScrollableOn": {
+    "message": "Rozbalit posuvné oblasti"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Povolit rozbalení posuvných oblastí na webové stránce před pořízením snímku obrazovky"
+  },
+  "hideFixedOn": {
+    "message": "Skrýt prvky s pevnou polohou"
+  },
+  "hideFixedOnDesc": {
+    "message": "Povolit skrytí prvků s pevnou polohou, které by mohly rušit snímání"
+  },
+  "preScrollOn": {
+    "message": "Předběžné posouvání a načítání webové stránky"
+  },
+  "preScrollOnDesc": {
+    "message": "Mnoho webových prvků (např. obrázky) se načítá pouze při posouvání. Je-li tato možnost povolena, automaticky detekuje a posune se na konec stránky před pořízením snímku obrazovky."
+  },
+  "canBeDisabled": {
+    "message": "lze zakázat na stránce nastavení"
+  },
+  "analyzingPageForHTML": {
+    "message": "Analýza kódu a obsahu webové stránky, složité stránky mohou trvat déle. Pokud to trvá příliš dlouho, obnovte webovou stránku a zkuste to znovu."
+  },
+  "drawerSettings": {
+    "message": "Nastavení"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Historie snímků obrazovky"
+  },
+  "drawerImageTools": {
+    "message": "Nástroje pro vylepšení snímků obrazovky"
+  },
+  "drawerHelpFeedback": {
+    "message": "Časté dotazy a zpětná vazba"
+  },
+  "drawerCloseMenu": {
+    "message": "Zavřít toto menu"
+  },
+  "logoTooltip": {
+    "message": "Zobrazit více"
+  },
+  "pRecorderTabLabel": {
+    "message": "Nahrávání obrazovky"
+  },
+  "pRecorderTitle": {
+    "message": "Nahrávání obrazovky"
+  },
+  "pStartRecorder": {
+    "message": "Spustit nahrávání obrazovky"
+  },
+  "pStartRecorderLabel": {
+    "message": "Nahrávání obrazovky"
+  },
+  "pRecorderAlt": {
+    "message": "Nahrávač"
+  },
+  "pStartRecorderAlt": {
+    "message": "Nahrávání obrazovky"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Toto je beta verze"
+  },
+  "pRecorderFeedback": {
+    "message": "Poskytnout zpětnou vazbu"
+  },
+  "downloadsPermission": {
+    "message": "Povolit stahování souborů"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Toto oprávnění je vyžadováno pro přímé ukládání snímků obrazovky do vašeho počítače."
+  },
+  "webNavigationPermission": {
+    "message": "Povolit přístup k webové navigaci"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Toto oprávnění je vyžadováno pro detekci změn stránky a přechod na různé stránky v případě potřeby."
+  },
+  "desktopCapturePermission": {
+    "message": "Povolit zachycení plochy"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Toto oprávnění je vyžadováno pro zachycení obsahu z vaší plochy nebo konkrétních oken."
+  },
+  "tabsPermission": {
+    "message": "Povolit přístup k záložkám"
+  },
+  "tabsPermissionDesc": {
+    "message": "Toto oprávnění je vyžadováno pro přístup a správu informací o záložkách prohlížeče."
+  },
+  "tabCapturePermission": {
+    "message": "Povolit zachycení záložky"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Toto oprávnění je vyžadováno pro zachycení zvuku a videa z karet prohlížeče."
+  },
+  "allUrlsPermission": {
+    "message": "Povolit přístup ke všem webovým stránkám"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Toto oprávnění je vyžadováno pro zachycení snímků obrazovky z libovolné webové stránky."
+  },
+  "fileUrlsPermission": {
+    "message": "Povolit přístup k místním souborům"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Toto oprávnění je vyžadováno pro zachycení snímků obrazovky z místních souborů (file:// URL)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Zda zahrnout obrázky do stahování"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Tato funkce vyžaduje CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "Upgradovat na Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Uložení tohoto obsahu vyžaduje CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "Náhled CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "Režim náhledu"
+  },
+  "qv_screenshot_preview": {
+    "message": "Náhled snímku obrazovky"
+  },
+  "qv_download": {
+    "message": "Stáhnout"
+  },
+  "qv_edit": {
+    "message": "Anotovat, Upravit (lze také exportovat do PDF)"
+  },
+  "qv_hint": {
+    "message": "Zkušení uživatelé tuto stránku automaticky přeskočí a přejdou do editoru."
+  },
+  "recordTab": {
+    "message": "Záznam",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Vaše videa",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Obrazovka",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Karta",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Pouze kamera",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Mockup",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Záznam vlastní oblasti je zakázán",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Aktualizujte Chrome na verzi 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Aktualizovat",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Zkontrolujte oprávnění",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot nemůže přistupovat k vaší kameře nebo mikrofonu. Odblokujte jej v nastavení prohlížeče a udělte potřebná oprávnění.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Zavřít",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Povolit přístup ke kameře",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Povolit přístup k mikrofonu",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Stisknout pro mluvení",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Nastavit oblast záznamu",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Překlopit kameru",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Pozadí efektů",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Spustit záznam",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Spouštění záznamu...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Vyberte kameru",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Další možnosti",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Systémový zvuk",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Skrýt panel nástrojů",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Odpočet",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Nastavit časový limit",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Rozostření",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Žádné",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Žádná kamera",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Žádný mikrofon",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Vyberte zdroj",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Vypnuto",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Šířka",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Výška",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Kliknutím umístěte obrázek",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Dokončit záznam",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Restartovat záznam",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Pozastavit záznam",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Pokračovat v záznamu",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Zrušit záznam",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Přepnout kreslicí nástroje",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Přepnout nástroj rozostření",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Přepnout možnosti kurzoru",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": " Zakázat kameru",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Povolit kameru",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Žádná oprávnění kamery",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Nastavení kamery",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Zrcadlit kameru",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Rozostření pozadí",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Zakázat mikrofon",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Povolit mikrofon",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Žádná oprávnění mikrofonu",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Vybrat nástroj",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Pero",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Zvýrazňovač",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Guma",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Text",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Tvar",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Šipka",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Obrázek",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Zpět",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Znovu",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Vymazat plátno",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Další barvy",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Tlustá čára",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Střední čára",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Tenká čára",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Přepnout režim obraz v obraze",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Přepnout výplň",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Režim kreslení",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Režim rozostření",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Vymazat všechny rozostřené prvky",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Zvýraznit kliknutí",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Zvýraznit kurzor",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Bodový kurzor",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Znovu nezobrazovat",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Restartovat záznam?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Vaše aktuální pokrok bude ztracen.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Restartovat",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Pokračovat",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Zahodit záznam?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Vaše aktuální pokrok bude ztracen.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Zahodit",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Pokračovat",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Váš záznam bude uložen zde",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Záznam...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Nechte tuto kartu otevřenou. Po uložení záznamu se zavře.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Příprava záznamu...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Nechte tuto kartu otevřenou. Po dokončení záznamu se aktualizuje.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Editor",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Zrušit",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Obnovit původní",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Resetovat",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Uložit změny",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Ukládání...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Přetáhněte sem zvukový soubor",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Nebo klikněte pro procházení",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Nastavení",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Hlasitost",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Aktualizovat",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Ořezat",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Šířka",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Výška",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Vlevo",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Nahoře",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Přetáhněte úchyty a použijte tlačítka vlevo pro úpravu vybrané části.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Ořezat video",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Ořezávání...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Vyjmout část",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Vyjímání...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Ztlumit zvuk",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Ztlumování...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Další informace.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Zpět",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Znovu",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Ohodnoťte nás, pomůže to!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Jste offline",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Některé funkce nejsou dostupné, dokud se znovu nepřipojíte",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Zkusit znovu",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome je třeba aktualizovat",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Aktualizujte pro přístup k více funkcím",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Další informace",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Video je příliš dlouhé pro zpracování v zařízení",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Úpravy a export MP4 nejsou dostupné",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Video se zpracovává lokálně...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Informace o rychlejší verzi cloudu",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Upravit",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Bez připojení",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Nedostupné",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Upravit video",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Ořežte, vyjměte nebo ztlumte video",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Příprava videa, čekejte prosím...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Ořezat",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Ořežte a změňte velikost videa",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Přidat zvuk",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Nahrajte vlastní zvuk a přidejte ho do videa",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Uložit",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Odhlásit se z Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Ukládání...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Uložit do Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Uložte aktuální verzi do Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Přihlaste se a uložte do Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Stahování...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Stáhnout jako .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Exportovat video .webm",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Stáhnout jako .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Exportovat video .mp4 (doporučeno)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Stáhnout jako .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Exportovat GIF (max 30 sekund)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Nahradit existující zvuk",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Přiblížit ke kurzoru",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Zůstat na stránce při záznamu",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Mikrofon je vypnutý",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Nápověda",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Záznam pozastaven. Stiskněte tlačítko přehrávání pro pokračování.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot nemá oprávnění k záznamu obrazovky",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Pro fungování záznamu obrazovky musíte povolit CocoShot zachytávat vaši obrazovku, když se zobrazí žádost o oprávnění.(Můžete ji kdykoli odvolat v nastavení rozšíření.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Povolit záznam obrazovky",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Zrušit",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Váš mikrofon je ztlumený",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Pokud chcete, aby byl váš hlas součástí záznamu, musíte zapnout mikrofon. Chcete pokračovat v záznamu bez zvuku?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Ano, pokračovat",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Zrušit",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Relax. Kliknutím kamkoli zastavte odpočet.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Úpravy mohou být nepřesné pro krátké časové intervaly z důvodu intervalů mezi snímky.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Video se zpracovává, přehrávání může být nepřesné nebo přerušené.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Ořezávání může chvíli trvat",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Upgrade pro rychlejší zpracování",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Mikrofon povolen",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Mikrofon zakázán",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Záznam byl kratší než 3 sekundy a nebyl uložen.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Skrýt upozornění",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Znovu nezobrazovat",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Skrýt panel nástrojů, když se nepoužívá",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Spustit záznam",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Zastavit záznam",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Vítejte v novém CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Další informace o aktualizaci.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Začít",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Chyba při spouštění záznamu",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Při spouštění procesu záznamu došlo k chybě. Restartujte prohlížeč a zkuste to znovu. Pokud problém přetrvává, kontaktujte nás na support@cocoshot.net.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Nejvyšší kvalita",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Obnovit poslední videozáznam",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Máte problémy?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Nevidíte svůj záznam?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Pokud jste dokončili záznam, ale nevidíte video na této stránce, můžete zkusit stáhnout surová data videa. Případně nás můžete kontaktovat odesláním hlášení o chybě.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Stáhnout surová data videa",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Nahlásit chybu",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Záznam nebyl nalezen, omlouváme se :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Dosáhli jste limitu paměti",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Vaše zařízení nemá dostatek paměti pro záznam, což způsobilo automatické ukončení relace. Pro delší videa zvažte snížení kvality videa nebo uvolnění úložného prostoru.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Rozumím",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Nedostatek místa",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot potřebuje alespoň 1 GB volného místa pro záznam. Uvolněte místo a zkuste to znovu.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Vymazat předchozí záznamy",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Pokročilé",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Stáhnout surový videosoubor",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Exportovat původní data záznamu",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Získat pomoc se záznamem",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Obnovte video a vyřešte další problémy",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Stáhnout surový videosoubor",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Surový videosoubor se vztahuje na nezměněný záznam vytvořený přímo aplikací CocoShot. Protože tento soubor nebyl zpracován nebo upraven, může být poměrně velký a nekompatibilní s některými zařízeními. Pokud se vyskytnou problémy se zpracovanou verzí, můžete použít tento soubor k získání původního záznamu.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Stáhnout",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Zobrazit zvukovou vlnu",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Stáhněte si systémové informace a data videa a odešlete je k řešení problémů",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Po stažení souboru jej zašlete na support@cocoshot.net spolu s dalšími podrobnostmi, které by mohly být užitečné. Tyto informace použijeme k pomoci s řešením problémů s rozšířením a pokud možno k obnovení vašeho videa.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Stáhnout",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Video je příliš dlouhé pro zpracování ve vašem zařízení",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Protože CocoShot upřednostňuje soukromí a pracuje zcela na vašem místním zařízení, je omezeno možnostmi vašeho hardwaru. Zpracování videa této délky by bylo příliš časově náročné a vyžadovalo by značné systémové prostředky. Stále můžete získat WEBM soubor nebo surový záznam, i když funkce úprav a exportu MP4 nebudou dostupné. Pokud jste si vědomi potenciálních problémů, můžete přesto pokračovat ve zpracování videa.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Rozumím riziku, přesto zkusit",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Další informace o zpracování dlouhých videí.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Režim obnovy",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Stáhnout data pro řešení problémů",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Centrum nápovědy",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Zaznamenat zvuk počítače",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Pro záznam zvuku z této stránky musíte přepnout na „$tab$“.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Rozšíření není na kartě podporováno",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot není kompatibilní s kartou, kterou jste právě používali. Stále můžete zahájit záznam z této stránky a poté se vrátit na tuto kartu, ale mějte na paměti, že váš kamerový kanál a panel nástrojů úprav se nezobrazí.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Nastavte místní zálohu pro vaše záznamy CocoShot",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Udržujte kopie každého vytvořeného záznamu. Bez nastavení záloh budou vaše záznamy uloženy pouze tehdy, když je výslovně stáhnete.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Pokud se pokoušíte ukládat záznamy do složky Stažené nebo jiných systémových adresářů, možná budete muset nejprve vytvořit novou složku.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Vybrat složku",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Teď ne",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Vaše záznamy se zálohují lokálně",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Doporučujeme ponechat tuto kartu otevřenou, abyste nebyli při každém záznamu žádáni o oprávnění.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Zavřít kartu",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Zastavit zálohování všech záznamů",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Potvrďte prosím přístup k místní složce záloh CocoShot",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Omlouváme se, ale potřebujeme vaše oprávnění k pokračování v zálohování vašich záznamů. Bohužel budeme muset žádat o toto oprávnění pokaždé, když je tato karta zavřena, což se může stát při vypnutí prohlížeče nebo restartu počítače.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Povolit CocoShot pokračovat v zálohování záznamů",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Zálohovat záznamy",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Oprávnění k zálohování záznamu nebylo uděleno",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Nevybrali jste složku pro ukládání záloh záznamů. V závislosti na verzi prohlížeče nebo operačním systému můžete být vyzváni k výběru této složky pokaždé, když začnete záznam. Můžete zkusit proces nastavení znovu, nebo zálohy úplně vypnout, pokud nechcete oprávnění opakovaně udělovat.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Zaznamenat zvuk počítače",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "Na systémech macOS jste omezeni na záznam zvuku z jednotlivých karet. Zvolte možnost záznamu karty Chrome a ověřte, že je nastavení 'Také sdílet zvuk karty' zapnuté.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Zaznamenat zvuk počítače",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Pokud chcete zachytit zvuk z počítače, ujistěte se, že je aktivní možnost 'Sdílet systémový zvuk'. Pokud tato možnost není viditelná, zvažte aktualizaci Chrome nebo přepnutí do režimu záznamu karty.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Maximální rozlišení",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Maximální FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Nedostatek RAM",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Změnit velikost okna",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Obrazovka je pro toto rozlišení příliš malá",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Na tomto zařízení nelze zaznamenávat v tomto rozlišení",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Oprávnění odepřeno",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Pro záznam jsou vyžadována oprávnění kamery a mikrofonu. Udělte oprávnění v nastavení prohlížeče.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Pro záznam je vyžadováno oprávnění kamery. Udělte oprávnění v nastavení prohlížeče.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Pro záznam je vyžadováno oprávnění mikrofonu. Udělte oprávnění v nastavení prohlížeče.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Opravit oprávnění",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Nastavení záznamu obrazovky",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "h",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Žádost o oprávnění kamery...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Žádost o oprávnění mikrofonu...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Požádat o oprávnění kamery",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Požádat o oprávnění mikrofonu",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Zkontrolovat oprávnění",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Přizpůsobit možnosti",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Zaznamenaná videa",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Zatím nebylo zaznamenáno žádné video",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Stisknout pro ztlumení",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Potřebujeme vaše oprávnění pro přístup ke kameře",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Potřebujeme vaše oprávnění pro přístup k mikrofonu",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Zkontrolovat",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Výběr barvy",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Zavřít",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Vybrat barvu z obrazovky",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API není v tomto prohlížeči podporován. Použijte moderní prohlížeč jako Chrome 95+ nebo Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Vybrat oblast rozostření",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Smazat všechny oblasti rozostření",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Šířka čáry",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Tenká",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Střední",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Tloustlá",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Velmi tlustá",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot Recordings",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Nepodařilo se nastavit místní zálohu. Kontaktujte nás na $supportEmail$ pro další pomoc. Stále můžete zaznamenávat obrazovku.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Váš prohlížeč nepodporuje místní zálohy. Kontaktujte nás na $supportEmail$ pro další pomoc. Stále můžete zaznamenávat obrazovku.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Jak používat Přiblížit ke kurzoru",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Během záznamu podržte klávesovou zkratku pro přiblížení k pozici kurzoru. Uvolněte klávesy pro oddálení. To je skvělé pro zvýraznění konkrétních oblastí obrazovky během záznamu.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Rozumím!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Velikost oblasti",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Předvolby",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Resetovat",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Žádné",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Rozostření",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Obrázek",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Nejprve načtěte videosoubor",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Stáhnout jako WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Stáhnout jako MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Převod...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Zpracovávání částí:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Velikost videa přesahuje doporučený limit (max 1GB), což může způsobit selhání zpracování",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Načítáte velké video (1GB). Zpracování může trvat dlouho. Pokračovat?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Nepodporovaný formát videa. Zkuste jiný formát videa.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Stažení selhalo. Zkuste to znovu.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "Převod do MP4 není dostupný",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Toto video je příliš velké pro převod do MP4 v prohlížeči. Stáhněte si jej raději jako WebM.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Převod do MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Nepodařilo se stáhnout video. Zkuste to znovu.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "upravit video",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Již brzy.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Náhled videa",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Zápis do úložiště...",
+    "description": "Message shown when writing video to storage"
+  }
+}

@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: スクリーンショット & 画面録画"
+  },
+  "extDescription": {
+    "message": "ページ全体のスクリーンショットをキャプチャし、注釈付きで画面をMP4に録画します。クリック可能なリンクを含むPDFエクスポート機能付き。"
+  },
+  "pDisable": {
+    "message": "このページでは無効です"
+  },
+  "pDisableDesc": {
+    "message": "ブラウザが拡張機能のスクリプト実行を制限するページを除き、任意のウェブページで実行できます。これには拡張機能のウェブストア、ブラウザの設定ページ、その他の拡張機能ページが含まれます。"
+  },
+  "pDisableExp": {
+    "message": "この制限はセキュリティリスクのため、ブラウザ自体から来ています。"
+  },
+  "pDisableTry": {
+    "message": "新しいページを開いてキャプチャ機能を試すことができます。"
+  },
+  "pStart": {
+    "message": "開始"
+  },
+  "pFileUrl": {
+    "message": "\"edge://extensions/\"に移動し、「ファイルURLへのアクセスを許可する」ボックスをチェックしてください。"
+  },
+  "pCaptV": {
+    "message": "ページの表示部分のスクリーンショットをキャプチャします。"
+  },
+  "pAsOne": {
+    "message": "単一のHTMLファイルとして保存します。"
+  },
+  "pDesktop": {
+    "message": "指定されたウェブページ、タブ、ウィンドウ、または画面全体のスクリーンショットをキャプチャします。"
+  },
+  "pCaptFull": {
+    "message": "ページ全体のスクリーンショットをキャプチャします。"
+  },
+  "pDesableOpt": {
+    "message": "または試すことができます："
+  },
+  "pAreaCut": {
+    "message": "スクリーンショットをキャプチャするためにページの一部を選択します。"
+  },
+  "fullpageTooLarge": {
+    "message": "注意：ページが大きすぎるため、ブラウザはページ全体を1つの画像としてキャプチャできません。代わりに<strong>$1</strong>個の別々の画像に分割されます。"
+  },
+  "fullpageTooLargeExtra": {
+    "message": "注意：この拡張機能は非常に大きなコンテンツのキャプチャを想定していません。このページのキャプチャが正常に完了しない可能性があります。"
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "追加の権限が必要です"
+  },
+  "framePermDesc": {
+    "message": "このサイトは埋め込まれた iframe を通じてコンテンツを表示しており、アクセスするには追加の権限が必要です。"
+  },
+  "WhatisIframe": {
+    "message": "iframe とは何かを学ぶにはクリックしてください。"
+  },
+  "framePermMore": {
+    "message": "このダイアログを使用した後、拡張機能を再起動する必要がある場合があります。キャンセルすると、表示されている画面のみがキャプチャされます。"
+  },
+  "framePermConfirm": {
+    "message": "許可"
+  },
+  "framePermSave": {
+    "message": "後で使用するためにこの権限を保存します（いつでも取り消すことができます）。"
+  },
+  "error": {
+    "message": "エラー"
+  },
+  "captureError": {
+    "message": "キャプチャに失敗しました。後でもう一度お試しください。問題が解決しない場合は、$1 の開発者に連絡してください。"
+  },
+  "btnOk": {
+    "message": "OK"
+  },
+  "btnCancel": {
+    "message": "キャンセル"
+  },
+  "saveFramePermission": {
+    "message": "すべてのフレームからコンテンツをキャプチャすることを許可"
+  },
+  "permissions": {
+    "message": "権限"
+  },
+  "saveframepDesc": {
+    "message": "この権限は、ページ上の iframe または frameset からコンテンツをキャプチャするために必要です。この権限を無効にすると、特定のウェブページ要素をキャプチャできなくなる場合があります。"
+  },
+  "processingScreenshot": {
+    "message": "スクリーンショットを処理しています..."
+  },
+  "screenshotSaved": {
+    "message": "スクリーンショットはダウンロードフォルダに保存されました"
+  },
+  "screenshotLoadFailed": {
+    "message": "スクリーンショットの読み込みに失敗しました。再試行してください。"
+  },
+  "getScreenshotFailed": {
+    "message": "スクリーンショットの取得に失敗しました。再試行してください。"
+  },
+  "processingAllAreas": {
+    "message": "すべての領域のスクリーンショットを処理しています..."
+  },
+  "allAreasSaved": {
+    "message": "$1 個の領域のスクリーンショットを正常に保存しました"
+  },
+  "areaNotVisible": {
+    "message": "選択した領域はほとんど見える範囲外にあり、キャプチャできません。"
+  },
+  "partiallyVisible": {
+    "message": "領域の一部が見える範囲外にあります。見える部分をキャプチャしました。"
+  },
+  "partiallyVisibleArea": {
+    "message": "選択した領域の一部が見える範囲外にあります。見える部分をキャプチャしました。"
+  },
+  "areaOutOfView": {
+    "message": "選択した領域は見える範囲外です。ページをスクロールして領域を表示させてから、もう一度お試しください。"
+  },
+  "processingError": {
+    "message": "スクリーンショットの処理中にエラーが発生しました: $1"
+  },
+  "saveFailed": {
+    "message": "スクリーンショットの保存に失敗しました: $1"
+  },
+  "smartModeEnabled": {
+    "message": "スマートスクリーンショットモードが有効になりました。キャプチャする要素をクリックして選択してください（Enterで確定、Escでキャンセル）。"
+  },
+  "processing": {
+    "message": "コピーを処理しています..."
+  },
+  "copyFailed": {
+    "message": "コピーに失敗しました: $1"
+  },
+  "canvasContextError": {
+    "message": "コピーに失敗しました: Canvasコンテキストが取得できません。"
+  },
+  "copied": {
+    "message": "クリップボードにコピーされました"
+  },
+  "clipboardAccessDenied": {
+    "message": "コピーに失敗しました: クリップボードへのアクセスが拒否されました: $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "コピーに失敗しました: クリップボードAPIはサポートされていません"
+  },
+  "imageDataCreateFailed": {
+    "message": "コピーに失敗しました: 画像データを作成できません"
+  },
+  "copyAreaOutOfView": {
+    "message": "コピーに失敗しました: 選択した領域が見える範囲外です"
+  },
+  "imagePreviewShown": {
+    "message": "画像プレビューが表示されました。右クリックでコピーしてください。"
+  },
+  "escape": {
+    "message": "キャンセル (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "画像品質が次の値に設定されました: $1"
+  },
+  "qrDecoding": {
+    "message": "QRコードを解析しています..."
+  },
+  "qrSuccess": {
+    "message": "QRコードの解析に成功しました。クリップボードにコピーされました。"
+  },
+  "qrNoQRFound": {
+    "message": "有効なQRコードが検出されませんでした"
+  },
+  "qrError": {
+    "message": "QRコードの解析に失敗しました: $1"
+  },
+  "saveArea": {
+    "message": "この領域を保存"
+  },
+  "copyToClipboard": {
+    "message": "この選択範囲をコピー（現在選択中）"
+  },
+  "saveAllAreas": {
+    "message": "すべての領域を保存"
+  },
+  "keepAndContinue": {
+    "message": "新しい選択範囲を追加"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "lockSize": {
+    "message": "サイズを固定"
+  },
+  "lockSizeActive": {
+    "message": "✓ サイズ固定"
+  },
+  "freeRatio": {
+    "message": "自由比率"
+  },
+  "ratioLabel": {
+    "message": "比率を選択"
+  },
+  "aiDialog": {
+    "message": "スマートダイアログ"
+  },
+  "fileSizeEstimate": {
+    "message": "約 $1 $2"
+  },
+  "qrDecode": {
+    "message": "QRコードを解析"
+  },
+  "removeBackground": {
+    "message": "背景を除去"
+  },
+  "processingBackgroundRemoval": {
+    "message": "背景を除去しています..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "背景除去に失敗しました：画像の読み込みエラー"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "背景除去に失敗しました：$1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "背景を除去してクリップボードにコピーしました"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "背景除去に失敗しました：Blobを作成できません"
+  },
+  "selectedAreaOutOfView": {
+    "message": "選択した領域が見える範囲外です"
+  },
+  "screenshotFailed": {
+    "message": "スクリーンショットに失敗しました: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "画像処理に失敗しました。再試行してください。"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "スクリーンショットの領域が見える範囲外です"
+  },
+  "errorProcessingImage": {
+    "message": "画像処理エラー: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QRコード解析ライブラリが読み込まれていません"
+  },
+  "qrDecodingFailed": {
+    "message": "QRコードの解析に失敗しました: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "選択した領域にQRコードが見つかりません"
+  },
+  "qrDecodingSuccess": {
+    "message": "QRコードを正常に解析しました: $1"
+  },
+  "qrDecodingError": {
+    "message": "QRコード解析エラー: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "背景除去に失敗しました: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "まずスクリーンショットの領域を選択してください"
+  },
+  "aiDialogTitle": {
+    "message": "スクリーンショット内容についてインテリジェントに対話する"
+  },
+  "qrDecodeTitle": {
+    "message": "スクリーンショット内のQRコードを解析"
+  },
+  "lockSizeTitle": {
+    "message": "連続キャプチャのため現在のサイズを固定"
+  },
+  "moveHint": {
+    "message": "選択領域をドラッグ（Space + ドラッグ）"
+  },
+  "saveAreaTooltip": {
+    "message": "現在の領域を保存"
+  },
+  "saveAllAreasTooltip": {
+    "message": "すべての選択領域を保存"
+  },
+  "copyToClipboardTooltip": {
+    "message": "スクリーンショットをクリップボードにコピー"
+  },
+  "moreOptions": {
+    "message": "その他のオプション"
+  },
+  "removeBgTooltip": {
+    "message": "背景を除去してクリップボードにコピー"
+  },
+  "ratioLabelTooltip": {
+    "message": "アスペクト比を選択"
+  },
+  "keepAndContinueTooltip": {
+    "message": "現在の選択を保持して続ける"
+  },
+  "pCaptureTabLabel": {
+    "message": "スクリーンショット"
+  },
+  "pAiToolsTabLabel": {
+    "message": "AIツール"
+  },
+  "pCaptureTitle": {
+    "message": "完全ページおよび選択した画面領域のスクリーンショット"
+  },
+  "pAiToolsTitle": {
+    "message": "AI関連ツール"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "ウェブコンテンツエクスポートツール"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "画像ツール"
+  },
+  "pDownloadAsMD": {
+    "message": "Markdownとしてダウンロード"
+  },
+  "pDownloadAsPDF": {
+    "message": "PDFとしてダウンロード"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "現在のウェブページをMarkdownファイルとしてダウンロード"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "現在のウェブページをPDFファイルとしてダウンロード"
+  },
+  "pImageProcessing": {
+    "message": "画像処理"
+  },
+  "pImageProcessingTooltip": {
+    "message": "画像処理用のツール集"
+  },
+  "fixThePage": {
+    "message": "ページを修正"
+  },
+  "expandScrollableOn": {
+    "message": "スクロール可能領域を展開"
+  },
+  "expandScrollableOnDesc": {
+    "message": "スクリーンショットを撮る前に、ウェブページ内のスクロール可能領域を展開するように有効化"
+  },
+  "hideFixedOn": {
+    "message": "固定位置要素を非表示"
+  },
+  "hideFixedOnDesc": {
+    "message": "キャプチャを妨げる可能性のある固定位置要素を非表示にするように有効化"
+  },
+  "preScrollOn": {
+    "message": "事前スクロールによるウェブページ読み込み"
+  },
+  "preScrollOnDesc": {
+    "message": "多くのウェブ要素（例：画像）はスクロール時にのみ読み込まれます。有効にすると、自動的に検出され、スクリーンショットを撮る前にページ下部までスクロールします。"
+  },
+  "canBeDisabled": {
+    "message": "設定ページから無効にできます"
+  },
+  "analyzingPageForHTML": {
+    "message": "ウェブページのコードとコンテンツを分析中です。複雑なページでは時間がかかる場合があります。時間がかかりすぎる場合は、ウェブページを更新して再試行してください。"
+  },
+  "drawerSettings": {
+    "message": "設定"
+  },
+  "drawerScreenshotHistory": {
+    "message": "スクリーンショット履歴"
+  },
+  "drawerImageTools": {
+    "message": "スクリーンショット強化ツール"
+  },
+  "drawerHelpFeedback": {
+    "message": "よくある質問とフィードバック"
+  },
+  "drawerCloseMenu": {
+    "message": "メニューを閉じる"
+  },
+  "logoTooltip": {
+    "message": "さらに表示"
+  },
+  "pRecorderTabLabel": {
+    "message": "スクリーンレコーダー"
+  },
+  "pRecorderTitle": {
+    "message": "スクリーンレコーダー"
+  },
+  "pStartRecorder": {
+    "message": "画面録画を開始"
+  },
+  "pStartRecorderLabel": {
+    "message": "画面録画"
+  },
+  "pRecorderAlt": {
+    "message": "レコーダー"
+  },
+  "pStartRecorderAlt": {
+    "message": "スクリーンレコーダー"
+  },
+  "pRecorderBetaNotice": {
+    "message": "これはベータ版です"
+  },
+  "pRecorderFeedback": {
+    "message": "フィードバックを提供"
+  },
+  "downloadsPermission": {
+    "message": "ファイルダウンロードを許可"
+  },
+  "downloadsPermissionDesc": {
+    "message": "この権限は、スクリーンショットをコンピューターに直接保存するために必要です。"
+  },
+  "webNavigationPermission": {
+    "message": "ウェブナビゲーションアクセスを許可"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "この権限は、ページの変更を検出し、必要に応じて異なるページに移動するために必要です。"
+  },
+  "desktopCapturePermission": {
+    "message": "デスクトップキャプチャを許可"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "この権限は、デスクトップまたは特定のウィンドウからコンテンツをキャプチャするために必要です。"
+  },
+  "tabsPermission": {
+    "message": "タブアクセスを許可"
+  },
+  "tabsPermissionDesc": {
+    "message": "この権限は、ブラウザータブの情報をアクセスおよび管理するために必要です。"
+  },
+  "tabCapturePermission": {
+    "message": "タブキャプチャを許可"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "この権限は、ブラウザータブから音声と映像をキャプチャするために必要です。"
+  },
+  "allUrlsPermission": {
+    "message": "すべてのウェブサイトへのアクセスを許可"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "この権限は、任意のウェブサイトからスクリーンショットをキャプチャするために必要です。"
+  },
+  "fileUrlsPermission": {
+    "message": "ローカルファイルへのアクセスを許可"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "この権限は、ローカルファイル（file:// URL）からスクリーンショットをキャプチャするために必要です。"
+  },
+  "pIncludeImagesTooltip": {
+    "message": "ダウンロードに画像を含めるかどうか"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "この機能にはCocoShot Proが必要です"
+  },
+  "proUpgradeButton": {
+    "message": "Pro版にアップグレード"
+  },
+  "proSaveRestricted": {
+    "message": "このコンテンツを保存するにはCocoShot Proが必要です"
+  },
+  "qv_title": {
+    "message": "CocoShot プレビュー"
+  },
+  "qv_preview_mode": {
+    "message": "プレビューモード"
+  },
+  "qv_screenshot_preview": {
+    "message": "スクリーンショットのプレビュー"
+  },
+  "qv_download": {
+    "message": "ダウンロード"
+  },
+  "qv_edit": {
+    "message": "注釈、編集（PDFへのエクスポートも可能）"
+  },
+  "qv_hint": {
+    "message": "経験豊富なユーザーはこのページを自動的にスキップしてエディターに移動します。"
+  },
+  "recordTab": {
+    "message": "録画",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "マイビデオ",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "画面",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "タブ",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "カメラのみ",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "モックアップ",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "カスタムエリア録画が無効です",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Chromeを110以上に更新してください",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "更新",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "権限を確認してください",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShotがカメラまたはマイクにアクセスできないようです。この問題を解決するには、ブラウザ設定でブロックを解除し、必要な権限を付与してください。",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "閉じる",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "カメラのアクセスを許可",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "マイクのアクセスを許可",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "プッシュトゥトーク",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "録画エリアを設定",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "カメラを反転",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "背景効果",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "録画を開始",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "録画を開始中...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "カメラを選択",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "詳細オプション",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "システムオーディオ",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "ツールバーを隠す",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "カウントダウン",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "時間制限を設定",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "ブラー",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "なし",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "カメラなし",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "マイクなし",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "ソースを選択",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "オフ",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "幅",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "高さ",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "クリックして画像を配置",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "録画を完了",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "録画を再起動",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "録画を一時停止",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "録画を再開",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "録画をキャンセル",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "描画ツールを切り替え",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "ブラーツールを切り替え",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "カーソルオプションを切り替え",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "カメラを無効",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "カメラを有効",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "カメラ権限なし",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "カメラ設定",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "カメラをミラーリング",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "背景ブラー",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "マイクを無効",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "マイクを有効",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "マイク権限なし",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "ツールを選択",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "ペン工具",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "蛍光ペン",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "消しゴム",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "テキスト工具",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "図形工具",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "矢印工具",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "画像工具",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "元に戻す",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "やり直し",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "キャンバスをクリア",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "その他の色",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "太い線",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "中程度の線",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "細い線",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "ピクチャインピクチャモードを切り替え",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "塗りつぶしを切り替え",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "描画モード",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "ブラーモード",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "すべてのブラー要素をクリア",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "クリックをハイライト",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "カーソルをハイライト",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "スポットライトカーソル",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "再度表示しない",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "録画を再起動しますか？",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "現在の進行状況は失われます。",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "再起動",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "再開",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "録画を破棄しますか？",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "現在の進行状況は失われます。",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "破棄",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "再開",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "録画はここに保存されます",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "録画中...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "このタブを開いたままにしてください。録画が保存されると閉じます。",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "録画を準備中...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "このタブを開いたままにしてください。準備できたら録画に更新されます。",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "エディタ",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "キャンセル",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "元のに戻す",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "リセット",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "変更を保存",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "保存中...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "オーディオファイルをドラッグ＆ドロップ",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "またはクリックして参照",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "設定",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "音量",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "更新",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "トリミング",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "幅",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "高さ",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "左",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "上",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "ハンドルをドラッグして、左側のボタンで選択したセクションを編集してください。",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "動画をトリミング",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "トリミング中...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "セクションをカット",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "カット中...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "ミュート",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "ミュート中...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "詳細を見る。",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "元に戻す",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "やり直し",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "レビューを残してください！",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "現在オフラインです",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "再接続するまで一部機能は利用できません",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "再試行",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chromeを更新する必要があります",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "詳細機能にアクセスするには更新してください",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "詳細を見る",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "動画が長すぎてデバイスで処理できません",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "編集とMP4エクスポートは利用できません",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "動画をローカルで処理中...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "高速なクラウド版について学ぶ",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "編集",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "接続なし",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "利用不可",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "動画を編集",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "トリミング、カット、またはミュート",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "動画を準備中、お待ちください...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "トリミング",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "動画をトリミングしてリサイズ",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "オーディオを追加",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "動画を追加するために独自のオーディオをアップロード",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "保存",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Google Driveからログアウト",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "保存中...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Google Driveに保存",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "現在のバージョンをGoogle Driveに保存",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "ログインしてGoogle Driveに保存",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "ダウンロード中...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": ".webmとしてダウンロード",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": ".webm動画をエクスポート",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": ".mp4としてダウンロード",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": ".mp4動画をエクスポート（推奨）",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": ".gifとしてダウンロード",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "GIFをエクスポート（最大30秒）",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "既存のオーディオを置き換え",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "カーソルへズーム",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "録画中はページに留まる",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "マイクオフ警告",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "ヘルプ",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "録画が一時停止しました。再生ボタンを押して再開してください。",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShotには画面を録画する権限がありません",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "画面録画を有効にするには、権限 запросが表示されたときにCocoShotが画面をキャプチャすることを許可する必要があります。（拡張機能の設定でいつでも取り消すことができます。）",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "画面録画を有効にする",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "キャンセル",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "マイクがミュートされています",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "音声を録画に含める場合は、マイクをオンにする必要があります。オーディオなしで録画を続行しますか？",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "はい、続行",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "キャンセル",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "リラックス。カウントダウンを止めるにはどこかをクリックしてください。",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "フレーム間の間隔により、短い時間範囲の編集は不正確になる場合があります。",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "動画を処理中、再生が不正確または中断される場合があります。",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "トリミングに時間がかかる場合があります",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "高速処理のためにアップグレード",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "マイクが有効",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "マイクが無効",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "録画が3秒未満だったため、保存されませんでした。",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "UI通知を非表示",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "再度表示しない",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "未使用時はツールバーを隠す",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "録画を開始",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "録画を停止",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "新版CocoShotへようこそ！",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "更新の詳細を見る。",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "始める",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "録画の開始エラー",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "録画プロセス開始中にエラーが発生しました。ブラウザを再起動して再試行してください。問題が解決しない場合は、support@cocoshot.netまで联系我们。",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "最高品質",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "最後の動画を復元",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "問題はありますか？",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "録画が表示されませんか？",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "録画を完了しましたが、このページに動画が表示されない場合は、生のビデオデータをダウンロードしてみてください。または、バグレポートを提出して联系我们こともできます。",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "生のビデオデータをダウンロード",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "バグを報告",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "録画が見つかりません、ごめんなさい :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "メモリ制限に達しました",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "デバイスのメモリが不十分で、録画が自動的に終了되었습니다。長い動画を録画するには、ビデオ品質を下げるか、デバイスのストレージ空き容量を確保することを検討してください。",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "理解しました",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "空き容量不足",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot録画には少なくとも1GBの空き容量が必要です。容量を確保して再試行してください。",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "以前の録画をクリア",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "詳細設定",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "生のビデオファイルをダウンロード",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "元の録画データをエクスポート",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "録画のヘルプを取得",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "動画を回復し、他の問題を解決",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "生のビデオファイルをダウンロード",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "生のビデオファイルとは、CocoShotによって直接作成された加工されていない録画データです。このファイルは処理または編集されていないため非常大線で、一部のデバイスと互換性がない場合があります。処理されたバージョンに問題が生じた場合、このファイルを使用して元の録画を復元できます。",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "ダウンロード",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "オーディオウェーブフォームを表示",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "システム情報とビデオデータをダウンロードして、トラブルシューティングに送信",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "ファイルをダウンロードしたら、追加の詳細とともにsupport@cocoshot.netに送信してください。この情報を使用して、拡張機能の解決を支援し、可能であれば動画を回復します。",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "ダウンロード",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "動画が長すぎてデバイスで処理できません",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "CocoShotはプライバシーを優先し、完全にローカルデバイスで動作するため、ハードウェア能力に制約されています。この長さの動画を処理するには非常に時間がかかり、大量のシステムリソースが必要です。WEBMファイルまたは生の録画を取得できますが、編集機能とMP4エクスポートは利用できません。ただし、潜在的な課題を理解している場合は、動画を処理続行こともできます。",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "リスクを理解しましたが、試してみます",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "長い動画の処理について詳細を見る。",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "リカバリモード",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "トラブルシューティング用にデータをダウンロード",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "ヘルプセンター",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "コンピュータオーディオを録画",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "このページのオーディオを録画するには、'$tab$'に切り替える必要があります。",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "拡張機能はタブでサポートされていません",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShotは使用したタブと互換性がありません。このページから録画を開始して、そのタブに戻ることができますが、カメラフィードと編集ツールバーは表示されないことに注意してください。",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "CocoShot録画のローカルバックアップを設定",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "作成したすべての録画のコピーを維持します。バックアップを設定しないと、録画は明示的にダウンロードすることを選択した場合にのみ保存されます。",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Downloadsやその他のシステムディレクトリに録画を保存しようとしている場合は、事前に新しいフォルダを作成する必要がある場合があります。",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "フォルダを選択",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "今しない",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": "録画はローカルにバックアップされています",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "録画のたびに権限を求められるのを防ぐために、このタブを開いたままにすることをお勧めします。",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": " anywayタブを閉じる",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "すべての録画のバックアップを停止",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "ローカルCocoShotバックアップフォルダへのアクセスを再確認してください",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "恐れ入りますが、録画のバックアップを続けるには再度権限が必要です。ブラウザをシャットダウンまたは再起動するとこのタブが閉じるため、この権限は毎回要求されることをご理解ください。",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "CocoShotが録画のバックアップを続けることを許可",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "録画をバックアップ",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "録画をバックアップする権限が付与されていません",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "録画バックアップを保存するフォルダを選択していません。ブラウザバージョンやオペレーティングシステムによっては、録画を開始するたびにこのフォルダを選択するように求められる場合があります。セットアッププロセスを再試行するか、権限を繰り返し付与したくない場合はバックアップを完全にオフにすることができます。",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "コンピュータオーディオを録画",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "macOSシステムでは、個々のタブからのオーディオ録画に制限されています。Chrome Tab録画オプションを選択し、「タブオーディオを共有 also」設定がオンになっていることを確認してください。",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "コンピュータオーディオを録画",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "コンピュータからオーディオをキャプチャする場合は、「Share system audio」オプションがアクティブになっていることを確認してください。このオプションが表示されない場合は、Chromeを更新するか、タブ録画モードに切り替えてください。",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "最大解像度",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "最大FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "RAM不足",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "ウィンドウサイズ変更",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "この解像度には画面が小さすぎます",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "このデバイスではこの解像度で録画できません",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "権限拒否",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "録画にはカメラとマイクの権限が必要です。ブラウザ設定で権限を付与してください。",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "録画にはカメラの権限が必要です。ブラウザ設定で権限を付与してください。",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "録画にはマイクの権限が必要です。ブラウザ設定で権限を付与してください。",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "権限を修正",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "画面録画設定",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "時間",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "分",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "秒",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "カメラ権限をリクエスト中...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "マイク権限をリクエスト中...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "カメラ権限をリクエスト",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "マイク権限をリクエスト",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "権限を確認",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "オプションをカスタマイズ",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "録画済み動画",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "まだ録画された動画はありません",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "プッシュトゥミュート",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "カメラにアクセスするために権限が必要です",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "マイクにアクセスするために権限が必要です",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "確認",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "カラーピッカー",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "閉じる",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "画面から色を選択",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "このブラウザではEyeDropper APIがサポートされていません。Chrome 95+やEdge 95+などの最新ブラウザを使用してください。",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "ブラー領域を選択",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "すべてのブラー領域を削除",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "線幅",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "細",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "中",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "太",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "極太",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot Recordings",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "ローカルバックアップの設定に失敗しました。詳細についてはsupport@cocoshot.netまで联系我们。録画は続行できます。",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "ブラウザはローカルバックアップをサポートしていません。詳細についてはsupport@cocoshot.netまで联系我们。録画は続行できます。",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "ズームトゥカーソルの使用方法",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "録画中にキーボードショートカットを押しながらカーソル位置に向かってズームインします。キーを離すとズームアウトします。これは録画中に画面の特定のエリアを強調するのに最適です。",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "了解！",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "領域サイズ",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "プリセット",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "リセット",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "なし",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "ブラー",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "ボケ",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "画像",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "まずビデオファイルをロードしてください",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "WebMとしてダウンロード",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "MP4としてダウンロード",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "変換中...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "チャンクを処理中:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "動画サイズが推奨制限（最大1GB）を超えているため、処理が失敗する可能性があります",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "大きな動画（1GB）をロードしています。処理に時間がかかる場合があります。続行しますか？",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "サポートされていない動画形式です。別の動画形式を試してください。",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "ダウンロードに失敗しました。再試行してください。",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4変換が利用できません",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "この動画が大きすぎてブラウザでMP4に変換できません。代わりにWebMとしてダウンロードしてください。",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "MP4に変換中...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "動画のダウンロードに失敗しました。再試行してください。",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "動画を編集",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "近日公開。",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "動画プレビュー",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "ストレージに書き込み中...",
+    "description": "Message shown when writing video to storage"
+  }
+}

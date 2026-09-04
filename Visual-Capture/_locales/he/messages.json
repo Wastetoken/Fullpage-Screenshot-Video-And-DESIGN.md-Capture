@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: צילום מסך ומקליט מסך"
+  },
+  "extDescription": {
+    "message": "צלם צילומי מסך של דף מלא והקלט מסך ל-MP4 עם הערות. ייצוא PDF עם קישורים לחיצים כלול."
+  },
+  "pDisable": {
+    "message": "מושבת בדף זה"
+  },
+  "pDisableDesc": {
+    "message": "אתם יכולים להריץ את זה בכל דף אינטרנט, מלבד דפים שבהם הדפדפן מגביל את הרצת הסקריפטים של התוספים. זה כולל את חנות התוספים, דפי הגדרות הדפדפן ודפי תוספים אחרים."
+  },
+  "pDisableExp": {
+    "message": "הגבלה זו נובעת מהדפדפן עצמו בגלל סיכוני אבטחה."
+  },
+  "pDisableTry": {
+    "message": "אתם יכולים לפתוח דף חדש ולנסות את פונקציית הצילום."
+  },
+  "pStart": {
+    "message": "התחל"
+  },
+  "pFileUrl": {
+    "message": "עבור ל-\"edge://extensions/\" וסמן את התיבה \"אפשר גישה לכתובות URL של קבצים\"."
+  },
+  "pCaptV": {
+    "message": "צלמו צילום מסך של החלקים הנראים בדף."
+  },
+  "pAsOne": {
+    "message": "שמור כקובץ HTML אחד."
+  },
+  "pDesktop": {
+    "message": "צלמו צילומי מסך של דף אינטרנט נתון, טאב, חלון או כל המסך."
+  },
+  "pCaptFull": {
+    "message": "צלמו צילום מסך של דף מלא."
+  },
+  "pDesableOpt": {
+    "message": "או שאתם יכולים לנסות:"
+  },
+  "pAreaCut": {
+    "message": "בחרו חלק מהדף כדי לצלם צילום מסך"
+  },
+  "fullpageTooLarge": {
+    "message": "הערה: הדפדפן לא יכול לצלם את כל הדף כתמונה אחת בגלל גודלו. במקום זאת, הוא יחולק ל-<strong>$1</strong> תמונות נפרדות."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "אזהרה: תוספת זו אינה מיועדת לצילום תוכן גדול במיוחד. ייתכן שלא תוכל להשלים בהצלחה את צילום הדף הזה."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "דרוש הרשאה נוספת"
+  },
+  "framePermDesc": {
+    "message": "האתר מציג תוכן דרך iframe מוטמע, מה שדורש הרשאות נוספות לגישה."
+  },
+  "WhatisIframe": {
+    "message": "לחץ כדי ללמוד מה זה iframe."
+  },
+  "framePermMore": {
+    "message": "ייתכן שתצטרך להפעיל מחדש את ההרחבה לאחר השימוש בדיאלוג. ביטול יתפוס רק את המסך הנראה."
+  },
+  "framePermConfirm": {
+    "message": "האפשר"
+  },
+  "framePermSave": {
+    "message": "שמור הרשאה זו לשימוש מאוחר יותר (תוכל לבטל אותה בכל עת)."
+  },
+  "error": {
+    "message": "שגיאה"
+  },
+  "captureError": {
+    "message": "הקלטה נכשלה, אנא נסה מאוחר יותר. אם הבעיה נמשכת, צור קשר עם המפתח ב-$1"
+  },
+  "btnOk": {
+    "message": "אישור"
+  },
+  "btnCancel": {
+    "message": "ביטול"
+  },
+  "saveFramePermission": {
+    "message": "אפשר ללכוד תוכן מכל המסגרות"
+  },
+  "permissions": {
+    "message": "הרשאות"
+  },
+  "saveframepDesc": {
+    "message": "ההרשאה הזו דרושה כדי ללכוד תוכן מ-iframe או frameset בעמוד. השבתה שלה עשויה להגביל את היכולת ללכוד אלמנטים מסוימים בעמוד."
+  },
+  "processingScreenshot": {
+    "message": "מעבד צילום מסך..."
+  },
+  "screenshotSaved": {
+    "message": "צילום המסך נשמר בתיקיית ההורדות"
+  },
+  "screenshotLoadFailed": {
+    "message": "הטענת צילום המסך נכשלה. אנא נסה שוב."
+  },
+  "getScreenshotFailed": {
+    "message": "הצילום המסך נכשל. אנא נסה שוב."
+  },
+  "processingAllAreas": {
+    "message": "מעבד צילומי מסך של כל האזורים..."
+  },
+  "allAreasSaved": {
+    "message": "נשמרו בהצלחה צילומי מסך של $1 אזורים"
+  },
+  "areaNotVisible": {
+    "message": "האזור הנבחר כמעט כולו מחוץ לטווח הנראה ואי אפשר לצלם אותו."
+  },
+  "partiallyVisible": {
+    "message": "חלק מהאזור מחוץ לטווח הנראה. החלק הנראה נצבר."
+  },
+  "partiallyVisibleArea": {
+    "message": "חלק מהאזור הנבחר מחוץ לטווח הנראה. החלק הנראה נצבר."
+  },
+  "areaOutOfView": {
+    "message": "האזור הנבחר מחוץ לטווח הנראה. גלול את הדף כדי להפוך את האזור לגלוי ונסה שוב."
+  },
+  "processingError": {
+    "message": "שגיאה בעיבוד צילום מסך: $1"
+  },
+  "saveFailed": {
+    "message": "שמירת צילום המסך נכשלה: $1"
+  },
+  "smartModeEnabled": {
+    "message": "מצב צילום מסך חכם מופעל. לחץ כדי לבחור אלמנט לצילום (Enter לאישור, Esc לביטול)."
+  },
+  "processing": {
+    "message": "מעבד העתקה..."
+  },
+  "copyFailed": {
+    "message": "ההעתקה נכשלה: $1"
+  },
+  "canvasContextError": {
+    "message": "ההעתקה נכשלה: לא ניתן לקבל הקשר Canvas."
+  },
+  "copied": {
+    "message": "הועתק ללוח"
+  },
+  "clipboardAccessDenied": {
+    "message": "ההעתקה נכשלה: הגישה ללוח נדחתה, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "ההעתקה נכשלה: API של הלוח אינו נתמך"
+  },
+  "imageDataCreateFailed": {
+    "message": "ההעתקה נכשלה: לא ניתן ליצור נתוני תמונה"
+  },
+  "copyAreaOutOfView": {
+    "message": "ההעתקה נכשלה: האזור הנבחר מחוץ לטווח הנראה"
+  },
+  "imagePreviewShown": {
+    "message": "תצוגת התמונה מוצגת. לחץ ימני להעתקה."
+  },
+  "escape": {
+    "message": "ביטול (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "איכות התמונה הוגדרה ל: $1"
+  },
+  "qrDecoding": {
+    "message": "מפענח קוד QR..."
+  },
+  "qrSuccess": {
+    "message": "קוד QR פוענח בהצלחה. הועתק ללוח."
+  },
+  "qrNoQRFound": {
+    "message": "לא נמצא קוד QR חוקי"
+  },
+  "qrError": {
+    "message": "פיענוח קוד QR נכשל: $1"
+  },
+  "saveArea": {
+    "message": "שמור אזור זה"
+  },
+  "copyToClipboard": {
+    "message": "העתק בחירה זו (נבחרת כעת)"
+  },
+  "saveAllAreas": {
+    "message": "שמור את כל האזורים"
+  },
+  "keepAndContinue": {
+    "message": "הוסף בחירה חדשה"
+  },
+  "cancel": {
+    "message": "בטל"
+  },
+  "lockSize": {
+    "message": "נעל גודל"
+  },
+  "lockSizeActive": {
+    "message": "✓ נעל גודל"
+  },
+  "freeRatio": {
+    "message": "יחס חופשי"
+  },
+  "ratioLabel": {
+    "message": "בחר יחס"
+  },
+  "aiDialog": {
+    "message": "דיאלוג חכם"
+  },
+  "fileSizeEstimate": {
+    "message": "כ- $1 $2"
+  },
+  "qrDecode": {
+    "message": "פענח קוד QR"
+  },
+  "removeBackground": {
+    "message": "הסר רקע"
+  },
+  "processingBackgroundRemoval": {
+    "message": "מסיר רקע..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "הסרת הרקע נכשלה: שגיאת טעינת תמונה"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "הסרת הרקע נכשלה: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "הרקע הוסר והועתק ללוח"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "הסרת הרקע נכשלה: לא ניתן ליצור Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "האזור הנבחר מחוץ לטווח הנראה"
+  },
+  "screenshotFailed": {
+    "message": "צילום המסך נכשל: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "עיבוד תמונה נכשל, אנא נסה שוב"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "אזור צילום המסך מחוץ לטווח הנראה"
+  },
+  "errorProcessingImage": {
+    "message": "שגיאה בעיבוד תמונה: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "ספריית פענוח קוד QR לא נטענה"
+  },
+  "qrDecodingFailed": {
+    "message": "פענוח קוד QR נכשל: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "לא נמצא קוד QR באזור הנבחר"
+  },
+  "qrDecodingSuccess": {
+    "message": "פיענוח קוד QR הצליח: $1"
+  },
+  "qrDecodingError": {
+    "message": "שגיאת פענוח קוד QR: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "הסרת הרקע נכשלה: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "אנא בחר תחילה אזור צילום מסך"
+  },
+  "aiDialogTitle": {
+    "message": "נהל שיחה אינטליגנטית על תוכן צילום המסך"
+  },
+  "qrDecodeTitle": {
+    "message": "פענח קוד QR בצילום המסך"
+  },
+  "lockSizeTitle": {
+    "message": "נעל את הגודל הנוכחי לצילום רציף"
+  },
+  "moveHint": {
+    "message": "גרור את אזור הבחירה (Space + גרירה)"
+  },
+  "saveAreaTooltip": {
+    "message": "שמור את האזור הנוכחי"
+  },
+  "saveAllAreasTooltip": {
+    "message": "שמור את כל האזורים שנבחרו"
+  },
+  "copyToClipboardTooltip": {
+    "message": "העתק צילום מסך ללוח"
+  },
+  "moreOptions": {
+    "message": "אפשרויות נוספות"
+  },
+  "removeBgTooltip": {
+    "message": "הסר רקע והעתק ללוח"
+  },
+  "ratioLabelTooltip": {
+    "message": "בחר יחס גודל"
+  },
+  "keepAndContinueTooltip": {
+    "message": "שמור את הבחירה הנוכחית והמשך"
+  },
+  "pCaptureTabLabel": {
+    "message": "צילום מסך"
+  },
+  "pAiToolsTabLabel": {
+    "message": "כלי בינה מלאכותית"
+  },
+  "pCaptureTitle": {
+    "message": "צילום מסך של עמוד מלא ואזור מסך נבחר"
+  },
+  "pAiToolsTitle": {
+    "message": "כלים הקשורים לבינה מלאכותית"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "כלים לייצוא תוכן אינטרנט"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "כלי תמונה"
+  },
+  "pDownloadAsMD": {
+    "message": "הורד כ-Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "הורד כ-PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "הורד את דף האינטרנט הנוכחי כקובץ Markdown"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "הורד את דף האינטרנט הנוכחי כקובץ PDF"
+  },
+  "pImageProcessing": {
+    "message": "עיבוד תמונה"
+  },
+  "pImageProcessingTooltip": {
+    "message": "אוסף כלים לעיבוד תמונה"
+  },
+  "fixThePage": {
+    "message": "תקן את הדף"
+  },
+  "expandScrollableOn": {
+    "message": "הרחב אזורים ניתנים לגלילה"
+  },
+  "expandScrollableOnDesc": {
+    "message": "אפשר הרחבת אזורים ניתנים לגלילה בתוך דף האינטרנט לפני צילום מסך"
+  },
+  "hideFixedOn": {
+    "message": "הסתר רכיבים במיקום קבוע"
+  },
+  "hideFixedOnDesc": {
+    "message": "אפשר הסתרת רכיבים במיקום קבוע שעלולים להפריע לצילום"
+  },
+  "preScrollOn": {
+    "message": "טעינה מוקדמת של דף האינטרנט בגלילה"
+  },
+  "preScrollOnDesc": {
+    "message": "רכיבי אינטרנט רבים (למשל, תמונות) נטענים רק בגלילה. כאשר אפשרות זו מופעלת, היא מזהה וגוללת אוטומטית לתחתית הדף לפני צילום מסך."
+  },
+  "canBeDisabled": {
+    "message": "ניתן להשבית דרך דף ההגדרות"
+  },
+  "analyzingPageForHTML": {
+    "message": "מנתח את קוד ותוכן דף האינטרנט, דפים מורכבים עשויים להימשך זמן רב יותר. אם זה לוקח יותר מדי זמן, רענן את דף האינטרנט ונסה שוב."
+  },
+  "drawerSettings": {
+    "message": "הגדרות"
+  },
+  "drawerScreenshotHistory": {
+    "message": "היסטוריית צילומי מסך"
+  },
+  "drawerImageTools": {
+    "message": "כלים לשיפור צילום מסך"
+  },
+  "drawerHelpFeedback": {
+    "message": "שאלות נפוצות ומשוב"
+  },
+  "drawerCloseMenu": {
+    "message": "סגור תפריט זה"
+  },
+  "logoTooltip": {
+    "message": "הצג עוד"
+  },
+  "pRecorderTabLabel": {
+    "message": "מקליט מסך"
+  },
+  "pRecorderTitle": {
+    "message": "מקליט מסך"
+  },
+  "pStartRecorder": {
+    "message": "התחל הקלטת מסך"
+  },
+  "pStartRecorderLabel": {
+    "message": "הקלטת מסך"
+  },
+  "pRecorderAlt": {
+    "message": "מקליט"
+  },
+  "pStartRecorderAlt": {
+    "message": "מקליט מסך"
+  },
+  "pRecorderBetaNotice": {
+    "message": "זוהי גרסה ניסיונית"
+  },
+  "pRecorderFeedback": {
+    "message": "שליחת משוב"
+  },
+  "downloadsPermission": {
+    "message": "לאפשר הורדות קבצים"
+  },
+  "downloadsPermissionDesc": {
+    "message": "הרשאה זו נדרשת כדי לשמור צילומי מסך ישירות למחשב שלך."
+  },
+  "webNavigationPermission": {
+    "message": "לאפשר גישת ניווט באינטרנט"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "הרשאה זו נדרשת כדי לזהות שינויי דף ולנווט לדפים שונים כשנדרש."
+  },
+  "desktopCapturePermission": {
+    "message": "לאפשר לכידת שולחן עבודה"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "הרשאה זו נדרשת כדי לקלוט תוכן משולחן העבודה שלך או מחלונות מסוימים."
+  },
+  "tabsPermission": {
+    "message": "לאפשר גישת כרטיסיות"
+  },
+  "tabsPermissionDesc": {
+    "message": "הרשאה זו נדרשת כדי לגשת ולנהל מידע של כרטיסיות דפדפן."
+  },
+  "tabCapturePermission": {
+    "message": "לאפשר לכידת כרטיסייה"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "הרשאה זו נדרשת כדי לקלוט שמע ווידאו מכרטיסיות דפדפן."
+  },
+  "allUrlsPermission": {
+    "message": "לאפשר גישה לכל האתרים"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "הרשאה זו נדרשת כדי לצלם מסך מכל אתר."
+  },
+  "fileUrlsPermission": {
+    "message": "לאפשר גישה לקבצים מקומיים"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "הרשאה זו נדרשת כדי לצלם מסך מקבצים מקומיים (כתובות file://)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "האם לכלול תמונות בהורדה"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "תכונה זו מצריכה את CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "שדרוג לגרסה Pro"
+  },
+  "proSaveRestricted": {
+    "message": "שמירה של תוכן זה מצריכה את CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "תצוגה מקדימה של CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "מצב תצוגה מקדימה"
+  },
+  "qv_screenshot_preview": {
+    "message": "תצוגה מקדימה של צילום מסך"
+  },
+  "qv_download": {
+    "message": "הורדה"
+  },
+  "qv_edit": {
+    "message": "הוספת הערות, עריכה (ניתן גם לייצא ל-PDF)"
+  },
+  "qv_hint": {
+    "message": "משתמשים מנוסים ידולגו אוטומטית על דף זה ויעברו לעורך."
+  },
+  "recordTab": {
+    "message": "הקלטה",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "הסרטונים שלך",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "מסך",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "כרטיסייה",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "מצלמה בלבד",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "מוקאפ",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "הקלטת אזור מותאם אישית מושבתת",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "עדכן את Chrome לגרסה 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "עדכון",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "בדוק את ההרשאות שלך",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "נראה של-CocoShot אין גישה למצלמה או למיקרופון שלך. כדי לפתור בעיה זו, בטל את החסימה בהגדרות הדפדפן שלך והעניק את ההרשאות הנדרשות.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "סגור",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "אפשר גישה למצלמה",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "אפשר גישה למיקרופון",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "לחץ לדיבור",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "הגדר אזור הקלטה",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "הפוך מצלמה",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "אפקטי רקע",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "התחל הקלטה",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "מתחיל הקלטה...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "בחר מצלמה",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "עוד אפשרויות",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "אודיו מערכת",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "הסתר סרגל כלים",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "ספירה לאחור",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "הגדר מגבלת זמן",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "טשטוש",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "אין",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "אין מצלמה",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "אין מיקרופון",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "בחר מקור",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "כבוי",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "רוחב",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "גובה",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "לחץ להוספת תמונה",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "סיים הקלטה",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "הפעל מחדש הקלטה",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "השהה הקלטה",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "המשך הקלטה",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "בטל הקלטה",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "הפעל/כבה כלי ציור",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "הפעל/כבה כלי טשטוש",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "הפעל/כבה אפשרויות סמן",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "כבה מצלמה",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "הפעל מצלמה",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "אין הרשאות מצלמה",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "הגדרות מצלמה",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "שקף מצלמה",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "טשטוש רקע",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "כבה מיקרופון",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "הפעל מיקרופון",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "אין הרשאות מיקרופון",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "בחר כלי",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "כלי עט",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "כלי הדגשה",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "מחק",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "טקסט",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "צורה",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "חץ",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "תמונה",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "בטל",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "בצע שוב",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "נקה בד",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "עוד צבעים",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "קו עבה",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "קו בינוני",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "קו דק",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "הפעל/כבה מצב תמונה בתוך תמונה",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "הפעל/כבה מילוי",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "מצב ציור",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "מצב טשטוש",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "נקה את כל האלמנטים המטושטשים",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "הדגש לחיצות",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "הדגש סמן",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "סמן זרקור",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "אל תציג שוב",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "להפעיל מחדש הקלטה?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "ההתקדמות הנוכחית שלך תאבד.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "הפעל מחדש",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "המשך",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "לבטל הקלטה?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "ההתקדמות הנוכחית שלך תאבד.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "בטל",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "המשך",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "ההקלטה שלך תישמר כאן",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "מקליט...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "השאר כרטיסייה זו פתוחה. היא תיסגר ברגע שההקלטה שלך תישמר.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "מכין הקלטה...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "השאר כרטיסייה זו פתוחה. היא תתעדכן עם ההקלטה שלך כשתהיה מוכנה.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "עורך",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "ביטול",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "שחזר למקור",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "איפוס",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "שמור שינויים",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "שומר...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "גרור ושחרר את קובץ האודיו שלך",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "או לחץ לעיון",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "הגדרות",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "עוצמת קול",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "עדכן",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "חתוך",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "רוחב",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "גובה",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "שמאל",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "למעלה",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "גרור את הידיות והשתמש בלחצנים משמאל לעריכת החלק הנבחר.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "חתוך סרטון",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "חותך...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "גזור חלק",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "חותך...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "השתק אודיו",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "משתיק...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "למד עוד.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "בטל",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "בצע שוב",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "השאר ביקורת, זה עוזר!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "אתה כרגע במצב לא מקוון",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "חלק מהתכונות אינן זמינות עד להתחברות מחדש",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "נסה שוב",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "יש לעדכן את Chrome",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "עדכן כדי לגשת לתכונות נוספות",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "למד עוד",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "הסרטון ארוך מדי לעיבוד במכשיר",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "עריכה וייצוא MP4 אינם זמינים",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "הסרטון מעובד מקומית...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "למד על הגרסה המהירה יותר בענן",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "ערוך",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "אין חיבור",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "לא זמין",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "ערוך סרטון",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "חתוך, גזור או השתק את הסרטון",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "מכין סרטון, אנא המתן...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "חתוך",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "חתוך ושנה גודל סרטון",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "הוסף אודיו",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "העלה את האודיו שלך כדי להוסיף לסרטון",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "שמור",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "התנתק מ-Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "שומר...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "שמור ב-Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "שמור את הגרסה הנוכחית ב-Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "התחבר ושמור ב-Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "מוריד...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "הורד כ-.webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "ייצא סרטון .webm",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "הורד כ-.mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "ייצא סרטון .mp4 (מומלץ)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "הורד כ-.gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "ייצא GIF (מקסימום 30 שניות)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "החלף אודיו קיים",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "זום לסמן",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "הישאר בדף במהלך הקלטה",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "אזהרת מיקרופון כבוי",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "עזרה",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "ההקלטה מושהית. לחץ על לחצן ההפעלה כדי להמשיך.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "ל-CocoShot אין הרשאה להקליט את המסך שלך",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "כדי שהקלטת מסך תעבוד, עליך לאפשר ל-CocoShot ללכוד את המסך שלך כשתופיע בקשת ההרשאה.",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "הפעל הקלטת מסך",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "ביטול",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "המיקרופון שלך מושתק",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "אם אתה רוצה שהקול שלך ייכלל בהקלטה, עליך להפעיל את המיקרופון.",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "כן, המשך",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "ביטול",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "הירגע. לחץ בכל מקום כדי לעצור את הספירה לאחור.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "הערוכות עשויות להיות לא מדויקות עבור טווחי זמן קצרים.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "הסרטון מעובד, ההפעלה עשויה להיות לא מדויקת.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "החיתוך עשוי לקחת זמן מה",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "שדרג לעיבוד מהיר יותר",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "מיקרופון מופעל",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "מיקרופון מושבת",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "ההקלטה הייתה קצרה מ-3 שניות ולא נשמרה.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "הסתר התראות ממשק משתמש",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "אל תציג שוב",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "הסתר סרגל כלים כשלא בשימוש",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "התחל הקלטה",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "עצור הקלטה",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "ברוך הבא ל-CocoShot החדש!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "למד עוד על העדכון.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "התחל",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "שגיאה בהתחלת ההקלטה",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "התרחשה שגיאה בעת התחלת תהליך ההקלטה.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "איכות הגבוהה ביותר",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "שחזר את ההקלטה האחרונה",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "יש בעיות?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "אינך רואה את ההקלטה שלך?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "אם סיימת להקליט אך אינך רואה את הסרטון, תוכל לנסות להוריד את נתוני הסרטון הגולמיים.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "הורד נתוני סרטון גולמיים",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "דווח על באג",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "לא נמצאה הקלטה, מצטערים :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "הגעת למגבלת זיכרון",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "למכשירך אין מספיק זיכרון להקלטה.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "הבנתי",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "אין מספיק מקום",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot צריך לפחות 1GB מקום פנוי להקלטה.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "נקה הקלטות קודמות",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "מתקדם",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "הורד קובץ סרטון גולמי",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "ייצא את נתוני ההקלטה המקוריים",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "קבל עזרה עם ההקלטה",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "שחזר את הסרטון שלך ופתור בעיות אחרות",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "הורד קובץ סרטון גולמי",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "הקובץ הגולמי מתייחס להקלטה שלא שונתה על ידי CocoShot.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "הורד",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "הצג גל אודיו",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "הורד מידע מערכת ונתוני סרטון לפתרון בעיות",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "לאחר הורדת הקובץ, שלח אותו אלינו עם פרטים נוספים.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "הורד",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "הסרטון ארוך מדי לעיבוד במכשירך",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "הסרטון ארוך מדי וידרוש משאבי מערכת רבים.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "אני מבין את הסיכון, נסה בכל זאת",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "למד עוד על עיבוד סרטונים ארוכים.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "מצב שחזור",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "הורד נתונים לפתרון בעיות",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "מרכז עזרה",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "הקלט צליל מחשב",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "כדי להקליט צליל מדף זה, עליך לעבור ל'$tab$'.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "ההרחבה אינה נתמכת בכרטיסייה",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot אינו תואם לכרטיסייה שבה השתמשת.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "הגדר גיבוי מקומי להקלטות CocoShot שלך",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "שמור עותקים של כל הקלטה שאתה יוצר.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "ייתכן שתצטרך ליצור תיקיה חדשה לפני השמירה.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "בחר תיקייה",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "לא עכשיו",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " ההקלטות שלך מגובות מקומית",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "אנו ממליצים להשאיר את הכרטיסייה הזו פתוחה.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "סגור כרטיסייה בכל מקרה",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "עצור גיבוי של כל ההקלטות",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "אנא אשר גישה לתיקיית הגיבוי המקומית שלך",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "אנו זקוקים לאישורך כדי להמשיך לגבות את ההקלטות שלך.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "אפשר ל-CocoShot להמשיך לגבות הקלטות",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "גבה הקלטות",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "לא ניתנה הרשאה לגבות את ההקלטה",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "לא בחרת תיקייה לאחסון גיבויי ההקלטות שלך.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "הקלט צליל מחשב",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "במערכות macOS אתה מוגבל להקלטת צליל מכרטיסיות בודדות.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "הקלט צליל מחשב",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "ודא שהאפשרות 'שתף צליל מערכת' מופעלת.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "רזולוציה מקסימלית",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "קצת FPS מקסימלי",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "אין מספיק RAM",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "שנה גודל חלון",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "המסך קטן מדי עבור רזולוציה זו",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "לא ניתן להקליט ברזולוציה זו במכשירך",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "ההרשאה נדחתה",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "נדרשות הרשאות מצלמה ומיקרופון להקלטה.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "נדרשת הרשמת מצלמה להקלטה.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "נדרשת הרשמת מיקרופון להקלטה.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "תקן הרשאות",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "הגדרות הקלטת מסך",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "ש'",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "ד'",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "ש'",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "מבקש הרשמת מצלמה...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "מבקש הרשמת מיקרופון...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "בקש הרשמת מצלמה",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "בקש הרשמת מיקרופון",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "סקור הרשאות",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "התאם אפשרויות",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "סרטונים מוקלטים",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "עדיין לא הוקלטו סרטונים",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "לחץ להשתקה",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "אנו צריכים את הרשאתך לגשת למצלמתך",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "אנו צריכים את הרשאתך לגשת למיקרופון שלך",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "סקור",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "בוחר צבעים",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "סגור",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "בחר צבע מהמסך",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API אינו נתמך בדפדפן זה.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "בחר אזור טשטוש",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "מחק את כל אזורי הטשטוש",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "רוחב קו",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "דק",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "בינוני",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "עבה",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "עבה מאוד",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot Recordings",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "הגדרת הגיבוי המקומי נכשלה.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "הדפדפן שלך אינו תומך בגיבויים מקומיים.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "כיצד להשתמש בזום לסמן",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "במהלך הקלטה, החזק את קיצור המקלדת כדי להתקרב לסמן.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "הבנתי!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "גודל אזור",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "קבועים מהירים",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "איפוס",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "אין",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "טשטוש",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "בוקה",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "תמונה",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "נא לטעון קובץ סרטון קודם",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "הורד כ-WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "הורד כ-MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "ממיר...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "מעבד חלקים:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "גודל הסרטון עולה על המגבלה המומלצת",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "אתה טוען סרטון גדול. העיבוד עשוי להימשך זמן רב.",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "פורמט הסרטון אינו נתמך.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "ההורדה נכשלה. נסה שוב.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "המרת MP4 אינה זמינה",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "הסרטון גדול מדי להמרה ל-MP4 בדפדפן.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "ממיר ל-MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "הורדת הסרטון נכשלה. נסה שוב.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "ערוך סרטון",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "בקרוב.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "תצוגה מקדימה של סרטון",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "אישור",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "כותב לאחסון...",
+    "description": "Message shown when writing video to storage"
+  }
+}

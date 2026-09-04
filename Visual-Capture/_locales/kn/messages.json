@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಮತ್ತು ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡರ್"
+  },
+  "extDescription": {
+    "message": "ಪೂರ್ಣ ಪುಟದ ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳನ್ನು ಸೆರೆಹಿಡಿಯಿರಿ ಮತ್ತು ಟಿಪ್ಪಣಿಗಳೊಂದಿಗೆ ಪರದೆಯನ್ನು MP4 ಗೆ ರೆಕಾರ್ಡ್ ಮಾಡಿ. ಕ್ಲಿಕ್ ಮಾಡಬಹುದಾದ ಲಿಂಕ್‌ಗಳೊಂದಿಗ..."
+  },
+  "pDisable": {
+    "message": "ಈ ಪುಟದಲ್ಲಿ ಅಕ್ಷಮಗೊಳಿಸಲಾಗಿದೆ"
+  },
+  "pDisableDesc": {
+    "message": "ನೀವು ಯಾವುದೇ ವೆಬ್‌ಪುಟದಲ್ಲಿ ಇದನ್ನು ನಡೆಸಬಹುದು, ಬ್ರೌಸರ್ స్క್ರಿಪ್ಟ್ ಓಡಿಸಲು ಮಿತಿಗಳಿಂದ ಹೊರತುಪಡಿಸಿ. ಇದು ವಿಸ್ತರಣಾ ವೆಬ್ ಅಂಗಡಿಯು, ಬ್ರೌಸರ್ ಹೊಂದಾಣಿಕೆ ಪುಟಗಳು ಮತ್ತು ಇತರ ವಿಸ್ತರಣಾ ಪುಟಗಳನ್ನು ಒಳಗೊಂಡಿದೆ."
+  },
+  "pDisableExp": {
+    "message": "ಈ ಮಿತಿಯನ್ನು ಸುರಕ್ಷತಾ ಅಪಾಯಗಳಿಂದ ಬ್ರೌಸರ್ ಸ್ವತಃ ಉಂಟುಮಾಡುತ್ತದೆ."
+  },
+  "pDisableTry": {
+    "message": "ನೀವು ಹೊಸ ಪುಟವನ್ನು ತೆರೆಯಬಹುದು ಮತ್ತು ಸೆರೆಹಿಡಿಯುವ ಕಾರ್ಯವನ್ನು ಪ್ರಯತ್ನಿಸಬಹುದು."
+  },
+  "pStart": {
+    "message": "ಆರಂಭಿಸಿ"
+  },
+  "pFileUrl": {
+    "message": "“edge://extensions/” ಗೆ ಹೋಗಿ, “ಫೈಲ್ URLಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಿ” ಎಂಬ ಪರಿಕರವನ್ನು ಚೆಕ್ ಮಾಡಿ."
+  },
+  "pCaptV": {
+    "message": "ಪುಟದ ಕಾಣುವ ಭಾಗಗಳ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಸೆರೆಹಿಡಿಯಿರಿ."
+  },
+  "pAsOne": {
+    "message": "ಒಂದೇ HTML ಫೈಲ್ ಆಗಿ ಉಳಿಸಿ."
+  },
+  "pDesktop": {
+    "message": "ನಿಯೋಜಿತ ವೆಬ್‌ಪುಟ, ಟ್ಯಾಬ್, ವಿಂಡೋ ಅಥವಾ ಸಂಪೂರ್ಣ ಪರದೆಯ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಸೆರೆಹಿಡಿಯಿರಿ."
+  },
+  "pCaptFull": {
+    "message": "ಸಂಪೂರ್ಣ ಪುಟದ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಸೆರೆಹಿಡಿಯಿರಿ."
+  },
+  "pDesableOpt": {
+    "message": "ಅಥವಾ ನೀವು ಪ್ರಯತ್ನಿಸಬಹುದು:"
+  },
+  "pAreaCut": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಸೆರೆಹಿಡಿಯಲು ಪುಟದ ಭಾಗವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
+  },
+  "fullpageTooLarge": {
+    "message": "ಗಮನಿಸಿ: ಬ್ರೌಸರ್ ಅದರ ಗಾತ್ರದ ಕಾರಣದಿಂದ ಪೂರ್ಣ ಪುಟವನ್ನು ಒಂದು ಚಿತ್ರವಾಗಿ ಸೆರೆಹಿಡಿಯಲು ಸಾಧ್ಯವಿಲ್ಲ. ಬದಲಿಗೆ, ಅದು <strong>$1</strong> ಪ್ರತ್ಯೇಕ ಚಿತ್ರಗಳಾಗಿ ವಿಭಜಿಸಲ್ಪಡುತ್ತದೆ."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "ಎಚ್ಚರಿಕೆ: ಈ ವಿಸ್ತರಣೆಯು ಅತ್ಯಂತ ದೊಡ್ಡ ವಿಷಯವನ್ನು ಸೆರೆಹಿಡಿಯಲು ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿಲ್ಲ. ಇದು ಈ ಪುಟದ ಕ್ಯಾಪ್ಚರ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಪೂರ್ಣಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗದಿರಬಹುದು."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "ಹೆಚ್ಚು ಅನುಮತಿ ಅಗತ್ಯವಿದೆ"
+  },
+  "framePermDesc": {
+    "message": "ಈ ವೆಬ್‌ಸೈಟ್ ಇಂಬೆಡ್ಡೆಡ್ ಐಫ್ರೆಮ್ ಮೂಲಕ ವಿಷಯವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ, ಇದನ್ನು ಪ್ರವೇಶಿಸಲು ಹೆಚ್ಚಿನ ಅನುಮತಿ ಬೇಕಾಗುತ್ತದೆ."
+  },
+  "WhatisIframe": {
+    "message": "ಐಫ್ರೆಮ್ ಎಂದರೇನು ಎಂದು ತಿಳಿಯಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
+  },
+  "framePermMore": {
+    "message": "ಈ ಸಂವಾದವستخدمಿಸಿದ ನಂತರ ನೀವು ವಿಸ್ತರಣೆ ಪುನಃ ಪ್ರಾರಂಭಿಸಬೇಕಾಗಬಹುದು. ರದ್ದು ಮಾಡುವುದು ಕೇವಲ ಕಾಣಿಸುವ ಪರದೆಯನ್ನಷ್ಟೇ ಸೆರೆಹಿಡಿಯುತ್ತದೆ."
+  },
+  "framePermConfirm": {
+    "message": "ಅನುಮತಿಸಿ"
+  },
+  "framePermSave": {
+    "message": "ಈ ಅನುಮತಿಯನ್ನು ನಂತರ ಬಳಸಲು ಉಳಿಸಿ (ನೀವು ಯಾವಾಗಲೂ ಇದನ್ನು ರದ್ದುಪಡಿಸಬಹುದು)."
+  },
+  "error": {
+    "message": "ದೋಷ"
+  },
+  "captureError": {
+    "message": "ಪ ಹಿಡಿಯುವಿಕೆ ವಿಫಲವಾಗಿದೆ, ದಯವಿಟ್ಟು ನಂತರ ಮರುಪ್ರಯತ್ನಿಸಿ. ಸಮಸ್ಯೆ ಮುಂದುವರೆದರೆ, ದಯವಿಟ್ಟು ಅಭಿವೃದ್ಧಿಗಾರರನ್ನು ಸಂಪರ್ಕಿಸಿ: $1"
+  },
+  "btnOk": {
+    "message": "ಒಕೆ"
+  },
+  "btnCancel": {
+    "message": "ರದ್ದುಮಾಡಿ"
+  },
+  "saveFramePermission": {
+    "message": "ಎಲ್ಲಾ ಫ್ರೇಮ್‌ಗಳಿಂದ ವಿಷಯವನ್ನು ಸೆರೆಹಿಡಿಯಲು ಅನುಮತಿಸು"
+  },
+  "permissions": {
+    "message": "ಅನುಮತಿಗಳು"
+  },
+  "saveframepDesc": {
+    "message": "ಈ ಅನುಮತಿ ಪುಟದಲ್ಲಿ ಐಫ್ರೆಮ್ ಅಥವಾ ಫ್ರೇಮ್‌ಸೆಟ್‌ನಿಂದ ವಿಷಯವನ್ನು ಸೆರೆಹಿಡಿಯಲು ಅಗತ್ಯವಿದೆ. ಇದನ್ನು ನಿರಾಕರಿಸುವುದರಿಂದ ಕೆಲವು ವೆಬ್‌ಪೇಜ್ ಅಂಶಗಳನ್ನು ಸೆರೆಹಿಡಿಯುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಸೀಮಿತ ಮಾಡಬಹುದು."
+  },
+  "processingScreenshot": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "screenshotSaved": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಡೌನ್‌ಲೋಡ್ ಫೋಲ್ಡರ್‌ಗೆ ಉಳಿಸಲಾಗಿದೆ"
+  },
+  "screenshotLoadFailed": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಮರುಪ್ರಯತ್ನಿಸಿ."
+  },
+  "getScreenshotFailed": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಹಿಡಿಯಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಮರುಪ್ರಯತ್ನಿಸಿ."
+  },
+  "processingAllAreas": {
+    "message": "ಎಲ್ಲಾ ಪ್ರದೇಶಗಳ ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "allAreasSaved": {
+    "message": "$1 ಪ್ರದೇಶಗಳ ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ"
+  },
+  "areaNotVisible": {
+    "message": "ಆಯ್ಕೆ ಮಾಡಿದ ಪ್ರದೇಶವು ಕಣ್‍ನಿಗೆ ಬಹಳಷ್ಟು ಹೊರಗೆ ಇದೆ ಮತ್ತು ಹಿಡಿಯಲಾಗುವುದಿಲ್ಲ."
+  },
+  "partiallyVisible": {
+    "message": "ಪ್ರದೇಶದ ಕೆಲವು ಭಾಗಗಳು ದೃಶ್ಯ ಮಟ್ಟದ ಹೊರಗೆ ಇವೆ. ದೃಶ್ಯ ಭಾಗವನ್ನು ಹಿಡಿದಿಟ್ಟಿದೆ."
+  },
+  "partiallyVisibleArea": {
+    "message": "ಆಯ್ಕೆ ಮಾಡಿದ ಪ್ರದೇಶದ ಕೆಲವು ಭಾಗಗಳು ದೃಶ್ಯ ಮಟ್ಟದ ಹೊರಗೆ ಇವೆ. ದೃಶ್ಯ ಭಾಗವನ್ನು ಹಿಡಿದಿಟ್ಟಿದೆ."
+  },
+  "areaOutOfView": {
+    "message": "ಆಯ್ಕೆ ಮಾಡಿದ ಪ್ರದೇಶವು ದೃಶ್ಯ ಮಟ್ಟದ ಹೊರಗೆ ಇದೆ. ದಯವಿಟ್ಟು ಪುಟವನ್ನು ಸ್ಕ್ರೋಲ್ ಮಾಡಿ, ಪ್ರದೇಶವನ್ನು ದೃಶ್ಯಮಾನ ಮಾಡಿ ಮತ್ತು ಮರುಪ್ರಯತ್ನಿಸಿ."
+  },
+  "processingError": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ ದೋಷ: $1"
+  },
+  "saveFailed": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಉಳಿಸುವಲ್ಲಿ ವಿಫಲ: $1"
+  },
+  "smartModeEnabled": {
+    "message": "ಸ್ಮಾರ್ಟ್ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಮೋಡ್ ಸಕ್ರಿಯವಾಗಿದೆ. ಹಿಡಿಯಲು ಒಂದು ಅಂಶವನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ (ದೃಢೀಕರಣಕ್ಕೆ ಎಂಟರ್, ರದ್ದುಪಡಿಸಲು ಎಸ್ಕೆಪ್)."
+  },
+  "processing": {
+    "message": "ನಕಲಿಸುವಿಕೆ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "copyFailed": {
+    "message": "ನಕಲಿಸುವಿಕೆ ವಿಫಲ: $1"
+  },
+  "canvasContextError": {
+    "message": "ನಕಲಿಸುವಿಕೆ ವಿಫಲ: ಕ್ಯಾನ್ವಾಸ್ ಸಾಂದರ್ಭಿಕತೆ ಪಡೆಯಲಾಗಲಿಲ್ಲ."
+  },
+  "copied": {
+    "message": "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ"
+  },
+  "clipboardAccessDenied": {
+    "message": "ನಕಲಿಸುವಿಕೆ ವಿಫಲ: ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಪ್ರವೇಶ ನಿರಾಕರಿಸಲಾಗಿದೆ, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "ನಕಲಿಸುವಿಕೆ ವಿಫಲ: ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ API ಬೆಂಬಲವಿಲ್ಲ"
+  },
+  "imageDataCreateFailed": {
+    "message": "ನಕಲಿಸುವಿಕೆ ವಿಫಲ: ಚಿತ್ರ ಡೇಟಾ ರಚಿಸಲಾಗಲಿಲ್ಲ"
+  },
+  "copyAreaOutOfView": {
+    "message": "ನಕಲಿಸುವಿಕೆ ವಿಫಲ: ಆಯ್ಕೆ ಮಾಡಿದ ಪ್ರದೇಶವು ದೃಶ್ಯ ಮಟ್ಟದ ಹೊರಗೆ ಇದೆ"
+  },
+  "imagePreviewShown": {
+    "message": "ಚಿತ್ರ ಪೂರ್ವದೃಶ್ಯ ಪ್ರದರ್ಶಿಸಲಾಗಿದೆ. ನಕಲಿಸಲು ರೈಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ."
+  },
+  "escape": {
+    "message": "ರದ್ದುಮಾಡಿ (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "ಚಿತ್ರ ಗುಣಮಟ್ಟವನ್ನು ನಿಗದಿ ಮಾಡಲಾಗಿದೆ: $1"
+  },
+  "qrDecoding": {
+    "message": "QR ಕೋಡ್ ಡಿಕೋಡ್ ಆಗುತ್ತಿದೆ..."
+  },
+  "qrSuccess": {
+    "message": "QR ಕೋಡ್ ಯಶಸ್ವಿಯಾಗಿ ಡಿಕೋಡ್ ಆಗಿದೆ. ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ."
+  },
+  "qrNoQRFound": {
+    "message": "ಮಾನ್ಯ QR ಕೋಡ್ ಕಂಡುಬರಲಿಲ್ಲ"
+  },
+  "qrError": {
+    "message": "QR ಕೋಡ್ ಡಿಕೋಡ್ ವಿಫಲ: $1"
+  },
+  "saveArea": {
+    "message": "ಈ ಪ್ರದೇಶವನ್ನು ಉಳಿಸಿ"
+  },
+  "copyToClipboard": {
+    "message": "ಈ ಆಯ್ಕೆ ನಕಲಿಸಿ (ಪ್ರಸ್ತುತ ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ)"
+  },
+  "saveAllAreas": {
+    "message": "ಎಲ್ಲಾ ಪ್ರದೇಶಗಳನ್ನು ಉಳಿಸಿ"
+  },
+  "keepAndContinue": {
+    "message": "ಹೊಸ ಆಯ್ಕೆಯನ್ನು ಸೇರಿಸಿ"
+  },
+  "cancel": {
+    "message": "ರದ್ದುಮಾಡಿ"
+  },
+  "lockSize": {
+    "message": "ಅಳತೆಯನ್ನು ಲಾಕ್ ಮಾಡಿ"
+  },
+  "lockSizeActive": {
+    "message": "✓ ಅಳತೆಯನ್ನು ಲಾಕ್ ಮಾಡಲಾಗಿದೆ"
+  },
+  "freeRatio": {
+    "message": "ಸ್ವತಂತ್ರ ಅನುಪಾತ"
+  },
+  "ratioLabel": {
+    "message": "ಅನುಪಾತ ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "aiDialog": {
+    "message": "ಸ್ಮಾರ್ಟ್ ಸಂವಾದ"
+  },
+  "fileSizeEstimate": {
+    "message": "ಸುಮಾರು $1 $2"
+  },
+  "qrDecode": {
+    "message": "QR ಕೋಡ್ ಡಿಕೋಡ್ ಮಾಡಿ"
+  },
+  "removeBackground": {
+    "message": "ಹಿನ್ನಲೆಯಲ್ಲಿ ತೆಗೆದುಹಾಕಿ"
+  },
+  "processingBackgroundRemoval": {
+    "message": "ಹಿನ್ನಲೆ ತೆಗೆದುಹಾಕಲಾಗುತ್ತಿದೆ..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "ಹಿನ್ನಲೆ ತೆಗೆದುಹಾಕಲು ವಿಫಲ: ಚಿತ್ರ ಲೋಡ್ ದೋಷ"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "ಹಿನ್ನಲೆ ತೆಗೆದುಹಾಕಲು ವಿಫಲ: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "ಹಿನ್ನಲೆ ತೆಗೆದುಹಾಕಲ್ಪಟ್ಟಿದೆ ಮತ್ತು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "ಹಿನ್ನಲೆ ತೆಗೆದುಹಾಕಲು ವಿಫಲ: Blob ರಚಿಸಲಾಗಲಿಲ್ಲ"
+  },
+  "selectedAreaOutOfView": {
+    "message": "ಆಯ್ಕೆ ಮಾಡಿದ ಪ್ರದೇಶ ದೃಶ್ಯಮಾನದ ಹೊರಗೆ ಇದೆ"
+  },
+  "screenshotFailed": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ವಿಫಲ: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "ಚಿತ್ರ ಪ್ರಕ್ರಿಯೆ ವಿಫಲ, ದಯವಿಟ್ಟು ಮರುಪ್ರಯತ್ನಿಸಿ"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಪ್ರದೇಶ ದೃಶ್ಯ ಮಟ್ಟದ ಹೊರಗೆ ಇದೆ"
+  },
+  "errorProcessingImage": {
+    "message": "ಚಿತ್ರ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ ದೋಷ: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR ಕೋಡ್ ಡಿಕೋಡ್ ಲೈಬ್ರರಿ ಲೋಡ್ ಆಗಿಲ್ಲ"
+  },
+  "qrDecodingFailed": {
+    "message": "QR ಕೋಡ್ ಡಿಕೋಡ್ ವಿಫಲ: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "ಆಯ್ಕೆ ಮಾಡಿದ ಪ್ರದೇಶದಲ್ಲಿ QR ಕೋಡ್ ಕಂಡುಬರಲಿಲ್ಲ"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR ಕೋಡ್ ಯಶಸ್ವಿಯಾಗಿ ಡಿಕೋಡ್ ಆಗಿದೆ: $1"
+  },
+  "qrDecodingError": {
+    "message": "QR ಕೋಡ್ ಡಿಕೋಡ್ ದೋಷ: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "ಹಿನ್ನಲೆ ತೆಗೆದುಹಾಕಲು ವಿಫಲ: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "ದಯವಿಟ್ಟು ಮೊದಲು ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಪ್ರದೇಶವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "aiDialogTitle": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ವಿಷಯದ ಕುರಿತು ಬುದ್ಧಿವಂತಿಕೆ ಸಂವಾದ"
+  },
+  "qrDecodeTitle": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ನಲ್ಲಿ QR ಕೋಡ್ ಡಿಕೋಡ್ ಮಾಡಿ"
+  },
+  "lockSizeTitle": {
+    "message": "連続キャプチャのために現在のサイズをロックする"
+  },
+  "moveHint": {
+    "message": "ಆಯ್ಕೆ ಪ್ರದೇಶವನ್ನು ಎಳೆಯಿರಿ (ಸ್ಪೇಸ್ + ಎಳೆಯಿರಿ)"
+  },
+  "saveAreaTooltip": {
+    "message": "ಪ್ರಸ್ತುತ ಪ್ರದೇಶವನ್ನು ಉಳಿಸಿ"
+  },
+  "saveAllAreasTooltip": {
+    "message": "ಎಲ್ಲಾ ಆಯ್ಕೆಮಾಡಿದ ಪ್ರದೇಶಗಳನ್ನು ಉಳಿಸಿ"
+  },
+  "copyToClipboardTooltip": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಿ"
+  },
+  "moreOptions": {
+    "message": "ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳು"
+  },
+  "removeBgTooltip": {
+    "message": "ಹಿನ್ನಲೆ ತೆಗೆದುಹಾಕಿ ಮತ್ತು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಿ"
+  },
+  "ratioLabelTooltip": {
+    "message": "ಪಾರ್ಶ್ವಾನುಪಾತವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+  },
+  "keepAndContinueTooltip": {
+    "message": "ಪ್ರಸ್ತುತ ಆಯ್ಕೆ ಉಳಿಸಿ ಮತ್ತು ಮುಂದುವರಿಸಿ"
+  },
+  "pCaptureTabLabel": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್"
+  },
+  "pAiToolsTabLabel": {
+    "message": "AI ಪರಿಕರಗಳು"
+  },
+  "pCaptureTitle": {
+    "message": "ಪೂರ್ಣ ಪುಟ ಮತ್ತು ಆಯ್ದ ಪರದೆಯ ಪ್ರದೇಶದ ಸ್ಕ್ರೀನ್‌ಶಾಟ್"
+  },
+  "pAiToolsTitle": {
+    "message": "AI-ಸಂಬಂಧಿತ ಪರಿಕರಗಳು"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "ವೆಬ್ ವಿಷಯ ರಫ್ತು ಪರಿಕರಗಳು"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "ಚಿತ್ರ ಪರಿಕರಗಳು"
+  },
+  "pDownloadAsMD": {
+    "message": "ಮಾರ್ಕ್‌ಡೌನ್‌ನಂತೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "pDownloadAsPDF": {
+    "message": "PDF ನಂತೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "ಪ್ರಸ್ತುತ ವೆಬ್‌ಪುಟವನ್ನು ಮಾರ್ಕ್‌ಡೌನ್ ಫೈಲ್‌ನಂತೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "ಪ್ರಸ್ತುತ ವೆಬ್‌ಪುಟವನ್ನು PDF ಫೈಲ್‌ನಂತೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "pImageProcessing": {
+    "message": "ಚಿತ್ರ ಸಂಸ್ಕರಣೆ"
+  },
+  "pImageProcessingTooltip": {
+    "message": "ಚಿತ್ರ ಸಂಸ್ಕರಣೆಗಾಗಿ ಪರಿಕರಗಳ ಸಂಗ್ರಹ"
+  },
+  "fixThePage": {
+    "message": "ಪುಟವನ್ನು ಸರಿಪಡಿಸಿ"
+  },
+  "expandScrollableOn": {
+    "message": "ಸ್ಕ್ರೋಲ್ ಮಾಡಬಹುದಾದ ಪ್ರದೇಶಗಳನ್ನು ವಿಸ್ತರಿಸಿ"
+  },
+  "expandScrollableOnDesc": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ತೆಗೆದುಕೊಳ್ಳುವ ಮೊದಲು ವೆಬ್‌ಪುಟದೊಳಗಿನ ಸ್ಕ್ರೋಲ್ ಮಾಡಬಹುದಾದ ಪ್ರದೇಶಗಳನ್ನು ವಿಸ್ತರಿಸಲು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  },
+  "hideFixedOn": {
+    "message": "ಸ್ಥಿರ ಸ್ಥಾನದ ಅಂಶಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "hideFixedOnDesc": {
+    "message": "ಸೆರೆಹಿಡಿಯುವಿಕೆಗೆ ಅಡ್ಡಿಪಡಿಸಬಹುದಾದ ಸ್ಥಿರ ಸ್ಥಾನದ ಅಂಶಗಳನ್ನು ಮರೆಮಾಡಲು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  },
+  "preScrollOn": {
+    "message": "ವೆಬ್‌ಪುಟವನ್ನು ಪೂರ್ವ-ಸ್ಕ್ರೋಲ್ ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+  },
+  "preScrollOnDesc": {
+    "message": "ಅನೇಕ ವೆಬ್ ಅಂಶಗಳು (ಉದಾ. ಚಿತ್ರಗಳು) ಸ್ಕ್ರೋಲ್‌ನಲ್ಲಿ ಮಾತ್ರ ಲೋಡ್ ಆಗುತ್ತವೆ. ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ತೆಗೆದುಕೊಳ್ಳುವ ಮೊದಲು ಅದು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ಪುಟದ ಕೆಳಭಾಗಕ್ಕೆ ಸ್ಕ್ರಾಲ್ ಮಾಡುತ್ತದೆ."
+  },
+  "canBeDisabled": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಪುಟದ ಮೂಲಕ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬಹುದು"
+  },
+  "analyzingPageForHTML": {
+    "message": "ವೆಬ್‌ಪುಟದ ಕೋಡ್ ಮತ್ತು ವಿಷಯವನ್ನು ವಿಶ್ಲೇಷಿಸಲಾಗುತ್ತಿದೆ, ಸಂಕೀರ್ಣ ಪುಟಗಳು ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು. ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಂಡರೆ, ದಯವಿಟ್ಟು ವೆಬ್‌ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "drawerSettings": {
+    "message": "ಸಂಯೋಜನೆಗಳು"
+  },
+  "drawerScreenshotHistory": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಇತಿಹಾಸ"
+  },
+  "drawerImageTools": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ವರ್ಧನೆ ಪರಿಕರಗಳು"
+  },
+  "drawerHelpFeedback": {
+    "message": "FAQ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ"
+  },
+  "drawerCloseMenu": {
+    "message": "ಈ ಮೆನುವನ್ನು ಮುಚ್ಚಿ"
+  },
+  "logoTooltip": {
+    "message": "ಇನ್ನಷ್ಟು ನೋಡು"
+  },
+  "pRecorderTabLabel": {
+    "message": "ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡರ್"
+  },
+  "pRecorderTitle": {
+    "message": "ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡರ್"
+  },
+  "pStartRecorder": {
+    "message": "ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಭಿಸಿ"
+  },
+  "pStartRecorderLabel": {
+    "message": "ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡಿಂಗ್"
+  },
+  "pRecorderAlt": {
+    "message": "ರೆಕಾರ್ಡರ್"
+  },
+  "pStartRecorderAlt": {
+    "message": "ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡರ್"
+  },
+  "pRecorderBetaNotice": {
+    "message": "ಇದು ಬೀಟಾ ಆವೃತ್ತಿ"
+  },
+  "pRecorderFeedback": {
+    "message": "ಪ್ರತಿಕ್ರಿಯೆ ನೀಡಿ"
+  },
+  "downloadsPermission": {
+    "message": "ಫೈಲ್ ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ಅನುಮತಿಸಿ"
+  },
+  "downloadsPermissionDesc": {
+    "message": "ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ಗೆ ನೇರವಾಗಿ ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳನ್ನು ಉಳಿಸಲು ಈ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ."
+  },
+  "webNavigationPermission": {
+    "message": "ವೆಬ್ ನ್ಯಾವಿಗೇಶನ್ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಿ"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "ಪುಟದ ಬದಲಾವಣೆಗಳನ್ನು ಪತ್ತೆ ಮಾಡಲು ಮತ್ತು ಅಗತ್ಯಬಡ್ಡಿದ್ದಲ್ಲಿ ವಿವಿಧ ಪುಟಗಳಿಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ಈ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ."
+  },
+  "desktopCapturePermission": {
+    "message": "ಡೆಸ್ಕ್‌ಟಾಪ್ ಕ್ಯಾಪ್ಚರ್ ಅನ್ನು ಅನುಮತಿಸಿ"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "ನಿಮ್ಮ ಡೆಸ್ಕ್‌ಟಾಪ್ ಅಥವಾ ನಿರ್ದಿಷ್ಟ ವಿಂಡೋಗಳಿಂದ ಕಂಟೆಂಟ್ ಅನ್ನು ಕ್ಯಾಪ್ಚರ್ ಮಾಡಲು ಈ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ."
+  },
+  "tabsPermission": {
+    "message": "ಟ್ಯಾಬ್‌ಗಳ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಿ"
+  },
+  "tabsPermissionDesc": {
+    "message": "ಬ್ರೌಸರ್ ಟ್ಯಾಬ್ ಮಾಹಿತಿಯನ್ನು ಪ್ರವೇಶಿಸಲು ಮತ್ತು ನಿರ್ವಹಿಸಲು ಈ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ."
+  },
+  "tabCapturePermission": {
+    "message": "ಟ್ಯಾಬ್ ಕ್ಯಾಪ್ಚರ್ ಅನ್ನು ಅನುಮತಿಸಿ"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "ಬ್ರೌಸರ್ ಟ್ಯಾಬ್‌ಗಳಿಂದ ಆಡಿಯೊ ಮತ್ತು ವೀಡಿಯೊವನ್ನು ಕ್ಯಾಪ್ಚರ್ ಮಾಡಲು ಈ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ."
+  },
+  "allUrlsPermission": {
+    "message": "ಎಲ್ಲಾ ವೆಬ್‌ಸೈಟ್‌ಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಿ"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "ಯಾವುದೇ ವೆಬ್‌ಸೈಟ್‌ನಿಂದ ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳನ್ನು ಕ್ಯಾಪ್ಚರ್ ಮಾಡಲು ಈ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ."
+  },
+  "fileUrlsPermission": {
+    "message": "ಸ್ಥಳೀಯ ಫೈಲ್‌ಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಿ"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "ಸ್ಥಳೀಯ ಫೈಲ್‌ಗಳಿಂದ (file:// URL) ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌ಗಳನ್ನು ಕ್ಯಾಪ್ಚರ್ ಮಾಡಲು ಈ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "ಡೌನ್‌ಲೋಡ್‌ನಲ್ಲಿ ಚಿತ್ರಗಳನ್ನು ಸೇರಿಸಬೇಕೆ"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ CocoShot Pro ಅಗತ್ಯವಿದೆ"
+  },
+  "proUpgradeButton": {
+    "message": "ಪ್ರೊಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ"
+  },
+  "proSaveRestricted": {
+    "message": "ಈ ಕಂಟೆಂಟ್ ಅನ್ನು ಉಳಿಸಲು CocoShot Pro ಅಗತ್ಯವಿದೆ"
+  },
+  "qv_title": {
+    "message": "CocoShot ಮುನ್ನೋಟ"
+  },
+  "qv_preview_mode": {
+    "message": "ಮುನ್ನೋಟ ಮೋಡ್"
+  },
+  "qv_screenshot_preview": {
+    "message": "ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಮುನ್ನೋಟ"
+  },
+  "qv_download": {
+    "message": "ಡೌನ್‌ಲೋಡ್"
+  },
+  "qv_edit": {
+    "message": "ಟೀಕೆ ಮಾಡಿ, ಸಂಪಾದಿಸಿ (PDF ಗೆ ರಫ್ತು ಮಾಡಬಹುದು)"
+  },
+  "qv_hint": {
+    "message": "ಅನುಭವಿ ಬಳಕೆದಾರರು ಈ ಪುಟವನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಬಿಟ್ಟು ಸಂಪಾದಕಕ್ಕೆ ಹೋಗುತ್ತಾರೆ."
+  },
+  "recordTab": {
+    "message": "ರೆಕಾರ್ಡ್",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "ನಿಮ್ಮ ವೀಡಿಯೊಗಳು",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "ಸ್ಕ್ರೀನ್",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "ಟ್ಯಾಬ್",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "ಕೇವಲ ಕ್ಯಾಮರಾ",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "ಮಾಕಪ್",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "ಕಸ್ಟಮ್ ಪ್ರದೇಶ ರೆಕಾರ್ಡಿಂಗ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Chrome ಆವೃತ್ತಿ 110+ ಗೆ ನವೀಕರಿಸಿ",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "ನವೀಕರಿಸಿ",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "ನಿಮ್ಮ ಅನುಮತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot ನಿಮ್ಮ ಕ್ಯಾಮರಾ ಅಥವಾ ಮೈಕ್ರೋಫೋನ್ ಅನ್ನು ಪ್ರವೇಶಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ ಎಂದು ತೋರುತ್ತದೆ। ಈ ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು, ದಯವಿಟ್ಟು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಇದನ್ನು ಅನ್ಬ್ಲಾಕ್ ಮಾಡಿ ಮತ್ತು ಅಗತ್ಯ ಅನುಮತಿಗಳನ್ನು ನೀಡಿ।",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "ತ್ಯಜಿಸಿ",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "ಕ್ಯಾಮರಾ ಪ್ರವೇಶ ಅನುಮತಿಸಿ",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "ಮೈಕ್ರೋಫೋನ್ ಪ್ರವೇಶ ಅನುಮತಿಸಿ",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "ಮಾತನಾಡಲು ಒತ್ತಿ",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರದೇಶ ಹೊಂದಿಸಿ",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "ಕ್ಯಾಮರಾ ಫ್ಲಿಪ್ ಮಾಡಿ",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "ಹಿನ್ನೆಲೆ ಪರಿಣಾಮಗಳು",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಭಿಸಿ",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಭವಾಗುತ್ತಿದೆ...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "ಕ್ಯಾಮರಾ ಆಯ್ಕೆಮಾಡಿ",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "ಹೆಚ್ಚಿನ ಆಯ್ಕೆಗಳು",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "ಸಿಸ್ಟಂ ಆಡಿಯೊ",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "ಟೂಲ್‌ಬಾರ್ ಅಡಗಿಸಿ",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "ಕೌಂಟ್‌ಡೌನ್",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "ಸಮಯ ಮಿತಿ ಹೊಂದಿಸಿ",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "ಬ್ಲರ್",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "ಯಾವುದೂ ಇಲ್ಲ",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "ಕ್ಯಾಮರಾ ಇಲ್ಲ",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "ಮೈಕ್ರೋಫೋನ್ ಇಲ್ಲ",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "ಮೂಲವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "ಆಫ್",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "ಅಗಲ",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "ಎತ್ತರ",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "ಚಿತ್ರ ಇರಲು ಕ್ಲಿಕ್ ಮಾಡಿ",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಮುಗಿಸಿ",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಮತ್ತೆ ಪ್ರಾರಂಭಿಸಿ",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ವಿರಾಮಗೊಳಿಸಿ",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಮುಂದುವರಿಸಿ",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ರದ್ದುಮಾಡಿ",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "ಡ್ರಾಯಿಂಗ್ ಉಪಕರಣಗಳನ್ನು ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "ಬ್ಲರ್ ಉಪಕರಣವನ್ನು ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "ಕರ್ಸರ್ ಆಯ್ಕೆಗಳನ್ನು ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "ಕ್ಯಾಮರಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "ಕ್ಯಾಮರಾ ಸಕ್ರಿಯಗೊಳಿಸಿ",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "ಕ್ಯಾಮರಾ ಅನುಮತಿಗಳಿಲ್ಲ",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "ಕ್ಯಾಮರಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "ಕ್ಯಾಮರಾ ಮಿರರ್",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "ಹಿನ್ನೆಲೆ ಬ್ಲರ್",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "ಮೈಕ್ರೋಫೋನ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "ಮೈಕ್ರೋಫೋನ್ ಸಕ್ರಿಯಗೊಳಿಸಿ",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "ಮೈಕ್ರೋಫೋನ್ ಅನುಮತಿಗಳಿಲ್ಲ",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "ಉಪಕರಣ ಆಯ್ಕೆಮಾಡಿ",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "ಪೆನ್ ಉಪಕರಣ",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "ಹೈಲೈಟರ್ ಉಪಕರಣ",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "ಈರೇಸರ್ ಉಪಕರಣ",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "ಟೆಕ್ಸ್ಟ್ ಉಪಕರಣ",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "ಆಕಾರ ಉಪಕರಣ",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "ಬಾಣ ಉಪಕರಣ",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "ಚಿತ್ರ ಉಪಕರಣ",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "ರದ್ದುಮಾಡಿ",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "ಮತ್ತೆ ಮಾಡಿ",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "ಕ್ಯಾನ್ವಾಸ್ ತೆರವುಗೊಳಿಸಿ",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "ಹೆಚ್ಚಿನ ಬಣ್ಣಗಳು",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "ದಪ್ಪ ಸ್ಟ್ರೋಕ್",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "ಮಧ್ಯಮ ಸ್ಟ್ರೋಕ್",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "ತೆಳು ಸ್ಟ್ರೋಕ್",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "ಚಿತ್ರ-ಚಿತ್ರ-ಚಿತ್ರ ಮೋಡ್ ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "ಫಿಲ್ ಟಾಗಲ್ ಮಾಡಿ",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "ಡ್ರಾಯಿಂಗ್ ಮೋಡ್",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "ಬ್ಲರ್ ಮೋಡ್",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "ಎಲ್ಲ ಬ್ಲರ್ಡ್ ಅಂಶಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "ಕ್ಲಿಕ್‌ಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "ಕರ್ಸರ್ ಹೈಲೈಟ್ ಮಾಡಿ",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "ಸ್ಪಾಟ್‌ಲೈಟ್ ಕರ್ಸರ್",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "ಮತ್ತೆ ತೋರಿಸಬೇಡಿ",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಮತ್ತೆ ಪ್ರಾರಂಭಿಸಬೇಕೇ?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಪ್ರಗತಿ ಕಳೆಯುತ್ತದೆ।",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "ಮತ್ತೆ ಪ್ರಾರಂಭಿಸಿ",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "ಮುಂದುವರಿಸಿ",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ತಿರಸ್ಕರಿಸಬೇಕೇ?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಪ್ರಗತಿ ಕಳೆಯುತ್ತದೆ।",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "ತಿರಸ್ಕರಿಸಿ",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "ಮುಂದುವರಿಸಿ",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "ನಿಮ್ಮ ರೆಕಾರ್ಡಿಂಗ್ ಇಲ್ಲಿ ಉಳಿಸಲಾಗುತ್ತದೆ",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "ಈ ಟ್ಯಾಬ್ ತೆರೆದಿರಿ। ನಿಮ್ಮ ರೆಕಾರ್ಡಿಂಗ್ ಉಳಿದ ನಂತರ ಇದು ಮುಚ್ಚುತ್ತದೆ।",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಸಿದ್ಧಗೊಳಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "ಈ ಟ್ಯಾಬ್ ತೆರೆದಿರಿ। ನಿಮ್ಮ ರೆಕಾರ್ಡಿಂಗ್ ಸಿದ್ಧವಾದಾಗ ಇದು ನವೀಕರಿಸುತ್ತದೆ।",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "ಸಂಪಾದಕ",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "ರದ್ದುಮಾಡಿ",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "ಮೂಲಕ್ಕೆ ಹಿಂತಿರುಗಿಸಿ",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "ಮರುಹೊಂದಿಸಿ",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "ಉಳಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "ನಿಮ್ಮ ಆಡಿಯೋ ಫೈಲ್ ಎಳೆದು ಬಿಡಿ",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "ಅಥವಾ ಬ್ರೌಸ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "ವಾಲ್ಯೂಮ್",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "ನವೀಕರಿಸಿ",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "ಕ್ರೋಪ್",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "ಅಗಲ",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "ಎತ್ತರ",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "ಎಡ",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "ಮೇಲೆ",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "ಹ್ಯಾಂಡಲ್‌ಗಳನ್ನು ಎಳೆಯಿರಿ ಮತ್ತು ಆಯ್ಕೆಮಾಡಿದ ವಿಭಾಗವನ್ನು ಸಂಪಾದಿಸಲು ಎಡದ ಬಟನ್‌ಗಳನ್ನು ಬಳಸಿ।",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "ವೀಡಿಯೊ ಟ್ರಿಮ್ ಮಾಡಿ",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "ಟ್ರಿಮ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "ವಿಭಾಗ ಕತ್ತರಿಸಿ",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "ಕತ್ತರಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "ಆಡಿಯೊ ಮ್ಯೂಟ್ ಮಾಡಿ",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "ಮ್ಯೂಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ।",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "ರದ್ದುಮಾಡಿ",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "ಮತ್ತೆ ಮಾಡಿ",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "ವಿಮರ್ಶೆ ಬಿಡಿ, ಇದು ಸಹಾಯಕವಾಗುತ್ತದೆ!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "ನೀವು ಪ್ರಸ್ತುತ ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿರುವಿರಿ",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "ಮರುಸಂಪರ್ಕಗೊಳ್ಳುವವರೆಗೆ ಕೆಲವು ಫೀಚರ್‌ಗಳು ಲಭ್ಯವಿಲ್ಲ",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome ನವೀಕರಿಸಬೇಕು",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "ಹೆಚ್ಚಿನ ಫೀಚರ್‌ಗಳಿಗೆ ಪ್ರವೇಶಿಸಲು ನವೀಕರಿಸಿ",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "ಸಾಧನದಲ್ಲಿ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ವೀಡಿಯೊ ತುಂಬಾ ಉದ್ದವಾಗಿದೆ",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "ಸಂಪಾದನೆ ಮತ್ತು MP4 ರಫ್ತು ಲಭ್ಯವಿಲ್ಲ",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "ವೀಡಿಯೊ ಸ್ಥಳೀಯವಾಗಿ ಪ್ರಕ್ರಿಯೆಗೊಳ್ಳುತ್ತಿದೆ...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "ವೇಗದ ಕ್ಲೌಡ್ ಆವೃತ್ತಿ ಬಗ್ಗೆ ತಿಳಿಯಿರಿ",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "ಸಂಪಾದಿಸಿ",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "ಯಾವುದೇ ಸಂಪರ್ಕವಿಲ್ಲ",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "ಲಭ್ಯವಿಲ್ಲ",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "ವೀಡಿಯೊ ಸಂಪಾದಿಸಿ",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "ಟ್ರಿಮ್, ಕತ್ತರಿಸಿ ಅಥವಾ ಮ್ಯೂಟ್ ಮಾಡಿ",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "ವೀಡಿಯೊ ಸಿದ್ಧಗೊಳಿಸಲಾಗುತ್ತಿದೆ, ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "ಕ್ರೋಪ್",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "ವೀಡಿಯೊ ಕ್ರೋಪ್ ಮಾಡಿ ಮತ್ತು ಮರುಗಾತ್ರೀಕರಿಸಿ",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "ಆಡಿಯೊ ಸೇರಿಸಿ",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "ವೀಡಿಯೊಗೆ ಸೇರಲು ನಿಮ್ಮದೇ ಆಡಿಯೊ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "ಉಳಿಸಿ",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Google Drive ನಿಂದ ಸೈನ್ ಔಟ್ ಮಾಡಿ",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "ಉಳಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Google Drive ಗೆ ಉಳಿಸಿ",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "ಪ್ರಸ್ತುತ ಆವೃತ್ತಿಯನ್ನು Google Drive ಗೆ ಉಳಿಸಿ",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "ಸೈನ್ ಇನ್ ಮಾಡಿ ಮತ್ತು Google Drive ಗೆ ಉಳಿಸಿ",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": ".webm ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": ".webm ವೀಡಿಯೊ ರಫ್ತು ಮಾಡಿ",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": ".mp4 ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": ".mp4 ವೀಡಿಯೊ ರಫ್ತು ಮಾಡಿ (ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": ".gif ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "GIF ರಫ್ತು ಮಾಡಿ (ಗರಿಷ್ಟ 30 ಸೆಕೆಂಡು)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಆಡಿಯೊ ಬದಲಾಯಿಸಿ",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "ಕರ್ಸರ್‌ಗೆ ಜೂಮ್ ಮಾಡಿ",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಮಾಡುವಾಗ ಪುಟದಲ್ಲಿ ಇರಿ",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "ಮೈಕ್ರೋಫೋನ್ ಆಫ್ ಎಚ್ಚರಿಕೆ",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "ಸಹಾಯ",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ವಿರಾಮಗೊಂಡಿದೆ। ಮುಂದುವರಿಸಲು ಪ್ಲೇ ಬಟನ್ ಒತ್ತಿ।",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡ್ ಮಾಡಲು CocoShot ಗೆ ಅನುಮತಿಯಿಲ್ಲ",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡಿಂಗ್ ಕಾರ್ಯನಿರ್ವಹಿಸಲು, ಅನುಮತಿ ವಿನಂತಿ ಕಾಣಿಸಿಕೊಂಡಾಗ CocoShot ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಕ್ಯಾಪ್ಚರ್ ಮಾಡಲು ಅನುಮತಿಸಬೇಕು। (ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ವಿಸ್ತರಣೆಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಇದನ್ನು ರದ್ದುಗೊಳಿಸಬಹುದು।)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡಿಂಗ್ ಸಕ್ರಿಯಗೊಳಿಸಿ",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "ರದ್ದುಮಾಡಿ",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್ ಮ್ಯೂಟ್ ಮಾಡಲಾಗಿದೆ",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "ನಿಮ್ಮ ಧ್ವನಿ ರೆಕಾರ್ಡಿಂಗ್‌ನಲ್ಲಿ ಸೇರಿಸಲು ಬಯಸಿದರೆ, ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್ ಅನ್ನು ಚಾಲನೆಗೆ ತರಬೇಕು। ನೀವು ಯಾವುದೇ ಕಡೆಯಲ್ಲಿ ಆಡಿಯೊ ಇಲ್ಲದೆ ರೆಕಾರ್ಡಿಂಗ್ ಮುಂದುವರಿಸಲು ಬಯಸುವಿರಾ?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "ಹೌದು, ಮುಂದುವರಿಸಿ",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "ರದ್ದುಮಾಡಿ",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "ಸಡಿಲಿಸಿ। ಕೌಂಟ್‌ಡೌನ್ ನಿಲ್ಲಿಸಲು ಎಲ್ಲಿಯಾದರೂ ಕ್ಲಿಕ್ ಮಾಡಿ।",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "ಫ್ರೇಮ್‌ಗಳ ನಡುವಿನ ಅಂತರದ ಕಾರಣದಿಂದ ಕಿರಿದಾದ ಸಮಯ ವ್ಯಾಪ್ತಿಗೆ ಸಂಪಾದನೆಗಳು ನಿಖರವಾಗಿಲ್ಲದಿರಬಹುದು।",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "ವೀಡಿಯೊ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿದೆ, ಪ್ಲೇಬ್ಯಾಕ್ ನಿಖರವಾಗಿಲ್ಲದಿರಬಹುದು ಅಥವಾ ಅಡೆತಡೆಯಾಗಬಹುದು।",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "ಕ್ರೋಪಿಂಗ್ ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "ವೇಗದ ಪ್ರಕ್ರಿಯೆಗಾಗಿ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "ಮೈಕ್ರೋಫೋನ್ ಸಕ್ರಿಯ",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "ಮೈಕ್ರೋಫೋನ್ ನಿಷ್ಕ್ರಿಯ",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ 3 ಸೆಕೆಂಡುಗಳಿಗಿಂತ ಕಡಿಮೆ ಇತ್ತು ಮತ್ತು ಉಳಿಸಲಾಗಲಿಲ್ಲ।",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "UI ಅಧಿಸೂಚನೆಗಳನ್ನು ಅಡಗಿಸಿ",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "ಮತ್ತೆ ತೋರಿಸಬೇಡಿ",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "ಬಳಕೆಯಲ್ಲಿಲ್ಲಾಗ ಟೂಲ್‌ಬಾರ್ ಅಡಗಿಸಿ",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಭಿಸಿ",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ನಿಲ್ಲಿಸಿ",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "ಹೊಸ CocoShot ಗೆ ಸ್ವಾಗತ!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "ನವೀಕರಣ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ।",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "ಪ್ರಾರಂಭಿಸಿ",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಭಿಸುವಾಗ ದೋಷ",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಕ್ರಿಯೆ ಪ್ರಾರಂಭಿಸುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ। ದಯವಿಟ್ಟು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ। ಸಮಸ್ಯೆ ಮುಂದುವರಿದರೆ, ಹೆಚ್ಚಿನ ಸಹಾಯಕ್ಕಾಗಿ support@cocoshot.net ನಲ್ಲಿ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ।",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "ಅತ್ಯುತ್ತಮ ಗುಣಮಟ್ಟ",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "ಕೊನೆಯ ವೀಡಿಯೊ ರೆಕಾರ್ಡಿಂಗ್ ಮರುಪಡೆಯಿರಿ",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "ಸಮಸ್ಯೆಗಳಿವೆಯೇ?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "ನಿಮ್ಮ ರೆಕಾರ್ಡಿಂಗ್ ನೋಡಲಾಗುತ್ತಿಲ್ಲವೇ?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "ನೀವು ರೆಕಾರ್ಡಿಂಗ್ ಮುಗಿಸಿದ್ದರೂ ಈ ಪುಟದಲ್ಲಿ ನಿಮ್ಮ ವೀಡಿಯೊ ಕಾಣದಿದ್ದರೆ, ಅಸ್ತಿತ್ವದಲ್ಲಿದ್ದರೆ ಕಚ್ಚಾ ವೀಡಿಯೊ ಡೇಟಾವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಬಹುದು। ಪರ್ಯಾಯವಾಗಿ, ನೀವು ಬಗ್ ರಿಪೋರ್ಟ್ ಸಲ್ಲಿಸುವ ಮೂಲಕ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಬಹುದು।",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "ಕಚ್ಚಾ ವೀಡಿಯೊ ಡೇಟಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "ಬಗ್ ರಿಪೋರ್ಟ್",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "ಯಾವುದೇ ರೆಕಾರ್ಡಿಂಗ್ ಕಂಡುಬಂದಿಲ್ಲ, ಕ್ಷಮಿಸಿ :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "ಮೆಮೊರಿ ಮಿತಿ ತಲುಪಿದೆ",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "ರೆಕಾರ್ಡ್ ಮಾಡಲು ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಸಾಕಷ್ಟು ಮೆಮೊರಿಯಿಲ್ಲ, ಇದು ಅಧವರ್ ಸೆಷನ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಕೊನೆಗೊಳ್ಳಲು ಕಾರಣವಾಗುತ್ತದೆ। ಉದ್ದವಾದ ವೀಡಿಯೊಗಳನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲು, ವೀಡಿಯೊ ಗುಣಮಟ್ಟವನ್ನು ಕಡಿಮೆ ಮಾಡುವುದರ ಅಥವಾ ನಿಮ್ಮ ಸಾಧನದ ಶೇಖರಣೆ ಸ್ಥಳವನ್ನು ಮುಕ್ತಗೊಳಿಸುವುದರ ಬಗ್ಗೆ ಯೋಚಿಸಿ।",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "ಅರಿತೆ",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "ಸಾಕಷ್ಟು ಸ್ಥಳವಿಲ್ಲ",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot ರೆಕಾರ್ಡ್ ಮಾಡಲು ಕನಿಷ್ಟ 1GB ಮುಕ್ತ ಸ್ಥಳ ಬೇಕು। ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸ್ಥಳವನ್ನು ಮುಕ್ತಗೊಳಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ।",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "ಹಿಂದಿನ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "ಸುಧಾರಿತ",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "ಕಚ್ಚಾ ವೀಡಿಯೊ ಫೈಲ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "ಮೂಲ ರೆಕಾರ್ಡಿಂಗ್ ಡೇಟಾವನ್ನು ರಫ್ತು ಮಾಡಿ",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "ನಿಮ್ಮ ರೆಕಾರ್ಡಿಂಗ್ ನಲ್ಲಿ ಸಹಾಯ ಪಡೆಯಿರಿ",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "ನಿಮ್ಮ ವೀಡಿಯೊ ಮರುಪಡೆಯಿರಿ ಮತ್ತು ಇತರ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸಿ",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "ಕಚ್ಚಾ ವೀಡಿಯೊ ಫೈಲ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "ಕಚ್ಚಾ ವೀಡಿಯೊ ಫೈಲ್ ಎಂಬುದು CocoShot ನಿಂದ ನೇರವಾಗಿ ರಚಿಸಲಾದ ಬದಲಾವಣೆಯಿಲ್ಲದ ರೆಕಾರ್ಡಿಂಗ್ ಆಗಿದೆ। ಈ ಫೈಲ್ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗಿಲ್ಲ ಅಥವಾ ಸಂಪಾದಿಸಲಾಗಿಲ್ಲವಾದ್ದರಿಂದ, ಇದು ಸಾಕಷ್ಟು ದೊಡ್ಡದಾಗಿರಬಹುದು ಮತ್ತು ಕೆಲವು ಸಾಧನಗಳೊಂದಿಗೆ ಹೊಂದಾಣಿಕೆಯಾಗದಿರಬಹುದು। ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಿದ ಆವೃತ್ತಿಯಲ್ಲಿ ಸಮಸ್ಯೆಗಳು ಇದ್ದರೆ, ನೀವು ಈ ಫೈಲ್ ಬಳಸಿ ನಿಮ್ಮ ಮೂಲ ರೆಕಾರ್ಡಿಂಗ್ ಪಡೆಯಬಹುದು।",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "ಡೌನ್‌ಲೋಡ್",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "ಆಡಿಯೊ ತರಂಗರೂಪ ತೋರಿಸಿ",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "ಸಿಸ್ಟಂ ಮಾಹಿತಿ ಮತ್ತು ವೀಡಿಯೊ ಡೇಟಾವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ಸಮಸ್ಯೆ ನಿವಾರಣೆಗಾಗಿ ಕಳುಹಿಸಿ",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "ಫೈಲ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ನಂತರ, ದಯವಿಟ್ಟು ಅದನ್ನು ಯಾವುದೇ ಹೆಚ್ಚುವರಿ ವಿವರಗಳೊಂದಿಗೆ support@cocoshot.net ಗೆ ಕಳುಹಿಸಿ। ಈ ಮಾಹಿತಿಯನ್ನು ಬಳಸಿ ವಿಸ್ತರಣೆಯೊಂದಿಗಿನ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸಲು ಸಹಾಯ ಮಾಡಲು ಮತ್ತು ಸಾಧ್ಯವಾದರೆ ನಿಮ್ಮ ವೀಡಿಯೊ ಮರುಪಡೆಯಲು ಬಳಸುತ್ತೇವೆ।",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "ಡೌನ್‌ಲೋಡ್",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "ವೀಡಿಯೊ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ತುಂಬಾ ಉದ್ದವಾಗಿದೆ",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "CocoShot ಗೋಪನೀಯತೆಗೆ ಆದ್ಯತೆ ನೀಡುತ್ತದೆ ಮತ್ತು ಸಂಪೂರ್ಣವಾಗಿ ನಿಮ್ಮ ಸ್ಥಳೀಯ ಸಾಧನದಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ, ಇದು ನಿಮ್ಮ ಹಾರ್ಡ್‌ವೇರ್ ಸಾಮರ್ಥ್ಯಗಳಿಂದ ಸೀಮಿತವಾಗಿದೆ। ಈ ಅವಧಿಯ ವೀಡಿಯೊ ನಿರ್ವಹಿಸುವುದು ಅತಿಯಾಗಿ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಗಮನಾರ್ಹ ಸಿಸ್ಟಂ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಬೇಡಿಕೆ ಮಾಡುತ್ತದೆ। ನೀವು ಇನ್ನೂ WEBM ಫೈಲ್ ಅಥವಾ ಕಚ್ಚಾ ರೆಕಾರ್ಡಿಂಗ್ ಪಡೆಯಬಹುದು, ಆದರೂ ಸಂಪಾದನೆ ಫೀಚರ್‌ಗಳು ಮತ್ತು MP4 ರಫ್ತು ಲಭ್ಯವಿಲ್ಲದಿರಬಹುದು। ಆದಾಗ್ಯೂ, ಸಂಭಾವ್ಯ ಸವಾಲುಗಳ ಬಗ್ಗೆ ನಿಮಗೆ ತಿಳಿದಿದ್ದರೆ, ನೀವು ಹೇಗೆಯಾದರೂ ವೀಡಿಯೊ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಮುಂದುವರಿಯಬಹುದು।",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "ನಾನು ಅಪಾಯ ಅರಿತೆ, ಹೇಗೆಯಾದರೂ ಪ್ರಯತ್ನಿಸುತ್ತೇನೆ",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "ಉದ್ದವಾದ ವೀಡಿಯೊಗಳ ಪ್ರಕ್ರಿಯೆಗೆ ಸಂಬಂಧಿಸಿ ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ।",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "ಮರುಪಡೆಯುವ ಮೋಡ್",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "ಸಮಸ್ಯೆ ನಿವಾರಣೆಗಾಗಿ ಡೇಟಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "ಸಹಾಯ ಕೇಂದ್ರ",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "ಕಂಪ್ಯೂಟರ್ ಆಡಿಯೊ ರೆಕಾರ್ಡ್ ಮಾಡಿ",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "ಈ ಪುಟದಿಂದ ಆಡಿಯೊ ರೆಕಾರ್ಡ್ ಮಾಡಲು, ನೀವು '$tab$' ಗೆ ಬದಲಾಯಿಸಬೇಕು।",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "ಟ್ಯಾಬ್‌ನಲ್ಲಿ ವಿಸ್ತರಣೆ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot ನೀವು ಬಳಸುತ್ತಿದ್ದ ಟ್ಯಾಬ್‌ನೊಂದಿಗೆ ಹೊಂದಾಣಿಕೆಯಾಗುವುದಿಲ್ಲ। ನೀವು ಈ ಪುಟದಿಂದ ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಭಿಸಬಹುದು ಮತ್ತು ನಂತರ ಆ ಟ್ಯಾಬ್‌ಗೆ ಹಿಂದಿರುಗಬಹುದು, ಆದರೆ ದಯವಿಟ್ಟು ನಿಮ್ಮ ಕ್ಯಾಮರಾ ಫೀಡ್ ಮತ್ತು ಸಂಪಾದನೆ ಟೂಲ್‌ಬಾರ್ ಪ್ರದರ್ಶಿಸಲಾಗುವುದಿಲ್ಲ ಎಂಬುದನ್ನು ಗಮನಿಸಿ।",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "ನಿಮ್ಮ CocoShot ರೆಕಾರ್ಡಿಂಗ್‌ಗಳಿಗೆ ಸ್ಥಳೀಯ ಬ್ಯಾಕಪ್ ಹೊಂದಿಸಿ",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "ನೀವು ರಚಿಸುವ ಪ್ರತಿ ರೆಕಾರ್ಡಿಂಗ್‌ನ ನಕಲುಗಳನ್ನು ಇಟ್ಟುಕೊಳ್ಳಿ। ಬ್ಯಾಕಪ್ ಹೊಂದಿಸದಿದ್ದರೆ, ನಿಮ್ಮ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳು ನೀವು ಅವುಗಳನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಆಯ್ಕೆ ಮಾಡಿದಾಗ ಮಾತ್ರ ಸಂಗ್ರಹವಾಗುತ್ತವೆ।",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "ನೀವು ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಇತರ ಸಿಸ್ಟಂ ಡೈರೆಕ್ಟರಿಗಳಿಗೆ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದರೆ, ನೀವು ಮೊದಲು ಹೊಸ ಫೋಲ್ಡರ್ ರಚಿಸಬೇಕಾಗಬಹುದು।",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "ಫೋಲ್ಡರ್ ಆಯ್ಕೆಮಾಡಿ",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "ಈಗ ಬೇಡ",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": "ನಿಮ್ಮ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳು ಸ್ಥಳೀಯವಾಗಿ ಬ್ಯಾಕಪ್ ಆಗುತ್ತಿವೆ",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "ಪ್ರತಿಬಾರಿ ರೆಕಾರ್ಡ್ ಮಾಡುವಾಗ ಅನುಮತಿಗಳನ್ನು ಕೇಳದಿರಲು, ಈ ಟ್ಯಾಬ್ ತೆರೆದಿರಿಸಲು ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ।",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "ಹೇಗೆಯಾದರೂ ಟ್ಯಾಬ್ ಮುಚ್ಚಿ",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "ಎಲ್ಲ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳ ಬ್ಯಾಕಪ್ ನಿಲ್ಲಿಸಿ",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸ್ಥಳೀಯ CocoShot ಬ್ಯಾಕಪ್ ಫೋಲ್ಡರ್‌ಗೆ ಪ್ರವೇಶವನ್ನು ಮತ್ತೆ ನಿರ್ಧರಿಸಿ",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "ನಾವು ಕ್ಷಮೆ ಯಾಚಿಸುತ್ತೇವೆ, ಆದರೆ ನಿಮ್ಮ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳ ಬ್ಯಾಕಪ್ ಮುಂದುವರಿಸಲು ನಿಮ್ಮ ಅನುಮತಿ ಮತ್ತೆ ಬೇಕು। ದುರದೃಷ್ಟವಶಾತ್, ಈ ಟ್ಯಾಬ್ ಮುಚ್ಚಿದಾಗ ಪ್ರತಿಬಾರಿ ಈ ಅನುಮತಿಯನ್ನು ಕೇಳಬೇಕಾಗುತ್ತದೆ, ಇದು ನೀವು ಬ್ರೌಸರ್ ಮುಚ್ಚಿದಾಗ ಅಥವಾ ಕಂಪ್ಯೂಟರ್ ಮರುಪ್ರಾರಂಭಿಸಿದಾಗ ಸಂಭವಿಸಬಹುದು।",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "CocoShot ಗೆ ರೆಕಾರ್ಡಿಂಗ್‌ಗಳ ಬ್ಯಾಕಪ್ ಮುಂದುವರಿಸಲು ಅನುಮತಿಸಿ",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್‌ಗಳ ಬ್ಯಾಕಪ್ ಮಾಡಿ",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಬ್ಯಾಕಪ್ ಮಾಡಲು ಅನುಮತಿ ನೀಡಲಾಗಿಲ್ಲ",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "ನಿಮ್ಮ ರೆಕಾರ್ಡಿಂಗ್ ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ಸಂಗ್ರಹಿಸಲು ನೀವು ಫೋಲ್ಡರ್ ಆಯ್ಕೆ ಮಾಡಿಲ್ಲ। ನಿಮ್ಮ ಬ್ರೌಸರ್ ಆವೃತ್ತಿ ಅಥವಾ ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಂ ಅಂಶವಾಹಕ, ನೀವು ಪ್ರತಿಬಾರಿ ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಭಿಸುವಾಗ ಈ ಫೋಲ್ಡರ್ ಆಯ್ಕೆ ಮಾಡಲು ಕೇಳಬಹುದು। ನೀವು ಪ್ರಕ್ರಿಯೆಯನ್ನು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಬಹುದು, ಅಥವಾ ನೀವು ಪುನರಾವರ್ತಿತವಾಗಿ ಅನುಮತಿಗಳನ್ನು ನೀಡಲು ಬಯಸದಿದ್ದರೆ ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಆಫ್ ಮಾಡಬಹುದು।",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "ಕಂಪ್ಯೂಟರ್ ಆಡಿಯೊ ರೆಕಾರ್ಡ್ ಮಾಡಿ",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "macOS ಸಿಸ್ಟಂಗಳಲ್ಲಿ, ನೀವು ಪ್ರತ್ಯೇಕ ಟ್ಯಾಬ್‌ಗಳಿಂದ ಆಡಿಯೊ ರೆಕಾರ್ಡ್ ಮಾಡಲು ಸೀಮಿತರಾಗಿರುವಿರಿ। Chrome Tab ರೆಕಾರ್ಡಿಂಗ್ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ ಮತ್ತು 'ಟ್ಯಾಬ್ ಆಡಿಯೊವನ್ನು ಸಹ ಹಂಚಿಕೊಳ್ಳಿ' ಸೆಟ್ಟಿಂಗ್ ಆನ್ ಮಾಡಲಾಗಿದೆ ಎಂದು ಪರಿಶೀಲಿಸಿ।",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "ಕಂಪ್ಯೂಟರ್ ಆಡಿಯೊ ರೆಕಾರ್ಡ್ ಮಾಡಿ",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನಿಂದ ಆಡಿಯೊ ಕ್ಯಾಪ್ಚರ್ ಮಾಡಲು ಬಯಸಿದರೆ, 'ಸಿಸ್ಟಂ ಆಡಿಯೊ ಹಂಚಿಕೊಳ್ಳಿ' ಆಯ್ಕೆ ಸಕ್ರಿಯವಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ। ಈ ಆಯ್ಕೆ ಕಾಣದಿದ್ದರೆ, Chrome ನವೀಕರಿಸುವುದರ ಅಥವಾ ಟ್ಯಾಬ್ ರೆಕಾರ್ಡಿಂಗ್ ಮೋಡ್‌ಗೆ ಬದಲಾಯಿಸುವುದರ ಬಗ್ಗೆ ಯೋಚಿಸಿ।",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "ಗರಿಷ್ಟ ರೆಜಲ್ಯೂಶನ್",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "ಗರಿಷ್ಟ FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "ಸಾಕಷ್ಟು RAM ಇಲ್ಲ",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "ವಿಂಡೋ ಮರುಗಾತ್ರೀಕರಿಸಿ",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "ಈ ರೆಜಲ್ಯೂಶನ್‌ಗೆ ಸ್ಕ್ರೀನ್ ತುಂಬಾ ಚಿಕ್ಕದಾಗಿದೆ",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "ಈ ರೆಜಲ್ಯೂಶನ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ರೆಕಾರ್ಡ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "ಅನುಮತಿ ನಿರಾಕರಿಸಲಾಯಿತು",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "ರೆಕಾರ್ಡ್ ಮಾಡಲು ಕ್ಯಾಮರಾ ಮತ್ತು ಮೈಕ್ರೋಫೋನ್ ಅನುಮತಿಗಳು ಬೇಕು। ದಯವಿಟ್ಟು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಅನುಮತಿ ನೀಡಿ।",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "ರೆಕಾರ್ಡ್ ಮಾಡಲು ಕ್ಯಾಮರಾ ಅನುಮತಿ ಬೇಕು। ದಯವಿಟ್ಟು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಅನುಮತಿ ನೀಡಿ।",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "ರೆಕಾರ್ಡ್ ಮಾಡಲು ಮೈಕ್ರೋಫೋನ್ ಅನುಮತಿ ಬೇಕು। ದಯವಿಟ್ಟು ನಿಮ್ಮ ಬ್ರೌಸರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಅನುಮತಿ ನೀಡಿ।",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "ಅನುಮತಿಗಳನ್ನು ಸರಿಪಡಿಸಿ",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡಿಂಗ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "ಗಂ",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "ನಿ",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "ಸೆ",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "ಕ್ಯಾಮರಾ ಅನುಮತಿ ವಿನಂತಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "ಮೈಕ್ರೋಫೋನ್ ಅನುಮತಿ ವಿನಂತಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "ಕ್ಯಾಮರಾ ಅನುಮತಿ ವಿನಂತಿಸಿ",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "ಮೈಕ್ರೋಫೋನ್ ಅನುಮತಿ ವಿನಂತಿಸಿ",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "ಅನುಮತಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "ಆಯ್ಕೆಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "ರೆಕಾರ್ಡ್ ಮಾಡಿದ ವೀಡಿಯೊಗಳು",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "ಇನ್ನೂ ಯಾವುದೂ ವೀಡಿಯೊ ರೆಕಾರ್ಡ್ ಮಾಡಲಾಗಿಲ್ಲ",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "ಮ್ಯೂಟ್ ಮಾಡಲು ಒತ್ತಿ",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "ನಿಮ್ಮ ಕ್ಯಾಮರಾ ಅನ್ನು ಪ್ರವೇಶಿಸಲು ನಿಮ್ಮ ಅನುಮತಿ ಬೇಕು",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್ ಅನ್ನು ಪ್ರವೇಶಿಸಲು ನಿಮ್ಮ ಅನುಮತಿ ಬೇಕು",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "ಪರಿಶೀಲಿಸಿ",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "ಬಣ್ಣ ಆಯ್ಕೆದಾರ",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "ಮುಚ್ಚಿ",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "ಸ್ಕ್ರೀನ್‌ನಿಂದ ಬಣ್ಣ ಆರಿಸಿ",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API ಈ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ। ದಯವಿಟ್ಟು Chrome 95+ ಅಥವಾ Edge 95+ ನಂತಹ ಆಧುನಿಕ ಬ್ರೌಸರ್ ಬಳಸಿ।",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "ಬ್ಲರ್ ಪ್ರದೇಶ ಆಯ್ಕೆಮಾಡಿ",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "ಎಲ್ಲ ಬ್ಲರ್ ಪ್ರದೇಶಗಳನ್ನು ಅಳಿಸಿ",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "ಲೈನ್ ಅಗಲ",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "ತೆಳು",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "ಮಧ್ಯಮ",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "ದಪ್ಪ",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "ಅತಿಯಾದ ದಪ್ಪ",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot ರೆಕಾರ್ಡಿಂಗ್‌ಗಳು",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "ಸ್ಥಳೀಯ ಬ್ಯಾಕಪ್ ಹೊಂದಿಸಲು ವಿಫಲವಾಗಿದೆ। ಹೆಚ್ಚಿನ ಸಹಾಯಕ್ಕಾಗಿ $supportEmail$ ನಲ್ಲಿ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ। ನೀವು ಇನ್ನೂ ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡ್ ಮಾಡಬಹುದು।",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "ನಿಮ್ಮ ಬ್ರೌಸರ್ ಸ್ಥಳೀಯ ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ। ಹೆಚ್ಚಿನ ಸಹಾಯಕ್ಕಾಗಿ $supportEmail$ ನಲ್ಲಿ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ। ನೀವು ಇನ್ನೂ ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ರೆಕಾರ್ಡ್ ಮಾಡಬಹುದು।",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "ಕರ್ಸರ್‌ಗೆ ಜೂಮ್ ಬಳಸುವುದು ಹೇಗೆ",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "ರೆಕಾರ್ಡಿಂಗ್ ಮಾಡುವಾಗ, ನಿಮ್ಮ ಕರ್ಸರ್ ಸ್ಥಾನದ ಕಡೆಗೆ ಜೂಮ್ ಮಾಡಲು ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್ ಹಿಡಿದಿಟ್ಟಿರಿ। ಜೂಮ್ ಹೊರಗೆ ಜೂಮ್ ಮಾಡಲು ಕೀಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡಿ। ಇದು ನಿಮ್ಮ ರೆಕಾರ್ಡಿಂಗ್ ಸಮಯದಲ್ಲಿ ಸ್ಕ್ರೀನ್‌ನ ನಿರ್ದಿಷ್ಟ ಪ್ರದೇಶಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡಲು ಉತ್ತಮ।",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "ಅರಿತೆ!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "ಪ್ರದೇಶ ಗಾತ್ರ",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "ಪ್ರಿಸೆಟ್‌ಗಳು",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "ಮರುಹೊಂದಿಸಿ",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "ಯಾವುದೂ ಇಲ್ಲ",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "ಬ್ಲರ್",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "ಬೋಕೆ",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "ಚಿತ್ರ",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "ದಯವಿಟ್ಟು ಮೊದಲು ವೀಡಿಯೊ ಫೈಲ್ ಲೋಡ್ ಮಾಡಿ",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "WebM ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "MP4 ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "ಪರಿವರ್ತಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "ಚಂಕ್‌ಗಳನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗುತ್ತಿದೆ:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "ವೀಡಿಯೊ ಗಾತ್ರ ಶಿಫಾರಸು ಮಾಡಲಾದ ಮಿತಿಯನ್ನು ಮೀರಿದೆ (ಗರಿಷ್ಟ 1GB$), ಇದು ಪ್ರಕ್ರಿಯೆ ವಿಫಲತೆಗೆ ಕಾರಣವಾಗಬಹುದು",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "ನೀವು ದೊಡ್ಡ ವೀಡಿಯೊ (1GB$) ಲೋಡ್ ಮಾಡುತ್ತಿರುವಿರಿ। ಪ್ರಕ್ರಿಯೆಗೆ ಬಹಳ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು। ಮುಂದುವರಿಯಬೇಕೇ?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "ಬೆಂಬಲಿಸದ ವೀಡಿಯೊ ಫಾರ್ಮಾಟ್। ದಯವಿಟ್ಟು ಬೇರೆ ವೀಡಿಯೊ ಫಾರ್ಮಾಟ್ ಪ್ರಯತ್ನಿಸಿ।",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ವಿಫಲವಾಗಿದೆ। ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ।",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4 ಪರಿವರ್ತನೆ ಲಭ್ಯವಿಲ್ಲ",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "ಈ ವೀಡಿಯೊ ಬ್ರೌಸರ್‌ನಲ್ಲಿ MP4 ಗೆ ಪರಿವರ್ತಿಸಲು ತುಂಬಾ ದೊಡ್ಡದಾಗಿದೆ। ದಯವಿಟ್ಟು ಅದನ್ನು WebM ಆಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ।",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "MP4 ಗೆ ಪರಿವರ್ತಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "ವೀಡಿಯೊ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ। ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ।",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "ವೀಡಿಯೊ ಸಂಪಾದಿಸಿ",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "ಶೀಘ್ರದಲ್ಲಿ ಬರುತ್ತದೆ।",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "ವೀಡಿಯೊ ಪ್ರಿವ್ಯೂ",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "ಸರಿ",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "ಶೇಖರಣೆಗೆ ಬರೆಯುತ್ತಿದೆ...",
+    "description": "Message shown when writing video to storage"
+  }
+}

@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Знімок екрана та запис екрана"
+  },
+  "extDescription": {
+    "message": "Робіть скріншоти повної сторінки та записуйте екран у MP4 з анотаціями. Експорт PDF із посиланнями, які можна натиснути."
+  },
+  "pDisable": {
+    "message": "Вимкнено на цій сторінці"
+  },
+  "pDisableDesc": {
+    "message": "Ви можете запускати це на будь-якій веб-сторінці, крім тих, де браузер обмежує виконання скриптів розширеннями. Це включає веб-магазин розширень, сторінки налаштувань браузера та інші сторінки розширень."
+  },
+  "pDisableExp": {
+    "message": "Це обмеження походить від самого браузера через ризики безпеки."
+  },
+  "pDisableTry": {
+    "message": "Ви можете відкрити нову сторінку і спробувати функцію захоплення."
+  },
+  "pStart": {
+    "message": "Почати"
+  },
+  "pFileUrl": {
+    "message": "Перейдіть до \"edge://extensions/\" і відмітьте галочку \"Дозволити доступ до URL-адрес файлів\"."
+  },
+  "pCaptV": {
+    "message": "Захопити скріншот видимих частин сторінки."
+  },
+  "pAsOne": {
+    "message": "Зберегти як один HTML-файл."
+  },
+  "pDesktop": {
+    "message": "Захоплення скріншотів заданої веб-сторінки, вкладки, вікна або всього екрану."
+  },
+  "pCaptFull": {
+    "message": "Захопити скріншот повної сторінки."
+  },
+  "pDesableOpt": {
+    "message": "Або ви можете спробувати:"
+  },
+  "pAreaCut": {
+    "message": "Виберіть частину сторінки для захоплення скріншоту"
+  },
+  "fullpageTooLarge": {
+    "message": "Примітка: Браузер не може захопити всю сторінку як одне зображення через її розмір. Замість цього вона буде розділена на <strong>$1</strong> окремих зображень."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Увага: Це розширення не призначене для захоплення надзвичайно великого контенту. Є ймовірність, що воно не зможе успішно завершити захоплення цієї сторінки."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Необхідні додаткові дозволи"
+  },
+  "framePermDesc": {
+    "message": "Цей сайт відображає контент через вбудований iframe, для доступу до якого потрібні додаткові дозволи."
+  },
+  "WhatisIframe": {
+    "message": "Натисніть, щоб дізнатися, що таке iframe."
+  },
+  "framePermMore": {
+    "message": "Після використання цього діалогового вікна може знадобитися перезапустити розширення. Скасування дозволить захоплювати лише видиму частину екрану."
+  },
+  "framePermConfirm": {
+    "message": "Дозволити"
+  },
+  "framePermSave": {
+    "message": "Зберегти цей дозвіл для подальшого використання (ви можете скасувати його в будь-який час)."
+  },
+  "error": {
+    "message": "Помилка"
+  },
+  "captureError": {
+    "message": "Не вдалося захопити, будь ласка, спробуйте пізніше. Якщо проблема зберігається, зверніться до розробника за $1"
+  },
+  "btnOk": {
+    "message": "ОК"
+  },
+  "btnCancel": {
+    "message": "Скасувати"
+  },
+  "saveFramePermission": {
+    "message": "Дозволити захоплення контенту з усіх фреймів"
+  },
+  "permissions": {
+    "message": "Дозволи"
+  },
+  "saveframepDesc": {
+    "message": "Цей дозвіл необхідний для захоплення контенту з iframe або фреймсету на сторінці. Відключення цього дозволу може обмежити можливість захоплення певних елементів веб-сторінки."
+  },
+  "processingScreenshot": {
+    "message": "Обробка знімка екрана..."
+  },
+  "screenshotSaved": {
+    "message": "Знімок екрана збережено у папці Завантаження"
+  },
+  "screenshotLoadFailed": {
+    "message": "Не вдалося завантажити знімок екрана. Спробуйте ще раз."
+  },
+  "getScreenshotFailed": {
+    "message": "Не вдалося зробити знімок екрана. Спробуйте ще раз."
+  },
+  "processingAllAreas": {
+    "message": "Обробка знімків усіх областей..."
+  },
+  "allAreasSaved": {
+    "message": "Успішно збережено знімки $1 областей"
+  },
+  "areaNotVisible": {
+    "message": "Вибрана область майже повністю знаходиться поза видимою зоною і не може бути захоплена."
+  },
+  "partiallyVisible": {
+    "message": "Частина області виходить за межі видимої зони. Захоплено видиму частину."
+  },
+  "partiallyVisibleArea": {
+    "message": "Частина вибраної області виходить за межі видимої зони. Захоплено видиму частину."
+  },
+  "areaOutOfView": {
+    "message": "Вибрана область знаходиться поза видимою зоною. Прокрутіть сторінку, щоб зробити область видимою, і спробуйте знову."
+  },
+  "processingError": {
+    "message": "Помилка обробки знімка: $1"
+  },
+  "saveFailed": {
+    "message": "Не вдалося зберегти знімок: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Увімкнено режим розумного знімка екрана. Клікніть для вибору елемента (Enter — підтвердити, Esc — скасувати)."
+  },
+  "processing": {
+    "message": "Обробка копіювання..."
+  },
+  "copyFailed": {
+    "message": "Не вдалося скопіювати: $1"
+  },
+  "canvasContextError": {
+    "message": "Не вдалося скопіювати: неможливо отримати контекст Canvas."
+  },
+  "copied": {
+    "message": "Скопійовано в буфер обміну"
+  },
+  "clipboardAccessDenied": {
+    "message": "Не вдалося скопіювати: доступ до буфера обміну заборонено, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Не вдалося скопіювати: API буфера обміну не підтримується"
+  },
+  "imageDataCreateFailed": {
+    "message": "Не вдалося скопіювати: неможливо створити дані зображення"
+  },
+  "copyAreaOutOfView": {
+    "message": "Не вдалося скопіювати: вибрана область знаходиться поза видимою зоною"
+  },
+  "imagePreviewShown": {
+    "message": "Показано попередній перегляд зображення. Клікніть правою кнопкою для копіювання."
+  },
+  "escape": {
+    "message": "Скасувати (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Якість зображення встановлено: $1"
+  },
+  "qrDecoding": {
+    "message": "Розпізнавання QR-коду..."
+  },
+  "qrSuccess": {
+    "message": "QR-код успішно розпізнано. Скопійовано в буфер обміну."
+  },
+  "qrNoQRFound": {
+    "message": "Дійсний QR-код не виявлено"
+  },
+  "qrError": {
+    "message": "Помилка розпізнавання QR-коду: $1"
+  },
+  "saveArea": {
+    "message": "Зберегти цю область"
+  },
+  "copyToClipboard": {
+    "message": "Скопіювати це виділення (поточне)"
+  },
+  "saveAllAreas": {
+    "message": "Зберегти всі області"
+  },
+  "keepAndContinue": {
+    "message": "Додати нове виділення"
+  },
+  "cancel": {
+    "message": "Скасувати"
+  },
+  "lockSize": {
+    "message": "Зафіксувати розмір"
+  },
+  "lockSizeActive": {
+    "message": "✓ Зафіксувати розмір"
+  },
+  "freeRatio": {
+    "message": "Вільне співвідношення"
+  },
+  "ratioLabel": {
+    "message": "Вибрати співвідношення"
+  },
+  "aiDialog": {
+    "message": "Розумний діалог"
+  },
+  "fileSizeEstimate": {
+    "message": "Приблизно $1 $2"
+  },
+  "qrDecode": {
+    "message": "Розпізнати QR-код"
+  },
+  "removeBackground": {
+    "message": "Видалити фон"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Видалення фону..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Не вдалося видалити фон: помилка завантаження зображення"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Не вдалося видалити фон: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Фон видалено та скопійовано в буфер обміну"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Не вдалося видалити фон: неможливо створити Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Вибрана область знаходиться поза видимою зоною"
+  },
+  "screenshotFailed": {
+    "message": "Не вдалося зробити знімок: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Помилка обробки зображення, спробуйте ще раз"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Область знімка екрана поза видимою зоною"
+  },
+  "errorProcessingImage": {
+    "message": "Помилка обробки зображення: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "Бібліотека розпізнавання QR-кодів не завантажена"
+  },
+  "qrDecodingFailed": {
+    "message": "Не вдалося розпізнати QR-код: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "У вибраній області не знайдено QR-коду"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR-код успішно розпізнано: $1"
+  },
+  "qrDecodingError": {
+    "message": "Помилка розпізнавання QR-коду: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Не вдалося видалити фон: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Спочатку виберіть область знімка екрана"
+  },
+  "aiDialogTitle": {
+    "message": "Розумна розмова про вміст знімка екрана"
+  },
+  "qrDecodeTitle": {
+    "message": "Розпізнати QR-код на знімку екрана"
+  },
+  "lockSizeTitle": {
+    "message": "Зафіксувати поточний розмір для безперервного захоплення"
+  },
+  "moveHint": {
+    "message": "Перетягніть область виділення (пробіл + перетягування)"
+  },
+  "saveAreaTooltip": {
+    "message": "Зберегти поточну область"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Зберегти всі вибрані області"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Скопіювати знімок у буфер обміну"
+  },
+  "moreOptions": {
+    "message": "Більше опцій"
+  },
+  "removeBgTooltip": {
+    "message": "Видалити фон та скопіювати в буфер обміну"
+  },
+  "ratioLabelTooltip": {
+    "message": "Вибрати співвідношення сторін"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Зберегти поточне виділення та продовжити"
+  },
+  "pCaptureTabLabel": {
+    "message": "Знімок екрана"
+  },
+  "pAiToolsTabLabel": {
+    "message": "Інструменти ШІ"
+  },
+  "pCaptureTitle": {
+    "message": "Знімок екрана всієї сторінки та вибраної області екрана"
+  },
+  "pAiToolsTitle": {
+    "message": "Інструменти, пов'язані зі ШІ"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Інструменти експорту веб-вмісту"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Інструменти для зображень"
+  },
+  "pDownloadAsMD": {
+    "message": "Завантажити як Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Завантажити як PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Завантажте поточну веб-сторінку як файл Markdown"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Завантажте поточну веб-сторінку як файл PDF"
+  },
+  "pImageProcessing": {
+    "message": "Обробка зображень"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Набір інструментів для обробки зображень"
+  },
+  "fixThePage": {
+    "message": "Виправити сторінку"
+  },
+  "expandScrollableOn": {
+    "message": "Розгорнути прокручувані області"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Увімкніть, щоб розгорнути прокручувані області на веб-сторінці перед тим, як робити знімок екрана"
+  },
+  "hideFixedOn": {
+    "message": "Приховати елементи з фіксованим положенням"
+  },
+  "hideFixedOnDesc": {
+    "message": "Увімкніть, щоб приховати елементи з фіксованим положенням, які можуть заважати захопленню"
+  },
+  "preScrollOn": {
+    "message": "Попереднє завантаження веб-сторінки прокруткою"
+  },
+  "preScrollOnDesc": {
+    "message": "Багато веб-елементів (наприклад, зображення) завантажуються лише під час прокручування. Коли ввімкнено, він автоматично виявляє та прокручує до низу сторінки, перш ніж робити знімок екрана."
+  },
+  "canBeDisabled": {
+    "message": "можна вимкнути на сторінці налаштувань"
+  },
+  "analyzingPageForHTML": {
+    "message": "Аналіз коду та вмісту веб-сторінки, складні сторінки можуть зайняти більше часу. Якщо це займає занадто багато часу, оновіть веб-сторінку та повторіть спробу."
+  },
+  "drawerSettings": {
+    "message": "Налаштування"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Історія знімків екрана"
+  },
+  "drawerImageTools": {
+    "message": "Інструменти для покращення знімків екрана"
+  },
+  "drawerHelpFeedback": {
+    "message": "Поширені запитання та відгуки"
+  },
+  "drawerCloseMenu": {
+    "message": "Закрити це меню"
+  },
+  "logoTooltip": {
+    "message": "Переглянути більше"
+  },
+  "pRecorderTabLabel": {
+    "message": "Запис екрана"
+  },
+  "pRecorderTitle": {
+    "message": "Запис екрана"
+  },
+  "pStartRecorder": {
+    "message": "Почати запис екрана"
+  },
+  "pStartRecorderLabel": {
+    "message": "Запис екрана"
+  },
+  "pRecorderAlt": {
+    "message": "Запис"
+  },
+  "pStartRecorderAlt": {
+    "message": "Запис екрана"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Це бета-версія"
+  },
+  "pRecorderFeedback": {
+    "message": "Надіслати відгук"
+  },
+  "downloadsPermission": {
+    "message": "Дозволити завантаження файлів"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Цей дозвіл необхідний для безпосереднього збереження знімків екрана на ваш комп'ютер."
+  },
+  "webNavigationPermission": {
+    "message": "Дозволити доступ до веб-навігації"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Цей дозвіл необхідний для виявлення змін сторінки та переходу на різні сторінки за потреби."
+  },
+  "desktopCapturePermission": {
+    "message": "Дозволити захоплення робочого столу"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Цей дозвіл необхідний для захоплення вмісту з вашого робочого столу або певних вікон."
+  },
+  "tabsPermission": {
+    "message": "Дозволити доступ до вкладок"
+  },
+  "tabsPermissionDesc": {
+    "message": "Цей дозвіл необхідний для доступу та керування інформацією про вкладки браузера."
+  },
+  "tabCapturePermission": {
+    "message": "Дозволити захоплення вкладки"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Цей дозвіл необхідний для захоплення аудіо та відео з вкладок браузера."
+  },
+  "allUrlsPermission": {
+    "message": "Дозволити доступ до всіх веб-сайтів"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Цей дозвіл необхідний для створення знімків екрана з будь-якого веб-сайту."
+  },
+  "fileUrlsPermission": {
+    "message": "Дозволити доступ до локальних файлів"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Цей дозвіл необхідний для створення знімків екрана з локальних файлів (file:// URL)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Чи включати зображення до завантаження"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Для цієї функції потрібно CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "Оновити до Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Для збереження цього вмісту потрібно CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "Предпросмотр CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "Режим передпрогляду"
+  },
+  "qv_screenshot_preview": {
+    "message": "Передпрогляд скріншота"
+  },
+  "qv_download": {
+    "message": "Завантажити"
+  },
+  "qv_edit": {
+    "message": "Анотувати, редагувати (також можна експортувати в PDF)"
+  },
+  "qv_hint": {
+    "message": "Досвідчені користувачі автоматично пропустять цю сторінку та перейдут до редактора."
+  },
+  "recordTab": {
+    "message": "Записати",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Ваші відео",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Екран",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Вкладка",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Тільки камера",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Мокап",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Запис користувацької області вимкнено",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Оновіть Chrome до версії 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Оновити",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Перевірте ваші дозволи",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "Здається, CocoShot не може отримати доступ до вашої камери або мікрофона. Щоб вирішити цю проблему, будь ласка, розблокуйте його в налаштуваннях браузера та надайте необхідні дозволи.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Закрити",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Дозволити доступ до камери",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Дозволити доступ до мікрофона",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Натисніть, щоб говорити",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Встановити область запису",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Перевернути камеру",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Ефекти фону",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Почати запис",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Початок запису...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Виберіть камеру",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Більше параметрів",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Системний звук",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Приховати панель інструментів",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Відлік",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Встановити обмеження часу",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Розмиття",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Немає",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Немає камери",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Немає мікрофона",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Виберіть джерело",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Вимкнено",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Ширина",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Висота",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Натисніть, щоб розмістити зображення",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Завершити запис",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Перезапустити запис",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Призупинити запис",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Продовжити запис",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Скасувати запис",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Перемкнути інструменти малювання",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Перемкнути інструмент розмиття",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Перемкнути параметри курсора",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Вимкнути камеру",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Увімкнути камеру",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Немає дозволів камери",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Налаштування камери",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Відзеркалити камеру",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Розмиття фону",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Вимкнути мікрофон",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Увімкнути мікрофон",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Немає дозволів мікрофона",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Вибрати інструмент",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Інструмент \"Перо\"",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Інструмент маркер",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Інструмент \"Гумка\"",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Інструмент \"Текст\"",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Інструмент \"Форма\"",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Інструмент \"Стрілка\"",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Інструмент \"Зображення\"",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Скасувати",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Повторити",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Очистити полотно",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Більше кольорів",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Товста лінія",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Середня лінія",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Тонка лінія",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Перемкнути режим \"Картинка в картинці\"",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Перемкнути заливку",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Режим малювання",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Режим розмиття",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Очистити всі розмиті елементи",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Виділити клацання",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Виділити курсор",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Прожектор курсора",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Більше не показувати",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Перезапустити запис?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Ваш поточний прогрес буде втрачено.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Перезапустити",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Продовжити",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Відхилити запис?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Ваш поточний прогрес буде втрачено.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Відхилити",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Продовжити",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Ваш запис буде збережено тут",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Запис...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Тримайте цю вкладку відкритою. Вона закриється після збереження запису.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Підготовка запису...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Тримайте цю вкладку відкритою. Вона оновиться вашим записом, коли буде готово.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Редактор",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Скасувати",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Повернути до оригіналу",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Скинути",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Зберегти зміни",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Збереження...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Перетягніть аудіофайл",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Або натисніть, щоб переглянути",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Налаштування",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Гучність",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Оновити",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Обрізати",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Ширина",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Висота",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Ліворуч",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Зверху",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Перетягніть маркери та використайте кнопки зліва, щоб редагувати виділений розділ.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Обрізати відео",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Обрізка...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Вирізати розділ",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Вирізання...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Вимкнути звук",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Вимкнення звуку...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Дізнатися більше.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Скасувати",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Повторити",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Залиште відгук, це допоможе!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Ви зараз офлайн",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Деякі функції недоступні до повторного підключення",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Спробувати ще раз",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome потребує оновлення",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Оновіть, щоб отримати доступ до більшої кількості функцій",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Дізнатися більше",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Відео занадто довге для обробки на пристрої",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Редагування та експорт MP4 недоступні",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Відео обробляється локально...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Дізнайтеся про швидшу хмарну версію",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Редагувати",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Немає з'єднання",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Недоступно",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Редагувати відео",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Обріжте, виріжте або вимкніть звук відео",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Підготовка відео, будь ласка, зачекайте...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Обрізати",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Обріжте та змініть розмір відео",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Додати аудіо",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Завантажте власне аудіо, щоб додати до відео",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Зберегти",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Вийти з Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Збереження...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Зберегти в Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Зберегти поточну версію в Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Увійдіть та збережіть у Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Завантаження...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Завантажити як .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Експортувати відео .webm",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Завантажити як .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Експортувати відео .mp4 (рекомендовано)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Завантажити як .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Експортувати GIF (макс 30 секунд)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Замінити існуюче аудіо",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Масштаб до курсора",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Залишайтесь на сторінці під час запису",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Попередження про вимкнений мікрофон",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Допомога",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Запис призупинено. Натисніть кнопку відтворення, щоб продовжити.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot не має дозволу записувати ваш екран",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Для роботи запису екрану вам потрібно дозволити CocoShot захоплювати ваш екран, коли з'явиться запит на дозвіл.(Ви можете скасувати його в будь-який час у налаштуваннях розширення.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Увімкнути запис екрану",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Скасувати",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Ваш мікрофон вимкнено",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Якщо ви хочете, щоб ваш голос був включений у запис, вам потрібно увімкнути мікрофон. Чи хочете ви продовжити запис без звуку?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Так, продовжити",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Скасувати",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Розслабтесь. Натисніть будь-де, щоб зупинити відлік.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Редагування можуть бути неточними для коротких часових інтервалів через інтервали між кадрами.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Відео обробляється, відтворення може бути неточним або перерваним.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Обрізання може зайняти деякий час",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Оновіть для швидшої обробки",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Мікрофон увімкнено",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Мікрофон вимкнено",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Запис був коротшим за 3 секунди і не був збережений.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Приховати сповіщення інтерфейсу",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Більше не показувати",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Приховати панель інструментів, коли не використовується",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Почати запис",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Зупинити запис",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Ласкаво просимо до нової версії CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Дізнайтеся більше про це оновлення.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Почати",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Помилка запуску запису",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Виникла помилка під час запуску процесу запису. Будь ласка, перезапустіть браузер і спробуйте ще раз. Якщо проблема продовжується, зв'яжіться з нами за адресою support@cocoshot.net для отримання додаткової допомоги.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Найвища якість",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Відновити останній відеозапис",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Виникають проблеми?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Не бачите свій запис?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Якщо ви закінчили запис, але не бачите своє відео на цій сторінці, ви можете спробувати завантажити необроблені відеодані, якщо вони існують. Альтернативно, ви можете зв'язатися з нами, надіславши звіт про помилку.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Завантажити необроблені відеодані",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Повідомити про помилку",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Запис не знайдено, вибачте :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Досягнуто обмеження пам'яті",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "На вашому пристрої недостатньо пам'яті для запису, що призводить до автоматичного завершення сеансу. Щоб записувати довші відео, розгляньте можливість зниження якості відео або звільнення місця для зберігання на вашому пристрої.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Зрозуміло",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Недостатньо місця",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot потребує принаймні 1 ГБ вільного місця для запису. Будь ласка, звільніть місце та спробуйте ще раз.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Очистити попередні записи",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Додатково",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Завантажити необроблений відеофайл",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Експортувати оригінальні дані запису",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Отримайте допомогу із записом",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Відновіть відео та вирішіть інші проблеми",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Завантажити необроблений відеофайл",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Необроблений відеофайл відноситься до запису без змін, створеного безпосередньо CocoShot. Оскільки цей файл не був оброблений або відредагований, він може бути досить великим і несумісним з деякими пристроями. Якщо у вас виникнуть проблеми з обробленою версією, ви можете використати цей файл для отримання оригінального запису.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Завантажити",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Показати форму хвилі аудіо",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Завантажте системну інформацію та відеодані та надішліть для усунення несправностей",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Завантаживши файл, будь ласка, надішліть його на support@cocoshot.net разом з будь-якими додатковими деталями, які можуть бути корисними. Ми використаємо цю інформацію, щоб допомогти вам вирішити будь-які проблеми з розширенням і, якщо можливо, відновити ваше відео.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Завантажити",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Відео занадто довге для обробки на вашому пристрої",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Оскільки CocoShot надає пріоритет конфіденційності та працює повністю на вашому локальному пристрої, він обмежений можливостями вашого обладнання. Обробка відео такої тривалості займе надто багато часу та потребуватиме значних системних ресурсів. Ви все ще можете отримати файл WEBM або необроблений запис, хоча функції редагування та експорту MP4 не будуть доступні. Однак, якщо ви усвідомлюєте потенційні труднощі, ви можете продовжити обробку відео в будь-якому випадку.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Я розумію ризик, все одно спробую",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Дізнайтеся більше про обробку довгих відео.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Режим відновлення",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Завантажити дані для усунення несправностей",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Центр допомоги",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Записати звук комп'ютера",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Щоб записати звук з цієї сторінки, потрібно перейти до '$tab$'.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Розширення не підтримується на вкладці",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot не сумісний з вкладкою, яку ви щойно використовували. Ви все ще можете ініціювати запис з цієї сторінки, а потім повернутися до цієї вкладки, але майте на увазі, що трансляція камери та панель інструментів редагування не відображатимуться.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Налаштуйте локальне резервне копіювання для записів CocoShot",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Зберігайте копії кожного запису, який ви створюєте. Без налаштування резервного копіювання ваші записи зберігатимуться лише тоді, коли ви явно виберете їх завантаження.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Якщо ви намагаєтеся зберегти записи в Завантаженнях або інших системних каталогах, можливо, вам потрібно спочатку створити нову папку.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Вибрати папку",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Не зараз",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Ваші записи резервно копіюються локально",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Щоб уникнути запиту дозволу щоразу, коли ви записуєте, ми рекомендуємо залишити цю вкладку відкритою.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Закрити вкладку в будь-якому випадку",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Зупинити резервне копіювання всіх записів",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Будь ласка, підтвердіть доступ до локальної папки резервного копіювання CocoShot",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Вибачте, але нам потрібен ваш дозвіл знову, щоб продовжити резервне копіювання записів. На жаль, нам потрібно запитувати цей дозвіл щоразу, коли ця вкладка закривається, що може статися, коли ви закриваєте браузер або перезавантажуєте комп'ютер.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Дозволити CocoShot продовжувати резервне копіювання записів",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Резервне копіювання записів",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Дозвіл на резервне копіювання запису не надано",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Ви не вибрали папку для зберігання резервних копій записів. Залежно від версії браузера або операційної системи, вас можуть попросити вибрати цю папку щоразу, коли ви починаєте запис. Ви можете спробувати процес налаштування знову або вимкнути резервне копіювання повністю, якщо не бажаєте надавати дозволи неодноразово.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Записати звук комп'ютера",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "У системах macOS ви обмежені записом звуку з окремих вкладок. Виберіть опцію запису вкладки Chrome та переконайтеся, що налаштування 'Також ділитися звуком вкладки' увімкнено.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Записати звук комп'ютера",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Якщо ви хочете захопити звук із комп'ютера, переконайтеся, що опція 'Ділитися системним звуком' увімкнена. Якщо ця опція не відображається, розгляньте можливість оновлення Chrome або переходу в режим запису вкладки.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Максимальна роздільна здатність",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Максимальна FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Недостатньо ОЗП",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Змінити розмір вікна",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Екран занадто малий для цієї роздільної здатності",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Неможливо записати з цією роздільною здатністю на вашому пристрої",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Доступ заборонено",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Для запису необхідні дозволи на камеру та мікрофон. Будь ласка, надайте дозволи в налаштуваннях браузера.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Для запису необхідний дозвіл на камеру. Будь ласка, надайте дозвіл в налаштуваннях браузера.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Для запису необхідний дозвіл на мікрофон. Будь ласка, надайте дозвіл в налаштуваннях браузера.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Виправити дозволи",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Налаштування запису екрану",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "год",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "хв",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "с",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Запит дозволу на камеру...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Запит дозволу на мікрофон...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Запит дозволу на камеру",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Запит дозволу на мікрофон",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Переглянути дозволи",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Налаштувати параметри",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Записані відео",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Відео ще не записано",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Натисніть, щоб вимкнути звук",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Нам потрібен ваш дозвіл на доступ до камери",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Нам потрібен ваш дозвіл на доступ до мікрофона",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Перегляд",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Вибір кольору",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Закрити",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Вибрати колір з екрана",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "API EyeDropper не підтримується в цьому браузері. Будь ласка, використовуйте сучасний браузер, як-от Chrome 95+ або Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Вибрати область розмиття",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Видалити всі області розмиття",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Товщина лінії",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Тонка",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Середня",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Жирна",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Дуже жирна",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "Записи CocoShot",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Не вдалося налаштувати локальне резервне копіювання. Зверніться до нас за адресою support@cocoshot.net для отримання додаткової допомоги. Ви все ще можете записувати екран.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Ваш браузер не підтримує локальне резервне копіювання. Зверніться до нас за адресою support@cocoshot.net для отримання додаткової допомоги. Ви все ще можете записувати екран.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Як використовувати масштабування до курсора",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Під час запису утримуйте комбінацію клавіш для масштабування до позиції курсора. Відпустіть клавіші, щоб зменшити масштаб. Це чудово підходить для виділення певних областей екрана під час запису.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Зрозуміло!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Розмір области",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Шаблони",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Скинути",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Немає",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Розмиття",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Боке",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Зображення",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Будь ласка, спочатку завантажте відеофайл",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Завантажити як WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Завантажити як MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Конвертація...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Обробка фрагментів:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Розмір відео перевищує рекомендований ліміт (макс 1GB), що може призвести до помилки обробки",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Ви завантажуєте велике відео (1GB). Обробка може зайняти багато часу. Продовжити?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Непідтримуваний формат відео. Будь ласка, спробуйте інший формат відео.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Завантаження не вдалося. Будь ласка, спробуйте ще раз.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "Конвертація в MP4 недоступна",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Це відео занадто велике для конвертації в MP4 у браузері. Будь ласка, завантажте його як WebM.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Конвертація в MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Не вдалося завантажити відео. Будь ласка, спробуйте ще раз.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "редагувати відео",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Незабаром.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Попередній перегляд відео",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Запис у сховище...",
+    "description": "Message shown when writing video to storage"
+  }
+}

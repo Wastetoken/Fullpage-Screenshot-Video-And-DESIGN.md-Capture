@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: ekraanipilt ja ekraanisalvesti"
+  },
+  "extDescription": {
+    "message": "Jäädvustage terve lehe ekraanipilte ja salvestage ekraani MP4-vormingus koos märkustega. Kaasas klõpsatavate linkidega PDF-eksport."
+  },
+  "pDisable": {
+    "message": "Sellel lehel keelatud"
+  },
+  "pDisableDesc": {
+    "message": "Seda saab käitada igal veebilehel, välja arvatud need, kus brauser piirab laiendite skriptide käitamist. See hõlmab laiendite veebipoode, brauseri seadete lehti ja teisi laiendite lehti."
+  },
+  "pDisableExp": {
+    "message": "See piirang tuleneb brauserist endast turvariskide tõttu."
+  },
+  "pDisableTry": {
+    "message": "Võite avada uue lehe ja proovida salvestamisfunktsiooni."
+  },
+  "pStart": {
+    "message": "Alusta"
+  },
+  "pFileUrl": {
+    "message": "Mine \"edge://extensions/\" ja märgi ruut \"Luba juurdepääs failide URL-idele\"."
+  },
+  "pCaptV": {
+    "message": "Salvesta ekraanipilt lehe nähtavatest osadest."
+  },
+  "pAsOne": {
+    "message": "Salvesta ühe HTML-failina."
+  },
+  "pDesktop": {
+    "message": "Salvesta ekraanipilte antud veebilehe, vahelehe, akna või kogu ekraani kohta."
+  },
+  "pCaptFull": {
+    "message": "Salvesta täieliku lehe ekraanipilt."
+  },
+  "pDesableOpt": {
+    "message": "Või võite proovida:"
+  },
+  "pAreaCut": {
+    "message": "Valige lehe osa, et salvestada ekraanipilt."
+  },
+  "fullpageTooLarge": {
+    "message": "Märkus: Brauser ei saa kogu lehte ühe pildina salvestada selle suuruse tõttu. Selle asemel jaguneb see <strong>$1</strong> eraldi pildiks."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Hoiatus: See laiend pole mõeldud erakordselt suure sisu püüdmiseks. Võimalik, et see ei suuda selle lehe püüdmist edukalt lõpetada."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Nõutav täiendav luba"
+  },
+  "framePermDesc": {
+    "message": "See veebisait kuvab sisu sisseehitatud iframe kaudu, mis vajab täiendavat luba sellele juurde pääsemiseks."
+  },
+  "WhatisIframe": {
+    "message": "Klõpsake, et õppida, mis on iframe."
+  },
+  "framePermMore": {
+    "message": "Pärast dialoogi kasutamist võib olla vajalik laienduse taaskäivitamine. Tühistamine salvestab ainult nähtava ekraani."
+  },
+  "framePermConfirm": {
+    "message": "Luba"
+  },
+  "framePermSave": {
+    "message": "Salvesta see luba hilisemaks kasutamiseks (sa saad seda igal ajal tagasi võtta)."
+  },
+  "error": {
+    "message": "Viga"
+  },
+  "captureError": {
+    "message": "Kuvamise ülesvõtmine ebaõnnestus, palun proovige hiljem uuesti. Kui probleem püsib, võtke arendajaga ühendust aadressil $1"
+  },
+  "btnOk": {
+    "message": "OK"
+  },
+  "btnCancel": {
+    "message": "Tühista"
+  },
+  "saveFramePermission": {
+    "message": "Luba sisu ülesvõtmine kõikidest raamidest"
+  },
+  "permissions": {
+    "message": "Load"
+  },
+  "saveframepDesc": {
+    "message": "See luba on vajalik, et võtta sisu üles iframe'idest või frameset'idest lehe peal. Selle keelamine võib piirata teatud veebilehe elementide ülesvõtmise võimet."
+  },
+  "processingScreenshot": {
+    "message": "Ekraanitõmmise töötlemine..."
+  },
+  "screenshotSaved": {
+    "message": "Ekraanitõmmis salvestatud kausta Allalaadimised"
+  },
+  "screenshotLoadFailed": {
+    "message": "Ekraanitõmmise laadimine ebaõnnestus. Proovige uuesti."
+  },
+  "getScreenshotFailed": {
+    "message": "Ekraanitõmmise tegemine ebaõnnestus. Proovige uuesti."
+  },
+  "processingAllAreas": {
+    "message": "Kõigi piirkondade ekraanitõmmiste töötlemine..."
+  },
+  "allAreasSaved": {
+    "message": "Õnnestus salvestada $1 piirkonna ekraanitõmmised"
+  },
+  "areaNotVisible": {
+    "message": "Valitud piirkond on peaaegu täielikult nähtavuse piiridest väljas ja seda ei saa jäädvustada."
+  },
+  "partiallyVisible": {
+    "message": "Piirkonna osa jääb nähtavuse piiridest välja. Jäädvustatud on nähtav osa."
+  },
+  "partiallyVisibleArea": {
+    "message": "Valitud piirkonna osa on nähtavuse piiridest väljas. Jäädvustatud on nähtav osa."
+  },
+  "areaOutOfView": {
+    "message": "Valitud piirkond on nähtavuse piiridest väljas. Palun kerige lehte, et piirkond oleks nähtav, ja proovige uuesti."
+  },
+  "processingError": {
+    "message": "Ekraanitõmmise töötlemise viga: $1"
+  },
+  "saveFailed": {
+    "message": "Ekraanitõmmise salvestamine ebaõnnestus: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Nutikas ekraanitõmmise režiim lubatud. Klõpsake elemendi valimiseks (Enter kinnitab, Esc tühistab)."
+  },
+  "processing": {
+    "message": "Kopeerimise töötlemine..."
+  },
+  "copyFailed": {
+    "message": "Kopeerimine ebaõnnestus: $1"
+  },
+  "canvasContextError": {
+    "message": "Kopeerimine ebaõnnestus: ei saa saada Canvas'i konteksti."
+  },
+  "copied": {
+    "message": "Kopeeritud lõikelauale"
+  },
+  "clipboardAccessDenied": {
+    "message": "Kopeerimine ebaõnnestus: juurdepääs lõikelauale keelatud, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Kopeerimine ebaõnnestus: lõikelauda API ei ole toetatud"
+  },
+  "imageDataCreateFailed": {
+    "message": "Kopeerimine ebaõnnestus: ei saa luua pildidokumente"
+  },
+  "copyAreaOutOfView": {
+    "message": "Kopeerimine ebaõnnestus: valitud piirkond on nähtavuse piiridest väljas"
+  },
+  "imagePreviewShown": {
+    "message": "Pildieelvaade kuvatud. Paremklõps kopeerimiseks."
+  },
+  "escape": {
+    "message": "Tühista (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Pildi kvaliteet määratud: $1"
+  },
+  "qrDecoding": {
+    "message": "QR-koodi dekodeerimine..."
+  },
+  "qrSuccess": {
+    "message": "QR-kood edukalt dekodeeritud. Kopeeritud lõikelauale."
+  },
+  "qrNoQRFound": {
+    "message": "Kehtivat QR-koodi ei leitud"
+  },
+  "qrError": {
+    "message": "QR-koodi dekodeerimine ebaõnnestus: $1"
+  },
+  "saveArea": {
+    "message": "Salvesta see piirkond"
+  },
+  "copyToClipboard": {
+    "message": "Kopeeri see valik (praegu valitud)"
+  },
+  "saveAllAreas": {
+    "message": "Salvesta kõik piirkonnad"
+  },
+  "keepAndContinue": {
+    "message": "Lisa uus valik"
+  },
+  "cancel": {
+    "message": "Tühista"
+  },
+  "lockSize": {
+    "message": "Lukusta suurus"
+  },
+  "lockSizeActive": {
+    "message": "✓ Lukusta suurus"
+  },
+  "freeRatio": {
+    "message": "Vaba suhe"
+  },
+  "ratioLabel": {
+    "message": "Vali suhe"
+  },
+  "aiDialog": {
+    "message": "Nutivestlus"
+  },
+  "fileSizeEstimate": {
+    "message": "Umbes $1 $2"
+  },
+  "qrDecode": {
+    "message": "Dekodeeri QR-kood"
+  },
+  "removeBackground": {
+    "message": "Eemalda taust"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Tausta eemaldamine..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Tausta eemaldamine ebaõnnestus: pildi laadimise viga"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Tausta eemaldamine ebaõnnestus: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Taust eemaldatud ja kopeeritud lõikelauale"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Tausta eemaldamine ebaõnnestus: ei saa luua Blob'i"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Valitud piirkond on nähtavuse piiridest väljas"
+  },
+  "screenshotFailed": {
+    "message": "Ekraanitõmmise tegemine ebaõnnestus: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Pildi töötlemine ebaõnnestus, proovige uuesti"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Ekraanitõmmise piirkond on nähtavuse piiridest väljas"
+  },
+  "errorProcessingImage": {
+    "message": "Pilditöötluse viga: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR-koodi dekodeerimise teek ei ole laaditud"
+  },
+  "qrDecodingFailed": {
+    "message": "QR-koodi dekodeerimine ebaõnnestus: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "Valitud piirkonnas ei leitud QR-koodi"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR-kood edukalt dekodeeritud: $1"
+  },
+  "qrDecodingError": {
+    "message": "QR-koodi dekodeerimise viga: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Tausta eemaldamine ebaõnnestus: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Palun valige esmalt ekraanitõmmise piirkond"
+  },
+  "aiDialogTitle": {
+    "message": "Intelligentne vestlus ekraanitõmmise sisust"
+  },
+  "qrDecodeTitle": {
+    "message": "Dekodeeri QR-kood ekraanitõmmisel"
+  },
+  "lockSizeTitle": {
+    "message": "Lukusta praegune suurus järjestikuseks jäädvustamiseks"
+  },
+  "moveHint": {
+    "message": "Lohistage valikut (Tühik + lohista)"
+  },
+  "saveAreaTooltip": {
+    "message": "Salvesta praegune piirkond"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Salvesta kõik valitud piirkonnad"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Kopeeri ekraanitõmmis lõikelauale"
+  },
+  "moreOptions": {
+    "message": "Rohkem valikuid"
+  },
+  "removeBgTooltip": {
+    "message": "Eemalda taust ja kopeeri lõikelauale"
+  },
+  "ratioLabelTooltip": {
+    "message": "Vali kuvasuhe"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Hoia praegune valik ja jätka"
+  },
+  "pCaptureTabLabel": {
+    "message": "Kuvatõmmis"
+  },
+  "pAiToolsTabLabel": {
+    "message": "Tehisintellekti tööriistad"
+  },
+  "pCaptureTitle": {
+    "message": "Terve lehe ja valitud ekraaniala kuvatõmmis"
+  },
+  "pAiToolsTitle": {
+    "message": "Tehisintellektiga seotud tööriistad"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Veebisisu eksportimise tööriistad"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Pilditööriistad"
+  },
+  "pDownloadAsMD": {
+    "message": "Laadi alla Markdownina"
+  },
+  "pDownloadAsPDF": {
+    "message": "Laadi alla PDF-ina"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Laadige praegune veebileht alla Markdown-failina"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Laadige praegune veebileht alla PDF-failina"
+  },
+  "pImageProcessing": {
+    "message": "Pilditöötlus"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Pilditöötlusvahendite kogum"
+  },
+  "fixThePage": {
+    "message": "Paranda lehte"
+  },
+  "expandScrollableOn": {
+    "message": "Laienda keritavaid alasid"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Luba veebilehe keritavate alade laiendamine enne kuvatõmmise tegemist"
+  },
+  "hideFixedOn": {
+    "message": "Peida fikseeritud asukohaga elemendid"
+  },
+  "hideFixedOnDesc": {
+    "message": "Luba peita fikseeritud asukohaga elemendid, mis võivad jäädvustamist segada"
+  },
+  "preScrollOn": {
+    "message": "Veebilehe eellaadimine kerimisega"
+  },
+  "preScrollOnDesc": {
+    "message": "Paljud veebielemendid (nt pildid) laaditakse ainult kerimisel. Kui see on lubatud, tuvastab see automaatselt ja kerib enne kuvatõmmise tegemist lehe allossa."
+  },
+  "canBeDisabled": {
+    "message": "saab seadete lehe kaudu keelata"
+  },
+  "analyzingPageForHTML": {
+    "message": "Veebilehe koodi ja sisu analüüsimine, keerukad lehed võivad võtta kauem aega. Kui see võtab liiga kaua aega, värskendage veebilehte ja proovige uuesti."
+  },
+  "drawerSettings": {
+    "message": "Seaded"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Kuvatõmmiste ajalugu"
+  },
+  "drawerImageTools": {
+    "message": "Kuvatõmmise täiustamise tööriistad"
+  },
+  "drawerHelpFeedback": {
+    "message": "KKK ja tagasiside"
+  },
+  "drawerCloseMenu": {
+    "message": "Sule see menüü"
+  },
+  "logoTooltip": {
+    "message": "Vaata rohkem"
+  },
+  "pRecorderTabLabel": {
+    "message": "Ekraanisalvesti"
+  },
+  "pRecorderTitle": {
+    "message": "Ekraanisalvesti"
+  },
+  "pStartRecorder": {
+    "message": "Alusta ekraani salvestamist"
+  },
+  "pStartRecorderLabel": {
+    "message": "Ekraani salvestamine"
+  },
+  "pRecorderAlt": {
+    "message": "Salvesti"
+  },
+  "pStartRecorderAlt": {
+    "message": "Ekraanisalvesti"
+  },
+  "pRecorderBetaNotice": {
+    "message": "See on beetaversioon"
+  },
+  "pRecorderFeedback": {
+    "message": "Tagasiside esitamine"
+  },
+  "downloadsPermission": {
+    "message": "Luba failide allalaadimine"
+  },
+  "downloadsPermissionDesc": {
+    "message": "See luba on vajalik ekraanipiltide otseste arvutisse salvestamiseks."
+  },
+  "webNavigationPermission": {
+    "message": "Luba veebinavigatsiooni juurdepääs"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "See luba on vajalik lehe muudatuste tuvastamiseks ja vajadusel erinevatele lehtedele liikumiseks."
+  },
+  "desktopCapturePermission": {
+    "message": "Luba töölaua jäädvustamine"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "See luba on vajalik töölaua või konkreetsete akende sisu jäädvustamiseks."
+  },
+  "tabsPermission": {
+    "message": "Luba kaartide juurdepääs"
+  },
+  "tabsPermissionDesc": {
+    "message": "See luba on vajalik brauserikaartide teabe juurdepääsuks ja haldamiseks."
+  },
+  "tabCapturePermission": {
+    "message": "Luba kaardi jäädvustamine"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "See luba on vajalik brauserikaartidest heli ja video jäädvustamiseks."
+  },
+  "allUrlsPermission": {
+    "message": "Luba juurdepääs kõigile veebisaitidele"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "See luba on vajalik ekraanipiltide tegemiseks suvalisest veebisaidist."
+  },
+  "fileUrlsPermission": {
+    "message": "Luba juurdepääs kohalikele failidele"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "See luba on vajalik ekraanipiltide tegemiseks kohalikest failidest (file:// URL-id)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Kas piltide kaasamine allalaadimisse"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "See funktsioon nõuab CocoShot Pro versiooni"
+  },
+  "proUpgradeButton": {
+    "message": "Täienda Pro versioonile"
+  },
+  "proSaveRestricted": {
+    "message": "Selle sisu salvestamine nõuab CocoShot Pro versiooni"
+  },
+  "qv_title": {
+    "message": "CocoShot-i eelvaade"
+  },
+  "qv_preview_mode": {
+    "message": "Eelvaaterežiim"
+  },
+  "qv_screenshot_preview": {
+    "message": "Ekraanipildi eelvaade"
+  },
+  "qv_download": {
+    "message": "Laadi alla"
+  },
+  "qv_edit": {
+    "message": "Annotatsioon, Redigeerimine (saab ka PDF-ina eksportida)"
+  },
+  "qv_hint": {
+    "message": "Kogenud kasutajad hüppavad sellest lehest automaatselt üle ja lähevad redaktorisse."
+  },
+  "recordTab": {
+    "message": "Salvestamine",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Teie videod",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Ekraan",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Brauseri vahekaart",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Ainult kaamera",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Makett",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Kohandatud ala salvestamine keelatud",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Värskendage Chrome versioonile 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Värskenda",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Kontrollige oma õigusi",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot ei saa ilmselt juurdepääsu teie kaamerale ega mikrofonile. Selle probleemi lahendamiseks tühjendage blokeering brauseri seadetes ja andke vajalikud õigused.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Loobu",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Luba kaamerajuurdepääs",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Luba mikrofoni juurdepääs",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Vajuta rääkimiseks",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Määra salvestusala",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Pööra kaamerat",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Taustaefektid",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Alusta salvestamist",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Salvestuse käivitamine...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Valige kaamera",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Rohkem valikuid",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Süsteemi heli",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Peida tööriistariba",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Loendur",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Määra ajapiirang",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Hägusta",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Puudub",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Kaamerat pole",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Mikrofoni pole",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Valige allikas",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Väljas",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Laius",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Kõrgus",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Pildi asetamiseks klõpsake",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Lõpeta salvestus",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Taaskäivita salvestus",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Pausi salvestus",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Jätka salvestust",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Tühista salvestus",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Lülita joonistusvahendid sisse/välja",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Lülita hägustusvahend sisse/välja",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Lülita kursori valikud sisse/välja",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Keela kaamera",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Luba kaamera",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Kaameraõigused puuduvad",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Kaamera seaded",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Peegelda kaamerat",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Tausta hägustus",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Keela mikrofon",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Luba mikrofon",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Mikrofoniõigused puuduvad",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Vali vahend",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Pliiats",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Tõstukvahend",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Kustutuskumm",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Tekst",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Kujund",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Nool",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Pilt",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Võta tagasi",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Tee uuesti",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Tühista lõuend",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Rohkem värve",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Paks joon",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Keskmine joon",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Õhuke joon",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Lülita pilt-pildis režiim sisse/välja",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Lülita täitmine sisse/välja",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Joonistusrežiim",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Hägustusrežiim",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Kustuta kõik hägustatud elemendid",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Tõsta klikid esile",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Tõsta kursor esile",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Prožektori kursor",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Ära näita uuesti",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Taaskäivitada salvestus?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Teie praegune edusamm läheb kaotsi.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Taaskäivita",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Jätka",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Loobuda salvestusest?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Teie praegune edusamm läheb kaotsi.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Loobu",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Jätka",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Teie salvestus salvestatakse siia",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Salvestamine...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Hoidke see vahekaart avatud. See suletakse, kui teie salvestus on salvestatud.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Salvestuse ettevalmistamine...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Hoidke see vahekaart avatud. See värskendub teie salvestusega, kui see on valmis.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Redigeerija",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Tühista",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Taasta originaal",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Lähtesta",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Salvesta muudatused",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Salvestamine...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Lohistage ja asetage oma helifail",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Või klõpsake sirvimiseks",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Seaded",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Helitugevus",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Värskenda",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Lõika",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Laius",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Kõrgus",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Vasakul",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Üleval",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Lohistage käepidemed ja kasutage valitud ala redigeerimiseks vasakul olevaid nuppe.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Lõika video",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Lõikamine...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Lõika osa",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Lõikamine...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Vaigista heli",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Vaigistamine...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Lisateave.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Võta tagasi",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Tee uuesti",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Jätke hinnang, see aitab!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Olete hetkel võrguühenduseta",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Mõned funktsioonid pole saadaval enne uuesti ühendamist",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Proovi uuesti",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome tuleb värskendada",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Värskendage, et saada juurdepääs rohkematele funktsioonidele",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Lisateave",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Video on seadmes töötlemiseks liiga pikk",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Redigeerimine ja MP4 eksport pole saadaval",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Videot töödeldakse kohalikult...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Lisateave kiirema pilveversiooni kohta",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Redigeeri",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Ühendus puudub",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Pole saadaval",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Redigeeri videot",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Lõika, lõika või vaigista video",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Video ettevalmistamine, palun oodake...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Lõika",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Lõika ja muuda video suurust",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Lisa heli",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Laadige üles oma heli, et lisada see videole",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Salvesta",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Logi välja Google Drive'ist",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Salvestamine...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Salvesta Google Drive'i",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Salvestage praegune versioon Google Drive'i",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Logige sisse ja salvestage Google Drive'i",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Allalaadimine...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Lae alla .webm-na",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Ekspordi .webm-video",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Lae alla .mp4-na",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Ekspordi .mp4-video (soovitatav)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Lae alla .gif-na",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Ekspordi GIF (maks. 30 sekundit)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Asenda olemasolev heli",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Suumi kursorini",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Jääge salvestamisel lehele",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Mikrofon väljas hoiatus",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Abi",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Salvestus pausil. Jätkamiseks vajutage esitusnuppu.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot'il pole luba teie ekraani salvestada",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Ekraani salvestamise toimimiseks peate lubama CocoShot'il teie ekraani jäädvustada, kui õiguste taotlus kuvatakse.(Saate selle igal ajal laienduse seadetes tühistada.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Luba ekraani salvestus",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Tühista",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Teie mikrofon on vaigistatud",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Kui soovite, et teie hääl salvestusele lisataks, peate mikrofoni sisse lülitama. Kas soovite siiski salvestusega jätkata ilma helita?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Jah, jätka",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Tühista",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Lõdvestuge. Loenduri peatamiseks klõpsake kuskil.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Redigeerimised võivad lühikeste ajavahemike korral olla ebatäpsed kaadritevaheliste intervallide tõttu.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Videot töödeldakse, esitus võib olla ebatäpsem või katkeda.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Lõikamine võib natuke aega võtta",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Täiendage kiiremaks töötlemiseks",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Mikrofon lubatud",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Mikrofon keelatud",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Salvestus oli lühem kui 3 sekundit ja ei salvestatud.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Peida kasutajaliidese teated",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Ära näita uuesti",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Peida tööriistariba, kui seda ei kasutata",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Alusta salvestamist",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Lõpeta salvestamine",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Tere tulemast uude CocoShotti!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Lisateave värskenduse kohta.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Alusta",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Viga salvestuse käivitamisel",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Salvestusprotsessi käivitamisel tekkis viga. Taaskäivitage brauser ja proovige uuesti. Kui probleem jätkub, võtke meiega ühendust aadressil support@cocoshot.net.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Kõrgeim kvaliteet",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Taasta viimane videosalvestus",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "On probleeme?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Te ei näe oma salvestust?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Kui olete salvestamise lõpetanud, kuid ei näe sel lehel oma videot, võite proovida alla laadida toorandmed. Võite meiega ka ühendust võtta, esitades vearaporti.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Laadi alla toored videod",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Teata veast",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Salvestust ei leitud, vabandame :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Mälu piirang saavutatud",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Teie seadmel pole salvestamiseks piisavalt mälu, mille tõttu seanss lõpetatakse automaatselt. Pikemate videote salvestamiseks kaaluge video kvaliteedi vähendamist või salvestusruumi vabastamist.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Mõistetud",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Pole piisavalt ruumi",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot vajab salvestamiseks vähemalt 1GB vaba ruumi. Vabastage ruumi ja proovige uuesti.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Kustuta eelmised salvestused",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Täpsemad",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Lae alla toores videofail",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Ekspordi originaalsalvestuse andmed",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Abi saamine salvestusega",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Taastage oma video ja lahendage muud probleemid",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Lae alla toores videofail",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Toores videofail viitab muutmata salvestusele, mille CocoShot lõi otse. Kuna seda faili pole töödeldud ega redigeeritud, võib see olla üsna suur ja mõne seadmega ühildamatu. Kui teil on töödeldud versiooniga probleeme, saate selle faili abil oma originaalsalvestuse taastada.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Laadi alla",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Kuva helilaine",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Laadi alla süsteemiinfo ja andmed ning saada veaotsinguks",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Kui olete faili alla laadinud, saatke see koos lisadetaiIidega, mis võivad kasulikud olla, aadressile support@cocoshot.net. Kasutame seda teavet, et aidata teil lahendada probleeme laiendusega ja võimalusel taastada teie video.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Laadi alla",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Video on teie seadmes töötlemiseks liiga pikk",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Kuna CocoShot seab esikohale privaatsuse ja töötab täielikult teie kohalikul seadmel, on see piiratud teie riistvara võimalustega. Selle pikkusega videoga tegelemine oleks liiga ajakulukas ja nõuaks märkimisväärseid süsteemiressursse. Saate siiski WEBM-faili või tooresalvestuse, kuigi redigeerimisfunktsioonid ja MP4 eksport pole saadaval. Kui olete teadlikud võimalikest väljakutsetest, võite siiski video töötlemisega jätkata.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Mõistan riski, proovige siiski",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Lisateave pikkade videote töötlemise kohta.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Taasterežiim",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Laadi alla andmed veaotsinguks",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Abikeskus",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Salvesta arvuti heli",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Selle lehe heli salvestamiseks peate lülituma «$tab$»-le.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Laiendus pole vahekaardil toetatud",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot ei ühildu vahekaardiga, mida te just kasutasite. Saate sellelt lehelt siiski salvestamise alustada ja seejärel naasta sellele vahekaardile, kuid pidage meeles, et teie kaameravoo ja redigeerimise tööriistariba ei kuvata.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Seadistage kohalik varukoopia oma CocoShot-salvestustele",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Säilitage iga loodud salvestuse koopiad. Varukoopiate seadistamiseta salvestatakse teie salvestused ainult siis, kui valite need explicitly alla laadida.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Kui proovite salvestusi Allalaadimistesse või muusse süsteemi kataloogi salvestada, peate võib-olla kõigepealt uue kausta looma.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Vali kaust",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Mitte nüüd",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Teie salvestusi varundatakse kohalikult",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Et vältida õiguste küsimist iga kord, kui salvestate, soovitame selle vahekaardi avatuna hoida.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Sulge vahekaart igal juhul",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Lõpeta kõigi salvestuste varundamine",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Kinnitage juurdepääs oma kohalikule CocoShot varunduskaustale",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Vabandust, kuid vajame teie luba, et jätkata salvestuste varundamist. Kahjuks peame seda luba küsima iga kord, kui see vahekaart suletakse, mis võib juhtuda, kui sulgete brauseri või taaskäivitate arvuti.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Luba CocoShot'il jätkata salvestuste varundamist",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Varunda salvestused",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Salvestuse varundamise luba polnud antud",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Te pole valinud kausta oma salvestuste varukohtade salvestamiseks. Olenevalt teie brauseri versioonist või operatsioonisüsteemist võidakse teil paluda see kaust iga kord valida, kui alustate salvestust. Võite proovida seadistusprotsessi uuesti või varukoopiad täiesti välja lülitada, kui te ei soovi õigusi korduvalt anda.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Salvesta arvuti heli",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "macOS-süsteemides olete piiratud heli salvestamisega üksikutelt vahekaartidelt. Valige Chrome'i vahekaardi salvestamise valik ja veenduge, et 'Jaga ka heli' oleks sisse lülitatud.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Salvesta arvuti heli",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Kui soovite arvutist heli jäädvustada, veenduge, et 'Jaga süsteemi heli' oleks aktiivne. Kui see valik pole nähtav, kaaluge Chrome'i värskendamist või lülitumist vahekaardi salvestusrežiimile.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Maksimaalne eraldusvõime",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Maksimaalne FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Ei piisa RAM-ist",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Muuda akna suurust",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Ekraan on selle eraldusvõime jaoks liiga väike",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Ei saa selle eraldusvõimega teie seadmes salvestada",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Luba keelatud",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Salvestamiseks on vaja kaamera ja mikrofoni lubasid. Palun andke load brauseri seadetes.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Salvestamiseks on vaja kaamera luba. Palun andke luba brauseri seadetes.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Salvestamiseks on vaja mikrofoni luba. Palun andke luba brauseri seadetes.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Paranda õigused",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Ekraani salvestamise seaded",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "h",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Kaamera loa taotlemine...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Mikrofoni loa taotlemine...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Taotle kaamera luba",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Taotle mikrofoni luba",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Vaata üle õigused",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Kohanda valikuid",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Salvestatud videod",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": " veel salvestatud videoid",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Vajuta vaigistamiseks",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Vajame teie luba kaamerale juurdepääsemiseks",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Vajame teie luba mikrofonile juurdepääsemiseks",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Vaata üle",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Värvivalija",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Sulge",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Värvi valimine ekraanilt",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API pole selles brauseris toetatud. Kasutage kaasaegset brauserit nagu Chrome 95+ või Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Vali hägususe piirkond",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Kustuta kõik hägususe piirkonnad",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Joonelaius",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Õhuke",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Keskmine",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Paks",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Väga paks",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot Recordings",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Kohaliku varukoopia seadistamine ebaõnnestus. Lisateabe saamiseks võtke meiega ühendust aadressil $supportEmail$. Saate siiski oma ekraani salvestada.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Teie brauser ei toeta kohalikke varukoopiaid. Lisateabe saamiseks võtke meiega ühendust aadressil $supportEmail$. Saate siiski oma ekraani salvestada.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Kuidas kasutada suumi kursorini",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Salvestamise hoidke all klaviatuuri otseteed, et suumida oma kursori asukohta. Vabastage klahvid, et suumida tagasi. See on suurepärane ekraani kindlate alade esiletoomiseks salvestuse ajal.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Selge!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Piirkonna suurus",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Eelseadistused",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Lähtesta",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Puudub",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Hägusta",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Pilt",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Laadige esmalt videofail",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Lae alla WebM-na",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Lae alla MP4-na",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Teisendamine...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Töötlemise killud:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Video suurus ületab soovitatud piiri (maks 1GB), mis võib põhjustada töötlemise ebaõnnestumist",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Laadite suurt videot (1GB). Töötlemine võib kaua aega võtta. Jätkata?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Toetamata video vorming. Proovige teistsugust video vormingut.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Allalaadimine ebaõnnestus. Proovige uuesti.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4 teisendamine pole saadaval",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "See video on brauseris MP4-na teisendamiseks liiga suur. Laadige see alla WebM-na.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Teisendamine MP4-na...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Video allalaadimine ebaõnnestus. Proovige uuesti.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "redigeeri videot",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Tulemas varsti.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Video eelvaade",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Kirjutamine mällu...",
+    "description": "Message shown when writing video to storage"
+  }
+}

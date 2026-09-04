@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: captura de pantalla i gravadora de pantalla"
+  },
+  "extDescription": {
+    "message": "Captureu captures de pantalla de pàgina completa i graveu la pantalla a MP4 amb anotacions. Exportació de PDF amb enllaços clicab..."
+  },
+  "pDisable": {
+    "message": "Desactivat en aquesta pàgina"
+  },
+  "pDisableDesc": {
+    "message": "Podeu executar això en qualsevol pàgina web, excepte en aquelles on el navegador restringeix les extensions que executen scripts. Això inclou la botiga d'extensions, les pàgines de configuració del navegador i altres pàgines d'extensions."
+  },
+  "pDisableExp": {
+    "message": "Aquesta limitació prové del navegador mateix a causa de riscos de seguretat."
+  },
+  "pDisableTry": {
+    "message": "Podeu obrir una nova pàgina i provar la funció de captura."
+  },
+  "pStart": {
+    "message": "Iniciar"
+  },
+  "pFileUrl": {
+    "message": "Vés a \"edge://extensions/\" i marca la casella \"Permetre l'accés a les URL de fitxers\"."
+  },
+  "pCaptV": {
+    "message": "Captura la captura de pantalla de les parts visibles de la pàgina."
+  },
+  "pAsOne": {
+    "message": "Desa com un únic fitxer HTML."
+  },
+  "pDesktop": {
+    "message": "Captura captures de pantalla d'una pàgina web, pestanya, finestra o pantalla sencera."
+  },
+  "pCaptFull": {
+    "message": "Captura la captura de pantalla de la pàgina completa."
+  },
+  "pDesableOpt": {
+    "message": "O també podeu provar:"
+  },
+  "pAreaCut": {
+    "message": "Seleccioneu una part de la pàgina per capturar la captura de pantalla."
+  },
+  "fullpageTooLarge": {
+    "message": "Avís: el navegador no pot capturar tota la pàgina com una sola imatge a causa de la seva mida. En comptes d'això, es dividirà en <strong>$1</strong> imatges separades."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Atenció: Aquesta extensió no està pensada per capturar contingut extremadament gran. És possible que no pugui completar amb èxit la captura d'aquesta pàgina."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Permís addicional requerit"
+  },
+  "framePermDesc": {
+    "message": "Aquest lloc mostra contingut mitjançant un iframe incrustat, que requereix permisos addicionals per accedir-hi."
+  },
+  "WhatisIframe": {
+    "message": "Fes clic per saber què és un iframe."
+  },
+  "framePermMore": {
+    "message": "És possible que hagis de reiniciar l'extensió després d'utilitzar aquest diàleg. Si cancel·les, només es capturarà la pantalla visible."
+  },
+  "framePermConfirm": {
+    "message": "Permet"
+  },
+  "framePermSave": {
+    "message": "Desa aquest permís per a un ús posterior (Pots revocar-lo en qualsevol moment)."
+  },
+  "error": {
+    "message": "Error"
+  },
+  "captureError": {
+    "message": "La captura ha fallat, torna-ho a provar més tard. Si el problema persisteix, contacta amb el desenvolupador a $1"
+  },
+  "btnOk": {
+    "message": "D'acord"
+  },
+  "btnCancel": {
+    "message": "Cancel·la"
+  },
+  "saveFramePermission": {
+    "message": "Permet capturar contingut de tots els frames"
+  },
+  "permissions": {
+    "message": "Permisos"
+  },
+  "saveframepDesc": {
+    "message": "Aquest permís és necessari per capturar contingut d'iframes o de framesets d'una pàgina. Si es desactiva, es podria limitar la capacitat de capturar alguns elements de la pàgina web."
+  },
+  "processingScreenshot": {
+    "message": "S'està processant la captura de pantalla..."
+  },
+  "screenshotSaved": {
+    "message": "Captura desada a la carpeta de descàrregues"
+  },
+  "screenshotLoadFailed": {
+    "message": "No s'ha pogut carregar la captura. Torna-ho a intentar."
+  },
+  "getScreenshotFailed": {
+    "message": "No s'ha pogut fer la captura. Torna-ho a intentar."
+  },
+  "processingAllAreas": {
+    "message": "S'estan processant les captures de totes les àrees..."
+  },
+  "allAreasSaved": {
+    "message": "Captures de $1 àrees desades correctament"
+  },
+  "areaNotVisible": {
+    "message": "L'àrea seleccionada està gairebé completament fora del rang visible i no es pot capturar."
+  },
+  "partiallyVisible": {
+    "message": "Una part de l'àrea és fora del rang visible. S'ha capturat la part visible."
+  },
+  "partiallyVisibleArea": {
+    "message": "Una part de l'àrea seleccionada és fora del rang visible. S'ha capturat la part visible."
+  },
+  "areaOutOfView": {
+    "message": "L'àrea seleccionada és fora del rang visible. Desplaça la pàgina per fer visible l'àrea i torna-ho a intentar."
+  },
+  "processingError": {
+    "message": "Error en processar la captura: $1"
+  },
+  "saveFailed": {
+    "message": "No s'ha pogut desar la captura: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Mode de captura intel·ligent activat. Fes clic per seleccionar un element a capturar (Enter per confirmar, Esc per cancel·lar)."
+  },
+  "processing": {
+    "message": "S'està processant la còpia..."
+  },
+  "copyFailed": {
+    "message": "Error en copiar: $1"
+  },
+  "canvasContextError": {
+    "message": "Error en copiar: No s'ha pogut obtenir el context de Canvas."
+  },
+  "copied": {
+    "message": "Copiat al porta-retalls"
+  },
+  "clipboardAccessDenied": {
+    "message": "Error en copiar: Accés al porta-retalls denegat, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Error en copiar: L'API del porta-retalls no és compatible"
+  },
+  "imageDataCreateFailed": {
+    "message": "Error en copiar: No s'han pogut crear les dades de la imatge"
+  },
+  "copyAreaOutOfView": {
+    "message": "Error en copiar: L'àrea seleccionada és fora del rang visible"
+  },
+  "imagePreviewShown": {
+    "message": "Vista prèvia de la imatge mostrada. Fes clic dret per copiar."
+  },
+  "escape": {
+    "message": "Cancel·la (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Qualitat de la imatge establerta a: $1"
+  },
+  "qrDecoding": {
+    "message": "S'està desxifrant el codi QR..."
+  },
+  "qrSuccess": {
+    "message": "Codi QR desxifrat correctament. Copiat al porta-retalls."
+  },
+  "qrNoQRFound": {
+    "message": "No s'ha detectat cap codi QR vàlid"
+  },
+  "qrError": {
+    "message": "Error en desxifrar el codi QR: $1"
+  },
+  "saveArea": {
+    "message": "Desa aquesta àrea"
+  },
+  "copyToClipboard": {
+    "message": "Copia aquesta selecció (seleccionada actualment)"
+  },
+  "saveAllAreas": {
+    "message": "Desa totes les àrees"
+  },
+  "keepAndContinue": {
+    "message": "Afegeix una nova selecció"
+  },
+  "cancel": {
+    "message": "Cancel·la"
+  },
+  "lockSize": {
+    "message": "Bloca la mida"
+  },
+  "lockSizeActive": {
+    "message": "✓ Mida blocada"
+  },
+  "freeRatio": {
+    "message": "Proporció lliure"
+  },
+  "ratioLabel": {
+    "message": "Selecciona la proporció"
+  },
+  "aiDialog": {
+    "message": "Diàleg intel·ligent"
+  },
+  "fileSizeEstimate": {
+    "message": "Aprox. $1 $2"
+  },
+  "qrDecode": {
+    "message": "Desxifra el codi QR"
+  },
+  "removeBackground": {
+    "message": "Elimina el fons"
+  },
+  "processingBackgroundRemoval": {
+    "message": "S'està eliminant el fons..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Error en eliminar el fons: Error en carregar la imatge"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Error en eliminar el fons: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Fons eliminat i copiat al porta-retalls"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Error en eliminar el fons: No s'ha pogut crear el Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "L'àrea seleccionada és fora del rang visible"
+  },
+  "screenshotFailed": {
+    "message": "Error en fer la captura: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Error en processar la imatge. Torna-ho a intentar"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Àrea de captura fora del rang visible"
+  },
+  "errorProcessingImage": {
+    "message": "Error en processar la imatge: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "La biblioteca de desxifrat de codis QR no està carregada"
+  },
+  "qrDecodingFailed": {
+    "message": "Error en desxifrar el codi QR: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "No s'ha trobat cap codi QR a l'àrea seleccionada"
+  },
+  "qrDecodingSuccess": {
+    "message": "Codi QR desxifrat correctament: $1"
+  },
+  "qrDecodingError": {
+    "message": "Error de desxifrat del codi QR: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Error en eliminar el fons: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Primer selecciona una àrea per a la captura"
+  },
+  "aiDialogTitle": {
+    "message": "Conversar intel·ligentment sobre el contingut de la captura"
+  },
+  "qrDecodeTitle": {
+    "message": "Desxifra el codi QR de la captura"
+  },
+  "lockSizeTitle": {
+    "message": "Bloca la mida actual per a captures contínues"
+  },
+  "moveHint": {
+    "message": "Arrossega l'àrea de selecció (Espai + arrossega)"
+  },
+  "saveAreaTooltip": {
+    "message": "Desa l'àrea actual"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Desa totes les àrees seleccionades"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Copia la captura al porta-retalls"
+  },
+  "moreOptions": {
+    "message": "Més opcions"
+  },
+  "removeBgTooltip": {
+    "message": "Elimina el fons i copia al porta-retalls"
+  },
+  "ratioLabelTooltip": {
+    "message": "Selecciona la relació d'aspecte"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Mantén la selecció actual i continua"
+  },
+  "pCaptureTabLabel": {
+    "message": "Captura de pantalla"
+  },
+  "pAiToolsTabLabel": {
+    "message": "Eines d'IA"
+  },
+  "pCaptureTitle": {
+    "message": "Captura de pantalla de pàgina completa i àrea de pantalla seleccionada"
+  },
+  "pAiToolsTitle": {
+    "message": "Eines relacionades amb la IA"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Eines d'exportació de contingut web"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Eines d'imatge"
+  },
+  "pDownloadAsMD": {
+    "message": "Baixa com a Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Baixa com a PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Baixeu la pàgina web actual com a fitxer Markdown"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Baixeu la pàgina web actual com a fitxer PDF"
+  },
+  "pImageProcessing": {
+    "message": "Processament d'imatges"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Una col·lecció d'eines per al processament d'imatges"
+  },
+  "fixThePage": {
+    "message": "Arregla la pàgina"
+  },
+  "expandScrollableOn": {
+    "message": "Amplia les àrees desplaçables"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Activa per ampliar les àrees desplaçables de la pàgina web abans de fer una captura de pantalla"
+  },
+  "hideFixedOn": {
+    "message": "Amaga els elements de posició fixa"
+  },
+  "hideFixedOnDesc": {
+    "message": "Activa per amagar els elements de posició fixa que puguin interferir amb la captura"
+  },
+  "preScrollOn": {
+    "message": "Precàrrega de la pàgina web amb desplaçament"
+  },
+  "preScrollOnDesc": {
+    "message": "Molts elements web (p. ex., imatges) només es carreguen en desplaçar-se. Quan està activat, detecta i es desplaça automàticamente fins a la part inferior de la pàgina abans de fer una captura de pantalla."
+  },
+  "canBeDisabled": {
+    "message": "es pot desactivar a través de la pàgina de configuració"
+  },
+  "analyzingPageForHTML": {
+    "message": "S'està analitzant el codi i el contingut de la pàgina web, les pàgines complexes poden trigar més. Si triga massa, actualitzeu la pàgina web i torneu-ho a provar."
+  },
+  "drawerSettings": {
+    "message": "Configuració"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Historial de captures de pantalla"
+  },
+  "drawerImageTools": {
+    "message": "Eines de millora de captures de pantalla"
+  },
+  "drawerHelpFeedback": {
+    "message": "Preguntes freqüents i comentaris"
+  },
+  "drawerCloseMenu": {
+    "message": "Tanca aquest menú"
+  },
+  "logoTooltip": {
+    "message": "Veure més"
+  },
+  "pRecorderTabLabel": {
+    "message": "Gravadora de pantalla"
+  },
+  "pRecorderTitle": {
+    "message": "Gravadora de pantalla"
+  },
+  "pStartRecorder": {
+    "message": "Iniciar la gravació de pantalla"
+  },
+  "pStartRecorderLabel": {
+    "message": "Gravació de pantalla"
+  },
+  "pRecorderAlt": {
+    "message": "Gravadora"
+  },
+  "pStartRecorderAlt": {
+    "message": "Gravadora de pantalla"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Aquesta és una versió beta"
+  },
+  "pRecorderFeedback": {
+    "message": "Proporcionar comentaris"
+  },
+  "downloadsPermission": {
+    "message": "Permetre descàrregues de fitxers"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Aquest permís és necessari per desar captures de pantalla directament al vostre ordinador."
+  },
+  "webNavigationPermission": {
+    "message": "Permetre l'accés a la navegació web"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Aquest permís és necessari per detectar canvis de pàgina i navegar a diferents pàgines quan sigui necessari."
+  },
+  "desktopCapturePermission": {
+    "message": "Permetre la captura d'escriptori"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Aquest permís és necessari per capturar contingut del vostre escriptori o finestres específiques."
+  },
+  "tabsPermission": {
+    "message": "Permetre l'accés a les pestanyes"
+  },
+  "tabsPermissionDesc": {
+    "message": "Aquest permís és necessari per accedir i gestionar la informació de les pestanyes del navegador."
+  },
+  "tabCapturePermission": {
+    "message": "Permetre la captura de pestanya"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Aquest permís és necessari per capturar àudio i vídeo de les pestanyes del navegador."
+  },
+  "allUrlsPermission": {
+    "message": "Permetre l'accés a tots els llocs web"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Aquest permís és necessari per capturar captures de pantalla de qualsevol lloc web."
+  },
+  "fileUrlsPermission": {
+    "message": "Permetre l'accés a fitxers locals"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Aquest permís és necessari per capturar captures de pantalla de fitxers locals (URL file://)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Si s'han d'incloure imatges a la descàrrega"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Aquesta funció requereix CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "Actualitzar a Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Per desar aquest contingut cal CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "Vista prèvia de CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "Mode de vista prèvia"
+  },
+  "qv_screenshot_preview": {
+    "message": "Vista prèvia de la captura de pantalla"
+  },
+  "qv_download": {
+    "message": "Descarregar"
+  },
+  "qv_edit": {
+    "message": "Anotar, Editar (també es pot exportar a PDF)"
+  },
+  "qv_hint": {
+    "message": "Els usuaris experimentats ometran automàticament aquesta pàgina i aniran a l'editor."
+  },
+  "recordTab": {
+    "message": "Gravar",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Els meus vídeos",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Pantalla",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Pestanya",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Només càmera",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Maqueta",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Gravació d'àrea personalitzada deshabilitada",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Actualitzeu Chrome a la versió 110 o superior",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Actualitzar",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Verifiqueu els vostres permisos",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "Sembla que CocoShot no pot accedir a la càmera o al micròfon. Per resoldre-ho, desblogueu-lo a la configuració del navegador i atorgueu els permisos necessaris.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Tancar",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Permetre l'accés a la càmera",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Permetre l'accés al micròfon",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Prem per parlar",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Establir àrea de gravació",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Girar càmera",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Efectes de fons",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Iniciar gravació",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Iniciant gravació...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Seleccionar càmera",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Més opcions",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Àudio del sistema",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Ocultar barra d'eines",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Compte enrere",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Establir límit de temps",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Desenfocar",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Cap",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Sense càmera",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Sense micròfon",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Seleccionar origen",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Desactivat",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Amplada",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Alçada",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Cliqueu per Col·locar imatge",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Finalitzar gravació",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Reiniciar gravació",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Pausar gravació",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Reprendre gravació",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Cancel·lar gravació",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Canviar eines de dibuix",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Canviar eina de desenfoc",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Canviar opcions del cursor",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Desactivar càmera",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Activar càmera",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Sense permisos de càmera",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Configuració de la càmera",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Mirall de la càmera",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Desenfoc de fons",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Desactivar micròfon",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Activar micròfon",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Sense permisos de micròfon",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Seleccionar eina",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Eina de ploma",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Eina de subratllador",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Eina de goma d'esborrar",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Eina de text",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Eina de forma",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Eina de fletxa",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Eina d'imatge",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Desfer",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Refer",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Netejar llenç",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Més colors",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Tret gruixut",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Tret mitjà",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Tret prim",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Canviar mode imatge dins imatge",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Canviar omplir",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Mode de dibuix",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Mode de desenfoc",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Esborrar tots els elements desenfocats",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Ressaltar clics",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Ressaltar cursor",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Cursor de focus",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "No tornar a mostrar",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Reiniciar la gravació?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "El vostre progrés actual es perdrà.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Reiniciar",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Reprendre",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Descartar la gravació?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "El vostre progrés actual es perdrà.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Descartar",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Reprendre",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "La vostra gravació es desarà aquí",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Gravant...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Manteniu aquesta pestanya oberta. Es tancarà quan es desi la gravació.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Preparant gravació...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Manteniu aquesta pestanya oberta. S'actualitzarà amb la vostra gravació quan estigui llesta.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Editor",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Cancel·lar",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Revertir a l'original",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Restablir",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Desar canvis",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Desant...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Arrossegueu i pengeu el vostre fitxer d'àudio",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "O feu clic per navegar",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Configuració",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Volum",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Actualitzar",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Retallar",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Amplada",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Alçada",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Esquerra",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Dalt",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Arrossegueu les nanses i utilitzeu els botons de l'esquerra per editar la secció seleccionada.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Retallar vídeo",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Retallant...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Tallar secció",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Tallant...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Silenciar",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Silenciant...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Més informació.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Desfer",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Refer",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Deixa una ressenya, ajuda!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Esteu fora de línia",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Algunes funcions no estaran disponibles fins que us torneu a connectar",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Torna a provar",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Cal actualitzar Chrome",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Actualitzeu per accedir a més funcions",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Més informació",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Vídeo massa llarg per processar al dispositiu",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "L'edició i l'exportació MP4 no estan disponibles",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "El vídeo s'està processant localment...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Conegueu la versió al núvol més ràpida",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Editar",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Sense connexió",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "No disponible",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Editar vídeo",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Retalla, talla o silenci el vídeo",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Preparant el vídeo, espereu...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Retallar",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Retallar i redimensionar el vídeo",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Afegir àudio",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Carregueu el vostre propi àudio per afegir al vídeo",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Desar",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Tancar sessió de Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Desant...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Desar a Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Desar la versió actual a Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Inicia sessió i desa a Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Descarregant...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Descarregar com a .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Exportar vídeo .webm",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Descarregar com a .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Exportar vídeo .mp4 (recomanat)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Descarregar com a .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Exportar GIF (màx. 30 segons)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Substituir àudio existent",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Zoom al cursor",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Quedar a la pàgina en gravar",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Avís de micròfon desconnectat",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Ajuda",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Gravació en pausa. Premeu el botó de reproducció per reprendre.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot no té permís per gravar la vostra pantalla",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Perquè la gravació de pantalla funcioni, haureu de permetre que CocoShot capturi la vostra pantalla quan aparegui la sol·licitud de permís. (Podeu revocar-lo en qualsevol moment a la configuració de l'extensió.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Activar gravació de pantalla",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Cancel·lar",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "El vostre micròfon està silenciat",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Si voleu que la vostra veu s'inclogui a la gravació, haureu d'activar el micròfon. Voleu continuar amb la gravació sense àudio?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Sí, continuar",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Cancel·lar",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Relaxeu-vos. Cliqueu a qualsevol lloc per aturar el compte enrere.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Les edicions poden ser inexactes per a intervals de temps curts a causa dels intervals entre fotogrames.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "El vídeo s'està processant, la reproducció podria ser inexacta o interrompuda.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "El retall pot trigar una estona",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Actualitzeu per un processament més ràpid",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Micròfon activat",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Micròfon desactivat",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "La gravació va ser inferior a 3 segons i no es va desar.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Ocultar notificacions de la interfície",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "No tornar a mostrar",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Ocultar la barra d'eines quan no s'utilitzi",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Iniciar gravació",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Aturar gravació",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Benvinguts al nou CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Més informació sobre l'actualització.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Començar",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Error en iniciar la gravació",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "S'ha produït un error en iniciar el procés de gravació. Reinicieu el navegador i torneu a provar. Si el problema continua, contacteu-nos a support@cocoshot.net per obtenir més assistència.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Màxima qualitat",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Restaurar l'última gravació de vídeo",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Teniu problemes?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "No veieu la vostra gravació?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Si heu acabat de gravar però no veieu el vídeo a aquesta pàgina, podeu provar de descarregar les dades de vídeo en brut. Alternativament, podeu contactar amb nosaltres enviant un informe d'error.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Descarregar dades de vídeo en brut",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Informar d'un error",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "No s'ha trobat gravació, sorry :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "S'ha assolit el límit de memòria",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "El vostre dispositiu no té prou memòria per gravar, cosa que fa que la sessió acabi automàticament. Per gravar vídeos més llargs, considereu reduir la qualitat del vídeo o alliberar espai d'emmagatzematge al dispositiu.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Entès",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Espai insuficient",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot necessita almenys 1GB d'espai lliure per gravar. Allibereu una mica d'espai i torneu a provar.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Esborrar gravacions anteriors",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Avançat",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Descarregar fitxer de vídeo en brut",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Exportar les dades de gravació originals",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Obtenir ajuda amb la gravació",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Recupereu el vídeo i solucioneu altres problemes",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Descarregar fitxer de vídeo en brut",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "El fitxer de vídeo en brut es refereix a les dades de gravació inalterades creades directament per CocoShot. Com que aquest fitxer no s'ha processat ni editat, pot ser força gran i incompatible amb alguns dispositius. Si trobeu problemes amb la versió processada, podeu utilitzar aquest fitxer per recuperar la gravació original.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Descarregar",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Mostrar forma d'ona d'àudio",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Descarregar informació del sistema i dades de vídeo i enviar per a resolució de problemes",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Un cop hagueu descarregat el fitxer, envieu-lo a support@cocoshot.net juntament amb qualsevol detall addicional que pugui ser útil. Utilitzarem aquesta informació per ajudar-vos a resoldre problemes amb l'extensió i, si és possible, recuperar el vostre vídeo.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Descarregar",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "El vídeo és massa llarg per processar al vostre dispositiu",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Com que CocoShot prioritza la privadesa i opera completament al vostre dispositiu local, està limitat per les capacitats del vostre maquinari. Processar un vídeo d'aquesta durada requerirà massa temps i recursos significatius del sistema. Encara podeu obtenir el fitxer WEBM o la gravació en brut, encara que les funcions d'edició i l'exportació MP4 no estaran disponibles. Tanmateix, si esteu assabentats dels reptes potencials, podeu procedir amb el processament del vídeo.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Entenc el risc, provaré igualment",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Més informació sobre processar vídeos llargs.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Mode de recuperació",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Descarregar dades per a resolució de problemes",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Centre d'ajuda",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Gravar àudio de l'ordinador",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Per gravar àudio d'aquesta pàgina, heu de canviar a '$tab$'.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Extensió no suportada a la pestanya",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot no és compatible amb la pestanya que heu estat utilitzant. Podeu iniciar la gravació des d'aquesta pàgina i tornar a aquella pestanya, però tingueu en compte que la font de la càmera i la barra d'eines d'edició no es mostraran.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Configurar una còpia de seguretat local per a les gravacions de CocoShot",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Mantingueu còpies de cada gravació que creeu. Sense configurar còpies de seguretat, les vostres gravacions només es desaran quan escolliu expressament descarregar-les.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Si esteu intentant desar gravacions a Descàrregues o altres directoris del sistema, és possible que hàgiu de crear una carpeta nova abans.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Seleccionar carpeta",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Ara no",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": "Les vostres gravacions s'estan fent còpia de seguretat localment",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Per evitar que se us demani permisos cada vegada que graveu, us recomanem deixar aquesta pestanya oberta.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Tancar la pestanya igualment",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Aturar còpies de seguretat de totes les gravacions",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Confirmeu de nou l'accés a la carpeta de còpia de seguretat local de CocoShot",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Ens sap greu, però necessitem el vostre permís de nou per continuar fent còpies de seguretat de les vostres gravacions. Lamentablement, haurem de sol·licitar aquest permís cada vegada que aquesta pestanya es tanqui, cosa que pot passar quan tanqueu el navegador o reinicieu l'ordinador.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Permetre que CocoShot continuï fent còpies de seguretat de les gravacions",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Còpia de seguretat de gravacions",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "No s'ha atorgat permís per fer còpia de seguretat de la gravació",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "No heu triat una carpeta per emmagatzemar les còpies de seguretat de les vostres gravacions. Depenent de la versió del navegador o del sistema operatiu, se us pot demanar que trieu aquesta carpeta cada vegada que inicieu una gravació. Podeu tornar a provar el procés de configuració, o desactivar les còpies de seguretat completament si preferiu no atorgar permisos repetidament.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Gravar àudio de l'ordinador",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "En sistemes macOS, esteu limitats a gravar àudio de pestanyes individuals. Trieu l'opció de gravació de pestanya de Chrome i verifiqueu que l'opció 'També compartir àudio de pestanya' estigui activada.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Gravar àudio de l'ordinador",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Si voleu capturar àudio de l'ordinador, assegureu-vos que l'opció 'Compartir àudio del sistema' estigui activada. Si aquesta opció no es visible, considereu actualitzar Chrome o canviar al mode de gravació de pestanya.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Resolució màxima",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "FPS màxim",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "RAM insuficient",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Redimensionar finestra",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "La pantalla és massa petita per a aquesta resolució",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "No es pot gravar amb aquesta resolució al vostre dispositiu",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Permís denegat",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Calen permisos de càmera i micròfon per gravar. Atorgueu permisos a la configuració del navegador.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Cal permís de càmera per gravar. Atorgueu permís a la configuració del navegador.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Cal permís de micròfon per gravar. Atorgueu permís a la configuració del navegador.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Arreglar permisos",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Configuració de gravació de pantalla",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "h",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Sol·licitant permís de càmera...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Sol·licitant permís de micròfon...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Sol·licitar permís de càmera",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Sol·licitar permís de micròfon",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Revisar permisos",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Personalitzar opcions",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Vídeos gravats",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Encara no s'ha gravat cap vídeo",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Prem per silenciar",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Necessitem el vostre permís per accedir a la càmera",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Necessitem el vostre permís per accedir al micròfon",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Revisar",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Selector de color",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Tancar",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Agafar color de la pantalla",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "L'API EyeDropper no està suportada en aquest navegador. Utilitzeu un navegador modern com Chrome 95+ o Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Seleccionar regió de desenfoc",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Esborrar totes les regions de desenfoc",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Amplada de línia",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": " Prima",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Mitjana",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Gruixuda",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Molt gruixuda",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "Gravacions de CocoShot",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Error en configurar la còpia de seguretat local. Contacteu-nos a support@cocoshot.net per més ajuda. Encara podeu gravar la pantalla.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "El vostre navegador no suporta còpies de seguretat locals. Contacteu-nos a support@cocoshot.net per més ajuda. Encara podeu gravar la pantalla.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Com utilitzar Zoom al Cursor",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Mentre graveu, manteniu premuda la drecera de teclat per fer zoom cap a la posició del cursor. Allibereu les tecles per fer zoom enrere. Això és ideal per ressaltar àrees específiques de la pantalla durant la gravació.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Entès!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Mida de la regió",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Predefinits",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Restablir",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Cap",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Desenfoc",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Imatge",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Carregueu primer un fitxer de vídeo",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Descarregar com a WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Descarregar com a MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Convertint...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Processant trossos:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "La mida del vídeo supera el límit recomanat (màx. 1GB), cosa que pot causar errors de processament",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Esteu carregant un vídeo gran (1GB). El processament pot trigar molt. Continuar?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Format de vídeo no suportat. Proveu un altre format.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Error de descàrrega. Torneu a provar.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "Conversió MP4 no disponible",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Aquest vídeo és massa gran per convertir a MP4 al navegador. Descarregueu-lo com a WebM.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Convertint a MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Error en descarregar el vídeo. Torneu a provar.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "editar vídeo",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Properament.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Vista prèvia del vídeo",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "D'acord",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Escrivint a l'emmagatzematge...",
+    "description": "Message shown when writing video to storage"
+  }
+}

@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: 스크린샷 및 화면 녹화"
+  },
+  "extDescription": {
+    "message": "전체 페이지 스크린샷을 캡처하고 주석과 함께 화면을 MP4로 녹화합니다. 클릭 가능한 링크가 포함된 PDF 내보내기 기능이 포함되어 있습니다."
+  },
+  "pDisable": {
+    "message": "이 페이지에서 비활성화됨"
+  },
+  "pDisableDesc": {
+    "message": "브라우저가 스크립트 실행을 제한하는 웹페이지를 제외한 모든 웹페이지에서 이 기능을 실행할 수 있습니다. 여기에는 확장 프로그램 웹 스토어, 브라우저 설정 페이지 및 기타 확장 페이지가 포함됩니다."
+  },
+  "pDisableExp": {
+    "message": "이 제한은 보안 위험으로 인해 브라우저 자체에서 발생합니다."
+  },
+  "pDisableTry": {
+    "message": "새 페이지를 열고 캡처 기능을 시도할 수 있습니다."
+  },
+  "pStart": {
+    "message": "시작"
+  },
+  "pFileUrl": {
+    "message": "\"edge://extensions/\"로 이동하여 \"파일 URL에 대한 접근 허용\" 체크박스를 선택하세요."
+  },
+  "pCaptV": {
+    "message": "페이지의 보이는 부분의 스크린샷을 캡처합니다."
+  },
+  "pAsOne": {
+    "message": "단일 HTML 파일로 저장합니다."
+  },
+  "pDesktop": {
+    "message": "주어진 웹페이지, 탭, 창 또는 전체 화면의 스크린샷을 캡처합니다."
+  },
+  "pCaptFull": {
+    "message": "전체 페이지의 스크린샷을 캡처합니다."
+  },
+  "pDesableOpt": {
+    "message": "또는 다음을 시도할 수 있습니다:"
+  },
+  "pAreaCut": {
+    "message": "스크린샷을 캡처할 페이지의 일부를 선택합니다."
+  },
+  "fullpageTooLarge": {
+    "message": "알림: 페이지가 너무 커서 브라우저가 전체 페이지를 하나의 이미지로 캡처할 수 없습니다. 대신 <strong>$1</strong>개의 개별 이미지로 나뉩니다."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "주의: 이 확장 프로그램은 매우 큰 콘텐츠 캡처를 위해 설계되지 않았습니다. 이 페이지의 캡처가 성공적으로 완료되지 않을 수 있습니다."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "추가 권한 필요"
+  },
+  "framePermDesc": {
+    "message": "이 사이트는 임베디드 iframe을 통해 콘텐츠를 표시하며, 이를 액세스하려면 추가 권한이 필요합니다."
+  },
+  "WhatisIframe": {
+    "message": "iframe이 무엇인지 알아보려면 클릭하세요."
+  },
+  "framePermMore": {
+    "message": "이 대화 상자를 사용한 후 확장 프로그램을 다시 시작해야 할 수도 있습니다. 취소하면 보이는 화면만 캡처됩니다."
+  },
+  "framePermConfirm": {
+    "message": "허용"
+  },
+  "framePermSave": {
+    "message": "이 권한을 나중에 사용할 수 있도록 저장합니다(언제든지 취소할 수 있습니다)."
+  },
+  "error": {
+    "message": "오류"
+  },
+  "captureError": {
+    "message": "캡처에 실패했습니다. 나중에 다시 시도하세요. 문제가 지속되면 개발자에게 문의하세요: $1"
+  },
+  "btnOk": {
+    "message": "확인"
+  },
+  "btnCancel": {
+    "message": "취소"
+  },
+  "saveFramePermission": {
+    "message": "모든 프레임에서 콘텐츠 캡처 허용"
+  },
+  "permissions": {
+    "message": "권한"
+  },
+  "saveframepDesc": {
+    "message": "이 권한은 페이지에서 iframe 또는 frameset의 콘텐츠를 캡처하는 데 필요합니다. 이 권한을 비활성화하면 일부 웹 페이지 요소 캡처가 제한될 수 있습니다."
+  },
+  "processingScreenshot": {
+    "message": "스크린샷 처리 중..."
+  },
+  "screenshotSaved": {
+    "message": "스크린샷이 다운로드 폴더에 저장되었습니다"
+  },
+  "screenshotLoadFailed": {
+    "message": "스크린샷을 불러오지 못했습니다. 다시 시도해 주세요."
+  },
+  "getScreenshotFailed": {
+    "message": "스크린샷을 캡처하지 못했습니다. 다시 시도해 주세요."
+  },
+  "processingAllAreas": {
+    "message": "모든 영역의 스크린샷 처리 중..."
+  },
+  "allAreasSaved": {
+    "message": "$1개 영역의 스크린샷이 성공적으로 저장되었습니다"
+  },
+  "areaNotVisible": {
+    "message": "선택한 영역이 거의 전체가 보이지 않아 캡처할 수 없습니다."
+  },
+  "partiallyVisible": {
+    "message": "일부 영역이 보이지 않습니다. 보이는 부분만 캡처했습니다."
+  },
+  "partiallyVisibleArea": {
+    "message": "선택한 영역의 일부가 보이지 않습니다. 보이는 부분만 캡처했습니다."
+  },
+  "areaOutOfView": {
+    "message": "선택한 영역이 화면에 보이지 않습니다. 해당 영역이 보이도록 페이지를 스크롤한 후 다시 시도해 주세요."
+  },
+  "processingError": {
+    "message": "스크린샷 처리 중 오류 발생: $1"
+  },
+  "saveFailed": {
+    "message": "스크린샷 저장 실패: $1"
+  },
+  "smartModeEnabled": {
+    "message": "스마트 스크린샷 모드가 활성화되었습니다. 캡처할 요소를 클릭하세요 (Enter 확인, Esc 취소)."
+  },
+  "processing": {
+    "message": "복사 처리 중..."
+  },
+  "copyFailed": {
+    "message": "복사 실패: $1"
+  },
+  "canvasContextError": {
+    "message": "복사 실패: Canvas 컨텍스트를 가져올 수 없습니다."
+  },
+  "copied": {
+    "message": "클립보드에 복사되었습니다"
+  },
+  "clipboardAccessDenied": {
+    "message": "복사 실패: 클립보드 접근이 거부되었습니다, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "복사 실패: 클립보드 API가 지원되지 않습니다"
+  },
+  "imageDataCreateFailed": {
+    "message": "복사 실패: 이미지 데이터를 생성할 수 없습니다"
+  },
+  "copyAreaOutOfView": {
+    "message": "복사 실패: 선택한 영역이 보이지 않습니다"
+  },
+  "imagePreviewShown": {
+    "message": "이미지 미리보기가 표시되었습니다. 마우스 오른쪽 버튼을 눌러 복사하세요."
+  },
+  "escape": {
+    "message": "취소 (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "이미지 품질 설정: $1"
+  },
+  "qrDecoding": {
+    "message": "QR 코드 해독 중..."
+  },
+  "qrSuccess": {
+    "message": "QR 코드 해독 성공. 클립보드에 복사되었습니다."
+  },
+  "qrNoQRFound": {
+    "message": "유효한 QR 코드를 찾을 수 없습니다"
+  },
+  "qrError": {
+    "message": "QR 코드 해독 실패: $1"
+  },
+  "saveArea": {
+    "message": "이 영역 저장"
+  },
+  "copyToClipboard": {
+    "message": "이 선택 영역 복사 (현재 선택됨)"
+  },
+  "saveAllAreas": {
+    "message": "모든 영역 저장"
+  },
+  "keepAndContinue": {
+    "message": "새 선택 영역 추가"
+  },
+  "cancel": {
+    "message": "취소"
+  },
+  "lockSize": {
+    "message": "크기 고정"
+  },
+  "lockSizeActive": {
+    "message": "✓ 크기 고정"
+  },
+  "freeRatio": {
+    "message": "자유 비율"
+  },
+  "ratioLabel": {
+    "message": "비율 선택"
+  },
+  "aiDialog": {
+    "message": "스마트 대화"
+  },
+  "fileSizeEstimate": {
+    "message": "약 $1 $2"
+  },
+  "qrDecode": {
+    "message": "QR 코드 해독"
+  },
+  "removeBackground": {
+    "message": "배경 제거"
+  },
+  "processingBackgroundRemoval": {
+    "message": "배경 제거 중..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "배경 제거 실패: 이미지 로드 오류"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "배경 제거 실패: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "배경이 제거되어 클립보드에 복사되었습니다"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "배경 제거 실패: Blob을 생성할 수 없습니다"
+  },
+  "selectedAreaOutOfView": {
+    "message": "선택한 영역이 화면에 보이지 않습니다"
+  },
+  "screenshotFailed": {
+    "message": "스크린샷 실패: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "이미지 처리 실패. 다시 시도해 주세요."
+  },
+  "screenshotAreaOutOfView": {
+    "message": "스크린샷 영역이 화면에 보이지 않습니다"
+  },
+  "errorProcessingImage": {
+    "message": "이미지 처리 오류: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR 코드 해독 라이브러리가 로드되지 않았습니다"
+  },
+  "qrDecodingFailed": {
+    "message": "QR 코드 해독 실패: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "선택한 영역에서 QR 코드를 찾을 수 없습니다"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR 코드 해독 성공: $1"
+  },
+  "qrDecodingError": {
+    "message": "QR 코드 해독 오류: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "배경 제거 실패: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "먼저 스크린샷 영역을 선택해 주세요"
+  },
+  "aiDialogTitle": {
+    "message": "스크린샷 내용을 기반으로 스마트 대화하기"
+  },
+  "qrDecodeTitle": {
+    "message": "스크린샷의 QR 코드 해독"
+  },
+  "lockSizeTitle": {
+    "message": "연속 캡처를 위해 현재 크기 고정"
+  },
+  "moveHint": {
+    "message": "선택 영역 드래그 (스페이스 + 드래그)"
+  },
+  "saveAreaTooltip": {
+    "message": "현재 영역 저장"
+  },
+  "saveAllAreasTooltip": {
+    "message": "모든 선택 영역 저장"
+  },
+  "copyToClipboardTooltip": {
+    "message": "스크린샷을 클립보드로 복사"
+  },
+  "moreOptions": {
+    "message": "더 많은 옵션"
+  },
+  "removeBgTooltip": {
+    "message": "배경을 제거하고 클립보드로 복사"
+  },
+  "ratioLabelTooltip": {
+    "message": "가로세로 비율 선택"
+  },
+  "keepAndContinueTooltip": {
+    "message": "현재 선택 영역 유지하고 계속하기"
+  },
+  "pCaptureTabLabel": {
+    "message": "스크린샷"
+  },
+  "pAiToolsTabLabel": {
+    "message": "AI 도구"
+  },
+  "pCaptureTitle": {
+    "message": "전체 페이지 및 선택한 화면 영역 스크린샷"
+  },
+  "pAiToolsTitle": {
+    "message": "AI 관련 도구"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "웹 콘텐츠 내보내기 도구"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "이미지 도구"
+  },
+  "pDownloadAsMD": {
+    "message": "Markdown으로 다운로드"
+  },
+  "pDownloadAsPDF": {
+    "message": "PDF로 다운로드"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "현재 웹페이지를 Markdown 파일로 다운로드"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "현재 웹페이지를 PDF 파일로 다운로드"
+  },
+  "pImageProcessing": {
+    "message": "이미지 처리"
+  },
+  "pImageProcessingTooltip": {
+    "message": "이미지 처리용 도구 모음"
+  },
+  "fixThePage": {
+    "message": "페이지 수정"
+  },
+  "expandScrollableOn": {
+    "message": "스크롤 가능한 영역 확장"
+  },
+  "expandScrollableOnDesc": {
+    "message": "스크린샷을 찍기 전에 웹페이지 내 스크롤 가능한 영역을 확장하도록 설정"
+  },
+  "hideFixedOn": {
+    "message": "고정 위치 요소 숨기기"
+  },
+  "hideFixedOnDesc": {
+    "message": "캡처를 방해할 수 있는 고정 위치 요소를 숨기도록 설정"
+  },
+  "preScrollOn": {
+    "message": "웹페이지 사전 스크롤 로딩"
+  },
+  "preScrollOnDesc": {
+    "message": "많은 웹 요소(예: 이미지)는 스크롤 시에만 로드됩니다. 활성화하면 스크린샷을 찍기 전에 자동으로 감지하고 페이지 하단까지 스크롤합니다."
+  },
+  "canBeDisabled": {
+    "message": "설정 페이지를 통해 비활성화할 수 있음"
+  },
+  "analyzingPageForHTML": {
+    "message": "웹페이지 코드와 콘텐츠를 분석하는 중입니다. 복잡한 페이지는 시간이 더 오래 걸릴 수 있습니다. 너무 오래 걸리는 경우 웹페이지를 새로 고침하고 다시 시도하십시오."
+  },
+  "drawerSettings": {
+    "message": "설정"
+  },
+  "drawerScreenshotHistory": {
+    "message": "스크린샷 기록"
+  },
+  "drawerImageTools": {
+    "message": "스크린샷 개선 도구"
+  },
+  "drawerHelpFeedback": {
+    "message": "자주 묻는 질문 및 피드백"
+  },
+  "drawerCloseMenu": {
+    "message": "메뉴 닫기"
+  },
+  "logoTooltip": {
+    "message": "더 보기"
+  },
+  "pRecorderTabLabel": {
+    "message": "화면 녹화기"
+  },
+  "pRecorderTitle": {
+    "message": "화면 녹화기"
+  },
+  "pStartRecorder": {
+    "message": "화면 녹화 시작"
+  },
+  "pStartRecorderLabel": {
+    "message": "화면 녹화"
+  },
+  "pRecorderAlt": {
+    "message": "녹화기"
+  },
+  "pStartRecorderAlt": {
+    "message": "화면 녹화기"
+  },
+  "pRecorderBetaNotice": {
+    "message": "이것은 베타 버전입니다"
+  },
+  "pRecorderFeedback": {
+    "message": "피드백 제공"
+  },
+  "downloadsPermission": {
+    "message": "파일 다운로드 허용"
+  },
+  "downloadsPermissionDesc": {
+    "message": "이 권한은 스크린샷을 컴퓨터에 직접 저장하기 위해 필요합니다."
+  },
+  "webNavigationPermission": {
+    "message": "웹 탐색 액세스 허용"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "이 권한은 페이지 변경을 감지하고 필요시 다른 페이지로 이동하기 위해 필요합니다."
+  },
+  "desktopCapturePermission": {
+    "message": "데스크톱 캡처 허용"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "이 권한은 데스크톱 또는 특정 창의 콘텐츠를 캡처하기 위해 필요합니다."
+  },
+  "tabsPermission": {
+    "message": "탭 액세스 허용"
+  },
+  "tabsPermissionDesc": {
+    "message": "이 권한은 브라우저 탭 정보에 액세스하고 관리하기 위해 필요합니다."
+  },
+  "tabCapturePermission": {
+    "message": "탭 캡처 허용"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "이 권한은 브라우저 탭에서 오디오 및 비디오를 캡처하기 위해 필요합니다."
+  },
+  "allUrlsPermission": {
+    "message": "모든 웹사이트에 대한 액세스 허용"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "이 권한은 모든 웹사이트에서 스크린샷을 캡처하기 위해 필요합니다."
+  },
+  "fileUrlsPermission": {
+    "message": "로컬 파일에 대한 액세스 허용"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "이 권한은 로컬 파일(file:// URL)에서 스크린샷을 캡처하기 위해 필요합니다."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "다운로드에 이미지를 포함할지 여부"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "이 기능을 사용하려면 CocoShot Pro가 필요합니다"
+  },
+  "proUpgradeButton": {
+    "message": "Pro로 업그레이드"
+  },
+  "proSaveRestricted": {
+    "message": "이 콘텐츠를 저장하려면 CocoShot Pro가 필요합니다"
+  },
+  "qv_title": {
+    "message": "CocoShot 미리보기"
+  },
+  "qv_preview_mode": {
+    "message": "미리보기 모드"
+  },
+  "qv_screenshot_preview": {
+    "message": "스크린샷 미리보기"
+  },
+  "qv_download": {
+    "message": "다운로드"
+  },
+  "qv_edit": {
+    "message": "주석 달기, 편집 (PDF로 내보내기도 가능)"
+  },
+  "qv_hint": {
+    "message": "숙련된 사용자는 이 페이지를 자동으로 건너뛰고 편집기로 이동합니다."
+  },
+  "recordTab": {
+    "message": "녹화",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "내 동영상",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "화면",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "탭",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "카메라만",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "목업",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "사용자 지정 영역 녹화가 비활성화됨",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Chrome 버전을 110 이상으로 업데이트하세요",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "업데이트",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "권한을 확인하세요",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot이 카메라 또는 마이크에 액세스할 수 없는 것 같습니다. 이 문제를 해결하려면 브라우저 설정에서 차단을 해제하고 필요한 권한을 부여하세요.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "닫기",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "카메라 접근 허용",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "마이크 접근 허용",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "눌러서 말하기",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "녹화 영역 설정",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "카메라 뒤집기",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "배경 효과",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "녹화 시작",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "녹화 시작 중...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "카메라 선택",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "더 많은 옵션",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "시스템 오디오",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "도구 모음 숨기기",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "카운트다운",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "시간 제한 설정",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "흐리게",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "없음",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "카메라 없음",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "마이크 없음",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "소스 선택",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "끄기",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "너비",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "높이",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "클릭하여 이미지 배치",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "녹화 완료",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "녹화 다시 시작",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "녹화 일시 중지",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "녹화 재개",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "녹화 취소",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "그리기 도구 전환",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "흐리게 도구 전환",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "커서 옵션 전환",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "카amera 비활성화",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "카메라 활성화",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "카메라 권한 없음",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "카메라 설정",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "카메라 미러링",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "배경 흐리게",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "마이크 비활성화",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "마이크 활성화",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "마이크 권한 없음",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "도구 선택",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "펜 도구",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "형광펜 도구",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "지우개 도구",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "텍스트 도구",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "도형 도구",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "화살표 도구",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "이미지 도구",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "실행 취소",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "다시 실행",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "캔버스 지우기",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "더 많은 색상",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "두꺼운 선",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "중간 선",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "얇은 선",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": " Picture-in-Picture 모드 전환",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "채우기 전환",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "그리기 모드",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "흐리게 모드",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "모든 흐린 요소 지우기",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "클릭 강조",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "커서 강조",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "스포트라이트 커서",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "다시 표시하지 않기",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "녹화를 다시 시작하시겠습니까?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "현재 진행 상황이 손실됩니다.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "다시 시작",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "재개",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "녹화를 폐기하시겠습니까?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "현재 진행 상황이 손실됩니다.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "폐기",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "재개",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "녹화가 여기에 저장됩니다",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "녹화 중...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "이 탭을 열어두세요. 녹화가 저장되면 닫힙니다.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "녹화 준비 중...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "이 탭을 열어두세요. 준비되면 녹화로 업데이트됩니다.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "에디터",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "취소",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "원본으로 되돌리기",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "재설정",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "변경 사항 저장",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "저장 중...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "오디오 파일을 드래그 앤 드롭",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "또는 클릭하여 탐색",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "설정",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "볼륨",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "업데이트",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "자르기",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "너비",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "높이",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "왼쪽",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "위",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "핸들을 드래그하고 왼쪽 버튼을 사용하여 선택한 섹션을 편집하세요.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "동영상 자르기",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "자르는 중...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "섹션 잘라내기",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "잘라내는 중...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "음소거",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "음소거 중...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "자세히 알아보기.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "실행 취소",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "다시 실행",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "리뷰를 남겨주세요!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "현재 오프라인 상태입니다",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "다시 연결할 때까지 일부 기능을 사용할 수 없습니다",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "다시 시도",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome을 업데이트해야 합니다",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "더 많은 기능에 액세스하려면 업데이트하세요",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "자세히 알아보기",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "동영상이 너무 길어 기기에서 처리할 수 없습니다",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "편집 및 MP4 내보내기를 사용할 수 없습니다",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "동영상을 로컬에서 처리 중...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "더 빠른 클라우드 버전에 대해 알아보기",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "편집",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "연결 없음",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "사용 불가",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "동영상 편집",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "자르기, 잘라내기 또는 음소거",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "동영상 준비 중, 잠시만 기다려주세요...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "자르기",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "동영상 자르기 및 크기 조정",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "오디오 추가",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "동영상에 추가할 자체 오디오 업로드",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "저장",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Google Drive에서 로그아웃",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "저장 중...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Google Drive에 저장",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "현재 버전을 Google Drive에 저장",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "로그인하여 Google Drive에 저장",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "다운로드 중...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": ".webm으로 다운로드",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": ".webm 동영상 내보내기",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": ".mp4로 다운로드",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": ".mp4 동영상 내보내기 (권장)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": ".gif로 다운로드",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "GIF 내보내기 (최대 30초)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "기존 오디오 교체",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "커서로 확대",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "녹화 시 페이지에 머무르기",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "마이크 끄기 경고",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "도움말",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "녹화가 일시 중지되었습니다. 재개하려면 재생 버튼을 누르세요.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot에 화면을 녹화할 권한이 없습니다",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "화면 녹화가 작동하려면 권한 요청이 나타날 때 CocoShot이 화면을 캡처하도록 허용해야 합니다. (언제든지 확장 프로그램 설정에서 취소할 수 있습니다.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "화면 녹화 활성화",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "취소",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "마이크가 음소거되어 있습니다",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "녹화에 음성을 포함하려면 마이크를 켜야 합니다. 오디오 없이 녹화를 계속하시겠습니까?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "예, 계속",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "취소",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": " Relax하세요. 카운트다운을 중지하려면 아무 곳이나 클릭하세요.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "프레임 간격으로 인해 짧은 시간 범위의 편집이 정확하지 않을 수 있습니다.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "동영상 처리 중, 재생이 정확하지 않거나 중단될 수 있습니다.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "자르기에 시간이 걸릴 수 있습니다",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "더 빠른 처리를 위해 업그레이드",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "마이크 활성화됨",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "마이크 비활성화됨",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "녹화가 3초 미만이어서 저장되지 않았습니다.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "UI 알림 숨기기",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "다시 표시하지 않기",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "사용하지 않을 때 도구 모음 숨기기",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "녹화 시작",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "녹화 중지",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "새로운 CocoShot에 오신 것을 환영합니다!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "업데이트에 대해 자세히 알아보기.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "시작하기",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "녹화 시작 오류",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "녹화 프로세스 시작 중 오류가 발생했습니다. 브라우저를 다시 시작하고 다시 시도하세요. 문제가 계속되면 support@cocoshot.net으로 연락하세요.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "최고 품질",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "마지막 동영상 녹화 복원",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "문제가 있나요?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "녹화가 보이지 않으세요?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "녹화를 완료했지만 이 페이지에 동영상이 보이지 않는 경우 원시 동영상 데이터를 다운로드해 보거나 버그 보고서를 제출하여 연락할 수 있습니다.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "원시 동영상 데이터 다운로드",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "버그 신고",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "녹화를 찾을 수 없습니다, 죄송합니다 :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "메모리 제한 도달",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "장치에 메모리가 부족하여 세션이 자동으로 종료되었습니다. 더 긴 동영상을 녹화하려면 동영상 품질을 줄이거나 장치의 저장 공간을 확보하세요.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "알겠습니다",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "공간 부족",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot 녹화에는 최소 1GB의 여유 공간이 필요합니다. 공간을 확보하고 다시 시도하세요.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "이전 녹화 지우기",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "고급",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "원시 동영상 파일 다운로드",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "원래 녹화 데이터 내보내기",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "녹화 도움말 받기",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "동영상 복구 및 다른 문제 해결",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "원시 동영상 파일 다운로드",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "원시 동영상 파일이란 CocoShot에서 직접 생성한 가공되지 않은 녹화 데이터입니다. 이 파일이 처리되거나 편집되지 않았으므로 상당히 크기가 크고 일부 장치와 호환되지 않을 수 있습니다. 처리된 버전에서 문제가 발생하면 이 파일을 사용하여 원래 녹화를 복구할 수 있습니다.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "다운로드",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "오디오 웨이브폼 표시",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "시스템 정보 및 동영상 데이터를 다운로드하고 문제 해결을 위해 보내세요",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "파일을 다운로드한 후 추가 세부 정보와 함께 support@cocoshot.net으로 보내주세요. 이 정보를 사용하여 확장 프로그램 문제를 해결하고 가능하면 동영상을 복구하는 데 도움을 드릴 것입니다.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "다운로드",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "동영상이 너무 길어 기기에서 처리할 수 없습니다",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "CocoShot은 프라이버시를 우선시하고 완전히 로컬 장치에서 작동하므로 하드웨어 능력에 제약됩니다. 이 길이의 동영상을 처리하는 데는 매우 시간이 많이 소요되고 상당한 시스템 리소스가 필요합니다. WEBM 파일이나 원시 녹화를 얻을 수 있지만 편집 기능과 MP4 내보내기는 사용할 수 없습니다. 그러나 잠재적인 도전을 알고 있는 경우 계속 진행할 수 있습니다.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "위험을 이해했습니다, 그래도 시도합니다",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "긴 동영상 처리에 대해 자세히 알아보기.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "복구 모드",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "문제 해결을 위한 데이터 다운로드",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "도움말 센터",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "컴퓨터 오디오 녹화",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "이 페이지의 오디오를 녹화하려면 '$tab$'로 전환해야 합니다.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "탭에서 확장 프로그램이 지원되지 않음",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot은 방금 사용한 탭과 호환되지 않습니다. 이 페이지에서 녹화를 시작한 다음 해당 탭으로 돌아갈 수 있지만 카메라 피드와 편집 도구 모음이 표시되지 않습니다.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "CocoShot 녹화에 대한 로컬 백업 설정",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "생성하는 모든 녹화의 복사본을 유지합니다. 백업을 설정하지 않으면 녹화를 명시적으로 다운로드하도록 선택할 때만 저장됩니다.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Downloads 또는 기타 시스템 디렉토리에 녹화를 저장하려고 하는 경우 먼저 새 폴더를 만들어야 할 수 있습니다.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "폴더 선택",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "나중에",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": "녹화가 로컬에 백업되고 있습니다",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "녹화할 때마다 권한을 요청하지 않으려면 이 탭을 열어두는 것이 좋습니다.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "그래도 탭 닫기",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "모든 녹화 백업 중지",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "로컬 CocoShot 백업 폴더에 대한 액세스를 다시 확인하세요",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "죄송하지만 녹화를 계속 백업하려면 권한이 다시 필요합니다. 이 탭이 닫힐 때마다 권한을 요청해야 합니다. 브라우저를 종료하거나 컴퓨터를 다시 시작할 때 발생할 수 있습니다.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "CocoShot이 녹화를 계속 백업하도록 허용",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "녹화 백업",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "녹화를 백업할 권한이 부여되지 않았습니다",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "녹화 백업을 저장할 폴더를 선택하지 않았습니다. 브라우저 버전 또는 운영 체제에 따라 녹화를 시작할 때마다 이 폴더를 선택하라는 메시지가 표시될 수 있습니다. 설정을 다시 시도하거나 권한을 반복적으로 부여하지 않으려면 백업을 완전히 끌 수 있습니다.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "컴퓨터 오디오 녹화",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "macOS 시스템에서는 개별 탭의 오디오 녹화로 제한됩니다. Chrome 탭 녹화 옵션을 선택하고 '탭 오디오도 공유' 설정이 켜져 있는지 확인하세요.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "컴퓨터 오디오 녹화",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "컴퓨터에서 오디오를 캡처하려면 '시스템 오디오 공유' 옵션이 활성화되어 있는지 확인하세요. 이 옵션이 표시되지 않으면 Chrome을 업데이트하거나 탭 녹화 모드로 전환하세요.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "최대 해상도",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "최대 FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "RAM 부족",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "창 크기 조정",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "이 해상도에는 화면이 너무 작습니다",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "이 장치에서는 이 해상도로 녹화할 수 없습니다",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "권한 거부됨",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "녹화에는 카메라와 마이크 권한이 필요합니다. 브라우저 설정에서 권한을 부여하세요.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "녹화에는 카메라 권한이 필요합니다. 브라우저 설정에서 권한을 부여하세요.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "녹화에는 마이크 권한이 필요합니다. 브라우저 설정에서 권한을 부여하세요.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "권한 수정",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "화면 녹화 설정",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "시간",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "분",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "초",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "카메라 권한 요청 중...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "마이크 권한 요청 중...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "카메라 권한 요청",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "마이크 권한 요청",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "권한 검토",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "옵션 사용자 정의",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "녹화된 동영상",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "아직 녹화된 동영상이 없습니다",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "눌러서 음소거",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "카메라에 액세스하려면 권한이 필요합니다",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "마이크에 액세스하려면 권한이 필요합니다",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "검토",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "색상 선택기",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "닫기",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "화면에서 색상 선택",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "이 브라우저에서는 EyeDropper API가 지원되지 않습니다. Chrome 95+ 또는 Edge 95+ 같은 최신 브라우저를 사용하세요.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "흐리게 영역 선택",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "모든 흐리게 영역 삭제",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "선 두께",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "얇게",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "중간",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "두껍게",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "아주 두껍게",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot 녹화",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "로컬 백업 설정에 실패했습니다. 자세한 내용은 support@cocoshot.net으로 문의하세요. 녹화를 계속할 수 있습니다.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "브라우저가 로컬 백업을 지원하지 않습니다. 자세한 내용은 support@cocoshot.net으로 문의하세요. 녹화를 계속할 수 있습니다.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "커서로 확대使用方法",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "녹화 중 키보드 단축키를 누른 상태에서 커서 위치로 확대합니다. 키를 놓으면 축소됩니다. 녹화 중 화면의 특정 영역을 강조하는 데 좋습니다.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "알겠습니다!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "영역 크기",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "프리셋",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "재설정",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "없음",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "흐리게",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "보케",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "이미지",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "먼저 동영상 파일을 로드하세요",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "WebM으로 다운로드",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "MP4로 다운로드",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "변환 중...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "청크 처리 중:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "동영상 크기가 권장 제한(최대 1GB)을 초과하여 처리가 실패할 수 있습니다",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "큰 동영상(1GB)을 로드하고 있습니다. 처리에 시간이 오래 걸릴 수 있습니다. 계속하시겠습니까?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "지원되지 않는 동영상 형식입니다. 다른 동영상 형식을 시도하세요.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "다운로드에 실패했습니다. 다시 시도하세요.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4 변환을 사용할 수 없습니다",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "이 동영상이 너무 커서 브라우저에서 MP4로 변환할 수 없습니다. 대신 WebM으로 다운로드하세요.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "MP4로 변환 중...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "동영상 다운로드에 실패했습니다. 다시 시도하세요.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "동영상 편집",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "곧 출시됩니다.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "동영상 미리보기",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "확인",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "저장소에 쓰기 중...",
+    "description": "Message shown when writing video to storage"
+  }
+}

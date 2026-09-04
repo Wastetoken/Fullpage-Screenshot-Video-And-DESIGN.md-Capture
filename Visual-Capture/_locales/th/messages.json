@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: ภาพหน้าจอและบันทึกหน้าจอ"
+  },
+  "extDescription": {
+    "message": "จับภาพหน้าจอแบบเต็มหน้าและบันทึกหน้าจอเป็น MP4 พร้อมคำอธิบายประกอบ รวมการส่งออก PDF พร้อมลิงก์ที่คลิกได้"
+  },
+  "pDisable": {
+    "message": "ปิดใช้งานในหน้านี้"
+  },
+  "pDisableDesc": {
+    "message": "คุณสามารถรันนี้ในเว็บเพจใดก็ได้ ยกเว้นเว็บเพจที่เบราว์เซอร์จำกัดการทำงานของสคริปต์ในส่วนขยาย ซึ่งรวมถึงร้านค้าส่วนขยาย, หน้าเมนูการตั้งค่าเบราว์เซอร์ และหน้าอื่นๆ ของส่วนขยาย."
+  },
+  "pDisableExp": {
+    "message": "ข้อจำกัดนี้มาจากเบราว์เซอร์เองเนื่องจากความเสี่ยงด้านความปลอดภัย."
+  },
+  "pDisableTry": {
+    "message": "คุณอาจเปิดหน้าต่างใหม่และลองฟังก์ชันการจับภาพ."
+  },
+  "pStart": {
+    "message": "เริ่มต้น"
+  },
+  "pFileUrl": {
+    "message": "ไปที่ \"edge://extensions/\" และตรวจสอบช่อง \"อนุญาตการเข้าถึง URL ของไฟล์\"."
+  },
+  "pCaptV": {
+    "message": "จับภาพหน้าจอของส่วนที่มองเห็นได้ของหน้า."
+  },
+  "pAsOne": {
+    "message": "บันทึกเป็นไฟล์ HTML เดียว."
+  },
+  "pDesktop": {
+    "message": "จับภาพหน้าจอของเว็บเพจ, แท็บ, หน้าต่าง หรือทั้งหน้าจอ."
+  },
+  "pCaptFull": {
+    "message": "จับภาพหน้าจอของหน้าเต็ม."
+  },
+  "pDesableOpt": {
+    "message": "หรือคุณสามารถลอง:"
+  },
+  "pAreaCut": {
+    "message": "เลือกส่วนของหน้าเพื่อจับภาพหน้าจอ"
+  },
+  "fullpageTooLarge": {
+    "message": "หมายเหตุ: เบราว์เซอร์ไม่สามารถจับภาพหน้าเต็มเป็นภาพเดียวได้เนื่องจากขนาดของหน้า จะถูกแบ่งเป็น <strong>$1</strong> ภาพแยกกัน"
+  },
+  "fullpageTooLargeExtra": {
+    "message": "คำเตือน: ส่วนขยายนี้ไม่ได้ออกแบบมาเพื่อจับภาพเนื้อหาที่มีขนาดใหญ่มาก มีความเป็นไปได้ที่จะไม่สามารถจับภาพหน้านี้ได้สำเร็จ"
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "ต้องการสิทธิ์เพิ่มเติม"
+  },
+  "framePermDesc": {
+    "message": "ไซต์นี้แสดงเนื้อหาผ่าน iframe ที่ฝังอยู่ ซึ่งต้องใช้สิทธิ์เพิ่มเติมในการเข้าถึง"
+  },
+  "WhatisIframe": {
+    "message": "คลิกเพื่อเรียนรู้ว่า iframe คืออะไร"
+  },
+  "framePermMore": {
+    "message": "คุณอาจต้องรีสตาร์ทส่วนขยายหลังจากใช้กล่องโต้ตอบนี้ การยกเลิกจะจับภาพเฉพาะหน้าจอที่มองเห็นได้เท่านั้น"
+  },
+  "framePermConfirm": {
+    "message": "อนุญาต"
+  },
+  "framePermSave": {
+    "message": "บันทึกสิทธิ์นี้ไว้ใช้ภายหลัง (คุณสามารถเพิกถอนได้ทุกเมื่อ)"
+  },
+  "error": {
+    "message": "ข้อผิดพลาด"
+  },
+  "captureError": {
+    "message": "การจับภาพล้มเหลว โปรดลองอีกครั้งในภายหลัง หากปัญหายังคงอยู่ โปรดติดต่อผู้พัฒนาที่ $1"
+  },
+  "btnOk": {
+    "message": "ตกลง"
+  },
+  "btnCancel": {
+    "message": "ยกเลิก"
+  },
+  "saveFramePermission": {
+    "message": "อนุญาตให้จับเนื้อหาจากทุกเฟรม"
+  },
+  "permissions": {
+    "message": "สิทธิ์"
+  },
+  "saveframepDesc": {
+    "message": "สิทธิ์นี้จำเป็นสำหรับการจับเนื้อหาจาก iframe หรือ frameset ในหน้า การปิดใช้งานอาจทำให้ไม่สามารถจับองค์ประกอบบางอย่างของหน้าเว็บได้"
+  },
+  "processingScreenshot": {
+    "message": "กำลังประมวลผลภาพหน้าจอ..."
+  },
+  "screenshotSaved": {
+    "message": "บันทึกภาพหน้าจอไปยังโฟลเดอร์ดาวน์โหลดแล้ว"
+  },
+  "screenshotLoadFailed": {
+    "message": "โหลดภาพหน้าจอไม่สำเร็จ กรุณาลองใหม่อีกครั้ง"
+  },
+  "getScreenshotFailed": {
+    "message": "จับภาพหน้าจอไม่สำเร็จ กรุณาลองใหม่อีกครั้ง"
+  },
+  "processingAllAreas": {
+    "message": "กำลังประมวลผลภาพหน้าจอของทุกพื้นที่..."
+  },
+  "allAreasSaved": {
+    "message": "บันทึกภาพหน้าจอของ $1 พื้นที่สำเร็จแล้ว"
+  },
+  "areaNotVisible": {
+    "message": "พื้นที่ที่เลือกแทบจะอยู่นอกขอบเขตที่มองเห็นและไม่สามารถจับภาพได้"
+  },
+  "partiallyVisible": {
+    "message": "บางส่วนของพื้นที่อยู่นอกขอบเขตที่มองเห็น จึงจับภาพเฉพาะส่วนที่เห็นได้"
+  },
+  "partiallyVisibleArea": {
+    "message": "บางส่วนของพื้นที่ที่เลือกอยู่นอกขอบเขตที่มองเห็น จับภาพเฉพาะส่วนที่เห็นได้แล้ว"
+  },
+  "areaOutOfView": {
+    "message": "พื้นที่ที่เลือกอยู่นอกขอบเขตที่มองเห็น กรุณาเลื่อนหน้าเว็บเพื่อให้พื้นที่นี้มองเห็นได้ แล้วลองอีกครั้ง"
+  },
+  "processingError": {
+    "message": "เกิดข้อผิดพลาดในการประมวลผลภาพหน้าจอ: $1"
+  },
+  "saveFailed": {
+    "message": "บันทึกภาพหน้าจอไม่สำเร็จ: $1"
+  },
+  "smartModeEnabled": {
+    "message": "เปิดโหมดภาพหน้าจออัจฉริยะแล้ว คลิกเพื่อเลือกองค์ประกอบที่จะจับภาพ (กด Enter เพื่อยืนยัน, Esc เพื่อยกเลิก)"
+  },
+  "processing": {
+    "message": "กำลังประมวลผลการคัดลอก..."
+  },
+  "copyFailed": {
+    "message": "คัดลอกไม่สำเร็จ: $1"
+  },
+  "canvasContextError": {
+    "message": "คัดลอกไม่สำเร็จ: ไม่สามารถรับบริบท Canvas ได้"
+  },
+  "copied": {
+    "message": "คัดลอกไปยังคลิปบอร์ดแล้ว"
+  },
+  "clipboardAccessDenied": {
+    "message": "คัดลอกไม่สำเร็จ: การเข้าถึงคลิปบอร์ดถูกปฏิเสธ, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "คัดลอกไม่สำเร็จ: ไม่รองรับ Clipboard API"
+  },
+  "imageDataCreateFailed": {
+    "message": "คัดลอกไม่สำเร็จ: ไม่สามารถสร้างข้อมูลภาพได้"
+  },
+  "copyAreaOutOfView": {
+    "message": "คัดลอกไม่สำเร็จ: พื้นที่ที่เลือกอยู่นอกขอบเขตที่มองเห็น"
+  },
+  "imagePreviewShown": {
+    "message": "แสดงตัวอย่างภาพแล้ว คลิกขวาเพื่อคัดลอก"
+  },
+  "escape": {
+    "message": "ยกเลิก (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "ตั้งค่าคุณภาพภาพเป็น: $1"
+  },
+  "qrDecoding": {
+    "message": "กำลังถอดรหัส QR code..."
+  },
+  "qrSuccess": {
+    "message": "ถอดรหัส QR code สำเร็จ คัดลอกไปยังคลิปบอร์ดแล้ว"
+  },
+  "qrNoQRFound": {
+    "message": "ไม่พบ QR code ที่ถูกต้อง"
+  },
+  "qrError": {
+    "message": "ถอดรหัส QR code ไม่สำเร็จ: $1"
+  },
+  "saveArea": {
+    "message": "บันทึกพื้นที่นี้"
+  },
+  "copyToClipboard": {
+    "message": "คัดลอกการเลือกนี้ (ที่เลือกอยู่ในขณะนี้)"
+  },
+  "saveAllAreas": {
+    "message": "บันทึกทุกพื้นที่"
+  },
+  "keepAndContinue": {
+    "message": "เพิ่มการเลือกใหม่"
+  },
+  "cancel": {
+    "message": "ยกเลิก"
+  },
+  "lockSize": {
+    "message": "ล็อกขนาด"
+  },
+  "lockSizeActive": {
+    "message": "✓ ล็อกขนาด"
+  },
+  "freeRatio": {
+    "message": "อัตราส่วนอิสระ"
+  },
+  "ratioLabel": {
+    "message": "เลือกอัตราส่วน"
+  },
+  "aiDialog": {
+    "message": "การสนทนาอัจฉริยะ"
+  },
+  "fileSizeEstimate": {
+    "message": "ประมาณ $1 $2"
+  },
+  "qrDecode": {
+    "message": "ถอดรหัส QR code"
+  },
+  "removeBackground": {
+    "message": "ลบพื้นหลัง"
+  },
+  "processingBackgroundRemoval": {
+    "message": "กำลังลบพื้นหลัง..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "ลบพื้นหลังไม่สำเร็จ: โหลดภาพผิดพลาด"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "ลบพื้นหลังไม่สำเร็จ: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "ลบพื้นหลังแล้วและคัดลอกไปยังคลิปบอร์ด"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "ลบพื้นหลังไม่สำเร็จ: ไม่สามารถสร้าง Blob ได้"
+  },
+  "selectedAreaOutOfView": {
+    "message": "พื้นที่ที่เลือกอยู่นอกขอบเขตที่มองเห็น"
+  },
+  "screenshotFailed": {
+    "message": "จับภาพหน้าจอไม่สำเร็จ: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "ประมวลผลภาพไม่สำเร็จ กรุณาลองใหม่อีกครั้ง"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "พื้นที่จับภาพหน้าจออยู่นอกขอบเขตที่มองเห็น"
+  },
+  "errorProcessingImage": {
+    "message": "เกิดข้อผิดพลาดในการประมวลผลภาพ: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "ยังไม่โหลดไลบรารีถอดรหัส QR code"
+  },
+  "qrDecodingFailed": {
+    "message": "ถอดรหัส QR code ไม่สำเร็จ: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "ไม่พบ QR code ในพื้นที่ที่เลือก"
+  },
+  "qrDecodingSuccess": {
+    "message": "ถอดรหัส QR code สำเร็จ: $1"
+  },
+  "qrDecodingError": {
+    "message": "ข้อผิดพลาดถอดรหัส QR code: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "ลบพื้นหลังไม่สำเร็จ: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "กรุณาเลือกพื้นที่จับภาพก่อน"
+  },
+  "aiDialogTitle": {
+    "message": "สนทนาอัจฉริยะเกี่ยวกับเนื้อหาภาพหน้าจอ"
+  },
+  "qrDecodeTitle": {
+    "message": "ถอดรหัส QR code ในภาพหน้าจอ"
+  },
+  "lockSizeTitle": {
+    "message": "ล็อกขนาดปัจจุบันสำหรับการจับภาพต่อเนื่อง"
+  },
+  "moveHint": {
+    "message": "ลากพื้นที่เลือก (กด Space + ลาก)"
+  },
+  "saveAreaTooltip": {
+    "message": "บันทึกพื้นที่ปัจจุบัน"
+  },
+  "saveAllAreasTooltip": {
+    "message": "บันทึกทุกพื้นที่ที่เลือก"
+  },
+  "copyToClipboardTooltip": {
+    "message": "คัดลอกภาพหน้าจอไปยังคลิปบอร์ด"
+  },
+  "moreOptions": {
+    "message": "ตัวเลือกเพิ่มเติม"
+  },
+  "removeBgTooltip": {
+    "message": "ลบพื้นหลังและคัดลอกไปยังคลิปบอร์ด"
+  },
+  "ratioLabelTooltip": {
+    "message": "เลือกอัตราส่วนกว้าง:สูง"
+  },
+  "keepAndContinueTooltip": {
+    "message": "เก็บการเลือกปัจจุบันและดำเนินการต่อ"
+  },
+  "pCaptureTabLabel": {
+    "message": "ภาพหน้าจอ"
+  },
+  "pAiToolsTabLabel": {
+    "message": "เครื่องมือ AI"
+  },
+  "pCaptureTitle": {
+    "message": "ภาพหน้าจอนหน้าจทั้งหน้าและพื้นที่หน้าจอที่เลือก"
+  },
+  "pAiToolsTitle": {
+    "message": "เครื่องมือที่เกี่ยวข้องกับ AI"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "เครื่องมือส่งออกเนื้อหาเว็บ"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "เครื่องมือรูปภาพ"
+  },
+  "pDownloadAsMD": {
+    "message": "ดาวน์โหลดเป็น Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "ดาวน์โหลดเป็น PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "ดาวน์โหลดหน้าเว็บปัจจุบันเป็นไฟล์ Markdown"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "ดาวน์โหลดหน้าเว็บปัจจุบันเป็นไฟล์ PDF"
+  },
+  "pImageProcessing": {
+    "message": "การประมวลผลภาพ"
+  },
+  "pImageProcessingTooltip": {
+    "message": "ชุดเครื่องมือสำหรับการประมวลผลภาพ"
+  },
+  "fixThePage": {
+    "message": "แก้ไขหน้า"
+  },
+  "expandScrollableOn": {
+    "message": "ขยายพื้นที่ที่เลื่อนได้"
+  },
+  "expandScrollableOnDesc": {
+    "message": "เปิดใช้งานเพื่อขยายพื้นที่ที่เลื่อนได้ภายในหน้าเว็บก่อนถ่ายภาพหน้าจอ"
+  },
+  "hideFixedOn": {
+    "message": "ซ่อนองค์ประกอบที่มีตำแหน่งคงที่"
+  },
+  "hideFixedOnDesc": {
+    "message": "เปิดใช้งานเพื่อซ่อนองค์ประกอบที่มีตำแหน่งคงที่ที่อาจขัดขวางการจับภาพ"
+  },
+  "preScrollOn": {
+    "message": "เลื่อนโหลดหน้าเว็บล่วงหน้า"
+  },
+  "preScrollOnDesc": {
+    "message": "องค์ประกอบเว็บจำนวนมาก (เช่น รูปภาพ) โหลดเมื่อเลื่อนเท่านั้น เมื่อเปิดใช้งาน จะตรวจจับและเลื่อนลงท้ายหน้าอัตโนมัตก่อนถ่ายภาพหน้าจอ"
+  },
+  "canBeDisabled": {
+    "message": "สามารถปิดใช้งานได้ผ่านหน้าการตั้งค่า"
+  },
+  "analyzingPageForHTML": {
+    "message": "กำลังวิเคราะห์โค้ดและเนื้อหาหน้าเว็บ หน้าที่ซับซ้อนอาจใช้เวลานานกว่า หากระบบใช้เวลานานเกินไป โปรดรีเฟรชหน้าเว็บและลองอีกครั้ง"
+  },
+  "drawerSettings": {
+    "message": "การตั้งค่า"
+  },
+  "drawerScreenshotHistory": {
+    "message": "ประวัติภาพหน้าจอ"
+  },
+  "drawerImageTools": {
+    "message": "เครื่องมือปรับปรุงภาพหน้าจอ"
+  },
+  "drawerHelpFeedback": {
+    "message": "คำถามที่พบบ่อยและข้อเสนอแนะ"
+  },
+  "drawerCloseMenu": {
+    "message": "ปิดเมนู"
+  },
+  "logoTooltip": {
+    "message": "ดูเพิ่มเติม"
+  },
+  "pRecorderTabLabel": {
+    "message": "เครื่องบันทึกหน้าจอ"
+  },
+  "pRecorderTitle": {
+    "message": "เครื่องบันทึกหน้าจอ"
+  },
+  "pStartRecorder": {
+    "message": "เริ่มต้นการบันทึกหน้าจอ"
+  },
+  "pStartRecorderLabel": {
+    "message": "การบันทึกหน้าจอ"
+  },
+  "pRecorderAlt": {
+    "message": "ตัวบันทึก"
+  },
+  "pStartRecorderAlt": {
+    "message": "เครื่องบันทึกหน้าจอ"
+  },
+  "pRecorderBetaNotice": {
+    "message": "นี่คือรุ่นเบต้า"
+  },
+  "pRecorderFeedback": {
+    "message": "ให้ข้อเสนอแนะ"
+  },
+  "downloadsPermission": {
+    "message": "อนุญาตให้ดาวน์โหลดไฟล์"
+  },
+  "downloadsPermissionDesc": {
+    "message": "สิทธิ์นี้จำเป็นต้องใช้เพื่อบันทึกภาพหน้าจอบนคอมพิวเตอร์ของคุณโดยตรง"
+  },
+  "webNavigationPermission": {
+    "message": "อนุญาตให้เข้าถึงการนำทางเว็บ"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "สิทธิ์นี้จำเป็นต้องใช้ในการตรวจจับการเปลี่ยนแปลงของหน้าเว็บและนำทางไปยังหน้าอื่นๆ เมื่อจำเป็น"
+  },
+  "desktopCapturePermission": {
+    "message": "อนุญาตให้จับภาพเดสก์ท็อป"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "สิทธิ์นี้จำเป็นต้องใช้ในการจับภาพเนื้อหาจากเดสก์ท็อปหรือหน้าต่างเฉพาะ"
+  },
+  "tabsPermission": {
+    "message": "อนุญาตให้เข้าถึงแท็บ"
+  },
+  "tabsPermissionDesc": {
+    "message": "สิทธิ์นี้จำเป็นต้องใช้ในการเข้าถึงและจัดการข้อมูลแท็บของเบราว์เซอร์"
+  },
+  "tabCapturePermission": {
+    "message": "อนุญาตให้จับภาพแท็บ"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "สิทธิ์นี้จำเป็นต้องใช้ในการจับภาพเสียงและวิดีโอจากแท็บเบราว์เซอร์"
+  },
+  "allUrlsPermission": {
+    "message": "อนุญาตให้เข้าถึงเว็บไซต์ทั้งหมด"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "สิทธิ์นี้จำเป็นต้องใช้ในการจับภาพหน้าจอจากเว็บไซต์ใดก็ได้"
+  },
+  "fileUrlsPermission": {
+    "message": "อนุญาตให้เข้าถึงไฟล์ในเครื่อง"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "สิทธิ์นี้จำเป็นต้องใช้ในการจับภาพหน้าจอจากไฟล์ในเครื่อง (URL แบบ file://)"
+  },
+  "pIncludeImagesTooltip": {
+    "message": "ไม่ว่าจะรวมรูปภาพในการดาวน์โหลดหรือไม่"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "คุณลักษณะนี้ต้องใช้ CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "อัปเกรดเป็น Pro"
+  },
+  "proSaveRestricted": {
+    "message": "การบันทึกเนื้อหานี้ต้องใช้ CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "ตัวอย่าง CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "โหมดตัวอย่าง"
+  },
+  "qv_screenshot_preview": {
+    "message": "ตัวอย่างภาพหน้าจอ"
+  },
+  "qv_download": {
+    "message": "ดาวน์โหลด"
+  },
+  "qv_edit": {
+    "message": "เขียนคำอธิบาย, แก้ไข (สามารถส่งออกเป็น PDF ได้ด้วย)"
+  },
+  "qv_hint": {
+    "message": "ผู้ใช้ที่เชี่ยวชาญจะข้ามหน้านี้โดยอัตโนมัติและไปที่ตัวแก้ไข"
+  },
+  "recordTab": {
+    "message": "บันทึก",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "วิดีโอของฉัน",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "หน้าจอ",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "แท็บ",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "กล้องเท่านั้น",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "โมเดล",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "การบันทึกพื้นที่กำหนดเองถูกปิดใช้งาน",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "อัปเดต Chrome เป็นเวอร์ชัน 110 ขึ้นไป",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "อัปเดต",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "ตรวจสอบสิทธิ์ของคุณ",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot ดูเหมือนจะไม่สามารถเข้าถึงกล้องหรือไมโครโฟนของคุณได้ เพื่อแก้ไขปัญหานี้ โปรดปลดล็อกในการตั้งค่าเบราว์เซอร์และให้สิทธิ์ที่จำเป็น",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "ปิด",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "อนุญาตการเข้าถึงกล้อง",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "อนุญาตการเข้าถึงไมโครโฟน",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "กดเพื่อพูด",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "ตั้งค่าพื้นที่บันทึก",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "พลิกกล้อง",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "เอฟเฟกต์พื้นหลัง",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "เริ่มบันทึก",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "กำลังเริ่มบันทึก...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "เลือกกล้อง",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "ตัวเลือกเพิ่มเติม",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "เสียงระบบ",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "ซ่อนแถบเครื่องมือ",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "นับถอยหลัง",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "ตั้งค่าขีดจำกัดเวลา",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "เบลอ",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "ไม่มี",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "ไม่มีกล้อง",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "ไม่มีไมโครโฟน",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "เลือกแหล่งที่มา",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "ปิด",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "ความกว้าง",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "ความสูง",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "คลิกเพื่อวางรูปภาพ",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "เสร็จสิ้นการบันทึก",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "เริ่มบันทึกใหม่",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "หยุดชั่วคราว",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "กลับมาบันทึกต่อ",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "ยกเลิกการบันทึก",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "สลับเครื่องมือวาด",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "สลับเครื่องมือเบลอ",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "สลับตัวเลือกเคอร์เซอร์",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "ปิดใช้งานกล้อง",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "เปิดใช้งานกล้อง",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "ไม่มีสิทธิ์กล้อง",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "การตั้งค่ากล้อง",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "กล้องกระจก",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "เบลอพื้นหลัง",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "ปิดใช้งานไมโครโฟน",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "เปิดใช้งานไมโครโฟน",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "ไม่มีสิทธิ์ไมโครโฟน",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "เลือกเครื่องมือ",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "เครื่องมือปากกา",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "เครื่องมือไฮไลท์",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "เครื่องมือยางลบ",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "เครื่องมือข้อความ",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "เครื่องมือรูปทรง",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "เครื่องมือลูกศร",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "เครื่องมือรูปภาพ",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "ย้อนกลับ",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "ทำซ้ำ",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "ล้างแคนวาส",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "สีเพิ่มเติม",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "เส้นหนา",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "เส้นปานกลาง",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "เส้นบาง",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "สลับโหมด picture-in-picture",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "สลับการเติม",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "โหมดวาด",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "โหมดเบลอ",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "ล้างองค์ประกอบเบลอทั้งหมด",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "ไฮไลท์คลิก",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "ไฮไลท์เคอร์เซอร์",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "ไฟฉายเคอร์เซอร์",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "ไม่แสดงอีก",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "เริ่มบันทึกใหม่หรือไม่?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "ความคืบหน้าปัจจุบันของคุณจะสูญหาย",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "เริ่มใหม่",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "กลับมาบันทึกต่อ",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "ละทิ้งการบันทึกหรือไม่?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "ความคืบหน้าปัจจุบันของคุณจะสูญหาย",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "ละทิ้ง",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "กลับมาบันทึกต่อ",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "การบันทึกของคุณจะถูกบันทึกที่นี่",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "กำลังบันทึก...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "เปิดแท็บนี้ไว้ มันจะปิดเมื่อการบันทึกของคุณถูกบันทึก",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "กำลังเตรียมการบันทึก...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "เปิดแท็บนี้ไว้ มันจะอัปเดตด้วยการบันทึกของคุณเมื่อพร้อม",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "ตัวแก้ไข",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "ยกเลิก",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "กลับไปเป็นต้นฉบับ",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "รีเซ็ต",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "บันทึกการเปลี่ยนแปลง",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "กำลังบันทึก...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "ลากและวางไฟล์เสียงของคุณ",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "หรือคลิกเพื่อเรียกดู",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "การตั้งค่า",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "ระดับเสียง",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "อัปเดต",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "ครอบ",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "ความกว้าง",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "ความสูง",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "ซ้าย",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "บน",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "ลากที่จับและใช้ปุ่มด้านซ้ายเพื่อแก้ไขส่วนที่เลือก",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "ครอบวิดีโอ",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "กำลังครอบ...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "ตัดส่วน",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "กำลังตัด...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "ปิดเสียง",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "กำลังปิดเสียง...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "เรียนรู้เพิ่มเติม",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "ย้อนกลับ",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "ทำซ้ำ",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "ให้คะแนน มันช่วยได้!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "คุณกำลังออฟไลน์อยู่",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "คุณสมบัติบางอย่างไม่พร้อมใช้งานจนกว่าจะเชื่อมต่อใหม่",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "ลองอีกครั้ง",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome ต้องได้รับการอัปเดต",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "อัปเดตเพื่อเข้าถึงคุณสมบัติเพิ่มเติม",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "เรียนรู้เพิ่มเติม",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "วิดีโอยาวเกินไปสำหรับการประมวลผลในอุปกรณ์",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "การแก้ไขและการส่งออก MP4 ไม่พร้อมใช้งาน",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "กำลังประมวลผลวิดีโอในเครื่อง...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "เรียนรู้เกี่ยวกับเวอร์ชันคลาวด์ที่เร็วกว่า",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "แก้ไข",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "ไม่มีการเชื่อมต่อ",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "ไม่พร้อมใช้งาน",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "แก้ไขวิดีโอ",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "ครอบ ตัด หรือปิดเสียงวิดีโอ",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "กำลังเตรียมวิดีโอ โปรดรอ...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "ครอบ",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "ครอบและปรับขนาดวิดีโอ",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "เพิ่มเสียง",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "อัปโหลดเสียงของคุณเองเพื่อเพิ่มลงในวิดีโอ",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "บันทึก",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "ออกจาก Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "กำลังบันทึก...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "บันทึกลง Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "บันทึกเวอร์ชันปัจจุบันลง Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "เข้าสู่ระบบและบันทึกลง Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "กำลังดาวน์โหลด...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "ดาวน์โหลดเป็น .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "ส่งออกวิดีโอ .webm",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "ดาวน์โหลดเป็น .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "ส่งออกวิดีโอ .mp4 (แนะนำ)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "ดาวน์โหลดเป็น .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "ส่งออก GIF (สูงสุด 30 วินาที)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "แทนที่เสียงที่มีอยู่",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "ซูมไปที่เคอร์เซอร์",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "อยู่ในหน้าเมื่อบันทึก",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "คำเตือนไมค์ปิด",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "ช่วยเหลือ",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "การบันทึกหยุดชั่วคราว กดปุ่มเล่นเพื่อกลับมาบันทึกต่อ",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot ไม่มีสิทธิ์บันทึกหน้าจอของคุณ",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "เพื่อให้การบันทึกหน้าจอทำงานได้ คุณจะต้องอนุญาตให้ CocoShot จับภาพหน้าจอของคุณเมื่อคำขอสิทธิ์ปรากฏ (คุณสามารถเพิกถอนได้ทุกเมื่อในการตั้งค่าส่วนขยาย)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "เปิดใช้งานการบันทึกหน้าจอ",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "ยกเลิก",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "ไมโครโฟนของคุณถูกปิดเสียง",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "หากคุณต้องการให้เสียงของคุณถูกรวมในการบันทึก คุณจะต้องเปิดไมโครโฟน คุณต้องการดำเนินการบันทึกต่อไปโดยไม่มีเสียงหรือไม่?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "ใช่ ดำเนินการต่อ",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "ยกเลิก",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "ผ่อนคลาย คลิกที่ใดก็ได้เพื่อหยุดการนับถอยหลัง",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "การแก้ไขอาจไม่ถูกต้องสำหรับช่วงเวลาสั้นเนื่องจากช่วงระหว่างเฟรม",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "กำลังประมวลผลวิดีโอ การเล่นอาจไม่ถูกต้องหรือถูกขัดจังหวะ",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "การครอบอาจใช้เวลาสักครู่",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "อัปเกรดเพื่อการประมวลผลที่เร็วขึ้น",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "ไมโครโฟนเปิดใช้งานแล้ว",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "ไมโครโฟนถูกปิดใช้งาน",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "การบันทึกน้อยกว่า 3 วินาทีและไม่ได้ถูกบันทึก",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "ซ่อนการแจ้งเตือน UI",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "ไม่แสดงอีก",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "ซ่อนแถบเครื่องมือเมื่อไม่ได้ใช้",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "เริ่มบันทึก",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "หยุดบันทึก",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "ยินดีต้อนรับสู่ CocoShot ใหม่!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "เรียนรู้เพิ่มเติมเกี่ยวกับการอัปเดต",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "เริ่มต้นใช้งาน",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "เกิดข้อผิดพลาดในการเริ่มการบันทึก",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "เกิดข้อผิดพลาดขณะเริ่มกระบวนการบันทึก โปรดรีสตาร์ทเบราว์เซอร์และลองอีกครั้ง หากปัญหายังคงอยู่ โปรดติดต่อเราที่ support@cocoshot.net เพื่อขอความช่วยเหลือเพิ่มเติม",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "คุณภาพสูงสุด",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "กู้คืนการบันทึกวิดีโอครั้งล่าสุด",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "มีปัญหาไหม?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "ไม่เห็นการบันทึกของคุณ?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "หากคุณได้บันทึกเสร็จแล้วแต่ไม่เห็นวิดีโอบนหน้านี้ คุณสามารถลองดาวน์โหลดข้อมูลวิดีโอดิบได้ หรือคุณสามารถติดต่อเราโดยส่งรายงานข้อผิดพลาด",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "ดาวน์โหลดข้อมูลวิดีโอดิบ",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "รายงานข้อผิดพลาด",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "ไม่พบการบันทึก โทษที :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "ถึงขีดจำกัดหน่วยความจำ",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "อุปกรณ์ของคุณมีหน่วยความจำไม่เพียงพอสำหรับการบันทึก ทำให้เซสชันสิ้นสุดโดยอัตโนมัติ เพื่อบันทึกวิดีโอที่ยาวขึ้น ลองพิจารณาลดคุณภาพวิดีโอหรือควบคุมพื้นที่จัดเก็บบนอุปกรณ์ของคุณ",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "เข้าใจแล้ว",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "พื้นที่ไม่เพียงพอ",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot ต้องการพื้นที่ว่างอย่างน้อย 1GB เพื่อบันทึก โปรดควบคุมพื้นที่บางส่วนและลองอีกครั้ง",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "ล้างการบันทึกก่อนหน้า",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "ขั้นสูง",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "ดาวน์โหลดไฟล์วิดีโอดิบ",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "ส่งออกข้อมูลการบันทึกดั้งเดิม",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "ขอความช่วยเหลือเกี่ยวกับการบันทึกของคุณ",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "กู้คืนวิดีโอและแก้ไขปัญหาอื่นๆ",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "ดาวน์โหลดไฟล์วิดีโอดิบ",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "ไฟล์วิดีโอดิบหมายถึงข้อมูลการบันทึกที่ไม่เปลี่ยนแปลงซึ่งสร้างโดยตรงโดย CocoShot เนื่องจากไฟล์นี้ไม่ได้รับการประมวลผลหรือแก้ไข อาจมีขนาดค่อนข้างใหญ่และเข้ากันไม่ได้กับบางอุปกรณ์ หากคุณประสบปัญหากับเวอร์ชันที่ประมวลผลแล้ว คุณสามารถใช้ไฟล์นี้เพื่อกู้คืนการบันทึกดั้งเดิมของคุณ",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "ดาวน์โหลด",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "แสดงคลื่นเสียง",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "ดาวน์โหลดข้อมูลระบบและข้อมูลวิดีโอและส่งเพื่อแก้ไขปัญหา",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "เมื่อคุณดาวน์โหลดไฟล์แล้ว โปรดส่งไปที่ support@cocoshot.net พร้อมรายละเอียดเพิ่มเติมที่อาจเป็นประโยชน์ เราจะใช้ข้อมูลนี้เพื่อช่วยคุณแก้ไขปัญหากับส่วนขยายและหากเป็นไปได้ กู้คืนวิดีโอของคุณ",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "ดาวน์โหลด",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "วิดีโอยาวเกินไปสำหรับการประมวลผลในอุปกรณ์ของคุณ",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "เนื่องจาก CocoShot ให้ความสำคัญกับความเป็นส่วนตัวและทำงานบนอุปกรณ์ในเครื่องของคุณโดยสมบูรณ์ จึงถูกจำกัดด้วยความสามารถของฮาร์ดแวร์ การประมวลผลวิดีโอที่มีความยาวเช่นนี้จะใช้เวลานานเกินไปและต้องการทรัพยากรระบบจำนวนมาก คุณยังสามารถรับไฟล์ WEBM หรือการบันทึกดิบได้ แม้ว่าคุณสมบัติการแก้ไขและการส่งออก MP4 จะไม่สามารถเข้าถึงได้ อย่างไรก็ตาม หากคุณตระหนักถึงความท้าทายที่อาจเกิดขึ้น คุณสามารถดำเนินการประมวลผลวิดีโอต่อไปได้",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "ฉันเข้าใจความเสี่ยง ลองอยู่",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "เรียนรู้เพิ่มเติมเกี่ยวกับการประมวลผลวิดีโอยาว",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "โหมดกู้คืน",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "ดาวน์โหลดข้อมูลเพื่อแก้ไขปัญหา",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "ศูนย์ช่วยเหลือ",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "บันทึกเสียงคอมพิวเตอร์",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "เพื่อบันทึกเสียงจากหน้านี้ คุณต้องเปลี่ยนไปใช้ '$tab$'",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "ส่วนขยายไม่รองรับบนแท็บ",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot ไม่สามารถใช้งานร่วมกับแท็บที่คุณเพิ่งใช้งาน คุณยังสามารถเริ่มการบันทึกจากหน้านี้แล้วกลับไปยังแท็บนั้นได้ แต่โปรดทราบว่าฟีดกล้องและแถบเครื่องมือแก้ไขจะไม่แสดง",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "ตั้งค่าสำรองข้อมูลในเครื่องสำหรับการบันทึก CocoShot ของคุณ",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "เก็บสำเนาของการบันทึกทุกครั้งที่คุณสร้าง หากไม่ตั้งค่าสำรองข้อมูล การบันทึกของคุณจะถูกบันทึกเฉพาะเมื่อคุณเลือกดาวน์โหลดอย่างชัดเจน",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "หากคุณพยายามบันทึกการบันทึกลงใน Downloads หรือไดเรกทอรีระบบอื่นๆ คุณอาจต้องสร้างโฟลเดอร์ใหม่ก่อน",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "เลือกโฟลเดอร์",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "ตอนนี้ไม่",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": "การบันทึกของคุณกำลังถูกสำรองข้อมูลในเครื่อง",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "เพื่อหลีกเลี่ยงการถูกขอสิทธิ์ทุกครั้งที่คุณบันทึก เราแนะนำให้คุณเปิดแท็บนี้ไว้",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "ปิดแท็บ anyway",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "หยุดสำรองข้อมูลการบันทึกทั้งหมด",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "โปรดยืนยันการเข้าถึงโฟลเดอร์สำรองข้อมูลในเครื่อง CocoShot ของคุณอีกครั้ง",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "เราต้องขอโทษ แต่เราต้องการสิทธิ์ของคุณอีกครั้งเพื่อดำเนินการสำรองข้อมูลการบันทึกของคุณต่อ น่าเสียดาย เราจะต้องขอสิทธิ์นี้ทุกครั้งที่แท็บนี้ปิด ซึ่งอาจเกิดขึ้นเมื่อคุณปิดเบราว์เซอร์หรือรีสตาร์ทคอมพิวเตอร์",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "อนุญาตให้ CocoShot สำรองข้อมูลการบันทึกต่อไป",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "สำรองข้อมูลการบันทึก",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "ไม่ได้รับสิทธิ์ในการสำรองข้อมูลการบันทึก",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "คุณยังไม่ได้เลือกโฟลเดอร์สำหรับจัดเก็บการสำรองข้อมูลการบันทึกของคุณ ขึ้นอยู่กับเวอร์ชันเบราว์เซอร์หรือระบบปฏิบัติการของคุณ คุณอาจได้รับพร้อมท์ให้เลือกโฟลเดอร์นี้ทุกครั้งที่คุณเริ่มการบันทึก คุณสามารถลองกระบวนการตั้งค่าอีกครั้ง หรือปิดการสำรองข้อมูลโดยสมบูรณ์หากคุณไม่ต้องการให้สิทธิ์ซ้ำๆ",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "บันทึกเสียงคอมพิวเตอร์",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "บนระบบ macOS คุณถูกจำกัดให้บันทึกเสียงจากแท็บแต่ละแท็บ เลือกตัวเลือกการบันทึกแท็บ Chrome และยืนยันว่าการตั้งค่า 'Also share tab audio' เปิดอยู่",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "บันทึกเสียงคอมพิวเตอร์",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "หากคุณต้องการจับเสียงจากคอมพิวเตอร์ของคุณ ตรวจสอบให้แน่ใจว่าตัวเลือก 'Share system audio' ถูกเปิดใช้งาน หากตัวเลือกนี้ไม่แสดง ให้พิจารณาอัปเดต Chrome หรือเปลี่ยนไปใช้โหมดการบันทึกแท็บ",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "ความละเอียดสูงสุด",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "FPS สูงสุด",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "RAM ไม่เพียงพอ",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "ปรับขนาดหน้าต่าง",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "หน้าจอเล็กเกินไปสำหรับความละเอียดนี้",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "ไม่สามารถบันทึกที่ความละเอียดนี้ในอุปกรณ์ของคุณ",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "สิทธิ์ถูกปฏิเสธ",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "ต้องมีสิทธิ์กล้องและไมโครโฟนเพื่อบันทึก โปรดให้สิทธิ์ในการตั้งค่าเบราว์เซอร์",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "ต้องมีสิทธิ์กล้องเพื่อบันทึก โปรดให้สิทธิ์ในการตั้งค่าเบราว์เซอร์",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "ต้องมีสิทธิ์ไมโครโฟนเพื่อบันทึก โปรดให้สิทธิ์ในการตั้งค่าเบราว์เซอร์",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "แก้ไขสิทธิ์",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "การตั้งค่าการบันทึกหน้าจอ",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "ชม.",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "นาที",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "วินาที",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "กำลังขอสิทธิ์กล้อง...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "กำลังขอสิทธิ์ไมโครโฟน...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "ขอสิทธิ์กล้อง",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "ขอสิทธิ์ไมโครโฟน",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "ตรวจสอบสิทธิ์",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "ปรับแต่งตัวเลือก",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "วิดีโอที่บันทึก",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "ยังไม่มีวิดีโอที่บันทึก",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "กดเพื่อปิดเสียง",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "เราต้องการสิทธิ์ของคุณเพื่อเข้าถึงกล้องของคุณ",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "เราต้องการสิทธิ์ของคุณเพื่อเข้าถึงไมโครโฟนของคุณ",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "ตรวจสอบ",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "ตัวเลือกสี",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "ปิด",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "เลือกสีจากหน้าจอ",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API ไม่รองรับในเบราว์เซอร์นี้ โปรดใช้เบราว์เซอร์ที่ทันสมัยเช่น Chrome 95+ หรือ Edge 95+",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "เลือกพื้นที่เบลอ",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "ลบพื้นที่เบลอทั้งหมด",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "ความกว้างของเส้น",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "บาง",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "ปานกลาง",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "หนา",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "หนามาก",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "การบันทึก CocoShot",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "การตั้งค่าสำรองข้อมูลในเครื่องล้มเหลว ติดต่อเราที่ support@cocoshot.net เพื่อขอความช่วยเหลือเพิ่มเติม คุณยังสามารถบันทึกหน้าจอได้",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "เบราว์เซอร์ของคุณไม่รองรับการสำรองข้อมูลในเครื่อง ติดต่อเราที่ support@cocoshot.net เพื่อขอความช่วยเหลือเพิ่มเติม คุณยังสามารถบันทึกหน้าจอได้",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "วิธีใช้ Zoom to Cursor",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "ขณะบันทึก กดค้างที่ปุ่มลัดคีย์บอร์ดเพื่อซูมเข้าหาตำแหน่งเคอร์เซอร์ของคุณ ปล่อยปุ่มเพื่อซูมออก นี่เหมาะสำหรับการเน้นพื้นที่เฉพาะของหน้าจอระหว่างการบันทึก",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "เข้าใจแล้ว!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "ขนาดพื้นที่",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "ค่าตั้งไว้ล่วงหน้า",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "รีเซ็ต",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "ไม่มี",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "เบลอ",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "โบเก้",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "รูปภาพ",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "โปรดโหลดไฟล์วิดีโอก่อน",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "ดาวน์โหลดเป็น WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "ดาวน์โหลดเป็น MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "กำลังแปลง...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "กำลังประมวลผลชิ้นส่วน:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "ขนาดวิดีโอเกินขีดจำกัดที่แนะนำ (สูงสุด 1GB) ซึ่งอาจทำให้การประมวลผลล้มเหลว",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "คุณกำลังโหลดวิดีโอขนาดใหญ่ (1GB) การประมวลผลอาจใช้เวลานาน ดำเนินการต่อหรือไม่?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "รูปแบบวิดีโอไม่รองรับ โปรดลองรูปแบบวิดีโออื่น",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "ดาวน์โหลดล้มเหลว โปรดลองอีกครั้ง",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "การแปลง MP4 ไม่พร้อมใช้งาน",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "วิดีโอนี้ใหญ่เกินไปสำหรับการแปลงเป็น MP4 ในเบราว์เซอร์ โปรดดาวน์โหลดเป็น WebM แทน",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "กำลังแปลงเป็น MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "ดาวน์โหลดวิดีโอล้มเหลว โปรดลองอีกครั้ง",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "แก้ไขวิดีโอ",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "เร็วๆ นี้",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "ตัวอย่างวิดีโอ",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "ตกลง",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "กำลังเขียนไปยังพื้นที่จัดเก็บ...",
+    "description": "Message shown when writing video to storage"
+  }
+}

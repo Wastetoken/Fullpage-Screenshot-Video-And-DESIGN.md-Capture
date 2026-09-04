@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Ekran Görüntüsü ve Ekran Kaydedici"
+  },
+  "extDescription": {
+    "message": "Tam sayfa ekran görüntüleri alın ve açıklamalarla ekranı MP4'e kaydedin. Tıklanabilir bağlantılar içeren PDF dışa aktarımı dahildir."
+  },
+  "pDisable": {
+    "message": "Bu sayfada devre dışı"
+  },
+  "pDisableDesc": {
+    "message": "Bunu herhangi bir web sayfasında çalıştırabilirsiniz, sadece tarayıcının uzantıların script çalıştırmasını kısıtladığı sayfalarda değil. Bu, uzantı web mağazası, tarayıcı ayarları sayfaları ve diğer uzantı sayfalarını içerir."
+  },
+  "pDisableExp": {
+    "message": "Bu kısıtlama, güvenlik riskleri nedeniyle tarayıcıdan kaynaklanmaktadır."
+  },
+  "pDisableTry": {
+    "message": "Yeni bir sayfa açabilir ve yakalama işlevini deneyebilirsiniz."
+  },
+  "pStart": {
+    "message": "Başla"
+  },
+  "pFileUrl": {
+    "message": "edge://extensions/ adresine gidin ve 'Dosya URL' erişimine izin ver' kutusunu işaretleyin."
+  },
+  "pCaptV": {
+    "message": "Sayfanın görünür kısımlarının ekran görüntüsünü yakalayın."
+  },
+  "pAsOne": {
+    "message": "Tek bir HTML dosyası olarak kaydedin."
+  },
+  "pDesktop": {
+    "message": "Verilen bir web sayfasının, sekmenin, pencerenin veya tüm ekranın ekran görüntülerini yakalayın."
+  },
+  "pCaptFull": {
+    "message": "Tam sayfanın ekran görüntüsünü yakalayın."
+  },
+  "pDesableOpt": {
+    "message": "Ya da şunları deneyebilirsiniz:"
+  },
+  "pAreaCut": {
+    "message": "Ekran görüntüsünü yakalamak için sayfanın bir kısmını seçin."
+  },
+  "fullpageTooLarge": {
+    "message": "Not: Tarayıcı, boyutu nedeniyle bu sayfanın tamamını tek bir görüntü olarak yakalayamıyor. Bunun yerine <strong>$1</strong> ayrı görüntüye bölünecek."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Dikkat: Bu uzantı, aşırı büyük içeriği yakalamak için tasarlanmamıştır. Bu sayfanın yakalanması başarıyla tamamlanamayabilir."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Ekstra İzin Gerekli"
+  },
+  "framePermDesc": {
+    "message": "Bu site, içerikleri gömülü bir iframe aracılığıyla gösteriyor ve erişim için ekstra izin gerektiriyor."
+  },
+  "WhatisIframe": {
+    "message": "Iframe nedir, öğrenmek için tıklayın."
+  },
+  "framePermMore": {
+    "message": "Bu iletişim kutusunu kullandıktan sonra uzantıyı yeniden başlatmanız gerekebilir. İptal edilirse yalnızca görünen ekran yakalanır."
+  },
+  "framePermConfirm": {
+    "message": "İzin Ver"
+  },
+  "framePermSave": {
+    "message": "Bu izni daha sonra kullanmak üzere kaydet (İstediğiniz zaman iptal edebilirsiniz)."
+  },
+  "error": {
+    "message": "Hata"
+  },
+  "captureError": {
+    "message": "Yakalama başarısız oldu, lütfen daha sonra tekrar deneyin. Sorun devam ederse geliştiriciyle iletişime geçin: $1"
+  },
+  "btnOk": {
+    "message": "Tamam"
+  },
+  "btnCancel": {
+    "message": "İptal"
+  },
+  "saveFramePermission": {
+    "message": "Tüm çerçevelerden içerik yakalamaya izin ver"
+  },
+  "permissions": {
+    "message": "İzinler"
+  },
+  "saveframepDesc": {
+    "message": "Bu izin, bir sayfadaki iframe veya frameset’ten içerik yakalamak için gereklidir. Bu izin devre dışı bırakılırsa bazı web sayfası öğeleri yakalanamayabilir."
+  },
+  "processingScreenshot": {
+    "message": "Ekran görüntüsü işleniyor..."
+  },
+  "screenshotSaved": {
+    "message": "Ekran görüntüsü İndirilenler klasörüne kaydedildi"
+  },
+  "screenshotLoadFailed": {
+    "message": "Ekran görüntüsü yüklenemedi. Lütfen tekrar deneyin."
+  },
+  "getScreenshotFailed": {
+    "message": "Ekran görüntüsü alınamadı. Lütfen tekrar deneyin."
+  },
+  "processingAllAreas": {
+    "message": "Tüm alanların ekran görüntüleri işleniyor..."
+  },
+  "allAreasSaved": {
+    "message": "$1 alanın ekran görüntüleri başarıyla kaydedildi"
+  },
+  "areaNotVisible": {
+    "message": "Seçilen alan neredeyse tamamen görünür alan dışında ve yakalanamıyor."
+  },
+  "partiallyVisible": {
+    "message": "Alanın bir kısmı görünür alan dışında. Görünen kısım yakalandı."
+  },
+  "partiallyVisibleArea": {
+    "message": "Seçilen alanın bir kısmı görünür alan dışında. Görünen kısım yakalandı."
+  },
+  "areaOutOfView": {
+    "message": "Seçilen alan görünür alan dışında. Lütfen alan görünür olacak şekilde sayfayı kaydırın ve tekrar deneyin."
+  },
+  "processingError": {
+    "message": "Ekran görüntüsü işlenirken hata oluştu: $1"
+  },
+  "saveFailed": {
+    "message": "Ekran görüntüsü kaydedilemedi: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Akıllı ekran görüntüsü modu etkin. Yakalamak için bir öğe seçmek için tıklayın (Onaylamak için Enter, İptal için Esc)."
+  },
+  "processing": {
+    "message": "Kopya işleniyor..."
+  },
+  "copyFailed": {
+    "message": "Kopyalama başarısız: $1"
+  },
+  "canvasContextError": {
+    "message": "Kopyalama başarısız: Canvas bağlamı alınamıyor."
+  },
+  "copied": {
+    "message": "Panoya kopyalandı"
+  },
+  "clipboardAccessDenied": {
+    "message": "Kopyalama başarısız: Pano erişimi reddedildi, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Kopyalama başarısız: Pano API'si desteklenmiyor"
+  },
+  "imageDataCreateFailed": {
+    "message": "Kopyalama başarısız: Görüntü verisi oluşturulamıyor"
+  },
+  "copyAreaOutOfView": {
+    "message": "Kopyalama başarısız: Seçilen alan görünür alan dışında"
+  },
+  "imagePreviewShown": {
+    "message": "Görüntü önizlemesi gösterildi. Kopyalamak için sağ tıklayın."
+  },
+  "escape": {
+    "message": "İptal (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Görüntü kalitesi ayarlandı: $1"
+  },
+  "qrDecoding": {
+    "message": "QR kodu çözülüyor..."
+  },
+  "qrSuccess": {
+    "message": "QR kodu başarıyla çözüldü. Panoya kopyalandı."
+  },
+  "qrNoQRFound": {
+    "message": "Geçerli QR kodu bulunamadı"
+  },
+  "qrError": {
+    "message": "QR kodu çözme başarısız: $1"
+  },
+  "saveArea": {
+    "message": "Bu alanı kaydet"
+  },
+  "copyToClipboard": {
+    "message": "Bu seçimi kopyala (şu anda seçili)"
+  },
+  "saveAllAreas": {
+    "message": "Tüm alanları kaydet"
+  },
+  "keepAndContinue": {
+    "message": "Yeni bir seçim ekle"
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "lockSize": {
+    "message": "Boyutu kilitle"
+  },
+  "lockSizeActive": {
+    "message": "✓ Boyutu kilitle"
+  },
+  "freeRatio": {
+    "message": "Serbest oran"
+  },
+  "ratioLabel": {
+    "message": "Oran seç"
+  },
+  "aiDialog": {
+    "message": "Akıllı diyalog"
+  },
+  "fileSizeEstimate": {
+    "message": "Yaklaşık $1 $2"
+  },
+  "qrDecode": {
+    "message": "QR kodunu çöz"
+  },
+  "removeBackground": {
+    "message": "Arka planı kaldır"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Arka plan kaldırılıyor..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Arka plan kaldırma başarısız: Görüntü yükleme hatası"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Arka plan kaldırma başarısız: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Arka plan kaldırıldı ve panoya kopyalandı"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Arka plan kaldırma başarısız: Blob oluşturulamıyor"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Seçilen alan görünür alan dışında"
+  },
+  "screenshotFailed": {
+    "message": "Ekran görüntüsü başarısız: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Görüntü işleme başarısız, lütfen tekrar deneyin"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Ekran görüntüsü alanı görünür alan dışında"
+  },
+  "errorProcessingImage": {
+    "message": "Görüntü işleme hatası: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR kodu çözme kütüphanesi yüklenmedi"
+  },
+  "qrDecodingFailed": {
+    "message": "QR kodu çözme başarısız: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "Seçilen alanda QR kodu bulunamadı"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR kodu başarıyla çözüldü: $1"
+  },
+  "qrDecodingError": {
+    "message": "QR kodu çözme hatası: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Arka plan kaldırma başarısız: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Lütfen önce bir ekran görüntüsü alanı seçin"
+  },
+  "aiDialogTitle": {
+    "message": "Ekran görüntüsü içeriği hakkında akıllı sohbet yapın"
+  },
+  "qrDecodeTitle": {
+    "message": "Ekran görüntüsündeki QR kodunu çöz"
+  },
+  "lockSizeTitle": {
+    "message": "Sürekli yakalama için mevcut boyutu kilitle"
+  },
+  "moveHint": {
+    "message": "Seçim alanını sürükle (Boşluk + sürükle)"
+  },
+  "saveAreaTooltip": {
+    "message": "Mevcut alanı kaydet"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Seçilen tüm alanları kaydet"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Ekran görüntüsünü panoya kopyala"
+  },
+  "moreOptions": {
+    "message": "Daha fazla seçenek"
+  },
+  "removeBgTooltip": {
+    "message": "Arka planı kaldır ve panoya kopyala"
+  },
+  "ratioLabelTooltip": {
+    "message": "En-boy oranını seç"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Mevcut seçimi koru ve devam et"
+  },
+  "pCaptureTabLabel": {
+    "message": "Ekran Görüntüsü"
+  },
+  "pAiToolsTabLabel": {
+    "message": "AI Araçları"
+  },
+  "pCaptureTitle": {
+    "message": "Tam sayfa ve seçilen ekran alanı ekran görüntüsü"
+  },
+  "pAiToolsTitle": {
+    "message": "AI ile ilgili araçlar"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Web İçeriği Dışa Aktarma Araçları"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Görüntü Araçları"
+  },
+  "pDownloadAsMD": {
+    "message": "Markdown Olarak İndir"
+  },
+  "pDownloadAsPDF": {
+    "message": "PDF Olarak İndir"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Geçerli web sayfasını Markdown dosyası olarak indir"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Geçerli web sayfasını PDF dosyası olarak indir"
+  },
+  "pImageProcessing": {
+    "message": "Görüntü işleme"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Görüntü işleme için araç koleksiyonu"
+  },
+  "fixThePage": {
+    "message": "Sayfayı sabitle"
+  },
+  "expandScrollableOn": {
+    "message": "Kaydırılabilir alanları genişlet"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Ekran görüntüsü almadan önce web sayfasındaki kaydırılabilir alanları genişletmek için etkinleştir"
+  },
+  "hideFixedOn": {
+    "message": "Sabit konumlu öğeleri gizle"
+  },
+  "hideFixedOnDesc": {
+    "message": "Yakalama işlemine müdahale edebilecek sabit konumlu öğeleri gizlemek için etkinleştir"
+  },
+  "preScrollOn": {
+    "message": "Web sayfası yüklemesini önceden kaydır"
+  },
+  "preScrollOnDesc": {
+    "message": "Birçok web öğesi (örneğin, resimler) yalnızca kaydırma sırasında yüklenir. Etkinleştirildiğinde, otomatik olarak algılar ve ekran görüntüsü almadan önce sayfanın altına kadar kaydırır."
+  },
+  "canBeDisabled": {
+    "message": "ayarlar sayfası aracılığıyla devre dışı bırakılabilir"
+  },
+  "analyzingPageForHTML": {
+    "message": "Web sayfası kodu ve içeriği analiz ediliyor, karmaşık sayfalar daha uzun sürebilir. Çok uzun sürerse lütfen web sayfasını yenileyin ve tekrar deneyin."
+  },
+  "drawerSettings": {
+    "message": "Ayarlar"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Ekran Görüntüsü Geçmişi"
+  },
+  "drawerImageTools": {
+    "message": "Ekran Görüntüsü İyileştirme Araçları"
+  },
+  "drawerHelpFeedback": {
+    "message": "SSS ve Geri Bildirim"
+  },
+  "drawerCloseMenu": {
+    "message": "Menüyü Kapat"
+  },
+  "logoTooltip": {
+    "message": "Daha fazlasını göster"
+  },
+  "pRecorderTabLabel": {
+    "message": "Ekran Kaydedici"
+  },
+  "pRecorderTitle": {
+    "message": "Ekran Kaydedici"
+  },
+  "pStartRecorder": {
+    "message": "Ekran kaydını başlat"
+  },
+  "pStartRecorderLabel": {
+    "message": "Ekran kaydı"
+  },
+  "pRecorderAlt": {
+    "message": "Kaydedici"
+  },
+  "pStartRecorderAlt": {
+    "message": "Ekran kaydedici"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Bu bir beta sürümüdür"
+  },
+  "pRecorderFeedback": {
+    "message": "Geri Bildirim Sağla"
+  },
+  "downloadsPermission": {
+    "message": "Dosya indirmelere izin ver"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Bu izin, ekran görüntülerini doğrudan bilgisayarınıza kaydetmek için gereklidir."
+  },
+  "webNavigationPermission": {
+    "message": "Web navigasyon erişimine izin ver"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Bu izin, sayfa değişikliklerini algılamak ve gerektiğinde farklı sayfalara gitmek için gereklidir."
+  },
+  "desktopCapturePermission": {
+    "message": "Masaüstü yakalamaya izin ver"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Bu izin, masaüstünüzden veya belirli pencerelerden içerik yakalamak için gereklidir."
+  },
+  "tabsPermission": {
+    "message": "Sekme erişimine izin ver"
+  },
+  "tabsPermissionDesc": {
+    "message": "Bu izin, tarayıcı sekmeleri bilgilerine erişmek ve yönetmek için gereklidir."
+  },
+  "tabCapturePermission": {
+    "message": "Sekme yakalamaya izin ver"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Bu izin, tarayıcı sekmelerinden ses ve video yakalamak için gereklidir."
+  },
+  "allUrlsPermission": {
+    "message": "Tüm web sitelerine erişime izin ver"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Bu izin, herhangi bir web sitesinden ekran görüntüsü almak için gereklidir."
+  },
+  "fileUrlsPermission": {
+    "message": "Yerel dosyalara erişime izin ver"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Bu izin, yerel dosyalardan (file:// URL'leri) ekran görüntüsü almak için gereklidir."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Görsellerin indirmeye dahil edilip edilmeyeceği"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Bu özellik CocoShot Pro gerektirir"
+  },
+  "proUpgradeButton": {
+    "message": "Pro Sürüme Yükselt"
+  },
+  "proSaveRestricted": {
+    "message": "Bu içeriği kaydetmek CocoShot Pro gerektirir"
+  },
+  "qv_title": {
+    "message": "CocoShot Önizleme"
+  },
+  "qv_preview_mode": {
+    "message": "Önizleme Modu"
+  },
+  "qv_screenshot_preview": {
+    "message": "Ekran Görüntüsü Önizleme"
+  },
+  "qv_download": {
+    "message": "İndir"
+  },
+  "qv_edit": {
+    "message": "Not ekle, Düzenle (ayrıca PDF olarak dışa aktarabilir)"
+  },
+  "qv_hint": {
+    "message": "Deneyimli kullanıcılar bu sayfayı otomatik olarak atlayıp düzenleyiciye gidecektir."
+  },
+  "recordTab": {
+    "message": "Kaydet",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Videolarınız",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Ekran",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Sekme",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Yalnızca kamera",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Model",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Özel alan kaydı devre dışı bırakıldı",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Chrome'u 110+ sürümüne güncelleyin",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Güncelle",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "İzinlerinizi kontrol edin",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot'un kameranıza veya mikrofonunuza erişemediği görünüyor. Bu sorunu çözmek için lütfen tarayıcı ayarlarında engelini kaldırın ve gerekli izinleri verin.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Kapat",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Kamera erişimine izin ver",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Mikrofon erişimine izin ver",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Konuşmak için basın",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Kayıt alanını ayarla",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Kamerayı çevir",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Arka plan efektleri",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Kaydı başlat",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Kayıt başlatılıyor...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Kamera seçin",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Daha fazla seçenek",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Sistem sesi",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Araç çubuğunu gizle",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Geri sayım",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Süre sınırı ayarla",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Bulanıklaştır",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Hiçbiri",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Kamera yok",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Mikrofon yok",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Bir kaynak seçin",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Kapalı",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Genişlik",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Yükseklik",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Resim yerleştirmek için tıklayın",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Kaydı bitir",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Kaydı yeniden başlat",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Kaydı duraklat",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Kaydı sürdür",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Kaydı iptal et",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Çizim araçlarını değiştir",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Bulanıklaştırma aracını değiştir",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "İmleç seçeneklerini değiştir",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Kamerayı devre dışı bırak",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Kamerayı etkinleştir",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Kamera izinleri yok",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Kamera ayarları",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Kamerayı yansıt",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Arka planı bulanıklaştır",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Mikrofonu devre dışı bırak",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Mikrofonu etkinleştir",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Mikrofon izinleri yok",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Araç seç",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Kalem aracı",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Vurgulayıcı aracı",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Silgi aracı",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Metin aracı",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Şekil aracı",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Ok aracı",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Resim aracı",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Geri al",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Yinele",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Tuvali temizle",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Daha fazla renk",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Kalın çizgi",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Orta çizgi",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "İnce çizgi",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Resim içinde resim modunu değiştir",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Doldurmayı değiştir",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Çizim modu",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Bulanıklaştırma modu",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Tüm bulanıklaştırılmış öğeleri temizle",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Tıklamaları vurgula",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "İmleci vurgula",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "İmleç spot ışığı",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Bir daha gösterme",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Kaydı yeniden başlatsın mı?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Mevcut ilerlemeniz kaybolacak.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Yeniden başlat",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Sürdür",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Kayıt atılsın mı?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Mevcut ilerlemeniz kaybolacak.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "At",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Sürdür",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Kaydınız buraya kaydedilecek",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Kaydediliyor...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Bu sekmeyi açık tutun. Kaydınız kaydedildiğinde kapanacaktır.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Kayıt hazırlanıyor...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Bu sekmeyi açık tutun. Hazır olduğunda kaydınızla güncellenecektir.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Düzenleyici",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "İptal",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Orijinale geri dön",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Sıfırla",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Değişiklikleri kaydet",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Kaydediliyor...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Ses dosyanızı sürükleyip bırakın",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Veya gözatmak için tıklayın",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Ayarlar",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Ses düzeyi",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Güncelle",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Kırp",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Genişlik",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Yükseklik",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Sol",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Üst",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Kolları sürükleyin ve seçili bölümü düzenlemek için soldaki düğmeleri kullanın.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Videoyu kırp",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Kırpılıyor...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Bölümü kes",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Kesiliyor...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Sesi kapat",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Sesi kapatılıyor...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Daha fazla bilgi edinin.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Geri al",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Yinele",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Yorum bırakın, yardımcı olur!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Şu anda çevrimdışısınız",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Yeniden bağlanana kadar bazı özellikler kullanılamaz",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Yeniden dene",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome güncellenmeli",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Daha fazla özellik için güncelleyin",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Daha fazla bilgi edinin",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Video cihazda işlemek için çok uzun",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Düzenleme ve MP4 dışa aktarma kullanılamaz",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Video yerel olarak işleniyor...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Daha hızlı bulut sürümü hakkında bilgi edinin",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Düzenle",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Bağlantı yok",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Kullanılamaz",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Videoyu düzenle",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Videoyu kırp, kes veya sessize al",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Video hazırlanıyor, lütfen bekleyin...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Kırp",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Videoyu kırp ve yeniden boyutlandır",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Ses ekle",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Videoya eklemek için kendi sesinizi yükleyin",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Kaydet",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Google Drive'dan çıkış yap",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Kaydediliyor...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Google Drive'a kaydet",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Mevcut sürümü Google Drive'a kaydet",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Giriş yap ve Google Drive'a kaydet",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "İndiriliyor...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": ".webm olarak indir",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": ".webm video dışa aktar",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": ".mp4 olarak indir",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": ".mp4 video dışa aktar (önerilen)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": ".gif olarak indir",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "GIF dışa aktar (maks 30 saniye)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Mevcut sesi değiştir",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "İmlece yakınlaş",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Kaydederken sayfada kal",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Mikrofon kapalı uyarısı",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Yardım",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Kayıt duraklatıldı. Devam etmek için oynat düğmesine basın.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot'un ekranınızı kaydetme izni yok",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Ekran kaydının çalışması için, izin isteği göründüğünde CocoShot'un ekranınızı yakalamasına izin vermeniz gerekir. (Bunu istediğiniz zaman uzantı ayarlarından iptal edebilirsiniz.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Ekran kaydını etkinleştir",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "İptal",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Mikrofonunuz sessize alındı",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Sesinizin kayda dahil edilmesini istiyorsanız, mikrofonunuzu açmanız gerekecektir. Ses olmadan kayda devam etmek istiyor musunuz?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Evet, devam et",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "İptal",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Rahatlayın. Geri sayımı durdurmak için herhangi bir yere tıklayın.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Çerçeveler arasındaki aralıklar nedeniyle kısa zaman aralıkları için düzenlemeler doğru olmayabilir.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Video işleniyor, oynatma yanlış veya kesintiye uğrayabilir.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Kırpma biraz zaman alabilir",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Daha hızlı işleme için yükseltin",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Mikrofon etkinleştirildi",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Mikrofon devre dışı bırakıldı",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Kayıt 3 saniyeden kısaydı ve kaydedilmedi.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "UI bildirimlerini gizle",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Bir daha gösterme",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Kullanımda olmadığında araç çubuğunu gizle",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Kaydı başlat",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Kaydı durdur",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Yeni CocoShot'a hoş geldiniz!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Bu güncelleme hakkında daha fazla bilgi edinin.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Başlayın",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Kayıt başlatılırken hata",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Kayıt işlemi başlatılırken bir hata oluştu. Lütfen tarayıcınızı yeniden başlatın ve tekrar deneyin. Sorun devam ederse, daha fazla yardım için support@cocoshot.net adresinden bizimle iletişime geçin.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "En yüksek kalite",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Son video kaydını geri yükle",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Sorunlar mı var?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Kaydınızı göremiyor musunuz?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Kaydı bitirdiyseniz ancak bu sayfada videonuzu görmüyorsanız, varsa ham video verilerini indirmeyi deneyebilirsiniz. Alternatif olarak, bir hata raporu göndererek bizimle iletişime geçebilirsiniz.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Ham video verilerini indir",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Hata bildir",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Kayıt bulunamadı, üzgünüz :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Bellek sınırına ulaşıldı",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Cihazınızda kayıt için yeterli bellek yok, bu da oturumun otomatik olarak sona ermesine neden oluyor. Daha uzun videolar kaydetmek için video kalitesini düşürmeyi veya cihazınızdaki depolama alanını boşaltmayı düşünün.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Anladım",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Yeterli alan yok",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot'un kayıt yapabilmesi için en az 1GB boş alan gerekiyor. Lütfen alan boşaltın ve tekrar deneyin.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Önceki kayıtları temizle",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Gelişmiş",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Ham video dosyasını indir",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Orijinal kayıt verilerini dışa aktar",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Kaydınızla ilgili yardım alın",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Videonuzu kurtarın ve diğer sorunları çözün",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Ham video dosyasını indir",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Ham video dosyası, CocoShot tarafından doğrudan oluşturulan değiştirilmemiş kaydı ifade eder. Bu dosya işlenmediği veya düzenlenmediği için oldukça büyük olabilir ve bazı cihazlarla uyumlu olmayabilir. İşlenmiş sürümle sorun yaşarsanız, orijinal kaydınızı almak için bu dosyayı kullanabilirsiniz.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "İndir",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Ses dalga formunu göster",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Sistem bilgilerini ve video verilerini indirin ve sorun giderme için gönderin",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Dosyayı indirdikten sonra, lütfen yardımcı olabilecek ek ayrıntılarla birlikte support@cocoshot.net adresine gönderin. Bu bilgileri uzantıdaki sorunları çözmenize ve mümkünse videonuzu kurtarmanıza yardımcı olmak için kullanacağız.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "İndir",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Video cihazınızda işlemek için çok uzun",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "CocoShot gizliliği ön planda tuttuğu ve tamamen cihazınızda yerel olarak çalıştığı için, donanım yeteneklerinizle sınırlıdır. Bu uzunluktaki bir videoyu işlemek çok zaman alacak ve önemli sistem kaynakları gerektirecektir. Yine de WebM dosyasını veya ham kaydı alabilirsiniz, ancak düzenleme özellikleri ve MP4 dışa aktarma erişilebilir olmayacaktır. Ancak olası zorlukların farkındaysanız, videoyu yine de işlemeye devam edebilirsiniz.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Riski anlıyorum, yine de dene",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Uzun videoları işleme hakkında daha fazla bilgi edinin.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Kurtarma modu",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Sorun giderme için verileri indir",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Yardım merkezi",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Bilgisayar sesini kaydet",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Bu sayfadan ses kaydetmek istiyorsanız '$tab$' moduna geçmeniz gerekir.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Uzantı bu sekmede desteklenmiyor",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot, kullandığınız sekmeyle uyumlu değil. Yine de bu sayfadan kayıt başlatabilir ve ardından o sekmeye dönebilirsiniz, ancak kamera beslemesi ve düzenleme araç çubuğunun görüntülenmeyeceğini lütfen unutmayın.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "CocoShot kayıtlarınız için yerel bir yedekleme kurun",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Oluşturduğunuz her kaydın kopyalarını saklayın. Yedekleme kurmazsanız, kayıtlarınız yalnızca açıkça indirmeyi seçtiğinizde saklanacaktır.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Kayıtları İndirmeler veya diğer sistem dizinlerine kaydetmeye çalışıyorsanız, önce yeni bir klasör oluşturmanız gerekebilir.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Bir klasör seçin",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Şimdi değil",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Kayıtlarınız yerel olarak yedekleniyor",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Her kayıt yaptığınızda izin istenmemesi için bu sekmeyi açık tutmanızı öneririz.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Yine de sekmeyi kapat",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Tüm kayıtların yedeklemesini durdur",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Lütfen yerel CocoShot yedekleme klasörünüze erişimi yeniden onaylayın",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Özür dileriz, ancak kayıtlarınızı yedeklemeye devam etmek için size tekrar izin vermeniz gerekiyor. Ne yazık ki, bu sekme her kapandığında (tarayıcıyı kapattığınızda veya bilgisayarı yeniden başlattığınızda bu olabilir) bu izni her seferinde sormamız gerekecek.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "CocoShot'un kayıtları yedeklemeye devam etmesine izin ver",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Kayıtları yedekle",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Kaydı yedeklemek için izin verilmedi",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Kayıt yedeklerinizi depolamak için bir klasör seçmediniz. Tarayıcı sürümünüze veya işletim sisteminize bağlı olarak, her kayıt başlattığınızda bu klasörü seçmeniz istenebilir. Kurulum işlemini tekrar deneyebilir veya izinleri tekrar tekrar vermek istemiyorsanız yedeklemeyi tamamen kapatabilirsiniz.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Bilgisayar sesini kaydet",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "macOS sistemlerinde, bireysel sekmelerden ses kaydetmekle sınırlısınız. Chrome Sekme Kaydı seçeneğini seçin ve 'Sekme sesini de paylaş' ayarının açık olduğunu doğrulayın.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Bilgisayar sesini kaydet",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Bilgisayarınızdan ses yakalamak istiyorsanız 'Sistem sesini paylaş' seçeneğinin açık olduğundan emin olun. Bu seçenek görünmüyorsa, Chrome'u güncellemeyi veya sekme kaydı moduna geçmeyi düşünün.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Maksimum çözünürlük",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Maksimum FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Yeterli RAM yok",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Pencere boyutunu değiştir",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Bu çözünürlük için ekran çok küçük",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Cihazınızda bu çözünürlükte kayıt yapılamıyor",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "İzin Reddedildi",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Kayıt için kamera ve mikrofon izinleri gereklidir. Lütfen tarayıcı ayarlarında izin verin.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Kayıt için kamera izni gereklidir. Lütfen tarayıcı ayarlarında izin verin.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Kayıt için mikrofon izni gereklidir. Lütfen tarayıcı ayarlarında izin verin.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "İzinleri Düzelt",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Ekran Kaydı Ayarları",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "s",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "d",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "sn",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Kamera izni isteniyor...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Mikrofon izni isteniyor...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Kamera izni iste",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Mikrofon izni iste",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "İzinleri gözden geçir",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Seçenekleri özelleştir",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Kaydedilen Videolar",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Henüz video kaydedilmedi",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Sessize almak için basın",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Kameranıza erişmek için izninize ihtiyacımız var",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Mikrofonunuza erişmek için izninize ihtiyacımız var",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Gözden geçir",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Renk Seçici",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Kapat",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Ekrandan Renk Seç",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "Bu tarayıcıda EyeDropper API desteklenmiyor. Lütfen Chrome 95+ veya Edge 95+ gibi modern bir tarayıcı kullanın.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Bulanıklaştırma bölgesi seç",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Tüm bulanıklaştırma bölgelerini sil",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Çizgi Genişliği",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "İnce",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Orta",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Kalın",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Çok Kalın",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot Kayıtları",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Yerel yedekleme kurulumu başarısız oldu. Daha fazla yardım için support@cocoshot.net adresinden bizimle iletişime geçin. Yine de ekranınızı kaydedebilirsiniz.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Tarayıcınız yerel yedeklemeleri desteklemiyor. Daha fazla yardım için support@cocoshot.net adresinden bizimle iletişime geçin. Yine de ekranınızı kaydedebilirsiniz.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "İmlece Yakınlaş Nasıl Kullanılır",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Kayıt sırasında, imleç konumunuza doğru yakınlaştırmak için klavye kısayolunu basılı tutun. Yakınlaştırmak için tuşları bırakın. Bu, kayıt sırasında ekranın belirli alanlarını vurgulamak için harikadır.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Anladım!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Bölge Boyutu",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Hazır Ayarlar",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Sıfırla",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Hiçbiri",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Bulanıklaştır",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Resim",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Lütfen önce bir video dosyası yükleyin",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "WebM Olarak İndir",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "MP4 Olarak İndir",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Dönüştürülüyor...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Parçalar işleniyor:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Video boyutu önerilen sınırı (1GB) aşıyor, bu işleme başarısızlığına neden olabilir",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Büyük bir video (1GB) yüklüyorsunuz. İşleme uzun zaman alabilir. Devam?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Desteklenmeyen video formatı. Lütfen farklı bir video formatı deneyin.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "İndirme başarısız oldu. Lütfen tekrar deneyin.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4 Dönüştürme Kullanılamıyor",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Bu video, tarayıcıda MP4'e dönüştürmek için çok büyük. Bunun yerine WebM olarak indirin.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "MP4'e dönüştürülüyor...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Video indirilemedi. Lütfen tekrar deneyin.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "videoyu düzenle",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Yakında gelecek.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Video Önizleme",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "Tamam",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Depolamaya yazılıyor...",
+    "description": "Message shown when writing video to storage"
+  }
+}

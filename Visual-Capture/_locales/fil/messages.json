@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Screenshot at Screen Recorder"
+  },
+  "extDescription": {
+    "message": "Kumuha ng buong pahinang mga screenshot at i-record ang screen sa MP4 na may mga anotasyon. Kasama ang pag-export ng PDF na may m..."
+  },
+  "pDisable": {
+    "message": "Naka-disable sa pahinang ito"
+  },
+  "pDisableDesc": {
+    "message": "Maaari mong patakbuhin ito sa anumang webpage, maliban sa mga pahinang pinipigilan ng browser na tumakbo ang mga script ng extension. Kabilang dito ang extension web store, mga pahina ng mga setting ng browser, at iba pang mga pahina ng extension."
+  },
+  "pDisableExp": {
+    "message": "Ang limitasyong ito ay nagmumula sa browser mismo dahil sa mga panganib sa seguridad."
+  },
+  "pDisableTry": {
+    "message": "Maaari kang magbukas ng bagong pahina at subukan ang pag-andar ng capture."
+  },
+  "pStart": {
+    "message": "Simulan"
+  },
+  "pFileUrl": {
+    "message": "Pumunta sa \"edge://extensions/\", at i-check ang kahon na \"Pahintulutan ang pag-access sa mga file URL\"."
+  },
+  "pCaptV": {
+    "message": "Kumuha ng screenshot ng mga nakikitang bahagi ng pahina."
+  },
+  "pAsOne": {
+    "message": "I-save bilang isang solong HTML file."
+  },
+  "pDesktop": {
+    "message": "Kumuha ng mga screenshot ng isang ibinigay na webpage, tab, bintana, o buong screen."
+  },
+  "pCaptFull": {
+    "message": "Kumuha ng screenshot ng buong pahina."
+  },
+  "pDesableOpt": {
+    "message": "O maaari mong subukan:"
+  },
+  "pAreaCut": {
+    "message": "Pumili ng bahagi ng pahina upang kumuha ng screenshot"
+  },
+  "fullpageTooLarge": {
+    "message": "Paalala: Hindi makakakuha ang browser ng buong pahina bilang isang larawan dahil sa laki nito. Sa halip, hahatiin ito sa <strong>$1</strong> magkakahiwalay na larawan."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Babala: Ang extension na ito ay hindi nilayon para sa pagkuha ng napakalaking nilalaman. Maaaring hindi nito matagumpay na makumpleto ang pagkuha ng pahinang ito."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Kinakailangan ang Karagdagang Pahintulot"
+  },
+  "framePermDesc": {
+    "message": "Ipinapakita ng site na ito ang nilalaman sa pamamagitan ng isang embedded iframe, na nangangailangan ng karagdagang pahintulot upang ma-access."
+  },
+  "WhatisIframe": {
+    "message": "I-click upang malaman kung ano ang isang iframe."
+  },
+  "framePermMore": {
+    "message": "Maaaring kailanganin mong i-restart ang extension pagkatapos gamitin ang dialog. Ang pagkansela ay mag-capture lamang ng nakikitang screen."
+  },
+  "framePermConfirm": {
+    "message": "Pahintulutan"
+  },
+  "framePermSave": {
+    "message": "I-save ang pahintulot na ito para sa susunod na paggamit (maaari mo itong bawiin anumang oras)."
+  },
+  "error": {
+    "message": "Error"
+  },
+  "captureError": {
+    "message": "Nabigo ang pagkakuha, mangyaring subukang muli mamaya. Kung magpapatuloy ang problema, mangyaring makipag-ugnayan sa developer sa $1"
+  },
+  "btnOk": {
+    "message": "OK"
+  },
+  "btnCancel": {
+    "message": "Kanselahin"
+  },
+  "saveFramePermission": {
+    "message": "Pahintulutan ang pagkakuha ng nilalaman mula sa lahat ng mga frame"
+  },
+  "permissions": {
+    "message": "Mga Pahintulot"
+  },
+  "saveframepDesc": {
+    "message": "Kinakailangan ang pahintulot na ito upang makuha ang nilalaman mula sa mga iframe o frameset sa isang pahina. Ang hindi pagpapagana nito ay maaaring maglimita sa kakayahang kumuha ng ilang mga elemento ng web page."
+  },
+  "processingScreenshot": {
+    "message": "Pinoproseso ang screenshot..."
+  },
+  "screenshotSaved": {
+    "message": "Na-save ang screenshot sa folder ng Downloads"
+  },
+  "screenshotLoadFailed": {
+    "message": "Nabigong i-load ang screenshot. Pakisubukang muli."
+  },
+  "getScreenshotFailed": {
+    "message": "Nabigong kunin ang screenshot. Pakisubukang muli."
+  },
+  "processingAllAreas": {
+    "message": "Pinoproseso ang mga screenshot ng lahat ng lugar..."
+  },
+  "allAreasSaved": {
+    "message": "Matagumpay na na-save ang mga screenshot ng $1 na lugar"
+  },
+  "areaNotVisible": {
+    "message": "Halos wala ang napiling lugar sa nakikitang bahagi kaya hindi makuha ang screenshot."
+  },
+  "partiallyVisible": {
+    "message": "Bahagi ng lugar ay wala sa nakikitang bahagi. Nakuha na ang nakikitang bahagi."
+  },
+  "partiallyVisibleArea": {
+    "message": "Bahagi ng napiling lugar ay wala sa nakikitang bahagi. Nakuha na ang nakikitang bahagi."
+  },
+  "areaOutOfView": {
+    "message": "Ang napiling lugar ay wala sa nakikitang bahagi. Pakilag ang pahina upang makita ang lugar at subukang muli."
+  },
+  "processingError": {
+    "message": "Error sa pagproseso ng screenshot: $1"
+  },
+  "saveFailed": {
+    "message": "Nabigong i-save ang screenshot: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Pinagana ang smart screenshot mode. I-click upang pumili ng elementong kukunan (Enter para kumpirmahin, Esc para kanselahin)."
+  },
+  "processing": {
+    "message": "Pinoproseso ang pagkopya..."
+  },
+  "copyFailed": {
+    "message": "Nabigong kopyahin: $1"
+  },
+  "canvasContextError": {
+    "message": "Nabigong kopyahin: Hindi makuha ang Canvas context."
+  },
+  "copied": {
+    "message": "Nakopya sa clipboard"
+  },
+  "clipboardAccessDenied": {
+    "message": "Nabigong kopyahin: Access sa clipboard tinanggihan, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Nabigong kopyahin: Hindi suportado ang Clipboard API"
+  },
+  "imageDataCreateFailed": {
+    "message": "Nabigong kopyahin: Hindi makalikha ng image data"
+  },
+  "copyAreaOutOfView": {
+    "message": "Nabigong kopyahin: Ang napiling lugar ay wala sa nakikitang bahagi"
+  },
+  "imagePreviewShown": {
+    "message": "Ipinakita ang preview ng imahe. I-right-click para kopyahin."
+  },
+  "escape": {
+    "message": "Kanselahin (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Naitakda ang kalidad ng imahe sa: $1"
+  },
+  "qrDecoding": {
+    "message": "Ini-decode ang QR code..."
+  },
+  "qrSuccess": {
+    "message": "Matagumpay na na-decode ang QR code. Nakopya sa clipboard."
+  },
+  "qrNoQRFound": {
+    "message": "Walang valid na QR code na natagpuan"
+  },
+  "qrError": {
+    "message": "Nabigong i-decode ang QR code: $1"
+  },
+  "saveArea": {
+    "message": "I-save ang lugar na ito"
+  },
+  "copyToClipboard": {
+    "message": "Kopyahin ang napiling bahagi (kasalukuyang napili)"
+  },
+  "saveAllAreas": {
+    "message": "I-save lahat ng lugar"
+  },
+  "keepAndContinue": {
+    "message": "Magdagdag ng bagong pagpili"
+  },
+  "cancel": {
+    "message": "Kanselahin"
+  },
+  "lockSize": {
+    "message": "I-lock ang sukat"
+  },
+  "lockSizeActive": {
+    "message": "✓ I-lock ang sukat"
+  },
+  "freeRatio": {
+    "message": "Malayang ratio"
+  },
+  "ratioLabel": {
+    "message": "Pumili ng ratio"
+  },
+  "aiDialog": {
+    "message": "Smart dialog"
+  },
+  "fileSizeEstimate": {
+    "message": "Tinatayang $1 $2"
+  },
+  "qrDecode": {
+    "message": "I-decode ang QR code"
+  },
+  "removeBackground": {
+    "message": "Alisin ang background"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Inaalis ang background..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Nabigong alisin ang background: Error sa pag-load ng larawan"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Nabigong alisin ang background: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Naalis ang background at nakopya sa clipboard"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Nabigong alisin ang background: Hindi makalikha ng Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Ang napiling lugar ay wala sa nakikitang bahagi"
+  },
+  "screenshotFailed": {
+    "message": "Nabigong kunin ang screenshot: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Nabigong iproseso ang imahe, pakisubukang muli"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Ang lugar ng screenshot ay wala sa nakikitang bahagi"
+  },
+  "errorProcessingImage": {
+    "message": "Error sa pagproseso ng imahe: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "Hindi na-load ang QR code decoding library"
+  },
+  "qrDecodingFailed": {
+    "message": "Nabigong i-decode ang QR code: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "Walang QR code na natagpuan sa napiling lugar"
+  },
+  "qrDecodingSuccess": {
+    "message": "Matagumpay na na-decode ang QR code: $1"
+  },
+  "qrDecodingError": {
+    "message": "Error sa pag-decode ng QR code: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Nabigong alisin ang background: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Mangyaring pumili muna ng lugar para sa screenshot"
+  },
+  "aiDialogTitle": {
+    "message": "Magkaroon ng intelligent na usapan tungkol sa nilalaman ng screenshot"
+  },
+  "qrDecodeTitle": {
+    "message": "I-decode ang QR code sa screenshot"
+  },
+  "lockSizeTitle": {
+    "message": "I-lock ang kasalukuyang sukat para sa tuloy-tuloy na pagkuha"
+  },
+  "moveHint": {
+    "message": "I-drag ang lugar ng pagpili (Space + drag)"
+  },
+  "saveAreaTooltip": {
+    "message": "I-save ang kasalukuyang lugar"
+  },
+  "saveAllAreasTooltip": {
+    "message": "I-save lahat ng napiling lugar"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Kopyahin ang screenshot sa clipboard"
+  },
+  "moreOptions": {
+    "message": "Higit pang mga opsyon"
+  },
+  "removeBgTooltip": {
+    "message": "Alisin ang background at kopyahin sa clipboard"
+  },
+  "ratioLabelTooltip": {
+    "message": "Pumili ng aspect ratio"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Panatilihin ang kasalukuyang pagpili at magpatuloy"
+  },
+  "pCaptureTabLabel": {
+    "message": "Screenshot"
+  },
+  "pAiToolsTabLabel": {
+    "message": "Mga Tool ng AI"
+  },
+  "pCaptureTitle": {
+    "message": "Buong pahina at napiling lugar ng screen screenshot"
+  },
+  "pAiToolsTitle": {
+    "message": "Mga tool na nauugnay sa AI"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Mga Tool sa Pag-export ng Nilalaman ng Web"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Mga Tool sa Imahe"
+  },
+  "pDownloadAsMD": {
+    "message": "I-download bilang Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "I-download bilang PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "I-download ang kasalukuyang webpage bilang isang Markdown file"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "I-download ang kasalukuyang webpage bilang isang PDF file"
+  },
+  "pImageProcessing": {
+    "message": "Pagproseso ng imahe"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Isang koleksyon ng mga tool para sa pagproseso ng imahe"
+  },
+  "fixThePage": {
+    "message": "Ayusin ang pahina"
+  },
+  "expandScrollableOn": {
+    "message": "Palawakin ang mga scrollable na lugar"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Paganahin upang mapalawak ang mga scrollable na lugar sa loob ng webpage bago kumuha ng screenshot"
+  },
+  "hideFixedOn": {
+    "message": "Itago ang mga nakapirming elemento ng posisyon"
+  },
+  "hideFixedOnDesc": {
+    "message": "Paganahin upang itago ang mga nakapirming elemento ng posisyon na maaaring makagambala sa pagkuha"
+  },
+  "preScrollOn": {
+    "message": "Paunang pag-scroll sa paglo-load ng webpage"
+  },
+  "preScrollOnDesc": {
+    "message": "Maraming mga elemento ng web (hal., mga imahe) ang naglo-load lamang sa pag-scroll. Kapag pinagana, awtomatiko itong nakikita at nag-i-scroll sa ilalim ng pahina bago kumuha ng screenshot."
+  },
+  "canBeDisabled": {
+    "message": "maaaring hindi paganahin sa pamamagitan ng pahina ng mga setting"
+  },
+  "analyzingPageForHTML": {
+    "message": "Sinusuri ang code at nilalaman ng webpage, maaaring mas matagalan ang mga kumplikadong pahina. Kung masyadong matagal, paki-refresh ang webpage at subukang muli."
+  },
+  "drawerSettings": {
+    "message": "Mga Setting"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Kasaysayan ng Screenshot"
+  },
+  "drawerImageTools": {
+    "message": "Mga Tool sa Pagpapahusay ng Screenshot"
+  },
+  "drawerHelpFeedback": {
+    "message": "FAQ at Feedback"
+  },
+  "drawerCloseMenu": {
+    "message": "Isara ang Menu na ito"
+  },
+  "logoTooltip": {
+    "message": "Tingnan ang Higit Pa"
+  },
+  "pRecorderTabLabel": {
+    "message": "Screen Recorder"
+  },
+  "pRecorderTitle": {
+    "message": "Screen Recorder"
+  },
+  "pStartRecorder": {
+    "message": "Simulan ang pag-record ng screen"
+  },
+  "pStartRecorderLabel": {
+    "message": "Pag-record ng screen"
+  },
+  "pRecorderAlt": {
+    "message": "Recorder"
+  },
+  "pStartRecorderAlt": {
+    "message": "Screen recorder"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Ito ay isang beta version"
+  },
+  "pRecorderFeedback": {
+    "message": "Magbigay ng Feedback"
+  },
+  "downloadsPermission": {
+    "message": "Payagan ang pag-download ng file"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Kinakailangan ang pahintulot na ito upang i-save ang mga screenshot nang direkta sa iyong computer."
+  },
+  "webNavigationPermission": {
+    "message": "Payagan ang access sa web navigation"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Kinakailangan ang pahintulot na ito upang tiktikan ang mga pagbabago sa pahina at mag-navigate sa iba't ibang pahina kapag kinakailangan."
+  },
+  "desktopCapturePermission": {
+    "message": "Payagan ang desktop capture"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Kinakailangan ang pahintulot na ito upang i-capture ang content mula sa iyong desktop o mga partikular na window."
+  },
+  "tabsPermission": {
+    "message": "Payagan ang access sa mga tab"
+  },
+  "tabsPermissionDesc": {
+    "message": "Kinakailangan ang pahintulot na ito upang i-access at pamahalaan ang impormasyon ng browser tab."
+  },
+  "tabCapturePermission": {
+    "message": "Payagan ang tab capture"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Kinakailangan ang pahintulot na ito upang i-capture ang audio at video mula sa mga browser tab."
+  },
+  "allUrlsPermission": {
+    "message": "Payagan ang access sa lahat ng website"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Kinakailangan ang pahintulot na ito upang i-capture ang mga screenshot mula sa anumang website."
+  },
+  "fileUrlsPermission": {
+    "message": "Payagan ang access sa lokal na mga file"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Kinakailangan ang pahintulot na ito upang i-capture ang mga screenshot mula sa lokal na mga file (file:// URL)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Kung isasama ang mga larawan sa pag-download"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Nangangailangan ang tampok na ito ng CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "I-upgrade sa Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Nangangailangan ang pag-save ng content na ito ng CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "CocoShot Preview"
+  },
+  "qv_preview_mode": {
+    "message": "Preview Mode"
+  },
+  "qv_screenshot_preview": {
+    "message": "Screenshot Preview"
+  },
+  "qv_download": {
+    "message": "I-download"
+  },
+  "qv_edit": {
+    "message": "Annotate, I-edit (pwede ring i-export sa PDF)"
+  },
+  "qv_hint": {
+    "message": "Awtomatikong lalaktawan ng mga bihasang user ang page na ito at dederetso sa editor."
+  },
+  "recordTab": {
+    "message": "Tallenna",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Videosi",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Näyttö",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Välilehti",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Vain kamera",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Mockup",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Mukautetun alueen tallennus poistettu käytöstä",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Päivitä Chrome versioon 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Päivitä",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Tarkista käyttöoikeutesi",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot ei näytä pääsevän käyttämään kameraasi tai mikrofoniasi. Ratkaise tämä ongelma poistamalla esto selaimen asetuksista ja myönnä tarvittavat käyttöoikeudet.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Sulje",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Salli kameran käyttö",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Salli mikrofonin käyttö",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Paina puhuaksesi",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Aseta tallennusalue",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Käännä kameraa",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Taustatehosteet",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Aloita tallennus",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Aloitetaan tallennusta...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Valitse kamera",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Lisää asetuksia",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Järjestelmän ääni",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Piilota työkalupalkki",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Laskuri",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Aseta aikaraja",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Sumenta",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Ei mitään",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Ei kameraa",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Ei mikrofonia",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Valitse lähde",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Pois",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Leveys",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Korkeus",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Lisää kupla napsauttamalla",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Lopeta tallennus",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Käynnistä tallennus uudelleen",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Tauota tallennus",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Jatka tallennusta",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Peruuta tallennus",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Vaihda piirustustyökaluja",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Vaihda sumennustyökalua",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Vaihda osoitinasetuksia",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Poista kamera käytöstä",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Ota kamera käyttöön",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Ei kameran käyttöoikeuksia",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Kameran asetukset",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Peilaa kameraa",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Taustan sumennus",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Poista mikrofoni käytöstä",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Ota mikrofoni käyttöön",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Ei mikrofonin käyttöoikeuksia",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Valitse työkalu",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Kynätyökalu",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Korostustyökalu",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Pyyhekumi",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Teksti",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Muoto",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Nuoli",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Kuva",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Kumoa",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Tee uudelleen",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Tyhjennä piirtoalusta",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Lisää värejä",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Paksu viiva",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Keskikokoinen viiva",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Ohut viiva",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Vaihda kuva kuvassa -tilaa",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Vaihda täyttöä",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Piirustustila",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Sumennustila",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Poista kaikki sumennetut elementit",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Korosta napsautukset",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Korosta osoitinta",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Osoittimen kohdevalo",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Älä näytä uudelleen",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Käynnistä tallennus uudelleen?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Nykyinen edistymisesi menetetään.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Käynnistä uudelleen",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Jatka",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Hylkää tallennus?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Nykyinen edistymisesi menetetään.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Hylkää",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Jatka",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Tallennus tallennetaan tähän",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Tallennetaan...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Pidä tämä välilehti auki. Se sulkeutuu, kun tallennus on tallennettu.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Valmistellaan tallennusta...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Pidä tämä välilehti auki. Se päivittyy tallennuksellasi, kun se on valmis.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Muokkain",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Peruuta",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Palauta alkuperäiseen",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Nollaa",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Tallenna muutokset",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Tallennetaan...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Raahaa ja pudota äänitiedostosi",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Tai napsauta selataksesi",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Asetukset",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Äänenvoimakkuus",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Päivitä",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Rajaa",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Leveys",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Korkeus",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Vasen",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Ylä",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Raahaa kahvoja ja käytä vasemmalla olevia painikkeita muokataksesi valittua osaa.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Rajaa video",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Rajataan...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Leikkaa osa",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Leikataan...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Mykistä ääni",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Mykistetään...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Lue lisää.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Kumoa",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Tee uudelleen",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Jätä arvio, se auttaa!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Olet tällä hetkellä offline-tilassa",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Jotkut toiminnot eivät ole käytettävissä ennen uudelleenyhteyden muodostamista",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Yritä uudelleen",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome on päivitettävä",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Päivitä saadaksesi lisää ominaisuuksia",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Lue lisää",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Video on liian pitkä käsiteltäväksi laitteella",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Muokkaus ja MP4-vienti eivät ole käytettävissä",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Videota käsitellään paikallisesti...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Lue lisää nopeammasta pilviversiosta",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Muokkaa",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Ei yhteyttä",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Ei saatavilla",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Muokkaa videota",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Rajaa, leikkaa tai mykistä video",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Valmistellaan videota, odota...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Rajaa",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Rajaa ja muuta videon kokoa",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Lisää ääni",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Lataa oma äänitiedostosi lisätäksesi se videoon",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Tallenna",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Kirjaudu ulos Google Drivesta",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Tallennetaan...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Tallenna Google Driveen",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Tallenna nykyinen versio Google Driveen",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Kirjaudu sisään ja tallenna Google Driveen",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Ladataan...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Lataa .webm-muodossa",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Vie .webm-video",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Lataa .mp4-muodossa",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Vie .mp4-video (suositeltu)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Lataa .gif-muodossa",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Vie GIF (enint. 30 sekuntia)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Korvaa olemassa oleva ääni",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Zoom osoittimeen",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Pysy sivulla tallennuksen aikana",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Mikrofoni pois päältä -varoitus",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Ohje",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Tallennus tauotettu. Jatka painamalla toistopainiketta.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShotilla ei ole lupaa tallentaa näyttöäsi",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Jotta näytön tallennus toimisi, sinun on sallittava CocoShotin kaapata näyttösi, kun käyttöoikeuspyyntö tulee näkyviin.(Voit peruuttaa sen milloin tahansa laajennuksen asetuksissa.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Ota näytön tallennus käyttöön",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Peruuta",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Mikrofonisi on mykistetty",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Jos haluat, että äänesi sisällytetään tallennukseen, sinun on kytkettävä mikrofoni päälle. Haluatko jatkaa tallennusta ilman ääntä joka tapauksessa?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Kyllä, jatka",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Peruuta",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Rauhoitu. Pysäytä laskuri napsauttamalla mitä tahansa.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Muokkaukset voivat olla epätarkkoja lyhyille aikaväleille kehysten välisten välien vuoksi.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Videota käsitellään, toisto voi olla epätarkka tai keskeytyä.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Rajaaminen voi kestää hetken",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Päivitä nopeampaan käsittelyyn",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Mikrofoni käytössä",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Mikrofoni pois käytöstä",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Tallennus oli alle 3 sekuntia eikä tallennettu.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Piilota käyttöliittymäilmoitukset",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Älä näytä uudelleen",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Piilota työkalupalkki, kun ei käytössä",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Aloita tallennus",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Lopeta tallennus",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Tervetuloa uuteen CocoShottiin!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Lue lisää päivityksestä.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Aloita",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Virhe tallennuksen käynnistämisessä",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Tallennusprosessin käynnistämisessä tapahtui virhe. Käynnistä selain uudelleen ja yritä uudelleen. Jos ongelma jatkuu, ota meihin yhteyttä osoitteessa support@cocoshot.net.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Korkein laatu",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Palauta viimeisin videon tallennus",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Ongelmia?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Etkö näe tallennustasi?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Jos olet lopettanut tallennuksen etkä näe videotasi tällä sivulla, voit yrittää ladata raakavideodat. Vaihtoehtoisesti voit ottaa meihin yhteyttä lähettämällä virheraportin.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Lataa raakavideotiedot",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Ilmoita virheestä",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Tallennusta ei löytynyt, anteeksi :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Muistiraja saavutettu",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Laitteesi ei ole riittävästi muistia tallennukseen, mikä saa istunnon päättymään automaattisesti. Pidemmän videon tallentamiseksi harkitse videon laadun vähentämistä tai tallennustilan vapauttamista.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Ymmärretty",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Ei tarpeeksi tilaa",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot tarvitsee vähintään 1GB vapaata tilaa tallennukseen. Vapauta tilaa ja yritä uudelleen.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Tyhjennä aiemmat tallennukset",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Lisäasetukset",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Lataa raakavideotiedosto",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Vie alkuperäiset tallennustiedot",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Hae apua tallennukseen",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Palauta videosi ja ratkaise muut ongelmat",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Lataa raakavideotiedosto",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Raakavideotiedosto viittaa muokkaamattomaan tallennukseen, jonka CocoShot loi suoraan. Koska tätä tiedostoa ei ole käsitelty tai muokattu, se voi olla melko suuri ja yhteensopimaton joidenkin laitteiden kanssa. Jos kohtaat ongelmia käsitellyn version kanssa, voit käyttää tätä tiedostoa alkuperäisen tallennuksen palauttamiseen.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Lataa",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Näytä aaltomuoto",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Lataa järjestelmätiedot ja videodiedot ja lähetä vianmääritystä varten",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Kun olet ladannut tiedoston, lähetä se osoitteeseen support@cocoshot.net yhdessä kaikkien lisätietojen kanssa, jotka voivat olla hyödyllisiä. Käytämme näitä tietoja auttaaksemme sinua ratkaisemaan ongelmia laajennuksen kanssa ja palauttamaan videosi mahdollisuuksien mukaan.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Lataa",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Video on liian pitkä käsiteltäväksi laitteellasi",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Koska CocoShot asettaa yksityisyyden etusijalle ja toimii kokonaan paikallisesti laitteellasi, se on rajoitettu laitteistosi ominaisuuksilla. Tämän pituisen videon käsittely olisi liian aikaa vievää ja vaatisi merkittäviä järjestelmäresursseja. Voit silti saada WEBM-tiedoston tai raakatallennuksen, vaikka muokkausominaisuudet ja MP4-vienti eivät ole käytettävissä. Jos olet tietoinen mahdollisista haasteista, voit kuitenkin jatkaa videon käsittelyä.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Ymmärrän riskin, yritä silti",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Lue lisää pitkien videoiden käsittelystä.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Palautustila",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Lataa tiedot vianmääritystä varten",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Ohjekeskus",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Tallenna tietokoneen ääni",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Tallentaaksesi ääntä tältä sivulta, sinun on vaihdettava '$tab$':een.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Laajennus ei ole tuettu välilehdellä",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot ei ole yhteensopiva välilehden kanssa, jota juuri käytit. Voit silti aloittaa tallennuksen tältä sivulta ja palata takaisin sille välilehdelle, mutta huomaa, että kamerasyöte ja muokkaustyökalupalkki eivät näy.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Määritä paikallinen varmuuskopiointi CocoShot-tallennuksillesi",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Säilytä kopiot jokaisesta luomastasi tallennuksesta. Ilman varmuuskopioinnin määrittämistä tallennuksiasi tallennetaan vain, kun valitset erikseen ladata ne.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Jos yrität tallentaa tallennuksia Latauksiin tai muihin järjestelmähakemistoihin, sinun on ehkä luotava uusi kansio ensin.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Valitse kansio",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Ei nyt",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Tallennuksiasi varmuuskopioidaan paikallisesti",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Välttääksemme lupapyynnöt joka kerta kun tallennat, suosittelemme pitämään tämän välilehden auki.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Sulje välilehti joka tapauksessa",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Lopeta kaikkien tallennusten varmuuskopiointi",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Vahvista pääsy paikalliseen CocoShot-varmuuskansiokansioon",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Pahoittelut, mutta tarvitsemme lupasi jatkaaksemme tallennusten varmuuskopiointia. Valitettavasti meidän on pyydettävä tätä lupaa joka kerta kun tämä välilehti suljetaan, mikä voi tapahtua kun suljet selaimen tai käynnistät tietokoneen uudelleen.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Salli CocoShotin jatkaa tallennusten varmuuskopiointia",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Varmuuskopioi tallennukset",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Lupaa tallennuksen varmuuskopiointiin ei myönnetty",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Et ole valinnut kansiota tallennustesi varmuuskopioiden tallentamiseen. Selaimen version tai käyttöjärjestelmän mukaan sinua voidaan pyytää valitsemaan tämä kansio joka kerta kun aloitat tallennuksen. Voit yrittää asennusprosessia uudelleen tai sammuttaa varmuuskopiot kokonaan, jos et halua myöntää lupia toistuvasti.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Tallenna tietokoneen ääni",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "macOS-järjestelmissä olet rajoitettu tallentamaan ääntä yksittäisistä välilehdistä. Valitse Chrome-välilehden tallennusvaihtoehto ja varmista, että 'Jaa myös välilehden ääni' on käytössä.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Tallenna tietokoneen ääni",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Jos haluat kaapata ääntä tietokoneeltasi, varmista, että 'Jaa järjestelmän ääni' on aktivoitu. Jos tämä vaihtoehto ei ole näkyvissä, harkitse Chromen päivittämistä tai siirtymistä välilehden tallennustilaan.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Enimmäistarkkuus",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Enimmäis-FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Ei tarpeeksi RAM-muistia",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Muuta ikkunan kokoa",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Näyttö on liian pieni tähän tarkkuuteen",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Ei voi tallentaa tässä tarkkuudessa laitteellasi",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Lupa evätty",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Tallennukseen vaaditaan kameran ja mikrofonin käyttöoikeudet. Myönnä käyttöoikeudet selaimen asetuksissa.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Tallennukseen vaaditaan kameran käyttöoikeus. Myönnä käyttöoikeus selaimen asetuksissa.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Tallennukseen vaaditaan mikrofonin käyttöoikeus. Myönnä käyttöoikeus selaimen asetuksissa.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Korjaa käyttöoikeudet",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Näytön tallennusasetukset",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "t",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Pyydetään kameran käyttöoikeutta...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Pyydetään mikrofonin käyttöoikeutta...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Pyydä kameran käyttöoikeutta",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Pyydä mikrofonin käyttöoikeutta",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Tarkista käyttöoikeudet",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Mukauta asetuksia",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Tallennetut videot",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Ei vielä tallennettuja videoita",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Paina mykistääksesi",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Tarvitsemme lupasi päästäksesi kameraasi",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Tarvitsemme lupasi päästäksesi mikrofoniisi",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Tarkista",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Väripaketti",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Sulje",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Valitse väri näytöltä",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API ei ole tuettu tässä selaimessa. Käytä modernia selainta kuten Chrome 95+ tai Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Valitse sumennusalue",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Poista kaikki sumennusalueet",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Viivan leveys",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Ohut",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Keskikokoinen",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Lihavoitu",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Erittäin lihavoitu",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot Recordings",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Paikallisen varmuuskopioinnin määrittäminen epäonnistui. Ota meihin yhteyttä osoitteessa $supportEmail$ saadaksesi lisäapua. Voit silti tallentaa näyttöäsi.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Selaimesi ei tue paikallisia varmuuskopioita. Ota meihin yhteyttä osoitteessa $supportEmail$ saadaksesi lisäapua. Voit silti tallentaa näyttöäsi.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Kuinka käyttää Zoomaus osoittimeen",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Tallennuksen aikana pidä näppäimistön pikanäppäintä painettuna zoomaaksesi kohti osoitintasi. Vapauta näppäimet zoomataksesi takaisin. Tämä on loistava tapa korostaa tiettyjä näytön alueita tallennuksen aikana.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Selvä!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Alueen koko",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Pikavalinnat",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Nollaa",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Ei mitään",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Sumennus",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Kuva",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Lataa ensin videotiedosto",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Lataa WebM-muodossa",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Lataa MP4-muodossa",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Muunnetaan...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Käsitellään osia:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Videon koko ylittää suositellun rajan (enint. $1GT), mikä voi aiheuttaa käsittelyvirheen",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Olet lataamassa suurta videota ($1GT). Käsittely voi kestää kauan. Jatketaanko?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Videomuoto ei ole tuettu. Kokeile toista videomuotoa.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Lataus epäonnistui. Yritä uudelleen.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4-muunnos ei ole saatavilla",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Tämä video on liian suuri muunnettavaksi MP4-muotoon selaimessa. Lataa se sen sijaan WebM-muodossa.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Muunnetaan MP4-muotoon...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Videon lataus epäonnistui. Yritä uudelleen.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "muokkaa videota",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Tulossa pian.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Videon esikatselu",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Kirjoitetaan tallennustilaan...",
+    "description": "Message shown when writing video to storage"
+  }
+}

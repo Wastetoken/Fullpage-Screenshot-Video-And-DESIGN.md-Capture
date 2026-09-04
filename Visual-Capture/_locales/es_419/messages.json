@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Captura de pantalla y grabador de pantalla"
+  },
+  "extDescription": {
+    "message": "Capture capturas de pantalla de página completa y grabe la pantalla en MP4 con anotaciones. Exportación a PDF con enlaces clicabl..."
+  },
+  "pDisable": {
+    "message": "Desactivado en esta página"
+  },
+  "pDisableDesc": {
+    "message": "Puedes ejecutar esto en cualquier página web, excepto en aquellas donde el navegador restringe las extensiones que ejecutan scripts. Esto incluye la tienda de extensiones, las páginas de configuración del navegador y otras páginas de extensiones."
+  },
+  "pDisableExp": {
+    "message": "Esta limitación proviene del propio navegador debido a riesgos de seguridad."
+  },
+  "pDisableTry": {
+    "message": "Puedes abrir una nueva página y probar la función de captura."
+  },
+  "pStart": {
+    "message": "Iniciar"
+  },
+  "pFileUrl": {
+    "message": "Ve a \"edge://extensions/\" y marca la casilla \"Permitir acceso a URL de archivos\"."
+  },
+  "pCaptV": {
+    "message": "Captura una captura de pantalla de las partes visibles de la página."
+  },
+  "pAsOne": {
+    "message": "Guardar como un solo archivo HTML."
+  },
+  "pDesktop": {
+    "message": "Captura pantallas de una página web, pestaña, ventana o pantalla completa."
+  },
+  "pCaptFull": {
+    "message": "Captura una captura de pantalla de la página completa."
+  },
+  "pDesableOpt": {
+    "message": "O también puedes intentar:"
+  },
+  "pAreaCut": {
+    "message": "Selecciona una parte de la página para capturar la captura de pantalla."
+  },
+  "fullpageTooLarge": {
+    "message": "Aviso: el navegador no puede capturar toda la página como una sola imagen debido a su tamaño. En su lugar, se dividirá en <strong>$1</strong> imágenes separadas."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Atención: Esta extensión no está diseñada para capturar contenido extremadamente grande. Es posible que no pueda completar con éxito la captura de esta página."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Se requiere permiso adicional"
+  },
+  "framePermDesc": {
+    "message": "Este sitio muestra contenido a través de un iframe incrustado, lo que requiere permisos adicionales para acceder."
+  },
+  "WhatisIframe": {
+    "message": "Haz clic para aprender qué es un iframe."
+  },
+  "framePermMore": {
+    "message": "Es posible que necesites reiniciar la extensión después de usar este cuadro de diálogo. Cancelar solo capturará la pantalla visible."
+  },
+  "framePermConfirm": {
+    "message": "Permitir"
+  },
+  "framePermSave": {
+    "message": "Guardar este permiso para usarlo más tarde (puedes revocar este permiso en cualquier momento)."
+  },
+  "error": {
+    "message": "Error"
+  },
+  "captureError": {
+    "message": "La captura falló, por favor inténtalo de nuevo más tarde. Si el problema persiste, contacta al desarrollador en $1"
+  },
+  "btnOk": {
+    "message": "Aceptar"
+  },
+  "btnCancel": {
+    "message": "Cancelar"
+  },
+  "saveFramePermission": {
+    "message": "Permitir capturar contenido de todos los iframes"
+  },
+  "permissions": {
+    "message": "Permisos"
+  },
+  "saveframepDesc": {
+    "message": "Este permiso es necesario para capturar contenido de iframes o conjuntos de marcos en una página. Deshabilitar este permiso puede limitar la capacidad de capturar ciertos elementos de la página web."
+  },
+  "processingScreenshot": {
+    "message": "Procesando captura de pantalla..."
+  },
+  "screenshotSaved": {
+    "message": "Captura guardada en la carpeta de Descargas"
+  },
+  "screenshotLoadFailed": {
+    "message": "No se pudo cargar la captura. Por favor, inténtalo de nuevo."
+  },
+  "getScreenshotFailed": {
+    "message": "No se pudo capturar la pantalla. Por favor, inténtalo de nuevo."
+  },
+  "processingAllAreas": {
+    "message": "Procesando capturas de todas las áreas..."
+  },
+  "allAreasSaved": {
+    "message": "Capturas de $1 áreas guardadas con éxito"
+  },
+  "areaNotVisible": {
+    "message": "El área seleccionada está casi completamente fuera del rango visible y no puede ser capturada."
+  },
+  "partiallyVisible": {
+    "message": "Parte del área está fuera del rango visible. Se ha capturado la parte visible."
+  },
+  "partiallyVisibleArea": {
+    "message": "Parte del área seleccionada está fuera del rango visible. Se ha capturado la parte visible."
+  },
+  "areaOutOfView": {
+    "message": "El área seleccionada está fuera del rango visible. Por favor, desplaza la página para hacer visible el área y vuelve a intentarlo."
+  },
+  "processingError": {
+    "message": "Error al procesar la captura: $1"
+  },
+  "saveFailed": {
+    "message": "Error al guardar la captura: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Modo de captura inteligente activado. Haz clic para seleccionar un elemento a capturar (Enter para confirmar, Esc para cancelar)."
+  },
+  "processing": {
+    "message": "Procesando copia..."
+  },
+  "copyFailed": {
+    "message": "Error al copiar: $1"
+  },
+  "canvasContextError": {
+    "message": "Error al copiar: No se pudo obtener el contexto de Canvas."
+  },
+  "copied": {
+    "message": "Copiado al portapapeles"
+  },
+  "clipboardAccessDenied": {
+    "message": "Error al copiar: Acceso al portapapeles denegado, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Error al copiar: API del portapapeles no soportada"
+  },
+  "imageDataCreateFailed": {
+    "message": "Error al copiar: No se pudo crear datos de imagen"
+  },
+  "copyAreaOutOfView": {
+    "message": "Error al copiar: El área seleccionada está fuera del rango visible"
+  },
+  "imagePreviewShown": {
+    "message": "Vista previa de imagen mostrada. Haz clic derecho para copiar."
+  },
+  "escape": {
+    "message": "Cancelar (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Calidad de imagen ajustada a: $1"
+  },
+  "qrDecoding": {
+    "message": "Decodificando código QR..."
+  },
+  "qrSuccess": {
+    "message": "Código QR decodificado con éxito. Copiado al portapapeles."
+  },
+  "qrNoQRFound": {
+    "message": "No se detectó un código QR válido"
+  },
+  "qrError": {
+    "message": "Error al decodificar el código QR: $1"
+  },
+  "saveArea": {
+    "message": "Guardar esta área"
+  },
+  "copyToClipboard": {
+    "message": "Copiar esta selección (seleccionada actualmente)"
+  },
+  "saveAllAreas": {
+    "message": "Guardar todas las áreas"
+  },
+  "keepAndContinue": {
+    "message": "Agregar una nueva selección"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "lockSize": {
+    "message": "Bloquear tamaño"
+  },
+  "lockSizeActive": {
+    "message": "✓ Tamaño bloqueado"
+  },
+  "freeRatio": {
+    "message": "Proporción libre"
+  },
+  "ratioLabel": {
+    "message": "Seleccionar proporción"
+  },
+  "aiDialog": {
+    "message": "Diálogo inteligente"
+  },
+  "fileSizeEstimate": {
+    "message": "Aprox. $1 $2"
+  },
+  "qrDecode": {
+    "message": "Decodificar código QR"
+  },
+  "removeBackground": {
+    "message": "Eliminar fondo"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Eliminando fondo..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Fallo al eliminar fondo: error al cargar imagen"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Fallo al eliminar fondo: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Fondo eliminado y copiado al portapapeles"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Fallo al eliminar fondo: no se pudo crear Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "El área seleccionada está fuera de la vista"
+  },
+  "screenshotFailed": {
+    "message": "Captura fallida: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Error al procesar imagen, por favor inténtalo de nuevo"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Área de captura fuera del rango visible"
+  },
+  "errorProcessingImage": {
+    "message": "Error al procesar la imagen: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "Biblioteca de decodificación QR no cargada"
+  },
+  "qrDecodingFailed": {
+    "message": "Error al decodificar código QR: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "No se encontró código QR en el área seleccionada"
+  },
+  "qrDecodingSuccess": {
+    "message": "Código QR decodificado con éxito: $1"
+  },
+  "qrDecodingError": {
+    "message": "Error de decodificación de código QR: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Fallo al eliminar fondo: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Por favor, selecciona primero un área de captura"
+  },
+  "aiDialogTitle": {
+    "message": "Mantén una conversación inteligente sobre el contenido de la captura"
+  },
+  "qrDecodeTitle": {
+    "message": "Decodificar código QR en la captura"
+  },
+  "lockSizeTitle": {
+    "message": "Bloquear tamaño actual para capturas continuas"
+  },
+  "moveHint": {
+    "message": "Arrastra el área de selección (Espacio + arrastrar)"
+  },
+  "saveAreaTooltip": {
+    "message": "Guardar área actual"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Guardar todas las áreas seleccionadas"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Copiar captura al portapapeles"
+  },
+  "moreOptions": {
+    "message": "Más opciones"
+  },
+  "removeBgTooltip": {
+    "message": "Eliminar fondo y copiar al portapapeles"
+  },
+  "ratioLabelTooltip": {
+    "message": "Seleccionar relación de aspecto"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Mantener selección actual y continuar"
+  },
+  "pCaptureTabLabel": {
+    "message": "Captura de pantalla"
+  },
+  "pAiToolsTabLabel": {
+    "message": "Herramientas de IA"
+  },
+  "pCaptureTitle": {
+    "message": "Captura de pantalla de página completa y área de pantalla seleccionada"
+  },
+  "pAiToolsTitle": {
+    "message": "Herramientas relacionadas con la IA"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Herramientas de exportación de contenido web"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Herramientas de imagen"
+  },
+  "pDownloadAsMD": {
+    "message": "Descargar como Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Descargar como PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Descargue la página web actual como un archivo Markdown"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Descargue la página web actual como un archivo PDF"
+  },
+  "pImageProcessing": {
+    "message": "Procesamiento de imágenes"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Una colección de herramientas para el procesamiento de imágenes"
+  },
+  "fixThePage": {
+    "message": "Arreglar la página"
+  },
+  "expandScrollableOn": {
+    "message": "Expandir áreas desplazables"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Habilite para expandir las áreas desplazables dentro de la página web antes de tomar una captura de pantalla"
+  },
+  "hideFixedOn": {
+    "message": "Ocultar elementos de posición fija"
+  },
+  "hideFixedOnDesc": {
+    "message": "Habilite para ocultar elementos de posición fija que puedan interferir con la captura"
+  },
+  "preScrollOn": {
+    "message": "Precarga de la página web con desplazamiento"
+  },
+  "preScrollOnDesc": {
+    "message": "Muchos elementos web (por ejemplo, imágenes) se cargan solo al desplazarse. Cuando está habilitado, detecta y se desplaza automáticamente a la parte inferior de la página antes de tomar una captura de pantalla."
+  },
+  "canBeDisabled": {
+    "message": "se puede desactivar a través de la página de configuración"
+  },
+  "analyzingPageForHTML": {
+    "message": "Analizando el código y el contenido de la página web, las páginas complejas pueden tardar más. Si tarda demasiado, actualice la página web e intente de nuevo."
+  },
+  "drawerSettings": {
+    "message": "Configuración"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Historial de capturas de pantalla"
+  },
+  "drawerImageTools": {
+    "message": "Herramientas de mejora de capturas de pantalla"
+  },
+  "drawerHelpFeedback": {
+    "message": "Preguntas frecuentes y comentarios"
+  },
+  "drawerCloseMenu": {
+    "message": "Cerrar este menú"
+  },
+  "logoTooltip": {
+    "message": "Ver más"
+  },
+  "pRecorderTabLabel": {
+    "message": "Grabadora de pantalla"
+  },
+  "pRecorderTitle": {
+    "message": "Grabadora de pantalla"
+  },
+  "pStartRecorder": {
+    "message": "Iniciar grabación de pantalla"
+  },
+  "pStartRecorderLabel": {
+    "message": "Grabación de pantalla"
+  },
+  "pRecorderAlt": {
+    "message": "Grabadora"
+  },
+  "pStartRecorderAlt": {
+    "message": "Grabadora de pantalla"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Esta es una versión beta"
+  },
+  "pRecorderFeedback": {
+    "message": "Enviar comentarios"
+  },
+  "downloadsPermission": {
+    "message": "Permitir descargas de archivos"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Este permiso es necesario para guardar capturas de pantalla directamente en su computadora."
+  },
+  "webNavigationPermission": {
+    "message": "Permitir acceso a la navegación web"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Este permiso es necesario para detectar cambios en la página y navegar a diferentes páginas cuando sea necesario."
+  },
+  "desktopCapturePermission": {
+    "message": "Permitir captura de escritorio"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Este permiso es necesario para capturar contenido de su escritorio o ventanas específicas."
+  },
+  "tabsPermission": {
+    "message": "Permitir acceso a pestañas"
+  },
+  "tabsPermissionDesc": {
+    "message": "Este permiso es necesario para acceder y gestionar la información de las pestañas del navegador."
+  },
+  "tabCapturePermission": {
+    "message": "Permitir captura de pestaña"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Este permiso es necesario para capturar audio y video de las pestañas del navegador."
+  },
+  "allUrlsPermission": {
+    "message": "Permitir acceso a todos los sitios web"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Este permiso es necesario para capturar pantallazos desde cualquier sitio web."
+  },
+  "fileUrlsPermission": {
+    "message": "Permitir acceso a archivos locales"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Este permiso es necesario para capturar pantallazos desde archivos locales (URLs file://)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Si se deben incluir imágenes en la descarga"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Esta función requiere CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "Actualizar a Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Guardar este contenido requiere CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "Vista previa de CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "Modo de vista previa"
+  },
+  "qv_screenshot_preview": {
+    "message": "Vista previa de captura de pantalla"
+  },
+  "qv_download": {
+    "message": "Descargar"
+  },
+  "qv_edit": {
+    "message": "Anotar, Editar (también puede exportar a PDF)"
+  },
+  "qv_hint": {
+    "message": "Los usuarios experimentados saltarán automáticamente esta página e irán al editor."
+  },
+  "recordTab": {
+    "message": "Grabar",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Tus videos",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Pantalla",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Pestaña",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Solo cámara",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Mockup",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Grabación de área personalizada deshabilitada",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Actualiza Chrome a la versión 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Actualizar",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Verifica tus permisos",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "Parece que CocoShot no puede acceder a tu cámara ni micrófono. Para resolver este problema, desbloquéalo en la configuración de tu navegador y concede los permisos necesarios.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Descartar",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Permitir acceso a la cámara",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Permitir acceso al micrófono",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Presionar para hablar",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Establecer área de grabación",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Invertir cámara",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Efectos de fondo",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Iniciar grabación",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Iniciando grabación...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Selecciona una cámara",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Más opciones",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Audio del sistema",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Ocultar barra de herramientas",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Cuenta regresiva",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Establecer límite de tiempo",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Desenfoque",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Ninguno",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Sin cámara",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Sin micrófono",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Seleccionar una fuente",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Desactivado",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Ancho",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Alto",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Haz clic para colocar la imagen",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Finalizar grabación",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Reiniciar grabación",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Pausar grabación",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Reanudar grabación",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Cancelar grabación",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Activar herramientas de dibujo",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Activar herramienta de desenfoque",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Activar opciones del cursor",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Desactivar cámara",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Activar cámara",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Sin permisos de cámara",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Configuración de cámara",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Espejo de cámara",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Desenfoque de fondo",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Desactivar micrófono",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Activar micrófono",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Sin permisos de micrófono",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Seleccionar herramienta",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Herramienta de pluma",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Resaltador",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Goma de borrar",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Herramienta de texto",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Herramienta de formas",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Herramienta de flecha",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Herramienta de imagen",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Deshacer",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Rehacer",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Limpiar lienzo",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Más colores",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Trazo grueso",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Trazo medio",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Trazo fino",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Activar modo imagen en imagen",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Activar relleno",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Modo de dibujo",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Modo de desenfoque",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Borrar todos los elementos desenfocados",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Resaltar clics",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Resaltar cursor",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Cursor reflector",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "No mostrar de nuevo",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "¿Reiniciar grabación?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Tu progreso actual se perderá.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Reiniciar",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Reanudar",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "¿Descartar grabación?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Tu progreso actual se perderá.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Descartar",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Reanudar",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Tu grabación se guardará aquí",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Grabando...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Mantén esta pestaña abierta. Se cerrará cuando se guarde tu grabación.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Preparando grabación...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Mantén esta pestaña abierta. Se actualizará con tu grabación cuando esté lista.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Editor",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Cancelar",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Revertir al original",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Restablecer",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Guardar cambios",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Guardando...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Arrastra y suelta tu archivo de audio",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "O haz clic para explorar",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Configuración",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Volumen",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Actualizar",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Recortar",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Ancho",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Alto",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Izquierda",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Superior",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Arrastra los mangos y usa los botones de la izquierda para editar la sección seleccionada.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Recortar video",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Recortando...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Cortar sección",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Cortando...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Silenciar audio",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Silenciando...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Más información.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Deshacer",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Rehacer",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Deja una reseña, ¡ayuda!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Actualmente estás sin conexión",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Algunas funciones no estarán disponibles hasta que te reconectes",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Intentar de nuevo",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome necesita actualizarse",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Actualiza para acceder a más funciones",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Más información",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Video demasiado largo para procesar en el dispositivo",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Edición y exportación MP4 no disponibles",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "El video se está procesando localmente...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Conoce la versión en la nube más rápida",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Editar",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Sin conexión",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "No disponible",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Editar video",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Recorta, corta o silencia el video",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Preparando video, por favor espera...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Recortar",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Recortar y redimensionar el video",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Agregar audio",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Sube tu propio audio para agregar al video",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Guardar",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Cerrar sesión de Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Guardando...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Guardar en Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Guardar la versión actual en Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Inicia sesión y guarda en Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Descargando...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Descargar como .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Exportar un video .webm",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Descargar como .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Exportar un video .mp4 (recomendado)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Descargar como .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Exportar un GIF (máx. 30 segundos)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Reemplazar audio existente",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Zoom al cursor",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Permanecer en la página al grabar",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Advertencia de micrófono apagado",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Ayuda",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Grabación pausada. Presiona el botón de reproducir para continuar.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot no tiene permiso para grabar tu pantalla",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Para que la grabación de pantalla funcione, necesitarás permitir que CocoShot capture tu pantalla cuando aparezca la solicitud de permiso. (Puedes revocarlo en cualquier momento en la configuración de la extensión.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Habilitar grabación de pantalla",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Cancelar",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Tu micrófono está silenciado",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Si deseas que tu voz se incluya en la grabación, necesitarás encender tu micrófono. ¿Te gustaría continuar con la grabación de todos modos, sin audio?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Sí, continuar",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Cancelar",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Relájate. Haz clic en cualquier lugar para detener la cuenta regresiva.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Las ediciones pueden ser inexactas para rangos de tiempo cortos debido a los intervalos entre fotogramas.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "El video se está procesando, la reproducción puede ser inexacta o interrumpida.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "El recorte puede llevar un tiempo",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Actualiza para un procesamiento más rápido",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Micrófono activado",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Micrófono desactivado",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "La grabación fue menor a 3 segundos y no se guardó.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Ocultar notificaciones de la interfaz",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "No mostrar de nuevo",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Ocultar barra de herramientas cuando no esté en uso",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Iniciar grabación",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Detener grabación",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "¡Bienvenido al nuevo CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Más información sobre la actualización.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Comenzar",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Error al iniciar la grabación",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Ocurrió un error al iniciar el proceso de grabación. Por favor, reinicia tu navegador e intenta de nuevo. Si el problema continúa, contáctanos en support@cocoshot.net para más ayuda.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Máxima calidad",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Restaurar última grabación de video",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "¿Tienes problemas?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "¿No puedes ver tu grabación?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Si has terminado de grabar pero no ves tu video en esta página, puedes intentar descargar los datos de video sin procesar si existen. Alternativamente, puedes contactarnos enviando un informe de error.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Descargar datos de video sin procesar",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Reportar error",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "No se encontró grabación, lo siento :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Límite de memoria alcanzado",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Tu dispositivo no tiene suficiente memoria para grabar, lo que hace que la sesión termine automáticamente. Para grabar videos más largos, considera reducir la calidad del video o liberar espacio de almacenamiento en tu dispositivo.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Entendido",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Espacio insuficiente",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot necesita al menos 1GB de espacio libre para grabar. Por favor, libera algo de espacio e inténtalo de nuevo.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Borrar grabaciones anteriores",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Avanzado",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Descargar archivo de video sin procesar",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Exportar los datos de grabación originales",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Obtener ayuda con tu grabación",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Recupera tu video y resuelve otros problemas",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Descargar archivo de video sin procesar",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "El archivo de video sin procesar se refiere a la grabación inalterada creada directamente por CocoShot. Como este archivo no ha sido procesado ni editado, puede ser bastante grande e incompatible con algunos dispositivos. Si tienes problemas con la versión procesada, puedes usar este archivo para recuperar tu grabación original.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Descargar",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Mostrar forma de onda de audio",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Descargar información del sistema y datos de video y enviar para solución de problemas",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Una vez que hayas descargado el archivo, por favor envíalo a support@cocoshot.net junto con cualquier detalle adicional que pueda ser útil. Usaremos esta información para ayudarte a resolver cualquier problema con la extensión y, si es posible, recuperar tu video.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Descargar",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "El video es demasiado largo para procesar en tu dispositivo",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Como CocoShot prioriza la privacidad y opera completamente en tu dispositivo local, está limitado por tus capacidades de hardware. Manejar un video de esta duración sería excesivamente lento y requeriría recursos significativos del sistema.Aún puedes obtener el archivo WEBM o la grabación sin procesar, aunque las funciones de edición y exportación MP4 no estarán disponibles. Sin embargo, si eres consciente de los posibles desafíos, puedes proceder a procesar el video de todos modos.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Entiendo el riesgo, de todos modos intenta",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Más información sobre el procesamiento de videos largos.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Modo de recuperación",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Descargar datos para solución de problemas",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Centro de ayuda",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Grabar audio de la computadora",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Para grabar audio de esta página, necesitas cambiar a '$tab$'.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Extensión no compatible en la pestaña",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot no es compatible con la pestaña que estabas usando. Puedes iniciar la grabación desde esta página y luego volver a esa pestaña, pero ten en cuenta que tu feed de cámara y la barra de herramientas de edición no se mostrarán.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Configura una copia de seguridad local para tus grabaciones de CocoShot",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Mantén duplicados de cada grabación que crees. Sin configurar copias de seguridad, tus grabaciones solo se almacenarán cuando elijas descargarlas explícitamente.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Si intentas guardar grabaciones en Descargas u otros directorios del sistema, es posible que debas crear una nueva carpeta de antemano.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Seleccionar una carpeta",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Ahora no",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": "Tus grabaciones se están respaldando localmente",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Para evitar que se te pidan permisos cada vez que grabes, recomendamos dejar esta pestaña abierta.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Cerrar pestaña de todos modos",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Detener copias de seguridad de todas las grabaciones",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Por favor, reconfirma el acceso a tu carpeta de respaldo local de CocoShot",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Nos disculpamos, pero requerimos tu permiso nuevamente para continuar respaldando tus grabaciones. Lamentablemente, necesitaremos solicitar este permiso cada vez que esta pestaña se cierre, lo cual puede ocurrir cuando cierras tu navegador o reinicias tu computadora.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Permitir que CocoShot continúe respaldando grabaciones",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Respaldar grabaciones",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Permiso no concedido para respaldar la grabación",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "No has elegido una carpeta para almacenar tus copias de seguridad de grabaciones. Dependiendo de la versión de tu navegador o sistema operativo, es posible que se te solicite seleccionar esta carpeta cada vez que comiences una grabación. Puedes intentar el proceso de configuración nuevamente, o desactivar las copias de seguridad por completo si prefieres no otorgar permisos repetidamente.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Grabar audio de la computadora",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "En sistemas macOS, estás limitado a grabar audio de pestañas individuales. Elige la opción de grabación de pestaña de Chrome y verifica que la configuración 'También compartir audio de pestaña' esté activada.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Grabar audio de la computadora",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Si deseas capturar audio de tu computadora, asegúrate de que la opción 'Compartir audio del sistema' esté activada. Si esta opción no es visible, considera actualizar Chrome o cambiar al modo de grabación de pestaña.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Resolución máxima",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "FPS máximo",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "RAM insuficiente",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Redimensionar ventana",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "La pantalla es demasiado pequeña para esta resolución",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "No se puede grabar a esta resolución en tu dispositivo",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Permiso denegado",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Se requieren permisos de cámara y micrófono para grabar. Por favor, otorga permisos en la configuración de tu navegador.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Se requiere permiso de cámara para grabar. Por favor, otorga permiso en la configuración de tu navegador.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Se requiere permiso de micrófono para grabar. Por favor, otorga permiso en la configuración de tu navegador.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Corregir permisos",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Configuración de grabación de pantalla",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "h",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Solicitando permiso de cámara...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Solicitando permiso de micrófono...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Solicitar permiso de cámara",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Solicitar permiso de micrófono",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Revisar permisos",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Personalizar opciones",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Videos grabados",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Aún no hay videos grabados",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Presionar para silenciar",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Necesitamos tu permiso para acceder a tu cámara",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Necesitamos tu permiso para acceder a tu micrófono",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Revisar",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Selector de color",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Cerrar",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Elegir color de la pantalla",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API no es compatible con este navegador. Por favor, usa un navegador moderno como Chrome 95+ o Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Seleccionar región de desenfoque",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Eliminar todas las regiones desenfocadas",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Ancho de línea",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Fino",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Medio",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Grueso",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Extra grueso",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "Grabaciones de CocoShot",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Error al configurar la copia de seguridad local. Contáctanos en $supportEmail$ para más ayuda.Aún puedes grabar tu pantalla.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Tu navegador no admite copias de seguridad locales. Contáctanos en $supportEmail$ para más ayuda. Ainda puedes grabar tu pantalla.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Cómo usar Zoom al cursor",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Mientras grabas, mantén presionado el atajo de teclado para hacer zoom hacia la posición de tu cursor. Suelta las teclas para hacer zoom hacia afuera. Esto es excelente para resaltar áreas específicas de la pantalla durante tu grabación.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "¡Entendido!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Tamaño de región",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Preajustes",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Restablecer",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Ninguno",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Desenfoque",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Imagen",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Por favor, carga primero un archivo de video",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Descargar como WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Descargar como MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Convirtiendo...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Procesando fragmentos:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "El tamaño del video excede el límite recomendado (máx. 1GB$), lo que puede causar falla en el procesamiento",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Estás cargando un video grande (1GB$). El procesamiento puede llevar mucho tiempo. ¿Continuar?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Formato de video no compatible. Por favor, prueba un formato de video diferente.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Descarga fallida. Por favor, intenta de nuevo.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "Conversión MP4 no disponible",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Este video es demasiado grande para convertirse a MP4 en el navegador. Por favor, descárgalo como WebM.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Convirtiendo a MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Error al descargar video. Por favor, intenta de nuevo.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "Editar video",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Próximamente.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Vista previa del video",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "Aceptar",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Escribiendo en almacenamiento...",
+    "description": "Message shown when writing video to storage"
+  }
+}

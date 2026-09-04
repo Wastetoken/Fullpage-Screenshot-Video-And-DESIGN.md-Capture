@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Snímka obrazovky a záznam obrazovky"
+  },
+  "extDescription": {
+    "message": "Snímajte snímky celej stránky a nahrávajte obrazovku do MP4 s poznámkami. Vrátane exportu do PDF s klikateľnými odkazmi."
+  },
+  "pDisable": {
+    "message": "Deaktivované na tejto stránke"
+  },
+  "pDisableDesc": {
+    "message": "Toto môžete spustiť na akejkoľvek webovej stránke, okrem tých, kde prehliadač obmedzuje spúšťanie skriptov rozšírení. To zahŕňa webový obchod s rozšíreniami, stránky nastavení prehliadača a ďalšie stránky rozšírení."
+  },
+  "pDisableExp": {
+    "message": "Toto obmedzenie vyplýva z bezpečnostných rizík samotného prehliadača."
+  },
+  "pDisableTry": {
+    "message": "Môžete otvoriť novú stránku a vyskúšať funkciu snímania."
+  },
+  "pStart": {
+    "message": "Začať"
+  },
+  "pFileUrl": {
+    "message": "Prejdite na \"edge://extensions/\" a zaškrtnite políčko \"Povoliť prístup k súborovým URL\"."
+  },
+  "pCaptV": {
+    "message": "Zachyťte snímku obrazovky viditeľných častí stránky."
+  },
+  "pAsOne": {
+    "message": "Uložiť ako jediný HTML súbor."
+  },
+  "pDesktop": {
+    "message": "Zachyťte snímky obrazovky danej webovej stránky, karty, okna alebo celej obrazovky."
+  },
+  "pCaptFull": {
+    "message": "Zachyťte snímku obrazovky celej stránky."
+  },
+  "pDesableOpt": {
+    "message": "Alebo môžete vyskúšať:"
+  },
+  "pAreaCut": {
+    "message": "Vyberte časť stránky na zachytenie snímky obrazovky."
+  },
+  "fullpageTooLarge": {
+    "message": "Poznámka: Prehliadač nemôže zachytiť celú stránku ako jeden obrázok kvôli jej veľkosti. Namiesto toho bude rozdelená na <strong>$1</strong> samostatných obrázkov."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Upozornenie: Toto rozšírenie nie je určené na zachytávanie extrémne veľkého obsahu. Je možné, že nebude schopné úspešne dokončiť zachytenie tejto stránky."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Vyžaduje sa ďalšie povolenie"
+  },
+  "framePermDesc": {
+    "message": "Táto stránka zobrazuje obsah cez vložený iframe, ktorý vyžaduje dodatočné povolenia na prístup."
+  },
+  "WhatisIframe": {
+    "message": "Kliknite a zistite, čo je to iframe."
+  },
+  "framePermMore": {
+    "message": "Po použití tohto dialógu môže byť potrebné reštartovať rozšírenie. Zrušením sa zachytí len viditeľná obrazovka."
+  },
+  "framePermConfirm": {
+    "message": "Povoliť"
+  },
+  "framePermSave": {
+    "message": "Uložiť toto povolenie na neskoršie použitie (môžete ho kedykoľvek odvolať)."
+  },
+  "error": {
+    "message": "Chyba"
+  },
+  "captureError": {
+    "message": "Zachytenie zlyhalo, skúste to znova neskôr. Ak problém pretrváva, kontaktujte vývojára na $1"
+  },
+  "btnOk": {
+    "message": "OK"
+  },
+  "btnCancel": {
+    "message": "Zrušiť"
+  },
+  "saveFramePermission": {
+    "message": "Povoliť zachytávanie obsahu zo všetkých rámcov"
+  },
+  "permissions": {
+    "message": "Povolenia"
+  },
+  "saveframepDesc": {
+    "message": "Toto povolenie je potrebné na zachytávanie obsahu z iframe alebo framesetov na stránke. Zakázaním tohto povolenia sa môže obmedziť schopnosť zachytávať určité prvky webových stránok."
+  },
+  "processingScreenshot": {
+    "message": "Spracúvam snímku obrazovky..."
+  },
+  "screenshotSaved": {
+    "message": "Snímka obrazovky uložená do priečinka Stiahnuté"
+  },
+  "screenshotLoadFailed": {
+    "message": "Nepodarilo sa načítať snímku obrazovky. Skúste to znova."
+  },
+  "getScreenshotFailed": {
+    "message": "Nepodarilo sa zachytiť snímku obrazovky. Skúste to znova."
+  },
+  "processingAllAreas": {
+    "message": "Spracúvam snímky obrazovky zo všetkých oblastí..."
+  },
+  "allAreasSaved": {
+    "message": "Úspešne uložené snímky obrazovky z $1 oblastí"
+  },
+  "areaNotVisible": {
+    "message": "Vybraná oblasť je takmer úplne mimo viditeľného rozsahu a nemožno ju zachytiť."
+  },
+  "partiallyVisible": {
+    "message": "Časť oblasti je mimo viditeľného rozsahu. Zachytená bola viditeľná časť."
+  },
+  "partiallyVisibleArea": {
+    "message": "Časť vybratej oblasti je mimo viditeľného rozsahu. Zachytená bola viditeľná časť."
+  },
+  "areaOutOfView": {
+    "message": "Vybraná oblasť je mimo viditeľného rozsahu. Posuňte stránku tak, aby bola oblasť viditeľná, a skúste to znova."
+  },
+  "processingError": {
+    "message": "Chyba pri spracovaní snímky obrazovky: $1"
+  },
+  "saveFailed": {
+    "message": "Nepodarilo sa uložiť snímku obrazovky: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Režim inteligentnej snímky obrazovky zapnutý. Kliknite na výber prvku na zachytenie (Enter na potvrdenie, Esc na zrušenie)."
+  },
+  "processing": {
+    "message": "Spracúvam kopírovanie..."
+  },
+  "copyFailed": {
+    "message": "Kopírovanie zlyhalo: $1"
+  },
+  "canvasContextError": {
+    "message": "Kopírovanie zlyhalo: Nedá sa získať kontext plátna."
+  },
+  "copied": {
+    "message": "Skopírované do schránky"
+  },
+  "clipboardAccessDenied": {
+    "message": "Kopírovanie zlyhalo: Prístup do schránky odmietnutý, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Kopírovanie zlyhalo: API schránky nie je podporované"
+  },
+  "imageDataCreateFailed": {
+    "message": "Kopírovanie zlyhalo: Nedá sa vytvoriť obrazové dáta"
+  },
+  "copyAreaOutOfView": {
+    "message": "Kopírovanie zlyhalo: Vybraná oblasť je mimo viditeľného rozsahu"
+  },
+  "imagePreviewShown": {
+    "message": "Zobrazená náhľad obrázka. Pravým tlačidlom myši skopírujte."
+  },
+  "escape": {
+    "message": "Zrušiť (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Kvalita obrázka nastavená na: $1"
+  },
+  "qrDecoding": {
+    "message": "Dekódujem QR kód..."
+  },
+  "qrSuccess": {
+    "message": "QR kód úspešne dekódovaný. Skopírované do schránky."
+  },
+  "qrNoQRFound": {
+    "message": "Nebol nájdený platný QR kód"
+  },
+  "qrError": {
+    "message": "Dekódovanie QR kódu zlyhalo: $1"
+  },
+  "saveArea": {
+    "message": "Uložiť túto oblasť"
+  },
+  "copyToClipboard": {
+    "message": "Kopírovať tento výber (aktuálne vybrané)"
+  },
+  "saveAllAreas": {
+    "message": "Uložiť všetky oblasti"
+  },
+  "keepAndContinue": {
+    "message": "Pridať nový výber"
+  },
+  "cancel": {
+    "message": "Zrušiť"
+  },
+  "lockSize": {
+    "message": "Zamknúť veľkosť"
+  },
+  "lockSizeActive": {
+    "message": "✓ Zamknúť veľkosť"
+  },
+  "freeRatio": {
+    "message": "Voľný pomer"
+  },
+  "ratioLabel": {
+    "message": "Vybrať pomer strán"
+  },
+  "aiDialog": {
+    "message": "Inteligentný dialóg"
+  },
+  "fileSizeEstimate": {
+    "message": "Približne $1 $2"
+  },
+  "qrDecode": {
+    "message": "Dekódovať QR kód"
+  },
+  "removeBackground": {
+    "message": "Odstrániť pozadie"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Odstraňujem pozadie..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Odstránenie pozadia zlyhalo: Chyba načítania obrázka"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Odstránenie pozadia zlyhalo: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Pozadie odstránené a skopírované do schránky"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Odstránenie pozadia zlyhalo: Nedá sa vytvoriť Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Vybraná oblasť je mimo viditeľnosti"
+  },
+  "screenshotFailed": {
+    "message": "Snímka obrazovky zlyhala: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Spracovanie obrázka zlyhalo, skúste to znova"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Oblasť snímky obrazovky mimo viditeľného rozsahu"
+  },
+  "errorProcessingImage": {
+    "message": "Chyba spracovania obrázka: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "Knižnica na dekódovanie QR kódov nie je načítaná"
+  },
+  "qrDecodingFailed": {
+    "message": "Dekódovanie QR kódu zlyhalo: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "V vybratej oblasti nebol nájdený žiadny QR kód"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR kód úspešne dekódovaný: $1"
+  },
+  "qrDecodingError": {
+    "message": "Chyba dekódovania QR kódu: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Odstránenie pozadia zlyhalo: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Najprv vyberte oblasť snímky obrazovky"
+  },
+  "aiDialogTitle": {
+    "message": "Viesť inteligentný rozhovor o obsahu snímky obrazovky"
+  },
+  "qrDecodeTitle": {
+    "message": "Dekódovať QR kód na snímke obrazovky"
+  },
+  "lockSizeTitle": {
+    "message": "Zamknúť aktuálnu veľkosť pre kontinuálne snímanie"
+  },
+  "moveHint": {
+    "message": "Presunúť výberovú oblasť (medzerník + ťahanie)"
+  },
+  "saveAreaTooltip": {
+    "message": "Uložiť aktuálnu oblasť"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Uložiť všetky vybrané oblasti"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Kopírovať snímku obrazovky do schránky"
+  },
+  "moreOptions": {
+    "message": "Viac možností"
+  },
+  "removeBgTooltip": {
+    "message": "Odstrániť pozadie a skopírovať do schránky"
+  },
+  "ratioLabelTooltip": {
+    "message": "Vybrať pomer strán"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Ponechať aktuálny výber a pokračovať"
+  },
+  "pCaptureTabLabel": {
+    "message": "Snímka obrazovky"
+  },
+  "pAiToolsTabLabel": {
+    "message": "Nástroje AI"
+  },
+  "pCaptureTitle": {
+    "message": "Snímka obrazovky celej stránky a vybranej oblasti obrazovky"
+  },
+  "pAiToolsTitle": {
+    "message": "Nástroje súvisiace s AI"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Nástroje na export webového obsahu"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Nástroje pre obrázky"
+  },
+  "pDownloadAsMD": {
+    "message": "Stiahnuť ako Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Stiahnuť ako PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Stiahnite si aktuálnu webovú stránku ako súbor Markdown"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Stiahnite si aktuálnu webovú stránku ako súbor PDF"
+  },
+  "pImageProcessing": {
+    "message": "Spracovanie obrazu"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Zbierka nástrojov na spracovanie obrazu"
+  },
+  "fixThePage": {
+    "message": "Opraviť stránku"
+  },
+  "expandScrollableOn": {
+    "message": "Rozbaliť posúvateľné oblasti"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Povoľte rozbalenie posúvateľných oblastí na webovej stránke pred zhotovením snímky obrazovky"
+  },
+  "hideFixedOn": {
+    "message": "Skryť prvky s pevnou polohou"
+  },
+  "hideFixedOnDesc": {
+    "message": "Povoľte skrytie prvkov s pevnou polohou, ktoré by mohli rušiť snímanie"
+  },
+  "preScrollOn": {
+    "message": "Predbežné posúvanie a načítanie webovej stránky"
+  },
+  "preScrollOnDesc": {
+    "message": "Mnohé webové prvky (napr. obrázky) sa načítavajú iba posúvaním. Keď je táto možnosť povolená, automaticky zistí a posunie sa na koniec stránky pred zhotovením snímky obrazovky."
+  },
+  "canBeDisabled": {
+    "message": "dá sa zakázať na stránke nastavení"
+  },
+  "analyzingPageForHTML": {
+    "message": "Analyzuje sa kód a obsah webovej stránky, zložité stránky môžu trvať dlhšie. Ak to trvá príliš dlho, obnovte webovú stránku a skúste to znova."
+  },
+  "drawerSettings": {
+    "message": "Nastavenia"
+  },
+  "drawerScreenshotHistory": {
+    "message": "História snímok obrazovky"
+  },
+  "drawerImageTools": {
+    "message": "Nástroje na vylepšenie snímok obrazovky"
+  },
+  "drawerHelpFeedback": {
+    "message": "Časté otázky a spätná väzba"
+  },
+  "drawerCloseMenu": {
+    "message": "Zavrieť toto menu"
+  },
+  "logoTooltip": {
+    "message": "Zobraziť viac"
+  },
+  "pRecorderTabLabel": {
+    "message": "Nahrávanie obrazovky"
+  },
+  "pRecorderTitle": {
+    "message": "Nahrávanie obrazovky"
+  },
+  "pStartRecorder": {
+    "message": "Spustiť nahrávanie obrazovky"
+  },
+  "pStartRecorderLabel": {
+    "message": "Nahrávanie obrazovky"
+  },
+  "pRecorderAlt": {
+    "message": "Nahrávač"
+  },
+  "pStartRecorderAlt": {
+    "message": "Nahrávanie obrazovky"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Toto je beta verzia"
+  },
+  "pRecorderFeedback": {
+    "message": "Poskytnúť spätnú väzbu"
+  },
+  "downloadsPermission": {
+    "message": "Povoliť sťahovanie súborov"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Toto oprávnenie je potrebné na priame ukladanie snímok obrazovky do počítača."
+  },
+  "webNavigationPermission": {
+    "message": "Povoliť prístup k webovej navigácii"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Toto oprávnenie je potrebné na detekciu zmien stránky a navigáciu na rôzne stránky v prípade potreby."
+  },
+  "desktopCapturePermission": {
+    "message": "Povoliť zachytávanie plochy"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Toto oprávnenie je potrebné na zachytenie obsahu z plochy alebo konkrétnych okien."
+  },
+  "tabsPermission": {
+    "message": "Povoliť prístup k záložkám"
+  },
+  "tabsPermissionDesc": {
+    "message": "Toto oprávnenie je potrebné na prístup a správu informácií o záložkách prehliadača."
+  },
+  "tabCapturePermission": {
+    "message": "Povoliť zachytávanie záložky"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Toto oprávnenie je potrebné na zachytenie zvuku a videa zo záložiek prehliadača."
+  },
+  "allUrlsPermission": {
+    "message": "Povoliť prístup ku všetkým webstránkam"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Toto oprávnenie je potrebné na zachytenie snímok obrazovky z ľubovoľnej webstránky."
+  },
+  "fileUrlsPermission": {
+    "message": "Povoliť prístup k lokálnym súborom"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Toto oprávnenie je potrebné na zachytenie snímok obrazovky z lokálnych súborov (file:// URL)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Či zahrnúť obrázky do sťahovania"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Táto funkcia vyžaduje CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "Inovovať na Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Uloženie tohto obsahu vyžaduje CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "Náhľad CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "Režim náhľadu"
+  },
+  "qv_screenshot_preview": {
+    "message": "Náhľad snímky obrazovky"
+  },
+  "qv_download": {
+    "message": "Stiahnuť"
+  },
+  "qv_edit": {
+    "message": "Anotovať, Upraviť (možno tiež exportovať do PDF)"
+  },
+  "qv_hint": {
+    "message": "Skúsení používatelia túto stránku automaticky preskočia a prejdú do editora."
+  },
+  "recordTab": {
+    "message": "Záznam",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Vaše videá",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Obrazovka",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Záložka",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Len kamera",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Mockup",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Záznam vlastnej oblasti zakázaný",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Aktualizujte Chrome na verziu 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Aktualizovať",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Skontrolujte svoje povolenia",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot nemôže získať prístup k vašej kamere alebo mikrofónu. Ak chcete tento problém vyriešiť, odblokujte ho v nastaveniach prehliadača a udelte potrebné povolenia.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Zrušiť",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Povoliť prístup ku kamere",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Povoliť prístup k mikrofónu",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Stlačiť na hovorenie",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Nastaviť oblasť nahrávania",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Otočiť kameru",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Efekty pozadia",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Začať nahrávanie",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Spúšťa sa nahrávanie...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Vyberte kameru",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Viac možností",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Systémový zvuk",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Skryť panel nástrojov",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Odpočítavanie",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Nastaviť časový limit",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Rozmazanie",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Žiadne",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Žiadna kamera",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Žiadny mikrofón",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Vyberte zdroj",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Vypnuté",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Šírka",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Výška",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Kliknutím umiestnite obrázok",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Dokončiť nahrávanie",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Reštartovať nahrávanie",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Pozastaviť nahrávanie",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Pokračovať v nahrávaní",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Zrušiť nahrávanie",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Zapnúť/vypnúť kresliace nástroje",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Zapnúť/vypnúť nástroj na rozmazanie",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Zapnúť/vypnúť možnosti kurzora",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Zakázať kameru",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Povoliť kameru",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Žiadne povolenia pre kameru",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Nastavenia kamery",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Zrkadliť kameru",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Rozmazanie pozadia",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Zakázať mikrofón",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Povoliť mikrofón",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Žiadne povolenia pre mikrofón",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Vybrať nástroj",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Nástroj pero",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Nástroj zvýrazňovač",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Nástroj gumka",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Nástroj text",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Nástroj tvar",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Nástroj šípka",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Nástroj obrázok",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Späť",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Znova",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Vyčistiť plátno",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Viac farieb",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Hrubý ťah",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Stredný ťah",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Tenký ťah",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Zapnúť/vypnúť režim obraz v obraze",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Zapnúť/vypnúť výplň",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Režim kreslenia",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Režim rozmazania",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Vymazať všetky rozmazané prvky",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Zvýrazniť kliknutia",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Zvýrazniť kurzor",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Kurzor reflektor",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Nezobrazovať znova",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Reštartovať nahrávanie?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Váš aktuálny pokrok bude stratený.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Reštartovať",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Pokračovať",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Zahodiť nahrávanie?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Váš aktuálny pokrok bude stratený.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Zahodiť",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Pokračovať",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Vaše nahrávanie bude uložené tu",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Nahrávanie...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Ponechajte túto záložku otvorená. Zatvorí sa po uložení vášho nahrávania.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Pripravuje sa nahrávanie...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Ponechajte túto záložku otvorená. Aktualizuje sa s vaším nahrávaním, keď bude pripravené.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Editor",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Zrušiť",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Vrátiť k pôvodnému",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Resetovať",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Uložiť zmeny",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Ukladanie...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Presuňte a pustite svoj audio súbor",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Alebo kliknite pre prehliadanie",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Nastavenia",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Hlasitosť",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Aktualizovať",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Orezať",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Šírka",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Výška",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Vľavo",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Hore",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Presuňte úchyty a použite tlačidlá na ľavej strane na úpravu vybratého oddielu.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Orezať video",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Orezávanie...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Orezať oddiel",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Vystrihávanie...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Stlmiť zvuk",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Stlmenie...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Zistiť viac.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Späť",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Znova",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Zanechajte recenziu, pomáha to!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Ste momentálne offline",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Niektoré funkcie nie sú dostupné, kým sa znova nepripojíte",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Skúsiť znova",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome je potrebné aktualizovať",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Aktualizujte pre prístup k ďalším funkciám",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Zistiť viac",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Video je príliš dlhé na spracovanie v zariadení",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Úprava a export MP4 nie sú dostupné",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Video sa spracováva lokálne...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Zistite o rýchlejšej cloudovej verzii",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Upraviť",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Žiadne pripojenie",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Nie je dostupné",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Upraviť video",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Orezať, vystrihnúť alebo stlmiť video",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Pripravuje sa video, prosím, čakajte...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Orezať",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Orezať a zmeniť veľkosť videa",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Pridať audio",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Nahrajte vlastné audio na pridanie do videa",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Uložiť",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Odhlásiť sa z Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Ukladanie...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Uložiť do Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Uložiť aktuálnu verziu do Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Prihlásiť sa a uložiť do Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Sťahovanie...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Stiahnuť ako .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Exportovať .webm video",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Stiahnuť ako .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Exportovať .mp4 video (odporúčané)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Stiahnuť ako .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Exportovať GIF (max. 30 sekúnd)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Nahradiť existujúce audio",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Zoom na kurzor",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Zostať na stránke počas nahrávania",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Upozornenie mikrofón vypnutý",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Pomoc",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Nahrávanie pozastavené. Stlačte tlačidlo prehrávania pre pokračovanie.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot nemá povolenie nahrávať vašu obrazovku",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Aby nahrávanie obrazovky fungovalo, budete musieť povoliť CocoShot zachytávať vašu obrazovku, keď sa zobrazí požiadavka na povolenie. (Môžete kedykoľvek odvolať v nastaveniach rozšírenia.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Povoliť nahrávanie obrazovky",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Zrušiť",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Váš mikrofón je stlmený",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Ak chcete, aby bol váš hlas súčasťou nahrávky, budete musieť zapnúť mikrofon. Chcete pokračovať v nahrávaní bez zvuku?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Áno, pokračovať",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Zrušiť",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Oddýchnite si. Kliknite kdekoľvek pre zastavenie odpočítavania.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Úprava môže byť nepresná pre krátke časové rozsahy kvôli intervalom medzi snímkami.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Video sa spracováva, prehrávanie môže byť nepresné alebo prerušené.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Orezávanie môže chvíľu trvať",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Aktualizujte pre rýchlejšie spracovanie",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Mikrofón povolený",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Mikrofón zakázaný",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Nahrávka bola kratšia ako 3 sekundy a nebola uložená.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Skryť upozornenia rozhrania",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Nezobrazovať znova",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Skryť panel nástrojov, keď sa nepoužíva",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Začať nahrávanie",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Zastaviť nahrávanie",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Vitajte v novom CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Zistiť viac o aktualizácii.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Začať",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Chyba pri spúšťaní nahrávania",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Pri spúšťaní procesu nahrávania sa vyskytla chyba. Prosím, reštartujte prehliadač a skúste znova. Ak problém pretrváva, kontaktujte nás na support@cocoshot.net.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Najvyššia kvalita",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Obnoviť poslednú video nahrávku",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Máte problémy?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Nevidíte svoju nahrávku?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Ak ste dokončili nahrávanie, ale nevidíte svoje video na tejto stránke, môžete skúsiť stiahnuť surové video dáta, ak existujú. Prípadne nás môžete kontaktovať nahlásením chyby.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Stiahnuť surové video dáta",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Nahlásiť chybu",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Nahrávka sa nenašla, ospravedlňujeme sa :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Dosiahnutý limit pamäte",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Vaše zariadenie nemá dostatok pamäte na nahrávanie, čo spôsobuje automatické ukončenie relácie. Pre nahrávanie dlhších videí zvážte zníženie kvality videa alebo uvoľnenie miesta v úložisku.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Rozumiem",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Nedostatok miesta",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot potrebuje minimálne 1GB voľného miesta na nahrávanie. Prosím, uvoľnite miesto a skúste znova.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Vymazať predchádzajúce nahrávky",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Pokročilé",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Stiahnuť surový video súbor",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Exportovať pôvodné dáta nahrávania",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Získať pomoc s nahrávkou",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Obnovte svoje video a vyriešte iné problémy",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Stiahnuť surový video súbor",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Surový video súbor sa vzťahuje na nezmenenú nahrávku vytvorenú priamo aplikáciou CocoShot. Keďže tento súbor nebol spracovaný alebo upravený, môže byť pomerne veľký a nekompatibilný s niektorými zariadeniami. Ak narazíte na problémy so spracovanou verziou, môžete použiť tento súbor na získanie pôvodnej nahrávky.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Stiahnuť",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Zobraziť zvukovú vlnu",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Stiahnuť systémové informácie a video dáta a poslať na riešenie problémov",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Po stiahnutí súboru ho prosím pošlite na support@cocoshot.net spolu s akýmikoľvek ďalšími podrobnosťami, ktoré by mohli byť užitočné. Použijeme tieto informácie na pomoc pri riešení problémov s rozšírením a, ak je to možné, obnovenie vášho videa.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Stiahnuť",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Video je príliš dlhé na spracovanie vo vašom zariadení",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Keďže CocoShot uprednostňuje súkromie a funguje úplne na vašom lokálnom zariadení, je obmedzený možnosťami vášho hardvéru. Spracovanie videa tejto dĺžky by bolo príliš časovo náročné a vyžadovalo by značné systémové prostriedky. Stále môžete získať WEBM súbor alebo surovú nahrávku, hoci funkcie úpravy a export MP4 nebudú dostupné. Ak ste si však vedomí potenciálnych výziev, môžete pokračovať so spracovaním videa.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Rozumiem riziku, skúsiť predsa",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Zistiť viac o spracovaní dlhých videí.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Režim obnovy",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Stiahnuť dáta na riešenie problémov",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Centrum pomoci",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Nahrať zvuk počítača",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Pre nahrávanie zvuku z tejto stránky musíte prepnúť na „$tab$“.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Rozšírenie nie je podporované na záložke",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot nie je kompatibilný so záložkou, ktorú ste práve používali. Stále môžete spustiť nahrávanie z tejto stránky a potom sa vrátiť na túto záložku, ale uvedomte si, že kanál kamery a panel nástrojov úpravy sa nezobrazia.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Nastavte lokálnu zálohu pre vaše CocoShot nahrávky",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Uchovávajte kópie každej nahrávky, ktorú vytvoríte. Bez nastavenia záloh budú vaše nahrávky uložené len keď ich výslovne vyberiete na stiahnutie.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Ak sa pokúšate ukladať nahrávky do Prevzatí alebo iných systémových priečinkov, možno budete musieť vopred vytvoriť nový priečinok.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Vybrať priečinok",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Teraz nie",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Vaše nahrávky sa zálohujú lokálne",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Aby sme predišli žiadosti o povolenie pri každom nahrávaní, odporúčame ponechať túto záložku otvorenú.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Zatvoriť záložku tak či tak",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Prestať zálohovať všetky nahrávky",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Prosím, potvrďte prístup k vášmu lokálnemu priečinku záloh CocoShot",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Ospravedlňujeme sa, ale potrebujeme vaše povolenie znova, aby sme mohli pokračovať v zálohovaní vašich nahrávok. Bohužiaľ, budeme musieť žiadať o toto povolenie pri každom zatvorení tejto záložky, čo sa môže stať pri vypnutí prehliadača alebo reštartovaní počítača.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Povoliť CocoShot pokračovať v zálohovaní nahrávok",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Zálohovať nahrávky",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Povolenie nebolo udelené na zálohovanie nahrávky",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Nezvolili ste priečinok na ukladanie záloh nahrávok. V závislosti od verzie prehliadača alebo operačného systému sa vás môže zakaždým pri spustení nahrávania požiadať o výber tohto priečinka. Môžete skúsiť proces nastavenia znova, alebo úplne vypnúť zálohy, ak nechcete opakovane udeľovať povolenia.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Nahrať zvuk počítača",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "Na systémoch macOS ste obmedzení na nahrávanie zvuku z jednotlivých záložiek. Vyberte možnosť nahrávania Chrome Záložka a overte, že nastavenie 'Zdieľať aj zvuk záložky' je zapnuté.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Nahrať zvuk počítača",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Ak chcete zachytiť zvuk z počítača, uistite sa, že je aktivovaná možnost 'Zdieľať systémový zvuk'. Ak táto možnosť nie je viditeľná, zvážte aktualizáciu Chrome alebo prepnutie na režim nahrávania záložky.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Max rozlíšenie",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Max FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Nedostatok RAM",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Zmeniť veľkosť okna",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Obrazovka je príliš malá pre toto rozlíšenie",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Nedá sa nahrávať s týmto rozlíšením vo vašom zariadení",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Povolenie zamietnuté",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Na nahrávanie sú potrebné povolenia pre kameru a mikrofón. Prosím, udelte povolenia v nastaveniach prehliadača.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Na nahrávanie je potrebné povolenie pre kameru. Prosím, udelte povolenie v nastaveniach prehliadača.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Na nahrávanie je potrebné povolenie pre mikrofón. Prosím, udelte povolenie v nastaveniach prehliadača.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Opraviť povolenia",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Nastavenia nahrávania obrazovky",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "h",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Vyžaduje sa povolenie pre kameru...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Vyžaduje sa povolenie pre mikrofón...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Požiadať o povolenie pre kameru",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Požiadať o povolenie pre mikrofón",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Skontrolovať povolenia",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Prispôsobiť možnosti",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Zaznamenané videá",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Ešte nie sú zaznamenané žiadne videá",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Stlačiť na stlmenie",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Potrebujeme vaše povolenie na prístup ku kamere",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Potrebujeme vaše povolenie na prístup k mikrofónu",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Kontrola",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Výber farby",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Zatvoriť",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Vybrať farbu z obrazovky",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API nie je podporovaný v tomto prehliadači. Prosím, použite moderný prehliadač ako Chrome 95+ alebo Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Vybrať oblasť rozmazania",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Vymazať všetky oblasti rozmazania",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Šírka čiary",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Tenká",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Stredná",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Hrubá",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Veľmi hrubá",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot nahrávky",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Nepodarilo sa nastaviť lokálnu zálohu. Kontaktujte nás na $supportEmail$ pre ďalšiu pomoc. Stále môžete nahrávať obrazovku.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Váš prehliadač nepodporuje lokálne zálohy. Kontaktujte nás na $supportEmail$ pre ďalšiu pomoc. Stále môžete nahrávať obrazovku.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Ako používať Zoom na kurzor",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Počas nahrávania podržte klávesovú skratku pre priblíženie smerom k pozícii kurzora. Uvoľnite klávesy pre oddialenie. Toto je skvelé na zvýraznenie konkrétnych oblastí obrazovky počas nahrávania.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Rozumiem!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Veľkosť oblasti",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Predvoľby",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Resetovať",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Žiadne",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Rozmazanie",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Obrázok",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Prosím, najprv načítajte video súbor",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Stiahnuť ako WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Stiahnuť ako MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Konvertovanie...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Spracúvajú sa časti:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Veľkosť videa presahuje odporúčaný limit (max. 1GB), čo môže spôsobiť zlyhanie spracovania",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Načítavate veľké video (1GB). Spracovanie môže trvať dlho. Pokračovať?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Nepodporovaný formát videa. Prosím, skúste iný formát videa.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Sťahovanie zlyhalo. Prosím, skúste znova.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "Konverzia MP4 nie je dostupná",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Toto video je príliš veľké na konverziu na MP4 v prehliadači. Prosím, stiahnite ho ako WebM.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Konvertovanie na MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Nepodarilo sa stiahnuť video. Prosím, skúste znova.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "upraviť video",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Čoskoro.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Náhľad videa",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Zapisovanie do úložiska...",
+    "description": "Message shown when writing video to storage"
+  }
+}

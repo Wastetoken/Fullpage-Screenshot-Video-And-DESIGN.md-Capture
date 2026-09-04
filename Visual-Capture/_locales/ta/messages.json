@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: ஸ்கிரீன்ஷாட் & ஸ்கிரீன் ரெக்கார்டர்"
+  },
+  "extDescription": {
+    "message": "முழுப் பக்க ஸ்கிரீன்ஷாட்களைப் பிடிக்கவும் மற்றும் சிறுகுறிப்புகளுடன் திரையை MP4 இல் பதிவு செய்யவும். கிளிக் செய்யக்கூடிய இணைப்புக..."
+  },
+  "pDisable": {
+    "message": "இந்த பக்கத்தில் முடக்கப்பட்டது"
+  },
+  "pDisableDesc": {
+    "message": "உங்கள் குரூப்பில் உள்ள எந்தவொரு வலைப்பக்கத்திலும் இதைப் இயக்கலாம், ஆனால் உலாவி script ஐ இயக்கக் கட்டுப்படுத்தும் வலைப்பக்கங்களில் அல்ல. இதன் உள்ளடக்கத்தில் நீட்டிப்பு வலைக் கடை, உலாவி அமைப்புப் பக்கங்கள் மற்றும் பிற நீட்டிப்பு பக்கங்கள் உள்ளன."
+  },
+  "pDisableExp": {
+    "message": "இந்த கட்டுப்பாடு உலாவியிலிருந்து தான் வந்தது, பாதுகாப்பு அபாயங்களால்."
+  },
+  "pDisableTry": {
+    "message": "நீங்கள் புதிய பக்கம் திறந்து, பிடிக்கும் செயல்பாட்டைப் பார்க்கலாம்."
+  },
+  "pStart": {
+    "message": "தொடங்கு"
+  },
+  "pFileUrl": {
+    "message": "“edge://extensions/” இற்கு சென்று, “கோப்பு URL களை அணுக அனுமதி வழங்க” என்பதைக் கிளிக் செய்யவும்."
+  },
+  "pCaptV": {
+    "message": "வலைப்பக்கத்தின் காணக்கூடிய பகுதிகளைப் பிடிக்கவும்."
+  },
+  "pAsOne": {
+    "message": "ஒரே HTML கோப்பாகச் சேமிக்கவும்."
+  },
+  "pDesktop": {
+    "message": "திட்டவட்டமான வலைப்பக்கம், அட்டை, ஜன்னல் அல்லது முழு திரையைப் பிடிக்கவும்."
+  },
+  "pCaptFull": {
+    "message": "முழு பக்கம் ஸ்கிரீன் ஷாட் பிடிக்கவும்."
+  },
+  "pDesableOpt": {
+    "message": "அல்லது நீங்கள் முயற்சிக்கலாம்:"
+  },
+  "pAreaCut": {
+    "message": "ஸ்கிரீன் ஷாட் பிடிக்க வலைப்பக்கத்தின் ஒரு பகுதியைத் தேர்ந்தெடுக்கவும்."
+  },
+  "fullpageTooLarge": {
+    "message": "குறிப்பு: உலாவி அதன் அளவு காரணமாக முழு பக்கத்தையும் ஒரு படமாக பிடிக்க முடியாது. அதற்கு பதிலாக, அது <strong>$1</strong> தனி படங்களாக பிரிக்கப்படும்."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "எச்சரிக்கை: இந்த நீட்டிப்பு மிகப்பெரிய உள்ளடக்கத்தை பிடிப்பதற்காக வடிவமைக்கப்படவில்லை. இது இந்த பக்கத்தின் பிடிப்பை வெற்றிகரமாக முடிக்க முடியாமல் போகலாம்."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "கூடுதல் அனுமதி தேவை"
+  },
+  "framePermDesc": {
+    "message": "இந்த தளம் உட்பொதிந்த iframe வழியாக உள்ளடக்கத்தை காண்பிக்கிறது, அணுக கூடுதல் அனுமதி தேவை."
+  },
+  "WhatisIframe": {
+    "message": "iframe என்றால் என்ன என்பதை அறிய கிளிக் செய்யவும்."
+  },
+  "framePermMore": {
+    "message": "இவ்வழையலை பயன்படுத்திய பிறகு நீட்சியை மீள்துவக்க வேண்டியிருக்கும். ரத்துசெய்தால், தெரிகின்ற திரை மட்டுமே பிடிக்கப்படும்."
+  },
+  "framePermConfirm": {
+    "message": "அனுமதி"
+  },
+  "framePermSave": {
+    "message": "பின்னர் பயன்படுத்த இந்த அனுமதியை சேமிக்கவும் (நீங்கள் இதை எந்த நேரத்திலும் ரத்து செய்யலாம்)."
+  },
+  "error": {
+    "message": "பிழை"
+  },
+  "captureError": {
+    "message": "பிடித்தல் தோல்வியடைந்தது, தயவுசெய்து பின்னர் மீண்டும் முயற்சிக்கவும். சிக்கல் தொடருமானால், $1 என்ற முகவரியில் உருவாக்குநரை தொடர்புகொள்ளவும்"
+  },
+  "btnOk": {
+    "message": "சரி"
+  },
+  "btnCancel": {
+    "message": "ரத்து"
+  },
+  "saveFramePermission": {
+    "message": "அனைத்து ஃப்ரேம்களிலிருந்தும் உள்ளடக்கத்தை பிடிக்க அனுமதி"
+  },
+  "permissions": {
+    "message": "அனுமதிகள்"
+  },
+  "saveframepDesc": {
+    "message": "இது ஒரு பக்கத்தில் உள்ள iframe அல்லது frameset உள்ளடக்கத்தை பிடிக்க தேவையான அனுமதியாகும். இதை முடக்கு, சில இணையப் பக்க அம்சங்களைப் பிடிக்கும் திறனை இது குறைக்கும்."
+  },
+  "processingScreenshot": {
+    "message": "ஸ்கிரீன்‌ஷாட் செயலாக்கப்படுகிறது..."
+  },
+  "screenshotSaved": {
+    "message": "ஸ்கிரீன்‌ஷாட் பதிவேற்ற கோப்பகத்திற்கு சேமிக்கப்பட்டது"
+  },
+  "screenshotLoadFailed": {
+    "message": "ஸ்கிரீன்‌ஷாட் ஏற்ற 실패; மீண்டும் முயற்சிக்கவும்."
+  },
+  "getScreenshotFailed": {
+    "message": "ஸ்கிரீன்‌ஷாட் பிடிக்க 실패; மீண்டும் முயற்சிக்கவும்."
+  },
+  "processingAllAreas": {
+    "message": "எல்லா பகுதிகளின் ஸ்கிரீன்‌ஷாட்களை செயலாக்குகிறது..."
+  },
+  "allAreasSaved": {
+    "message": "$1 பகுதிகளின் ஸ்கிரீன்‌ஷாட்கள் வெற்றிகரமாக சேமிக்கப்பட்டன"
+  },
+  "areaNotVisible": {
+    "message": "தேர்ந்தெடுக்கப்பட்ட பகுதி காட்சிப்படத்திலிருந்து பெரும்பாலும் வெளியே உள்ளது; பிடிக்க முடியவில்லை."
+  },
+  "partiallyVisible": {
+    "message": "பகுதியின் ஒரு பகுதி காட்சிப்படத்துக்கு வெளியே உள்ளது. காட்சிப்படுத்தக்கூடிய பகுதி பிடிக்கப்பட்டுள்ளது."
+  },
+  "partiallyVisibleArea": {
+    "message": "தேர்ந்தெடுக்கப்பட்ட பகுதியின் ஒரு பகுதி காட்சிப்படத்துக்கு வெளியே உள்ளது. காட்சிப்படுத்தக்கூடிய பகுதி பிடிக்கப்பட்டுள்ளது."
+  },
+  "areaOutOfView": {
+    "message": "தேர்ந்தெடுக்கப்பட்ட பகுதி காட்சிப்படத்துக்கு வெளியே உள்ளது. பக்கம் ஸ்க்ரோல் செய்து பகுதியை காட்சிப்படுத்தி மீண்டும் முயற்சிக்கவும்."
+  },
+  "processingError": {
+    "message": "ஸ்கிரீன்‌ஷாட் செயலாக்கத்தில் பிழை: $1"
+  },
+  "saveFailed": {
+    "message": "ஸ்கிரீன்‌ஷாட் சேமிப்பதில் தோல்வி: $1"
+  },
+  "smartModeEnabled": {
+    "message": "நுண்ணறிவு ஸ்கிரீன்‌ஷாட் முறை இயக்கப்பட்டது. பிடிக்க ஒரு உருப்படியைத் தேர்ந்தெடுக்கவும் (உறுதி செய்ய Enter, ரத்துசெய் Esc)."
+  },
+  "processing": {
+    "message": "பதிப்பியை செயலாக்குகிறது..."
+  },
+  "copyFailed": {
+    "message": "பதிப்பி தோல்வி: $1"
+  },
+  "canvasContextError": {
+    "message": "பதிப்பி தோல்வி: Canvas சூழலைப் பெற முடியவில்லை."
+  },
+  "copied": {
+    "message": "கிளிப்போர்டுக்கு நகல் எடுக்கப்பட்டது"
+  },
+  "clipboardAccessDenied": {
+    "message": "பதிப்பி தோல்வி: கிளிப்போர்ட் அணுகல் மறுக்கப்பட்டது, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "பதிப்பி தோல்வி: கிளிப்போர்ட் API ஆதரிக்கப்படவில்லை"
+  },
+  "imageDataCreateFailed": {
+    "message": "பதிப்பி தோல்வி: படத் தரவை உருவாக்க முடியவில்லை"
+  },
+  "copyAreaOutOfView": {
+    "message": "பதிப்பி தோல்வி: தேர்ந்தெடுக்கப்பட்ட பகுதி காட்சிப்படத்துக்கு வெளியே உள்ளது"
+  },
+  "imagePreviewShown": {
+    "message": "பட முன்னோட்டம் காட்டப்பட்டது. நகலெடுக்க வலது கிளிக் செய்யவும்."
+  },
+  "escape": {
+    "message": "ரத்துசெய் (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "பட தரம் அமைக்கப்பட்டது: $1"
+  },
+  "qrDecoding": {
+    "message": "QR குறியீடு பகுப்பாய்வு செய்யப்படுகிறது..."
+  },
+  "qrSuccess": {
+    "message": "QR குறியீடு வெற்றிகரமாக பகுப்பாய்வு செய்யப்பட்டது. கிளிப்போர்டுக்கு நகல் எடுக்கப்பட்டது."
+  },
+  "qrNoQRFound": {
+    "message": "சரியான QR குறியீடு கண்டறியப்படவில்லை"
+  },
+  "qrError": {
+    "message": "QR குறியீடு பகுப்பாய்வு தோல்வி: $1"
+  },
+  "saveArea": {
+    "message": "இந்த பகுதியை சேமிக்கவும்"
+  },
+  "copyToClipboard": {
+    "message": "இந்த தேர்வை (தற்போது தேர்ந்தெடுக்கப்பட்டது) நகலெடுக்கவும்"
+  },
+  "saveAllAreas": {
+    "message": "எல்லா பகுதிகளையும் சேமிக்கவும்"
+  },
+  "keepAndContinue": {
+    "message": "புதிய தேர்வை சேர்க்கவும்"
+  },
+  "cancel": {
+    "message": "ரத்துசெய்"
+  },
+  "lockSize": {
+    "message": "அளவைக் குறுக்கவும்"
+  },
+  "lockSizeActive": {
+    "message": "✓ அளவை குறுக்கவும்"
+  },
+  "freeRatio": {
+    "message": "விடுதலை விகிதம்"
+  },
+  "ratioLabel": {
+    "message": "விகிதம் தேர்வு செய்யவும்"
+  },
+  "aiDialog": {
+    "message": "நுண்ணறிவு உரையாடல்"
+  },
+  "fileSizeEstimate": {
+    "message": "சுமார் $1 $2"
+  },
+  "qrDecode": {
+    "message": "QR குறியீடு பகுப்பாய்வு"
+  },
+  "removeBackground": {
+    "message": "பின்னணி அகற்றவும்"
+  },
+  "processingBackgroundRemoval": {
+    "message": "பின்னணி அகற்றப்படுகிறது..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "பின்னணி அகற்றல் தோல்வி: படம் ஏற்றல் பிழை"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "பின்னணி அகற்றல் தோல்வி: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "பின்னணி அகற்றப்பட்டு கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "பின்னணி அகற்றல் தோல்வி: Blob உருவாக்க முடியவில்லை"
+  },
+  "selectedAreaOutOfView": {
+    "message": "தேர்ந்தெடுக்கப்பட்ட பகுதி காட்சிப்படத்துக்கு வெளியே உள்ளது"
+  },
+  "screenshotFailed": {
+    "message": "ஸ்கிரீன்‌ஷாட் தோல்வி: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "பட செயலாக்கம் தோல்வி, மீண்டும் முயற்சிக்கவும்"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "ஸ்கிரீன்‌ஷாட் பகுதி காட்சிப்படத்துக்கு வெளியே உள்ளது"
+  },
+  "errorProcessingImage": {
+    "message": "பட செயலாக்க பிழை: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR குறியீடு பகுப்பாய்வு நூலகம் ஏற்றப்படவில்லை"
+  },
+  "qrDecodingFailed": {
+    "message": "QR குறியீடு பகுப்பாய்வு தோல்வி: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "தேர்ந்தெடுக்கப்பட்ட பகுதியில் QR குறியீடு இல்லை"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR குறியீடு வெற்றிகரமாக பகுப்பாய்வு செய்யப்பட்டது: $1"
+  },
+  "qrDecodingError": {
+    "message": "QR குறியீடு பகுப்பாய்வு பிழை: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "பின்னணி அகற்றல் தோல்வி: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "முதலில் ஒரு ஸ்கிரீன்‌ஷாட் பகுதியைத் தேர்ந்தெடுக்கவும்"
+  },
+  "aiDialogTitle": {
+    "message": "ஸ்கிரீன்‌ஷாட் உள்ளடக்கத்தைப் பற்றிய நுண்ணறிவு உரையாடல்"
+  },
+  "qrDecodeTitle": {
+    "message": "ஸ்கிரீன்‌ஷாட்டில் QR குறியீடு பகுப்பாய்வு"
+  },
+  "lockSizeTitle": {
+    "message": "தொடர்ச்சியான பிடிப்பிற்கான தற்போதைய அளவை குறுக்கவும்"
+  },
+  "moveHint": {
+    "message": "தேர்வுப் பகுதியை இழுக்கவும் (வெற்று இடம் + இழுக்கவும்)"
+  },
+  "saveAreaTooltip": {
+    "message": "தற்போதைய பகுதியை சேமிக்கவும்"
+  },
+  "saveAllAreasTooltip": {
+    "message": "எல்லா தேர்ந்தெடுக்கப்பட்ட பகுதிகளையும் சேமிக்கவும்"
+  },
+  "copyToClipboardTooltip": {
+    "message": "ஸ்கிரீன்‌ஷாட் கிளிப்போர்டுக்கு நகலெடுக்கவும்"
+  },
+  "moreOptions": {
+    "message": "மேலும் விருப்பங்கள்"
+  },
+  "removeBgTooltip": {
+    "message": "பின்னணியை அகற்றி கிளிப்போர்டுக்கு நகலெடுக்கவும்"
+  },
+  "ratioLabelTooltip": {
+    "message": "அஸ்பெக்ட் ரேஷியோவை தேர்வு செய்யவும்"
+  },
+  "keepAndContinueTooltip": {
+    "message": "தற்போதைய தேர்வை வைத்துக் கொண்டு தொடரவும்"
+  },
+  "pCaptureTabLabel": {
+    "message": "திரைப்பிடிப்பு"
+  },
+  "pAiToolsTabLabel": {
+    "message": "AI கருவிகள்"
+  },
+  "pCaptureTitle": {
+    "message": "முழு பக்கம் மற்றும் தேர்ந்தெடுக்கப்பட்ட திரை பகுதி திரைப்பிடிப்பு"
+  },
+  "pAiToolsTitle": {
+    "message": "AI-தொடர்பான கருவிகள்"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "இணைய உள்ளடக்க ஏற்றுமதி கருவிகள்"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "படக் கருவிகள்"
+  },
+  "pDownloadAsMD": {
+    "message": "Markdown ஆக பதிவிறக்கவும்"
+  },
+  "pDownloadAsPDF": {
+    "message": "PDF ஆக பதிவிறக்கவும்"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "தற்போதைய வலைப்பக்கத்தை Markdown கோப்பாக பதிவிறக்கவும்"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "தற்போதைய வலைப்பக்கத்தை PDF கோப்பாக பதிவிறக்கவும்"
+  },
+  "pImageProcessing": {
+    "message": "பட செயலாக்கம்"
+  },
+  "pImageProcessingTooltip": {
+    "message": "பட செயலாக்கத்திற்கான கருவிகளின் தொகுப்பு"
+  },
+  "fixThePage": {
+    "message": "பக்கத்தை சரிசெய்யவும்"
+  },
+  "expandScrollableOn": {
+    "message": "உருட்டக்கூடிய பகுதிகளை விரிவாக்கு"
+  },
+  "expandScrollableOnDesc": {
+    "message": "திரைப்பிடிப்பு எடுப்பதற்கு முன் வலைப்பக்கத்திற்குள் உருட்டக்கூடிய பகுதிகளை விரிவாக்க இயக்கவும்"
+  },
+  "hideFixedOn": {
+    "message": "நிலையான நிலை கூறுகளை மறை"
+  },
+  "hideFixedOnDesc": {
+    "message": "பிடிப்பில் தலையிடக்கூடிய நிலையான நிலை கூறுகளை மறைக்க இயக்கவும்"
+  },
+  "preScrollOn": {
+    "message": "வலைப்பக்கத்தை முன்-உருட்டல் ஏற்றுகிறது"
+  },
+  "preScrollOnDesc": {
+    "message": "பல வலை கூறுகள் (எ.கா., படங்கள்) உருட்டும்போது மட்டுமே ஏற்றப்படும். இயக்கப்பட்டால், திரைப்பிடிப்பு எடுப்பதற்கு முன்பு அது தானாகவே கண்டறிந்து பக்கத்தின் κάτω பகுதிக்கு உருட்டும்."
+  },
+  "canBeDisabled": {
+    "message": "அமைப்புகள் பக்கம் வழியாக முடக்கலாம்"
+  },
+  "analyzingPageForHTML": {
+    "message": "வலைப்பக்க குறியீடு மற்றும் உள்ளடக்கத்தை பகுப்பாய்வு செய்கிறது, சிக்கலான பக்கங்கள் அதிக நேரம் ஆகலாம். அதிக நேரம் எடுத்தால், தயவுசெய்து வலைப்பக்கத்தைப் புதுப்பித்து மீண்டும் முயற்சிக்கவும்."
+  },
+  "drawerSettings": {
+    "message": "அமைப்புகள்"
+  },
+  "drawerScreenshotHistory": {
+    "message": "திரைப்பிடிப்பு வரலாறு"
+  },
+  "drawerImageTools": {
+    "message": "திரைப்பிடிப்பு மேம்படுத்தும் கருவிகள்"
+  },
+  "drawerHelpFeedback": {
+    "message": "அடிக்கடி கேட்கப்படும் கேள்விகள் மற்றும் கருத்து"
+  },
+  "drawerCloseMenu": {
+    "message": "இந்த மெனுவை மூடு"
+  },
+  "logoTooltip": {
+    "message": "மேலும் காண்க"
+  },
+  "pRecorderTabLabel": {
+    "message": "ஸ்கிரீன் ரெக்கார்டர்"
+  },
+  "pRecorderTitle": {
+    "message": "ஸ்கிரீன் ரெக்கார்டர்"
+  },
+  "pStartRecorder": {
+    "message": "ஸ்கிரீன் பதிவு செய்தலைத் தொடங்கு"
+  },
+  "pStartRecorderLabel": {
+    "message": "ஸ்கிரீன் பதிவு"
+  },
+  "pRecorderAlt": {
+    "message": "ரெக்கார்டர்"
+  },
+  "pStartRecorderAlt": {
+    "message": "ஸ்கிரீன் ரெக்கார்டர்"
+  },
+  "pRecorderBetaNotice": {
+    "message": "இது ஒரு பீட்டா பதிப்பு"
+  },
+  "pRecorderFeedback": {
+    "message": "பின்னூட்டம் வழங்கு"
+  },
+  "downloadsPermission": {
+    "message": "கோப்பு பதிவிறக்கங்களை அனுமதி"
+  },
+  "downloadsPermissionDesc": {
+    "message": "உங்கள் கணினியில் நேரடியாக ஸ்கிரீன்ஷாட்களைச் சேமிக்க இந்த அனுமதி தேவை."
+  },
+  "webNavigationPermission": {
+    "message": "வலை வழிசெல்லல் அணுகலை அனுமதி"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "பக்க மாற்றங்களைக் கண்டறிந்து தேவைப்படும் போது வெவ்வேறு பக்கங்களுக்குச் செல்ல இந்த அனுமதி தேவை."
+  },
+  "desktopCapturePermission": {
+    "message": "டெஸ்க்டாப் பிடிப்பதை அனுமதி"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "உங்கள் டெஸ்க்டாப் அல்லது குறிப்பிட்ட சாளரங்களிலிருந்து உள்ளடக்கத்தைப் பிடிக்க இந்த அனுமதி தேவை."
+  },
+  "tabsPermission": {
+    "message": "தாவல்கள் அணுகலை அனுமதி"
+  },
+  "tabsPermissionDesc": {
+    "message": "உலாவி தாவல்களின் தகவல்களை அணுகவும் நிர்வகிக்கவும் இந்த அனுமதி தேவை."
+  },
+  "tabCapturePermission": {
+    "message": "தாவல் பிடிப்பதை அனுமதி"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "உலாவி தாவல்களிலிருந்து ஒலி மற்றும் காணொளியைப் பிடிக்க இந்த அனுமதி தேவை."
+  },
+  "allUrlsPermission": {
+    "message": "அனைத்து வலைத்தளங்களுக்கும் அணுகலை அனுமதி"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "எந்தவொரு வலைத்தளத்திலிருந்தும் ஸ்கிரீன்ஷாட்களைப் பிடிக்க இந்த அனுமதி தேவை."
+  },
+  "fileUrlsPermission": {
+    "message": "உள்ளக கோப்புகளுக்கு அணுகலை அனுமதி"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "உள்ளக கோப்புகளிலிருந்து (file:// URL) ஸ்கிரீன்ஷாட்களைப் பிடிக்க இந்த அனுமதி தேவை."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "பதிவிறக்கத்தில் படங்களைச் சேர்க்க வேண்டுமா"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "இந்த அம்சத்திற்கு CocoShot Pro தேவை"
+  },
+  "proUpgradeButton": {
+    "message": "Pro க்கு மேம்படுத்து"
+  },
+  "proSaveRestricted": {
+    "message": "இந்த உள்ளடக்கத்தைச் சேமிக்க CocoShot Pro தேவை"
+  },
+  "qv_title": {
+    "message": "CocoShot முன்னோட்டம்"
+  },
+  "qv_preview_mode": {
+    "message": "முன்னோட்ட முறை"
+  },
+  "qv_screenshot_preview": {
+    "message": "ஸ்கிரீன்ஷாட் முன்னோட்டம்"
+  },
+  "qv_download": {
+    "message": "பதிவிறக்கம்"
+  },
+  "qv_edit": {
+    "message": "குறிப்புரை, எடிட் (PDF ஆகவும் ஏற்றுமதி செய்யலாம்)"
+  },
+  "qv_hint": {
+    "message": "அனுபவம் வாய்ந்த பயனர்கள் இந்தப் பக்கத்தைத் தானாகவே தவிர்த்துவிட்டு எடிட்டருக்குச் செல்வார்கள்."
+  },
+  "recordTab": {
+    "message": "பதிவு",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "உங்கள் வீடியோக்கள்",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "திரை",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "தாவு",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "கேமரா மட்டும்",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "மாக்அப்",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "தனிப்பயன் பகுதி பதிவு முடக்கப்பட்டது",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Chrome பதிப்பு 110+ க்கு மேம்படுத்தவும்",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "மேம்படுத்து",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "உங்கள் அனுமதிகளைச் சரிபார்க்கவும்",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot க்கு உங்கள் கேமரா அல்லது மைக்ரோஃபோனை அணுகுவதில் சிக்கல் உள்ளது. இந்தச் சிக்கலைத் தீர்க்க, உங்கள் உலாவி அமைப்புகளில் அதைத் தடையற்று தேவையான அனுமதிகளை வழங்கவும்.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "நீக்கு",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "கேமரா அணுகலை அனுமதிக்கவும்",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "மைக்ரோஃபோன் அணுகலை அனுமதிக்கவும்",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "பேச புஷ் செய்யவும்",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "பதிவுப் பகுதியை அமைக்கவும்",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "கேமராவைத் திருப்பவும்",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "பின்னணி விளைவுகள்",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "பதிவைத் தொடங்கவும்",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "பதிவு தொடங்கப்படுகிறது...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "கேமராவைத் தேர்ந்தெடுக்கவும்",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "மேலும் விருப்பங்கள்",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "சிஸ்டம் ஆடியோ",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "டூல்பாரை மறைக்கவும்",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "கவுண்டவுன்",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "நேர வரம்பை அமைக்கவும்",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "மந்தம்",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "எதுவுமில்லை",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "கேமராவில்லை",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "மைக்ரோஃபோனில்லை",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "ஒரு மூலத்தைத் தேர்ந்தெடுக்கவும்",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "ஆஃப்",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "அகலம்",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "உயரம்",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "படத்தை வைக்க கிளிக் செய்யவும்",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "பதிவை முடிக்கவும்",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "பதிவை மீண்டும் தொடங்கவும்",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "பதிவை நிறுத்தவும்",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "பதிவைத் தொடரவும்",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "பதிவைரத்து செய்யவும்",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "வரைவு டூல்களை நிலைமாற்று",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "மந்தம் டூலை நிலைமாற்று",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "கர்சர் விருப்பங்களை நிலைமாற்று",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "கேமராவை முடக்கவும்",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "கேமராவை இயக்கவும்",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "கேமரா அனுமதிகள் இல்லை",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "கேமரா அமைப்புகள்",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "கேமராவை எதிரொளிக்கவும்",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "பின்னணி மந்தம்",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "மைக்ரோஃபோனை முடக்கவும்",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "மைக்ரோஃபோனை இயக்கவும்",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "மைக்ரோஃபோன் அனுமதிகள் இல்லை",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "டூலைத் தேர்ந்தெடுக்கவும்",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "பேன் டூல்",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "ஹைலைட்டர் டூல்",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "ஈரேசர் டூல்",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "உரை டூல்",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "வடிவ டூல்",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "அம்பு டூல்",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "பட டூல்",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "செயல்தவிர்",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "மீண்டும் செய்",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "கேன்வாஸை அழிக்கவும்",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "மேலும் நிறங்கள்",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "தடிமனான ஸ்ட்ரோக்",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "நடுத்தர ஸ்ட்ரோக்",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "மெல்லிய ஸ்ட்ரோக்",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "படம்-படம்-முறையை நிலைமாற்று",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "நிறப்பை நிலைமாற்று",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "வரைவு முறை",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "மந்தம் முறை",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "அனைத்து மந்தமான உறுப்புகளையும் அழிக்கவும்",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "கிளிக்குகளை முன்னிலைப்படுத்தவும்",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "கர்சரை முன்னிலைப்படுத்தவும்",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "கர்சரை சுடர்விளக்காக்கவும்",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "மீண்டும் காட்ட வேண்டாம்",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "பதிவை மீண்டும் தொடங்கவா?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "உங்கள் தற்போதைய முன்னேற்றம் இழக்கப்படும்.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "மீண்டும் தொடங்கு",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "தொடரவும்",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "பதிவை நிராகரிக்கவா?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "உங்கள் தற்போதைய முன்னேற்றம் இழக்கப்படும்.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "நிராகரிக்கவும்",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "தொடரவும்",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "உங்கள் பதிவு இங்கே சேமிக்கப்படும்",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "பதிவுச் செய்கிறது...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "இந்த தாவலைத் திறந்து வைக்கவும். உங்கள் பதிவு சேமிக்கப்பட்டவுடன் இது மூடப்படும்.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "பதிவு தயாராகிறது...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "இந்த தாவலைத் திறந்து வைக்கவும். பதிவு தயாரானவுடன் இது புதுப்பிக்கப்படும்.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "எடிட்டர்",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "ரத்து",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "அசலுக்குத் திரும்பு",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "மீட்டமை",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "மாற்றங்களைச் சேமிக்கவும்",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "சேமிக்கிறது...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "உங்கள் ஆடியோ கோப்பை இழுத்து வைக்கவும்",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "அல்லது உலவச் சொடுக்கவும்",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "அமைப்புகள்",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "ஒலி அளவு",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "மேம்படுத்து",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "கிராப்",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "அகலம்",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "உயரம்",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "இடது",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "மேலே",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "கைப்பிடிகளை இழுத்து தேர்ந்தெடுக்கப்பட்ட பகுதியைத் திருத்த எல்லைக்கு இடதுபுறமுள்ள பொத்தான்களைப் பயன்படுத்தவும்.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "வீடியோவை டிரிம் செய்யவும்",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "டிரிமிங்...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "பகுதியை வெட்டவும்",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "வெட்டுகிறது...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "ஆடியோவை நிறுத்தவும்",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "நிறுத்துகிறது...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "மேலும் அறிக.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "செயல்தவிர்",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "மீண்டும் செய்",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "விமர்சனம் விடுங்கள், இது உதவும்!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "நீங்கள் தற்போது ஆஃப்லைனில் இருக்கிறீர்கள்",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "மீண்டும் இணைக்கும் வரை சில அம்சங்கள் கிடைக்காது",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "மீண்டும் முயலவும்",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome மேம்படுத்தப்பட வேண்டும்",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "மேலும் அம்சங்களை அணுக மேம்படுத்தவும்",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "மேலும் அறிக",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "வீடியோ கருவியில் செயல்படுத்த நீளமாக உள்ளது",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "திருத்தல் மற்றும் MP4 ஏற்றுமதி கிடைக்காது",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "வீடியோ உள்ளூரில் செயல்படுத்தப்படுகிறது...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "வேகமான கிளவுட் பதிப்பு பற்றி அறிக",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "திருத்து",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "இணைவு இல்லை",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "கிடைக்காது",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "வீடியோவைத் திருத்து",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "வீடியோவை டிரிம், வெட்டு அல்லது நிறுத்து",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "வீடியோ தயாராகிறது, காத்திருங்கள்...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "கிராப்",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "வீடியோவைக் கிராப் செய்து மறுஅளவு செய்யவும்",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "ஆடியோ சேர்க்கவும்",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "வீடியோவில் சேர்க்க உங்கள் சொந்த ஆடியோவைப் பதிவேற்றவும்",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "சேமி",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Google Drive இலிருந்து வெளியேறு",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "சேமிக்கிறது...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Google Drive இல் சேமிக்கவும்",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "தற்போதைய பதிப்பை Google Drive இல் சேமிக்கவும்",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Google Drive இல் உள்நுழைத்து சேமிக்கவும்",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "பதிவிறக்குகிறது...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": ".webm ஆகப் பதிவிறக்கவும்",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": ".webm வீடியோவை ஏற்றுமதி செய்யவும்",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": ".mp4 ஆகப் பதிவிறக்கவும்",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": ".mp4 வீடியோவை ஏற்றுமதி செய்யவும் (பரிந்துரைக்கப்படுகிறது)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": ".gif ஆகப் பதிவிறக்கவும்",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "GIF ஐ ஏற்றுமதி செய்யவும் (அதிகபட்சம் 30 வினாடிகள்)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "இருக்கும் ஆடியோவை மாற்றவும்",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "கர்சருக்கு ஜூம் செய்யவும்",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "பதிவுச் செய்யும் போது பக்கத்தில் இருக்கவும்",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "மைக் ஆஃப் எச்சரிக்கை",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "உதவி",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "பதிவு நிறுத்கப்பட்டது. தொடர்ந்து சேர்க்க பிளே பொத்தானை அழுத்தவும்.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "உங்கள் திரையைப் பதிவுச் செய்ய CocoShotக்கு அனுமதி இல்லை",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "திரைப் பதிவு செயல்பட, அனுமதி கோரிக்கை தோன்றும் போது CocoShot உங்கள் திரையைப் பிடிக்க அனுமதிக்க வேண்டும்.(நீங்கள் எந்த நேரத்திலும் நீட்டிப்பின் அமைப்புகளில் இதைத் திரும்பப் பெறலாம்.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "திரைப் பதிவை இயக்கவும்",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "ரத்து",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "உங்கள் மைக்ரோஃபோன் நிறுத்தப்பட்டது",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "உங்கள் குரல் பதிவில் சேர்க்கப்பட வேண்டுமெனில், உங்கள் மைக்ரோஃபோனை இயக்க வேண்டும். ஆடியோ இல்லாமல் பதிவைத் தொடர விரும்புகிறீர்களா?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "ஆம், தொடரவும்",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "ரத்து",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "ஓய்வு பெறுங்கள். கவுண்டவுன் நிறுத்த எங்கும் கிளிக் செய்யவும்.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "ஃப்ரேம்களுக்கு இடையே உள்ள இடைவெளிகள் காரணமாக குறுகிய நேர இடைவெளிகளுக்கு திருத்தங்கள் துல்லியமாக இல்லாமல் போகலாம்.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "வீடியோ செயல்படுத்தப்படுகிறது, பின்னடைவு துல்லியமற்றதாகவோ அல்லது தடுக்கப்பட்டதாகவோ இருக்கலாம்.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "கிராப்பிங் நீண்ட நேரம் ஆகலாம்",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "வேகமான செயல்பாட்டிற்கு மேம்படுத்தவும்",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "மைக்ரோஃபோன் இயக்கப்பட்டது",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "மைக்ரோஃபோன் முடக்கப்பட்டது",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "பதிவு 3 வினாடிகளுக்கு குறைவாக இருந்தது மற்றும் சேமிக்கப்படவில்லை.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "UI அறிவிப்புகளை மறைக்கவும்",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "மீண்டும் காட்ட வேண்டாம்",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "பயன்பாட்டில் இல்லாதபோது டூல்பாரை மறைக்கவும்",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "பதிவைத் தொடங்கவும்",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "பதிவை நிறுத்தவும்",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "புதிய CocoShot க்கு வரவேற்பு!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "இந்த புதுப்பிப்பு பற்றி மேலும் அறிக.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "தொடங்குங்கள்",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "பதிவைத் தொடங்குவதில் பிழை",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "பதிவுச் செயல்முறையைத் தொடங்கும் போது பிழை ஏற்பட்டது. உலாவியை மறுதொடக்கம் செய்து மீண்டும் முயலவும். சிக்கல் தொடர்ந்தால், support@cocoshot.net இல் எங்களைத் தொடர்பு கொள்ளவும்.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "உயர்ந்த தரம்",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "கடைசி வீடியோ பதிவை மீட்டெடுக்கவும்",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "சிக்கல்கள் உள்ளதா?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "உங்கள் பதிவைப் பார்க்க முடியவில்லையா?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "நீங்கள் பதிவுச் செய்து முடித்தீர்கள் ஆனால் இந்தப் பக்கத்தில் உங்கள் வீடியோ இல்லை என்றால், அது இருந்தால் сырые видеоданные жүктеп алуыңыз болады. Әйтпесе, қате туралы хабарлама жіберіп, бізбен байланыса аласыз.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Жасырын бейне деректерін жүктеп алу",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Қатені хабарлау",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Жазба табылмады, кешіріңіз :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Жад лимитіне жетті",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Құрылғыңызда жазу үшін жеткіліксіз жад бар, бұл сеансты автоматты түрде аяқтайды. Ұзындырақ бейне жазу үшін бейне сапасын төмендетуді немесе құрылғыңыздағы сақтау орнын босатуды қарастырыңыз.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Түсінікті",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Бос орын жеткіліксіз",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot жазу үшін кемінде 1 ГБ бос орын қажет. Бос орын босатып, қайталап көріңіз.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Алдыңғы жазбаларды тазалау",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Кеңейтілген",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Жасырын бейне файлын жүктеп алу",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Түпнұсқа жазу деректерін экспорттау",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Жазуыңызға көмек алу",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Бейнеңізді қалпына келтіріп, басқа мәселелерді шешіңіз",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Жасырын бейне файлын жүктеп алу",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Жасырын бейне файлы CocoShot құрған өзгертілмеген жазуды білдіреді. Бұл файл өнделмеген немесе өзгертілмегендіктен, ол өте үлкен болуы мүмкін және кейбір құрылғылармен үйлесімсіз болуы мүмкін. Өнделген нұсқасымен мәселе туындаса, түпнұсқа жазбаны алу үшін осы файлды пайдалана аласыз.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Жүктеп алу",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Дыбыс толқынын көрсету",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Жүйе ақпаратын және бейне деректерін жүктеп алып, ақаулықтарды түзету үшін жіберіңіз",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Файлды жүктеп алғаннан кейін, оны кез келген қосымша ақпаратпен бірге support@cocoshot.net мекенжайына жіберіңіз. Біз осы ақпаратты кеңейту мәселелерін шешуге және мүмкін болса, бейнеңізді қалпына келтіруге көмектесу үшін пайдаланамыз.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Жүктеп алу",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Бейне құрылғыңызда өңдеу үшін тым ұзын",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "CocoShot құпиялылықты басымыш етеді және құрылғыңызда толық жергілікті жұмыс істейтіндіктен, ол аппараттық мүмкіндіктеріңізбен шектелген. Мұндай ұзындықтағы бейнені өңдеу өте ұзақ уақыт алып, айтарлықтай жүйе ресурстарын талап етеді. Сіз әлі де WebM файлын немесе жасырын жазуды ала аласыз, дегенмен өңдеу функциялары мен MP4 экспорты қолжетімді болмайды. Алайда, ықтимал қиындықтарды білсеңіз, бейнені өңдеуді жалғастыра аласыз.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Мен тәуекелді түсінемін, тағы да қалаймын",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Ұзын бейнелерді өңдеу туралы көбірек біліңіз.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Қалпына келтіру режимі",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Ақаулықтарды түзету үшін деректерді жүктеп алу",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Көмек орталығы",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Компьютер дыбысын жазу",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Осы беттен дыбыс жазу үшін '$tab$' тармағына ауысуыңыз керек.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Кеңейту осы бетте қолданылмайды",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot пайдаланған бетпен үйлесімді емес. Сіз осы беттен жазуды бастай аласыз, содан кейін сол бетке орала аласыз, бірақ камера желісі мен өңдеу тақтасы көрсетілмейтінін ескеріңіз.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "CocoShot жазбаларыңыз үшін жергілікті сақтық көшірмесін орнатыңыз",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Жасаған әрбір жазбаның көшірмесін сақтаңыз. Сақтық көшірмесін орнатпасаңыз, жазбаларыңыз тек оларды жүктеп алуды таңдағанда сақталады.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Жазбаларды Жүктемелер немесе басқа жүйелік қалталарға сақтауға тырыссаңыз, алдын ала жаңа қалта жасауыңыз қажет болуы мүмкін.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Қалтаны таңдау",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Қазір емес",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Жазбаларыңыз жергілікті түрде сақтық көшірмеленеді",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Әрбір жазу кезінде рұқсат сұралмауы үшін бұл бетті ашық қалдыруды ұсынамыз.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Бетті қалай болса солай жабу",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Барлық жазбалардың сақтық көшірмесін тоқтату",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Жергілікті CocoShot сақтық көшірме қалтасына қол жеткізуді растаңыз",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Кешіріңіз, жазбаларыңызды сақтық көшірмелеуді жалғастыру үшін тағы да рұқсатыңыз қажет. Өкінішке орай, бұл бет жабылған сайын (браузерді жапқанда немесе компьютерді қайта қосқанда болуы мүмкін) бізге әрбір рет рұқсат сұрау керек болады.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "CocoShot-тың жазбаларды сақтық көшірмелеуді жалғастыруына рұқсат беру",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Жазбаларды сақтық көшірмелеу",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Жазбаны сақтық көшірмелеу рұқсаты берілмеді",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Жазба сақтық көшірмелеріңізді сақтау үшін қалта таңдамадыңыз. Браузер нұсқасына немесе операциялық жүйеге байланысты, әрбір жазу басталғанда бұл қалтаны таңдауды сұрауы мүмкін. Қайтадан орнату процесін көре аласыз немесе рұқсатты қайта-қайта беруді қаламасаңыз, сақтық көшірмесін толық өшіре аласыз.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Компьютер дыбысын жазу",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "macOS жүйелерінде жеке беттерден дыбыс жазумен шектеліпсыз. Chrome бетінің жазу опциясын таңдап, 'Беттің дыбысын да бөлісу' параметрі қосылғанын тексеріңіз.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Компьютер дыбысын жазу",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Компьютеріңізден дыбыс жапсырғыңыз келсе, 'Жүйе дыбысын бөлісу' опциясы қосылғанына көз жеткізіңіз. Бұл опция көрінбесе, Chrome жаңартуды немесе беттік жазу режиміне ауысуды қарастырыңыз.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Максималды ажыратымдылық",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Максималды FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Жеткіліксіз RAM",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Терезені өлшемдеу",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Бұл ажыратымдылық үшін экран тым кіші",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Құрылғыңызда бұл ажыратымдылықта жазу мүмкін емес",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Рұқсат берілмеді",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Жазу үшін камера мен микрофон рұқсаттары қажет. Браузер параметрлерінде рұқсат беріңіз.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Жазу үшін камера рұқсаты қажет. Браузер параметрлерінде рұқсат беріңіз.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Жазу үшін микрофон рұқсаты қажет. Браузер параметрлерінде рұқсат беріңіз.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Рұқсаттарды түзету",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Экран Жазу Параметрлері",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "с",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "м",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "с",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Камера рұқсаты сұралуда...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Микрофон рұқсаты сұралуда...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Камера рұқсатын сұрау",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Микрофон рұқсатын сұрау",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Рұқсаттарды қарау",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Опцияларды реттеу",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Жазылған Бейнелер",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Әлі бейне жазылмады",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Дыбыс өшіру үшін басу",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Камераға қол жеткізу үшін сіздің рұқсатыңыз қажет",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Микрофонға қол жеткізу үшін сіздің рұқсатыңыз қажет",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Қарау",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Түс Таңдаушы",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Жабу",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Экраннан түс таңдау",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API бұл браузерде қолданылмайды. Chrome 95+ немесе Edge 95+ сияқты заманауи браузерді пайдаланыңыз.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Бұлдырату аймағын таңдау",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Барлық бұлдырату аймақтарын жою",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Сызық Ені",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Жіңішке",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Орташа",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Қалың",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Өте Қалың",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot Жазбалары",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Жергілікті сақтық көшірмесін орнату мүмкін болмады. Көбірек ақпарат үшін support@cocoshot.net мекенжайына хабарласыңыз. Сіз әлі де экраныңызды жаза аласыз.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Браузеріңіз жергілікті сақтық көшірмелерді қолдамайды. Көбірек ақпарат үшін support@cocoshot.net мекенжайына хабарласыңыз. Сіз әлі де экраныңызды жаза аласыз.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Курсорға дейінгі масштабты пайдалану жолы",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Жазу кезінде курсор позициясына қарай масштабтау үшін пернетақта жарлықтарын басып тұрыңыз. Қайтадан масштабтау үшін пернелерді босатыңы. Бұл жазу кезінде экранның белгілі бір аймақтарын ерекшелеу үшін өте ыңғайлы.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Түсіндім!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Аймақ Өлшемі",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Пресеттер",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Қайта орнату",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Жоқ",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Бұлдырату",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Бокэ",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Сурет",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Алдымен бейне файлын жүктеп алыңыз",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "WebM ретінде жүктеп алу",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "MP4 ретінде жүктеп алу",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Түрлендіру...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Бөліктер өңделуде:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Бейне өлшемі ұсынылған лимиттен (1GB) асады, бұл өңдеу сәтсіздігіне əкелуі мүмкін",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Үлкен бейне (1GB) жүктеп алынды. Өңдеу ұзақ уақыт алуы мүмкін. Жалғастыру?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Қолдау көрсетілмейтін бейне форматы. Басқа бейне форматын көріңіз.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Жүктеп алу сəтсіз болды. Қайталап көріңіз.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4 Түрлендіру Қолжетімсіз",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Бұл бейне браузерде MP4-ке түрлендіру үшін тым үлкен. Оны WebM ретінде жүктеп алыңыз.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "MP4-ке түрлендіру...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Бейнені жүктеп алу мүмкін болмады. Қайталап көріңіз.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "бейнені өңдеу",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Жақында.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Бейне Алдын ала қарау",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Жадқа жазылуда...",
+    "description": "Message shown when writing video to storage"
+  }
+}

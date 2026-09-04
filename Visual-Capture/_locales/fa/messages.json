@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: اسکرین شات و ضبط صفحه"
+  },
+  "extDescription": {
+    "message": "اسکرین شات های تمام صفحه بگیرید و صفحه را با فرمت MP4 با توضیحات ضبط کنید. صادرات PDF با لینک های قابل کلیک گنجانده شده است."
+  },
+  "pDisable": {
+    "message": "در این صفحه غیرفعال شده است"
+  },
+  "pDisableDesc": {
+    "message": "شما می‌توانید این را در هر صفحه وبی اجرا کنید، به جز صفحاتی که مرورگر اجرای اسکریپت‌های افزونه‌ها را محدود می‌کند. این شامل فروشگاه وب افزونه، صفحات تنظیمات مرورگر و دیگر صفحات افزونه‌ها می‌شود."
+  },
+  "pDisableExp": {
+    "message": "این محدودیت ناشی از خود مرورگر به دلیل خطرات امنیتی است."
+  },
+  "pDisableTry": {
+    "message": "شما می‌توانید یک صفحه جدید باز کنید و عملکرد capture را امتحان کنید."
+  },
+  "pStart": {
+    "message": "شروع"
+  },
+  "pFileUrl": {
+    "message": "به \"edge://extensions/\" بروید و کادر \"اجازه دسترسی به URLهای فایل\" را تیک بزنید."
+  },
+  "pCaptV": {
+    "message": "اسکرین شات از بخش‌های قابل مشاهده صفحه را بگیرید."
+  },
+  "pAsOne": {
+    "message": "به عنوان یک فایل HTML واحد ذخیره کنید."
+  },
+  "pDesktop": {
+    "message": "اسکرین شات از یک وب‌سایت، تب، پنجره یا کل صفحه را بگیرید."
+  },
+  "pCaptFull": {
+    "message": "اسکرین شات از صفحه کامل را بگیرید."
+  },
+  "pDesableOpt": {
+    "message": "یا می‌توانید امتحان کنید:"
+  },
+  "pAreaCut": {
+    "message": "یک قسمت از صفحه را برای گرفتن اسکرین شات انتخاب کنید."
+  },
+  "fullpageTooLarge": {
+    "message": "توجه: مرورگر نمی‌تواند کل صفحه را به دلیل اندازه آن به عنوان یک تصویر ضبط کند. در عوض، به <strong>$1</strong> تصویر جداگانه تقسیم خواهد شد."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "هشدار: این افزونه برای ضبط محتوای بسیار بزرگ طراحی نشده است. ممکن است نتواند ضبط این صفحه را با موفقیت به پایان برساند."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "نیاز به دسترسی اضافی"
+  },
+  "framePermDesc": {
+    "message": "این سایت از طریق یک iframe جاسازی‌شده محتوا را نمایش می‌دهد که برای دسترسی به آن نیاز به مجوزهای اضافی است."
+  },
+  "WhatisIframe": {
+    "message": "برای یادگیری اینکه iframe چیست، کلیک کنید."
+  },
+  "framePermMore": {
+    "message": "ممکن است بعد از استفاده از این دیالوگ نیاز به راه‌اندازی مجدد افزونه باشد. لغو کردن فقط صفحه نمایش قابل مشاهده را ضبط خواهد کرد."
+  },
+  "framePermConfirm": {
+    "message": "اجازه بده"
+  },
+  "framePermSave": {
+    "message": "این مجوز را برای استفاده بعدی ذخیره کن (شما می‌توانید آن را در هر زمان لغو کنید)."
+  },
+  "error": {
+    "message": "خطا"
+  },
+  "captureError": {
+    "message": "خطای ضبط، لطفاً بعداً دوباره تلاش کنید. اگر مشکل ادامه یافت، لطفاً با توسعه‌دهنده تماس بگیرید: $1"
+  },
+  "btnOk": {
+    "message": "تأیید"
+  },
+  "btnCancel": {
+    "message": "لغو"
+  },
+  "saveFramePermission": {
+    "message": "اجازه دادن به ضبط محتوا از تمام فریم‌ها"
+  },
+  "permissions": {
+    "message": "مجوزها"
+  },
+  "saveframepDesc": {
+    "message": "این مجوز برای ضبط محتوا از iframe‌ها یا فریم‌ست‌های صفحه نیاز است. غیرفعال کردن این مجوز ممکن است توانایی ضبط برخی از عناصر صفحه وب را محدود کند."
+  },
+  "processingScreenshot": {
+    "message": "در حال پردازش عکس صفحه..."
+  },
+  "screenshotSaved": {
+    "message": "عکس صفحه در پوشه دانلودها ذخیره شد"
+  },
+  "screenshotLoadFailed": {
+    "message": "بارگذاری عکس صفحه انجام نشد. لطفاً دوباره تلاش کنید."
+  },
+  "getScreenshotFailed": {
+    "message": "گرفتن عکس صفحه انجام نشد. لطفاً دوباره تلاش کنید."
+  },
+  "processingAllAreas": {
+    "message": "در حال پردازش عکس‌های صفحه از همه مناطق..."
+  },
+  "allAreasSaved": {
+    "message": "عکس‌های صفحه $1 منطقه با موفقیت ذخیره شدند"
+  },
+  "areaNotVisible": {
+    "message": "منطقه انتخاب شده تقریباً کاملاً خارج از محدوده قابل مشاهده است و قابل عکس‌برداری نیست."
+  },
+  "partiallyVisible": {
+    "message": "بخشی از منطقه خارج از محدوده قابل مشاهده است. بخش قابل مشاهده عکس گرفته شده است."
+  },
+  "partiallyVisibleArea": {
+    "message": "بخشی از منطقه انتخاب شده خارج از محدوده قابل مشاهده است. بخش قابل مشاهده عکس گرفته شده است."
+  },
+  "areaOutOfView": {
+    "message": "منطقه انتخاب شده خارج از محدوده قابل مشاهده است. لطفاً صفحه را اسکرول کنید تا منطقه قابل مشاهده شود و دوباره تلاش کنید."
+  },
+  "processingError": {
+    "message": "خطا در پردازش عکس صفحه: $1"
+  },
+  "saveFailed": {
+    "message": "ذخیره عکس صفحه انجام نشد: $1"
+  },
+  "smartModeEnabled": {
+    "message": "حالت عکس‌برداری هوشمند فعال شد. برای انتخاب عنصر کلیک کنید (Enter برای تأیید، Esc برای لغو)."
+  },
+  "processing": {
+    "message": "در حال پردازش کپی..."
+  },
+  "copyFailed": {
+    "message": "کپی انجام نشد: $1"
+  },
+  "canvasContextError": {
+    "message": "کپی انجام نشد: امکان دریافت زمینه Canvas وجود ندارد."
+  },
+  "copied": {
+    "message": "به کلیپ‌بورد کپی شد"
+  },
+  "clipboardAccessDenied": {
+    "message": "کپی انجام نشد: دسترسی به کلیپ‌بورد رد شد، $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "کپی انجام نشد: API کلیپ‌بورد پشتیبانی نمی‌شود"
+  },
+  "imageDataCreateFailed": {
+    "message": "کپی انجام نشد: امکان ایجاد داده تصویر وجود ندارد"
+  },
+  "copyAreaOutOfView": {
+    "message": "کپی انجام نشد: منطقه انتخاب شده خارج از محدوده قابل مشاهده است"
+  },
+  "imagePreviewShown": {
+    "message": "پیش‌نمایش تصویر نمایش داده شد. برای کپی کلیک راست کنید."
+  },
+  "escape": {
+    "message": "لغو (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "کیفیت تصویر تنظیم شد به: $1"
+  },
+  "qrDecoding": {
+    "message": "در حال رمزگشایی کد QR..."
+  },
+  "qrSuccess": {
+    "message": "کد QR با موفقیت رمزگشایی شد. به کلیپ‌بورد کپی شد."
+  },
+  "qrNoQRFound": {
+    "message": "هیچ کد QR معتبری یافت نشد"
+  },
+  "qrError": {
+    "message": "رمزگشایی کد QR انجام نشد: $1"
+  },
+  "saveArea": {
+    "message": "ذخیره این منطقه"
+  },
+  "copyToClipboard": {
+    "message": "کپی این انتخاب (در حال حاضر انتخاب شده)"
+  },
+  "saveAllAreas": {
+    "message": "ذخیره همه مناطق"
+  },
+  "keepAndContinue": {
+    "message": "افزودن انتخاب جدید"
+  },
+  "cancel": {
+    "message": "لغو"
+  },
+  "lockSize": {
+    "message": "قفل اندازه"
+  },
+  "lockSizeActive": {
+    "message": "✓ قفل اندازه"
+  },
+  "freeRatio": {
+    "message": "نسبت آزاد"
+  },
+  "ratioLabel": {
+    "message": "انتخاب نسبت"
+  },
+  "aiDialog": {
+    "message": "گفتگوی هوشمند"
+  },
+  "fileSizeEstimate": {
+    "message": "تقریباً $1 $2"
+  },
+  "qrDecode": {
+    "message": "رمزگشایی کد QR"
+  },
+  "removeBackground": {
+    "message": "حذف پس‌زمینه"
+  },
+  "processingBackgroundRemoval": {
+    "message": "در حال حذف پس‌زمینه..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "حذف پس‌زمینه انجام نشد: خطا در بارگذاری تصویر"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "حذف پس‌زمینه انجام نشد: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "پس‌زمینه حذف و به کلیپ‌بورد کپی شد"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "حذف پس‌زمینه انجام نشد: امکان ایجاد Blob وجود ندارد"
+  },
+  "selectedAreaOutOfView": {
+    "message": "منطقه انتخاب شده خارج از دید است"
+  },
+  "screenshotFailed": {
+    "message": "عکس صفحه انجام نشد: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "پردازش تصویر انجام نشد، لطفاً دوباره تلاش کنید"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "منطقه عکس صفحه خارج از محدوده قابل مشاهده است"
+  },
+  "errorProcessingImage": {
+    "message": "خطا در پردازش تصویر: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "کتابخانه رمزگشایی کد QR بارگذاری نشده است"
+  },
+  "qrDecodingFailed": {
+    "message": "رمزگشایی کد QR انجام نشد: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "کد QR در منطقه انتخاب شده یافت نشد"
+  },
+  "qrDecodingSuccess": {
+    "message": "رمزگشایی کد QR با موفقیت انجام شد: $1"
+  },
+  "qrDecodingError": {
+    "message": "خطا در رمزگشایی کد QR: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "حذف پس‌زمینه انجام نشد: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "لطفاً ابتدا یک منطقه عکس صفحه انتخاب کنید"
+  },
+  "aiDialogTitle": {
+    "message": "گفتگوی هوشمند درباره محتوای عکس صفحه"
+  },
+  "qrDecodeTitle": {
+    "message": "رمزگشایی کد QR در عکس صفحه"
+  },
+  "lockSizeTitle": {
+    "message": "قفل اندازه فعلی برای عکس‌برداری مداوم"
+  },
+  "moveHint": {
+    "message": "کشیدن منطقه انتخاب (فاصله + کشیدن)"
+  },
+  "saveAreaTooltip": {
+    "message": "ذخیره منطقه فعلی"
+  },
+  "saveAllAreasTooltip": {
+    "message": "ذخیره همه مناطق انتخاب شده"
+  },
+  "copyToClipboardTooltip": {
+    "message": "کپی عکس صفحه به کلیپ‌بورد"
+  },
+  "moreOptions": {
+    "message": "گزینه‌های بیشتر"
+  },
+  "removeBgTooltip": {
+    "message": "حذف پس‌زمینه و کپی به کلیپ‌بورد"
+  },
+  "ratioLabelTooltip": {
+    "message": "انتخاب نسبت تصویر"
+  },
+  "keepAndContinueTooltip": {
+    "message": "نگه داشتن انتخاب فعلی و ادامه"
+  },
+  "pCaptureTabLabel": {
+    "message": "عکس از صفحه"
+  },
+  "pAiToolsTabLabel": {
+    "message": "ابزارهای هوش مصنوعی"
+  },
+  "pCaptureTitle": {
+    "message": "عکس از صفحه تمام صفحه و ناحیه انتخاب شده"
+  },
+  "pAiToolsTitle": {
+    "message": "ابزارهای مرتبط با هوش مصنوعی"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "ابزارهای صادرات محتوای وب"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "ابزارهای تصویر"
+  },
+  "pDownloadAsMD": {
+    "message": "دانلود به عنوان Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "دانلود به عنوان PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "صفحه وب فعلی را به عنوان یک فایل Markdown بارگیری کنید"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "صفحه وب فعلی را به عنوان یک فایل PDF بارگیری کنید"
+  },
+  "pImageProcessing": {
+    "message": "پردازش تصویر"
+  },
+  "pImageProcessingTooltip": {
+    "message": "مجموعه ای از ابزارها برای پردازش تصویر"
+  },
+  "fixThePage": {
+    "message": "صفحه را اصلاح کنید"
+  },
+  "expandScrollableOn": {
+    "message": "گسترش مناطق قابل پیمایش"
+  },
+  "expandScrollableOnDesc": {
+    "message": "قبل از گرفتن عکس از صفحه، مناطق قابل پیمایش در صفحه وب را گسترش دهید"
+  },
+  "hideFixedOn": {
+    "message": "پنهان کردن عناصر با موقعیت ثابت"
+  },
+  "hideFixedOnDesc": {
+    "message": "برای پنهان کردن عناصری با موقعیت ثابت که ممکن است در ضبط اختلال ایجاد کنند، فعال کنید"
+  },
+  "preScrollOn": {
+    "message": "بارگیری صفحه وب با پیش پیمایش"
+  },
+  "preScrollOnDesc": {
+    "message": "بسیاری از عناصر وب (به عنوان مثال، تصاویر) فقط با پیمایش بارگیری می شوند. هنگامی که فعال باشد، به طور خودکار قبل از گرفتن عکس از صفحه، به پایین صفحه شناسایی و پیمایش می کند."
+  },
+  "canBeDisabled": {
+    "message": "می توان از طریق صفحه تنظیمات غیرفعال کرد"
+  },
+  "analyzingPageForHTML": {
+    "message": "در حال تجزیه و تحلیل کد و محتوay صفحه وب، صفحات پیچیده ممکن است بیشتر طول بکشد. اگر خیلی طول کشید، لطفاً صفحه وب را بازخوانی کرده و دوباره امتحان کنید."
+  },
+  "drawerSettings": {
+    "message": "تنظیمات"
+  },
+  "drawerScreenshotHistory": {
+    "message": "تاریخچه عکس از صفحه"
+  },
+  "drawerImageTools": {
+    "message": "ابزارهای بهبود عکس از صفحه"
+  },
+  "drawerHelpFeedback": {
+    "message": "سوالات متداول و بازخورد"
+  },
+  "drawerCloseMenu": {
+    "message": "بستن این منو"
+  },
+  "logoTooltip": {
+    "message": "مشاهده بیشتر"
+  },
+  "pRecorderTabLabel": {
+    "message": "سکرین ریکارڈر"
+  },
+  "pRecorderTitle": {
+    "message": "سکرین ریکارڈر"
+  },
+  "pStartRecorder": {
+    "message": "سکرین ریکارڈنگ شروع کریں"
+  },
+  "pStartRecorderLabel": {
+    "message": "سکرین ریکارڈنگ"
+  },
+  "pRecorderAlt": {
+    "message": "ریکارڈر"
+  },
+  "pStartRecorderAlt": {
+    "message": "سکرین ریکارڈر"
+  },
+  "pRecorderBetaNotice": {
+    "message": "یہ ایک بیٹا ورژن ہے"
+  },
+  "pRecorderFeedback": {
+    "message": "رائے فراہم کریں"
+  },
+  "downloadsPermission": {
+    "message": "فائل ڈاؤن لوڈ کی اجازت دیں"
+  },
+  "downloadsPermissionDesc": {
+    "message": "آپ کے کمپیوٹر پر براہ راست اسکرین شاٹس محفوظ کرنے کے لیے اس اجازت کی ضرورت ہے۔"
+  },
+  "webNavigationPermission": {
+    "message": "ویب نیویگیشن تک رسائی کی اجازت دیں"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "صفحہ کی تبدیلیوں کا پتہ لگانے اور ضرورت پڑنے پر مختلف صفحات پر جانے کے لیے اس اجازت کی ضرورت ہے۔"
+  },
+  "desktopCapturePermission": {
+    "message": "ڈیسک ٹاپ کیپچر کی اجازت دیں"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "آپ کے ڈیسک ٹاپ یا مخصوص ونڈوز سے مواد کو کیپچر کرنے کے لیے اس اجازت کی ضرورت ہے۔"
+  },
+  "tabsPermission": {
+    "message": "ٹیب تک رسائی کی اجازت دیں"
+  },
+  "tabsPermissionDesc": {
+    "message": "براؤزر ٹیب کی معلومات تک رسائی اور اس کا نظم کرنے کے لیے اس اجازت کی ضرورت ہے۔"
+  },
+  "tabCapturePermission": {
+    "message": "ٹیب کیپچر کی اجازت دیں"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "براؤزر ٹیب سے آڈیو اور ویڈیو کو کیپچر کرنے کے لیے اس اجازت کی ضرورت ہے۔"
+  },
+  "allUrlsPermission": {
+    "message": "تمام ویب سائٹس تک رسائی کی اجازت دیں"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "کسی بھی ویب سائٹ سے اسکرین شاٹس کو کیپچر کرنے کے لیے اس اجازت کی ضرورت ہے۔"
+  },
+  "fileUrlsPermission": {
+    "message": "مقامی فائلز تک رسائی کی اجازت دیں"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "مقامی فائلز (file:// URL) سے اسکرین شاٹس کو کیپچر کرنے کے لیے اس اجازت کی ضرورت ہے۔"
+  },
+  "pIncludeImagesTooltip": {
+    "message": "کیا ڈاؤن لوڈ میں تصاویر شامل کریں"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "اس خصوصیت کے لیے CocoShot Pro درکار ہے"
+  },
+  "proUpgradeButton": {
+    "message": "پرو میں اپ گریڈ کریں"
+  },
+  "proSaveRestricted": {
+    "message": "اس مواد کو محفوظ کرنے کے لیے CocoShot Pro درکار ہے"
+  },
+  "qv_title": {
+    "message": "پیش‌نمایش CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "حالت پیش‌نمایش"
+  },
+  "qv_screenshot_preview": {
+    "message": "پیش‌نمایش اسکرین‌شات"
+  },
+  "qv_download": {
+    "message": "دانلود"
+  },
+  "qv_edit": {
+    "message": "یادداشت‌گذاری، ویرایش (امکان خروجی PDF نیز وجود دارد)"
+  },
+  "qv_hint": {
+    "message": "کاربران با تجربه به‌طور خودکار از این صفحه عبور کرده و به ویرایشگر می‌روند."
+  },
+  "recordTab": {
+    "message": "ضبط",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "فیلم‌های شما",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "صفحه",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "تب",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "فقط دوربین",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "ماکت",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "ضبط ناحیه سفارشی غیرفعال شد",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Chrome را به نسخه ۱۱۰+ به‌روزرسانی کنید",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "به‌روزرسانی",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "مجوزهای خود را بررسی کنید",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "به نظر می‌رسد CocoShot نمی‌تواند به دوربین یا میکروفون شما دسترسی پیدا کند. برای حل این مشکل، آن را در تنظیمات مرورگر خود رفع انسداد کنید و مجوزهای لازم را اعطا کنید.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "رد کردن",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "اجازه دسترسی به دوربین",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "اجازه دسترسی به میکروفون",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "فشار دهید تا صحبت کنید",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "تنظیم ناحیه ضبط",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "چرخاندن دوربین",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "افکت‌های پس‌زمینه",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "شروع ضبط",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "در حال شروع ضبط...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "دوربین را انتخاب کنید",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "گزینه‌های بیشتر",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "صدای سیستم",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "مخفی کردن نوار ابزار",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "شمارش معکوس",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "تنظیم محدودیت زمانی",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "تار کردن",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "هیچ",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "بدون دوربین",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "بدون میکروفون",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "یک منبع انتخاب کنید",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "خاموش",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "عرض",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "ارتفاع",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "برای قرار دادن تصویر کلیک کنید",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "پایان ضبط",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "شروع مجدد ضبط",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "مکث ضبط",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "ادامه ضبط",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "لغو ضبط",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "تغییر ابزارهای ترسیم",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "تغییر ابزار تار کردن",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "تغییر گزینه‌های نشانگر",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "غیرفعال کردن دوربین",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "فعال کردن دوربین",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "بدون مجوز دوربین",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "تنظیمات دوربین",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "آینه کردن دوربین",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "تاری پس‌زمینه",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "غیرفعال کردن میکروفون",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "فعال کردن میکروفون",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "بدون مجوز میکروفون",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "انتخاب ابزار",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "ابزار قلم",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "ابزار هایلایت",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "پاک‌کن",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "متن",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "شکل",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "پیکان",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "تصویر",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "بازگشت",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "تکرار",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "پاک کردن بوم",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "رنگ‌های بیشتر",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "خط ضخیم",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "خط متوسط",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "خط نازک",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "تغییر حالت تصویر در تصویر",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "تغییر پر کردن",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "حالت ترسیم",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "حالت تاری",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "پاک کردن همه عناصر تار",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "برجسته کردن کلیک‌ها",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "برجسته کردن نشانگر",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "نشانگر نورافکن",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "دیگر نشان نده",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "شروع مجدد ضبط؟",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "پیشرفت فعلی شما از بین خواهد رفت.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "شروع مجدد",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "ادامه",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "رد کردن ضبط؟",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "پیشرفت فعلی شما از بین خواهد رفت.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "رد کردن",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "ادامه",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "ضبط شما اینجا ذخیره می‌شود",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "در حال ضبط...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "این تب را باز نگه دارید. پس از ذخیره ضبط شما بسته می‌شود.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "آماده‌سازی ضبط...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "این تب را باز نگه دارید. با آماده شدن ضبط شما به‌روزرسانی می‌شود.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "ویرایشگر",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "لغو",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "بازگشت به نسخه اصلی",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "بازنشانی",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "ذخیره تغییرات",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "در حال ذخیره...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "فایل صوتی خود را بکشید و رها کنید",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "یا برای مرور کلیک کنید",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "تنظیمات",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "صدا",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "به‌روزرسانی",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "برش",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "عرض",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "ارتفاع",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "چپ",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "بالا",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "دستگیره‌ها را بکشید و از دکمه‌های سمت چپ برای ویرایش بخش انتخاب‌شده استفاده کنید.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "برش ویدیو",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "در حال برش...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "برش بخش",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "در حال برش...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "بی‌صدا کردن",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "در حال بی‌صدا کردن...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "بیشتر بدانید.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "بازگشت",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "تکرار",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "یک نظر بگذارید، کمک می‌کند!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "شما در حال حاضر آفلاین هستید",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "برخی از ویژگی‌ها تا زمان اتصال مجدد در دسترس نیستند",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "دوباره تلاش کنید",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome باید به‌روزرسانی شود",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "به‌روزرسانی کنید تا به ویژگی‌های بیشتری دسترسی داشته باشید",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "بیشتر بدانید",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "ویدیو برای پردازش در دستگاه خیلی طولانی است",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "ویرایش و صادرات MP4 در دسترس نیست",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "ویدیو به صورت محلی پردازش می‌شود...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "درباره نسخه ابری سریع‌تر بدانید",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "ویرایش",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "بدون اتصال",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "در دسترس نیست",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "ویرایش ویدیو",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "برش، بریدن یا بی‌صدا کردن ویدیو",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "آماده‌سازی ویدیو، لطفاً صبر کنید...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "برش",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "برش و تغییر اندازه ویدیو",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "افزودن صدا",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "صوت خود را آپلود کنید تا به ویدیو اضافه شود",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "ذخیره",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "خروج از Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "در حال ذخیره...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "ذخیره در Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "نسخه فعلی را در Google Drive ذخیره کنید",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "وارد شوید و در Google Drive ذخیره کنید",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "در حال دانلود...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "دانلود به عنوان .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "صدادرآوردن یک ویدیوی .webm",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "دانلود به عنوان .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "صدادرآوردن یک ویدیوی .mp4 (توصیه شده)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "دانلود به عنوان .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "صدادرآوردن یک GIF (حداکثر 30 ثانیه)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "جایگزینی صدای موجود",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "بزرگ‌نمایی به نشانگر",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "در حین ضبط در صفحه بمانید",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "هشدار میکروفون خاموش",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "راهنما",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "ضبط مکث شد. برای ادامه دکمه پخش را فشار دهید.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot مجوز ضبط صفحه شما را ندارد",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "برای عملکرد ضبط صفحه، باید به CocoShot اجازه دهید صفحه شما را هنگام درخواست مجوز ضبط کند.(می‌توانید آن را در هر زمان در تنظیمات برنامه لغو کنید.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "فعال کردن ضبط صفحه",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "لغو",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "میکروفون شما بی‌صدا است",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "اگر می‌خواهید صدای شما در ضبط گنجانده شود، باید میکروفون را روشن کنید. مایلید صرف‌نظر از صدا ضبط را ادامه دهید؟",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "بله، ادامه",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "لغو",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "آرام باشید. برای متوقف کردن شمارش معکوس هر جا کلیک کنید.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "ویرایش‌ها ممکن است برای بازه‌های زمانی کوتاه به دلیل فاصله بین فریم‌ها نادرست باشند.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "ویدیو در حال پردازش است، پخش ممکن است نادرست یا قطع شود.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "برش ممکن است کمی طول بکشد",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "ارتقا برای پردازش سریع‌تر",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "میکروفون فعال شد",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "میکروفون غیرفعال شد",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "ضبط کمتر از 3 ثانیه بود و ذخیره نشد.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "مخفی کردن اعلان‌های رابط کاربری",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "دیگر نشان نده",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "مخفی کردن نوار ابزار در صورت عدم استفاده",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "شروع ضبط",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "توقف ضبط",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "به CocoShot جدید خوش آمدید!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "درباره به‌روزرسانی بیشتر بدانید.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "شروع کنید",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "خطا در شروع ضبط",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "خطایی در شروع فرآیند ضبط رخ داد. لطفاً مرورگر را مجدداً راه‌اندازی کنید و دوباره امتحان کنید. اگر مشکل ادامه داشت، با ما در support@cocoshot.net تماس بگیرید.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "بالاترین کیفیت",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "بازیابی آخرین ضبط ویدیویی",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "مشکلی دارید؟",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "ضبط خود را نمی‌بینید؟",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "اگر ضبط را تمام کرده‌اید اما ویدیوی خود را در این صفحه نمی‌بینید، می‌توانید سعی کنید داده‌های خام ویدیو را دانلود کنید. alternatively، می‌توانید با ارسال گزارش باگ با ما تماس بگیرید.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "دانلود داده‌های خام ویدیو",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "گزارش باگ",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "ضبطی یافت نشد، متأسفیم :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "محدودیت حافظه رسید",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "دستگاه شما حافظه کافی برای ضبط ندارد، که باعث می‌شود جلسه به طور خودکار پایان یابد. برای ضبط ویدیوهای طولانی‌تر، کیفیت ویدیو را کاهش دهید یا فضای ذخیره‌سازی را در دستگاه خود آزاد کنید.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "فهمیدم",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "فضای کافی نیست",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot برای ضبط به حداقل 1 گیگابایت فضای خالی نیاز دارد. لطفاً فضا را خالی کنید و دوباره امتحان کنید.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "پاک کردن ضبط‌های قبلی",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "پیشرفته",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "دانلود فایل ویدیویی خام",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "صدادرآوردن داده‌های ضبط اصلی",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "دریافت کمک برای ضبط",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "ویدیوی خود را بازیابی کنید و سایر مشکلات را حل کنید",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "دانلود فایل ویدیویی خام",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "فایل ویدیویی خام به ضبط تغییر نکرده‌ای اشاره دارد که مستقیماً توسط CocoShot ایجاد شده است. از آنجایی که این فایل پردازش یا ویرایش نشده است، ممکن است بسیار بزرگ و با برخی دستگاه‌ها ناسازگار باشد. اگر با نسخه پردازش‌شده مشکل دارید، می‌توانید از این فایل برای بازیابی ضبط اصلی خود استفاده کنید.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "دانلود",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "نمایش شکل‌موج صدا",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "دانلود اطلاعات سیستم و داده‌های ویدیو و ارسال برای عیب‌یابی",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "پس از دانلود فایل، لطفاً آن را همراه با هرگونه جزئیات اضافی که ممکن است مفید باشند به support@cocoshot.net ارسال کنید. ما از این اطلاعات برای کمک به شما در حل مشکلات برنامه و در صورت امکان بازیابی ویدیوی شما استفاده خواهیم کرد.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "دانلود",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "ویدیو برای پردازش در دستگاه شما خیلی طولانی است",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "از آنجایی که CocoShot حریم خصوصی را در اولویت قرار می‌دهد و کاملاً روی دستگاه محلی شما کار می‌کند، توسط قابلیت‌های سخت‌افزاری شما محدود است. مدیریت ویدیویی با این مدت زمان بسیار وقت‌گیر خواهد بود و به منابع قابل توجهی سیستم نیاز دارد. همچنان می‌توانید فایل WEBM یا ضبط خام را دریافت کنید، اگرچه ویژگی‌های ویرایش و صادرات MP4 در دسترس نخواهند بود. با این حال، اگر از چالش‌های احتمالی آگاه هستید، می‌توانید صرف‌نظر از این موضوع به پردازش ویدیو ادامه دهید.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "خطر را می‌فهمم، به هر حال امتحان کنید",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "درباره پردازش ویدیوهای طولانی بیشتر بدانید.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "حالت بازیابی",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "دانلود داده‌ها برای عیب‌یابی",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "مرکز راهنما",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "ضبط صدای رایانه",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "برای ضبط صدا از این صفحه، باید به «$tab$» بروید.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "برنامه در تب پشتیبانی نمی‌شود",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot با تبی که اخیراً استفاده کردید سازگار نیست. همچنان می‌توانید ضبط را از این صفحه شروع کنید و سپس به آن تب برگردید، اما توجه داشته باشید که فید دوربین و نوار ابزار ویرایش نمایش داده نخواهد شد.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "یک پشتیبان محلی برای ضبط‌های CocoShot خود تنظیم کنید",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "کپی‌هایی از هر ضبطی که ایجاد می‌کنید نگه دارید. بدون تنظیم پشتیبان، ضبط‌های شما فقط زمانی ذخیره می‌شوند که صریحاً انتخاب کنید آنها را دانلود کنید.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "اگر سعی می‌کنید ضبط‌ها را در دانلودها یا سایر فهرست‌های سیستم ذخیره کنید، ممکن است نیاز به ایجاد یک پوشه جدید داشته باشید.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "انتخاب پوشه",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "الان نه",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " ضبط‌های شما به صورت محلی پشتیبان‌گیری می‌شوند",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "برای جلوگیری از درخواست مجوز در هر بار ضبط، توصیه می‌کنیم این تب را باز نگه دارید.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "به هر حال تب را ببندید",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "توقف پشتیبان‌گیری از همه ضبط‌ها",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "لطفاً دسترسی به پوشه پشتیبان محلی CocoShot را تأیید کنید",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "متأسفیم، اما برای ادامه پشتیبان‌گیری از ضبط‌های شما به مجوز شما نیاز داریم. متأسفانه، باید این مجوز را هر بار که این تب بسته می‌شود درخواست کنیم، که می‌تواند هنگام خاموش کردن مرورگر یا راه‌اندازی مجدد رایانه شما رخ دهد.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "به CocoShot اجازه دهید به پشتیبان‌گیری از ضبط‌ها ادامه دهد",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "پشتیبان‌گیری از ضبط‌ها",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "مجوز برای پشتیبان‌گیری از ضبط داده نشد",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "پوشه‌ای برای ذخیره پشتیبان‌های ضبط‌های خود انتخاب نکرده‌اید. بسته به نسخه مرورگر یا سیستم‌عامل شما، ممکن است هر بار که ضبط را شروع می‌کنید از شما خواسته شود این پوشه را انتخاب کنید. می‌توانید فرآیند راه‌اندازی را دوباره امتحان کنید، یا اگر ترجیح می‌دهید مجوزها را مکرراً ندهید، پشتیبان‌ها را کاملاً خاموش کنید.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "ضبط صدای رایانه",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "در سیستم‌های macOS، شما محدود به ضبط صدا از تب‌های جداگانه هستید. گزینه ضبط تب Chrome را انتخاب کنید و تأیید کنید که تنظیم 'همچنین صدای تب را به اشتراک بگذار' روشن است.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "ضبط صدای رایانه",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "اگر می‌خواهید صدا را از رایانه خود ضبط کنید، مطمئن شوید که گزینه 'اشتراک‌گذاری صدای سیستم' فعال است. اگر این گزینه قابل مشاهده نیست، به‌روزرسانی Chrome یا تغییر به حالت ضبط تب را در نظر بگیرید.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "حداکثر وضوح",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "حداکثر FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "RAM کافی نیست",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "تغییر اندازه پنجره",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "صفحه برای این وضوح خیلی کوچک است",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "نمی‌توان با این وضوح در دستگاه شما ضبط کرد",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "مجوز رد شد",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "برای ضبط به مجوزهای دوربین و میکروفون نیاز است. لطفاً در تنظیمات مرورگر مجوزها را اعطا کنید.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "برای ضبط به مجوز دوربین نیاز است. لطفاً در تنظیمات مرورگر مجوز اعطا کنید.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "برای ضبط به مجوز میکروفون نیاز است. لطفاً در تنظیمات مرورگر مجوز اعطا کنید.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "رفع مجوزها",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "تنظیمات ضبط صفحه",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "س",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "د",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "ث",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "درخواست مجوز دوربین...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "درخواست مجوز میکروفون...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "درخواست مجوز دوربین",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "درخواست مجوز میکروفون",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "بررسی مجوزها",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "سفارشی‌سازی گزینه‌ها",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "ویدیوهای ضبط‌شده",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "هنوز ویدیویی ضبط نشده است",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "فشار دهید تا بی‌صدا کنید",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "برای دسترسی به دوربین به مجوز شما نیاز داریم",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "برای دسترسی به میکروفون به مجوز شما نیاز داریم",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "بررسی",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "انتخاب‌گر رنگ",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "بستن",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "انتخاب رنگ از صفحه",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API در این مرورگر پشتیبانی نمی‌شود. لطفاً از یک مرورگر مدرن مانند Chrome 95+ یا Edge 95+ استفاده کنید.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "انتخاب ناحیه تاری",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "حذف همه نواحی تاری",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "عرض خط",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "نازک",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "متوسط",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "ضخیم",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "خیلی ضخیم",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "ضبط‌های CocoShot",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "تنظیم پشتیبان محلی ناموفق بود. برای کمک بیشتر با ما در $supportEmail$ تماس بگیرید. همچنان می‌توانید صفحه خود را ضبط کنید.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "مرورگر شما از پشتیبان‌های محلی پشتیبانی نمی‌کند. برای کمک بیشتر با ما در $supportEmail$ تماس بگیرید. همچنان می‌توانید صفحه خود را ضبط کنید.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "نحوه استفاده از بزرگ‌نمایی به نشانگر",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "در حین ضبط، میانبر صفحه کلید را نگه دارید تا به سمت موقعیت نشانگر خود بزرگ‌نمایی کنید. کلیدها را رها کنید تا بزرگ‌نمایی برگردانید. این برای برجسته کردن نواحی خاص صفحه در حین ضبط عالی است.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "فهمیدم!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "اندازه ناحیه",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "پیش‌تنظیم‌ها",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "بازنشانی",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "هیچ",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "تاری",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "بوکه",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "تصویر",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "لطفاً ابتدا یک فایل ویدیویی بارگذاری کنید",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "دانلود به عنوان WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "دانلود به عنوان MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "در حال تبدیل...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "پردازش قطعات:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "اندازه ویدیو از حد مجاز (حداکثر $1گیگابایت) فراتر می‌رود که ممکن است باعث شکست پردازش شود",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "یک ویدیوی بزرگ بارگذاری می‌کنید ($1گیگابایت). پردازش ممکن است زمان زیادی طول بکشد. ادامه می‌دهید؟",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "فرمت ویدیو پشتیبانی نمی‌شود. لطفاً فرمت ویدیوی دیگری امتحان کنید.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "دانلود ناموفق بود. لطفاً دوباره امتحان کنید.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "تبدیل MP4 در دسترس نیست",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "این ویدیو برای تبدیل به MP4 در مرورگر خیلی بزرگ است. لطفاً به جای آن آن را به عنوان WebM دانلود کنید.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "تبدیل به MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "دانلود ویدیو ناموفق بود. لطفاً دوباره امتحان کنید.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "ویرایش ویدیو",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "به زودی.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "پیش‌نمایش ویدیو",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "تایید",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "نوشتن در حافظه...",
+    "description": "Message shown when writing video to storage"
+  }
+}

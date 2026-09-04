@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: स्क्रीनशॉट और स्क्रीन रिकॉर्डर"
+  },
+  "extDescription": {
+    "message": "पूरे पेज का स्क्रीनशॉट लें और एनोटेशन के साथ स्क्रीन को MP4 में रिकॉर्ड करें। क्लिक करने योग्य लिंक के साथ PDF निर्यात शामिल है।"
+  },
+  "pDisable": {
+    "message": "इस पृष्ठ पर निष्क्रिय"
+  },
+  "pDisableDesc": {
+    "message": "आप किसी भी वेबपृष्ठ पर इसे चला सकते हैं, सिवाय उन पृष्ठों के जहां ब्राउज़र एक्सटेंशन को स्क्रिप्ट चलाने से प्रतिबंधित करता है। इसमें एक्सटेंशन वेब स्टोर, ब्राउज़र सेटिंग पृष्ठ और अन्य एक्सटेंशन पृष्ठ शामिल हैं।"
+  },
+  "pDisableExp": {
+    "message": "यह सीमा स्वयं ब्राउज़र से आती है क्योंकि सुरक्षा जोखिम होते हैं।"
+  },
+  "pDisableTry": {
+    "message": "आप एक नया पृष्ठ खोल सकते हैं और कैप्चर फ़ंक्शन का प्रयास कर सकते हैं।"
+  },
+  "pStart": {
+    "message": "शुरू करें"
+  },
+  "pFileUrl": {
+    "message": "जाएं \"edge://extensions/\", और \"फ़ाइल URL तक पहुँच की अनुमति दें\" बॉक्स को चेक करें।"
+  },
+  "pCaptV": {
+    "message": "पृष्ठ के दृश्य भागों का स्क्रीनशॉट कैप्चर करें।"
+  },
+  "pAsOne": {
+    "message": "एकल HTML फ़ाइल के रूप में सहेजें।"
+  },
+  "pDesktop": {
+    "message": "दिए गए वेब पृष्ठ, टैब, विंडो, या संपूर्ण स्क्रीन के स्क्रीनशॉट कैप्चर करें।"
+  },
+  "pCaptFull": {
+    "message": "पूर्ण पृष्ठ का स्क्रीनशॉट कैप्चर करें।"
+  },
+  "pDesableOpt": {
+    "message": "या आप यह प्रयास कर सकते हैं:"
+  },
+  "pAreaCut": {
+    "message": "स्क्रीनशॉट कैप्चर करने के लिए पृष्ठ के एक भाग का चयन करें।"
+  },
+  "fullpageTooLarge": {
+    "message": "नोट: ब्राउज़र अपने आकार के कारण पूरे पृष्ठ को एक छवि के रूप में कैप्चर नहीं कर सकता। इसके बजाय, इसे <strong>$1</strong> अलग-अलग छवियों में विभाजित किया जाएगा।"
+  },
+  "fullpageTooLargeExtra": {
+    "message": "चेतावनी: यह एक्सटेंशन अत्यधिक बड़ी सामग्री को कैप्चर करने के लिए नहीं बनाया गया है। यह इस पृष्ठ का कैप्चर सफलतापूर्वक पूरा नहीं कर पा सकता है।"
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "अतिरिक्त अनुमति की आवश्यकता"
+  },
+  "framePermDesc": {
+    "message": "यह साइट एक एम्बेडेड iframe के माध्यम से सामग्री दिखाती है, जिसे एक्सेस करने के लिए अतिरिक्त अनुमति की आवश्यकता होती है।"
+  },
+  "WhatisIframe": {
+    "message": "iframe क्या है, यह जानने के लिए क्लिक करें।"
+  },
+  "framePermMore": {
+    "message": "इस डायलॉग का उपयोग करने के बाद आपको विस्तार को फिर से शुरू करने की आवश्यकता हो सकती है। रद्द करने से केवल दृश्य स्क्रीन कैप्चर होगी।"
+  },
+  "framePermConfirm": {
+    "message": "अनुमति दें"
+  },
+  "framePermSave": {
+    "message": "इस अनुमति को बाद में उपयोग के लिए सहेजें (आप इसे कभी भी रद्द कर सकते हैं)।"
+  },
+  "error": {
+    "message": "त्रुटि"
+  },
+  "captureError": {
+    "message": "कैप्चर विफल, कृपया बाद में पुनः प्रयास करें। यदि समस्या बनी रहती है, तो कृपया डेवलपर से संपर्क करें: $1"
+  },
+  "btnOk": {
+    "message": "ठीक है"
+  },
+  "btnCancel": {
+    "message": "रद्द करें"
+  },
+  "saveFramePermission": {
+    "message": "सभी फ्रेम से सामग्री कैप्चर करने की अनुमति दें"
+  },
+  "permissions": {
+    "message": "अनुमतियाँ"
+  },
+  "saveframepDesc": {
+    "message": "यह अनुमति पृष्ठ पर iframe या फ्रेमसेट से सामग्री कैप्चर करने के लिए आवश्यक है। इस अनुमति को अक्षम करने से कुछ वेब पेज तत्वों को कैप्चर करने की क्षमता सीमित हो सकती है।"
+  },
+  "processingScreenshot": {
+    "message": "स्क्रीनशॉट प्रोसेस हो रहा है..."
+  },
+  "screenshotSaved": {
+    "message": "स्क्रीनशॉट डाउनलोड फ़ोल्डर में सहेजा गया"
+  },
+  "screenshotLoadFailed": {
+    "message": "स्क्रीनशॉट लोड करने में विफल। कृपया पुनः प्रयास करें।"
+  },
+  "getScreenshotFailed": {
+    "message": "स्क्रीनशॉट कैप्चर करने में विफल। कृपया पुनः प्रयास करें।"
+  },
+  "processingAllAreas": {
+    "message": "सभी क्षेत्रों के स्क्रीनशॉट प्रोसेस हो रहे हैं..."
+  },
+  "allAreasSaved": {
+    "message": "$1 क्षेत्रों के स्क्रीनशॉट सफलतापूर्वक सहेजे गए"
+  },
+  "areaNotVisible": {
+    "message": "चयनित क्षेत्र लगभग पूरी तरह दृश्य सीमा के बाहर है और कैप्चर नहीं किया जा सकता।"
+  },
+  "partiallyVisible": {
+    "message": "क्षेत्र का एक हिस्सा दृश्य सीमा के बाहर है। दृश्य भाग को कैप्चर किया गया है।"
+  },
+  "partiallyVisibleArea": {
+    "message": "चयनित क्षेत्र का एक हिस्सा दृश्य सीमा के बाहर है। दृश्य भाग को कैप्चर किया गया है।"
+  },
+  "areaOutOfView": {
+    "message": "चयनित क्षेत्र दृश्य सीमा के बाहर है। कृपया पृष्ठ को स्क्रॉल करें ताकि क्षेत्र दृश्य में आए और पुनः प्रयास करें।"
+  },
+  "processingError": {
+    "message": "स्क्रीनशॉट प्रोसेसिंग में त्रुटि: $1"
+  },
+  "saveFailed": {
+    "message": "स्क्रीनशॉट सहेजने में विफल: $1"
+  },
+  "smartModeEnabled": {
+    "message": "स्मार्ट स्क्रीनशॉट मोड सक्रिय है। कैप्चर करने के लिए तत्व चुनें (पुष्टि के लिए Enter, रद्द करने के लिए Esc)।"
+  },
+  "processing": {
+    "message": "कॉपी प्रोसेस हो रहा है..."
+  },
+  "copyFailed": {
+    "message": "कॉपी विफल: $1"
+  },
+  "canvasContextError": {
+    "message": "कॉपी विफल: कैनवास संदर्भ प्राप्त नहीं हो सका।"
+  },
+  "copied": {
+    "message": "क्लिपबोर्ड पर कॉपी किया गया"
+  },
+  "clipboardAccessDenied": {
+    "message": "कॉपी विफल: क्लिपबोर्ड एक्सेस अस्वीकृत, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "कॉपी विफल: क्लिपबोर्ड API समर्थित नहीं है"
+  },
+  "imageDataCreateFailed": {
+    "message": "कॉपी विफल: छवि डेटा नहीं बनाया जा सका"
+  },
+  "copyAreaOutOfView": {
+    "message": "कॉपी विफल: चयनित क्षेत्र दृश्य सीमा के बाहर है"
+  },
+  "imagePreviewShown": {
+    "message": "छवि पूर्वावलोकन दिखाया गया है। कॉपी करने के लिए राइट-क्लिक करें।"
+  },
+  "escape": {
+    "message": "रद्द करें (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "छवि गुणवत्ता सेट की गई: $1"
+  },
+  "qrDecoding": {
+    "message": "QR कोड डिकोड हो रहा है..."
+  },
+  "qrSuccess": {
+    "message": "QR कोड सफलतापूर्वक डिकोड हुआ। क्लिपबोर्ड पर कॉपी किया गया।"
+  },
+  "qrNoQRFound": {
+    "message": "कोई वैध QR कोड नहीं मिला"
+  },
+  "qrError": {
+    "message": "QR कोड डिकोड विफल: $1"
+  },
+  "saveArea": {
+    "message": "इस क्षेत्र को सहेजें"
+  },
+  "copyToClipboard": {
+    "message": "इस चयन को कॉपी करें (वर्तमान चयनित)"
+  },
+  "saveAllAreas": {
+    "message": "सभी क्षेत्रों को सहेजें"
+  },
+  "keepAndContinue": {
+    "message": "नया चयन जोड़ें"
+  },
+  "cancel": {
+    "message": "रद्द करें"
+  },
+  "lockSize": {
+    "message": "आकार लॉक करें"
+  },
+  "lockSizeActive": {
+    "message": "✓ आकार लॉक किया गया"
+  },
+  "freeRatio": {
+    "message": "मुक्त अनुपात"
+  },
+  "ratioLabel": {
+    "message": "अनुपात चुनें"
+  },
+  "aiDialog": {
+    "message": "स्मार्ट संवाद"
+  },
+  "fileSizeEstimate": {
+    "message": "लगभग $1 $2"
+  },
+  "qrDecode": {
+    "message": "QR कोड डिकोड करें"
+  },
+  "removeBackground": {
+    "message": "पृष्ठभूमि हटाएं"
+  },
+  "processingBackgroundRemoval": {
+    "message": "पृष्ठभूमि हटाई जा रही है..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "पृष्ठभूमि हटाने में विफल: छवि लोड त्रुटि"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "पृष्ठभूमि हटाने में विफल: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "पृष्ठभूमि हटा दी गई और क्लिपबोर्ड पर कॉपी किया गया"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "पृष्ठभूमि हटाने में विफल: Blob नहीं बनाया जा सका"
+  },
+  "selectedAreaOutOfView": {
+    "message": "चयनित क्षेत्र दृश्य सीमा से बाहर है"
+  },
+  "screenshotFailed": {
+    "message": "स्क्रीनशॉट विफल: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "छवि प्रोसेसिंग विफल, कृपया पुनः प्रयास करें"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "स्क्रीनशॉट क्षेत्र दृश्य सीमा से बाहर है"
+  },
+  "errorProcessingImage": {
+    "message": "छवि प्रोसेसिंग त्रुटि: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR कोड डिकोड लाइब्रेरी लोड नहीं हुई"
+  },
+  "qrDecodingFailed": {
+    "message": "QR कोड डिकोड विफल: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "चयनित क्षेत्र में कोई QR कोड नहीं मिला"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR कोड सफलतापूर्वक डिकोड हुआ: $1"
+  },
+  "qrDecodingError": {
+    "message": "QR कोड डिकोड त्रुटि: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "पृष्ठभूमि हटाने में विफल: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "कृपया पहले स्क्रीनशॉट क्षेत्र चुनें"
+  },
+  "aiDialogTitle": {
+    "message": "स्क्रीनशॉट सामग्री पर बुद्धिमान वार्तालाप करें"
+  },
+  "qrDecodeTitle": {
+    "message": "स्क्रीनशॉट में QR कोड डिकोड करें"
+  },
+  "lockSizeTitle": {
+    "message": "लगातार कैप्चर के लिए वर्तमान आकार लॉक करें"
+  },
+  "moveHint": {
+    "message": "चयन क्षेत्र खींचें (Space + ड्रैग)"
+  },
+  "saveAreaTooltip": {
+    "message": "वर्तमान क्षेत्र सहेजें"
+  },
+  "saveAllAreasTooltip": {
+    "message": "सभी चयनित क्षेत्रों को सहेजें"
+  },
+  "copyToClipboardTooltip": {
+    "message": "स्क्रीनशॉट क्लिपबोर्ड पर कॉपी करें"
+  },
+  "moreOptions": {
+    "message": "अधिक विकल्प"
+  },
+  "removeBgTooltip": {
+    "message": "पृष्ठभूमि हटाएं और क्लिपबोर्ड पर कॉपी करें"
+  },
+  "ratioLabelTooltip": {
+    "message": "आस्पेक्ट अनुपात चुनें"
+  },
+  "keepAndContinueTooltip": {
+    "message": "वर्तमान चयन रखें और जारी रखें"
+  },
+  "pCaptureTabLabel": {
+    "message": "स्क्रीनशॉट"
+  },
+  "pAiToolsTabLabel": {
+    "message": "AI उपकरण"
+  },
+  "pCaptureTitle": {
+    "message": "पूर्ण पृष्ठ और चयनित स्क्रीन क्षेत्र स्क्रीनशॉट"
+  },
+  "pAiToolsTitle": {
+    "message": "AI संबंधित उपकरण"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "वेब सामग्री निर्यात उपकरण"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "छवि उपकरण"
+  },
+  "pDownloadAsMD": {
+    "message": "मार्कडाउन के रूप में डाउनलोड करें"
+  },
+  "pDownloadAsPDF": {
+    "message": "पीडीएफ के रूप में डाउनलोड करें"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "वर्तमान वेबपेज को मार्कडाउन फ़ाइल के रूप में डाउनलोड करें"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "वर्तमान वेबपेज को पीडीएफ फ़ाइल के रूप में डाउनलोड करें"
+  },
+  "pImageProcessing": {
+    "message": "छवि प्रसंस्करण"
+  },
+  "pImageProcessingTooltip": {
+    "message": "छवि प्रसंसकरण के लिए उपकरणों का संग्रह"
+  },
+  "fixThePage": {
+    "message": "पृष्ठ को ठीक करें"
+  },
+  "expandScrollableOn": {
+    "message": "स्क्रॉल करने योग्य क्षेत्रों का विस्तार करें"
+  },
+  "expandScrollableOnDesc": {
+    "message": "स्क्रीनशॉट लेने से पहले वेबपेज के भीतर स्क्रॉल करने योग्य क्षेत्रों का विस्तार करने के लिए सक्षम करें"
+  },
+  "hideFixedOn": {
+    "message": "निश्चित स्थिति वाले तत्वों को छिपाएं"
+  },
+  "hideFixedOnDesc": {
+    "message": "स्क्रीनशॉट के हस्तक्षेप से बचने के लिए निश्चित स्थिति वाले तत्वों को छिपाने के लिए सक्षम करें"
+  },
+  "preScrollOn": {
+    "message": "वेबपेज को प्री-स्क्रॉल लोड करना"
+  },
+  "preScrollOnDesc": {
+    "message": "कई वेब तत्व (उदाहरण के लिए, चित्र) केवल स्क्रॉल करते समय लोड होते हैं। सक्षम होने पर, यह स्वचालित रूप से पहचानता है और स्क्रीनशॉट लेने से पहले पृष्ठ के नीचे तक स्क्रॉल करता है।"
+  },
+  "canBeDisabled": {
+    "message": "सेटिंग्स पृष्ठ के माध्यम से अक्षम किया जा सकता है"
+  },
+  "analyzingPageForHTML": {
+    "message": "वेबपेज कोड और सामग्री का विश्लेषण कर रहा है, जटिल पृष्ठों में अधिक समय लग सकता है। यदि बहुत अधिक समय लग रहा है, तो कृपया वेबपेज को ताज़ा करें और पुनः प्रयास करें।"
+  },
+  "drawerSettings": {
+    "message": "सेटिंग्स"
+  },
+  "drawerScreenshotHistory": {
+    "message": "स्क्रीनशॉट इतिहास"
+  },
+  "drawerImageTools": {
+    "message": "स्क्रीनशॉट सुधार उपकरण"
+  },
+  "drawerHelpFeedback": {
+    "message": "पूछे जाने वाले प्रश्न और प्रतिक्रिया"
+  },
+  "drawerCloseMenu": {
+    "message": "मेनू बंद करें"
+  },
+  "logoTooltip": {
+    "message": "अधिक देखें"
+  },
+  "pRecorderTabLabel": {
+    "message": "स्क्रीन रिकॉर्डर"
+  },
+  "pRecorderTitle": {
+    "message": "स्क्रीन रिकॉर्डर"
+  },
+  "pStartRecorder": {
+    "message": "स्क्रीन रिकॉर्डिंग शुरू करें"
+  },
+  "pStartRecorderLabel": {
+    "message": "स्क्रीन रिकॉर्डिंग"
+  },
+  "pRecorderAlt": {
+    "message": "रिकॉर्डर"
+  },
+  "pStartRecorderAlt": {
+    "message": "स्क्रीन रिकॉर्डर"
+  },
+  "pRecorderBetaNotice": {
+    "message": "यह एक बीटा संस्करण है"
+  },
+  "pRecorderFeedback": {
+    "message": "प्रतिक्रिया दें"
+  },
+  "downloadsPermission": {
+    "message": "फ़ाइल डाउनलोड की अनुमति दें"
+  },
+  "downloadsPermissionDesc": {
+    "message": "अपने कंप्यूटर पर सीधे स्क्रीनशॉट सहेजने के लिए इस अनुमति की आवश्यकता होती है।"
+  },
+  "webNavigationPermission": {
+    "message": "वेब नेविगेशन एक्सेस की अनुमति दें"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "पृष्ठ परिवर्तनों का पता लगाने और आवश्यकता पड़ने पर विभिन्न पृष्ठों पर नेविगेट करने के लिए इस अनुमति की आवश्यकता होती है।"
+  },
+  "desktopCapturePermission": {
+    "message": "डेस्कटॉप कैप्चर की अनुमति दें"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "अपने डेस्कटॉप या विशिष्ट विंडोज़ से सामग्री कैप्चर करने के लिए इस अनुमति की आवश्यकता होती है।"
+  },
+  "tabsPermission": {
+    "message": "टैब एक्सेस की अनुमति दें"
+  },
+  "tabsPermissionDesc": {
+    "message": "ब्राउज़र टैब जानकारी तक पहुंचने और उसका प्रबंधन करने के लिए इस अनुमति की आवश्यकता होती है।"
+  },
+  "tabCapturePermission": {
+    "message": "टैब कैप्चर की अनुमति दें"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "ब्राउज़र टैब्स से ऑडियो और वीडियो कैप्चर करने के लिए इस अनुमति की आवश्यकता होती है।"
+  },
+  "allUrlsPermission": {
+    "message": "सभी वेबसाइट्स एक्सेस की अनुमति दें"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "किसी भी वेबसाइट से स्क्रीनशॉट कैप्चर करने के लिए इस अनुमति की आवश्यकता होती है।"
+  },
+  "fileUrlsPermission": {
+    "message": "स्थानीय फ़ाइलों एक्सेस की अनुमति दें"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "स्थानीय फ़ाइलों (file:// URL) से स्क्रीनशॉट कैप्चर करने के लिए इस अनुमति की आवश्यकता होती है।"
+  },
+  "pIncludeImagesTooltip": {
+    "message": "क्या डाउनलोड में छवियां शामिल करें"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "इस सुविधा के लिए CocoShot Pro की आवश्यकता होती है"
+  },
+  "proUpgradeButton": {
+    "message": "प्रो में अपग्रेड करें"
+  },
+  "proSaveRestricted": {
+    "message": "इस सामग्री को सहेजने के लिए CocoShot Pro की आवश्यकता होती है"
+  },
+  "qv_title": {
+    "message": "CocoShot पूर्वावलोकन"
+  },
+  "qv_preview_mode": {
+    "message": "पूर्वावलोकन मोड"
+  },
+  "qv_screenshot_preview": {
+    "message": "स्क्रीनशॉट पूर्वावलोकन"
+  },
+  "qv_download": {
+    "message": "डाउनलोड"
+  },
+  "qv_edit": {
+    "message": "एनोटेट, संपादित करें (PDF में भी निर्यात कर सकते हैं)"
+  },
+  "qv_hint": {
+    "message": "अनुभवी उपयोगकर्ता स्वचालित रूप से इस पृष्ठ को छोड़ देंगे और संपादक पर चले जाएंगे।"
+  },
+  "recordTab": {
+    "message": "रिकॉर्ड करें",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "मेरे वीडियो",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "स्क्रीन",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "टैब",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "केवल कैमरा",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "मॉकअप",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "कस्टम क्षेत्र रिकॉर्डिंग अक्षम",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Chrome को 110+ पर अपडेट करें",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "अपडेट करें",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "अपनी अनुमतियां जांचें",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "ऐसा लगता है कि CocoShot आपके कैमरे या माइक्रोफ़ोन तक पहुंचने में असमर्थ है। इस समस्या को हल करने के लिए, कृपया अपने ब्राउज़र सेटिंग्स में अनब्लॉक करें और आवश्यक अनुमतियां दें।",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "खारिज करें",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "कैमरे तक पहुंच की अनुमति दें",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "माइक्रोफ़ोन तक पहुंच की अनुमति दें",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "बात करने के लिए दबाएं",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "रिकॉर्डिंग क्षेत्र सेट करें",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "कैमरा फ्लिप करें",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "पृष्ठभूमि प्रभाव",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "रिकॉर्डिंग शुरू करें",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "रिकॉर्डिंग शुरू हो रही है...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "कैमरा चुनें",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "अधिक विकल्प",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "सिस्टम ऑडियो",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "टूलबार छुपाएं",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "उलटी गिनती",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "समय सीमा सेट करें",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "धुंधला",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "कोई नहीं",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "कोई कैमरा नहीं",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "कोई माइक्रोफ़ोन नहीं",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "स्रोत चुनें",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "बंद",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "चौड़ाई",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "ऊंचाई",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "छवि रखने के लिए क्लिक करें",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "रिकॉर्डिंग समाप्त करें",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "रिकॉर्डिंग पुनः आरंभ करें",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "रिकॉर्डिंग रोकें",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "रिकॉर्डिंग जारी रखें",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "रिकॉर्डिंग रद्द करें",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "ड्राइंग टूल्स टॉगल करें",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "धुंधला टूल टॉगल करें",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "कर्सर विकल्प टॉगल करें",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "कैमरा अक्षम करें",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "कैमरा सक्षम करें",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "कोई कैमरा अनुमति नहीं",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "कैमरा सेटिंग्स",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "कैमरा मिरर करें",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "पृष्ठभूमि धुंधला",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "माइक्रोफ़ोन अक्षम करें",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "माइक्रोफ़ोन सक्षम करें",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "कोई माइक्रोफ़ोन अनुमति नहीं",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "टूल चुनें",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "पेन टूल",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "हाइलाइटर टूल",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "इरेज़र टूल",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "टेक्स्ट टूल",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "शेप टूल",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "एरो टूल",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "इमेज टूल",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "पूर्ववत करें",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "फिर से करें",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "कैनवास साफ़ करें",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "अधिक रंग",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "मोटा स्ट्रोक",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "मध्यम स्ट्रोक",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "पतला स्ट्रोक",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "पिक्चर-इन-पिक्चर मोड टॉगल करें",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "फिल टॉगल करें",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "ड्राइंग मोड",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "धुंधला मोड",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "सभी धुंधले तत्व साफ़ करें",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "क्लिक हाइलाइट करें",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "कर्सर हाइलाइट करें",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "स्पॉटलाइट कर्सर",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "फिर से न दिखाएं",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "रिकॉर्डिंग पुनः आरंभ करें?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "आपकी वर्तमान प्रगति खो जाएगी।",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "पुनः आरंभ करें",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "जारी रखें",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "रिकॉर्डिंग छोड़ें?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "आपकी वर्तमान प्रगति खो जाएगी।",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "छोड़ें",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "जारी रखें",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "आपकी रिकॉर्डिंग यहां सहेजी जाएगी",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "रिकॉर्डिंग...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "इस टैब को खुला रखें। यह आपकी रिकॉर्डिंग सहेजे जाने पर बंद हो जाएगा।",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "रिकॉर्डिंग तैयार हो रही है...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "इस टैब को खुला रखें। यह तैयार होने पर आपकी रिकॉर्डिंग से अपडेट होगा।",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "संपादक",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "रद्द करें",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "मूल पर वापस करें",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "रीसेट करें",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "परिवर्तन सहेजें",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "सहेजा जा रहा है...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "अपनी ऑडियो फ़ाइल खींचें और छोड़ें",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "या ब्राउज़ करने के लिए क्लिक करें",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "सेटिंग्स",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "वॉल्यूम",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "अपडेट करें",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "क्रॉप करें",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "चौड़ाई",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "ऊंचाई",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "बाएं",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "ऊपर",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "हैंडल खींचें और चयनित अनुभाग को संपादित करने के लिए बाईं ओर बटनों का उपयोग करें।",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "वीडियो ट्रिम करें",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "ट्रिम हो रहा है...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "सेक्शन काटें",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "काटा जा रहा है...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "म्यूट करें",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "म्यूट हो रहा है...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "और जानें।",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "पूर्ववत करें",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "फिर से करें",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "समीक्षा छोड़ें, यह मदद करता है!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "आप वर्तमान में ऑफलाइन हैं",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "कुछ सुविधाएं पुनः कनेक्ट होने तक उपलब्ध नहीं हैं",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "पुनः प्रयास करें",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome को अपडेट करने की आवश्यकता है",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "अधिक सुविधाओं तक पहुंचने के लिए अपडेट करें",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "और जानें",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "वीडियो प्रोसेस करने के लिए बहुत लंबा है",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "संपादन और MP4 निर्यात उपलब्ध नहीं है",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "वीडियो स्थानीय रूप से प्रोसेस हो रहा है...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "तेज़ क्लाउड संस्करण के बारे में जानें",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "संपादित करें",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "कोई कनेक्शन नहीं",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "उपलब्ध नहीं",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "वीडियो संपादित करें",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "ट्रिम, कट, या म्यूट करें",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "वीडियो तैयार हो रहा है, कृपया प्रतीक्षा करें...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "क्रॉप करें",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "वीडियो क्रॉप और रीसाइज़ करें",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "ऑडियो जोड़ें",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "वीडियो में जोड़ने के लिए अपना खुद का ऑडियो अपलोड करें",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "सहेजें",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Google Drive से साइन आउट करें",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "सहेजा जा रहा है...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Google Drive में सहेजें",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "वर्तमान संस्करण को Google Drive में सहेजें",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "साइन इन करें और Google Drive में सहेजें",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "डाउनलोड हो रहा है...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": ".webm के रूप में डाउनलोड करें",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": ".webm वीडियो निर्यात करें",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": ".mp4 के रूप में डाउनलोड करें",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": ".mp4 वीडियो निर्यात करें (अनुशंसित)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": ".gif के रूप में डाउनलोड करें",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "GIF निर्यात करें (अधिकतम 30 सेकंड)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "मौजूदा ऑडियो बदलें",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "कर्सर पर ज़ूम करें",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "रिकॉर्ड करते समय पृष्ठ में रहें",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "माइक्रोफ़ोन बंद चेतावनी",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "मदद",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "रिकॉर्डिंग रुकी हुई है। जारी रखने के लिए प्ले बटन दबाएं।",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot को आपकी स्क्रीन रिकॉर्ड करने की अनुमति नहीं है",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "स्क्रीन रिकॉर्डिंग काम करने के लिए, आपको अनुमति अनुरोध दिखाई देने पर CocoShot को आपकी स्क्रीन कैप्चर करने की अनुमति देनी होगी। (आप इसे किसी भी समय एक्सटेंशन की सेटिंग में रद्द कर सकते हैं।)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "स्क्रीन रिकॉर्डिंग सक्षम करें",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "रद्द करें",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "आपका माइक्रोफ़ोन म्यूट है",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "यदि आप चाहते हैं कि आपकी आवाज़ रिकॉर्डिंग में शामिल हो, तो आपको अपना माइक्रोफ़ोन चालू करना होगा। क्या आप बिना ऑडियो के रिकॉर्डिंग जारी रखना चाहते हैं?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "हां, जारी रखें",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "रद्द करें",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "आराम करें। उलटी गिनती रोकने के लिए कहीं भी क्लिक करें।",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "फ्रेम के बीच अंतर के कारण, छोटी समय सीमा के लिए संपादन अधूरे हो सकते हैं।",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "वीडियो प्रोसेस हो रहा है, प्लेबैक अधूरा या बाधित हो सकता है।",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "क्रॉप करने में समय लग सकता है",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "तेज़ प्रोसेसिंग के लिए अपग्रेड करें",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "माइक्रोफ़ोन सक्षम",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "माइक्रोफ़ोन अक्षम",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "रिकॉर्डिंग 3 सेकंड से कम थी और सहेजी नहीं गई।",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "UI सूचनाएं छुपाएं",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "फिर से न दिखाएं",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "उपयोग में न होने पर टूलबार छुपाएं",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "रिकॉर्डिंग शुरू करें",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "रिकॉर्डिंग बंद करें",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "नए CocoShot में आपका स्वागत है!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "अपडेट के बारे में और जानें।",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "शुरू करें",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "रिकॉर्डिंग शुरू करने में त्रुटि",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "रिकॉर्डिंग प्रक्रिया शुरू करने में त्रुटि हुई। कृपया अपना ब्राउज़र पुनः आरंभ करें और पुनः प्रयास करें। यदि समस्या बनी रहती है, तो अधिक सहायता के लिए support@cocoshot.net पर हमसे संपर्क करें।",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "सर्वोच्च गुणवत्ता",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "पिछली वीडियो रिकॉर्डिंग पुनर्स्थापित करें",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "समस्याएं हैं?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "अपनी रिकॉर्डिंग नहीं देख सकते?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "यदि आपने रिकॉर्डिंग पूरी कर ली है लेकिन इस पृष्ठ पर अपना वीडियो नहीं देख पा रहे हैं, तो आप कच्ची वीडियो डेटा डाउनलोड करने का प्रयास कर सकते हैं। वैकल्पिक रूप से, आप एक बग रिपोर्ट सबमिट करके हमसे संपर्क कर सकते हैं।",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "कच्ची वीडियो डेटा डाउनलोड करें",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "बग रिपोर्ट करें",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "कोई रिकॉर्डिंग नहीं मिली, माफ करना :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "मेमोरी सीमा पहुंची",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "आपके डिवाइस में रिकॉर्ड करने के लिए पर्याप्त मेमोरी नहीं है, जिससे सत्र स्वचालित रूप से समाप्त हो गया। लंबे वीडियो रिकॉर्ड करने के लिए, वीडियो गुणवत्ता कम करने या अपने डिवाइस पर स्टोरेज स्पेस खाली करने पर विचार करें।",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "समझ गया",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "पर्याप्त जगह नहीं है",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot रिकॉर्ड करने के लिए कम से कम 1GB फ्री स्पेस की आवश्यकता है। कृपया कुछ स्पेस खाली करें और पुनः प्रयास करें।",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "पिछली रिकॉर्डिंग साफ़ करें",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "उन्नत",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "कच्ची वीडियो फ़ाइल डाउनलोड करें",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "मूल रिकॉर्डिंग डेटा निर्यात करें",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "अपनी रिकॉर्डिंग के साथ सहायता प्राप्त करें",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "अपना वीडियो पुनर्प्राप्त करें और अन्य समस्याओं का समाधान करें",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "कच्ची वीडियो फ़ाइल डाउनलोड करें",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "कच्ची वीडियो फ़ाइल से तात्पर्य है CocoShot द्वारा सीधे बनाई गई अपरिवर्तित रिकॉर्डिंग डेटा से। चूंकि इस फ़ाइल को प्रोसेस या संपादित नहीं किया गया है, यह काफी बड़ी हो सकती है और कुछ डिवाइस के साथ असंगत हो सकती है। यदि आप प्रोसेस किए गए संस्करण के साथ समस्याओं का सामना करते हैं, तो आप इस फ़ाइल का उपयोग अपनी मूल रिकॉर्डिंग को पुनर्प्राप्त करने के लिए कर सकते हैं।",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "डाउनलोड करें",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "ऑडियो वेवफॉर्म दिखाएं",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "सिस्टम जानकारी और वीडियो डेटा डाउनलोड करें और समस्या निवारण के लिए भेजें",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "एक बार जब आप फ़ाइल डाउनलोड कर लें, तो कृपया इसे किसी भी अतिरिक्त विवरण के साथ जो मददगार हो सकता है, support@cocoshot.net पर भेजें। हम इस जानकारी का उपयोग आपको एक्सटेंशन के साथ समस्याओं को हल करने में मदद करने के लिए करेंगे और, यदि संभव हो, आपका वीडियो पुनर्प्राप्त करेंगे।",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "डाउनलोड करें",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "वीडियो आपके डिवाइस में प्रोसेस करने के लिए बहुत लंबा है",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "क्योंकि CocoShot गोपनीयता को प्राथमिकता देता है और पूरी तरह से आपके स्थानीय डिवाइस पर संचालित होता है, यह आपकी हार्डवेयर क्षमताओं से बाधित है। इस लंबाई के वीडियो को प्रोसेस करना अत्यधिक समय लेने वाला होगा और महत्वपूर्ण सिस्टम संसाधनों की मांग करेगा। आप अभी भी WEBM फ़ाइल या कच्ची रिकॉर्डिंग प्राप्त कर सकते हैं, हालांकि संपादन सुविधाएं और MP4 निर्यात उपलब्ध नहीं होंगे। हालांकि, यदि आप संभावित चुनौतियों से अवगत हैं, तो आप वीडियो को प्रोसेस करना जारी रख सकते हैं।",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "मैं जोखिम समझता हूं, फिर भी कोशिश करता हूं",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "लंबे वीडियो प्रोसेस करने के बारे में और जानें।",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "रिकवरी मोड",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "समस्या निवारण के लिए डेटा डाउनलोड करें",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "सहायता केंद्र",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "कंप्यूटर ऑडियो रिकॉर्ड करें",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "इस पृष्ठ से ऑडियो रिकॉर्ड करने के लिए, आपको '$tab$' पर स्विच करना होगा।",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "एक्सटेंशन टैब पर समर्थित नहीं है",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot उस टैब के साथ संगत नहीं है जिसका आपने अभी-अभी उपयोग किया था। आप अभी भी इस पृष्ठ से रिकॉर्डिंग शुरू कर सकते हैं और फिर उस टैब पर वापस जा सकते हैं, लेकिन कृपया ध्यान दें कि आपका कैमरा फीड और संपादन टूलबार प्रदर्शित नहीं होंगे।",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "अपनी CocoShot रिकॉर्डिंग के लिए स्थानीय बैकअप सेट करें",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "आपके द्वारा बनाई गई हर रिकॉर्डिंग की प्रतियां रखें। बैकअप सेट करने के बिना, आपकी रिकॉर्डिंग केवल तब सहेजी जाएगी जब आप उन्हें स्पष्ट रूप से डाउनलोड करने का चुनाव करेंगे।",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "यदि आप अपनी रिकॉर्डिंग को डाउनलोड या अन्य सिस्टम निर्देशिकाओं में सहेजने का प्रयास कर रहे हैं, तो आपको पहले एक नया फ़ोल्डर बनाना पड़ सकता है।",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "फ़ोल्डर चुनें",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "अभी नहीं",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": "आपकी रिकॉर्डिंग स्थानीय रूप से बैकअप की जा रही है",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "हर बार रिकॉर्ड करने पर अनुमति मांगने से बचने के लिए, हम अनुशंसा करते हैं कि आप इस टैब को खुला रखें।",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "anyway टैब बंद करें",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "सभी रिकॉर्डिंग का बैकअप लेना बंद करें",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "कृपया अपने स्थानीय CocoShot बैकअप फ़ोल्डर तक पहुंच की पुष्टि करें",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "हम माफ करना चाहते हैं, लेकिन आपकी रिकॉर्डिंग का बैकअप जारी रखने के लिए हमें आपकी अनुमति फिर से चाहिए। दुर्भाग्य से, हमें इस टैब के बंद होने पर हर बार यह अनुमति मांगने की आवश्यकता होगी, जो तब हो सकता है जब आप अपना ब्राउज़र बंद करते हैं या अपने कंप्यूटर को पुनः आरंभ करते हैं।",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "CocoShot को रिकॉर्डिंग का बैकअप जारी रखने की अनुमति दें",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "रिकॉर्डिंग का बैकअप लें",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "रिकॉर्डिंग का बैकअप लेने की अनुमति नहीं दी गई",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "आपने अपनी रिकॉर्डिंग बैकअप संग्रहीत करने के लिए फ़ोल्डर नहीं चुना है। आपके ब्राउज़र संस्करण या ऑपरेटिंग सिस्टम के आधार पर, आपसे हर बार रिकॉर्डिंग शुरू करने पर इस फ़ोल्डर को चुनने के लिए कहा जा सकता है। आप सेटअप प्रक्रिया फिर से आज़मा सकते हैं, या यदि आप बार-बार अनुमति देना नहीं चाहते हैं तो बैकअप पूरी तरह बंद कर सकते हैं।",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "कंप्यूटर ऑडियो रिकॉर्ड करें",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "macOS सिस्टम पर, आप व्यक्तिगत टैब से ऑडियो रिकॉर्ड करने तक सीमित हैं। Chrome Tab रिकॉर्डिंग विकल्प चुनें और सत्यापित करें कि 'Also share tab audio' सेटिंग चालू है।",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "कंप्यूटर ऑडियो रिकॉर्ड करें",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "यदि आप अपने कंप्यूटर से ऑडियो कैप्चर करना चाहते हैं, तो सुनिश्चित करें कि 'Share system audio' विकल्प सक्रिय है। यदि यह विकल्प दिखाई नहीं देता है, तो Chrome को अपडेट करने या टैब रिकॉर्डिंग मोड पर स्विच करने पर विचार करें।",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "अधिकतम रिज़ॉल्यूशन",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "अधिकतम FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "पर्याप्त RAM नहीं है",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "विंडो का आकार बदलें",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "इस रिज़ॉल्यूशन के लिए स्क्रीन बहुत छोटी है",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "इस रिज़ॉल्यूशन पर आपके डिवाइस में रिकॉर्ड नहीं कर सकते",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "अनुमति अस्वीकृत",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "रिकॉर्ड करने के लिए कैमरा और माइक्रोफ़ोन अनुमतियां आवश्यक हैं। कृपया अपनी ब्राउज़र सेटिंग्स में अनुमति दें।",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "रिकॉर्ड करने के लिए कैमरा अनुमति आवश्यक है। कृपया अपनी ब्राउज़र सेटिंग्स में अनुमति दें।",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "रिकॉर्ड करने के लिए माइक्रोफ़ोन अनुमति आवश्यक है। कृपया अपनी ब्राउज़र सेटिंग्स में अनुमति दें।",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "अनुमतियां ठीक करें",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "स्क्रीन रिकॉर्डिंग सेटिंग्स",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "घंटे",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "मिनट",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "सेकंड",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "कैमरा अनुमति का अनुरोध कर रहा है...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "माइक्रोफ़ोन अनुमति का अनुरोध कर रहा है...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "कैमरा अनुमति का अनुरोध करें",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "माइक्रोफ़ोन अनुमति का अनुरोध करें",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "अनुमतियां समीक्षा करें",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "विकल्प अनुकूलित करें",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "रिकॉर्ड किए गए वीडियो",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "अभी तक कोई वीडियो रिकॉर्ड नहीं हुआ",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "म्यूट करने के लिए दबाएं",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "हमें आपके कैमरे तक पहुंचने के लिए आपकी अनुमति चाहिए",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "हमें आपके माइक्रोफ़ोन तक पहुंचने के लिए आपकी अनुमति चाहिए",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "समीक्षा करें",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "कलर पिकर",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "बंद करें",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "स्क्रीन से रंग चुनें",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API इस ब्राउज़र में समर्थित नहीं है। कृपया Chrome 95+ या Edge 95+ जैसे आधुनिक ब्राउज़र का उपयोग करें।",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "धुंधला क्षेत्र चुनें",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "सभी धुंधला क्षेत्र हटाएं",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "लाइन चौड़ाई",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "पतला",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "मध्यम",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "बोल्ड",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "एक्स्ट्रा बोल्ड",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot रिकॉर्डिंग",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "स्थानीय बैकअप सेटअप विफल हुआ। अधिक सहायता के लिए support@cocoshot.net पर हमसे संपर्क करें। आप अभी भी अपनी स्क्रीन रिकॉर्ड कर सकते हैं।",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "आपका ब्राउज़र स्थानीय बैकअप का समर्थन नहीं करता है। अधिक सहायता के लिए support@cocoshot.net पर हमसे संपर्क करें। आप अभी भी अपनी स्क्रीन रिकॉर्ड कर सकते हैं।",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "कर्सर पर ज़ूम का उपयोग कैसे करें",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "रिकॉर्ड करते समय, अपने कर्सर की स्थिति की ओर ज़ूम करने के लिए कीबोर्ड शॉर्टकट दबाकर रखें। ज़ूम आउट करने के लिए कुंजियां छोड़ें। यह आपकी रिकॉर्डिंग के दौरान स्क्रीन के विशिष्ट क्षेत्रों को उजागर करने के लिए बढ़िया है।",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "समझ गया!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "क्षेत्र आकार",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "प्रीसेट",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "रीसेट करें",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "कोई नहीं",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "धुंधला",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "बोकेह",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "चित्र",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "कृपया पहले एक वीडियो फ़ाइल लोड करें",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "WebM के रूप में डाउनलोड करें",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "MP4 के रूप में डाउनलोड करें",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "रूपांतरित हो रहा है...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "चंक्स प्रोसेस हो रहे हैं:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "वीडियो आकार अनुशंसित सीमा (अधिकतम 1GB) से अधिक है, जो प्रोसेसिंग विफलता का कारण हो सकता है",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "आप एक बड़ा वीडियो (1GB) लोड कर रहे हैं। प्रोसेसिंग में लंबा समय लग सकता है। जारी रखें?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "असमर्थित वीडियो प्रारूप। कृपया कोई अन्य वीडियो प्रारूप आज़माएं।",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "डाउनलोड विफल हुआ। कृपया पुनः प्रयास करें।",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4 रूपांतरण उपलब्ध नहीं है",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "यह वीडियो ब्राउज़र में MP4 में रूपांतरित करने के लिए बहुत बड़ा है। कृपया इसके बजाय WebM के रूप में डाउनलोड करें।",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "MP4 में रूपांतरित हो रहा है...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "वीडियो डाउनलोड करने में विफल हुआ। कृपया पुनः प्रयास करें।",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "वीडियो संपादित करें",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "जल्द आ रहा है।",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "वीडियो पूर्वावलोकन",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "ठीक है",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "स्टोरेज में लिखा जा रहा है...",
+    "description": "Message shown when writing video to storage"
+  }
+}

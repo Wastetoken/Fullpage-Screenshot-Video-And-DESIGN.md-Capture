@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Snimak zaslona i snimač zaslona"
+  },
+  "extDescription": {
+    "message": "Snimite snimke cijele stranice i snimite zaslon u MP4 s bilješkama. Uključen PDF izvoz s poveznicama na koje se može kliknuti."
+  },
+  "pDisable": {
+    "message": "Onemogućeno na ovoj stranici"
+  },
+  "pDisableDesc": {
+    "message": "Možete ovo koristiti na bilo kojoj web stranici, osim onih gdje preglednik ograničava ekstenzije da pokreću skripte. To uključuje stranicu ekstenzije, stranice s postavkama preglednika i druge stranice ekstenzija."
+  },
+  "pDisableExp": {
+    "message": "Ovo ograničenje dolazi od samog preglednika zbog sigurnosnih rizika."
+  },
+  "pDisableTry": {
+    "message": "Možete otvoriti novu stranicu i pokušati s funkcijom snimanja."
+  },
+  "pStart": {
+    "message": "Početak"
+  },
+  "pFileUrl": {
+    "message": "Idite na \"edge://extensions/\", a zatim označite okvir \"Dopusti pristup URL-ovima datoteka\"."
+  },
+  "pCaptV": {
+    "message": "Snimite snimku vidljivih dijelova stranice."
+  },
+  "pAsOne": {
+    "message": "Spremite kao jednu HTML datoteku."
+  },
+  "pDesktop": {
+    "message": "Snimite snimke određene web stranice, kartice, prozora ili cijelog ekrana."
+  },
+  "pCaptFull": {
+    "message": "Snimite snimku cijele stranice."
+  },
+  "pDesableOpt": {
+    "message": "Ili možete pokušati:"
+  },
+  "pAreaCut": {
+    "message": "Odaberite dio stranice za snimanje snimke"
+  },
+  "fullpageTooLarge": {
+    "message": "Napomena: Preglednik ne može snimiti cijelu stranicu kao jednu sliku zbog njezine veličine. Umjesto toga, bit će podijeljena na <strong>$1</strong> zasebnih slika."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Upozorenje: Ova ekstenzija nije namijenjena snimanju iznimno velikog sadržaja. Možda neće moći uspješno dovršiti snimanje ove stranice."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Potrebna dodatna dopuštenja"
+  },
+  "framePermDesc": {
+    "message": "Ova stranica prikazuje sadržaj putem ugrađenog iframe-a, što zahtijeva dodatna dopuštenja za pristup."
+  },
+  "WhatisIframe": {
+    "message": "Kliknite da saznate što je iframe."
+  },
+  "framePermMore": {
+    "message": "Možda ćete morati ponovo pokrenuti proširenje nakon što upotrijebite dijalog. Otkazivanjem će biti uhvaćen samo vidljiv ekran."
+  },
+  "framePermConfirm": {
+    "message": "Dopusti"
+  },
+  "framePermSave": {
+    "message": "Spremi ovo dopuštenje za kasniju upotrebu (možete ga opozvati u bilo kojem trenutku)."
+  },
+  "error": {
+    "message": "Pogreška"
+  },
+  "captureError": {
+    "message": "Neuspješan pokušaj snimanja, pokušajte ponovo kasnije. Ako problem bude i dalje prisutan, kontaktirajte developera na $1"
+  },
+  "btnOk": {
+    "message": "U redu"
+  },
+  "btnCancel": {
+    "message": "Otkaži"
+  },
+  "saveFramePermission": {
+    "message": "Dopusti snimanje sadržaja sa svih okvira"
+  },
+  "permissions": {
+    "message": "Dopuštenja"
+  },
+  "saveframepDesc": {
+    "message": "Ovo dopuštenje je potrebno za snimanje sadržaja iz iframe-a ili frameset-a na stranici. Onemogućavanje ovog dopuštenja može ograničiti mogućnost snimanja određenih web stranica."
+  },
+  "processingScreenshot": {
+    "message": "Obrađivanje snimke zaslona..."
+  },
+  "screenshotSaved": {
+    "message": "Snimka zaslona spremljena u mapu Preuzimanja"
+  },
+  "screenshotLoadFailed": {
+    "message": "Neuspjelo učitavanje snimke zaslona. Molimo pokušajte ponovno."
+  },
+  "getScreenshotFailed": {
+    "message": "Neuspjelo hvatanje snimke zaslona. Molimo pokušajte ponovno."
+  },
+  "processingAllAreas": {
+    "message": "Obrađivanje snimki zaslona svih područja..."
+  },
+  "allAreasSaved": {
+    "message": "Uspješno spremljene snimke zaslona za $1 područja"
+  },
+  "areaNotVisible": {
+    "message": "Odabrano područje gotovo je u potpunosti izvan vidljivog područja i nije ga moguće uhvatiti."
+  },
+  "partiallyVisible": {
+    "message": "Dio područja je izvan vidljivog raspona. Uhvaćen je vidljivi dio."
+  },
+  "partiallyVisibleArea": {
+    "message": "Dio odabranog područja je izvan vidljivog raspona. Uhvaćen je vidljivi dio."
+  },
+  "areaOutOfView": {
+    "message": "Odabrano područje je izvan vidljivog raspona. Pomaknite stranicu da područje postane vidljivo i pokušajte ponovno."
+  },
+  "processingError": {
+    "message": "Pogreška pri obradi snimke zaslona: $1"
+  },
+  "saveFailed": {
+    "message": "Neuspjelo spremanje snimke zaslona: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Pametni način snimanja zaslona omogućen. Kliknite za odabir elementa za hvatanje (Enter za potvrdu, Esc za otkazivanje)."
+  },
+  "processing": {
+    "message": "Obrađivanje kopije..."
+  },
+  "copyFailed": {
+    "message": "Neuspjelo kopiranje: $1"
+  },
+  "canvasContextError": {
+    "message": "Neuspjelo kopiranje: Ne može se dobiti Canvas kontekst."
+  },
+  "copied": {
+    "message": "Kopirano u međuspremnik"
+  },
+  "clipboardAccessDenied": {
+    "message": "Neuspjelo kopiranje: pristup međuspremniku odbijen, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Neuspjelo kopiranje: Clipboard API nije podržan"
+  },
+  "imageDataCreateFailed": {
+    "message": "Neuspjelo kopiranje: Ne može se stvoriti podatak o slici"
+  },
+  "copyAreaOutOfView": {
+    "message": "Neuspjelo kopiranje: odabrano područje je izvan vidljivog raspona"
+  },
+  "imagePreviewShown": {
+    "message": "Prikazan pregled slike. Desni klik za kopiranje."
+  },
+  "escape": {
+    "message": "Otkaži (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Kvaliteta slike postavljena na: $1"
+  },
+  "qrDecoding": {
+    "message": "Dekodiranje QR koda..."
+  },
+  "qrSuccess": {
+    "message": "QR kod uspješno dekodiran. Kopirano u međuspremnik."
+  },
+  "qrNoQRFound": {
+    "message": "Nije pronađen valjani QR kod"
+  },
+  "qrError": {
+    "message": "Neuspjeh dekodiranja QR koda: $1"
+  },
+  "saveArea": {
+    "message": "Spremi ovo područje"
+  },
+  "copyToClipboard": {
+    "message": "Kopiraj ovaj odabir (trenutno odabrano)"
+  },
+  "saveAllAreas": {
+    "message": "Spremi sva područja"
+  },
+  "keepAndContinue": {
+    "message": "Dodaj novi odabir"
+  },
+  "cancel": {
+    "message": "Otkaži"
+  },
+  "lockSize": {
+    "message": "Zaključaj veličinu"
+  },
+  "lockSizeActive": {
+    "message": "✓ Zaključaj veličinu"
+  },
+  "freeRatio": {
+    "message": "Slobodni omjer"
+  },
+  "ratioLabel": {
+    "message": "Odaberi omjer"
+  },
+  "aiDialog": {
+    "message": "Pametni dijalog"
+  },
+  "fileSizeEstimate": {
+    "message": "Približno $1 $2"
+  },
+  "qrDecode": {
+    "message": "Dekodiraj QR kod"
+  },
+  "removeBackground": {
+    "message": "Ukloni pozadinu"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Uklanjanje pozadine..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Neuspjelo uklanjanje pozadine: greška pri učitavanju slike"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Neuspjelo uklanjanje pozadine: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Pozadina uklonjena i kopirana u međuspremnik"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Neuspjelo uklanjanje pozadine: ne može se stvoriti Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Odabrano područje je izvan vidljivog raspona"
+  },
+  "screenshotFailed": {
+    "message": "Neuspjelo snimanje zaslona: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Neuspjela obrada slike, molimo pokušajte ponovno"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Područje snimke zaslona je izvan vidljivog raspona"
+  },
+  "errorProcessingImage": {
+    "message": "Greška pri obradi slike: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "Biblioteka za dekodiranje QR koda nije učitana"
+  },
+  "qrDecodingFailed": {
+    "message": "Neuspjelo dekodiranje QR koda: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "Nije pronađen QR kod u odabranom području"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR kod uspješno dekodiran: $1"
+  },
+  "qrDecodingError": {
+    "message": "Pogreška pri dekodiranju QR koda: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Neuspjelo uklanjanje pozadine: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Molimo prvo odaberite područje snimke zaslona"
+  },
+  "aiDialogTitle": {
+    "message": "Vodite inteligentan razgovor o sadržaju snimke zaslona"
+  },
+  "qrDecodeTitle": {
+    "message": "Dekodiraj QR kod na snimci zaslona"
+  },
+  "lockSizeTitle": {
+    "message": "Zaključaj trenutnu veličinu za kontinuirano snimanje"
+  },
+  "moveHint": {
+    "message": "Povucite područje odabira (Space + povuci)"
+  },
+  "saveAreaTooltip": {
+    "message": "Spremi trenutačno područje"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Spremi sva odabrana područja"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Kopiraj snimku zaslona u međuspremnik"
+  },
+  "moreOptions": {
+    "message": "Više opcija"
+  },
+  "removeBgTooltip": {
+    "message": "Ukloni pozadinu i kopiraj u međuspremnik"
+  },
+  "ratioLabelTooltip": {
+    "message": "Odaberi omjer širine i visine"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Zadrži trenutačni odabir i nastavi"
+  },
+  "pCaptureTabLabel": {
+    "message": "Snimka zaslona"
+  },
+  "pAiToolsTabLabel": {
+    "message": "AI alati"
+  },
+  "pCaptureTitle": {
+    "message": "Snimka zaslona cijele stranice i odabranog područja zaslona"
+  },
+  "pAiToolsTitle": {
+    "message": "Alati povezani s umjetnom inteligencijom"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Alati za izvoz web sadržaja"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Alati za slike"
+  },
+  "pDownloadAsMD": {
+    "message": "Preuzmi kao Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Preuzmi kao PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Preuzmite trenutnu web stranicu kao Markdown datoteku"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Preuzmite trenutnu web stranicu kao PDF datoteku"
+  },
+  "pImageProcessing": {
+    "message": "Obrada slike"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Zbirka alata za obradu slika"
+  },
+  "fixThePage": {
+    "message": "Popravi stranicu"
+  },
+  "expandScrollableOn": {
+    "message": "Proširi područja koja se mogu pomicati"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Omogućite proširenje područja koja se mogu pomicati unutar web stranice prije snimanja zaslona"
+  },
+  "hideFixedOn": {
+    "message": "Sakrij elemente s fiksnom pozicijom"
+  },
+  "hideFixedOnDesc": {
+    "message": "Omogućite sakrivanje elemenata s fiksnom pozicijom koji bi mogli ometati snimanje"
+  },
+  "preScrollOn": {
+    "message": "Prethodno učitavanje web stranice pomicanjem"
+  },
+  "preScrollOnDesc": {
+    "message": "Mnogi web elementi (npr. slike) učitavaju se samo pomicanjem. Kada je omogućeno, automatski otkriva i pomiče se na dno stranice prije snimanja zaslona."
+  },
+  "canBeDisabled": {
+    "message": "može se onemogućiti putem stranice s postavkama"
+  },
+  "analyzingPageForHTML": {
+    "message": "Analiziranje koda i sadržaja web stranice, složene stranice mogu potrajati duže. Ako traje predugo, osvježite web stranicu i pokušajte ponovo."
+  },
+  "drawerSettings": {
+    "message": "Postavke"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Povijest snimaka zaslona"
+  },
+  "drawerImageTools": {
+    "message": "Alati za poboljšanje snimaka zaslona"
+  },
+  "drawerHelpFeedback": {
+    "message": "Česta pitanja i povratne informacije"
+  },
+  "drawerCloseMenu": {
+    "message": "Zatvori ovaj izbornik"
+  },
+  "logoTooltip": {
+    "message": "Prikaži više"
+  },
+  "pRecorderTabLabel": {
+    "message": "Snimanje zaslona"
+  },
+  "pRecorderTitle": {
+    "message": "Snimanje zaslona"
+  },
+  "pStartRecorder": {
+    "message": "Pokreni snimanje zaslona"
+  },
+  "pStartRecorderLabel": {
+    "message": "Snimanje zaslona"
+  },
+  "pRecorderAlt": {
+    "message": "Snimač"
+  },
+  "pStartRecorderAlt": {
+    "message": "Snimanje zaslona"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Ovo je beta verzija"
+  },
+  "pRecorderFeedback": {
+    "message": "Pošalji povratne informacije"
+  },
+  "downloadsPermission": {
+    "message": "Dopusti preuzimanje datoteka"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Ova dozvola je potrebna za izravno spremanje snimaka zaslona na vaše računalo."
+  },
+  "webNavigationPermission": {
+    "message": "Dopusti pristup web navigaciji"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Ova dozvola je potrebna za otkrivanje promjena stranice i navigaciju na različite stranice kada je potrebno."
+  },
+  "desktopCapturePermission": {
+    "message": "Dopusti snimanje radne površine"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Ova dozvola je potrebna za snimanje sadržaja s vaše radne površine ili određenih prozora."
+  },
+  "tabsPermission": {
+    "message": "Dopusti pristup karticama"
+  },
+  "tabsPermissionDesc": {
+    "message": "Ova dozvola je potrebna za pristup i upravljanje informacijama kartica preglednika."
+  },
+  "tabCapturePermission": {
+    "message": "Dopusti snimanje kartice"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Ova dozvola je potrebna za snimanje zvuka i videa s kartica preglednika."
+  },
+  "allUrlsPermission": {
+    "message": "Dopusti pristup svim web stranicama"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Ova dozvola je potrebna za snimanje zaslona s bilo koje web stranice."
+  },
+  "fileUrlsPermission": {
+    "message": "Dopusti pristup lokalnim datotekama"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Ova dozvola je potrebna za snimanje zaslona s lokalnih datoteka (file:// URL-ovi)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Treba li uključiti slike u preuzimanje"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Ova značajka zahtijeva CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "Nadogradi na Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Spremanje ovog sadržaja zahtijeva CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "CocoShot Pregled"
+  },
+  "qv_preview_mode": {
+    "message": "Način pregleda"
+  },
+  "qv_screenshot_preview": {
+    "message": "Pregled snimke zaslona"
+  },
+  "qv_download": {
+    "message": "Preuzmi"
+  },
+  "qv_edit": {
+    "message": "Anotiraj, Uredi (može se izvesti i u PDF)"
+  },
+  "qv_hint": {
+    "message": "Iskusni korisnici automatski će preskočiti ovu stranicu i otići u uređivač."
+  },
+  "recordTab": {
+    "message": "Snimanje",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Vaši videozapisi",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Ekran",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Kartica",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Samo kamera",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Mockup",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Snimanje prilagođenog područja onemogućeno",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Ažurirajte Chrome na verziju 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Ažuriraj",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Provjerite svoje dozvole",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "Čini se da CocoShot ne može pristupiti vašoj kameri ili mikrofonu. Da biste riješili ovaj problem, odblokirajte ga u postavkama preglednika i dodijelite potrebne dozvole.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Odbaci",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Omogući pristup kameri",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Omogući pristup mikrofonu",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Pritisni za govor",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Postavi područje snimanja",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Okreni kameru",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Pozadinski efekti",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Započni snimanje",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Pokretanje snimanja...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Odaberite kameru",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Više opcija",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Sistemski zvuk",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Sakrij alatnu traku",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Odbrojavanje",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Postavi vremensko ograničenje",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Zamutanje",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Nijedan",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Nema kamere",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Nema mikrofona",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Odaberite izvor",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Isključeno",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Širina",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Visina",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Kliknite za postavljanje slike",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Završi snimanje",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Ponovno pokreni snimanje",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Pauziraj snimanje",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Nastavi snimanje",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Otkaži snimanje",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Uključi/isključi alate za crtanje",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Uključi/isključi alat za zamutnjivanje",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Uključi/isključi opcije pokazivača",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Onemogući kameru",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Omogući kameru",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Nema dozvola za kameru",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Postavke kamere",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Zrcali kameru",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Zamutnjivanje pozadine",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Onemogući mikrofon",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Omogući mikrofon",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Nema dozvola za mikrofon",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Odaberi alat",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Alat za olovku",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Alat za isticanje",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Gumica",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Alat za tekst",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Alat za oblike",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Alat za strelice",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Alat za slike",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Poništi",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Ponovi",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Očisti platno",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Više boja",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Debela linija",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Srednja linija",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Tanki potez",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Uključi/isključi način slike u slici",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Uključi/isključi ispunu",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Način crtanja",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Način zamutnjivanja",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Očisti sve zamutnjene elemente",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Istakni klikove",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Istakni pokazivač",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Reflektor na pokazivač",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Ne prikazuj ponovo",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Ponovo pokrenuti snimanje?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Vaš trenutni napredak bit će izgubljen.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Ponovo pokreni",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Nastavi",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Odbaciti snimanje?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Vaš trenutni napredak bit će izgubljen.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Odbaci",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Nastavi",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Vaš snimak bit će spremljen ovdje",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Snimanje...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Držite ovu karticu otvorenu. Zatvorit će se nakon što se vaš snimak spremi.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Pripremanje snimanja...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Držite ovu karticu otvorenu. Ažurirat će se s vašim snimkom kada bude spreman.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Uređivač",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Odustani",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Vrati na izvorno",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Resetiraj",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Sprem promjene",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Spremanje...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Povucite i spustite svoju audio datoteku",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Ili kliknite za pregledavanje",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Postavke",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Glasnoća",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Ažuriraj",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Obreži",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Širina",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Visina",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Lijevo",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Vrh",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Povucite ručke i koristite gumbe na lijevoj strani za uređivanje odabranog odjeljka.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Obreži video",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Obrezivanje...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Izreži odjeljak",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Izrezivanje...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Isključi zvuk",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Isključivanje zvuka...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Saznajte više.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Poništi",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Ponovi",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Ostavite recenziju, pomaže!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Trenutno ste izvan mreže",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Neke funkcije nisu dostupne dok se ponovno ne povežete",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Pokušajte ponovo",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome treba ažurirati",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Ažurirajte za pristup više funkcija",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Saznajte više",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Video je predug za obradu na uređaju",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Uređivanje i MP4 izvoz nisu dostupni",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Video se lokalno obrađuje...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Saznajte o bržoj verziji u oblaku",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Uredi",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Nema veze",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Nije dostupno",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Uredi video",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Obreži, izreži ili utišaj video",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Priprema videa, molimo pričekajte...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Obreži",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Obrežite i promijenite veličinu videozapisa",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Dodaj audio",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Prenesite vlastiti audio da biste ga dodali u video",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Spremi",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Odjavite se s Google Diska",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Spremanje...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Spremi na Google Disk",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Spremite trenutnu verziju na Google Disk",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Prijavite se i spremite na Google Disk",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Preuzimanje...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Preuzmi kao .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Izvezi .webm videozapis",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Preuzmi kao .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Izvezi .mp4 videozapis (preporučeno)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Preuzmi kao .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Izvezi GIF (maks. 30 sekundi)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Zamijeni postojeći audio",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Povećaj do pokazivača",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Ostanite na stranici tijekom snimanja",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Mikrofon isključen",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Pomoć",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Snimanje je pauzirano. Pritisnite gumb za reprodukciju za nastavak.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot nema dozvolu za snimanje vašeg ekrana",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Za funkcioniranje snimanja ekrana, morat ćete dopustiti CocoShotu da snimi vaš ekran kada se pojavi zahtjev za dozvolu. (Možete ga opozvati bilo kada u postavkama proširenja.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Omogući snimanje ekrana",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Odustani",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Vaš mikrofon je utišan",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Ako želite da vaš glas bude uključen u snimanje, morat ćete uključiti mikrofon. Želite li nastaviti sa snimanjem bez zvuka?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Da, nastavi",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Odustani",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Opustite se. Kliknite bilo gdje za zaustavljanje odbrojavanja.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Uređivanje može biti netočno za kratke vremenske intervale zbog razmika između okvira.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Video se obrađuje, reprodukcija može biti netočna ili prekinuta.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Obrezivanje može potrajati",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Nadogradite za bržu obradu",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Mikrofon omogućen",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Mikrofon onemogućen",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Snimanje je bilo kraće od 3 sekunde i nije spremljeno.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Sakrij obavijesti sučelja",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Ne prikazuj ponovo",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Sakrij alatnu traku kada se ne koristi",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Započni snimanje",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Zaustavi snimanje",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Dobrodošli u novi CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Saznajte više o ažuriranju.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Početak rada",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Pogreška pri pokretanju snimanja",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Došlo je do pogreške tijekom pokretanja procesa snimanja. Molimo ponovo pokrenite preglednik i pokušajte ponovo. Ako se problem nastavi, obratite nam se na support@cocoshot.net za daljnju pomoć.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Najviša kvaliteta",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Vrati zadnji video snimak",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Imate problema?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Ne vidite svoje snimanje?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Ako ste završili snimanje, ali ne vidite svoj video na ovoj stranici, možete pokušati preuzeti sirove podatke videozapisa ako postoje. Alternativno, možete nas kontaktirati prijavom greške.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Preuzmi sirove podatke videozapisa",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Prijavi grešku",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Snimanje nije pronađeno, žao nam je :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Dosegnuto ograničenje memorije",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Vaš uređaj nema dovoljno memorije za snimanje, što uzrokuje automatski završetak sesije. Za snimanje dužih videozapisa, razmislite o smanjenju kvalitete videozapisa ili oslobađanju prostora za pohranu na uređaju.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Razumijem",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Nema dovoljno prostora",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShotu treba najmanje 1 GB slobodnog prostora za snimanje. Oslobodite nešto prostora i pokušajte ponovo.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Očisti prethodna snimanja",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Napredno",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Preuzmi sirovu video datoteku",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Izvezi izvorne podatke snimanja",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Zatražite pomoć oko snimanja",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Oporavite svoj video i riješite druge probleme",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Preuzmi sirovu video datoteku",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Sirova video datoteka odnosi se na nesmetano snimanje koje je izravno stvorio CocoShot. Budući da ova datoteka nije obrađena ili uređena, može biti prilično velika i nekompatibilna s nekim uređajima. Ako naiđete na probleme s obrađenom verzijom, možete koristiti ovu datoteku za vraćanje izvornog snimanja.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Preuzmi",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Prikaži audio valni oblik",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Preuzmite informacije o sustavu i podatke o videu i pošaljite ih za rješavanje problema",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Nakon što preuzmete datoteku, pošaljite je na support@cocoshot.net zajedno s dodatnim detaljima koji bi mogli biti korisni. Koristit ćemo ove informacije da vam pomognemo u rješavanju problema s proširenjem i, ako je moguće, oporavimo vaš video.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Preuzmi",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Video je predug za obradu na vašem uređaju",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Budući da CocoShot daje prednost privatnosti i radi u potpunosti na vašem lokalnom uređaju, ograničen je mogućnostima vašeg hardvera. Rukovanje videozapisom ovog trajanja bilo bi predugo i zahtijevalo značajne sistemske resurse. WEBM datoteku ili sirovo snimanje i dalje možete dobiti, iako značajke uređivanja i MP4 izvoz neće biti dostupni. Međutim, ako ste svjesni potencijalnih izazova, možete nastaviti s obradom videozapisa bez obzira na to.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Razumijem rizik, pokušajte svejedno",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Saznajte više o dugim videozapisima.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Način oporavka",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Preuzmi podatke za rješavanje problema",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Centar za pomoć",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Snimaj zvuk računala",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Za snimanje zvuka s ove stranice, morate prijeći na „$tab$“.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Proširenje nije podržano na kartici",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot nije kompatibilan s karticom koju ste upravo koristili. Još uvijek možete pokrenuti snimanje s ove stranice, a zatim se vratiti na tu karticu, ali imajte na umu da vaš kanal kamere i alatna traka za uređivanje neće biti prikazani.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Postavite lokalnu sigurnosnu kopiju za svoje CocoShot snimke",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Održavajte duplikate svakog snimanja koje napravite. Bez postavljanja sigurnosnih kopija, vaši snimci bit će spremljeni samo kada ih izričito odaberete za preuzimanje.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Ako pokušavate spremiti snimke u Preuzimanja ili druge sistemske mape, možda ćete morati stvoriti novu mapu unaprijed.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Odaberite mapu",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Ne sada",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Vaši snimci se lokalno sigurnosno kopiraju",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Kako bismo izbjegli traženje dozvola svaki put kada snimate, preporučujemo da ostavite ovu karticu otvorenom.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Zatvori karticu svejedno",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Prestani sigurnosno kopirati sva snimanja",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Molimo potvrdite pristup svojoj lokalnoj mapi za sigurnosne kopije CocoShot",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Žao nam je, ali trebamo vašu dozvolu ponovo da nastavimo sigurnosno kopirati vaše snimke. Nažalost, morat ćemo tražiti ovu dozvolu svaki put kada se ova kartica zatvori, što se može dogoditi kada isključite preglednik ili ponovo pokrenete računalo.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Dopustite CocoShotu da nastavi sigurnosno kopirati snimke",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Sigurnosno kopiraj snimke",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Dozvola nije dodijeljena za sigurnosno kopiranje snimanja",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Niste odabrali mapu za pohranu sigurnosnih kopija snimanja. Ovisno o verziji preglednika ili operativnom sustavu, možda ćete biti upitani da odaberete ovu mapu svaki put kada započnete snimanje. Možete pokušati ponovo s postavkama ili isključiti sigurnosne kopije u potpunosti ako ne želite dodjeljivati dozvole ponovo.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Snimaj zvuk računala",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "Na macOS sustavima, ograničeni ste na snimanje zvuka s pojedinačnih kartica. Odaberite opciju snimanja Chrome kartice i provjerite je li postavka 'Također dijeli zvuk kartice' uključena.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Snimaj zvuk računala",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Ako želite snimiti zvuk s računala, provjerite je li opcija 'Dijeli sistemski zvuk' aktivirana. Ako ova opcija nije vidljiva, razmislite o ažuriranju Chromea ili prijelazu na način snimanja kartice.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Maksimalna razlučivost",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Maksimalni FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Nema dovoljno RAM-a",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Promijeni veličinu prozora",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Ekran je prevelik za ovu razlučivost",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Ne može snimati s ovom razlučivosti na vašem uređaju",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Dozvola odbijena",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Za snimanje su potrebne dozvole za kameru i mikrofon. Dodijelite dozvole u postavkama preglednika.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Za snimanje je potrebna dozvola za kameru. Dodijelite dozvolu u postavkama preglednika.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Za snimanje je potrebna dozvola za mikrofon. Dodijelite dozvolu u postavkama preglednika.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Popravi dozvole",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Postavke snimanja ekrana",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "h",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Traženje dozvole za kameru...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Traženje dozvole za mikrofon...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Zatraži dozvolu za kameru",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Zatraži dozvolu za mikrofon",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Pregledaj dozvole",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Prilagodi opcije",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Snimljeni videozapisi",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Još nema snimljenih videozapisa",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Pritisni za utišavanje",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Treba nam vaša dozvola za pristup vašoj kameri",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Treba nam vaša dozvola za pristup vašem mikrofonu",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Pregled",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Birač boja",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Zatvori",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Odaberi boju s ekrana",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API nije podržan u ovom pregledniku. Koristite moderni preglednik poput Chrome 95+ ili Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Odaberi regiju za zamutnjivanje",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Izbriši sve regije za zamutnjivanje",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Širina crte",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Tanki",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Srednji",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Debeli",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Ekstra debeli",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot snimke",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Neuspješno postavljanje lokalne sigurnosne kopije. Obratite nam se na $supportEmail$ za više pomoći. Još uvijek možete snimati ekran.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Vaš preglednik ne podržava lokalne sigurnosne kopije. Obratite nam se na $supportEmail$ za više pomoći. Još uvijek možete snimati ekran.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Kako koristiti Povećanje do pokazivača",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Tijekom snimanja, držite tipkovnički prečac za povećanje prema položaju vašeg pokazivača. Otpustite tipke za smanjenje. Ovo je sjajno za isticanje određenih područja ekrana tijekom snimanja.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Razumijem!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Veličina regije",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Predlošci",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Resetiraj",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Nijedan",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Zamutnjivanje",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Slika",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Prvo učitajte video datoteku",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Preuzmi kao WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Preuzmi kao MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Pretvaranje...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Obrađujem dijelove:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Veličina videozapisa premašuje preporučeno ograničenje (maks. 1GB), što može uzrokovati neuspjeh obrade",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Učitavate veliki videozapis (1GB). Obrada može potrajati. Nastaviti?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Nepodržan format videozapisa. Pokušajte s drugim formatom videozapisa.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Preuzimanje nije uspjelo. Pokušajte ponovo.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4 pretvorba nije dostupna",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Ovaj videozapis je prevelik za pretvorbu u MP4 u pregledniku. Preuzmite ga kao WebM umjesto toga.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Pretvaranje u MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Preuzimanje videozapisa nije uspjelo. Pokušajte ponovo.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "uredi video",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Dolazi uskoro.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Pregled videozapisa",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "U redu",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Pisanje u pohranu...",
+    "description": "Message shown when writing video to storage"
+  }
+}

@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Tangkapan Skrin & Perakam Skrin"
+  },
+  "extDescription": {
+    "message": "Tangkap tangkapan skrin halaman penuh dan rakam skrin ke MP4 dengan anotasi. Eksport PDF dengan pautan boleh klik disertakan."
+  },
+  "pDisable": {
+    "message": "Dilumpuhkan di halaman ini"
+  },
+  "pDisableDesc": {
+    "message": "Anda boleh menjalankan ini di mana-mana halaman web, kecuali untuk yang di mana penyemak imbas mengehadkan sambungan menjalankan skrip. Ini termasuk kedai sambungan, halaman tetapan penyemak imbas, dan halaman sambungan lain."
+  },
+  "pDisableExp": {
+    "message": "Had ini datang dari penyemak imbas itu sendiri kerana risiko keselamatan."
+  },
+  "pDisableTry": {
+    "message": "Anda boleh membuka halaman baru dan mencuba fungsi tangkapan."
+  },
+  "pStart": {
+    "message": "Mula"
+  },
+  "pFileUrl": {
+    "message": "Pergi ke \"edge://extensions/\", dan semak kotak \"Benarkan akses ke URL fail\"."
+  },
+  "pCaptV": {
+    "message": "Tangkap tangkapan layar bahagian yang boleh dilihat dari halaman."
+  },
+  "pAsOne": {
+    "message": "Simpan sebagai satu fail HTML."
+  },
+  "pDesktop": {
+    "message": "Tangkap tangkapan layar halaman web tertentu, tab, tetingkap, atau seluruh skrin."
+  },
+  "pCaptFull": {
+    "message": "Tangkap tangkapan layar halaman penuh."
+  },
+  "pDesableOpt": {
+    "message": "Atau anda boleh mencuba:"
+  },
+  "pAreaCut": {
+    "message": "Pilih bahagian halaman untuk menangkap tangkapan layar"
+  },
+  "fullpageTooLarge": {
+    "message": "Notis: Pelayar tidak dapat menangkap keseluruhan halaman sebagai satu imej kerana saiznya. Sebaliknya, ia akan dibahagikan kepada <strong>$1</strong> imej berasingan."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Perhatian: Sambungan ini tidak bertujuan untuk menangkap kandungan yang sangat besar. Ia mungkin tidak dapat melengkapkan tangkapan halaman ini dengan berjaya."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Keizinan Tambahan Diperlukan"
+  },
+  "framePermDesc": {
+    "message": "Laman ini memaparkan kandungan melalui iframe tertanam, yang memerlukan keizinan tambahan untuk diakses."
+  },
+  "WhatisIframe": {
+    "message": "Klik untuk mengetahui apa itu iframe."
+  },
+  "framePermMore": {
+    "message": "Anda mungkin perlu memulakan semula sambungan selepas menggunakan dialog ini. Membatalkan hanya akan menangkap skrin yang kelihatan."
+  },
+  "framePermConfirm": {
+    "message": "Benarkan"
+  },
+  "framePermSave": {
+    "message": "Simpan keizinan ini untuk kegunaan kemudian (Anda boleh membatalkannya pada bila-bila masa)."
+  },
+  "error": {
+    "message": "Ralat"
+  },
+  "captureError": {
+    "message": "Tangkap gagal, sila cuba semula kemudian. Jika masalah berterusan, sila hubungi pembangun di $1"
+  },
+  "btnOk": {
+    "message": "OK"
+  },
+  "btnCancel": {
+    "message": "Batal"
+  },
+  "saveFramePermission": {
+    "message": "Benarkan menangkap kandungan dari semua bingkai"
+  },
+  "permissions": {
+    "message": "Keizinan"
+  },
+  "saveframepDesc": {
+    "message": "Keizinan ini diperlukan untuk menangkap kandungan dari iframe atau sets bingkai pada halaman. Menyahaktifkan ini mungkin mengehadkan keupayaan untuk menangkap beberapa elemen laman web."
+  },
+  "processingScreenshot": {
+    "message": "Sedang memproses tangkapan skrin..."
+  },
+  "screenshotSaved": {
+    "message": "Tangkapan skrin disimpan ke folder Muat Turun"
+  },
+  "screenshotLoadFailed": {
+    "message": "Gagal memuatkan tangkapan skrin. Sila cuba lagi."
+  },
+  "getScreenshotFailed": {
+    "message": "Gagal mengambil tangkapan skrin. Sila cuba lagi."
+  },
+  "processingAllAreas": {
+    "message": "Sedang memproses tangkapan skrin bagi semua kawasan..."
+  },
+  "allAreasSaved": {
+    "message": "Berjaya menyimpan tangkapan skrin bagi $1 kawasan"
+  },
+  "areaNotVisible": {
+    "message": "Kawasan yang dipilih hampir sepenuhnya di luar julat kelihatan dan tidak boleh ditangkap."
+  },
+  "partiallyVisible": {
+    "message": "Sebahagian kawasan berada di luar julat kelihatan. Bahagian yang kelihatan telah ditangkap."
+  },
+  "partiallyVisibleArea": {
+    "message": "Sebahagian kawasan yang dipilih berada di luar julat kelihatan. Bahagian yang kelihatan telah ditangkap."
+  },
+  "areaOutOfView": {
+    "message": "Kawasan yang dipilih berada di luar julat kelihatan. Sila skrol halaman supaya kawasan itu kelihatan dan cuba lagi."
+  },
+  "processingError": {
+    "message": "Ralat semasa memproses tangkapan skrin: $1"
+  },
+  "saveFailed": {
+    "message": "Gagal menyimpan tangkapan skrin: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Mod tangkapan skrin pintar diaktifkan. Klik untuk memilih elemen untuk ditangkap (Enter untuk sahkan, Esc untuk batal)."
+  },
+  "processing": {
+    "message": "Sedang memproses salinan..."
+  },
+  "copyFailed": {
+    "message": "Salinan gagal: $1"
+  },
+  "canvasContextError": {
+    "message": "Salinan gagal: Tidak dapat mendapatkan konteks Canvas."
+  },
+  "copied": {
+    "message": "Disalin ke papan klip"
+  },
+  "clipboardAccessDenied": {
+    "message": "Salinan gagal: Akses papan klip ditolak, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Salinan gagal: API papan klip tidak disokong"
+  },
+  "imageDataCreateFailed": {
+    "message": "Salinan gagal: Tidak dapat mencipta data imej"
+  },
+  "copyAreaOutOfView": {
+    "message": "Salinan gagal: Kawasan yang dipilih berada di luar julat kelihatan"
+  },
+  "imagePreviewShown": {
+    "message": "Pratonton imej dipaparkan. Klik kanan untuk salin."
+  },
+  "escape": {
+    "message": "Batal (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Kualiti imej ditetapkan kepada: $1"
+  },
+  "qrDecoding": {
+    "message": "Sedang menyahkod kod QR..."
+  },
+  "qrSuccess": {
+    "message": "Kod QR berjaya disahkod. Disalin ke papan klip."
+  },
+  "qrNoQRFound": {
+    "message": "Tiada kod QR yang sah dikesan"
+  },
+  "qrError": {
+    "message": "Penyahkodan kod QR gagal: $1"
+  },
+  "saveArea": {
+    "message": "Simpan kawasan ini"
+  },
+  "copyToClipboard": {
+    "message": "Salin pilihan ini (dipilih sekarang)"
+  },
+  "saveAllAreas": {
+    "message": "Simpan semua kawasan"
+  },
+  "keepAndContinue": {
+    "message": "Tambah pilihan baru"
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "lockSize": {
+    "message": "Kunci saiz"
+  },
+  "lockSizeActive": {
+    "message": "✓ Kunci saiz"
+  },
+  "freeRatio": {
+    "message": "Nisbah bebas"
+  },
+  "ratioLabel": {
+    "message": "Pilih nisbah"
+  },
+  "aiDialog": {
+    "message": "Dialog pintar"
+  },
+  "fileSizeEstimate": {
+    "message": "Anggaran $1 $2"
+  },
+  "qrDecode": {
+    "message": "Nyahkod kod QR"
+  },
+  "removeBackground": {
+    "message": "Buang latar belakang"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Sedang membuang latar belakang..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Gagal membuang latar belakang: Ralat memuatkan imej"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Gagal membuang latar belakang: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Latar belakang dibuang dan disalin ke papan klip"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Gagal membuang latar belakang: Tidak dapat mencipta Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Kawasan yang dipilih berada di luar julat kelihatan"
+  },
+  "screenshotFailed": {
+    "message": "Tangkapan skrin gagal: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Pemprosesan imej gagal, sila cuba lagi"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Kawasan tangkapan skrin berada di luar julat kelihatan"
+  },
+  "errorProcessingImage": {
+    "message": "Ralat semasa memproses imej: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "Perpustakaan penyahkodan kod QR tidak dimuatkan"
+  },
+  "qrDecodingFailed": {
+    "message": "Penyahkodan kod QR gagal: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "Tiada kod QR dijumpai dalam kawasan yang dipilih"
+  },
+  "qrDecodingSuccess": {
+    "message": "Kod QR berjaya disahkod: $1"
+  },
+  "qrDecodingError": {
+    "message": "Ralat penyahkodan kod QR: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Gagal membuang latar belakang: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Sila pilih kawasan tangkapan skrin terlebih dahulu"
+  },
+  "aiDialogTitle": {
+    "message": "Berbual secara pintar mengenai kandungan tangkapan skrin"
+  },
+  "qrDecodeTitle": {
+    "message": "Nyahkod kod QR dalam tangkapan skrin"
+  },
+  "lockSizeTitle": {
+    "message": "Kunci saiz semasa untuk tangkapan berterusan"
+  },
+  "moveHint": {
+    "message": "Seret kawasan pilihan (Space + seret)"
+  },
+  "saveAreaTooltip": {
+    "message": "Simpan kawasan semasa"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Simpan semua kawasan yang dipilih"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Salin tangkapan skrin ke papan klip"
+  },
+  "moreOptions": {
+    "message": "Pilihan lanjut"
+  },
+  "removeBgTooltip": {
+    "message": "Buang latar belakang dan salin ke papan klip"
+  },
+  "ratioLabelTooltip": {
+    "message": "Pilih nisbah aspek"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Kekalkan pilihan semasa dan teruskan"
+  },
+  "pCaptureTabLabel": {
+    "message": "Tangkapan skrin"
+  },
+  "pAiToolsTabLabel": {
+    "message": "Alat AI"
+  },
+  "pCaptureTitle": {
+    "message": "Tangkapan skrin halaman penuh dan kawasan skrin yang dipilih"
+  },
+  "pAiToolsTitle": {
+    "message": "Alat berkaitan AI"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Alat Eksport Kandungan Web"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Alat Imej"
+  },
+  "pDownloadAsMD": {
+    "message": "Muat turun sebagai Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Muat turun sebagai PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Muat turun halaman web semasa sebagai fail Markdown"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Muat turun halaman web semasa sebagai fail PDF"
+  },
+  "pImageProcessing": {
+    "message": "Pemprosesan imej"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Koleksi alat untuk pemprosesan imej"
+  },
+  "fixThePage": {
+    "message": "Betulkan halaman"
+  },
+  "expandScrollableOn": {
+    "message": "Kembangkan kawasan boleh skrol"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Dayakan untuk mengembangkan kawasan boleh skrol dalam halaman web sebelum mengambil tangkapan skrin"
+  },
+  "hideFixedOn": {
+    "message": "Sembunyikan elemen kedudukan tetap"
+  },
+  "hideFixedOnDesc": {
+    "message": "Dayakan untuk menyembunyikan elemen kedudukan tetap yang mungkin mengganggu tangkapan"
+  },
+  "preScrollOn": {
+    "message": "Pramuat halaman web dengan menatal"
+  },
+  "preScrollOnDesc": {
+    "message": "Banyak elemen web (cth., imej) dimuatkan hanya semasa menatal. Apabila didayakan, ia secara automatik mengesan dan menatal ke bahagian bawah halaman sebelum mengambil tangkapan skrin."
+  },
+  "canBeDisabled": {
+    "message": "boleh dilumpuhkan melalui halaman tetapan"
+  },
+  "analyzingPageForHTML": {
+    "message": "Menganalisis kod dan kandungan halaman web, halaman yang kompleks mungkin mengambil masa yang lebih lama. Jika mengambil masa terlalu lama, sila muat semula halaman web dan cuba lagi."
+  },
+  "drawerSettings": {
+    "message": "Tetapan"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Sejarah Tangkapan Skrin"
+  },
+  "drawerImageTools": {
+    "message": "Alat Peningkatan Tangkapan Skrin"
+  },
+  "drawerHelpFeedback": {
+    "message": "Soalan Lazim & Maklum Balas"
+  },
+  "drawerCloseMenu": {
+    "message": "Tutup Menu ini"
+  },
+  "logoTooltip": {
+    "message": "Lihat Lagi"
+  },
+  "pRecorderTabLabel": {
+    "message": "Perakam Skrin"
+  },
+  "pRecorderTitle": {
+    "message": "Perakam Skrin"
+  },
+  "pStartRecorder": {
+    "message": "Mula rakam skrin"
+  },
+  "pStartRecorderLabel": {
+    "message": "Rakam skrin"
+  },
+  "pRecorderAlt": {
+    "message": "Perakam"
+  },
+  "pStartRecorderAlt": {
+    "message": "Perakam Skrin"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Ini ialah versi beta"
+  },
+  "pRecorderFeedback": {
+    "message": "Berikan Maklum Balas"
+  },
+  "downloadsPermission": {
+    "message": "Benarkan muat turun fail"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Kebenaran ini diperlukan untuk menyimpan tangkapan skrin secara terus ke komputer anda."
+  },
+  "webNavigationPermission": {
+    "message": "Benarkan akses navigasi web"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Kebenaran ini diperlukan untuk mengesan perubahan halaman dan menavigasi ke halaman berbeza apabila perlu."
+  },
+  "desktopCapturePermission": {
+    "message": "Benarkan tangkapan desktop"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Kebenaran ini diperlukan untuk menangkap kandungan dari desktop atau tetingkap tertentu anda."
+  },
+  "tabsPermission": {
+    "message": "Benarkan akses tab"
+  },
+  "tabsPermissionDesc": {
+    "message": "Kebenaran ini diperlukan untuk mengakses dan mengurus maklumat tab pelayar."
+  },
+  "tabCapturePermission": {
+    "message": "Benarkan tangkapan tab"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Kebenaran ini diperlukan untuk menangkap audio dan video dari tab pelayar."
+  },
+  "allUrlsPermission": {
+    "message": "Benarkan akses ke semua laman web"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Kebenaran ini diperlukan untuk menangkap tangkapan skrin dari mana-mana laman web."
+  },
+  "fileUrlsPermission": {
+    "message": "Benarkan akses ke fail tempatan"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Kebenaran ini diperlukan untuk menangkap tangkapan skrin dari fail tempatan (URL file://)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Sama ada untuk memasukkan imej dalam muat turun"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Ciri ini memerlukan CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "Naik taraf ke Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Menyimpan kandungan ini memerlukan CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "Pratinjau CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "Mod Pratinjau"
+  },
+  "qv_screenshot_preview": {
+    "message": "Pratinjau Tangkapan Skrin"
+  },
+  "qv_download": {
+    "message": "Muat turun"
+  },
+  "qv_edit": {
+    "message": "Anotasi, Edit (boleh eksport ke PDF juga)"
+  },
+  "qv_hint": {
+    "message": "Pengguna berpengalaman akan melangkau halaman ini secara automatik dan pergi ke editor."
+  },
+  "recordTab": {
+    "message": "Rakam",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Video anda",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Skrin",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Tab",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Kamera sahaja",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Mockup",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Rakaman kawasan tersuai dilumpuhkan",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Kemas kini Chrome ke versi 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Kemas kini",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Periksa kebenaran anda",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot nampaknya tidak dapat mengakses kamera atau mikrofon anda. Untuk menyelesaikan masalah ini, sila nyahbloknya dalam tetapan pelayar anda dan berikan kebenaran yang diperlukan.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Tutup",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Benarkan akses kamera",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Benarkan akses mikrofon",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Tekan untuk bercakap",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Tetapkan kawasan rakaman",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Balikkan kamera",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Kesan latar belakang",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Mula merakam",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Memulakan rakaman...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Pilih kamera",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Pilihan lanjut",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Audio sistem",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Sembunyikan toolbar",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Kira detik",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Tetapkan had masa",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Kabur",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Tiada",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Tiada kamera",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Tiada mikrofon",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Pilih sumber",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Mati",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Lebar",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Tinggi",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Klik untuk meletakkan imej",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Tamatkan rakaman",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Mula semula rakaman",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Jeda rakaman",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Sambung rakaman",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Batalkan rakaman",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Alihkan alat lukisan",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Alihkan alat kabur",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Alihkan pilihan kursor",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Lumpuhkan kamera",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Dayakan kamera",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Tiada kebenaran kamera",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Tetapan kamera",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Cerminkan kamera",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Kaburkan latar belakang",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Lumpuhkan mikrofon",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Dayakan mikrofon",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Tiada kebenaran mikrofon",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Pilih alat",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Alat pen",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Alat penanda",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Alat pemadam",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Alat teks",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Alat bentuk",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Alat anak panah",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Alat imej",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Buat asal",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Buat semula",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Kosongkan kanvas",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Warna lanjut",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Jalur tebal",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Jalur sederhana",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Jalur nipis",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Alihkan mod gambar dalam gambar",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Alihkan isian",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Mod lukisan",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Mod kabur",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Kosongkan semua elemen kabur",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Serlahkan klik",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Serlahkan kursor",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Sorot kursor",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Jangan tunjuk lagi",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Mula semula rakaman?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Kemajuan semasa anda akan hilang.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Mula semula",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Sambung",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Buang rakaman?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Kemajuan semasa anda akan hilang.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Buang",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Sambung",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Rakaman anda akan disimpan di sini",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Merakam...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Biarkan tab ini terbuka. Ia akan ditutup setelah rakaman anda disimpan.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Menyediakan rakaman...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Biarkan tab ini terbuka. Ia akan dikemas kini dengan rakaman anda apabila siap.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Editor",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Batal",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Pulihkan ke asal",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Tetapkan semula",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Simpan perubahan",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Menyimpan...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Seret dan letakkan fail audio anda",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Atau klik untuk melayari",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Tetapan",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Volume",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Kemas kini",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Potong",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Lebar",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Tinggi",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Kiri",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Atas",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Seret pegangan dan gunakan butang di kiri untuk menyunting bahagian yang dipilih.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Potong video",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Memotong...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Potong bahagian",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Memotong...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Senyapkan audio",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Menyenyapkan...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Ketahui lebih lanjut.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Buat asal",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Buat semula",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Tinggalkan semakan, ia membantu!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Anda sedang luar talian",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Sesetengah ciri tidak tersedia sehingga disambung semula",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Cuba lagi",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome perlu dikemas kini",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Kemas kini untuk mengakses lebih banyak ciri",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Ketahui lebih lanjut",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Video terlalu panjang untuk diproses dalam peranti",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Penyuntingan dan eksport MP4 tidak tersedia",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Video sedang diproses secara tempatan...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Ketahui lebih lanjut tentang versi awan yang lebih pantas",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Sunting",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Tiada sambungan",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Tidak tersedia",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Sunting video",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Potong, potong, atau senyapkan video",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Menyediakan video, sila tunggu...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Potong",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Potong dan saiz semula video",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Tambah audio",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Muat naik audio anda sendiri untuk ditambahkan ke video",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Simpan",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Log keluar dari Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Menyimpan...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Simpan ke Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Simpan versi semasa ke Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Log masuk dan simpan ke Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Memuat turun...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Muat turun sebagai .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Eksport video .webm",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Muat turun sebagai .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Eksport video .mp4 (disyorkan)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Muat turun sebagai .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Eksport GIF (maks 30 saat)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Gantikan audio sedia ada",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Zum ke kursor",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Tetap di halaman semasa merakam",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Amaran mikrofon ditutup",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Bantuan",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Rakaman dijeda. Tekan butang main untuk menyambung.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot tidak mempunyai kebenaran untuk merakam skrin anda",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Untuk rakaman skrin berfungsi, anda perlu membenarkan CocoShot menangkap skrin anda apabila permintaan kebenaran muncul. (Anda boleh membatalkannya pada bila-bila masa di tetapan sambungan.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Dayakan rakaman skrin",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Batal",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Mikrofon anda disenyapkan",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Jika anda ingin suara anda termasuk dalam rakaman, anda perlu menghidupkan mikrofon. Adakah anda ingin meneruskan rakaman tanpa audio?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Ya, teruskan",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Batal",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Tenang. Klik di mana-mana untuk menghentikan kiraan detik.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Suntingan mungkin tidak tepat untuk julat masa yang pendek kerana selang antara bingkai.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Video sedang diproses, main balik mungkin tidak tepat atau terganggu.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Pemangkasan mungkin mengambil masa yang lama",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Tingkat untuk pemprosesan lebih pantas",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Mikrofon diaktifkan",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Mikrofon dilumpuhkan",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Rakaman kurang dari 3 saat dan tidak disimpan.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Sembunyikan notifikasi UI",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Jangan tunjuk lagi",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Sembunyikan toolbar apabila tidak digunakan",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Mula merakam",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Berhenti merakam",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Selamat datang ke CocoShot baharu!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Ketahui lebih lanjut tentang kemas kini ini.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Mari bermula",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Ralat memulakan rakaman",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Ralat berlaku semasa memulakan proses rakaman. Sila mulakan semula pelayar anda dan cuba lagi. Jika masalah berterusan, hubungi kami di support@cocoshot.net untuk bantuan lanjut.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Kualiti tertinggi",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Pulihkan rakaman video terakhir",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Menghadapi masalah?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Tidak dapat melihat rakaman anda?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Jika anda telah selesai merakam tetapi tidak melihat video anda di halaman ini, anda boleh memuat turun data video mentah jika ia wujud. Sebagai alternatif, anda boleh menghubungi kami dengan menyerahkan laporan pepijat.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Muat turun data video mentah",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Laporkan pepijat",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Tiada rakaman ditemui, maaf :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Had memori dicapai",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Peranti anda tidak mempunyai memori yang mencukupi untuk rakaman, menyebabkan sesi berakhir secara automatik. Untuk merakam video yang lebih panjang, pertimbangkan untuk mengurangkan kualiti video atau mengosongkan ruang penyimpanan pada peranti anda.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Faham",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Ruang tidak mencukupi",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot memerlukan sekurang-kurangnya 1GB ruang bebas untuk merakam. Sila bebaskan ruang dan cuba lagi.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Kosongkan rakaman sebelumnya",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": " lanjutan",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Muat turun fail video mentah",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Eksport data rakaman asal",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Dapatkan bantuan dengan rakaman anda",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Pulihkan video anda dan selesaikan masalah lain",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Muat turun fail video mentah",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Fail video mentah merujuk kepada rakaman yang tidak diubah yang dicipta terus oleh CocoShot. Oleh kerana fail ini belum diproses atau disunting, ia mungkin agak besar dan tidak serasi dengan sesetengah peranti. Jika anda menghadapi masalah dengan versi yang diproses, anda boleh menggunakan fail ini untuk mendapatkan rakaman asal anda.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Muat turun",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Tunjukkan bentuk gelombang audio",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Muat turun maklumat sistem dan data video dan hantar untuk penyelesaian masalah",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Setelah anda memuat turun fail, sila hantarkannya ke support@cocoshot.net bersama-sama dengan sebarang butiran tambahan yang mungkin membantu. Kami akan menggunakan maklumat ini untuk membantu anda menyelesaikan sebarang masalah dengan sambungan dan, jika boleh, pulihkan video anda.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Muat turun",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Video terlalu panjang untuk diproses dalam peranti anda",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Kerana CocoShot mengutamakan privasi dan beroperasi sepenuhnya pada peranti tempatan anda, ia terhad oleh keupayaan perkakasan anda. Mengendalikan video dengan tempoh ini akan terlalu memakan masa dan memerlukan sumber sistem yang ketara. Anda masih boleh memperoleh fail WEBM atau rakaman mentah, walaupun ciri suntingan dan eksport MP4 tidak akan dapat diakses. Walau bagaimanapun, jika anda sedar tentang kemungkinan cabaran, anda boleh meneruskan pemprosesan video tanpa mengira.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Saya memahami risiko, cuba juga",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Ketahui lebih lanjut tentang pemprosesan video panjang.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Mod pemulihan",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Muat turun data untuk penyelesaian masalah",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Pusat bantuan",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Rakam audio komputer",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Untuk merakam audio dari halaman ini, anda perlu bertukar ke '$tab$'.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Sambungan tidak disokong pada tab",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot tidak serasi dengan tab yang anda gunakan. Anda masih boleh memulakan rakaman dari halaman ini dan kemudian kembali ke tab tersebut, tetapi perhatikan bahawa suapan kamera dan toolbar suntingan tidak akan dipaparkan.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Sediakan sandaran tempatan untuk rakaman CocoShot anda",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Simpan pendua setiap rakaman yang anda cipta. Tanpa menyediakan sandaran, rakaman anda hanya akan disimpan apabila anda memilih untuk memuat turunnya secara eksplisit.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Jika anda cuba menyimpan rakaman ke Muat turun atau direktori sistem lain, anda mungkin perlu mencipta folder baharu terlebih dahulu.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Pilih folder",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Bukan sekarang",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Rakaman anda sedang disandarkan secara tempatan",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Untuk mengelakkan ditanya kebenaran setiap kali anda merakam, kami mengesyorkan meninggalkan tab ini terbuka.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Tutup tab juga",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Berhenti menyandarkan semua rakaman",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Sila sahkan semula akses ke folder sandaran tempatan CocoShot anda",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Kami memohon maaf, tetapi kami memerlukan kebenaran anda lagi untuk terus menyandarkan rakaman anda. Malangnya, kami perlu meminta kebenaran ini setiap kali tab ini ditutup, yang boleh berlaku apabila anda menutup pelayar atau menghidupkan semula komputer.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Benarkan CocoShot terus menyandarkan rakaman",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Sandarkan rakaman",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Kebenaran tidak diberikan untuk menyandarkan rakaman",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Anda belum memilih folder untuk menyimpan sandaran rakaman anda. Bergantung pada versi pelayar atau sistem operasi, anda mungkin diminta untuk memilih folder ini setiap kali anda memulakan rakaman. Anda boleh mencuba proses penyediaan semula, atau matikan sandaran sepenuhnya jika anda tidak mahu memberikan kebenaran berulang kali.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Rakam audio komputer",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "Pada sistem macOS, anda terhad kepada merakam audio dari tab individu. Pilih pilihan Rakaman Tab Chrome dan sahkan bahawa tetapan 'Juga kongsi audio tab' dihidupkan.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Rakam audio komputer",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Jika anda ingin menangkap audio dari komputer anda, pastikan pilihan 'Kongsikan audio sistem' diaktifkan. Jika pilihan ini tidak kelihatan, pertimbangkan untuk mengemas kini Chrome atau bertukar ke mod rakaman tab.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Resolusi maksimum",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "FPS maksimum",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "RAM tidak mencukupi",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Saiz semula tetingkap",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Skrin terlalu kecil untuk resolusi ini",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Tidak dapat merakam pada resolusi ini dalam peranti anda",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Kebenaran Ditolak",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Kebenaran kamera dan mikrofon diperlukan untuk merakam. Sila berikan kebenaran dalam tetapan pelayar anda.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Kebenaran kamera diperlukan untuk merakam. Sila berikan kebenaran dalam tetapan pelayar anda.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Kebenaran mikrofon diperlukan untuk merakam. Sila berikan kebenaran dalam tetapan pelayar anda.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Betulkan Kebenaran",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Tetapan Rakaman Skrin",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "j",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Memohon kebenaran kamera...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Memohon kebenaran mikrofon...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Mohon kebenaran kamera",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Mohon kebenaran mikrofon",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Semak kebenaran",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Sesuaikan pilihan",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Video Dirakam",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Belum ada video dirakam",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Tekan untuk senyapkan",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Kami memerlukan kebenaran anda untuk mengakses kamera anda",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Kami memerlukan kebenaran anda untuk mengakses mikrofon anda",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Semak",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Pemilih Warna",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Tutup",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Pilih Warna dari Skrin",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API tidak disokong dalam pelayar ini. Sila gunakan pelayar moden seperti Chrome 95+ atau Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Pilih kawasan kabur",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Padam semua kawasan kabur",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Lebar Garisan",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Nipis",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Sederhana",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Tebal",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Extra Tebal",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "Rakaman CocoShot",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Gagal menyediakan sandaran tempatan. Hubungi kami di $supportEmail$ untuk bantuan lanjut. Anda masih boleh merakam skrin anda.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Pelayar anda tidak menyokong sandaran tempatan. Hubungi kami di $supportEmail$ untuk bantuan lanjut. Anda masih boleh merakam skrin anda.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Cara Menggunakan Zum ke Kursor",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Semasa merakam, tahan pintasan papan kekunci untuk zum masuk ke posisi kursor anda. Lepaskan kekunci untuk zum keluar. Ini bagus untuk menyerlahkan kawasan tertentu skrin semasa rakaman anda.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Faham!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Saiz Kawasan",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Praset",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Tetapkan semula",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Tiada",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Kabur",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Imej",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Sila muatkan fail video dahulu",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Muat turun sebagai WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Muat turun sebagai MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Menukar...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Memproses kepingan:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Saiz video melebihi had yang disyorkan (maks 1GB), yang mungkin menyebabkan kegagalan pemprosesan",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Anda sedang memuatkan video besar (1GB). Pemprosesan mungkin mengambil masa lama. Teruskan?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Format video tidak disokong. Sila cuba format video yang berbeza.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Muat turun gagal. Sila cuba lagi.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "Penukaran MP4 Tidak Tersedia",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Video ini terlalu besar untuk ditukar ke MP4 dalam pelayar. Sila muat turunnya sebagai WebM sebaliknya.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Menukar ke MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Gagal memuat turun video. Sila cuba lagi.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "sunting video",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Datang segera.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Pratonton Video",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Menulis ke storan...",
+    "description": "Message shown when writing video to storage"
+  }
+}

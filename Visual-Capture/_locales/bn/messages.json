@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: স্ক্রিনশট এবং স্ক্রিন রেকর্ডার"
+  },
+  "extDescription": {
+    "message": "সম্পূর্ণ পৃষ্ঠার স্ক্রিনশট নিন এবং টীকা সহ MP4 এ স্ক্রিন রেকর্ড করুন। ক্লিকযোগ্য লিঙ্ক সহ PDF রপ্তানি অন্তর্ভুক্ত।"
+  },
+  "pDisable": {
+    "message": "এই পৃষ্ঠায় নিষ্ক্রিয়"
+  },
+  "pDisableDesc": {
+    "message": "আপনি এটি যে কোনও ওয়েবপৃষ্ঠায় চালাতে পারেন, তবে সেগুলি বাদে যেখানে ব্রাউজার স্ক্রিপ্ট চালানোর জন্য এক্সটেনশনগুলি সীমাবদ্ধ করে। এর মধ্যে এক্সটেনশন ওয়েব স্টোর, ব্রাউজার সেটিংস পৃষ্ঠাগুলি এবং অন্যান্য এক্সটেনশন পৃষ্ঠাগুলি অন্তর্ভুক্ত।"
+  },
+  "pDisableExp": {
+    "message": "এই সীমাবদ্ধতা ব্রাউজার থেকেই আসে নিরাপত্তা ঝুঁকির কারণে।"
+  },
+  "pDisableTry": {
+    "message": "আপনি একটি নতুন পৃষ্ঠা খুলতে পারেন এবং ক্যাপচার ফাংশনটি চেষ্টা করতে পারেন।"
+  },
+  "pStart": {
+    "message": "শুরু করুন"
+  },
+  "pFileUrl": {
+    "message": "যান \"edge://extensions/\", এবং \"ফাইল ইউআরএলগুলিতে অ্যাক্সেসের অনুমতি দিন\" বাক্সটি চেক করুন।"
+  },
+  "pCaptV": {
+    "message": "পৃষ্ঠার দৃশ্যমান অংশগুলির স্ক্রীনশট ক্যাপচার করুন।"
+  },
+  "pAsOne": {
+    "message": "একটি একক HTML ফাইল হিসেবে সংরক্ষণ করুন।"
+  },
+  "pDesktop": {
+    "message": "একটি নির্দিষ্ট ওয়েবপৃষ্ঠা, ট্যাব, উইন্ডো, বা পুরো স্ক্রীনের স্ক্রীনশট ক্যাপচার করুন।"
+  },
+  "pCaptFull": {
+    "message": "সম্পূর্ণ পৃষ্ঠার স্ক্রীনশট ক্যাপচার করুন।"
+  },
+  "pDesableOpt": {
+    "message": "অথবা আপনি চেষ্টা করতে পারেন:"
+  },
+  "pAreaCut": {
+    "message": "স্ক্রীনশট ক্যাপচার করার জন্য পৃষ্ঠার একটি অংশ নির্বাচন করুন।"
+  },
+  "fullpageTooLarge": {
+    "message": "নোট: ব্রাউজার তার আকারের কারণে সম্পূর্ণ পৃষ্ঠাটিকে একটি ছবি হিসেবে ক্যাপচার করতে পারে না। পরিবর্তে, এটি <strong>$1</strong> আলাদা ছবিতে বিভক্ত করা হবে।"
+  },
+  "fullpageTooLargeExtra": {
+    "message": "সতর্কতা: এই এক্সটেনশনটি অত্যন্ত বড় কন্টেন্ট ক্যাপচার করার জন্য ডিজাইন করা হয়নি। এটি এই পৃষ্ঠার ক্যাপচার সফলভাবে সম্পন্ন করতে সক্ষম নাও হতে পারে।"
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "অতিরিক্ত অনুমতি প্রয়োজন"
+  },
+  "framePermDesc": {
+    "message": "এই সাইটটি এমবেড করা iframe এর মাধ্যমে কনটেন্ট প্রদর্শন করে, যা অ্যাক্সেস করতে অতিরিক্ত অনুমতি প্রয়োজন।"
+  },
+  "WhatisIframe": {
+    "message": "iframe কী তা জানতে ক্লিক করুন।"
+  },
+  "framePermMore": {
+    "message": "এই ডায়ালগ ব্যবহার করার পর এক্সটেনশন পুনরায় চালু করতে হতে পারে। বাতিল করলে শুধুমাত্র দৃশ্যমান পর্দা ক্যাপচার হবে।"
+  },
+  "framePermConfirm": {
+    "message": "অনুমতি দিন"
+  },
+  "framePermSave": {
+    "message": "এই অনুমতিটি পরবর্তীতে ব্যবহারের জন্য সংরক্ষণ করুন (আপনি যেকোনো সময় এটি বাতিল করতে পারেন)।"
+  },
+  "error": {
+    "message": "ত্রুটি"
+  },
+  "captureError": {
+    "message": "ক্যাপচার ব্যর্থ হয়েছে, অনুগ্রহ করে পরে আবার চেষ্টা করুন। যদি সমস্যা অব্যাহত থাকে, অনুগ্রহ করে ডেভেলপারের সাথে যোগাযোগ করুন: $1"
+  },
+  "btnOk": {
+    "message": "ঠিক আছে"
+  },
+  "btnCancel": {
+    "message": "বাতিল"
+  },
+  "saveFramePermission": {
+    "message": "সমস্ত ফ্রেম থেকে কনটেন্ট ক্যাপচারের অনুমতি দিন"
+  },
+  "permissions": {
+    "message": "অনুমতিসমূহ"
+  },
+  "saveframepDesc": {
+    "message": "এই অনুমতিটি একটি পৃষ্ঠায় iframe বা frameset থেকে কনটেন্ট ক্যাপচার করার জন্য প্রয়োজন। এটি নিষ্ক্রিয় করলে কিছু ওয়েব পেজ উপাদান ক্যাপচার করার ক্ষমতা সীমিত হতে পারে।"
+  },
+  "processingScreenshot": {
+    "message": "স্ক্রিনশট প্রক্রিয়াকরণ চলছে..."
+  },
+  "screenshotSaved": {
+    "message": "স্ক্রিনশট ডাউনলোড ফোল্ডারে সংরক্ষণ করা হয়েছে"
+  },
+  "screenshotLoadFailed": {
+    "message": "স্ক্রিনশট লোড করতে ব্যর্থ। অনুগ্রহ করে আবার চেষ্টা করুন।"
+  },
+  "getScreenshotFailed": {
+    "message": "স্ক্রিনশট নিতে ব্যর্থ। অনুগ্রহ করে আবার চেষ্টা করুন।"
+  },
+  "processingAllAreas": {
+    "message": "সব এলাকায় স্ক্রিনশট প্রক্রিয়াকরণ চলছে..."
+  },
+  "allAreasSaved": {
+    "message": "$1 টি এলাকার স্ক্রিনশট সফলভাবে সংরক্ষণ করা হয়েছে"
+  },
+  "areaNotVisible": {
+    "message": "নির্বাচিত এলাকা প্রায় সম্পূর্ণভাবে দৃশ্যমান সীমার বাইরে এবং ক্যাপচার করা যাবে না।"
+  },
+  "partiallyVisible": {
+    "message": "এলাকার একটি অংশ দৃশ্যমান সীমার বাইরে। দৃশ্যমান অংশটি ক্যাপচার করা হয়েছে।"
+  },
+  "partiallyVisibleArea": {
+    "message": "নির্বাচিত এলাকার একটি অংশ দৃশ্যমান সীমার বাইরে। দৃশ্যমান অংশটি ক্যাপচার করা হয়েছে।"
+  },
+  "areaOutOfView": {
+    "message": "নির্বাচিত এলাকা দৃশ্যমান সীমার বাইরে। অনুগ্রহ করে এলাকা দৃশ্যমান করতে পৃষ্ঠা স্ক্রোল করুন এবং আবার চেষ্টা করুন।"
+  },
+  "processingError": {
+    "message": "স্ক্রিনশট প্রক্রিয়াকরণে ত্রুটি: $1"
+  },
+  "saveFailed": {
+    "message": "স্ক্রিনশট সংরক্ষণে ব্যর্থ: $1"
+  },
+  "smartModeEnabled": {
+    "message": "স্মার্ট স্ক্রিনশট মোড সক্রিয় হয়েছে। ক্যাপচার করার জন্য একটি উপাদান নির্বাচন করতে ক্লিক করুন (Enter নিশ্চিত করতে, Esc বাতিল করতে)।"
+  },
+  "processing": {
+    "message": "কপি প্রক্রিয়াকরণ চলছে..."
+  },
+  "copyFailed": {
+    "message": "কপি ব্যর্থ: $1"
+  },
+  "canvasContextError": {
+    "message": "কপি ব্যর্থ: ক্যানভাস প্রসঙ্গ পাওয়া যায়নি।"
+  },
+  "copied": {
+    "message": "ক্লিপবোর্ডে কপি করা হয়েছে"
+  },
+  "clipboardAccessDenied": {
+    "message": "কপি ব্যর্থ: ক্লিপবোর্ড অ্যাক্সেস বাতিল হয়েছে, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "কপি ব্যর্থ: ক্লিপবোর্ড API সমর্থিত নয়"
+  },
+  "imageDataCreateFailed": {
+    "message": "কপি ব্যর্থ: চিত্র ডেটা তৈরি করা যায়নি"
+  },
+  "copyAreaOutOfView": {
+    "message": "কপি ব্যর্থ: নির্বাচিত এলাকা দৃশ্যমান সীমার বাইরে"
+  },
+  "imagePreviewShown": {
+    "message": "চিত্র প্রিভিউ দেখানো হয়েছে। কপি করতে ডান ক্লিক করুন।"
+  },
+  "escape": {
+    "message": "বাতিল করুন (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "চিত্রের মান নির্ধারণ করা হয়েছে: $1"
+  },
+  "qrDecoding": {
+    "message": "QR কোড ডিকোড করা হচ্ছে..."
+  },
+  "qrSuccess": {
+    "message": "QR কোড সফলভাবে ডিকোড হয়েছে। ক্লিপবোর্ডে কপি করা হয়েছে।"
+  },
+  "qrNoQRFound": {
+    "message": "কোন বৈধ QR কোড শনাক্ত করা যায়নি"
+  },
+  "qrError": {
+    "message": "QR কোড ডিকোড করতে ব্যর্থ: $1"
+  },
+  "saveArea": {
+    "message": "এই এলাকা সংরক্ষণ করুন"
+  },
+  "copyToClipboard": {
+    "message": "এই নির্বাচন কপি করুন (বর্তমানে নির্বাচিত)"
+  },
+  "saveAllAreas": {
+    "message": "সব এলাকা সংরক্ষণ করুন"
+  },
+  "keepAndContinue": {
+    "message": "একটি নতুন নির্বাচন যুক্ত করুন"
+  },
+  "cancel": {
+    "message": "বাতিল"
+  },
+  "lockSize": {
+    "message": "আকার লক করুন"
+  },
+  "lockSizeActive": {
+    "message": "✓ আকার লক করা হয়েছে"
+  },
+  "freeRatio": {
+    "message": "স্বাধীন অনুপাত"
+  },
+  "ratioLabel": {
+    "message": "অনুপাত নির্বাচন করুন"
+  },
+  "aiDialog": {
+    "message": "স্মার্ট সংলাপ"
+  },
+  "fileSizeEstimate": {
+    "message": "প্রায় $1 $2"
+  },
+  "qrDecode": {
+    "message": "QR কোড ডিকোড করুন"
+  },
+  "removeBackground": {
+    "message": "পেছনের অংশ সরান"
+  },
+  "processingBackgroundRemoval": {
+    "message": "পেছনের অংশ সরানো হচ্ছে..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "পেছনের অংশ সরাতে ব্যর্থ: চিত্র লোড ত্রুটি"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "পেছনের অংশ সরাতে ব্যর্থ: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "পেছনের অংশ সরানো হয়েছে এবং ক্লিপবোর্ডে কপি করা হয়েছে"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "পেছনের অংশ সরাতে ব্যর্থ: Blob তৈরি করা যায়নি"
+  },
+  "selectedAreaOutOfView": {
+    "message": "নির্বাচিত এলাকা দৃশ্যমান নয়"
+  },
+  "screenshotFailed": {
+    "message": "স্ক্রিনশট ব্যর্থ হয়েছে: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "চিত্র প্রক্রিয়াকরণ ব্যর্থ হয়েছে, অনুগ্রহ করে আবার চেষ্টা করুন"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "স্ক্রিনশট এলাকা দৃশ্যমান সীমার বাইরে"
+  },
+  "errorProcessingImage": {
+    "message": "চিত্র প্রক্রিয়াকরণে ত্রুটি: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR কোড ডিকোড লাইব্রেরি লোড হয়নি"
+  },
+  "qrDecodingFailed": {
+    "message": "QR কোড ডিকোড করতে ব্যর্থ: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "নির্বাচিত এলাকায় কোনো QR কোড পাওয়া যায়নি"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR কোড সফলভাবে ডিকোড হয়েছে: $1"
+  },
+  "qrDecodingError": {
+    "message": "QR কোড ডিকোড ত্রুটি: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "পেছনের অংশ সরাতে ব্যর্থ: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "অনুগ্রহ করে প্রথমে একটি স্ক্রিনশট এলাকা নির্বাচন করুন"
+  },
+  "aiDialogTitle": {
+    "message": "স্ক্রিনশট সামগ্রী নিয়ে একটি বুদ্ধিমান সংলাপ চালান"
+  },
+  "qrDecodeTitle": {
+    "message": "স্ক্রিনশটে QR কোড ডিকোড করুন"
+  },
+  "lockSizeTitle": {
+    "message": "একটানা স্ক্রিনশটের জন্য বর্তমান আকার লক করুন"
+  },
+  "moveHint": {
+    "message": "নির্বাচিত এলাকা টানুন (Space + ড্র্যাগ)"
+  },
+  "saveAreaTooltip": {
+    "message": "বর্তমান এলাকা সংরক্ষণ করুন"
+  },
+  "saveAllAreasTooltip": {
+    "message": "সব নির্বাচিত এলাকা সংরক্ষণ করুন"
+  },
+  "copyToClipboardTooltip": {
+    "message": "স্ক্রিনশট ক্লিপবোর্ডে কপি করুন"
+  },
+  "moreOptions": {
+    "message": "আরও অপশন"
+  },
+  "removeBgTooltip": {
+    "message": "পেছনের অংশ সরিয়ে ক্লিপবোর্ডে কপি করুন"
+  },
+  "ratioLabelTooltip": {
+    "message": "অনুপাত নির্বাচন করুন"
+  },
+  "keepAndContinueTooltip": {
+    "message": "বর্তমান নির্বাচন রাখুন এবং চালিয়ে যান"
+  },
+  "pCaptureTabLabel": {
+    "message": "স্ক্রিনশট"
+  },
+  "pAiToolsTabLabel": {
+    "message": "এআই টুলস"
+  },
+  "pCaptureTitle": {
+    "message": "সম্পূর্ণ পৃষ্ঠা এবং নির্বাচিত স্ক্রিন এলাকার স্ক্রিনশট"
+  },
+  "pAiToolsTitle": {
+    "message": "এআই-সম্পর্কিত টুলস"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "ওয়েব কন্টেন্ট এক্সপোর্ট টুলস"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "ইমেজ টুলস"
+  },
+  "pDownloadAsMD": {
+    "message": "মার্কডাউন হিসাবে ডাউনলোড করুন"
+  },
+  "pDownloadAsPDF": {
+    "message": "পিডিএফ হিসাবে ডাউনলোড করুন"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "বর্তমান ওয়েবপৃষ্ঠাটি একটি মার্কডাউন ফাইল হিসাবে ডাউনলোড করুন"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "বর্তমান ওয়েবপৃষ্ঠাটি একটি পিডিএফ ফাইল হিসাবে ডাউনলোড করুন"
+  },
+  "pImageProcessing": {
+    "message": "চিত্র প্রক্রিয়াকরণ"
+  },
+  "pImageProcessingTooltip": {
+    "message": "চিত্র প্রক্রিয়াকরণের জন্য সরঞ্জামগুলির একটি সংগ্রহ"
+  },
+  "fixThePage": {
+    "message": "পৃষ্ঠাটি ঠিক করুন"
+  },
+  "expandScrollableOn": {
+    "message": "স্ক্রোলযোগ্য এলাকা প্রসারিত করুন"
+  },
+  "expandScrollableOnDesc": {
+    "message": "স্ক্রিনশট নেওয়ার আগে ওয়েবপৃষ্ঠার মধ্যে স্ক্রোলযোগ্য এলাকাগুলি প্রসারিত করতে সক্ষম করুন"
+  },
+  "hideFixedOn": {
+    "message": "স্থির অবস্থানের উপাদানগুলি লুকান"
+  },
+  "hideFixedOnDesc": {
+    "message": "ক্যাপচারে হস্তক্ষেপ করতে পারে এমন স্থির অবস্থানের উপাদানগুলি লুকাতে সক্ষম করুন"
+  },
+  "preScrollOn": {
+    "message": "ওয়েবপৃষ্ঠাটি প্রি-স্ক্রোল লোড হচ্ছে"
+  },
+  "preScrollOnDesc": {
+    "message": "অনেক ওয়েব উপাদান (যেমন, ছবি) শুধুমাত্র স্ক্রোল করলেই লোড হয়। সক্রিয় করা হলে, এটি স্ক্রিনশট নেওয়ার আগে স্বয়ংক্রিয়ভাবে সনাক্ত করে এবং পৃষ্ঠার নীচে স্ক্রোল করে।"
+  },
+  "canBeDisabled": {
+    "message": "সেটিংস পৃষ্ঠার মাধ্যমে নিষ্ক্রিয় করা যেতে পারে"
+  },
+  "analyzingPageForHTML": {
+    "message": "ওয়েবপৃষ্ঠার কোড এবং বিষয়বস্তু বিশ্লেষণ করা হচ্ছে, জটিল পৃষ্ঠাগুলিতে আরও বেশি সময় লাগতে পারে। যদি খুব বেশি সময় লাগে, অনুগ্রহ করে ওয়েবপৃষ্ঠাটি রিফ্রেশ করুন এবং আবার চেষ্টা করুন।"
+  },
+  "drawerSettings": {
+    "message": "সেটিংস"
+  },
+  "drawerScreenshotHistory": {
+    "message": "স্ক্রিনশট ইতিহাস"
+  },
+  "drawerImageTools": {
+    "message": "স্ক্রিনশট বর্ধিতকরণ সরঞ্জাম"
+  },
+  "drawerHelpFeedback": {
+    "message": "সাধারণ প্রশ্ন এবং প্রতিক্রিয়া"
+  },
+  "drawerCloseMenu": {
+    "message": "এই মেনুটি বন্ধ করুন"
+  },
+  "logoTooltip": {
+    "message": "আরও দেখুন"
+  },
+  "pRecorderTabLabel": {
+    "message": "স্ক্রিন রেকর্ডার"
+  },
+  "pRecorderTitle": {
+    "message": "স্ক্রিন রেকর্ডার"
+  },
+  "pStartRecorder": {
+    "message": "স্ক্রিন রেকর্ডিং শুরু করুন"
+  },
+  "pStartRecorderLabel": {
+    "message": "স্ক্রিন রেকর্ডিং"
+  },
+  "pRecorderAlt": {
+    "message": "রেকর্ডার"
+  },
+  "pStartRecorderAlt": {
+    "message": "স্ক্রিন রেকর্ডার"
+  },
+  "pRecorderBetaNotice": {
+    "message": "এটি একটি বিটা সংস্করণ"
+  },
+  "pRecorderFeedback": {
+    "message": "প্রতিক্রিয়া জানান"
+  },
+  "downloadsPermission": {
+    "message": "ফাইল ডাউনলোড করার অনুমতি দিন"
+  },
+  "downloadsPermissionDesc": {
+    "message": "সরাসরি আপনার কম্পিউটারে স্ক্রিনশটগুলি সংরক্ষণ করতে এই অনুমতির প্রয়োজন।"
+  },
+  "webNavigationPermission": {
+    "message": "ওয়েব নেভিগেশন অ্যাক্সেসের অনুমতি দিন"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "পৃষ্ঠা পরিবর্তনগুলি সনাক্ত করতে এবং প্রয়োজনে বিভিন্ন পৃষ্ঠাগুলিতে নেভিগেট করতে এই অনুমতির প্রয়োজন।"
+  },
+  "desktopCapturePermission": {
+    "message": "ডেস্কটপ ক্যাপচারের অনুমতি দিন"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "আপনার ডেস্কটপ বা নির্দিষ্ট উইন্ডোগুলি থেকে কন্টেন্ট ক্যাপচার করতে এই অনুমতির প্রয়োজন।"
+  },
+  "tabsPermission": {
+    "message": "ট্যাবগুলির অ্যাক্সেসের অনুমতি দিন"
+  },
+  "tabsPermissionDesc": {
+    "message": "ব্রাউজার ট্যাবগুলির তথ্য অ্যাক্সেস করতে এবং পরিচালনা করতে এই অনুমতির প্রয়োজন।"
+  },
+  "tabCapturePermission": {
+    "message": "ট্যাব ক্যাপচারের অনুমতি দিন"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "ব্রাউজার ট্যাবগুলি থেকে অডিও এবং ভিডিও ক্যাপচার করতে এই অনুমতির প্রয়োজন।"
+  },
+  "allUrlsPermission": {
+    "message": "সমস্ত ওয়েবসাইটে অ্যাক্সেসের অনুমতি দিন"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "যেকোনো ওয়েবসাইট থেকে স্ক্রিনশট ক্যাপচার করতে এই অনুমতির প্রয়োজন।"
+  },
+  "fileUrlsPermission": {
+    "message": "স্থানীয় ফাইলগুলির অ্যাক্সেসের অনুমতি দিন"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "স্থানীয় ফাইলগুলি (file:// URL) থেকে স্ক্রিনশট ক্যাপচার করতে এই অনুমতির প্রয়োজন।"
+  },
+  "pIncludeImagesTooltip": {
+    "message": "ডাউনলোডে চিত্রগুলি অন্তর্ভুক্ত করা হবে কিনা"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "এই বৈশিষ্ট্যটির জন্য CocoShot Pro প্রয়োজন"
+  },
+  "proUpgradeButton": {
+    "message": "প্রো এ আপগ্রেড করুন"
+  },
+  "proSaveRestricted": {
+    "message": "এই সামগ্রীটি সংরক্ষণ করতে CocoShot Pro প্রয়োজন"
+  },
+  "qv_title": {
+    "message": "CocoShot দ্রুত ভিউ"
+  },
+  "qv_preview_mode": {
+    "message": "প্রিভিউ মোড"
+  },
+  "qv_screenshot_preview": {
+    "message": "স্ক্রিনশট প্রিভিউ"
+  },
+  "qv_download": {
+    "message": "ডাউনলোড"
+  },
+  "qv_edit": {
+    "message": "টীকা দিন, সম্পাদনা করুন (পিডিএফ-এও রপ্তানি করা যাবে)"
+  },
+  "qv_hint": {
+    "message": "অভিজ্ঞ ব্যবহারকারীরা স্বয়ংক্রিয়ভাবে এই পৃষ্ঠাটি এড়িয়ে গিয়ে সম্পাদকে যাবেন।"
+  },
+  "recordTab": {
+    "message": "রেকর্ড",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "আপনার ভিডিও",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "স্ক্রিন",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "ট্যাব",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "শুধু ক্যামেরা",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "মকআপ",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "কাস্টম এলাকা রেকর্ডিং নিষ্ক্রিয়",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Chrome ভার্সন 110+ এ আপডেট করুন",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "আপডেট",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "আপনার অনুমতিগুলি পরীক্ষা করুন",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot আপনার ক্যামেরা বা মাইক্রোফোন অ্যাক্সেস করতে পারছে বলে মনে হচ্ছে না। এই সমস্যাটি সমাধান করতে, অনুগ্রহ করে আপনার ব্রাউজার সেটিংসে এটি আনব্লক করুন এবং প্রয়োজনীয় অনুমতিগুলি মঞ্জুর করুন।",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "খারিজ করুন",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "ক্যামেরা অ্যাক্সেস অনুমতি দিন",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "মাইক্রোফোন অ্যাক্সেস অনুমতি দিন",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "পুশ টু টক",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "রেকর্ডিং এলাকা সেট করুন",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "ক্যামেরা ফ্লিপ করুন",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "পটভূমি ইফেক্ট",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "রেকর্ডিং শুরু করুন",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "রেকর্ডিং শুরু হচ্ছে...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "একটি ক্যামেরা নির্বাচন করুন",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "আরও অপশন",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "সিস্টেম অডিও",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "টুলবার লুকান",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "কাউন্টডাউন",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "সময় সীমা নির্ধারণ করুন",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "ব্লার",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "কোনটিই নয়",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "ক্যামেরা নেই",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "মাইক্রোফোন নেই",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "একটি সোর্স নির্বাচন করুন",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "বন্ধ",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "প্রস্থ",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "উচ্চতা",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "ছবি রাখতে ক্লিক করুন",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "রেকর্ডিং শেষ করুন",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "রেকর্ডিং পুনরায় শুরু করুন",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "রেকর্ডিং বিরতি দিন",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "রেকর্ডিং চালিয়ে যান",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "রেকর্ডিং বাতিল করুন",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "ড্রয়িং টুলস টগল করুন",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "ব্লার টুল টগল করুন",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "কার্সর অপশন টগল করুন",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "ক্যামেরা নিষ্ক্রিয় করুন",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "ক্যামেরা সক্রিয় করুন",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "ক্যামেরা অনুমতি নেই",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "ক্যামেরা সেটিংস",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "ক্যামেরা মিরর করুন",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "পটভূমি ব্লার",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "মাইক্রোফোন নিষ্ক্রিয় করুন",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "মাইক্রোফোন সক্রিয় করুন",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "মাইক্রোফোন অনুমতি নেই",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "টুল নির্বাচন করুন",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "পেন টুল",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "হাইলাইটার টুল",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "ইরেজার টুল",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "টেক্সট টুল",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "শেপ টুল",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "অ্যারো টুল",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "ইমেজ টুল",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "পূর্বাবস্থায় ফেরা",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "পুনরায় করুন",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "ক্যানভাস সাফ করুন",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "আরও রঙ",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "পুরু স্ট্রোক",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "মাঝারি স্ট্রোক",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "পাতলা স্ট্রোক",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "পিকচার-ইন-পিকচার মোড টগল করুন",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "ফিল টগল করুন",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "ড্রয়িং মোড",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "ব্লার মোড",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "সব ব্লার্ড এলিমেন্ট সাফ করুন",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "ক্লিক হাইলাইট করুন",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "কার্সর হাইলাইট করুন",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "স্পটলাইট কার্সর",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "আবার দেখাবেন না",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "রেকর্ডিং পুনরায় শুরু করবেন?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "আপনার বর্তমান অগ্রগতি হারাবে।",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "পুনরায় শুরু করুন",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "চালিয়ে যান",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "রেকর্ডিং বাতিল করবেন?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "আপনার বর্তমান অগ্রগতি হারাবে।",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "বাতিল করুন",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "চালিয়ে যান",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "আপনার রেকর্ডিং এখানে সংরক্ষিত হবে",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "রেকর্ডিং...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "এই ট্যাব খোলা রাখুন। আপনার রেকর্ডিং সংরক্ষিত হলে এটি বন্ধ হয়ে যাবে।",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "রেকর্ডিং প্রস্তুত করা হচ্ছে...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "এই ট্যাব খোলা রাখুন। আপনার রেকর্ডিং প্রস্তুত হলে এটি আপডেট হবে।",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "সম্পাদক",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "বাতিল করুন",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "মূল অবস্থানে ফিরিয়ে আনুন",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "রিসেট",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "পরিবর্তন সংরক্ষণ করুন",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "সংরক্ষণ করা হচ্ছে...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "আপনার অডিও ফাইল টেনে আনুন এবং ফেলুন",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "অথবা ব্রাউজ করতে ক্লিক করুন",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "সেটিংস",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "ভলিউম",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "আপডেট করুন",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "ক্রপ",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "প্রস্থ",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "উচ্চতা",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "বাম",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "উপর",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "হ্যান্ডলগুলি টানুন এবং নির্বাচিত অংশ সম্পাদনা করতে বামের বোতামগুলি ব্যবহার করুন।",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "ভিডিও ট্রিম করুন",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "ট্রিম করা হচ্ছে...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "অংশ কাটুন",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "কাটা হচ্ছে...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "অডিও বন্ধ করুন",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "নিঃশব্দ করা হচ্ছে...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "আরও জানুন।",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "পূর্বাবস্থায় ফেরা",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "পুনরায় করুন",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "রিভিউ দিন, এটি সাহায্য করবে!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "আপনি বর্তমানে অফলাইন",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "পুনরায় সংযুক্ত না হওয়া পর্যন্ত কিছু ফিচার অনুপলব্ধ",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "আবার চেষ্টা করুন",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome আপডেট করা প্রয়োজন",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "আরও ফিচার অ্যাক্সেস করতে আপডেট করুন",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "আরও জানুন",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "ডিভাইসে প্রক্রিয়া করার জন্য ভিডিও খুব দীর্ঘ",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "সম্পাদনা এবং MP4 রপ্তানি অনুপলব্ধ",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "ভিডিও স্থানীয়ভাবে প্রক্রিয়া করা হচ্ছে...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "দ্রুত ক্লাউড সম্পর্কে জানুন",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "সম্পাদনা করুন",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "কোনো সংযোগ নেই",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "উপলব্ধ নেই",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "ভিডিও সম্পাদনা করুন",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "ট্রিম, কাটা বা নিঃশব্দ করুন",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "ভিডিও প্রস্তুত করা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "ক্রপ",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "ভিডিও ক্রপ এবং রিসাইজ করুন",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "অডিও যোগ করুন",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "ভিডিওতে যোগ করতে আপনার নিজস্ব অডিও আপলোড করুন",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "সংরক্ষণ করুন",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Google Drive থেকে সাইন আউট করুন",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "সংরক্ষণ করা হচ্ছে...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Google Drive এ সংরক্ষণ করুন",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "বর্তমান সংস্করণ Google Drive এ সংরক্ষণ করুন",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "সাইন ইন করুন এবং Google Drive এ সংরক্ষণ করুন",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "ডাউনলোড হচ্ছে...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": ".webm হিসাবে ডাউনলোড করুন",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": ".webm ভিডিও রপ্তানি করুন",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": ".mp4 হিসাবে ডাউনলোড করুন",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": ".mp4 ভিডিও রপ্তানি করুন (প্রস্তাবিত)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": ".gif হিসাবে ডাউনলোড করুন",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "GIF রপ্তানি করুন (সর্বোচ্চ 30 সেকেন্ড)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "বিদ্যমান অডিও প্রতিস্থাপন করুন",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "কার্সরে জুম করুন",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "রেকর্ডিং করার সময় পেজে থাকুন",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "মাইক্রোফোন বন্ধ সতর্কতা",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "সাহায্য",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "রেকর্ডিং বিরতিতে আছে। চালিয়ে যেতে প্লে বোতাম টিপুন।",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot এ আপনার স্ক্রিন রেকর্ড করার অনুমতি নেই",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "স্ক্রিন রেকর্ডিং কাজ করতে হলে, অনুমতি অনুরোধ প্রদর্শিত হলে CocoShot কে আপনার স্ক্রিন ক্যাপচার করার অনুমতি দিতে হবে। (যেকোনো সময় এক্সটেনশনের সেটিংসে এটি বাতিল করতে পারবেন।)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "স্ক্রিন রেকর্ডিং সক্রিয় করুন",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "বাতিল করুন",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "আপনার মাইক্রোফোন নিঃশব্দ করা হয়েছে",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "আপনার ভয়েস রেকর্ডিংয়ে অন্তর্ভুক্ত করতে চাইলে, আপনাকে আপনার মাইক্রোফোন চালু করতে হবে। আপনি কি যেকোনো ক্ষেত্রে অডিও ছাড়া রেকর্ডিং চালিয়ে যেতে চান?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "হ্যাঁ, চালিয়ে যান",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "বাতিল করুন",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "শান্ত হন। কাউন্টডাউন থামাতে যেকোনো জায়গায় ক্লিক করুন।",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "ফ্রেমগুলির মধ্যে ব্যবধানের কারণে স্বল্প সময়ের পরিসরে সম্পাদনা সঠিক নাও হতে পারে।",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "ভিডিও প্রক্রিয়াকরণে আছে, প্লেব্যাক সঠিক বা বাধাগ্রস্ত হতে পারে।",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "ক্রপিং কিছু সময় নিতে পারে",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "দ্রুত প্রক্রিয়াকরণের জন্য আপগ্রেড করুন",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "মাইক্রোফোন সক্রিয়",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "মাইক্রোফোন নিষ্ক্রিয়",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "রেকর্ডিং 3 সেকেন্ডের কম ছিল এবং সংরক্ষণ করা হয়নি।",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "UI নোটিফিকেশন লুকান",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "আবার দেখাবেন না",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "ব্যবহার না করা时 টুলবার লুকান",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "রেকর্ডিং শুরু করুন",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "রেকর্ডিং বন্ধ করুন",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "নতুন CocoShot এ স্বাগতম!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "আপডেট সম্পর্কে আরও জানুন।",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "শুরু করুন",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "রেকর্ডিং শুরু করতে ত্রুটি",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "রেকর্ডিং প্রক্রিয়া শুরু করতে একটি ত্রুটি হয়েছে। অনুগ্রহ করে আপনার ব্রাউজার পুনরায় চালু করুন এবং আবার চেষ্টা করুন। সমস্যা অব্যাহত থাকলে, আরও সহায়তার জন্য support@cocoshot.net এ আমাদের সাথে যোগাযোগ করুন।",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "সর্বোচ্চ মান",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "শেষ ভিডিও রেকর্ডিং পুনরুদ্ধার করুন",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "সমস্যা আছে?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "আপনার রেকর্ডিং দেখতে পাচ্ছেন না?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "আপনি যদি রেকর্ডিং শেষ করেন কিন্তু এই পেজে আপনার ভিডিও না দেখতে পান, আপনি যদি থাকে তাহলে কাঁচা ভিডিও ডেটা ডাউনলোড করার চেষ্টা করতে পারেন। বিকল্পভাবে, আপনি আমাদের একটি বাগ রিপোর্ট সাবমিট করে যোগাযোগ করতে পারেন।",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "কাঁচা ভিডিও ডেটা ডাউনলোড করুন",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "বাগ রিপোর্ট করুন",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "কোনো রেকর্ডিং পাওয়া যায়নি, দুঃখিত :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "মেমরি সীমা পৌঁছেছে",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "আপনার ডিভাইসে রেকর্ড করার জন্য পর্যাপ্ত মেমরি নেই, যার ফলে সেশন স্বয়ংক্রিয়ভাবে শেষ হয়ে যায়। দীর্ঘ ভিডিও রেকর্ড করতে, ভিডিওর মান কমাতে বা আপনার ডিভাইসে স্টোরেজ স্পেস খালি করার কথা চিন্তা করুন।",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "বুঝেছি",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "পর্যাপ্ত জায়গা নেই",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot রেকর্ড করতে কমপক্ষে 1GB ফ্রি স্পেস প্রয়োজন। অনুগ্রহ করে কিছু জায়গা খালি করুন এবং আবার চেষ্টা করুন।",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "আগের রেকর্ডিং সাফ করুন",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "উন্নত",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "কাঁচা ভিডিও ফাইল ডাউনলোড করুন",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "মূল রেকর্ডিং ডেটা রপ্তানি করুন",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "আপনার রেকর্ডিং সাহায্য পান",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "আপনার ভিডিও পুনরুদ্ধার করুন এবং অন্যান্য সমস্যা সমাধান করুন",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "কাঁচা ভিডিও ফাইল ডাউনলোড করুন",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "কাঁচা ভিডিও ফাইল বলতে CocoShot দ্বারা সরাসরি তৈরি করা পরিবর্তনহীন রেকর্ডিংকে বোঝায়। যেহেতু এই ফাইলটি প্রক্রিয়া বা সম্পাদনা করা হয়নি, এটি বেশ বড় হতে পারে এবং কিছু ডিভাইসের সাথে সামঞ্জস্যপূর্ণ নাও হতে পারে। প্রক্রিয়াকৃত সংস্করণে সমস্যা হলে, আপনি এই ফাইলটি ব্যবহার করে আপনার মূল রেকর্ডিং পেতে পারেন।",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "ডাউনলোড",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "অডিও তরঙ্গ দেখান",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "সিস্টেম তথ্য এবং ভিডিও ডেটা ডাউনলোড করুন এবং সমস্যা সমাধানের জন্য পাঠান",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "ফাইলটি ডাউনলোড করার পরে, অনুগ্রহ করে এটিকে support@cocoshot.net এ পাঠান যেকোনো অতিরিক্ত বিবরণ সহ যা সহায়ক হতে পারে। এই তথ্য ব্যবহার করে এক্সটেনশনের সমস্যাগুলি সমাধানে সাহায্য করতে এবং সম্ভব হলে আপনার ভিডিও পুনরুদ্ধার করতে পারব।",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "ডাউনলোড",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "ভিডিওটি আপনার ডিভাইসে প্রক্রিয়া করার জন্য খুব দীর্ঘ",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "যেহেতু CocoShot গোপনীয়তাকে অগ্রাধিকার দেয় এবং সম্পূর্ণরূপে আপনার স্থানীয় ডিভাইসে কাজ করে, এটি আপনার হার্ডওয়্যার দ্বারা সীমাবদ্ধ। এই দৈর্ঘ্যের একটি ভিডিও পরিচালনা করা অত্যন্ত সময়সাপেক্ষ হবে এবং উল্লেখযোগ্য সিস্টেম রিসোর্স চাহিদা করবে। আপনি এখনও WEBM ফাইল বা কাঁচা রেকর্ডিং পেতে পারেন, যদিও সম্পাদনা বৈশিষ্ট্য এবং MP4 রপ্তানি অ্যাক্সেসযোগ্য হবে না। যাইহোক, আপনি যদি সম্ভাব্য চ্যালেঞ্জগুলি সম্পর্কে সচেতন হন, আপনি যেভাবেই হোক ভিডিও প্রক্রিয়া করার সিদ্ধান্ত নিতে পারেন।",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "আমি ঝুঁকি বুঝতে পারছি, তবুও চেষ্টা করুন",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "দীর্ঘ ভিডিও প্রক্রিয়াকরণ সম্পর্কে আরও জানুন।",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "পুনরুদ্ধার মোড",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "সমস্যা সমাধানের জন্য ডেটা ডাউনলোড করুন",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "সহায়তা কেন্দ্র",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "কম্পিউটার অডিও রেকর্ড করুন",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "এই পেজ থেকে অডিও রেকর্ড করতে চাইলে, আপনাকে '$tab$' এ স্যুইচ করতে হবে।",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "ট্যাবে এক্সটেনশন সমর্থিত নয়",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot আপনি যে ট্যাবটি ব্যবহার করছিলেন তার সাথে সামঞ্জস্যপূর্ণ নয়। আপনি এই পেজ থেকে রেকর্ডিং শুরু করতে পারেন এবং তারপর সেই ট্যাবে ফিরে যেতে পারেন, তবে দয়া করে মনে রাখবেন যে আপনার ক্যামেরা ফিড এবং সম্পাদনা টুলবার প্রদর্শিত হবে না।",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "আপনার CocoShot রেকর্ডিংয়ের জন্য একটি স্থানীয় ব্যাকআপ সেটআপ করুন",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "আপনি যা তৈরি করেন তার প্রতিটি রেকর্ডিংয়ের অনুলিপি রাখুন। ব্যাকআপ সেটআপ না করলে, আপনার রেকর্ডিং শুধুমাত্র তখনই সংরক্ষিত হবে যখন আপনি স্পষ্টভাবে সেগুলি ডাউনলোড করতে বেছে নিন।",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "আপনি যদি ডাউনলোড বা অন্যান্য সিস্টেম ডিরেক্টরিতে রেকর্ডিং সংরক্ষণ করার চেষ্টা করছেন, আপনাকে প্রথমে একটি নতুন ফোল্ডার তৈরি করতে হতে পারে।",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "একটি ফোল্ডার নির্বাচন করুন",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "এখন না",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": "আপনার রেকর্ডিং স্থানীয়ভাবে ব্যাকআপ করা হচ্ছে",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "প্রতিবার রেকর্ড করার সময় অনুমতি জিজ্ঞাসা না করতে, আমরা এই ট্যাবটি খোলা রাখার সুপারিশ করি।",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "তবুও ট্যাব বন্ধ করুন",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "সব রেকর্ডিং ব্যাকআপ বন্ধ করুন",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "অনুগ্রহ করে আপনার স্থানীয় CocoShot ব্যাকআপ ফোল্ডারে অ্যাক্সেস পুনরায় নিশ্চিত করুন",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "আমরা দুঃখিত, কিন্তু আপনার রেকর্ডিং ব্যাকআপ চালিয়ে যেতে আমাদের আপনার অনুমতি আবার প্রয়োজন। দুর্ভাগ্যবশত, এই ট্যাব বন্ধ হলে প্রতিবার এই অনুমতি জিজ্ঞাসা করতে হবে, যা আপনি আপনার ব্রাউজার বন্ধ করলে বা কম্পিউটার পুনরায় চালু করলে হতে পারে।",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "CocoShot কে রেকর্ডিং ব্যাকআপ চালিয়ে যেতে দিন",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "রেকর্ডিং ব্যাকআপ করুন",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "রেকর্ডিং ব্যাকআপ করার জন্য অনুমতি দেওয়া হয়নি",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "আপনি আপনার রেকর্ডিং ব্যাকআপ সংরক্ষণ করার জন্য একটি ফোল্ডার নির্বাচন করেননি। আপনার ব্রাউজার সংস্করণ বা অপারেটিং সিস্টেমের উপর নির্ভর করে, আপনি প্রতিবার রেকর্ডিং শুরু করার সময় এই ফোল্ডারটি নির্বাচন করতে বলা হতে পারে। আপনি প্রক্রিয়াটি আবার চেষ্টা করতে পারেন, অথবা যদি আপনি বারবার অনুমতি দিতে না চান তাহলে ব্যাকআপ সম্পূর্ণ বন্ধ করতে পারেন।",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "কম্পিউটার অডিও রেকর্ড করুন",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "macOS সিস্টেমে, আপনি স্বতন্ত্র ট্যাব থেকে অডিও রেকর্ড করতে সীমাবদ্ধ। Chrome Tab রেকর্ডিং বিকল্পটি চয়ন করুন এবং 'ট্যাব অডিওও শেয়ার করুন' সেটিংটি চালু আছে কিনা তা যাচাই করুন।",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "কম্পিউটার অডিও রেকর্ড করুন",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "আপনার কম্পিউটার থেকে অডিও ক্যাপচার করতে চাইলে, 'সিস্টেম অডিও শেয়ার করুন' অপশনটি সক্রিয় আছে কিনা নিশ্চিত করুন। এই অপশনটি দৃশ্যমান না থাকলে, Chrome আপডেট করা বা ট্যাব রেকর্ডিং মোডে স্যুইচ করার কথা বিবেচনা করুন।",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "সর্বোচ্চ রেজোলিউশন",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "সর্বোচ্চ FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "পর্যাপ্ত RAM নেই",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "উইন্ডো রিসাইজ করুন",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "এই রেজোলিউশনের জন্য স্ক্রিন খুব ছোট",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "এই রেজোলিউশনে আপনার ডিভাইসে রেকর্ড করা যাবে না",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "অনুমতি অস্বীকৃত",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "রেকর্ড করতে ক্যামেরা এবং মাইক্রোফোন অনুমতি প্রয়োজন। অনুগ্রহ করে আপনার ব্রাউজার সেটিংসে অনুমতি প্রদান করুন।",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "রেকর্ড করতে ক্যামেরার অনুমতি প্রয়োজন। অনুগ্রহ করে আপনার ব্রাউজার সেটিংসে অনুমতি প্রদান করুন।",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "রেকর্ড করতে মাইক্রোফোনের অনুমতি প্রয়োজন। অনুগ্রহ করে আপনার ব্রাউজার সেটিংসে অনুমতি প্রদান করুন।",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "অনুমতিগুলি ঠিক করুন",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "স্ক্রিন রেকর্ডিং সেটিংস",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "ঘ",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "মি",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "সে",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "ক্যামেরার অনুমতি অনুরোধ করা হচ্ছে...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "মাইক্রোফোনের অনুমতি অনুরোধ করা হচ্ছে...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "ক্যামেরার অনুমতি অনুরোধ করুন",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "মাইক্রোফোনের অনুমতি অনুরোধ করুন",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "অনুমতিগুলি পর্যালোচনা করুন",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "অপশন কাস্টমাইজ করুন",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "রেকর্ড করা ভিডিও",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "এখনও কোনো ভিডিও রেকর্ড করা হয়নি",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "নিঃশব্দ করতে চাপুন",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "আপনার ক্যামেরা অ্যাক্সেস করতে আমাদের আপনার অনুমতি প্রয়োজন",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "আপনার মাইক্রোফোন অ্যাক্সেস করতে আমাদের আপনার অনুমতি প্রয়োজন",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "পর্যালোচনা করুন",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "রঙ নির্বাচক",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "বন্ধ করুন",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "স্ক্রিন থেকে রঙ নিন",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API এই ব্রাউজারে সমর্থিত নয়। অনুগ্রহ করে Chrome 95+ বা Edge 95+ এর মতো একটি আধুনিক ব্রাউজার ব্যবহার করুন।",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "ব্লার অঞ্চল নির্বাচন করুন",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "সব ব্লার অঞ্চল মুছুন",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "লাইন প্রস্থ",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "পাতলা",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "মাঝারি",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "বোল্ড",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "অতিরিক্ত বোল্ড",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot রেকর্ডিং",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "স্থানীয় ব্যাকআপ সেটআপ করতে ব্যর্থ। আরও সাহায্যের জন্য $supportEmail$ এ যোগাযোগ করুন। আপনি এখনও আপনার স্ক্রিন রেকর্ড করতে পারবেন।",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "আপনার ব্রাউজার স্থানীয় ব্যাকআপ সমর্থন করে না। আরও সাহায্যের জন্য $supportEmail$ এ যোগাযোগ করুন। আপনি এখনও আপনার স্ক্রিন রেকর্ড করতে পারবেন।",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "জুম টু কার্সর কীভাবে ব্যবহার করবেন",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "রেকর্ডিং করার সময়, আপনার কার্সর পজিশনের দিকে জুম করতে কীবোর্ড শর্টকাট ধরে রাখুন। জুম আউট করতে কীগুলি ছেড়ে দিন। এটি আপনার রেকর্ডিংয়ের সময় স্ক্রিনের নির্দিষ্ট এলাকা হাইলাইট করতে দুর্দান্ত।",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "বুঝেছি!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "অঞ্চল আকার",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "প্রিসেট",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "রিসেট করুন",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "কোনটিই নয়",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "ব্লার",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "বোকেহ",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "ছবি",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "অনুগ্রহ করে প্রথমে একটি ভিডিও ফাইল লোড করুন",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "WebM হিসাবে ডাউনলোড করুন",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "MP4 হিসাবে ডাউনলোড করুন",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "রূপান্তর করা হচ্ছে...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "চাঙ্ক প্রক্রিয়াকরণ:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "ভিডিও আকার সর্বোচ্চ সীমা অতিক্রম করেছে (সর্বোচ্চ 1GB$), যা প্রক্রিয়া ব্যর্থতা সৃষ্টি করতে পারে",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "আপনি একটি বড় ভিডিও লোড করছেন (1GB$)। প্রক্রিয়াকরণে অনেক সময় নিতে পারে। চালিয়ে যান?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "অসমর্থিত ভিডিও ফরম্যাট। অনুগ্রহ করে ভিন্ন ভিডিও ফরম্যাট চেষ্টা করুন।",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "ডাউনলোড ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4 রূপান্তর উপলব্ধ নয়",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "এই ভিডিওটি ব্রাউজারে MP4 তে রূপান্তর করার জন্য খুব বড়। অনুগ্রহ করে এটি WebM হিসাবে ডাউনলোড করুন।",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "MP4 তে রূপান্তর করা হচ্ছে...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "ভিডিও ডাউনলোড করতে ব্যর্থ। অনুগ্রহ করে আবার চেষ্টা করুন।",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "ভিডিও সম্পাদনা করুন",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "শীঘ্রই আসছে।",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "ভিডিও প্রিভিউ",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "ঠিক আছে",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "স্টোরেজে লেখা হচ্ছে...",
+    "description": "Message shown when writing video to storage"
+  }
+}

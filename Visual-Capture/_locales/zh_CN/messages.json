@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: 屏幕截图与录屏工具"
+  },
+  "extDescription": {
+    "message": "支持全网页截图与带标注的 MP4 录屏。内置强大编辑器。可导出带超链接的 PDF。"
+  },
+  "pDisable": {
+    "message": "在此页面上禁用"
+  },
+  "pDisableDesc": {
+    "message": "您可以在任何网页上运行此内容，除了浏览器限制运行脚本的扩展程序的网页。 这包括扩展网站，浏览器设置页面和其他扩展页面。"
+  },
+  "pDisableExp": {
+    "message": "此限制来自浏览器本身的安全风险要求。"
+  },
+  "pDisableTry": {
+    "message": "您可以打开一个新页面并尝试捕获功能。"
+  },
+  "pStart": {
+    "message": "开始"
+  },
+  "pFileUrl": {
+    "message": "转到“edge://extensions/”，然后选中“允许访问文件URL”的框。"
+  },
+  "pCaptV": {
+    "message": "捕获网页可见部分的屏幕截图。"
+  },
+  "pAsOne": {
+    "message": "另存为单个HTML文件。"
+  },
+  "pDesktop": {
+    "message": "捕获给定网页，选项卡，窗口或整个屏幕的屏幕截图。"
+  },
+  "pCaptFull": {
+    "message": "捕获完整网页的屏幕截图。"
+  },
+  "pDesableOpt": {
+    "message": "或者您可以尝试："
+  },
+  "pAreaCut": {
+    "message": "选择网页的一部分以捕获屏幕截图"
+  },
+  "fullpageTooLarge": {
+    "message": "提示：由于页面过大，浏览器无法将整个页面捕获为一张图片。该页面将被拆分为<strong>$1</strong>张独立图片。"
+  },
+  "fullpageTooLargeExtra": {
+    "message": "注意：此扩展程序并非设计用于捕获极大内容。可能无法成功完成此页面的捕获操作。"
+  },
+  "preparingSsViewer": {
+    "message": "请稍等，正在准备高清截图预览..."
+  },
+  "convertingHdSS": {
+    "message": "请稍等，正在转化高清截图..."
+  },
+  "framePermTitle": {
+    "message": "需要额外权限"
+  },
+  "framePermDesc": {
+    "message": "该网站通过嵌入的 iframe 显示内容，需要额外权限才能访问。"
+  },
+  "WhatisIframe": {
+    "message": "点击了解什么是 iframe。"
+  },
+  "framePermMore": {
+    "message": "使用该对话框后可能需要重启扩展程序。取消将只捕获可见屏幕。"
+  },
+  "framePermConfirm": {
+    "message": "允许"
+  },
+  "framePermSave": {
+    "message": "保存此权限以便后续使用（你可以随时撤销）。"
+  },
+  "error": {
+    "message": "错误"
+  },
+  "captureError": {
+    "message": "捕获失败，请稍后重试。如果问题仍然存在，请联系开发者：$1"
+  },
+  "btnOk": {
+    "message": "确定"
+  },
+  "btnCancel": {
+    "message": "取消"
+  },
+  "saveFramePermission": {
+    "message": "允许捕捉所有框架中的内容"
+  },
+  "permissions": {
+    "message": "权限"
+  },
+  "saveframepDesc": {
+    "message": "此权限用于捕捉页面中 iframe 或 frameset 的内容。禁用此权限可能会限制捕捉某些网页元素的能力。"
+  },
+  "processingScreenshot": {
+    "message": "正在处理截图..."
+  },
+  "screenshotSaved": {
+    "message": "截图已保存到下载文件夹"
+  },
+  "screenshotLoadFailed": {
+    "message": "截图加载失败，请重试"
+  },
+  "getScreenshotFailed": {
+    "message": "获取屏幕截图失败，请重试"
+  },
+  "processingAllAreas": {
+    "message": "正在处理所有区域的截图..."
+  },
+  "allAreasSaved": {
+    "message": "成功保存了 $1 个区域的截图"
+  },
+  "areaNotVisible": {
+    "message": "选定区域几乎完全在可见范围外，无法截图"
+  },
+  "partiallyVisible": {
+    "message": "部分区域超出可见范围，已截取可见部分"
+  },
+  "partiallyVisibleArea": {
+    "message": "部分选择区域超出可见范围，已截取可见部分"
+  },
+  "areaOutOfView": {
+    "message": "选定区域超出可见范围，无法截图。请滚动页面使该区域可见后再试。"
+  },
+  "processingError": {
+    "message": "截图处理时出错: $1"
+  },
+  "saveFailed": {
+    "message": "保存截图失败: $1"
+  },
+  "smartModeEnabled": {
+    "message": "已启用智能截图模式，点击选择要截图的元素 (Enter确认, Esc取消)"
+  },
+  "processing": {
+    "message": "正在处理复制..."
+  },
+  "copyFailed": {
+    "message": "复制失败: $1"
+  },
+  "canvasContextError": {
+    "message": "复制失败: 无法获取Canvas上下文"
+  },
+  "copied": {
+    "message": "已复制到剪贴板"
+  },
+  "clipboardAccessDenied": {
+    "message": "复制失败: 剪贴板访问被拒绝: $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "复制失败: 不支持剪贴板API"
+  },
+  "imageDataCreateFailed": {
+    "message": "复制失败: 无法创建图像数据"
+  },
+  "copyAreaOutOfView": {
+    "message": "复制失败: 选择区域超出可见范围"
+  },
+  "imagePreviewShown": {
+    "message": "已显示图像预览，请右键复制"
+  },
+  "escape": {
+    "message": "取消 (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "图片质量已设置为: $1"
+  },
+  "qrDecoding": {
+    "message": "正在解析二维码..."
+  },
+  "qrSuccess": {
+    "message": "二维码解析成功，已复制到剪贴板"
+  },
+  "qrNoQRFound": {
+    "message": "未检测到有效的二维码"
+  },
+  "qrError": {
+    "message": "二维码解析失败: $1"
+  },
+  "saveArea": {
+    "message": "保存此区域"
+  },
+  "copyToClipboard": {
+    "message": "复制此选区（当前选中）"
+  },
+  "saveAllAreas": {
+    "message": "保存所有区域"
+  },
+  "keepAndContinue": {
+    "message": "增加新选区"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "lockSize": {
+    "message": "锁定尺寸"
+  },
+  "lockSizeActive": {
+    "message": "✓ 锁定尺寸"
+  },
+  "freeRatio": {
+    "message": "自由比例"
+  },
+  "ratioLabel": {
+    "message": "选择比例"
+  },
+  "aiDialog": {
+    "message": "智能对话"
+  },
+  "fileSizeEstimate": {
+    "message": "约 $1 $2"
+  },
+  "qrDecode": {
+    "message": "解析二维码"
+  },
+  "removeBackground": {
+    "message": "移除背景"
+  },
+  "processingBackgroundRemoval": {
+    "message": "正在移除背景..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "背景移除失败：图片加载错误"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "背景移除失败：$1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "背景已移除并复制到剪贴板"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "背景移除失败：无法创建Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "选定区域超出可见范围"
+  },
+  "screenshotFailed": {
+    "message": "截图失败: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "图像处理失败，请重试"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "截图区域超出可见范围"
+  },
+  "errorProcessingImage": {
+    "message": "图像处理错误: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "二维码解析库未加载"
+  },
+  "qrDecodingFailed": {
+    "message": "二维码解析失败: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "在选定区域未找到二维码"
+  },
+  "qrDecodingSuccess": {
+    "message": "二维码解析成功: $1"
+  },
+  "qrDecodingError": {
+    "message": "二维码解析错误: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "背景移除失败: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "请先选择一个截图区域"
+  },
+  "aiDialogTitle": {
+    "message": "与截图内容进行智能对话"
+  },
+  "qrDecodeTitle": {
+    "message": "解码截图中的二维码"
+  },
+  "lockSizeTitle": {
+    "message": "锁定当前尺寸以进行连续截图"
+  },
+  "moveHint": {
+    "message": "拖动选区（空格 + 拖动）"
+  },
+  "saveAreaTooltip": {
+    "message": "保存当前区域"
+  },
+  "saveAllAreasTooltip": {
+    "message": "保存所有选中区域"
+  },
+  "copyToClipboardTooltip": {
+    "message": "复制截图到剪贴板"
+  },
+  "moreOptions": {
+    "message": "更多选项"
+  },
+  "removeBgTooltip": {
+    "message": "移除背景并复制到剪贴板"
+  },
+  "ratioLabelTooltip": {
+    "message": "选择宽高比"
+  },
+  "keepAndContinueTooltip": {
+    "message": "保持当前选区并继续"
+  },
+  "pCaptureTabLabel": {
+    "message": "屏幕截图"
+  },
+  "pAiToolsTabLabel": {
+    "message": "AI工具"
+  },
+  "pCaptureTitle": {
+    "message": "整页及选定屏幕区域截图"
+  },
+  "pAiToolsTitle": {
+    "message": "AI相关工具"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "网页内容导出工具"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "图片处理工具"
+  },
+  "pDownloadAsMD": {
+    "message": "下载为Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "下载为PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "将当前网页下载为Markdown文件"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "将当前网页下载为PDF文件"
+  },
+  "pImageProcessing": {
+    "message": "图片处理"
+  },
+  "pImageProcessingTooltip": {
+    "message": "一系列图片处理工具"
+  },
+  "fixThePage": {
+    "message": "修复页面"
+  },
+  "expandScrollableOn": {
+    "message": "展开可滚动区域"
+  },
+  "expandScrollableOnDesc": {
+    "message": "启用后在截图前展开网页内部可滚动区域"
+  },
+  "hideFixedOn": {
+    "message": "隐藏固定定位元素"
+  },
+  "hideFixedOnDesc": {
+    "message": "启用后隐藏可能干扰截图的固定定位元素"
+  },
+  "preScrollOn": {
+    "message": "预滚动加载网页"
+  },
+  "preScrollOnDesc": {
+    "message": "许多网页元素（如图片）需滚动才加载，启用后截图前自动检测并滚至页底"
+  },
+  "canBeDisabled": {
+    "message": "可在设置页面中关闭"
+  },
+  "analyzingPageForHTML": {
+    "message": "正在分析网页代码和内容，复杂页面可能耗时较长。若久未完成，请刷新网页重试。"
+  },
+  "drawerSettings": {
+    "message": "设置"
+  },
+  "drawerScreenshotHistory": {
+    "message": "截图历史"
+  },
+  "drawerImageTools": {
+    "message": "截图增强处理工具"
+  },
+  "drawerHelpFeedback": {
+    "message": "常见问题和意见反馈"
+  },
+  "drawerCloseMenu": {
+    "message": "关闭本目录"
+  },
+  "logoTooltip": {
+    "message": "查看更多"
+  },
+  "pRecorderTabLabel": {
+    "message": "屏幕录制"
+  },
+  "pRecorderTitle": {
+    "message": "屏幕录制"
+  },
+  "pStartRecorder": {
+    "message": "开始屏幕录制"
+  },
+  "pStartRecorderLabel": {
+    "message": "屏幕录制"
+  },
+  "pRecorderAlt": {
+    "message": "录制"
+  },
+  "pStartRecorderAlt": {
+    "message": "屏幕录制"
+  },
+  "pRecorderBetaNotice": {
+    "message": "这是测试版"
+  },
+  "pRecorderFeedback": {
+    "message": "提供反馈"
+  },
+  "downloadsPermission": {
+    "message": "允许文件下载"
+  },
+  "downloadsPermissionDesc": {
+    "message": "此权限用于将截图直接保存到您的计算机。"
+  },
+  "webNavigationPermission": {
+    "message": "允许网页导航访问"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "此权限用于检测页面变化并在需要时导航到不同页面。"
+  },
+  "desktopCapturePermission": {
+    "message": "允许桌面捕获"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "此权限用于捕获桌面或特定窗口的内容。"
+  },
+  "tabsPermission": {
+    "message": "允许标签页访问"
+  },
+  "tabsPermissionDesc": {
+    "message": "此权限用于访问和管理浏览器标签页信息。"
+  },
+  "tabCapturePermission": {
+    "message": "允许标签页捕获"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "此权限用于捕获浏览器标签页的音频和视频。"
+  },
+  "allUrlsPermission": {
+    "message": "允许访问所有网站"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "此权限用于从任何网站捕获截图。"
+  },
+  "fileUrlsPermission": {
+    "message": "允许访问本地文件"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "此权限用于从本地文件（file:// URL）捕获截图。"
+  },
+  "pIncludeImagesTooltip": {
+    "message": "是否包含图片一起下载"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "此功能需要CocoShot Pro才能使用"
+  },
+  "proUpgradeButton": {
+    "message": "升级到Pro"
+  },
+  "proSaveRestricted": {
+    "message": "保存此内容需要CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "CocoShot 预览"
+  },
+  "qv_preview_mode": {
+    "message": "预览模式"
+  },
+  "qv_screenshot_preview": {
+    "message": "截图预览"
+  },
+  "qv_download": {
+    "message": "下载"
+  },
+  "qv_edit": {
+    "message": "标注、编辑 (还能导出为 PDF)"
+  },
+  "qv_hint": {
+    "message": "经验丰富的用户将会自动跳过此页面并进入编辑器。"
+  },
+  "recordTab": {
+    "message": "录制",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "您的视频",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "屏幕",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "标签页",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "仅摄像头",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "模拟",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "自定义区域录制已禁用",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "请更新Chrome版本至110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "更新",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "请检查您的权限",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot似乎无法使用您的摄像头或麦克风。要解决此问题，请在浏览器的设置里解除阻止并授予必要的访问权限。",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "忽略",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "允许摄像头访问",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "允许麦克风访问",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "按住说话",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "设置录制区域",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "翻转摄像头",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "背景效果",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "开始录制",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "正在开始录制...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "选择摄像头",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "更多选项",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "系统音频",
+    "description": "选项卡/系统音频标签"
+  },
+  "hideToolbarLabel": {
+    "message": "隐藏工具栏",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "倒计时",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "设置时间限制",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "模糊背景",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "无",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "无摄像头",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "无麦克风",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "选择源",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "关闭",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "宽度",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "高度",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "单击放置图像",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "结束录制",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "重新开始录制",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "暂停录制",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "恢复录制",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "取消录制",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "切换绘图工具",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "切换模糊工具",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "切换光标选项",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "禁用摄像头",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "启用摄像头",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "无摄像头权限",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "摄像头设置",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "镜像摄像头",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "背景虚化",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "禁用麦克风",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "启用麦克风",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "无麦克风权限",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "选择",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "钢笔",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "荧光笔",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "橡皮擦",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "文本",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "形状工具",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "箭头",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "图像",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "撤销",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "恢复",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "清空画布",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "更多颜色",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "粗画笔",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "中画笔",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "细画笔",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "切换画中画模式",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "切换填充",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "绘图模式",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "模糊模式",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "清除所有模糊元素",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "突出显示点击",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "突出显示光标",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "聚焦光标",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "不再显示",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "重新开始录制？",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "您当前的视频进度将丢失。",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "重新开始",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "继续录制",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "放弃录制？",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "您当前的视频进度将丢失。",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "放弃",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "继续录制",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "录制文件在此保存",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "录制中...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "保持此选项卡打开。录制保存后，它将自动关闭。",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "准备录制中...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "保持此选项卡打开。录制完成后，它将更新。",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "编辑器",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "取消",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "恢复原始状态",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "重置",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "保存更改",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "保存中...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "拖放音频文件",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "或点击浏览",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "设置",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "音量",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "更新",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "裁剪",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "宽度",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "高度",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "左",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "顶部",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "拖动手柄并使用左侧的按钮编辑所选部分。",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "修剪视频",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "正在修剪...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "剪切部分",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "正在剪切...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "静音音频",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "正在静音...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "了解更多。",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "撤销",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "恢复",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "发表评论",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "您当前处于离线状态",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "某些功能在重新连接之前不可用",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "重试",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome 需要更新",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "更新以访问更多功能",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "了解更多",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "视频过长，无法在本地处理",
+    "description": "编辑器中超过5分钟的限制标签"
+  },
+  "overLimitLabelDescription": {
+    "message": "编辑和MP4格式导出不可用",
+    "description": "编辑器中超过5分钟的限制描述"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "视频正在处理中...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "升级以加快编辑速度",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "编辑",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "无连接",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "不可用",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "编辑视频",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "剪辑、裁剪或静音视频",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "正在准备视频，请稍候...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "裁剪",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "裁剪和调整视频大小",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "添加音频",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "上传您自己的音频以添加到视频",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "保存",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "从 Google Drive 注销",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "保存中...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "保存到 Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "将当前版本保存到 Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "登录并保存到 Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "下载中...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "下载为 .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "导出为 .webm 视频",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "下载为 .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "导出为 .mp4 视频（推荐）",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "下载为 .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "导出为 GIF（最长30秒）",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "替换现有音频",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "缩放到光标位置",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "录制时保持在页面中",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "麦克风已关闭警告",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "帮助",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "录制已暂停。按播放按钮继续。",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot 没有权限录制您的屏幕",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "要使屏幕录制功能正常工作，当权限请求出现时，您需要允许CocoShot捕获您的屏幕。(您可以随时在扩展程序的设置中撤销它。)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "启用屏幕录制",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "取消",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "您的麦克风已静音",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "如果您希望录制中包含您的声音，需要打开麦克风。您是否仍要继续录制，不包含音频？",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "是的，继续",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "取消",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "放松。单击任何地方停止倒计时。",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "由于帧之间的间隔，对于短时间范围，编辑可能不准确。",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "视频正在处理，播放可能不准确或中断。",
+    "description": "Processing banner in the editor"
+  },
+  "croppingInfoTitle": {
+    "message": "裁剪可能需要一些时间",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "升级以获得更快的处理速度",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "麦克风已启用",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "麦克风已禁用",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "录制时长少于3秒，未保存。",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "隐藏UI通知",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "不再显示",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "在不使用时隐藏工具栏",
+    "description": "Only show toolbar on hover button"
+  },
+  "updateAnnouncementTitle": {
+    "message": "欢迎使用新版 CocoShot！",
+    "description": "现有用户的更新公告标题"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "了解有关更新的更多信息。",
+    "description": "现有用户的更新公告了解更多链接"
+  },
+  "updateAnnouncementButton": {
+    "message": "开始使用",
+    "description": "现有用户的更新公告按钮"
+  },
+  "streamErrorModalTitle": {
+    "message": "启动录制时出错",
+    "description": "流错误模态框标题"
+  },
+  "streamErrorModalDescription": {
+    "message": "启动录制过程时发生了错误。请重新启动浏览器并再次尝试。如果问题持续存在，请通过 support@cocoshot.net 联系我们获取进一步帮助。",
+    "description": "流错误模态框描述"
+  },
+  "highestQuality": {
+    "message": "最高质量",
+    "description": "弹出窗口中的最高质量标签"
+  },
+  "restoreRecording": {
+    "message": "恢复最近的录像",
+    "description": "弹出窗口中恢复最近的录音按钮"
+  },
+  "havingIssuesButton": {
+    "message": "遇到问题了吗？",
+    "description": "编辑器中的问题按钮"
+  },
+  "havingIssuesModalTitle": {
+    "message": "无法查看您的录像？",
+    "description": "编辑器中的问题模态框标题"
+  },
+  "havingIssuesModalDescription": {
+    "message": "如果您已经完成录制但在本页看不到您的视频，您可以尝试下载原始视频数据（如果存在）。或者，您可以通过提交错误报告与我们联系。",
+    "description": "编辑器中的问题模态框描述"
+  },
+  "havingIssuesModalButton": {
+    "message": "下载原始视频数据",
+    "description": "编辑器中的问题模态框按钮"
+  },
+  "havingIssuesModalButton2": {
+    "message": "报告问题",
+    "description": "编辑器中的问题模态框第二个按钮"
+  },
+  "noRecordingFound": {
+    "message": "未找到录制，抱歉 :(",
+    "description": "编辑器中的未找到录制警告"
+  },
+  "memoryLimitTitle": {
+    "message": "内存限制达到",
+    "description": "内存限制达到标题"
+  },
+  "memoryLimitDescription": {
+    "message": "您的设备录制内存不足，导致录制会话自动结束。要录制更长时间的视频，建议降低视频质量或释放设备上的存储空间。",
+    "description": "内存限制达到描述"
+  },
+  "understoodButton": {
+    "message": "知道了",
+    "description": "知道了按钮"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "空间不足",
+    "description": "空间不足标题"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot需要至少1GB的空闲空间进行录制。请释放设备上的空间并重试。",
+    "description": "空间不足描述"
+  },
+  "clearSpaceButton": {
+    "message": "清除之前的录制",
+    "description": "清除之前的录制按钮"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "高级",
+    "description": "沙盒编辑器页面的高级部分"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "下载原始视频文件",
+    "description": "下载原始录制按钮"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "导出原始录制数据",
+    "description": "下载原始录制标签"
+  },
+  "troubleshootButtonTitle": {
+    "message": "获取有关您的录制的帮助",
+    "description": "故障排除按钮"
+  },
+  "troubleShootButtonDescription": {
+    "message": "恢复您的视频并解决其他问题",
+    "description": "故障排除标签"
+  },
+  "rawRecordingModalTitle": {
+    "message": "下载原始视频文件",
+    "description": "原始录制模态框标题"
+  },
+  "rawRecordingModalDescription": {
+    "message": "原始视频文件指的是由CocoShot直接创建的未经修改的录制文件。由于此文件未经处理或编辑，它可能会非常大，并且与某些设备不兼容。如果您在处理后的版本遇到问题，可以使用此文件检索您的原始录制。",
+    "description": "原始录制模态框描述"
+  },
+  "rawRecordingModalButton": {
+    "message": "下载",
+    "description": "原始录制模态框按钮"
+  },
+  "showWaveformButton": {
+    "message": "显示音频波形图",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "下载系统信息和视频数据并发送进行故障排除",
+    "description": "故障排除模态框标题"
+  },
+  "troubleshootModalDescription": {
+    "message": "下载文件后，请将其发送至support@cocoshot.net，并附上任何可能有帮助的额外详情。我们将使用这些信息协助您解决扩展程序的任何问题，并在可行的情况下恢复您的视频。",
+    "description": "故障排除模态框描述"
+  },
+  "troubleshootModalButton": {
+    "message": "下载",
+    "description": "故障排除模态框按钮"
+  },
+  "overLimitModalTitle": {
+    "message": "视频过长，无法在您的设备上处理",
+    "description": "超过5分钟限制的模态框标题"
+  },
+  "overLimitModalDescription": {
+    "message": "由于CocoShot优先考虑隐私并完全在您的本地设备上运行，它受限于您的硬件能力。处理此时长的视频将耗时过长且需要大量系统资源。您仍然可以获取WEBM文件或原始录制，但无法使用编辑功能和MP4导出。不过，如果您了解潜在挑战，仍可以继续处理视频。",
+    "description": "超过5分钟限制的模态框描述"
+  },
+  "overLimitModalButton": {
+    "message": "我理解风险，仍然尝试",
+    "description": "超过5分钟限制的模态框按钮"
+  },
+  "overLimitModalLearnMore": {
+    "message": "了解有关处理长视频的更多信息。",
+    "description": "超过5分钟限制的模态框了解更多链接（带有句号）"
+  },
+  "recoveryModeTitle": {
+    "message": "恢复模式",
+    "description": "恢复模式标题"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "下载故障排除数据",
+    "description": "故障排除选项"
+  },
+  "getHelpNav": {
+    "message": "帮助中心",
+    "description": "帮助导航元素"
+  },
+  "audioWarningTitle": {
+    "message": "录制页面音频",
+    "description": "音频警告标题"
+  },
+  "audioWarningDescription": {
+    "message": "要录制此页面的音频，请使用'$tab$'选项。",
+    "description": "音频警告说明",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "选项卡区域"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "页面不支持扩展",
+    "description": "选项卡上不支持的扩展标题"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot与您刚才使用的选项卡不兼容。您仍然可以从本页启动录制，然后返回该选项卡，但请注意，您的摄像头画面和编辑工具栏将不会显示。",
+    "description": "选项卡上不支持扩展的说明"
+  },
+  "backupsTitle": {
+    "message": "为CocoShot录制设置本地备份",
+    "description": "备份标题"
+  },
+  "backupsDescription1": {
+    "message": "保留您创建的每一份录制的副本。如果不设置备份，您的录制将只在您明确选择下载时才会被保存。",
+    "description": "备份说明"
+  },
+  "backupsDescription2": {
+    "message": "如果您尝试将录制保存到下载文件夹或其他系统目录，您可能需要事先创建一个新文件夹。",
+    "description": "备份说明"
+  },
+  "backupsSelectFolder": {
+    "message": "选择文件夹",
+    "description": "选择文件夹按钮"
+  },
+  "backupsNotNow": {
+    "message": "现在不",
+    "description": "现在不按钮"
+  },
+  "backupsOnTitle": {
+    "message": "您的录制已本地同步",
+    "description": "已启用的备份标题"
+  },
+  "backupsOnDescription": {
+    "message": "为了避免每次录制时都请求权限，我们建议保持此选项卡打开。",
+    "description": "已启用的备份说明"
+  },
+  "backupsClose": {
+    "message": "仍然关闭选项卡",
+    "description": "仍然关闭选项卡按钮"
+  },
+  "backupsStop": {
+    "message": "停止所有录制的备份",
+    "description": "停止备份按钮"
+  },
+  "backupsConfirmTitle": {
+    "message": "请重新确认对CocoShot本地备份文件夹的访问权限",
+    "description": "备份确认标题"
+  },
+  "backupsConfirmDescription": {
+    "message": "我们深表歉意，但我们需要再次获取您的许可才能继续备份您的录制。遗憾的是，每次关闭此选项卡时我们都需要请求此权限，这可能发生在您关闭浏览器或重新启动计算机时。",
+    "description": "备份确认说明"
+  },
+  "backupsConfirmAllow": {
+    "message": "允许CocoShot继续备份录制",
+    "description": "备份确认中的允许按钮"
+  },
+  "backupsToggle": {
+    "message": "备份录制",
+    "description": "备份切换标签"
+  },
+  "backupPermissionFailTitle": {
+    "message": "未授予备份录制的权限",
+    "description": "备份权限失败标题"
+  },
+  "backupPermissionFailDescription": {
+    "message": "您尚未选择用于存储录制备份的文件夹。根据您的浏览器版本或操作系统，您可能会在每次开始录制时被提示选择此文件夹。您可以再次尝试设置过程，或者如果您不想反复授予权限，可以完全关闭备份功能。",
+    "description": "备份权限失败说明"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "录制计算机音频",
+    "description": "macOS音频警告标题"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "在macOS系统上，您只能录制单个选项卡的音频。选择Chrome选项卡录制选项，并确认'Also share tab audio'设置已开启。",
+    "description": "macOS音频警告说明"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "录制计算机音频",
+    "description": "其他系统音频警告标题"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "如果您希望捕获计算机音频，请确保激活'共享系统音频'选项。如果此选项不可见，请考虑更新Chrome或切换到选项卡录制模式。",
+    "description": "其他系统音频警告说明"
+  },
+  "maxResolutionLabel": {
+    "message": "最高分辨率",
+    "description": "设置菜单中的最高分辨率标签"
+  },
+  "maxFPSLabel": {
+    "message": "最高帧率",
+    "description": "设置菜单中的最高帧率标签"
+  },
+  "notEnoughRAM": {
+    "message": "内存不足",
+    "description": "设置菜单中的内存不足标签"
+  },
+  "resizeWindowLabel": {
+    "message": "调整窗口大小",
+    "description": "设置菜单中的调整窗口大小标签"
+  },
+  "screenTooSmallTooltip": {
+    "message": "屏幕尺寸不足以支持此分辨率",
+    "description": "设置菜单中的屏幕尺寸不足提示"
+  },
+  "maxResolutionTooltip": {
+    "message": "您的设备无法以此分辨率录制",
+    "description": "设置菜单中的最大分辨率提示"
+  },
+  "permissionDeniedTitle": {
+    "message": "权限被拒绝",
+    "description": "权限被拒绝警告标题"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "录制需要摄像头和麦克风权限。请在浏览器设置中授予权限。",
+    "description": "摄像头和麦克风权限被拒绝消息"
+  },
+  "cameraPermissionDenied": {
+    "message": "录制需要摄像头权限。请在浏览器设置中授予权限。",
+    "description": "摄像头权限被拒绝消息"
+  },
+  "micPermissionDenied": {
+    "message": "录制需要麦克风权限。请在浏览器设置中授予权限。",
+    "description": "麦克风权限被拒绝消息"
+  },
+  "fixPermissionAction": {
+    "message": "修复权限",
+    "description": "修复权限按钮文本"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "屏幕录制设置",
+    "description": "设置菜单标题"
+  },
+  "hours": {
+    "message": "时",
+    "description": "小时单位缩写"
+  },
+  "minutes": {
+    "message": "分",
+    "description": "分钟单位缩写"
+  },
+  "seconds": {
+    "message": "秒",
+    "description": "秒单位缩写"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "正在请求摄像头权限...",
+    "description": "请求摄像头权限时的加载消息"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "正在请求麦克风权限...",
+    "description": "请求麦克风权限时的加载消息"
+  },
+  "requestCameraPermission": {
+    "message": "请求摄像头权限",
+    "description": "请求摄像头权限的按钮文本"
+  },
+  "requestMicrophonePermission": {
+    "message": "请求麦克风权限",
+    "description": "请求麦克风权限的按钮文本"
+  },
+  "permissionsModalReview": {
+    "message": "审查权限",
+    "description": "审查权限按钮"
+  },
+  "startRecording": {
+    "message": "开始录制",
+    "description": "录制屏幕上的开始录制按钮"
+  },
+  "stopRecording": {
+    "message": "停止录制",
+    "description": "录制屏幕上的停止录制按钮"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "自定义选项",
+    "description": "设置菜单按钮的ARIA标签"
+  },
+  "recordedVideosTitle": {
+    "message": "已录制视频",
+    "description": "已录制视频标签页标题"
+  },
+  "noVideosRecordedYet": {
+    "message": "暂无录制视频",
+    "description": "视频标签页空状态消息"
+  },
+  "pushToMuteLabel": {
+    "message": "按住静音",
+    "description": "按住静音标签"
+  },
+  "cameraPermissionMessage": {
+    "message": "我们需要您的权限来访问摄像头",
+    "description": "摄像头权限模态框消息"
+  },
+  "microphonePermissionMessage": {
+    "message": "我们需要您的权限来访问麦克风",
+    "description": "麦克风权限模态框消息"
+  },
+  "reviewButton": {
+    "message": "审查",
+    "description": "权限模态框中的审查按钮"
+  },
+  "colorPickerTooltip": {
+    "message": "颜色选择器",
+    "description": "颜色选择器提示"
+  },
+  "closeTooltip": {
+    "message": "关闭",
+    "description": "关闭按钮提示"
+  },
+  "eyeDropperTooltip": {
+    "message": "从屏幕取色",
+    "description": "取色器工具提示"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "您的浏览器不支持取色器API，请使用Chrome 95+或Edge 95+等现代浏览器。",
+    "description": "取色器不支持消息"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "选择模糊区域",
+    "description": "选择模糊区域按钮提示"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "删除所有模糊区域",
+    "description": "删除所有模糊区域按钮提示"
+  },
+  "lineWidthTooltip": {
+    "message": "线条宽度",
+    "description": "线条宽度工具提示"
+  },
+  "thinPresetLabel": {
+    "message": "细",
+    "description": "细线宽度预设标签"
+  },
+  "mediumPresetLabel": {
+    "message": "中",
+    "description": "中等线条宽度预设标签"
+  },
+  "boldPresetLabel": {
+    "message": "粗",
+    "description": "粗线条宽度预设标签"
+  },
+  "extraBoldPresetLabel": {
+    "message": "特粗",
+    "description": "特粗线条宽度预设标签"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot 录制",
+    "description": "存储备份的文件夹名称"
+  },
+  "backupSetupFailed": {
+    "message": "无法设置本地备份。如需更多帮助，请联系我们 $supportEmail$。您仍然可以录制屏幕。",
+    "description": "备份设置失败时的错误消息",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "您的浏览器不支持本地备份。如需更多帮助，请联系我们 $supportEmail$。您仍然可以录制屏幕。",
+    "description": "浏览器不支持备份时的错误消息",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "如何使用缩放到光标功能",
+    "description": "缩放到光标教程模态框标题"
+  },
+  "zoomToPointModalDescription": {
+    "message": "录制时，按住快捷键可将画面放大到光标位置。松开按键后画面会恢复正常大小。这个功能非常适合在录制过程中突出显示屏幕的特定区域。",
+    "description": "缩放到光标教程模态框描述"
+  },
+  "zoomToPointModalButton": {
+    "message": "知道了！",
+    "description": "缩放到光标教程模态框按钮"
+  },
+  "regionSizeTitle": {
+    "message": "区域大小",
+    "description": "尺寸选择器中的区域大小标题"
+  },
+  "quickPresetsLabel": {
+    "message": "预设大小",
+    "description": "尺寸选择器中的快速预设标签"
+  },
+  "resetButtonLabel": {
+    "message": "重置",
+    "description": "尺寸选择器中的重置按钮标签"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "无",
+    "description": "摄像头设置中的无效果标签"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "模糊",
+    "description": "摄像头设置中的模糊效果标签"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "景深",
+    "description": "摄像头设置中的景深效果标签"
+  },
+  "cameraEffectImageLabel": {
+    "message": "图像",
+    "description": "摄像头设置中的图像效果标签"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "下载为 WebM",
+    "description": "Video editor download WebM button text"
+  },
+  "videoEditorConverting": {
+    "message": "转换中...",
+    "description": "Video editor converting status text"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "下载为 MP4",
+    "description": "Video editor download MP4 button text"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "请先加载视频文件",
+    "description": "Video editor empty preview message"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "不支持的视频格式。请尝试使用其他视频格式。",
+    "description": "Video editor unsupported format error message"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "下载失败。请重试。",
+    "description": "Video editor download failed message"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "无法转换为 MP4",
+    "description": "MP4转换不可用模态框标题"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "此视频太大，无法在浏览器中转换为MP4。请改为下载WebM格式。",
+    "description": "MP4转换不可用模态框描述"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "正在转换为 MP4...",
+    "description": "正在转换为MP4时显示的消息"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "下载视频失败。请重试。",
+    "description": "从OPFS下载失败消息"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "视频大小超过推荐限制（最大 {maxSize}GB），可能导致处理失败",
+    "description": "Video editor video too large error message"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "您正在加载一个大视频（{sizeGB}GB）。处理可能需要很长时间。继续？",
+    "description": "Video editor large video confirmation message"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "正在处理视频片段",
+    "description": "Video editor processing chunks message"
+  },
+  "videoEditorEditVideo": {
+    "message": "编辑视频",
+    "description": "视频编辑器中的编辑视频按钮文本"
+  },
+  "videoEditorComingSoon": {
+    "message": "即将推出。",
+    "description": "视频编辑器中的即将推出提示"
+  },
+  "videoEditorVideoPreview": {
+    "message": "视频预览",
+    "description": "视频编辑器中的视频预览标题"
+  },
+  "videoEditorOK": {
+    "message": "确定",
+    "description": "视频编辑器模态框中的确定按钮文本"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "正在写入存储...",
+    "description": "视频编辑器写入存储时的消息"
+  }
+}

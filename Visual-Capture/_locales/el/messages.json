@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Στιγμιότυπο oθόνης και Kαταγραφή oθόνης"
+  },
+  "extDescription": {
+    "message": "Λήψη στιγμιότυπων οθόνης πλήρους σελίδας και εγγραφή οθόνης σε MP4 με σχόλια. Περιλαμβάνεται εξαγωγή PDF με συνδέσμους."
+  },
+  "pDisable": {
+    "message": "Απενεργοποιημένο σε αυτή τη σελίδα"
+  },
+  "pDisableDesc": {
+    "message": "Μπορείτε να το εκτελέσετε σε οποιαδήποτε ιστοσελίδα, εκτός από αυτές που περιορίζουν την εκτέλεση scripts από τις επεκτάσεις του προγράμματος περιήγησης. Αυτό περιλαμβάνει την ιστοσελίδα της επέκτασης, τις σελίδες ρυθμίσεων του προγράμματος περιήγησης και άλλες σελίδες επεκτάσεων."
+  },
+  "pDisableExp": {
+    "message": "Αυτή η περιοριστική προϋπόθεση προέρχεται από τον ίδιο τον браουζέρ λόγω κινδύνων ασφαλείας."
+  },
+  "pDisableTry": {
+    "message": "Μπορείτε να ανοίξετε μια νέα σελίδα και να δοκιμάσετε τη λειτουργία λήψης."
+  },
+  "pStart": {
+    "message": "Έναρξη"
+  },
+  "pFileUrl": {
+    "message": "Πηγαίνετε στο \"${pFileUrl}$\" και ελέγξτε το κουτάκι \"Επιτρέψτε πρόσβαση σε διευθύνσεις URL αρχείων\"."
+  },
+  "pCaptV": {
+    "message": "Κάντε λήψη screenshot των ορατών τμημάτων της σελίδας."
+  },
+  "pAsOne": {
+    "message": "Αποθήκευση ως ένα μόνο αρχείο HTML."
+  },
+  "pDesktop": {
+    "message": "Κάντε λήψη screenshots μιας δεδομένης ιστοσελίδας, καρτέλας, παραθύρου ή ολόκληρης της οθόνης."
+  },
+  "pCaptFull": {
+    "message": "Κάντε λήψη screenshot ολόκληρης της σελίδας."
+  },
+  "pDesableOpt": {
+    "message": "Ή μπορείτε να δοκιμάσετε:"
+  },
+  "pAreaCut": {
+    "message": "Επιλέξτε ένα μέρος της σελίδας για να κάνετε λήψη screenshot"
+  },
+  "fullpageTooLarge": {
+    "message": "Σημείωση: Ο περιηγητής δεν μπορεί να συλλάβει ολόκληρη τη σελίδα ως μία εικόνα λόγω του μεγέθους της. Αντί αυτού, θα χωριστεί σε <strong>$1</strong> ξεχωριστές εικόνες."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Προειδοποίηση: Αυτή η επέκταση δεν έχει σχεδιαστεί για τη λήψη εξαιρετικά μεγάλων περιεχομένων. Είναι πιθανό να μην μπορέσει να ολοκληρώσει επιτυχώς τη λήψη αυτής της σελίδας."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Απαιτείται επιπλέον άδεια"
+  },
+  "framePermDesc": {
+    "message": "Αυτή η ιστοσελίδα εμφανίζει περιεχόμενο μέσω ενσωματωμένου iframe, το οποίο απαιτεί επιπλέον άδειες για πρόσβαση."
+  },
+  "WhatisIframe": {
+    "message": "Κάντε κλικ για να μάθετε τι είναι το iframe."
+  },
+  "framePermMore": {
+    "message": "Μπορεί να χρειαστεί να επανεκκινήσετε την επέκταση μετά τη χρήση του παραθύρου διαλόγου. Η ακύρωση θα καταγράψει μόνο την ορατή οθόνη."
+  },
+  "framePermConfirm": {
+    "message": "Επιτρέπω"
+  },
+  "framePermSave": {
+    "message": "Αποθηκεύστε αυτήν την άδεια για μελλοντική χρήση (Μπορείτε να την ανακαλέσετε ανά πάσα στιγμή)."
+  },
+  "error": {
+    "message": "Σφάλμα"
+  },
+  "captureError": {
+    "message": "Αποτυχία καταγραφής, παρακαλώ προσπαθήστε ξανά αργότερα. Αν το πρόβλημα παραμένει, παρακαλώ επικοινωνήστε με τον προγραμματιστή στο $1"
+  },
+  "btnOk": {
+    "message": "Εντάξει"
+  },
+  "btnCancel": {
+    "message": "Ακύρωση"
+  },
+  "saveFramePermission": {
+    "message": "Επιτρέπω την καταγραφή περιεχομένου από όλα τα πλαίσια"
+  },
+  "permissions": {
+    "message": "Άδειες"
+  },
+  "saveframepDesc": {
+    "message": "Αυτή η άδεια απαιτείται για την καταγραφή περιεχομένου από iframes ή framesets σε μια σελίδα. Η απενεργοποίηση αυτής της άδειας ενδέχεται να περιορίσει τη δυνατότητα καταγραφής ορισμένων στοιχείων ιστοσελίδας."
+  },
+  "processingScreenshot": {
+    "message": "Επεξεργασία στιγμιότυπου οθόνης..."
+  },
+  "screenshotSaved": {
+    "message": "Το στιγμιότυπο αποθηκεύτηκε στο φάκελο Λήψεις"
+  },
+  "screenshotLoadFailed": {
+    "message": "Αποτυχία φόρτωσης στιγμιότυπου. Παρακαλώ δοκιμάστε ξανά."
+  },
+  "getScreenshotFailed": {
+    "message": "Αποτυχία λήψης στιγμιότυπου. Παρακαλώ δοκιμάστε ξανά."
+  },
+  "processingAllAreas": {
+    "message": "Επεξεργασία στιγμιότυπων όλων των περιοχών..."
+  },
+  "allAreasSaved": {
+    "message": "Αποθηκεύτηκαν επιτυχώς στιγμιότυπα $1 περιοχών"
+  },
+  "areaNotVisible": {
+    "message": "Η επιλεγμένη περιοχή βρίσκεται σχεδόν εξολοκλήρου εκτός του ορατού εύρους και δεν μπορεί να καταγραφεί."
+  },
+  "partiallyVisible": {
+    "message": "Μέρος της περιοχής βρίσκεται εκτός του ορατού εύρους. Καταγράφηκε το ορατό μέρος."
+  },
+  "partiallyVisibleArea": {
+    "message": "Μέρος της επιλεγμένης περιοχής βρίσκεται εκτός του ορατού εύρους. Καταγράφηκε το ορατό μέρος."
+  },
+  "areaOutOfView": {
+    "message": "Η επιλεγμένη περιοχή βρίσκεται εκτός του ορατού εύρους. Παρακαλώ μετακινηθείτε ώστε να είναι ορατή και δοκιμάστε ξανά."
+  },
+  "processingError": {
+    "message": "Σφάλμα κατά την επεξεργασία στιγμιότυπου: $1"
+  },
+  "saveFailed": {
+    "message": "Αποτυχία αποθήκευσης στιγμιότυπου: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Ενεργοποιήθηκε η έξυπνη λειτουργία στιγμιότυπου. Κάντε κλικ για να επιλέξετε ένα στοιχείο (Enter για επιβεβαίωση, Esc για ακύρωση)."
+  },
+  "processing": {
+    "message": "Επεξεργασία αντιγραφής..."
+  },
+  "copyFailed": {
+    "message": "Η αντιγραφή απέτυχε: $1"
+  },
+  "canvasContextError": {
+    "message": "Η αντιγραφή απέτυχε: Δεν είναι δυνατή η λήψη περιβάλλοντος Canvas."
+  },
+  "copied": {
+    "message": "Αντιγράφηκε στο πρόχειρο"
+  },
+  "clipboardAccessDenied": {
+    "message": "Η αντιγραφή απέτυχε: Δεν επιτρέπεται η πρόσβαση στο πρόχειρο, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Η αντιγραφή απέτυχε: Δεν υποστηρίζεται το API πρόχειρου"
+  },
+  "imageDataCreateFailed": {
+    "message": "Η αντιγραφή απέτυχε: Δεν είναι δυνατή η δημιουργία δεδομένων εικόνας"
+  },
+  "copyAreaOutOfView": {
+    "message": "Η αντιγραφή απέτυχε: Η επιλεγμένη περιοχή βρίσκεται εκτός του ορατού εύρους"
+  },
+  "imagePreviewShown": {
+    "message": "Εμφανίστηκε προεπισκόπηση εικόνας. Δεξί κλικ για αντιγραφή."
+  },
+  "escape": {
+    "message": "Ακύρωση (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Η ποιότητα εικόνας ορίστηκε σε: $1"
+  },
+  "qrDecoding": {
+    "message": "Αποκωδικοποίηση QR κώδικα..."
+  },
+  "qrSuccess": {
+    "message": "Ο QR κώδικας αποκωδικοποιήθηκε με επιτυχία. Αντιγράφηκε στο πρόχειρο."
+  },
+  "qrNoQRFound": {
+    "message": "Δεν εντοπίστηκε έγκυρος QR κώδικας"
+  },
+  "qrError": {
+    "message": "Αποτυχία αποκωδικοποίησης QR κώδικα: $1"
+  },
+  "saveArea": {
+    "message": "Αποθήκευση αυτής της περιοχής"
+  },
+  "copyToClipboard": {
+    "message": "Αντιγραφή αυτής της επιλογής (τρέχουσα επιλογή)"
+  },
+  "saveAllAreas": {
+    "message": "Αποθήκευση όλων των περιοχών"
+  },
+  "keepAndContinue": {
+    "message": "Προσθήκη νέας επιλογής"
+  },
+  "cancel": {
+    "message": "Ακύρωση"
+  },
+  "lockSize": {
+    "message": "Κλείδωμα μεγέθους"
+  },
+  "lockSizeActive": {
+    "message": "✓ Κλείδωμα μεγέθους"
+  },
+  "freeRatio": {
+    "message": "Ελεύθερη αναλογία"
+  },
+  "ratioLabel": {
+    "message": "Επιλογή αναλογίας"
+  },
+  "aiDialog": {
+    "message": "Έξυπνος διάλογος"
+  },
+  "fileSizeEstimate": {
+    "message": "Περίπου $1 $2"
+  },
+  "qrDecode": {
+    "message": "Αποκωδικοποίηση QR"
+  },
+  "removeBackground": {
+    "message": "Αφαίρεση φόντου"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Αφαίρεση φόντου σε εξέλιξη..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Η αφαίρεση φόντου απέτυχε: Σφάλμα φόρτωσης εικόνας"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Η αφαίρεση φόντου απέτυχε: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Το φόντο αφαιρέθηκε και αντιγράφηκε στο πρόχειρο"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Η αφαίρεση φόντου απέτυχε: Δεν ήταν δυνατή η δημιουργία Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Η επιλεγμένη περιοχή βρίσκεται εκτός του ορατού εύρους"
+  },
+  "screenshotFailed": {
+    "message": "Το στιγμιότυπο απέτυχε: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Η επεξεργασία εικόνας απέτυχε, παρακαλώ δοκιμάστε ξανά"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Η περιοχή στιγμιότυπου είναι εκτός του ορατού εύρους"
+  },
+  "errorProcessingImage": {
+    "message": "Σφάλμα κατά την επεξεργασία εικόνας: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "Η βιβλιοθήκη αποκωδικοποίησης QR δεν έχει φορτωθεί"
+  },
+  "qrDecodingFailed": {
+    "message": "Η αποκωδικοποίηση QR απέτυχε: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "Δεν βρέθηκε QR κώδικας στην επιλεγμένη περιοχή"
+  },
+  "qrDecodingSuccess": {
+    "message": "Ο QR κώδικας αποκωδικοποιήθηκε επιτυχώς: $1"
+  },
+  "qrDecodingError": {
+    "message": "Σφάλμα αποκωδικοποίησης QR: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Η αφαίρεση φόντου απέτυχε: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Παρακαλώ επιλέξτε πρώτα μια περιοχή για στιγμιότυπο"
+  },
+  "aiDialogTitle": {
+    "message": "Ξεκινήστε έξυπνο διάλογο για το περιεχόμενο του στιγμιότυπου"
+  },
+  "qrDecodeTitle": {
+    "message": "Αποκωδικοποίηση QR κώδικα στο στιγμιότυπο"
+  },
+  "lockSizeTitle": {
+    "message": "Κλείδωμα τρέχοντος μεγέθους για συνεχόμενα στιγμιότυπα"
+  },
+  "moveHint": {
+    "message": "Μετακίνηση περιοχής επιλογής (Space + σύρσιμο)"
+  },
+  "saveAreaTooltip": {
+    "message": "Αποθήκευση τρέχουσας περιοχής"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Αποθήκευση όλων των επιλεγμένων περιοχών"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Αντιγραφή στιγμιότυπου στο πρόχειρο"
+  },
+  "moreOptions": {
+    "message": "Περισσότερες επιλογές"
+  },
+  "removeBgTooltip": {
+    "message": "Αφαίρεση φόντου και αντιγραφή στο πρόχειρο"
+  },
+  "ratioLabelTooltip": {
+    "message": "Επιλογή αναλογίας διαστάσεων"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Διατήρηση τρέχουσας επιλογής και συνέχεια"
+  },
+  "pCaptureTabLabel": {
+    "message": "Στιγμιότυπο οθόνης"
+  },
+  "pAiToolsTabLabel": {
+    "message": "Εργαλεία AI"
+  },
+  "pCaptureTitle": {
+    "message": "Στιγμιότυπο οθόνης ολόκληρης της σελίδας και επιλεγμένης περιοχής"
+  },
+  "pAiToolsTitle": {
+    "message": "Εργαλεία που σχετίζονται με την AI"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Εργαλεία εξαγωγής περιεχομένου ιστού"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Εργαλεία εικόνας"
+  },
+  "pDownloadAsMD": {
+    "message": "Λήψη ως Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Λήψη ως PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Λήψη της τρέχουσας ιστοσελίδας ως αρχείο Markdown"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Λήψη της τρέχουσας ιστοσελίδας ως αρχείο PDF"
+  },
+  "pImageProcessing": {
+    "message": "Επεξεργασία εικόνας"
+  },
+  "pImageProcessingTooltip": {
+    "message": "Μια συλλογή εργαλείων για την επεξεργασία εικόνας"
+  },
+  "fixThePage": {
+    "message": "Διορθώστε τη σελίδα"
+  },
+  "expandScrollableOn": {
+    "message": "Ανάπτυξη περιοχών με δυνατότητα κύλισης"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Ενεργοποιήστε την ανάπτυξη των περιοχών με δυνατότητα κύλισης στην ιστοσελίδα πριν από τη λήψη στιγμιότυπου οθόνης"
+  },
+  "hideFixedOn": {
+    "message": "Απόκρυψη στοιχείων σταθερής θέσης"
+  },
+  "hideFixedOnDesc": {
+    "message": "Ενεργοποιήστε την απόκρυψη στοιχείων σταθερής θέσης που ενδέχεται να επηρεάσουν τη λήψη"
+  },
+  "preScrollOn": {
+    "message": "Προφόρτωση της ιστοσελίδας με κύλιση"
+  },
+  "preScrollOnDesc": {
+    "message": "Πολλά στοιχεία ιστού (π.χ. εικόνες) φορτώνονται μόνο κατά την κύλιση. Όταν είναι ενεργοποιημένο, εντοπίζει και κυλά αυτόματα στο κάτω μέρος της σελίδας πριν από τη λήψη στιγμιότυπου οθόνης."
+  },
+  "canBeDisabled": {
+    "message": "μπορεί να απενεργοποιηθεί από τη σελίδα ρυθμίσεων"
+  },
+  "analyzingPageForHTML": {
+    "message": "Ανάλυση του κώδικα και του περιεχομένου της ιστοσελίδας, οι σύνθετες σελίδες ενδέχεται να χρειαστούν περισσότερο χρόνο. Εάν διαρκεί πολύ, ανανεώστε την ιστοσελίδα και προσπαθήστε ξανά."
+  },
+  "drawerSettings": {
+    "message": "Ρυθμίσεις"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Ιστορικό στιγμιότυπων οθόνης"
+  },
+  "drawerImageTools": {
+    "message": "Εργαλεία βελτίωσης στιγμιότυπων οθόνης"
+  },
+  "drawerHelpFeedback": {
+    "message": "Συχνές ερωτήσεις και σχόλια"
+  },
+  "drawerCloseMenu": {
+    "message": "Κλείσιμο αυτού του μενού"
+  },
+  "logoTooltip": {
+    "message": "Προβολή περισσότερων"
+  },
+  "pRecorderTabLabel": {
+    "message": "Εγγραφή οθόνης"
+  },
+  "pRecorderTitle": {
+    "message": "Εγγραφή οθόνης"
+  },
+  "pStartRecorder": {
+    "message": "Έναρξη εγγραφής οθόνης"
+  },
+  "pStartRecorderLabel": {
+    "message": "Εγγραφή οθόνης"
+  },
+  "pRecorderAlt": {
+    "message": "Εγγραφή"
+  },
+  "pStartRecorderAlt": {
+    "message": "Εγγραφή οθόνης"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Αυτή είναι μια beta έκδοση"
+  },
+  "pRecorderFeedback": {
+    "message": "Παροχή σχολίων"
+  },
+  "downloadsPermission": {
+    "message": "Επιτρέψτε τη λήψη αρχείων"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Αυτή η άδεια απαιτείται για να αποθηκεύετε στιγμιότυπα οθόνης απευθείας στον υπολογιστή σας."
+  },
+  "webNavigationPermission": {
+    "message": "Επιτρέψτε την πρόσβαση πλοήγησης στον ιστό"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Αυτή η άδεια απαιτείται για να εντοπίζονται αλλαγές στη σελίδα και να πλοηγείστε σε διαφορετικές σελίδες όταν χρειάζεται."
+  },
+  "desktopCapturePermission": {
+    "message": "Επιτρέψτε τη λήψη της επιφάνειας εργασίας"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Αυτή η άδεια απαιτείται για να καταγράφεται περιεχόμενο από την επιφάνεια εργασίας σας ή συγκεκριμένα παράθυρα."
+  },
+  "tabsPermission": {
+    "message": "Επιτρέψτε την πρόσβαση στις καρτέλες"
+  },
+  "tabsPermissionDesc": {
+    "message": "Αυτή η άδεια απαιτείται για να έχετε πρόσβαση και να διαχειρίζεστε πληροφορίες καρτελών περιηγητή."
+  },
+  "tabCapturePermission": {
+    "message": "Επιτρέψτε τη λήψη καρτέλας"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Αυτή η άδεια απαιτείται για να καταγράφεται ήχος και βίντεο από καρτέλες περιηγητή."
+  },
+  "allUrlsPermission": {
+    "message": "Επιτρέψτε την πρόσβαση σε όλες τις ιστοσελίδες"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Αυτή η άδεια απαιτείται για να τραβάτε στιγμιότυπα οθόνης από οποιαδήποτε ιστοσελίδα."
+  },
+  "fileUrlsPermission": {
+    "message": "Επιτρέψτε την πρόσβαση σε τοπικά αρχεία"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Αυτή η άδεια απαιτείται για να τραβάτε στιγμιότυπα οθόνης από τοπικά αρχεία (file:// URL)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Αν θα συμπεριλαμβάνονται εικόνες στη λήψη"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Αυτή η λειτουργία απαιτεί το CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "Αναβάθμιση σε Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Η αποθήκευση αυτού του περιεχομένου απαιτεί το CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "Προεπισκόπηση CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "Λειτουργία προεπισκόπησης"
+  },
+  "qv_screenshot_preview": {
+    "message": "Προεπισκόπηση στιγμιότυπου οθόνης"
+  },
+  "qv_download": {
+    "message": "Λήψη"
+  },
+  "qv_edit": {
+    "message": "Σχολιασμός, Επεξεργασία (εξαγωγή και σε PDF)"
+  },
+  "qv_hint": {
+    "message": "Οι έμπειροι χρήστες θα παρακάμψουν αυτόματα αυτή τη σελίδα και θα μεταβούν στο πρόγραμμα επεξεργασίας."
+  },
+  "recordTab": {
+    "message": "Εγγραφή",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Τα βίντεό σας",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Οθόνη",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Καρτέλα",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Μόνο κάμερα",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Mockup",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Η εγγραφή προσαρμοσμένης περιοχής απενεργοποιήθηκε",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Ενημερώστε το Chrome στην έκδοση 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Ενημέρωση",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Ελέγξτε τα δικαιώματά σας",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "Το CocoShot φαίνεται να μην μπορεί να αποκτήσει πρόσβαση στην κάμερα ή το μικρόφωνό σας. Για να επιλύσετε αυτό το πρόβλημα, ξεμπλοκάρετέ το στις ρυθμίσεις του προγράμματος περιήγησης και χορηγήστε τα απαραίτητα δικαιώματα.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Απόρριψη",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Επιτρέψτε την πρόσβαση στην κάμερα",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Επιτρέψτε την πρόσβαση στο μικρόφωνο",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Πατήστε για να μιλήσετε",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Ορισμός περιοχής εγγραφής",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Αντιστροφή κάμερας",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Εφέ φόντου",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Έναρξη εγγραφής",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Εκκίνηση εγγραφής...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Επιλέξτε κάμερα",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Περισσότερες επιλογές",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Σύστημα ήχου",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Απόκρυψη γραμμής εργαλείων",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Αντίστροφη μέτρηση",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Ορισμός χρονικού ορίου",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Θόλωση",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Κανένα",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Χωρίς κάμερα",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Χωρίς μικρόφωνο",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Επιλέξτε πηγή",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Απενεργοποιημένο",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Πλάτος",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Ύψος",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Κάντε κλικ για τοποθέτηση εικόνας",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Ολοκλήρωση εγγραφής",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Επανεκκίνηση εγγραφής",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Παύση εγγραφής",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Συνέχιση εγγραφής",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Ακύρωση εγγραφής",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Εναλλαγή εργαλείων σχεδίασης",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Εναλλαγή εργαλείου θόλωσης",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Εναλλαγή επιλογών δείκτη",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Απενεργοποίηση κάμερας",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Ενεργοποίηση κάμερας",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Χωρίς δικαιώματα κάμερας",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Ρυθμίσεις κάμερας",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Καθρεπτισμός κάμερας",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Θόλωση φόντου",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Απενεργοποίηση μικροφώνου",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Ενεργοποίηση μικροφώνου",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Χωρίς δικαιώματα μικροφώνου",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Επιλογή εργαλείου",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Εργαλείο πένας",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Εργαλείο επισήμανσης",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Γόμα",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Κείμενο",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Σχήμα",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Βέλος",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Εικόνα",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Αναίρεση",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Επανάληψη",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Καθαρισμός καμβά",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Περισσότερα χρώματα",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Παχιά γραμμή",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Μεσαία γραμμή",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Λεπτή γραμμή",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Εναλλαγή λειτουργίας εικόνας σε εικόνα",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Εναλλαγή γεμίσματος",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Λειτουργία σχεδίασης",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Λειτουργία θόλωσης",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Καθαρισμός όλων των θολωμένων στοιχείων",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Επισήμανση κλικ",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Επισήμανση δείκτη",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Δείκτης spotlight",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Μην εμφανιστεί ξανά",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Επανεκκίνηση εγγραφής;",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Η τρέχουσα πρόοδός σας θα χαθεί.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Επανεκκίνηση",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Συνέχεια",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Απόρριψη εγγραφής;",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Η τρέχουσα πρόοδός σας θα χαθεί.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Απόρριψη",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Συνέχεια",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Η εγγραφή σας θα αποθηκευτεί εδώ",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Εγγραφή...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Κρατήστε αυτήν την καρτέλα ανοιχτή. Θα κλείσει μόλις αποθηκευτεί η εγγραφή σας.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Προετοιμασία εγγραφής...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Κρατήστε αυτήν την καρτέλα ανοιχτή. Θα ενημερωθεί με την εγγραφή σας όταν είναι έτοιμη.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Επεξεργασία",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Ακύρωση",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Επαναφορά στην αρχική",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Επαναφορά",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Αποθήκευση αλλαγών",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Αποθήκευση...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Σύρετε και αποθέστε το αρχείο ήχου σας",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Ή κάντε κλικ για περιήγηση",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Ρυθμίσεις",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Ένταση",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Ενημέρωση",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Περικοπή",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Πλάτος",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Ύψος",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Αριστερά",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Πάνω",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Σύρετε τις λαβές και χρησιμοποιήστε τα κουμπιά στα αριστερά για να επεξεργαστείτε την επιλεγμένη ενότητα.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Περικοπή βίντεο",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Περικοπή...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Αποκοπή ενότητας",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Αποκοπή...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Σίγαση ήχου",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Σίγαση...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Μάθετε περισσότερα.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Αναίρεση",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Επανάληψη",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Αφήστε μια κριτική, βοηθάει!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Είστε εκτός σύνδεσης",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Ορισμένες λειτουργίες δεν είναι διαθέσιμες μέχρι να επανασυνδεθείτε",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Δοκιμάστε ξανά",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Το Chrome χρειάζεται ενημέρωση",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Ενημερώστε για πρόσβαση σε περισσότερες λειτουργίες",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Μάθετε περισσότερα",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Το βίντεο είναι πολύ μεγάλο για επεξεργασία στη συσκευή",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Η επεξεργασία και η εξαγωγή MP4 δεν είναι διαθέσιμες",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Το βίντεο επεξεργάζεται τοπικά...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Μάθετε για την ταχύτερη έκδοση cloud",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Επεξεργασία",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Χωρίς σύνδεση",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Μη διαθέσιμο",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Επεξεργασία βίντεο",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Περικοπή, αποκοπή ή σίγαση του βίντεο",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Προετοιμασία βίντεο, παρακαλώ περιμένετε...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Περικοπή",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Περικοπή και αλλαγή μεγέθους του βίντεο",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Προσθήκη ήχου",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Ανεβάστε τον δικό σας ήχο για να τον προσθέσετε στο βίντεο",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Αποθήκευση",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Αποσύνδεση από το Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Αποθήκευση...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Αποθήκευση στο Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Αποθηκεύστε την τρέχουσα έκδοση στο Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Συνδεθείτε και αποθηκεύστε στο Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Λήψη...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Λήψη ως .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Εξαγωγή βίντεο .webm",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Λήψη ως .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Εξαγωγή βίντεο .mp4 (συνιστάται)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Λήψη ως .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Εξαγωγή GIF (μέγ. 30 δευτερόλεπτα)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Αντικατάσταση υπάρχοντος ήχου",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Zoom στον δείκτη",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Παραμείνετε στη σελίδα κατά την εγγραφή",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Προειδοποίηση απενεργοποιημένου μικροφώνου",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Βοήθεια",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Η εγγραφή παύτηκε. Πατήστε το κουμπί αναπαραγωγής για να συνεχίσετε.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "Το CocoShot δεν έχει δικαίωμα εγγραφής της οθόνης σας",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "Για να λειτουργήσει η εγγραφή οθόνης, θα πρέπει να επιτρέψετε στο CocoShot να καταγράφει την οθόνη σας όταν εμφανιστεί το αίτημα δικαιώματος.(Μπορείτε να το ανακαλέσετε ανά πάσα στιγμή στις ρυθμίσεις της επέκτασης.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Ενεργοποίηση εγγραφής οθόνης",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Ακύρωση",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Το μικρόφωνό σας είναι σιγασμένο",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Αν θέλετε η φωνή σας να περιλαμβάνεται στην εγγραφή, θα πρέπει να ενεργοποιήσετε το μικρόφωνο. Θα θέλατε να συνεχίσετε με την εγγραφή χωρίς ήχο ούτως ή άλλως;",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Ναι, συνέχεια",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Ακύρωση",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Χαλαρώστε. Κάντε κλικ οπουδήποτε για να σταματήσετε την αντίστροφη μέτρηση.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Οι επεξεργασίες μπορεί να είναι ανακριβείς για μικρά χρονικά διαστήματα λόγω των διαστημάτων μεταξύ των καρέ.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Το βίντεο επεξεργάζεται, η αναπαραγωγή μπορεί να είναι ανακριβής ή διακοπεί.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Η περικοπή μπορεί να διαρκέσει λίγο",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Αναβάθμιση για ταχύτερη επεξεργασία",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Μικρόφωνο ενεργοποιημένο",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Μικρόφωνο απενεργοποιημένο",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Η εγγραφή ήταν μικρότερη από 3 δευτερόλεπτα και δεν αποθηκεύτηκε.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Απόκρυψη ειδοποιήσεων",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Μην εμφανιστεί ξανά",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Απόκρυψη γραμμής εργαλείων όταν δεν χρησιμοποιείται",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Έναρξη εγγραφής",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Διακοπή εγγραφής",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Καλώς ήρθατε στο νέο CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Μάθετε περισσότερα για την ενημέρωση.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Ξεκινήστε",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Σφάλμα κατά την εκκίνηση της εγγραφής",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Προέκυψε σφάλμα κατά την εκκίνηση της διαδικασίας εγγραφής. Επανεκκινήστε το πρόγραμμα περιήγησης και προσπαθήστε ξανά. Εάν το πρόβλημα συνεχίζεται, επικοινωνήστε μαζί μας στο support@cocoshot.net.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Υψηλότερη ποιότητα",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Επαναφορά τελευταίας εγγραφής βίντεο",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Έχετε προβλήματα;",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Δεν βλέπετε την εγγραφή σας;",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Εάν έχετε ολοκληρώσει την εγγραφή αλλά δεν βλέπετε το βίντεό σας σε αυτήν τη σελίδα, μπορείτε να δοκιμάσετε να κατεβάσετε τα ακατέργαστα δεδομένα βίντεο. Εναλλακτικά, μπορείτε να επικοινωνήσετε μαζί μας υποβάλλοντας μια αναφορά σφάλματος.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Λήψη ακατέργαστων δεδομένων βίντεο",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Αναφορά σφάλματος",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Δεν βρέθηκε εγγραφή, λυπούμαστε :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Επιτεύχθηκε όριο μνήμης",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Η συσκευή σας δεν έχει αρκετή μνήμη για εγγραφή, με αποτέλεσμα η συνεδρία να τερματιστεί αυτόματα. Για να εγγράψετε μεγαλύτερα βίντεο, σκεφτείτε να μειώσετε την ποιότητα του βίντεο ή να ελευθερώσετε χώρο αποθήκευσης στη συσκευή σας.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Κατανοητό",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Δεν υπάρχει αρκετός χώρος",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "Το CocoShot χρειάζεται τουλάχιστον 1GB ελεύθερο χώρο για εγγραφή. Ελευθερώστε χώρο και δοκιμάστε ξανά.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Καθαρισμός προηγούμενων εγγραφών",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Για προχωρημένους",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Λήψη ακατέργαστου αρχείου βίντεο",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Εξαγωγή των αρχικών δεδομένων εγγραφής",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Λήψη βοήθειας με την εγγραφή σας",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Ανακτήστε το βίντεό σας και επιλύστε άλλα προβλήματα",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Λήψη ακατέργαστου αρχείου βίντεο",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Το ακατέργαστο αρχείο βίντεο αναφέρεται στην αμετάβλητη εγγραφή που δημιουργήθηκε απευθείας από το CocoShot. Επειδή αυτό το αρχείο δεν έχει υποστεί επεξεργασία ή επεξεργασία, μπορεί να είναι αρκετά μεγάλο και ασύμβατο με ορισμένες συσκευές. Εάν αντιμετωπίζετε προβλήματα με την επεξεργασμένη έκδοση, μπορείτε να χρησιμοποιήσετε αυτό το αρχείο για να ανακτήσετε την αρχική σας εγγραφή.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Λήψη",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Εμφάνιση κυματομορφής ήχου",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Λήψη πληροφοριών συστήματος και δεδομένων βίντεο και αποστολή για αντιμετώπιση προβλημάτων",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Μόλις κατεβάσετε το αρχείο, στείλτε το στο support@cocoshot.net μαζί με τυχόν επιπλέον λεπτομέρειες που μπορεί να είναι χρήσιμες. Θα χρησιμοποιήσουμε αυτές τις πληροφορίες για να σας βοηθήσουμε να επιλύσετε τυχόν προβλήματα με την επέκταση και, εάν είναι δυνατόν, να ανακτήσετε το βίντεό σας.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Λήψη",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Το βίντεο είναι πολύ μεγάλο για επεξεργασία στη συσκευή σας",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Επειδή το CocoShot δίνει προτεραιότητα στο απόρρητο και λειτουργεί εξ ολοκλήρου στη συσκευή σας, περιορίζεται από τις δυνατότητες του υλικού σας. Ο χειρισμός ενός βίντεο αυτής της διάρκειας θα ήταν υπερβολικά χρονοβόρος και θα απαιτούσε σημαντικούς πόρους συστήματος. Μπορείτε ακόμα να αποκτήσετε το αρχείο WEBM ή την ακατέργαστη εγγραφή, αν και οι λειτουργίες επεξεργασίας και εξαγωγής MP4 δεν θα είναι διαθέσιμες. Ωστόσο, εάν γνωρίζετε τις πιθανές προκλήσεις, μπορείτε να προχωρήσετε στην επεξεργασία του βίντεο ούτως ή άλλως.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Κατανοώ τον κίνδυνο, δοκιμάστε ούτως ή άλλως",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Μάθετε περισσότερα για την επεξεργασία μεγάλων βίντεο.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Λειτουργία ανάκτησης",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Λήψη δεδομένων για αντιμετώπιση προβλημάτων",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Κέντρο βοήθειας",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Εγγραφή ήχου υπολογιστή",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "Για να εγγράψετε ήχο από αυτήν τη σελίδα, πρέπει να μεταβείτε στην «$tab$».",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Η επέκταση δεν υποστηρίζεται στην καρτέλα",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "Το CocoShot δεν είναι συμβατό με την καρτέλα που μόλις χρησιμοποιήσατε. Μπορείτε ακόμα να ξεκινήσετε εγγραφή από αυτήν τη σελίδα και στη συνέχεια να επιστρέψετε σε εκείνη την καρτέλα, αλλά λάβετε υπόψη ότι η ροή της κάμερας και η γραμμή εργαλείων επεξεργασίας δεν θα εμφανιστούν.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Ρυθμίστε μια τοπική δημιουργία αντιγράφων ασφαλείας για τις εγγραφές σας CocoShot",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Διατηρήστε αντίγραφα κάθε εγγραφής που δημιουργείτε. Χωρίς ρύθμιση δημιουργίας αντιγράφων ασφαλείας, οι εγγραφές σας θα αποθηκεύονται μόνο όταν επιλέξετε ρητά να τις κατεβάσετε.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Εάν προσπαθείτε να αποθηκεύσετε εγγραφές στις Λήψεις ή άλλους φακέλους συστήματος, ίσως χρειαστεί να δημιουργήσετε πρώτα έναν νέο φάκελο.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Επιλέξτε φάκελο",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Όχι τώρα",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Οι εγγραφές σας δημιουργούνται αντίγραφα ασφαλείας τοπικά",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "Για να αποφύγετε να σας ζητηθούν δικαιώματα κάθε φορά που εγγράφετε, συνιστούμε να αφήσετε αυτήν την καρτέλα ανοιχτή.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Κλείσιμο καρτέλας ούτως ή άλλως",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Διακοπή δημιουργίας αντιγράφων ασφαλείας όλων των εγγραφών",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Επιβεβαιώστε ξανά την πρόσβαση στον τοπικό φάκελο δημιουργίας αντιγράφων ασφαλείας του CocoShot",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Ζητούμε συγγνώμη, αλλά απαιτούμε ξανά την άδειά σας για να συνεχίσουμε τη δημιουργία αντιγράφων ασφαλείας των εγγραφών σας. Δυστυχώς, θα χρειαστεί να ζητήσουμε αυτήν την άδεια κάθε φορά που κλείνει αυτή η καρτέλα, η οποία μπορεί να συμβεί όταν κλείνετε το πρόγραμμα περιήγησης ή επανεκκινείτε τον υπολογιστή σας.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Επιτρέψτε στο CocoShot να συνεχίσει τη δημιουργία αντιγράφων ασφαλείας εγγραφών",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Δημιουργία αντιγράφων ασφαλείας εγγραφών",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Δεν δόθηκε άδεια για δημιουργία αντιγράφων ασφαλείας της εγγραφής",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Δεν έχετε επιλέξει φάκελο για την αποθήκευση των αντιγράφων ασφαλείας των εγγραφών σας. Ανάλογα με την έκδοση του προγράμματος περιήγησης ή το λειτουργικό σύστημα, μπορεί να σας ζητηθεί να επιλέξετε αυτόν τον φάκελο κάθε φορά που ξεκινάτε μια εγγραφή. Μπορείτε να δοκιμάσετε ξανά τη διαδικασία ρύθμισης ή να απενεργοποιήσετε εντελώς τα αντίγραφα ασφαλείας εάν προτιμάτε να μην χορηγείτε δικαιώματα επανειλημμένα.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Εγγραφή ήχου υπολογιστή",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "Σε συστήματα macOS, περιορίζεστε στην εγγραφή ήχου από μεμονωμένες καρτέλες. Επιλέξτε την επιλογή εγγραφής καρτέλας Chrome και επαληθεύστε ότι η ρύθμιση 'Επίσης κοινοποίηση ήχου καρτέλας' είναι ενεργοποιημένη.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Εγγραφή ήχου υπολογιστή",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Εάν επιθυμείτε να καταγράψετε ήχο από τον υπολογιστή σας, βεβαιωθείτε ότι είναι ενεργοποιημένη η επιλογή 'Κοινοποίηση ήχου συστήματος'. Εάν αυτή η επιλογή δεν είναι ορατή, σκεφτείτε να ενημερώσετε το Chrome ή να μεταβείτε σε λειτουργία εγγραφής καρτέλας.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Μέγιστη ανάλυση",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Μέγιστο FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Δεν αρκεί η RAM",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Αλλαγή μεγέθους παραθύρου",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Η οθόνη είναι πολύ μικρή για αυτήν την ανάλυση",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Δεν είναι δυνατή η εγγραφή σε αυτήν την ανάλυση στη συσκευή σας",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Άδεια απορρίφθηκε",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Απαιτούνται άδειες κάμερας και μικροφώνου για εγγραφή. Παρακαλώ χορηγήστε άδειες στις ρυθμίσεις του προγράμματος περιήγησης.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Απαιτείται άδεια κάμερας για εγγραφή. Παρακαλώ χορηγήστε άδεια στις ρυθμίσεις του προγράμματος περιήγησης.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Απαιτείται άδεια μικροφώνου για εγγραφή. Παρακαλώ χορηγήστε άδεια στις ρυθμίσεις του προγράμματος περιήγησης.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Διόρθωση αδειών",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Ρυθμίσεις εγγραφής οθόνης",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "ω",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "λ",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "δ",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Αίτημα άδειας κάμερας...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Αίτημα άδειας μικροφώνου...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Αίτημα άδειας κάμερας",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Αίτημα άδειας μικροφώνου",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Επισκόπηση αδειών",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Προσαρμογή επιλογών",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Εγγεγραμμένα βίντεο",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Δεν έχουν εγγραφεί ακόμη βίντεο",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Πατήστε για σίγαση",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Χρειαζόμαστε την άδειά σας για πρόσβαση στην κάμερα",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Χρειαζόμαστε την άδειά σας για πρόσβαση στο μικρόφωνο",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Επισκόπηση",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Επιλογέας χρωμάτων",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Κλείσιμο",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Επιλογή χρώματος από την οθόνη",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "Το EyeDropper API δεν υποστηρίζεται σε αυτό το πρόγραμμα περιήγησης. Χρησιμοποιήστε ένα σύγχρονο πρόγραμμα περιήγησης όπως Chrome 95+ ή Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Επιλογή περιοχής θόλωσης",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Διαγραφή όλων των περιοχών θόλωσης",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Πλάτος γραμμής",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Λεπτή",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Μεσαία",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Έντονη",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Πολύ έντονη",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot Recordings",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Αποτυχία ρύθμισης τοπικού αντιγράφου ασφαλείας. Επικοινωνήστε μαζί μας στο $supportEmail$ για περισσότερη βοήθεια. Μπορείτε ακόμα να εγγράψετε την οθόνη σας.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Το πρόγραμμα περιήγησής σας δεν υποστηρίζει τοπικά αντίγραφα ασφαλείας. Επικοινωνήστε μαζί μας στο $supportEmail$ για περισσότερη βοήθεια. Μπορείτε ακόμα να εγγράψετε την οθόνη σας.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Πώς να χρησιμοποιήσετε το Zoom στον δείκτη",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Κατά την εγγραφή, κρατήστε πατημένη τη συντόμευση πληκτρολογίου για να κάνετε zoom προς τη θέση του δείκτη σας. Αφήστε τα πλήκτρα για να κάνετε zoom προς τα πίσω. Αυτό είναι ιδανικό για την επισήμανση συγκεκριμένων περιοχών της οθόνης κατά την εγγραφή σας.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Κατάλαβα!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Μέγεθος περιοχής",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Προεπιλογές",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Επαναφορά",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Κανένα",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Θόλωση",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Εικόνα",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Παρακαλώ φορτώστε πρώτα ένα αρχείο βίντεο",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Λήψη ως WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Λήψη ως MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Μετατροπή...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Επεξεργασία κομματιών:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Το μέγεθος βίντεο υπερβαίνει το συνιστώμενο όριο (μέγ. 1GB), το οποίο μπορεί να προκαλέσει αποτυχία επεξεργασίας",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Φορτώνετε ένα μεγάλο βίντεο (1GB). Η επεξεργασία μπορεί να διαρκέσει πολύ. Συνέχεια;",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Μη υποστηριζόμενη μορφή βίντεο. Δοκιμάστε διαφορετική μορφή βίντεο.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Η λήψη απέτυχε. Δοκιμάστε ξανά.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "Η μετατροπή σε MP4 δεν είναι διαθέσιμη",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Αυτό το βίντεο είναι πολύ μεγάλο για μετατροπή σε MP4 στο πρόγραμμα περιήγησης. Κατεβάστε το ως WebM αντί αυτού.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Μετατροπή σε MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Αποτυχία λήψης βίντεο. Δοκιμάστε ξανά.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "επεξεργασία βίντεο",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Έρχεται σύντομα.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Προεπισκόπηση βίντεο",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Εγγραφή στην αποθήκευση...",
+    "description": "Message shown when writing video to storage"
+  }
+}

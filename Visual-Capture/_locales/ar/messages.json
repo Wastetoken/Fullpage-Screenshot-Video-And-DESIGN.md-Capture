@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: لقطة شاشة ومسجل شاشة"
+  },
+  "extDescription": {
+    "message": "التقط لقطات شاشة كاملة للصفحة وسجل الشاشة فيديو MP4 مع التوضيحات. تصدير PDF مع روابط قابلة للنقر."
+  },
+  "pDisable": {
+    "message": "معطلة في هذه الصفحة"
+  },
+  "pDisableDesc": {
+    "message": "يمكنك تشغيل هذا على أي صفحة ويب، باستثناء الصفحات التي يقيّد فيها المتصفح تشغيل السكريبتات للملحقات. يشمل ذلك متجر الملحقات، صفحات إعدادات المتصفح، وصفحات الملحقات الأخرى."
+  },
+  "pDisableExp": {
+    "message": "يأتي هذا القيد من المتصفح نفسه بسبب مخاطر الأمان."
+  },
+  "pDisableTry": {
+    "message": "يمكنك فتح صفحة جديدة وتجربة وظيفة الالتقاط."
+  },
+  "pStart": {
+    "message": "ابدأ"
+  },
+  "pFileUrl": {
+    "message": "اذهب إلى \"edge://extensions/\"، ثم تحقق من مربع \"السماح بالوصول إلى عناوين الملفات\"."
+  },
+  "pCaptV": {
+    "message": "التقاط لقطة شاشة للأجزاء المرئية من الصفحة."
+  },
+  "pAsOne": {
+    "message": "احفظ كملف HTML واحد."
+  },
+  "pDesktop": {
+    "message": "التقاط لقطات شاشة لصفحة ويب معينة، علامة تبويب، نافذة، أو الشاشة بالكامل."
+  },
+  "pCaptFull": {
+    "message": "التقاط لقطة شاشة للصفحة بالكامل."
+  },
+  "pDesableOpt": {
+    "message": "أو يمكنك المحاولة:"
+  },
+  "pAreaCut": {
+    "message": "حدد جزءًا من الصفحة لالتقاط لقطة شاشة"
+  },
+  "fullpageTooLarge": {
+    "message": "ملاحظة: لا يمكن للمتصفح التقاط الصفحة بأكملها كصورة واحدة بسبب حجمها. بدلاً من ذلك، سيتم تقسيمها إلى <strong>$1</strong> صور منفصلة."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "تحذير: هذه الإضافة غير مخصصة لالتقاط محتوى كبير جداً. قد لا تتمكن من إكمال التقاط هذه الصفحة بنجاح."
+  },
+  "preparingSsViewer": {
+    "message": "Please wait, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please wait, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "مطلوب إذن إضافي"
+  },
+  "framePermDesc": {
+    "message": "يعرض هذا الموقع المحتوى من خلال إطار iframe مضمّن، مما يتطلب أذونات إضافية للوصول إليه."
+  },
+  "WhatisIframe": {
+    "message": "انقر لمعرفة ما هو iframe."
+  },
+  "framePermMore": {
+    "message": "قد تحتاج إلى إعادة تشغيل الإضافة بعد استخدام مربع الحوار. الإلغاء سيؤدي إلى التقاط الشاشة المرئية فقط."
+  },
+  "framePermConfirm": {
+    "message": "سماح"
+  },
+  "framePermSave": {
+    "message": "احفظ هذا الإذن لاستخدامه لاحقًا (يمكنك إبطاله في أي وقت)."
+  },
+  "error": {
+    "message": "خطأ"
+  },
+  "captureError": {
+    "message": "فشل الالتقاط، يرجى المحاولة لاحقًا. إذا استمرت المشكلة، يرجى التواصل مع المطوّر على $1"
+  },
+  "btnOk": {
+    "message": "موافق"
+  },
+  "btnCancel": {
+    "message": "إلغاء"
+  },
+  "saveFramePermission": {
+    "message": "السماح بالتقاط المحتوى من جميع الإطارات"
+  },
+  "permissions": {
+    "message": "أذونات"
+  },
+  "saveframepDesc": {
+    "message": "هذا الإذن مطلوب لالتقاط المحتوى من iframes أو framesets في الصفحة. قد يؤدي تعطيله إلى تقييد القدرة على التقاط بعض عناصر صفحة الويب."
+  },
+  "processingScreenshot": {
+    "message": "جاري معالجة لقطة الشاشة..."
+  },
+  "screenshotSaved": {
+    "message": "تم حفظ لقطة الشاشة في مجلد التنزيلات"
+  },
+  "screenshotLoadFailed": {
+    "message": "فشل تحميل لقطة الشاشة. يرجى المحاولة مرة أخرى."
+  },
+  "getScreenshotFailed": {
+    "message": "فشل في التقاط لقطة الشاشة. يرجى المحاولة مرة أخرى."
+  },
+  "processingAllAreas": {
+    "message": "جاري معالجة لقطات الشاشة لجميع المناطق..."
+  },
+  "allAreasSaved": {
+    "message": "تم حفظ لقطات الشاشة بنجاح لـ $1 منطقة"
+  },
+  "areaNotVisible": {
+    "message": "المنطقة المحددة خارج نطاق العرض تقريبًا ولا يمكن التقاطها."
+  },
+  "partiallyVisible": {
+    "message": "جزء من المنطقة خارج نطاق العرض. تم التقاط الجزء المرئي."
+  },
+  "partiallyVisibleArea": {
+    "message": "جزء من المنطقة المحددة خارج نطاق العرض. تم التقاط الجزء المرئي."
+  },
+  "areaOutOfView": {
+    "message": "المنطقة المحددة خارج نطاق العرض. يرجى التمرير لجعل المنطقة مرئية ثم المحاولة مرة أخرى."
+  },
+  "processingError": {
+    "message": "خطأ في معالجة لقطة الشاشة: $1"
+  },
+  "saveFailed": {
+    "message": "فشل حفظ لقطة الشاشة: $1"
+  },
+  "smartModeEnabled": {
+    "message": "تم تفعيل وضع اللقطة الذكية. انقر لاختيار عنصر لالتقاطه (اضغط Enter للتأكيد، Esc للإلغاء)."
+  },
+  "processing": {
+    "message": "جاري معالجة النسخ..."
+  },
+  "copyFailed": {
+    "message": "فشل النسخ: $1"
+  },
+  "canvasContextError": {
+    "message": "فشل النسخ: تعذر الحصول على سياق Canvas."
+  },
+  "copied": {
+    "message": "تم النسخ إلى الحافظة"
+  },
+  "clipboardAccessDenied": {
+    "message": "فشل النسخ: تم رفض الوصول إلى الحافظة، $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "فشل النسخ: واجهة برمجة التطبيقات للحافظة غير مدعومة"
+  },
+  "imageDataCreateFailed": {
+    "message": "فشل النسخ: تعذر إنشاء بيانات الصورة"
+  },
+  "copyAreaOutOfView": {
+    "message": "فشل النسخ: المنطقة المحددة خارج نطاق العرض"
+  },
+  "imagePreviewShown": {
+    "message": "تم عرض معاينة الصورة. انقر بزر الماوس الأيمن للنسخ."
+  },
+  "escape": {
+    "message": "إلغاء (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "تم تعيين جودة الصورة إلى: $1"
+  },
+  "qrDecoding": {
+    "message": "جاري فك تشفير رمز الاستجابة السريعة..."
+  },
+  "qrSuccess": {
+    "message": "تم فك تشفير رمز الاستجابة السريعة بنجاح. تم نسخه إلى الحافظة."
+  },
+  "qrNoQRFound": {
+    "message": "لم يتم العثور على رمز استجابة سريعة صالح"
+  },
+  "qrError": {
+    "message": "فشل فك تشفير رمز الاستجابة السريعة: $1"
+  },
+  "saveArea": {
+    "message": "حفظ هذه المنطقة"
+  },
+  "copyToClipboard": {
+    "message": "نسخ هذا التحديد (المحدد حاليًا)"
+  },
+  "saveAllAreas": {
+    "message": "حفظ جميع المناطق"
+  },
+  "keepAndContinue": {
+    "message": "إضافة تحديد جديد"
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "lockSize": {
+    "message": "قفل الحجم"
+  },
+  "lockSizeActive": {
+    "message": "✓ قفل الحجم"
+  },
+  "freeRatio": {
+    "message": "نسبة حرة"
+  },
+  "ratioLabel": {
+    "message": "اختر النسبة"
+  },
+  "aiDialog": {
+    "message": "الحوار الذكي"
+  },
+  "fileSizeEstimate": {
+    "message": "تقريبًا $1 $2"
+  },
+  "qrDecode": {
+    "message": "فك تشفير رمز الاستجابة السريعة"
+  },
+  "removeBackground": {
+    "message": "إزالة الخلفية"
+  },
+  "processingBackgroundRemoval": {
+    "message": "جاري إزالة الخلفية..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "فشل إزالة الخلفية: خطأ في تحميل الصورة"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "فشل إزالة الخلفية: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "تمت إزالة الخلفية ونسخها إلى الحافظة"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "فشل إزالة الخلفية: تعذر إنشاء Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "المنطقة المحددة خارج نطاق العرض"
+  },
+  "screenshotFailed": {
+    "message": "فشل لقطة الشاشة: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "فشل معالجة الصورة، يرجى المحاولة مرة أخرى"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "منطقة لقطة الشاشة خارج نطاق العرض"
+  },
+  "errorProcessingImage": {
+    "message": "خطأ في معالجة الصورة: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "مكتبة فك تشفير رمز الاستجابة السريعة غير محملة"
+  },
+  "qrDecodingFailed": {
+    "message": "فشل فك تشفير رمز الاستجابة السريعة: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "لم يتم العثور على رمز استجابة سريعة في المنطقة المحددة"
+  },
+  "qrDecodingSuccess": {
+    "message": "تم فك تشفير رمز الاستجابة السريعة بنجاح: $1"
+  },
+  "qrDecodingError": {
+    "message": "خطأ في فك تشفير رمز الاستجابة السريعة: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "فشل إزالة الخلفية: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "يرجى تحديد منطقة لقطة الشاشة أولاً"
+  },
+  "aiDialogTitle": {
+    "message": "إجراء محادثة ذكية حول محتوى لقطة الشاشة"
+  },
+  "qrDecodeTitle": {
+    "message": "فك تشفير رمز الاستجابة السريعة في لقطة الشاشة"
+  },
+  "lockSizeTitle": {
+    "message": "قفل الحجم الحالي للالتقاط المستمر"
+  },
+  "moveHint": {
+    "message": "اسحب منطقة التحديد (مسافة + سحب)"
+  },
+  "saveAreaTooltip": {
+    "message": "احفظ المنطقة الحالية"
+  },
+  "saveAllAreasTooltip": {
+    "message": "احفظ جميع المناطق المحددة"
+  },
+  "copyToClipboardTooltip": {
+    "message": "انسخ لقطة الشاشة إلى الحافظة"
+  },
+  "moreOptions": {
+    "message": "خيارات إضافية"
+  },
+  "removeBgTooltip": {
+    "message": "إزالة الخلفية ونسخ إلى الحافظة"
+  },
+  "ratioLabelTooltip": {
+    "message": "اختر نسبة العرض إلى الارتفاع"
+  },
+  "keepAndContinueTooltip": {
+    "message": "احتفظ بالتحديد الحالي واستمر"
+  },
+  "pCaptureTabLabel": {
+    "message": "لقطة شاشة"
+  },
+  "pAiToolsTabLabel": {
+    "message": "أدوات الذكاء الاصطناعي"
+  },
+  "pCaptureTitle": {
+    "message": "لقطة شاشة للصفحة الكاملة ومنطقة الشاشة المحددة"
+  },
+  "pAiToolsTitle": {
+    "message": "الأدوات المتعلقة بالذكاء الاصطناعي"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "أدوات تصدير محتوى الويب"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "أدوات الصور"
+  },
+  "pDownloadAsMD": {
+    "message": "تنزيل كـ Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "تنزيل كـ PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "تنزيل صفحة الويب الحالية كملف Markdown"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "تنزيل صفحة الويب الحالية كملف PDF"
+  },
+  "pImageProcessing": {
+    "message": "معالجة الصورة"
+  },
+  "pImageProcessingTooltip": {
+    "message": "مجموعة من الأدوات لمعالجة الصور"
+  },
+  "fixThePage": {
+    "message": "تثبيت الصفحة"
+  },
+  "expandScrollableOn": {
+    "message": "توسيع مناطق التمرير"
+  },
+  "expandScrollableOnDesc": {
+    "message": "تمكين توسيع مناطق التمرير داخل صفحة الويب قبل أخذ لقطة شاشة"
+  },
+  "hideFixedOn": {
+    "message": "إخفاء عناصر الموضع الثابت"
+  },
+  "hideFixedOnDesc": {
+    "message": "تمكين إخفاء عناصر الموضع الثابت التي قد تعيق الالتقاط"
+  },
+  "preScrollOn": {
+    "message": "التمرير المسبق لتحميل صفحة الويب"
+  },
+  "preScrollOnDesc": {
+    "message": "تحميل العديد من عناصر الويب (مثل الصور) يتم فقط عند التمرير. عند التمكين، يتم اكتشاف تلقائي والتمرير إلى أسفل الصفحة قبل أخذ لقطة شاشة."
+  },
+  "canBeDisabled": {
+    "message": "يمكن تعطيله عبر صفحة الإعدادات"
+  },
+  "analyzingPageForHTML": {
+    "message": "تحليل رمز ومحتوى صفحة الويب، قد تستغرق الصفحات المعقدة وقتًا أطول. إذا استغرق الأمر وقتًا طويلاً، يرجى تحديث صفحة الويب والمحاولة مرة أخرى."
+  },
+  "drawerSettings": {
+    "message": "الإعدادات"
+  },
+  "drawerScreenshotHistory": {
+    "message": "سجل لقطات الشاشة"
+  },
+  "drawerImageTools": {
+    "message": "أدوات تحسين لقطات الشاشة"
+  },
+  "drawerHelpFeedback": {
+    "message": "الأسئلة المتداولة والملاحظات"
+  },
+  "drawerCloseMenu": {
+    "message": "إغلاق القائمة"
+  },
+  "logoTooltip": {
+    "message": "عرض المزيد"
+  },
+  "pRecorderTabLabel": {
+    "message": "مسجل الشاشة"
+  },
+  "pRecorderTitle": {
+    "message": "مسجل الشاشة"
+  },
+  "pStartRecorder": {
+    "message": "بدء تسجيل الشاشة"
+  },
+  "pStartRecorderLabel": {
+    "message": "تسجيل الشاشة"
+  },
+  "pRecorderAlt": {
+    "message": "المسجل"
+  },
+  "pStartRecorderAlt": {
+    "message": "مسجل الشاشة"
+  },
+  "pRecorderBetaNotice": {
+    "message": "هذا إصدار تجريبي"
+  },
+  "pRecorderFeedback": {
+    "message": "تقديم ملاحظات"
+  },
+  "downloadsPermission": {
+    "message": "السماح بتنزيل الملفات"
+  },
+  "downloadsPermissionDesc": {
+    "message": "هذا الإذن مطلوب لحفظ لقطات الشاشة مباشرة على جهاز الكمبيوتر الخاص بك."
+  },
+  "webNavigationPermission": {
+    "message": "السماح بالوصول إلى تنقل الويب"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "هذا الإذن مطلوب للكشف عن تغييرات الصفحة والتنقل إلى صفحات مختلفة عند الحاجة."
+  },
+  "desktopCapturePermission": {
+    "message": "السماح بالتقاط سطح المكتب"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "هذا الإذن مطلوب لالتقاط المحتوى من سطح المكتب أو النوافذ المحددة."
+  },
+  "tabsPermission": {
+    "message": "السماح بالوصول إلى علامات التبويب"
+  },
+  "tabsPermissionDesc": {
+    "message": "هذا الإذن مطلوب للوصول إلى معلومات علامات تبويب المتصفح وإدارتها."
+  },
+  "tabCapturePermission": {
+    "message": "السماح بالتقاط علامة التبويب"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "هذا الإذن مطلوب لالتقاط الصوت والفيديو من علامات تبويب المتصفح."
+  },
+  "allUrlsPermission": {
+    "message": "السماح بالوصول إلى جميع المواقع الإلكترونية"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "هذا الإذن مطلوب لالتقاط لقطات الشاشة من أي موقع إلكتروني."
+  },
+  "fileUrlsPermission": {
+    "message": "السماح بالوصول إلى الملفات المحلية"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "هذا الإذن مطلوب لالتقاط لقطات الشاشة من الملفات المحلية (عناوين URL للملف://)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "ما إذا كان سيتم تضمين الصور في التنزيل"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "هذه الميزة تتطلب CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "الترقية إلى النسخة الاحترافية"
+  },
+  "proSaveRestricted": {
+    "message": "يحتاج حفظ هذا المحتوى إلى CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "معاينة CocoShot"
+  },
+  "qv_preview_mode": {
+    "message": "وضع المعاينة"
+  },
+  "qv_screenshot_preview": {
+    "message": "معاينة لقطة الشاشة"
+  },
+  "qv_download": {
+    "message": "تحميل"
+  },
+  "qv_edit": {
+    "message": "تعليق، تحرير (يمكن التصدير إلى PDF أيضًا)"
+  },
+  "qv_hint": {
+    "message": "سيقوم المستخدمون ذوو الخبرة بتخطي هذه الصفحة تلقائيًا والانتقال إلى المحرر."
+  },
+  "recordTab": {
+    "message": "تسجيل",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "فيديوهاتي",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "الشاشة",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "علامة تبويب",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "الكاميرا فقط",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "نموذج",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "تم تعطيل تسجيل المنطقة المخصصة",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "قم بتحديث Chrome إلى 110 أو أحدث",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "تحديث",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "تحقق من أذونك",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "يبدو أن CocoShot لا يمكنه الوصول إلى الكاميرا أو الميكروفون الخاص بك. لحل هذه المشكلة، يرجى إلغاء حظرها في إعدادات المتصفح ومنح الأذونات اللازمة.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "تجاهل",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "السماح بالوصول إلى الكاميرا",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "السماح بالوصول إلى الميكروفون",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "اضغط للتحدث",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "تعيين منطقة التسجيل",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "قلب الكاميرا",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "تأثيرات الخلفية",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "بدء التسجيل",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "جاري بدء التسجيل...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "اختر كاميرا",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "المزيد من الخيارات",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "صوت النظام",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "إخفاء شريط الأدوات",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "العد التنازلي",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "تعيين حد زمني",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "تمويه الخلفية",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "لا شيء",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "لا توجد كاميرا",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "لا يوجد ميكروفون",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "اختر مصدراً",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "إيقاف",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "العرض",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "الارتفاع",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "انقر لوضع الصورة",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "إنهاء التسجيل",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "إعادة بدء التسجيل",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "إيقاف التسجيل مؤقتاً",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "استئناف التسجيل",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "إلغاء التسجيل",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "تبديل أدوات الرسم",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "تبديل أداة التمويه",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "تبديل خيارات المؤشر",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "تعطيل الكاميرا",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "تفعيل الكاميرا",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "لا توجد أذونات الكاميرا",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "إعدادات الكاميرا",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "مرآة الكاميرا",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "تمويه الخلفية",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "تعطيل الميكروفون",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "تفعيل الميكروفون",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "لا توجد أذونات الميكروفون",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "اختيار",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "قلم",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "علامة تمييز",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "ممحاة",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "نص",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "أداة الأشكال",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "سهم",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "صورة",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "تراجع",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "إعادة",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "مسح اللوحة",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "المزيد من الألوان",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "فرشاة سميكة",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "فرشاة متوسطة",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "فرشاة رفيعة",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "تبديل وضع الصورة في الصورة",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "تبديل التعبئة",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "وضع الرسم",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "وضع التمويه",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "مسح جميع العناصر المموهة",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "إبراز النقرات",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "إبراز المؤشر",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "تأثير كشاف على المؤشر",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "لا تظهر مجدداً",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "إعادة بدء التسجيل؟",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "سيتم فقدان تقدمك الحالي.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "إعادة بدء",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "استئناف",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "تجاهل التسجيل؟",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "سيتم فقدان تقدمك الحالي.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "تجاهل",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "استئناف",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "سيتم حفظ تسجيلك هنا",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "جاري التسجيل...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "احتفظ بهذه الصفحة مفتوحة. سيتم إغلاقها بمجرد حفظ تسجيلك.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "جاري تحضير التسجيل...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "احتفظ بهذه الصفحة مفتوحة. سيتم تحديثها عندما يكون تسجيلك جاهزاً.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "محرر",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "إلغاء",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "العودة إلى الأصلي",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "إعادة تعيين",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "حفظ التغييرات",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "جاري الحفظ...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "اسحب وأفلت ملف الصوت الخاص بك",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "أو انقر للتصفح",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "الإعدادات",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "الصوت",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "تحديث",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "قص",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "العرض",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "الارتفاع",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "يسار",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "أعلى",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "اسحب المقابض واستخدم الأزرار على اليسار لتحرير القسم المحدد.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "قص الفيديو",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "جاري القص...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "قص القسم",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "جاري القص...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "كتم الصوت",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "جاري كتم الصوت...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "اعرف المزيد.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "تراجع",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "إعادة",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "اترك تعليقاً، إنه يساعد!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "أنت حالياً غير متصل بالإنترنت",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "بعض الوظائف غير متوفرة حتى إعادة الاتصال",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "حاول مجدداً",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "يحتاج Chrome إلى تحديث",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "قم بالتحديث للوصول إلى المزيد من الميزات",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "اعرف المزيد",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "الفيديو طويل جداً للمعالجة على الجهاز",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "التحرير وتصدير MP4 غير متوفرين",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "جاري معالجة الفيديو محلياً...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "اعرف المزيد عن الإصدار السحابي الأسرع",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "تحرير",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "لا يوجد اتصال",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "غير متوفر",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "تحرير الفيديو",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "قص أو كتم صوت الفيديو",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "جاري تحضير الفيديو، يرجى الانتظار...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "قص",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "قص وتغيير حجم الفيديو",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "إضافة صوت",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "حمّل صوتك الخاص لإضافته إلى الفيديو",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "حفظ",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "تسجيل الخروج من Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "جاري الحفظ...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "حفظ في Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "حفظ النسخة الحالية في Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "سجّل الدخول واحفظ في Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "جاري التحميل...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "تحميل كـ .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "تصدير فيديو .webm",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "تحميل كـ .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "تصدير فيديو .mp4 (موصى به)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "تحميل كـ .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "تصدير GIF (بحد أقصى 30 ثانية)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "استبدال الصوت الموجود",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "تكبير إلى المؤشر",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "البقاء في الصفحة أثناء التسجيل",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "تحذير كتم الميكروفون",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "مساعدة",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "تم إيقاف التسجيل مؤقتاً. اضغط على زر التشغيل للاستئناف.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "ليس لدى CocoShot إذن لتسجيل شاشتك",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "لكي يعمل تسجيل الشاشة، ستحتاج إلى السماح لـ CocoShot بالتقاط شاشتك عند ظهور طلب الإذن.(يمكنك إلغاء ذلك في أي وقت في إعدادات الإضافة.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "تفعيل تسجيل الشاشة",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "إلغاء",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "ميكروفونك مكتوم",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "إذا كنت تريد تضمين صوتك في التسجيل، ستحتاج إلى تشغيل الميكروفون. هل تريد المتابعة مع التسجيل على أي حال، بدون صوت؟",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "نعم، تابع",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "إلغاء",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "استرِح. انقر في أي مكان لإيقاف العد التنازلي.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "قد تكون التعديلات غير دقيقة للفترات الزمنية القصيرة بسبب الفترات بين الإطارات.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "جاري معالجة الفيديو، قد يكون التشغيل غير دقيق أو متقطع.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "قد يستغرق القص بعض الوقت",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "قم بالترقية لمعالجة أسرع",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "تم تفعيل الميكروفون",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "تم تعطيل الميكروفون",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "كان التسجيل أقل من 3 ثوانٍ ولم يتم حفظه.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "إخفاء إشعارات الواجهة",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "لا تظهر مجدداً",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "إخفاء شريط الأدوات عند عدم الاستخدام",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "بدء التسجيل",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "إيقاف التسجيل",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "مرحباً بك في CocoShot الجديد!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "اعرف المزيد عن التحديث.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "ابدأ",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "خطأ في بدء التسجيل",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "حدث خطأ أثناء بدء عملية التسجيل. يرجى إعادة تشغيل المتصفح والمحاولة مرة أخرى. إذا استمرت المشكلة، تواصل معنا على support@cocoshot.net للحصول على مزيد من المساعدة.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "أعلى جودة",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "استعادة آخر تسجيل فيديو",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "تواجه مشاكل؟",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "لا يمكنك رؤية تسجيلك؟",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "إذا انتهيت من التسجيل ولكن لا ترى الفيديو الخاص بك على هذه الصفحة، يمكنك محاولة تحميل بيانات الفيديو الخام إذا كانت موجودة. بدلاً من ذلك، يمكنك الاتصال بنا عن طريق تقديم تقرير عن المشكلة.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "تحميل بيانات الفيديو الخام",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "الإبلاغ عن مشكلة",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "لم يتم العثور على تسجيل، نأسف :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "تم الوصول إلى حد الذاكرة",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "لا توجد ذاكرة كافية على جهازك للتسجيل، مما أدى إلى إنهاء الجلسة تلقائياً. لتسجيل فيديوهات أطول، فكر في تقليل جودة الفيديو أو تحرير مساحة التخزين على جهازك.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "فهمت",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "مساحة غير كافية",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "يحتاج CocoShot إلى 1GB على الأقل من المساحة الحرة للتسجيل. يرجى تحرير بعض المساحة وحاول مرة أخرى.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "مسح التسجيلات السابقة",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "متقدم",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "تحميل ملف الفيديو الخام",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "تصدير بيانات التسجيل الأصلية",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "احصل على مساعدة في تسجيلك",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "استعد الفيديو الخاص بك وحل المشكلات الأخرى",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "تحميل ملف الفيديو الخام",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "يشير ملف الفيديو الخام إلى التسجيل غير المعدل الذي أنشأه CocoShot مباشرة. نظراً لأن هذا الملف لم تتم معالجته أو تعديله، قد يكون كبيراً جداً وغير متوافق مع بعض الأجهزة. إذا واجهت مشاكل مع النسخة المعالجة، يمكنك استخدام هذا الملف لاستعادة تسجيلك الأصلي.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "تحميل",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "إظهار شكل موجة الصوت",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "تحميل معلومات النظام وبيانات الفيديو وإرسالها لاستكشاف الأخطاء",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "بمجرد تحميل الملف، يرجى إرساله إلى support@cocoshot.net مع أي تفاصيل إضافية قد تكون مفيدة. سنستخدم هذه المعلومات لمساعدتك في حل أي مشاكل مع الإضافة وإذا كان ذلك ممكناً، استعادة الفيديو الخاص بك.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "تحميل",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "الفيديو طويل جداً للمعالجة على جهازك",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "نظراً لأن CocoShot يعطي الأولوية للخصوصية ويعمل بالكامل على جهازك المحلي، فهو مقيد بقدراتك硬件. معالجة فيديو بهذه المدة ستستغرق وقتاً طويلاً وتتطلب موارد نظام كبيرة. لا يزال يمكنك الحصول على ملف WEBM أو التسجيل الخام، لكن ميزات التحرير وتصدير MP4 لن تكون متاحة. ومع ذلك، إذا كنت على دراية بالتحديات المحتملة، يمكنك المضي قدماً في معالجة الفيديو على أي حال.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "أفهم المخاطر، جرب على أي حال",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "اعرف المزيد عن معالجة الفيديوهات الطويلة.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "وضع الاستعادة",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "تحميل بيانات لاستكشاف الأخطاء",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "مركز المساعدة",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "تسجيل صوت الحاسوب",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "لتسجيل الصوت من هذه الصفحة، تحتاج إلى التبديل إلى '$tab$'.",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "منطقة علامة التبويب"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "الإضافة غير مدعومة على علامة التبويب",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot غير متوافق مع علامة التبويب التي كنت تستخدمها للتو. لا يزال يمكنك بدء التسجيل من هذه الصفحة ثم العودة إلى علامة التبويب تلك، لكن يرجى ملاحظة أن موجز الكاميرا وشريط أدوات التحرير لن يتم عرضهما.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "إعداد نسخة احتياطية محلية لتسجيلات CocoShot",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "حافظ على نسخ من كل تسجيل تنشئه. بدون إعداد النسخ الاحتياطية، سيتم تخزين تسجيلاتك فقط عندما تختار تحميلها صراحة.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "إذا كنت تحاول حفظ التسجيلات في التنزيلات أو أدلة نظام أخرى، قد تحتاج إلى إنشاء مجلد جديد مسبقاً.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "اختر مجلداً",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "ليس الآن",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": "يتم نسخ تسجيلاتك احتياطياً محلياً",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "لتجنب سؤالك عن الأذونات في كل مرة تسجل فيها، نوصي بترك هذه الصفحة مفتوحة.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "إغلاق الصفحة على أي حال",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "إيقاف نسخ جميع التسجيلات احتياطياً",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "يرجى إعادة تأكيد الوصول إلى مجلد النسخ الاحتياطي المحلي لـ CocoShot",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "نعتذر،，但我们需要再次获取您的许可才能继续备份您的录制。遗憾的是，每次关闭此选项卡时我们都需要请求此权限，这可能发生在您关闭浏览器或重新启动计算机时。",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "السماح لـ CocoShot بمواصلة نسخ التسجيلات احتياطياً",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "نسخ التسجيلات احتياطياً",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "لم يتم منح الإذن لنسخ التسجيل احتياطياً",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "لم تختر مجلداً لتخزين نسخ التسجيل الاحتياطية. قد يُطلب منك اختيار هذا المجلد في كل مرة تبدأ فيها تسجيلاً، اعتماداً على إصدار المتصفح أو نظام التشغيل. يمكنك محاولة عملية الإعداد مرة أخرى، أو إيقاف النسخ الاحتياطي تماماً إذا كنت لا تريد منح الأذونات بشكل متكرر.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "تسجيل صوت الحاسوب",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "على أنظمة macOS، أنت محدود بتسجيل الصوت من علامات تبويب فردية. اختر خيار تسجيل علامة تبويب Chrome وتحقق من تشغيل إعداد 'مشاركة صوت علامة التبويب أيضاً'.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "تسجيل صوت الحاسوب",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "إذا كنت تريد التقاط صوت حاسوبك، تأكد من تنشيط خيار 'مشاركة صوت النظام'. إذا لم يكن هذا الخيار مرئياً، فكر في تحديث Chrome أو التبديل إلى وضع تسجيل علامة التبويب.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "أعلى دقة",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "أعلى معدل إطار",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "ذاكرة عشوائية غير كافية",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "تغيير حجم النافذة",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "الشاشة صغيرة جداً لهذه الدقة",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "لا يمكن التسجيل بهذه الدقة على جهازك",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "تم رفض الإذن",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "يلزم وجود أذونات الكاميرا والميكروفون للتسجيل. يرجى منح الأذونات في إعدادات المتصفح.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "يلزم وجود إذن الكاميرا للتسجيل. يرجى منح الإذن في إعدادات المتصفح.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "يلزم وجود إذن الميكروفون للتسجيل. يرجى منح الإذن في إعدادات المتصفح.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "إصلاح الأذونات",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "إعدادات تسجيل الشاشة",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "س",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "د",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "ث",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "جاري طلب إذن الكاميرا...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "جاري طلب إذن الميكروفون...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "طلب إذن الكاميرا",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "طلب إذن الميكروفون",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "مراجعة الأذونات",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "تخصيص الخيارات",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "فيديوهات مسجلة",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "لا توجد فيديوهات مسجلة بعد",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "اضغط لكتم الصوت",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "نحتاج إلى إذنك للوصول إلى كاميرتك",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "نحتاج إلى إذنك للوصول إلى ميكروفونك",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "مراجعة",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "اختيار الألوان",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "إغلاق",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "اختر اللون من الشاشة",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "متصفحك لا يدعم EyeDropper API. يرجى استخدام متصفح حديث مثل Chrome 95+ أو Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "اختيار منطقة التمويه",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "حذف جميع مناطق التمويه",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "عرض الخط",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "رفيع",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "متوسط",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "سميك",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "سميك جداً",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "تسجيلات CocoShot",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "فشل في إعداد النسخ الاحتياطي المحلي. تواصل معنا على $supportEmail$ لمزيد من المساعدة. لا يزال يمكنك تسجيل شاشتك.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "متصفحك لا يدعم النسخ الاحتياطي المحلي. تواصل معنا على $supportEmail$ لمزيد من المساعدة. لا يزال يمكنك تسجيل شاشتك.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "كيفية استخدام التكبير إلى المؤشر",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "أثناء التسجيل، اضغط على اختصار لوحة المفاتيح للتكبير نحو موقع المؤشر. حرر المفاتيح للعودة إلى التكبير العادي. هذا مثالي لإبراز مناطق معينة من الشاشة أثناء التسجيل.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "فهمت!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "حجم المنطقة",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "إعدادات مسبقة",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "إعادة تعيين",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "لا شيء",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "تمويه",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "عمق المجال",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "صورة",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "يرجى تحميل ملف الفيديو أولاً",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "تحميل كـ WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "تحميل كـ MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "جاري التحويل...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "جاري معالجة الأجزاء:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "حجم الفيديو يتجاوز الحد الموصى به (بحد أقصى {maxSize}GB)، مما قد يسبب فشل المعالجة",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "أنت تقوم بتحميل فيديو كبير ({sizeGB}GB). قد تستغرق المعالجة وقتاً طويلاً. هل تريد المتابعة؟",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "تنسيق فيديو غير مدعوم. يرجى尝试 استخدام تنسيق فيديو مختلف。",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "فشل التحميل。يرجى المحاولة مرة أخرى。",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "تحويل MP4 غير متاح",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "هذا الفيديو كبير جداً ليتم تحويله إلى MP4 في المتصفح。يرجى تحميله كـ WebM بدلاً من ذلك。",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "جاري التحويل إلى MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "فشل تحميل الفيديو。يرجى المحاولة مرة أخرى。",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "تحرير الفيديو",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "قريباً。",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "معاينة الفيديو",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "موافق",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "جاري الكتابة إلى التخزين...",
+    "description": "Message shown when writing video to storage"
+  }
+}

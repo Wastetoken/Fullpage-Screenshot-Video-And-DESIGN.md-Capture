@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: ቅጽበታዊ ገጽ እይታ እና ማያ መቅጃ"
+  },
+  "extDescription": {
+    "message": "ሙሉ ገጽ ቅጽበታዊ ገጽ እይታዎችን ያንሱ እና ማያ ገጹን በMP4 ወደ ማብራሪያዎች ይቅረጹ። ጠቅ ሊደረጉ የሚችሉ አገናኞች ያለው የፒዲኤፍ መላክ ተካትቷል።"
+  },
+  "pDisable": {
+    "message": "በዚህ ገጽ ላይ ተሰናክሏል"
+  },
+  "pDisableDesc": {
+    "message": "ይህን በማንኛውም ድህረ ገጽ ላይ ሊጫኑት ይችላሉ፣ ብራውዘሩ የሚስማሙ ስክሪፕቶችን በሚገድቡት ድህረ ገጾች ላይ በስተቀር። ይህ የሚስማሙ ድህረ ገጾችን፣ የብራውዘር ማዘጋጃ ገጾችን እና ሌሎች የሚስማሙ ገጾችን ያካትታል።"
+  },
+  "pDisableExp": {
+    "message": "ይህ ገደብ የሚመጣው ከብራውዘሩ ነው፣ የደህንነት አደጋዎች ምክንያት።"
+  },
+  "pDisableTry": {
+    "message": "አዲስ ገጽ ሊክገቡ እና የሚያዝዙትን ተግባር ሊሞከሩ ይችላሉ።"
+  },
+  "pStart": {
+    "message": "ጀምር"
+  },
+  "pFileUrl": {
+    "message": "\"edge://extensions/\" ይሂዱ እና \"የፋይል URL ን እንዲያገኙ ይፍቀዱ\" ሳጥኑን ያረጋግጡ።"
+  },
+  "pCaptV": {
+    "message": "የገጹን የሚታዩ ክፍሎች ስክሪንሾት ያዙ።"
+  },
+  "pAsOne": {
+    "message": "እንደ አንድ HTML ፋይል ያስቀምጡ።"
+  },
+  "pDesktop": {
+    "message": "የተሰጠውን ድህረ ገጽ፣ ትርፍ፣ መስኮት ወይም ሙሉ ስክሪን ስክሪንሾት ያዙ።"
+  },
+  "pCaptFull": {
+    "message": "ሙሉውን ገጽ ስክሪንሾት ያዙ።"
+  },
+  "pDesableOpt": {
+    "message": "ወይም ሊሞከሩ ይችላሉ፡"
+  },
+  "pAreaCut": {
+    "message": "ስክሪንሾት ለማውሳት የገጹን ክፍል ይምረጡ።"
+  },
+  "fullpageTooLarge": {
+    "message": "ማስታወሻ፡ ብራውዘሩ ሙሉ ገጹን እንደ አንድ ምስል ማዝዣ አይችልም በመጠኑ ምክንያት። በሚቀጥለው ወደ <strong>$1</strong> በተለያዩ ምስሎች ይከፋፈላል።"
+  },
+  "fullpageTooLargeExtra": {
+    "message": "ማስጠንቀቂያ፡ ይህ ኤክስቴንሽን በጣም ትልቅ ይዘት ለማዝዣ አልተዘጋጀም። የዚህን ገጽ ማዝዣ በተሳካ ሁኔታ ማጠናቀቅ አይችልም።"
+  },
+  "preparingSsViewer": {
+    "message": "Please wait, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please wait, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "ተጨማሪ ፍቃድ ያስፈልጋል"
+  },
+  "framePermDesc": {
+    "message": "ይህ ጣቢያ ይዘቱን በተያያዥ iframe እንዲታይ ያቀርባል፣ እና ይህንን ለመድረስ ተጨማሪ ፍቃድ ያስፈልጋል።"
+  },
+  "WhatisIframe": {
+    "message": "iframe ምን እንደሆነ ለማወቅ ጠቅ ያድርጉ።"
+  },
+  "framePermMore": {
+    "message": "ይህንን ንግግር ከተጠቀሙ በኋላ ተለቂ እንዲሰራ እንደሚያስፈልግ ይሆናል። መሰረዝ የሚታየውን ስክሪን ብቻ ያነጻል።"
+  },
+  "framePermConfirm": {
+    "message": "ፍቀድ"
+  },
+  "framePermSave": {
+    "message": "ይህን ፍቃድ ለኋላ መጠቀም ያቆዩ (በማንኛውም ጊዜ ማሰረዝ ይቻላል)"
+  },
+  "error": {
+    "message": "ስህተት"
+  },
+  "captureError": {
+    "message": "ማንኛት አልተሳካም፣ እባክዎ እንደገና ይሞክሩ። ችግሩ ቀጥሎ ከቆየ፣ እባክዎን ለማሳወቅ $1 ያግኙ።"
+  },
+  "btnOk": {
+    "message": "እሺ"
+  },
+  "btnCancel": {
+    "message": "ሰርዝ"
+  },
+  "saveFramePermission": {
+    "message": "ከሁሉም ፍሬሞች ይዘት ማንኛትን ፍቀድ"
+  },
+  "permissions": {
+    "message": "ፍቃዶች"
+  },
+  "saveframepDesc": {
+    "message": "ይህ ፍቃድ በገፁ ላይ ያሉ አይፍሬሞች ወይም frameset ውስጥ ያሉ ይዘቶችን ለማንኛት ያስፈልጋል። ማሰረዝ አንዳንድ የድህረገፅ ንዑሶችን ማንኛትን እንዳይቻል ሊያደርግ ይችላል።"
+  },
+  "processingScreenshot": {
+    "message": "ምስል መቀየር በሂደት ላይ..."
+  },
+  "screenshotSaved": {
+    "message": "ምስል ወደ Downloads ፎልደር ተቀመጠ"
+  },
+  "screenshotLoadFailed": {
+    "message": "ምስል መጫን አልተቻለም። እባክዎ ደግመው ይሞክሩ።"
+  },
+  "getScreenshotFailed": {
+    "message": "ስክሪንሾት መነሳት አልተቻለም። እባክዎ ደግመው ይሞክሩ።"
+  },
+  "processingAllAreas": {
+    "message": "የሁሉንም አካባቢዎች ምስል በሂደት ላይ..."
+  },
+  "allAreasSaved": {
+    "message": "$1 አካባቢዎች ምስሎች በተሳካ ሁኔታ ተቀመጡ"
+  },
+  "areaNotVisible": {
+    "message": "የተመረጠው አካባቢ በሙሉ ከታይ ቦታ ውጭ ነው፤ መነሳት አይቻልም።"
+  },
+  "partiallyVisible": {
+    "message": "አካባቢው በከፊል ከታይ ቦታ ውጭ ነው። የታየው ክፍል ተነሳ።"
+  },
+  "partiallyVisibleArea": {
+    "message": "የተመረጠው አካባቢ በከፊል ከታይ ቦታ ውጭ ነው። የታየው ክፍል ተነሳ።"
+  },
+  "areaOutOfView": {
+    "message": "የተመረጠው አካባቢ ከታይ ቦታ ውጭ ነው። እባክዎ አካባቢው ታይ ዘንድ ገፁን ያንቀሳቅሱ እና ደግመው ይሞክሩ።"
+  },
+  "processingError": {
+    "message": "የምስል ሂደት ላይ ስህተት: $1"
+  },
+  "saveFailed": {
+    "message": "ምስል ማስቀመጥ አልተቻለም: $1"
+  },
+  "smartModeEnabled": {
+    "message": "አእምሮ ያለው የስክሪንሾት ሁነታ ተነሳ። ለመነሳት አንድ ንጥል ይምረጡ (Enter ለማረጋገጥ፣ Esc ለመሰረዝ)።"
+  },
+  "processing": {
+    "message": "ቅጂ በሂደት ላይ..."
+  },
+  "copyFailed": {
+    "message": "ቅጂ አልተሳካም: $1"
+  },
+  "canvasContextError": {
+    "message": "ቅጂ አልተሳካም፡ የCanvas አካባቢ መያዝ አልተቻለም።"
+  },
+  "copied": {
+    "message": "ወደ ቅጂ ሰሌዳ ተቀድቷል"
+  },
+  "clipboardAccessDenied": {
+    "message": "ቅጂ አልተሳካም፡ የቅጂ ሰሌዳ መዳረሻ ተከልክሏል፣ $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "ቅጂ አልተሳካም፡ Clipboard API አይደግፍም"
+  },
+  "imageDataCreateFailed": {
+    "message": "ቅጂ አልተሳካም፡ የምስል ውሂብ መፍጠር አልተቻለም"
+  },
+  "copyAreaOutOfView": {
+    "message": "ቅጂ አልተሳካም፡ የተመረጠው አካባቢ ከታይ ቦታ ውጭ ነው"
+  },
+  "imagePreviewShown": {
+    "message": "የምስል ቅድመ እይታ ታይቷል። ቅጂ ለማድረግ ቀኝ ጠቅ ያድርጉ።"
+  },
+  "escape": {
+    "message": "ይቅር (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "የምስል ጥራት ተዘጋጅቷል፡ $1"
+  },
+  "qrDecoding": {
+    "message": "QR ኮድ በማብቃት ላይ..."
+  },
+  "qrSuccess": {
+    "message": "QR ኮድ በተሳካ ሁኔታ ተተረጎመ። ወደ ቅጂ ሰሌዳ ተቀድቷል።"
+  },
+  "qrNoQRFound": {
+    "message": "ትክክለኛ QR ኮድ አልተገኘም"
+  },
+  "qrError": {
+    "message": "QR ኮድ መተርጎም አልተሳካም፡ $1"
+  },
+  "saveArea": {
+    "message": "ይህን አካባቢ አስቀምጥ"
+  },
+  "copyToClipboard": {
+    "message": "ይህን ምርጫ ቅጂ አድርግ (በአሁኑ ጊዜ የተመረጠ)"
+  },
+  "saveAllAreas": {
+    "message": "ሁሉንም አካባቢዎች አስቀምጥ"
+  },
+  "keepAndContinue": {
+    "message": "አዲስ ምርጫ አክል"
+  },
+  "cancel": {
+    "message": "ይቅር"
+  },
+  "lockSize": {
+    "message": "መጠኑን ያዝ"
+  },
+  "lockSizeActive": {
+    "message": "✓ መጠኑ ተያዝ"
+  },
+  "freeRatio": {
+    "message": "ነፃ መጠን"
+  },
+  "ratioLabel": {
+    "message": "ዝመና ይምረጡ"
+  },
+  "aiDialog": {
+    "message": "አእምሮ ያለው ውይይት"
+  },
+  "fileSizeEstimate": {
+    "message": "በግምት $1 $2"
+  },
+  "qrDecode": {
+    "message": "QR ኮድ አስተርጓሚ"
+  },
+  "removeBackground": {
+    "message": "መደበኛ መውጫ ያስወግዱ"
+  },
+  "processingBackgroundRemoval": {
+    "message": "መደበኛ መውጫ በማስወገድ ላይ..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "መደበኛ መውጫ አልተሳካም፡ የምስል ጫና ስህተት"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "መደበኛ መውጫ አልተሳካም፡ $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "መደበኛ መውጫ ተወግዷል እና ቅጂ ተደርጓል"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "መደበኛ መውጫ አልተሳካም፡ Blob መፍጠር አልተቻለም"
+  },
+  "selectedAreaOutOfView": {
+    "message": "የተመረጠው አካባቢ ከታይ ቦታ ውጭ ነው"
+  },
+  "screenshotFailed": {
+    "message": "ስክሪንሾት አልተሳካም፡ $1"
+  },
+  "imageProcessingFailed": {
+    "message": "የምስል ሂደት አልተሳካም፣ እባክዎ ደግመው ይሞክሩ"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "የስክሪንሾት አካባቢ ከታይ ቦታ ውጭ ነው"
+  },
+  "errorProcessingImage": {
+    "message": "የምስል ሂደት ላይ ስህተት: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "የQR ኮድ መተርጓሚ ቤተ መዝገብ አልተጫነም"
+  },
+  "qrDecodingFailed": {
+    "message": "QR ኮድ መተርጓም አልተሳካም: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "በተመረጠው አካባቢ ውስጥ QR ኮድ አልተገኘም"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR ኮድ በተሳካ ሁኔታ ተተረጎመ: $1"
+  },
+  "qrDecodingError": {
+    "message": "QR ኮድ መተርጓም ላይ ስህተት: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "መደበኛ መውጫ አልተሳካም፡ $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "እባክዎ መጀመሪያ የስክሪንሾት አካባቢ ይምረጡ"
+  },
+  "aiDialogTitle": {
+    "message": "ስለ ምስል ይዘት አእምሮ ያለው ውይይት ያድርጉ"
+  },
+  "qrDecodeTitle": {
+    "message": "በምስል ውስጥ ያለውን QR ኮድ ያስተርጓሙ"
+  },
+  "lockSizeTitle": {
+    "message": "ለቀጣዩ እንዲቀጥል መጠኑን ያዝ"
+  },
+  "moveHint": {
+    "message": "ምርጫ አካባቢ ይጎታ (Space + መጎተት)"
+  },
+  "saveAreaTooltip": {
+    "message": "የአሁኑን አካባቢ አስቀምጥ"
+  },
+  "saveAllAreasTooltip": {
+    "message": "ሁሉንም የተመረጡ አካባቢዎች አስቀምጥ"
+  },
+  "copyToClipboardTooltip": {
+    "message": "ስክሪንሾት ወደ ቅጂ ሰሌዳ ቅጂ አድርግ"
+  },
+  "moreOptions": {
+    "message": "ተጨማሪ አማራጮች"
+  },
+  "removeBgTooltip": {
+    "message": "መደበኛ መውጫ ያስወግዱ እና ወደ ቅጂ ሰሌዳ ቅጂ አድርጉ"
+  },
+  "ratioLabelTooltip": {
+    "message": "የመለኪያ ቁጥር ይምረጡ"
+  },
+  "keepAndContinueTooltip": {
+    "message": "የአሁኑን ምርጫ ያቆዩ እና ቀጥሉ"
+  },
+  "pCaptureTabLabel": {
+    "message": "ቅጽበታዊ ገጽ እይታ"
+  },
+  "pAiToolsTabLabel": {
+    "message": "AI መሣሪያዎች"
+  },
+  "pCaptureTitle": {
+    "message": "ሙሉ ገጽ እና የተመረጠ የማያ ገጽ አካባቢ ቅጽበታዊ ገጽ እይታ"
+  },
+  "pAiToolsTitle": {
+    "message": "ከAI ጋር የተያያዙ መሣሪያዎች"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "የድር ይዘት መላኪያ መሣሪያዎች"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "የምስል መሣሪያዎች"
+  },
+  "pDownloadAsMD": {
+    "message": "እንደ Markdown ያውርዱ"
+  },
+  "pDownloadAsPDF": {
+    "message": "እንደ PDF ያውርዱ"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "የአሁኑን ድረ-ገጽ እንደ Markdown ፋይል ያውርዱ"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "የአሁኑን ድረ-ገጽ እንደ PDF ፋይል ያውርዱ"
+  },
+  "pImageProcessing": {
+    "message": "የምስል ማቀናበሪያ"
+  },
+  "pImageProcessingTooltip": {
+    "message": "ለምስል ማቀናበሪያ የመሣሪያዎች ስብስብ"
+  },
+  "fixThePage": {
+    "message": "ገጹን አስተካክል"
+  },
+  "expandScrollableOn": {
+    "message": "ሊሸበለሉ የሚችሉ ቦታዎችን ዘርጋ"
+  },
+  "expandScrollableOnDesc": {
+    "message": "ቅጽበታዊ ገጽ እይታ ከማንሳትዎ በፊት በድረ-ገጹ ውስጥ ያሉትን ሊሸበለሉ የሚችሉ ቦታዎችን ለማስፋት ያንቁ"
+  },
+  "hideFixedOn": {
+    "message": "ቋሚ የአቀማመጥ አባሎችን ደብቅ"
+  },
+  "hideFixedOnDesc": {
+    "message": "ቅጽበታዊ ገጽ እይታን ሊያደናቅፉ የሚችሉ ቋሚ የአቀማመጥ አባሎችን ለመደበቅ ያንቁ"
+  },
+  "preScrollOn": {
+    "message": "ድረ-ገጹን አስቀድመው በማሸብለል ይጫኑ"
+  },
+  "preScrollOnDesc": {
+    "message": "ብዙ የድር አባሎች (ለምሳሌ ምስሎች) የሚጫኑት በማሸብለል ብቻ ነው። ሲነቃ ቅጽበታዊ ገጽ እይታ ከማንሳትዎ በፊት በራስ-ሰር ፈልጎ አግኝቶ ወደ ገጹ ግርጌ ያሸበልላል።"
+  },
+  "canBeDisabled": {
+    "message": "በቅንብሮች ገጽ በኩል ሊሰናከል ይችላል"
+  },
+  "analyzingPageForHTML": {
+    "message": "የድረ-ገጽ ኮድ እና ይዘትን በመተንተን ላይ፣ ውስብስብ ገጾች ረዘም ያለ ጊዜ ሊወስዱ ይችላሉ። በጣም ረጅም ጊዜ ከወሰደ፣ እባክዎ ድረ-ገጹን ያድሱ እና እንደገና ይሞክሩ።"
+  },
+  "drawerSettings": {
+    "message": "ቅንብሮች"
+  },
+  "drawerScreenshotHistory": {
+    "message": "የቅጽበታዊ ገጽ እይታ ታሪክ"
+  },
+  "drawerImageTools": {
+    "message": "የቅጽበታዊ ገጽ እይታ ማሻሻያ መሣሪያዎች"
+  },
+  "drawerHelpFeedback": {
+    "message": "ተደጋጋሚ ጥያቄዎች እና አስተያየት"
+  },
+  "drawerCloseMenu": {
+    "message": "ይህን ምናሌ ዝጋ"
+  },
+  "logoTooltip": {
+    "message": "ተጨማሪ ይመልከቱ"
+  },
+  "pRecorderTabLabel": {
+    "message": "የማያ መሳሽ"
+  },
+  "pRecorderTitle": {
+    "message": "የማያ መሳሽ"
+  },
+  "pStartRecorder": {
+    "message": "የማያ መሳሽ ማስቀመጥ ጀምር"
+  },
+  "pStartRecorderLabel": {
+    "message": "የማያ መሳሽ"
+  },
+  "pRecorderAlt": {
+    "message": "መሳሽ"
+  },
+  "pStartRecorderAlt": {
+    "message": "የማያ መሳሽ"
+  },
+  "pRecorderBetaNotice": {
+    "message": "ይህ የሙከራ ስሪት ነው"
+  },
+  "pRecorderFeedback": {
+    "message": "ግብረ መልስ ያቀርቡ"
+  },
+  "downloadsPermission": {
+    "message": "የፋይል ማውረድን ፈቅድ ያስችሉ"
+  },
+  "downloadsPermissionDesc": {
+    "message": "ቀኑን በቀኑ ወደ ኮምፒዩተሩ ላይ ማያ ፎቶዎችን ለማስቀመጥ ይህ ፈቃድ ያስፈልገዋል።"
+  },
+  "webNavigationPermission": {
+    "message": "የድር አሰሳ መዳረሻን ፈቅድ ያስችሉ"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "ገፅ ለውጦችን ለመፈለግ እና አስፈላጊነት ሲኖር ወደ የተለያዩ ገጾች ለመሄድ ይህ ፈቃድ ያስፈልገዋል።"
+  },
+  "desktopCapturePermission": {
+    "message": "የዴስክቶፕ መያዣን ፈቅድ ያስችሉ"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "ከዴስክቶፕዎ ወይም ከተወሰኑ መስኮች የይዘት መያዝ ለመቻል ይህ ፈቃድ ያስፈልገዋል።"
+  },
+  "tabsPermission": {
+    "message": "የትብ መዳረሻን ፈቅድ ያስችሉ"
+  },
+  "tabsPermissionDesc": {
+    "message": "የአሳሽ ትብ መረጃ ለመዳረስ እና ለማስተዳደር ይህ ፈቃድ ያስፈልገዋል።"
+  },
+  "tabCapturePermission": {
+    "message": "የትብ መያዣን ፈቅድ ያስችሉ"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "ከአሳሽ ትቦች የድምጽ እና ቪዲዮ ለመያዝ ይህ ፈቃድ ያስፈልገዋል።"
+  },
+  "allUrlsPermission": {
+    "message": "ለሁሉም ድረ-ገጾች መዳረሻን ፈቅድ ያስችሉ"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "ከማንኛውም ድረ-ገጽ ማያ ፎቶዎችን ለመያዝ ይህ ፈቃድ ያስፈልገዋል።"
+  },
+  "fileUrlsPermission": {
+    "message": "ለአካል ፋይሎች መዳረሻን ፈቅድ ያስችሉ"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "ከአካል ፋይሎች (file:// URL) ማያ ፎቶዎችን ለመያዝ ይህ ፈቃድ ያስፈልገዋል።"
+  },
+  "pIncludeImagesTooltip": {
+    "message": "ፎቶዎች በማውረድ ውስጥ መካተት አለባቸው"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "ይህ ባህሪ ለመተግበር CocoShot Pro ያስፈልገዋል"
+  },
+  "proUpgradeButton": {
+    "message": "ወደ ፕሮ ደረጃ ያሻሽሉ"
+  },
+  "proSaveRestricted": {
+    "message": "ይህንን ይዘት ለማስቀመጥ CocoShot Pro ያስፈልገዋል"
+  },
+  "qv_title": {
+    "message": "CocoShot ቅድመ-እይታ"
+  },
+  "qv_preview_mode": {
+    "message": "የቅድመ-እይታ ሁነታ"
+  },
+  "qv_screenshot_preview": {
+    "message": "ቅጽበታዊ ገጽ እይታ ቅድመ-እይታ"
+  },
+  "qv_download": {
+    "message": "አውርድ"
+  },
+  "qv_edit": {
+    "message": "ማብራሪያ፣ አርትዕ (ወደ ፒዲኤፍ መላክም ይቻላል)"
+  },
+  "qv_hint": {
+    "message": "ልምድ ያላቸው ተጠቃሚዎች ይህን ገጽ በራስ-ሰር ዘልለው ወደ አርታኢው ይሄዳሉ።"
+  },
+  "recordTab": {
+    "message": "መቅዳት",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "ተቀላቀለው ቪዲዮዎች",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "ማያ ገጽ",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "ትር",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "ብቻውን ካሜራ",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "ማክአፕ",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "ብጁ ቦታ መቅዳት ተሰናክሏል",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "ክሮም ለማሻሻል ወደ 110+ ያሻልጉ",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "አሻሽል",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "ፈቃዶችዎን ያረጋግጡ",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "ኮኮሾት ካሜራዎን ወይም ማይክሮፎን ለመድረስ አልቻለም። ይህን ችግር ለመፍታት፣ በባለስልጣን መቀመጫ ውስጥ አጥፍተው አስተካክለው እና የሚያስፈልጉትን ፈቃዶች ስጡ።",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "ተንጋግጥ",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "የካሜራ መድረስ ፍቀር",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "የማይክሮፎን መድረስ ፍቀር",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "ጠብቅ አጥብ",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "የመቅዳት ቦታ አውጥ",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "ካሜራ አሽከር",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "መነሻ ተጽዕኖዎች",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "መቅዳት ጀምር",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "መቅዳት ይጀምራል...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "ካሜራ ይምረጡ",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "ተጨማሪ አማራጮች",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "ስርጭት ድምጽ",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "ቀረጻ አሰናብት",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "ቆጣሪ",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "የጊዜ ገደብ አውጥ",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "ያልተለመደ",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "ምንም",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "ካሜራ የለም",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "ማይክሮፎን የለም",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "ምንጭ ይምረጡ",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "አጥፋ",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "ስፋት",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "ከፍታ",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "ምስል ለመቀመጥ ጠይቅ",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "መቅዳት ጨርስ",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "መቅዳት እንደገና ጀምር",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "መቅዳት ለማቆም",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "መቅዳት ቀጥል",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "መቅዳት ያጥፋል",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "የስደት መሣሪያዎችን ቀያር",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "የያልተለመደ መሣሪያን ቀያር",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "የኙፉት አማራጮችን ቀያር",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "ካሜራ በልቅ",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "ካሜራ አንቃ",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "የካሜራ ፈቃድ የለም",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "የካሜራ ቅንብሮች",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "ካሜራ አሥር አድርግ",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "መነሻ ያልተለመደ",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "ማይክሮፎን በልቅ",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "ማይክሮፎን አንቃ",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "የማይክሮፎን ፈቃድ የለም",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "መሣሪያ ምረጥ",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "ብስል መሣሪያ",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "ባለነጭ መሣሪያ",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "መሰረዝ መሣሪያ",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "ጽሁፍ መሣሪያ",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "ቅርጽ መሣሪያ",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "ቀድሞ መሣሪያ",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "ምስል መሣሪያ",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "ወሰድህ",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "ዳግም አድርግ",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "� canv as አጽዋቅ",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "ተጨማሪ ቀለሞች",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "ጥቂት መስመር",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "መካከለኛ መስመር",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "ቀጭን መስመር",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "በምስል ውስጥ ምስል ሁኔታ ቀያር",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "ሙልን ቀያር",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "የስደት ሁኔታ",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "ያልተለመደ ሁኔታ",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "ሁሉንም ያልተለመድ ንጥሎች አጽዋቅ",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "ጠቅታዎችን አጭር አድርግ",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "ኙፉትን አጭር አድርግ",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "ኙፉት ፍርግርግ",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "ዳግም አታሳይም",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "መቅዳት እንደገና ጀምር?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "የአሁኑዎ ሂደት ይጠፋል።",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "እንደገና ጀምር",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "ቀጥል",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "መቅዳት ያጥፋል?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "የአሁኑዎ ሂደት ይጠፋል።",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "ያጥፋል",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "ቀጥል",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "መቅዳትዎ እዚህ ይቀመጣል",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "ቀርጻለል...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "ይህን ትር ክፍት ያድርጉ። መቅዳትዎ ሲቀመጥ ይዘጋል።",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "መቅዳት ተዘጋጀ...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "ይህን ትር ክፍት ያድርጉ። መቅዳትዎ ሲዘጋጅ ያሻሽላል።",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "አርታዒ",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "ያጥፋል",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "ወደ ምንጩ ለውጥ",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "ዳግም አስቀምጥ",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "ለውጦችን አስቀምጥ",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "በማስቀመጥ ላይ...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "የድምጽ ፋይልዎን ቅጥል አውርድ",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "ወይም ለማሰስ ጠይቅ",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "ቅንብሮች",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "ድምጽ",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "አሻሽል",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "ቁርጥ",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "ስፋት",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "ከፍታ",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "ቀኝ",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "ከላይ",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "ማዕዘኖቹን ጎትጉና በቀኝ ያሉትን ቁልፎች ተጠቅመው የተመረጠውን ክፍል ያርትዑ።",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "ቪዲዮ ቁርጥ",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "ቁርጥለል...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "ክፍል ቁረጥ",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "ቆርጠል...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "ድምጽ ሰርዝ",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "ድምጽ በልቋል...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "ተጨማሪ ይማሩ።",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "ወሰድህ",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "ዳግም አድርግ",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "ግምገማ ያስቀምጡ፣ ይረዳል!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "አሁን ከመስመር ውጪ ነዎት",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "አንዳንድ ባሕርዮች እስከትኖስ ድረስ አይገኙም",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "ዳግም ይሞክሩ",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "ክሮም ሊታደስ ይገባል",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "ተጨማሪ ባሕርዮችን ለመድረስ ያሻሽሉ።",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "ተጨማሪ ይማሩ",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "ቪዲዮ ለመስራት በመሣሪያ ውስጥ በጣም ረዥም ነው",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "ማረም እና MP4 መላክ አይቻልም",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "ቪዲዮ በአካባቢው በሂደት ላይ ነው...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "ስለ ፈጣኑ የደመና ስሪት ይማሩ",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "አርታዒ",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "ግንኙነት የለም",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "አይገኝም",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "ቪዲዮ አርታዒ",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "ቁርጥ፣ ቁረጥ፣ ወይም ድምጽ ሰርዝ",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "ቪዲዮ በማዘጋጀት ላይ፣ እባክዎ ይጠብቁ...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "ቁርጥ",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "ቪዲዮ ቁርጥ እና መጠን ቀይር",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "ድምጽ አክል",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "የራስዎን ድምጽ ለቪዲዮ ያላህኑ",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "አስቀምጥ",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "ከጉግል ድራይቭ ውጣ",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "በማስቀመጥ ላይ...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "ወደ ጉግል ድራይቭ አስቀምጥ",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "የአሁኑን ስሪት ወደ ጉግል ድራይቭ አስቀምጥ",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "ግባ እና ወደ ጉግል ድራይቭ አስቀምጥ",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "በማውረድ ላይ...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "እንደ .webm አውርድ",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": ".webm ቪዲዮ ያላህን",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "እንደ .mp4 አውርድ",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": ".mp4 ቪዲዮ ያላህን (የተመከረ)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "እንደ .gif አውርድ",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "GIF ያላህን (ከ30 ሰከንድ በታች)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "ያለውን ድምጽ ተክቅን",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "ወደ ኙፉት ያርዝ",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "በቀርጫ ላይ ስትቀርጽ በገጹ ውስጥ ቁም",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "ማይክሮፎን ዝጋት ማስታወሻ",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "እገዛ",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "መቅዳት ቆሟል። ለመቀጠል የመጫን ቁልፉን ይጫኑ።",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "ኮኮሾት ማያዎን ለመቀርጽ ፈቃድ የለውም",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "ለማያ ቀርጫ ለመስራት፣ ፈቃድ ጥያቄ ሲቀርጽ ኮኮሾት ማያዎን እንዲይዝ ፍቀር የሚለውን ማስተካከል ያስፈልጋል። (በማንኛውም ጊዜ በተጨማሪ ቅንብሮች ማስተካከል ይችላሉ።)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "ማያ ቀርጫ አንቃ",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "ያጥፋል",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "ማይክሮፎንዎ ተዘጋጀ",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "የድምጽዎ በመቅዳት ውስጥ ካለመካከል፣ ማይክሮፎንዎን ማብላት ይገባል። በማንኛውም ሁኔታ ያለ ድምጽ ቀርጻ ለመቀጠል ይሞክሩ ዘንድ ይፈልጋሉ?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "አዎ፣ ቀጥል",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "ያጥፋል",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "ዝም በል። ቆጣሪውን ለማቆም የትም ቢሆን ጠይቅ።",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "ለአጭር ጊዜ ርቀት ማረሞች በፍሬሞች መካከል ያለው ክፍተት ምክንያት ማረሞች ትክክል ላይሆን ይችላሉ።",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "ቪዲዮ በሂደት ላይ ነው፣ ማጫን ትክክል ወይም ተቋርጦ ሊሆን ይችላል።",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "ቁርጥማት ጊዜ ሊወስድ ይችላል",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "ለፈጣን ማረም ያሻሽሉ",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "ማይክሮፎን አንቃለሁ",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "ማይክሮፎን በልቋል",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "መቅዳት ከ3 ሰከንድ በታች ነበረ እና አልተቀመጠም።",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "UI ማስታወቂያዎችን አስተ�隐藏",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "ዳግም አታሳይም",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "በማይጠቀምበት ጊዜ ቀረጻ አሰናብት",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "መቅዳት ጀምር",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "መቅዳት አቁም",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "ወደ አዲሱ ኮኮሾት እንኳን ደህና መጣችሁ!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "ስለ ማሻሻሉ ተጨማሪ ይማሩ።",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "ጀምር",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "መቅዳት ሲጀምር ስህተት",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "መቅዳት ሂደት ሲጀምር ስህተት አገኘ። እባክዎ በረራዎን እንደገና ያስጀምሩ። ችግሩ ቢቀጥል፣ በ support@cocoshot.net ይደወሉ።",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "ከፍተኛ ጥራት",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "የመጨረሻውን ቪዲዮ መቅዳት መልስ",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "ችግሮች አሉዎት?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "መቅዳትዎን ማየት አይቻልም?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "መቅዳት ሲያስተምሩ ግን ቪዲዮዎን በዚህ ገጽ ላይ ካልከዱት፣ የሰላም ቪድዮ መረጃ ካለ ማውረድ ይችላሉ። ወይም ስህተት ሪፖርት በማቅረብ ይደወሉ።",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "የሰላም ቪድዮ መረጃ አውርድ",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "ስህተት ሪፖርት",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "ምንም መቅዳት አልተገኘም፣ ይቅርታ! :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "የማስታወሻ ገደብ ደረሰ",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "መሣሪያዎ ለመቅዳት የሚያስፈልገው ማስታወሻ አልቆሻሻ ሆኖታል፣ ይህም ክፍተት በራሱ ተዘጋል። ለረዥም ቪዲዮዎች ለመቅዳት፣ የቪዲዮ ጥራት ማጠብ ወይም በመሣሪያዎ ላይ የቦታ ማጽዳት ያስቡ።",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "ተረዳሁ",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "ቦታ አልቆሻሻም",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "ኮኮሾት ቢያንሳት 1GB ነፃ ቦታ ያስፈልገዋል። እባክዎ አንዳንድ ቦታ አጽዳቁ እና ዳግም ይሞክሩ።",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "ቀድሞ መቅዳቶችን አጽዋቅ",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "ዘላለማዊ",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "የሰላም ቪድዮ ፋይል አውርድ",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "የመጀመሪያውን መቅዳት መረጃ ያላህን",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "ከመቅዳትዎ ጋር እገዛ ያግኙ",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "ቪድዮዎን አገኙ እና ሌሎች ችግሮችን ፈታ።",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "የሰላም ቪድዮ ፋይል አውርድ",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "የሰላም ቪድዮ ፋይል በኮኮሾት በቀጥታ የተፈጠረው ያልተለወጠ መቅዳት ነው። ምክንያቱም ይህ ፋይል አልተሰራም ወይም አልተሳሰረም፣ በጣም ትልቅ ሊሆን ይችላል እና አንዳንድ መሣሪያዎች ጋር ላይሆን ይችላል። ከማስተካከል ስህተት ከተገኘ፣ ይህንን ፋይል ተጠቅመው የአሁኑን መቅዳት ማግኘት ይችላሉ።",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "አውርድ",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "የድምጽ ሞገድ አሳይ",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "የስርጭት መረጃ እና ቪድዮ መረጃ አውርድ ለችግር ፈታት ላክ",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "ፋይሉን ካወረድክ በኋላ፣ እባክዎ ከማንኛውም ተጨማሪ ዝርዝር ጋር ወደ support@cocoshot.net ላክ። ይህንን መረጃ ተጠቅመን በተጨማሪ እና በማስተካከል ችግሮች ለመፍታት ይጠቀማል፣ እና ቪድዮዎን ማግኘት ካለተቻለም።",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "አውርድ",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "ቪዲዮ በመሣሪያዎ ላይ ለማስተካከል በጣም ረዥም ነው",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "ምክንያቱም ኮኮሾት የግል ጥበብን ያስቀድማል እና በሙሉ በአካባቢዎ መሣሪያ ላይ ይሠራል፣ በሃርድዌር ላይ ተገዷል። በዚህ ጊዜ ርቀት ቪዲዮን ማስተካከል ጊዜ በጣም ረዥም እና ትልቅ የስርጭት ሀብት ይጠይቃል። WEBM ፋይል ወይም የሰላም መቅዳት ማግኘት ትችላለህ፣ ነገር ግን ማረም ባሕርዮች እና MP4 መላክ አይገኝም። ሆኖም ግን ከተቃራኒው ችግሮች ከምንጩ ከሆነ፣ ቪዲዮን ማስተካከል ቢቻል ቢታወቅ እንኳን፣ ቪዲዮን ማስተካከል ቢቻል ቢታወቅ እንኳን ማስተካከል ይችላሉ።",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "ችግሩን አውቃለሁ፣ ማንኛውም ጊዜ ሞክር",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "ስለ ረዥም ቪዲዮዎች ማስተካከል ተጨማሪ ይማሩ።",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "የማገጣሚያ ሁኔታ",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "ለችግር ፈታት መረጃ አውርድ",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "የእገዛ ማዕከል",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "የስርጭት ድምጽ ቀርጽ",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "ከዚህ ገጽ ድምጽ ለመቀርጽ፣ '$tab$' መቀየር ያስፈልገዋል።",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "ተጨማሪ በትር ላይ አይደገፍም",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "ኮኮሾት ከ� just used ትር ጋር አይዛመድም። ከዚህ ገጽ መቀርጽ ስትጀምር ወደዚያ ትር ተመልስ ይችላሉ፣ ነገር ግን ካሜራዎ ፈልጎ እና የማረሚያ ቀረጻ አይታይም እባክዎ ይረሱ።",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "ለኮኮሾት መቅዳቶችዎ የአካባቢ ተከላ አዘጋጅ",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "የሚፈጥሩትን ሁሉንም መቅዳት ቅጂዎች ያስቀምጡ። ተከላ ካልጀምሩ፣ መቅዳቶችዎ ብቻ ጊዜ ሲያስቀመጡት ሲያስተምሩት ይቀመጣሉ።",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "ወደ ማውረድ ወይም ሌሎች የስርጭት ማውረድ ለማስቀመጥ ከሞከሩ፣ አዲስ ፊልድ ማስቀመጥ ያስፈልገዋል።",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "ፊልድ ምረጥ",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "አሁን አይ",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": "መቅዳቶችዎ በአካባቢው ተከላ አድርገዋል",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "ከሁሉም ጊዜ ፈቃድ እንዲጠይቁ ለማስቀመጥ፣ ይህንን ትር ክፍት ለማድረግ እናደርጋለን።",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "ትር ምንም አይኖርም ዝጋ",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "ሁሉንም መቅዳት ማቆም አቁም",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "ወደ የአካባቢ ኮኮሾት ተከላ ፊልድ መድረስ ያረጋግጡ",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "ይቅርታ እናስተምራለን፣ ነገር ግን መቀጠል ያለ ፈቃድዎ መቀጠል አይቻልም። ይህ ትር ሲዘጋ ከዚህ በኋላ ፈቃድ እንዲጠይቅ ያስፈልገዋል፣ ይህም ብራውዘርዎን ሲያጠፉ ወይም ሲያስጀምሩ ሊዘጋ ይችላል።",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "ኮኮሾት እንዲቀጥል ፍቀር",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "መቅዳት ተከላ",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "መቅዳት ለመከላከል ፈቃድ አልተሰጠም",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "የመቅዳት ተከላዎችዎን ለማከማቸት ፊልድ አልመረጡም። ከብራውዘርዎ ስሪት ወይም ከስርጭት ስሪት � зависит፣ ከዚህ በኋላ በሚቀርጹበት ጊዜ ፊልድ ለመምረጥ ሊጠየቁ ይችላሉ። ሂደቱን ዳግም ለመሞከር ይሞክሩ፣ ወይም ተከላዎችን ሙሉ በሙሉ ማጥፋት ከፈለጉ ያጥፋል።",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "የስርጭት ድምጽ ቀርጽ",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "በ macOS ስርጭት ላይ፣ ከተወሰኑ ትር ድምጽ መቀርጽ ተገድበዋል። የክሮም ትር ቀርጫ ምረጡ እና 'ትር ድምጽም አጋራ' ቅንብር በርቷል መሆኑን ያረጋግጡ።",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "የስርጭት ድምጽ ቀርጽ",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "ከስርጭትዎ ድምጽ ለመያዝ ፣'ስርጭት ድምጽ አጋራ' አማራጭ እንዳለ ያረጋግጡ። ይህ አማራጭ ካልታየ፣ ክሮምን ማሻሻል ወይም ወደ ትር ቀርጫ ሁኔታ መቀየር ያስቡ።",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "ከፍተኛ ጥራት",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "ከፍተኛ FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "በቂ RAM የለም",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "መስኮት መጠን ቀይር",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "ማያው ለዚህ ጥራት በጣም ትንሽ ነው",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "በዚህ ጥራት በመሣሪያዎ ላይ መቀርጽ አይቻልም",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "ፈቃድ ተከለከለ",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "ለመቅዳት የካሜራ እና ማይክሮፎን ፈቃዶች ያስፈልጋሉ። እባክዎ በባለስልጣን ቅንብሮች ፈቃድ ይስጡ።",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "ለመቅዳት የካሜራ ፈቃድ ያስፈልጋል። እባክዎ በባለስልጣን ቅንብሮች ፈቃድ ይስጡ።",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "ለመቅዳት የማይክሮፎን ፈቃድ ያስፈልጋል። እባክዎ በባለስልጣን ቅንብሮች ፈቃድ ይስጡ።",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "ፈቃዶችን አስተካክል",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "ማያ ቀርጫ ቅንብሮች",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "ሰ",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "ደ",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "ሴ",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "የካሜራ ፈቃድ በመጠየቅ ላይ...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "የማይክሮፎን ፈቃድ በመጠየቅ ላይ...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "የካሜራ ፈቃድ ጠይቅ",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "የማይክሮፎን ፈቃድ ጠይቅ",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "ፈቃዶችን ይመልከቱ",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "አማራጮችን ያስተካክል",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "የተቀሩ ቪዲዮዎች",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "አልተቀረጸም ቪዲዮ",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "ጠብቅ ለማስተካከል",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "የካሜራዎን መድረስ ፈቃድ እናስፈልጋለን",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "የማይክሮፎንዎን መድረስ ፈቃድ እናስፈልጋለን",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "ይመልከቱ",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "ቀለም መምረጫ",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "ዝጋ",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "ከማያ ቀለም ምረጥ",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API በዚህ በረዶ አይደገፍም። እባክዎ ክሮም 95+ ወይም ኤጅ 95+ ባለው ዘመናዊ በረዶ ይጠቀሙ።",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "የያልተለመደ ቦታ ምረጥ",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "ሁሉንም የያልተለመድ ቦታዎች ሰርዝ",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "የመስመር ስፋት",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "ቀጭን",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "መካከለኛ",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "ጥቂት",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "በጣም ጥቂት",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "የኮኮሾት መቅዳቶች",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "የአካባቢ ተከላ ማዘጋጀት አልተቻለም። ለተጨማሪ እገዛ በ $supportEmail$ ይደወሉ። ብቻዎን መቅዳት ትችላለህ።",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "በረዶዎ የአካባቢ ተከላዎችን አይደገፍም። ለተጨማሪ እገዛ በ $supportEmail$ ይደወሉ። ብቻዎን መቅዳት ትችላለህ።",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "ወደ ኙፉት ማስተካከል እንዴት እንደሚጠቀም",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "በመቅዳት ላይ ስትሆን የቁልፉን ማስተካከል ወደ ኙፉት ቦታዎ ለማስተካከል ያዘጋጁ። ቁልፎችን ሲልኩ ወደ ውጭ ያርዝ። ይህ በመቅዳት ወቅት የገጹን የተወሰኑ ክፍሎች ለማጭውት ጥሩ ነው።",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "ገባኝ!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "ቦታ መጠን",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "ቅጥሎች",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "ዳግም አስቀምጥ",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "ምንም",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "ያልተለመደ",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "ቦኬህ",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "ምስል",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "እባክዎ በመጀመሪያ ቪድዮ ፋይል ያስገቡ",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "እንደ WebM አውርድ",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "እንደ MP4 አውርድ",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "በማስተካከል ላይ...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "ክፍሎችን በማስተካከል:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "ቪድዮ መጠን የተመከረውን ገደብ ይበልጣል (ከ 1GB)$፣ ይህም ማስተካከል ያልተቻለ ሊሆን ይችላል",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "ትልቅ ቪድዮ ያስገባሉ (1GB$)። ማስተካከል ጊዜ ሊወስድ ይችላል። ቀጥል?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "ያልተደገፈ ቪድዮ ቅርጽ። እባክዎ የተለየ ቪድዮ ቅርጽ ይሞክሩ።",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "ማውረድ አልተቻለም። እባክዎ ዳግም ይሞክሩ።",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4 ማስተካከል አይገኝም",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "ይህ ቪድዮ በበረዶ ውስጥ ወደ MP4 ለማስተካከል በጣም ትልቅ ነው። እባክዎ በምሳሌ እንደ WebM ያውርዱ።",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "ወደ MP4 በማስተካከል ላይ...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "ቪድዮን ማውረድ አልተቻለም። እባክዎ ዳግም ይሞክሩ።",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "ቪድዮ አርታዒ",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "ቅጥር በቅርብ ጊዜ።",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "ቪድዮ ቅድመ እይታ",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "እሺ",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "ወደ ማከማቻ በማስቀመጥ ላይ...",
+    "description": "Message shown when writing video to storage"
+  }
+}

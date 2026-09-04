@@ -1,0 +1,1724 @@
+{
+  "extName": {
+    "message": "CocoShot: Skjermbilde og skjermopptaker"
+  },
+  "extDescription": {
+    "message": "Ta skjermbilder av hele siden og ta opp skjermen til MP4 med merknader. PDF-eksport med klikkbare lenker inkludert."
+  },
+  "pDisable": {
+    "message": "Deaktivert på denne siden"
+  },
+  "pDisableDesc": {
+    "message": "Du kan kjøre dette på hvilken som helst nettside, bortsett fra der nettleseren begrenser utvidelser fra å kjøre skript. Dette inkluderer utvidelsesnettbutikken, nettleserinnstillingssider og andre utvidelsessider."
+  },
+  "pDisableExp": {
+    "message": "Denne begrensningen kommer fra nettleseren selv på grunn av sikkerhetsrisikoer."
+  },
+  "pDisableTry": {
+    "message": "Du kan åpne en ny side og prøve fangstfunksjonen."
+  },
+  "pStart": {
+    "message": "Start"
+  },
+  "pFileUrl": {
+    "message": "Gå til \"edge://extensions/\", og huk av for \"Tillat tilgang til fil-URLer\"."
+  },
+  "pCaptV": {
+    "message": "Fang skjermbilde av synlige deler av siden."
+  },
+  "pAsOne": {
+    "message": "Lagre som en enkelt HTML-fil."
+  },
+  "pDesktop": {
+    "message": "Fang skjermbilder av en gitt nettside, fane, vindu eller hele skjermen."
+  },
+  "pCaptFull": {
+    "message": "Fang skjermbilde av hele siden."
+  },
+  "pDesableOpt": {
+    "message": "Eller du kan prøve:"
+  },
+  "pAreaCut": {
+    "message": "Velg en del av siden for å fange skjermbilde"
+  },
+  "fullpageTooLarge": {
+    "message": "Merk: Nettleseren kan ikke fange hele siden som ett bilde på grunn av størrelsen. I stedet vil den bli delt inn i <strong>$1</strong> separate bilder."
+  },
+  "fullpageTooLargeExtra": {
+    "message": "Merk: Denne utvidelsen er ikke ment for å fange ekstremt store innhold. Det er en mulighet for at den ikke vil kunne fullføre fangsten av denne siden."
+  },
+  "preparingSsViewer": {
+    "message": "Wait a sec, preparing HD screenshot preview..."
+  },
+  "convertingHdSS": {
+    "message": "Please hold on, converting HD screenshot..."
+  },
+  "framePermTitle": {
+    "message": "Ekstra tillatelse kreves"
+  },
+  "framePermDesc": {
+    "message": "Dette nettstedet viser innhold gjennom et innebygd iframe, som krever ekstra tillatelser for å få tilgang."
+  },
+  "WhatisIframe": {
+    "message": "Klikk for å lære hva et iframe er."
+  },
+  "framePermMore": {
+    "message": "Du kan måtte starte utvidelsen på nytt etter at du har brukt dialogboksen. Å avbryte vil bare fange den synlige skjermen."
+  },
+  "framePermConfirm": {
+    "message": "Tillat"
+  },
+  "framePermSave": {
+    "message": "Lagre denne tillatelsen for senere bruk (du kan tilbakekalle den når som helst)."
+  },
+  "error": {
+    "message": "Feil"
+  },
+  "captureError": {
+    "message": "Opptak mislyktes, vennligst prøv igjen senere. Hvis problemet vedvarer, kontakt utvikleren på $1"
+  },
+  "btnOk": {
+    "message": "OK"
+  },
+  "btnCancel": {
+    "message": "Avbryt"
+  },
+  "saveFramePermission": {
+    "message": "Tillat fange innhold fra alle rammer"
+  },
+  "permissions": {
+    "message": "Tillatelser"
+  },
+  "saveframepDesc": {
+    "message": "Denne tillatelsen er nødvendig for å fange innhold fra iframes eller framesets på en side. Å deaktivere denne kan begrense muligheten til å fange enkelte websideelementer."
+  },
+  "processingScreenshot": {
+    "message": "Behandler skjermbilde..."
+  },
+  "screenshotSaved": {
+    "message": "Skjermbilde lagret i Nedlastinger-mappen"
+  },
+  "screenshotLoadFailed": {
+    "message": "Kunne ikke laste skjermbilde. Prøv igjen."
+  },
+  "getScreenshotFailed": {
+    "message": "Kunne ikke ta skjermbilde. Prøv igjen."
+  },
+  "processingAllAreas": {
+    "message": "Behandler skjermbilder for alle områder..."
+  },
+  "allAreasSaved": {
+    "message": "Vellykket lagret skjermbilder for $1 områder"
+  },
+  "areaNotVisible": {
+    "message": "Det valgte området er nesten helt utenfor synlig område og kan ikke fanges."
+  },
+  "partiallyVisible": {
+    "message": "En del av området er utenfor synlig område. Den synlige delen er fanget."
+  },
+  "partiallyVisibleArea": {
+    "message": "En del av det valgte området er utenfor synlig område. Den synlige delen er fanget."
+  },
+  "areaOutOfView": {
+    "message": "Det valgte området er utenfor synlig område. Rull siden for å gjøre området synlig og prøv igjen."
+  },
+  "processingError": {
+    "message": "Feil ved behandling av skjermbilde: $1"
+  },
+  "saveFailed": {
+    "message": "Kunne ikke lagre skjermbilde: $1"
+  },
+  "smartModeEnabled": {
+    "message": "Smart skjermbilde-modus aktivert. Klikk for å velge element som skal fanges (Enter for å bekrefte, Esc for å avbryte)."
+  },
+  "processing": {
+    "message": "Behandler kopi..."
+  },
+  "copyFailed": {
+    "message": "Kopiering mislyktes: $1"
+  },
+  "canvasContextError": {
+    "message": "Kopiering mislyktes: Kan ikke hente Canvas-kontekst."
+  },
+  "copied": {
+    "message": "Kopiert til utklippstavle"
+  },
+  "clipboardAccessDenied": {
+    "message": "Kopiering mislyktes: Tilgang til utklippstavlen nektet, $1"
+  },
+  "clipboardApiNotSupported": {
+    "message": "Kopiering mislyktes: Utklippstavle-API støttes ikke"
+  },
+  "imageDataCreateFailed": {
+    "message": "Kopiering mislyktes: Kan ikke opprette bilde-data"
+  },
+  "copyAreaOutOfView": {
+    "message": "Kopiering mislyktes: Valgt område er utenfor synlig område"
+  },
+  "imagePreviewShown": {
+    "message": "Forhåndsvisning av bilde vist. Høyreklikk for å kopiere."
+  },
+  "escape": {
+    "message": "Avbryt (Esc)"
+  },
+  "imageQualitySet": {
+    "message": "Bildekvalitet satt til: $1"
+  },
+  "qrDecoding": {
+    "message": "Dekoder QR-kode..."
+  },
+  "qrSuccess": {
+    "message": "QR-kode dekodet. Kopiert til utklippstavle."
+  },
+  "qrNoQRFound": {
+    "message": "Ingen gyldig QR-kode funnet"
+  },
+  "qrError": {
+    "message": "QR-kode-dekoding mislyktes: $1"
+  },
+  "saveArea": {
+    "message": "Lagre dette området"
+  },
+  "copyToClipboard": {
+    "message": "Kopier dette utvalget (nåværende valgt)"
+  },
+  "saveAllAreas": {
+    "message": "Lagre alle områder"
+  },
+  "keepAndContinue": {
+    "message": "Legg til nytt utvalg"
+  },
+  "cancel": {
+    "message": "Avbryt"
+  },
+  "lockSize": {
+    "message": "Lås størrelse"
+  },
+  "lockSizeActive": {
+    "message": "✓ Lås størrelse"
+  },
+  "freeRatio": {
+    "message": "Fri forhold"
+  },
+  "ratioLabel": {
+    "message": "Velg forhold"
+  },
+  "aiDialog": {
+    "message": "Smart dialog"
+  },
+  "fileSizeEstimate": {
+    "message": "Ca. $1 $2"
+  },
+  "qrDecode": {
+    "message": "Dekod QR-kode"
+  },
+  "removeBackground": {
+    "message": "Fjern bakgrunn"
+  },
+  "processingBackgroundRemoval": {
+    "message": "Fjerner bakgrunn..."
+  },
+  "backgroundRemovalFailedImage": {
+    "message": "Fjerning av bakgrunn mislyktes: Bildeopplastingsfeil"
+  },
+  "backgroundRemovalFailedContext": {
+    "message": "Fjerning av bakgrunn mislyktes: $1"
+  },
+  "backgroundRemovedAndCopied": {
+    "message": "Bakgrunn fjernet og kopiert til utklippstavle"
+  },
+  "backgroundRemovalFailedBlob": {
+    "message": "Fjerning av bakgrunn mislyktes: Kan ikke opprette Blob"
+  },
+  "selectedAreaOutOfView": {
+    "message": "Valgt område er utenfor visning"
+  },
+  "screenshotFailed": {
+    "message": "Skjermbilde mislyktes: $1"
+  },
+  "imageProcessingFailed": {
+    "message": "Bildebehandling mislyktes, prøv igjen"
+  },
+  "screenshotAreaOutOfView": {
+    "message": "Skjermbildeområde er utenfor synlig rekkevidde"
+  },
+  "errorProcessingImage": {
+    "message": "Feil ved behandling av bilde: $1"
+  },
+  "qrLibraryNotLoaded": {
+    "message": "QR-kodebibliotek ikke lastet"
+  },
+  "qrDecodingFailed": {
+    "message": "QR-kode-dekoding mislyktes: $1"
+  },
+  "qrNoQRCodeFound": {
+    "message": "Ingen QR-kode funnet i valgt område"
+  },
+  "qrDecodingSuccess": {
+    "message": "QR-kode dekodet: $1"
+  },
+  "qrDecodingError": {
+    "message": "Feil ved dekoding av QR-kode: $1"
+  },
+  "backgroundRemovalFailed": {
+    "message": "Fjerning av bakgrunn mislyktes: $1"
+  },
+  "selectionBoxNotFound": {
+    "message": "Velg et skjermbildeområde først"
+  },
+  "aiDialogTitle": {
+    "message": "Ha en intelligent samtale om skjermbildeinnholdet"
+  },
+  "qrDecodeTitle": {
+    "message": "Dekod QR-kode i skjermbildet"
+  },
+  "lockSizeTitle": {
+    "message": "Lås gjeldende størrelse for kontinuerlig fangst"
+  },
+  "moveHint": {
+    "message": "Dra utvalgsområde (Mellomrom + dra)"
+  },
+  "saveAreaTooltip": {
+    "message": "Lagre gjeldende område"
+  },
+  "saveAllAreasTooltip": {
+    "message": "Lagre alle valgte områder"
+  },
+  "copyToClipboardTooltip": {
+    "message": "Kopier skjermbilde til utklippstavle"
+  },
+  "moreOptions": {
+    "message": "Flere alternativer"
+  },
+  "removeBgTooltip": {
+    "message": "Fjern bakgrunn og kopier til utklippstavle"
+  },
+  "ratioLabelTooltip": {
+    "message": "Velg størrelsesforhold"
+  },
+  "keepAndContinueTooltip": {
+    "message": "Behold gjeldende utvalg og fortsett"
+  },
+  "pCaptureTabLabel": {
+    "message": "Skjermbilde"
+  },
+  "pAiToolsTabLabel": {
+    "message": "AI-verktøy"
+  },
+  "pCaptureTitle": {
+    "message": "Skjermbilde av hele siden og valgt skjermområde"
+  },
+  "pAiToolsTitle": {
+    "message": "AI-relaterte verktøy"
+  },
+  "pLLMToolsGroupTitle": {
+    "message": "Verktøy for eksport av webinnhold"
+  },
+  "pAiImagesGroupTitle": {
+    "message": "Bildeverktøy"
+  },
+  "pDownloadAsMD": {
+    "message": "Last ned som Markdown"
+  },
+  "pDownloadAsPDF": {
+    "message": "Last ned som PDF"
+  },
+  "pDownloadAsMDTooltip": {
+    "message": "Last ned gjeldende nettside som en Markdown-fil"
+  },
+  "pDownloadAsPDFTooltip": {
+    "message": "Last ned gjeldende nettside som en PDF-fil"
+  },
+  "pImageProcessing": {
+    "message": "Bildebehandling"
+  },
+  "pImageProcessingTooltip": {
+    "message": "En samling verktøy for bildebehandling"
+  },
+  "fixThePage": {
+    "message": "Fiks siden"
+  },
+  "expandScrollableOn": {
+    "message": "Utvid rullbare områder"
+  },
+  "expandScrollableOnDesc": {
+    "message": "Aktiver for å utvide de rullbare områdene på nettsiden før du tar et skjermbilde"
+  },
+  "hideFixedOn": {
+    "message": "Skjul elementer med fast posisjon"
+  },
+  "hideFixedOnDesc": {
+    "message": "Aktiver for å skjule elementer med fast posisjon som kan forstyrre fangst"
+  },
+  "preScrollOn": {
+    "message": "Forhåndslasting av nettsiden ved rulling"
+  },
+  "preScrollOnDesc": {
+    "message": "Mange nettsideelementer (f.eks. bilder) lastes bare ved rulling. Når aktivert, oppdager den automatisk og ruller til bunnen av siden før den tar et skjermbilde."
+  },
+  "canBeDisabled": {
+    "message": "kan deaktiveres via innstillingssiden"
+  },
+  "analyzingPageForHTML": {
+    "message": "Analyserer nettsidekode og -innhold, komplekse sider kan ta lengre tid. Hvis det tar for lang tid, vennligst oppdater nettsiden og prøv igjen."
+  },
+  "drawerSettings": {
+    "message": "Innstillinger"
+  },
+  "drawerScreenshotHistory": {
+    "message": "Skjermbildehistorikk"
+  },
+  "drawerImageTools": {
+    "message": "Verktøy for forbedring av skjermbilder"
+  },
+  "drawerHelpFeedback": {
+    "message": "Ofte stilte spørsmål og tilbakemeldinger"
+  },
+  "drawerCloseMenu": {
+    "message": "Lukk denne menyen"
+  },
+  "logoTooltip": {
+    "message": "Se mer"
+  },
+  "pRecorderTabLabel": {
+    "message": "Skjermopptaker"
+  },
+  "pRecorderTitle": {
+    "message": "Skjermopptaker"
+  },
+  "pStartRecorder": {
+    "message": "Start skjermopptak"
+  },
+  "pStartRecorderLabel": {
+    "message": "Skjermopptak"
+  },
+  "pRecorderAlt": {
+    "message": "Opptaker"
+  },
+  "pStartRecorderAlt": {
+    "message": "Skjermopptaker"
+  },
+  "pRecorderBetaNotice": {
+    "message": "Dette er en betaversjon"
+  },
+  "pRecorderFeedback": {
+    "message": "Gi tilbakemelding"
+  },
+  "downloadsPermission": {
+    "message": "Tillat filnedlastinger"
+  },
+  "downloadsPermissionDesc": {
+    "message": "Denne tillatelsen er nødvendig for å lagre skjermbilder direkte til datamaskinen din."
+  },
+  "webNavigationPermission": {
+    "message": "Tillat webnavigasjonstilgang"
+  },
+  "webNavigationPermissionDesc": {
+    "message": "Denne tillatelsen er nødvendig for å oppdage sideendringer og navigere til forskjellige sider etter behov."
+  },
+  "desktopCapturePermission": {
+    "message": "Tillat skrivebordsopptak"
+  },
+  "desktopCapturePermissionDesc": {
+    "message": "Denne tillatelsen er nødvendig for å fange innhold fra skrivebordet eller spesifikke vinduer."
+  },
+  "tabsPermission": {
+    "message": "Tillat fanetilgang"
+  },
+  "tabsPermissionDesc": {
+    "message": "Denne tillatelsen er nødvendig for å få tilgang til og administrere nettleserfaner."
+  },
+  "tabCapturePermission": {
+    "message": "Tillat fanetaking"
+  },
+  "tabCapturePermissionDesc": {
+    "message": "Denne tillatelsen er nødvendig for å ta opp lyd og video fra nettleserfaner."
+  },
+  "allUrlsPermission": {
+    "message": "Tillat tilgang til alle nettsteder"
+  },
+  "allUrlsPermissionDesc": {
+    "message": "Denne tillatelsen er nødvendig for å ta skjermbilder fra hvilken som helst nettside."
+  },
+  "fileUrlsPermission": {
+    "message": "Tillat tilgang til lokale filer"
+  },
+  "fileUrlsPermissionDesc": {
+    "message": "Denne tillatelsen er nødvendig for å ta skjermbilder fra lokale filer (file:// URL-er)."
+  },
+  "pIncludeImagesTooltip": {
+    "message": "Om bilder skal inkluderes i nedlastingen"
+  },
+  "proTitle": {
+    "message": "CocoShot Pro"
+  },
+  "proFeatureNotAvailable": {
+    "message": "Denne funksjonen krever CocoShot Pro"
+  },
+  "proUpgradeButton": {
+    "message": "Oppgrader til Pro"
+  },
+  "proSaveRestricted": {
+    "message": "Å lagre dette innholdet krever CocoShot Pro"
+  },
+  "qv_title": {
+    "message": "CocoShot Forhåndsvisning"
+  },
+  "qv_preview_mode": {
+    "message": "Forhåndsvisningsmodus"
+  },
+  "qv_screenshot_preview": {
+    "message": "Forhåndsvisning av skjermbilde"
+  },
+  "qv_download": {
+    "message": "Last ned"
+  },
+  "qv_edit": {
+    "message": "Annoter, Rediger (kan også eksporteres til PDF)"
+  },
+  "qv_hint": {
+    "message": "Erfarne brukere vil automatisk hoppe over denne siden og gå til editoren."
+  },
+  "recordTab": {
+    "message": "Ta opp",
+    "description": "Record tab label on popup"
+  },
+  "videosTab": {
+    "message": "Videoene dine",
+    "description": "Videos tab label on popup"
+  },
+  "screenType": {
+    "message": "Skjerm",
+    "description": "Screen recording type label on popup"
+  },
+  "tabType": {
+    "message": "Fane",
+    "description": "Tab area recording type label on popup"
+  },
+  "cameraType": {
+    "message": "Kun kamera",
+    "description": "Camera recording type label on popup"
+  },
+  "mockupType": {
+    "message": "Mockup",
+    "description": "Mockup recording type label on popup"
+  },
+  "customAreaRecordingDisabledTitle": {
+    "message": "Tilpasset områdeopptak deaktivert",
+    "description": "Custom area recording disabled warning on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledDescription": {
+    "message": "Oppdater Chrome til versjon 110+",
+    "description": "Custom area recording disabled warning description on popup for Chrome version older than 104"
+  },
+  "customAreaRecordingDisabledAction": {
+    "message": "Oppdater",
+    "description": "Custom area recording disabled warning action on popup for Chrome version older than 104"
+  },
+  "permissionsModalTitle": {
+    "message": "Sjekk tillatelsene dine",
+    "description": "Camera / microphone permissions warning modal title"
+  },
+  "permissionsModalDescription": {
+    "message": "CocoShot ser ut til å ikke kunne få tilgang til kameraet eller mikrofonen din. For å løse dette problemet, vennligst opphev blokkeringen i nettleserinnstillingene dine og gi de nødvendige tillatelsene.",
+    "description": "Camera / microphone permissions warning modal description"
+  },
+  "permissionsModalDismiss": {
+    "message": "Avvis",
+    "description": "Camera / microphone permissions warning modal dismiss button"
+  },
+  "allowCameraAccessButton": {
+    "message": "Tillat kameratilgang",
+    "description": "Allow camera access button"
+  },
+  "allowMicrophoneAccessButton": {
+    "message": "Tillat mikfontilgang",
+    "description": "Allow microphone access button"
+  },
+  "pushToTalkLabel": {
+    "message": "Trykk for å snakke",
+    "description": "Push to talk switch label"
+  },
+  "customAreaLabel": {
+    "message": "Sett opptaksområde",
+    "description": "Custom area switch label"
+  },
+  "flipCameraLabel": {
+    "message": "Snu kamera",
+    "description": "Flip camera switch label"
+  },
+  "backgroundEffectsLabel": {
+    "message": "Bakgrunnseffekter",
+    "description": "Background effects switch label"
+  },
+  "recordButtonLabel": {
+    "message": "Start opptak",
+    "description": "Record button label"
+  },
+  "recordButtonInProgressLabel": {
+    "message": "Starter opptak...",
+    "description": "Record button in progress label"
+  },
+  "recordButtonNoCameraLabel": {
+    "message": "Velg et kamera",
+    "description": "Record button label when in camera mode and no camera is selected"
+  },
+  "showMoreOptionsLabel": {
+    "message": "Flere alternativer",
+    "description": "Show more options label"
+  },
+  "systemAudioLabel": {
+    "message": "Systemlyd",
+    "description": "Tab/system audio label"
+  },
+  "hideToolbarLabel": {
+    "message": "Skjul verktøylinje",
+    "description": "Hide toolbar label"
+  },
+  "countdownLabel": {
+    "message": "Nedtelling",
+    "description": "Countdown label"
+  },
+  "alarmLabel": {
+    "message": "Sett tidsgrense",
+    "description": "Alarm label"
+  },
+  "blurTypeLabel": {
+    "message": "Uskarphet",
+    "description": "Blur background label"
+  },
+  "noneDropdownLabel": {
+    "message": "Ingen",
+    "description": "No device selected"
+  },
+  "noCameraDropdownLabel": {
+    "message": "Intet kamera",
+    "description": "No camera selected"
+  },
+  "noMicrophoneDropdownLabel": {
+    "message": "Ingen mikrofon",
+    "description": "No microphone selected"
+  },
+  "selectSourceDropdownPlaceholder": {
+    "message": "Velg en kilde",
+    "description": "Select source placeholder"
+  },
+  "offLabel": {
+    "message": "Av",
+    "description": "Off label on dropdown"
+  },
+  "regionWidthLabel": {
+    "message": "Bredde",
+    "description": "Region width label"
+  },
+  "regionHeightLabel": {
+    "message": "Høyde",
+    "description": "Region height label"
+  },
+  "addImageToastTitle": {
+    "message": "Klikk for å plassere bilde",
+    "description": "Toast that shows when adding a new image"
+  },
+  "finishRecordingTooltip": {
+    "message": "Fullfør opptak",
+    "description": "Finish recording tooltip"
+  },
+  "restartRecordingTooltip": {
+    "message": "Start opptak på nytt",
+    "description": "Restart recording tooltip"
+  },
+  "pauseRecordingTooltip": {
+    "message": "Sett opptak på pause",
+    "description": "Pause recording tooltip"
+  },
+  "resumeRecordingTooltip": {
+    "message": "Fortsett opptak",
+    "description": "Resume recording tooltip"
+  },
+  "cancelRecordingTooltip": {
+    "message": "Avbryt opptak",
+    "description": "Cancel recording tooltip"
+  },
+  "toggleDrawingToolsTooltip": {
+    "message": "Aktiver/deaktiver tegneverktøy",
+    "description": "Toggle drawing tools tooltip"
+  },
+  "toggleBlurToolTooltip": {
+    "message": "Aktiver/deaktiver uskarphet-verktøy",
+    "description": "Toggle blur tools tooltip"
+  },
+  "toggleCursorOptionsTooltip": {
+    "message": "Aktiver/deaktiver markøralternativer",
+    "description": "Toggle cursor options tooltip"
+  },
+  "disableCameraTooltip": {
+    "message": "Deaktiver kamera",
+    "description": "Disable camera tooltip"
+  },
+  "enableCameraTooltip": {
+    "message": "Aktiver kamera",
+    "description": "Enable camera tooltip"
+  },
+  "noCameraPermissionsTooltip": {
+    "message": "Ingen kameratillatelser",
+    "description": "No camera permissions tooltip"
+  },
+  "cameraSettingsTooltip": {
+    "message": "Kamerainnstillinger",
+    "description": "Camera settings tooltip"
+  },
+  "cameraMirrorTooltip": {
+    "message": "Speil kamera",
+    "description": "Mirror camera tooltip"
+  },
+  "cameraBlurTooltip": {
+    "message": "Bakgrunnsuskarphet",
+    "description": "Background blur tooltip"
+  },
+  "disableMicrophoneTooltip": {
+    "message": "Deaktiver mikrofon",
+    "description": "Disable microphone tooltip"
+  },
+  "enableMicrophoneTooltip": {
+    "message": "Aktiver mikrofon",
+    "description": "Enable microphone tooltip"
+  },
+  "noMicrophonePermissionsTooltip": {
+    "message": "Ingen mikrofontillatelser",
+    "description": "No microphone permissions tooltip"
+  },
+  "selectToolTooltip": {
+    "message": "Velg verktøy",
+    "description": "Select tool tooltip"
+  },
+  "penToolTooltip": {
+    "message": "Pennverktøy",
+    "description": "Pen tool tooltip"
+  },
+  "highlighterToolTooltip": {
+    "message": "Markeringsverktøy",
+    "description": "Highlighter tool tooltip"
+  },
+  "eraserToolTooltip": {
+    "message": "Viskelærverktøy",
+    "description": "Eraser tool tooltip"
+  },
+  "textToolTooltip": {
+    "message": "Tekstverktøy",
+    "description": "Text tool tooltip"
+  },
+  "shapeToolTooltip": {
+    "message": "Formverktøy",
+    "description": "Shape tool tooltip"
+  },
+  "arrowToolTooltip": {
+    "message": "Pilverktøy",
+    "description": "Arrow tool tooltip"
+  },
+  "imageToolTooltip": {
+    "message": "Bildeverktøy",
+    "description": "Image tool tooltip"
+  },
+  "undoTooltip": {
+    "message": "Angre",
+    "description": "Undo tooltip"
+  },
+  "redoTooltip": {
+    "message": "Gjør om",
+    "description": "Redo tooltip"
+  },
+  "clearCanvasTooltip": {
+    "message": "Tøm lerretet",
+    "description": "Clear canvas tooltip"
+  },
+  "moreColorsTooltip": {
+    "message": "Flere farger",
+    "description": "More colors tooltip"
+  },
+  "thickStrokeTooltip": {
+    "message": "Tykk strøk",
+    "description": "Thick stroke tooltip"
+  },
+  "mediumStrokeTooltip": {
+    "message": "Middels strøk",
+    "description": "Medium stroke tooltip"
+  },
+  "thinStrokeTooltip": {
+    "message": "Tynn strøk",
+    "description": "Thin stroke tooltip"
+  },
+  "togglePictureinPictureModeTooltip": {
+    "message": "Aktiver/deaktiver bilde-i-bilde-modus",
+    "description": "Toggle picture-in-picture mode tooltip"
+  },
+  "toggleFillTooltip": {
+    "message": "Aktiver/deaktiver fyll",
+    "description": "Toggle fill tooltip"
+  },
+  "drawingModeToast": {
+    "message": "Tegnemodus",
+    "description": "Drawing mode toast"
+  },
+  "blurModeToast": {
+    "message": "Uskarphetmodus",
+    "description": "Blur mode toast"
+  },
+  "clearBlurredElementsTooltip": {
+    "message": "Fjern alle uskarpe elementer",
+    "description": "Clear all blurred elements tooltip"
+  },
+  "highlightClicksTooltip": {
+    "message": "Uthev klikk",
+    "description": "Highlight clicks tooltip"
+  },
+  "highlightCursorTooltip": {
+    "message": "Uthev markør",
+    "description": "Highlight cursor tooltip"
+  },
+  "spotlightCursorTooltip": {
+    "message": "Søkelys på markør",
+    "description": "Spotlight cursor tooltip"
+  },
+  "permissionsModalNoShowAgain": {
+    "message": "Ikke vis igjen",
+    "description": "Permissions modal dismiss button"
+  },
+  "restartModalTitle": {
+    "message": "Starte opptak på nytt?",
+    "description": "Restart recording modal title"
+  },
+  "restartModalDescription": {
+    "message": "Din nåværende fremgang vil gå tapt.",
+    "description": "Restart recording modal description"
+  },
+  "restartModalRestart": {
+    "message": "Start på nytt",
+    "description": "Restart recording modal restart button"
+  },
+  "restartModalResume": {
+    "message": "Fortsett",
+    "description": "Restart recording modal resume button"
+  },
+  "discardModalTitle": {
+    "message": "Forkaste opptak?",
+    "description": "Discard recording modal title"
+  },
+  "discardModalDescription": {
+    "message": "Din nåværende fremgang vil gå tapt.",
+    "description": "Discard recording modal description"
+  },
+  "discardModalDiscard": {
+    "message": "Forkast",
+    "description": "Discard recording modal discard button"
+  },
+  "discardModalResume": {
+    "message": "Fortsett",
+    "description": "Discard recording modal resume button"
+  },
+  "recorderSelectTitle": {
+    "message": "Opptaket ditt vil bli lagret her",
+    "description": "Title in recording page"
+  },
+  "recorderSelectProgressTitle": {
+    "message": "Tar opp...",
+    "description": "Title in recording page while recording"
+  },
+  "recorderSelectDescription": {
+    "message": "Hold denne fanen åpen. Den vil lukkes når opptaket ditt er lagret.",
+    "description": "Description in recording page"
+  },
+  "sandboxProgressTitle": {
+    "message": "Forbereder opptak...",
+    "description": "Title in sandbox page while recording / saving"
+  },
+  "sandboxProgressDescription": {
+    "message": "Hold denne fanen åpen. Den vil oppdateres med opptaket ditt når det er klart.",
+    "description": "Description in sandbox page while recording / saving"
+  },
+  "sandboxEditorMainTitle": {
+    "message": "Redigeringsprogram",
+    "description": "Title in navigation of the sandbox editor page"
+  },
+  "sandboxEditorCancelButton": {
+    "message": "Avbryt",
+    "description": "Cancel button in sandbox editor page"
+  },
+  "sandboxEditorRevertButton": {
+    "message": "Gå tilbake til original",
+    "description": "Revert button in sandbox editor page"
+  },
+  "sandboxEditorResetButton": {
+    "message": "Tilbakestill",
+    "description": "Reset button in sandbox editor page"
+  },
+  "sandboxEditorSaveButton": {
+    "message": "Lagre endringer",
+    "description": "Save button in sandbox editor page"
+  },
+  "sandboxEditorSaveProgressButton": {
+    "message": "Lagrer...",
+    "description": "Save button in sandbox editor page while saving"
+  },
+  "sandboxAudioDragAndDrop": {
+    "message": "Dra og slipp lydfilen din",
+    "description": "Drag and drop audio file in sandbox editor page"
+  },
+  "sandboxAudioOrBrowse": {
+    "message": "Eller klikk for å bla",
+    "description": "Or click to browse audio file in sandbox editor page"
+  },
+  "sandboxAudioSettingsTitle": {
+    "message": "Innstillinger",
+    "description": "Audio settings title in sandbox editor page"
+  },
+  "sandboxAudioVolumeLabel": {
+    "message": "Volum",
+    "description": "Audio volume label in sandbox editor page"
+  },
+  "sandboxAudioUpdateButton": {
+    "message": "Oppdater",
+    "description": "Update audio button in sandbox editor page"
+  },
+  "sandboxCropTitle": {
+    "message": "Beskjær",
+    "description": "Crop title in sandbox editor page"
+  },
+  "widthLabel": {
+    "message": "Bredde",
+    "description": "Width label for properties"
+  },
+  "heightLabel": {
+    "message": "Høyde",
+    "description": "Height label for properties"
+  },
+  "leftLabel": {
+    "message": "Venstre",
+    "description": "Left label for properties"
+  },
+  "topLabel": {
+    "message": "Topp",
+    "description": "Top label for properties"
+  },
+  "sandboxEditorTrimInfo": {
+    "message": "Dra håndtakene og bruk knappene til venstre for å redigere den valgte delen.",
+    "description": "Info about trimming in sandbox editor"
+  },
+  "sandboxEditorTrimButton": {
+    "message": "Beskjær video",
+    "description": "Trim button in sandbox editor"
+  },
+  "sandboxEditorTrimProgressButton": {
+    "message": "Beskjærer...",
+    "description": "Trim button in sandbox editor while trimming"
+  },
+  "sandboxEditorCutButton": {
+    "message": "Klipp ut del",
+    "description": "Cut button in sandbox editor"
+  },
+  "sandboxEditorCutProgressButton": {
+    "message": "Kutter...",
+    "description": "Cut button in sandbox editor while cutting"
+  },
+  "sandboxEditorMuteButton": {
+    "message": "Demp lyd",
+    "description": "Mute button in sandbox editor"
+  },
+  "sandboxEditorMuteProgressButton": {
+    "message": "Demping...",
+    "description": "Mute button in sandbox editor while muting"
+  },
+  "learnMoreDot": {
+    "message": "Lær mer.",
+    "description": "Learn more with a dot"
+  },
+  "undoLabel": {
+    "message": "Angre",
+    "description": "Undo label"
+  },
+  "redoLabel": {
+    "message": "Gjør om",
+    "description": "Redo label"
+  },
+  "leaveReview": {
+    "message": "Legg igjen en anmeldelse, det hjelper!",
+    "description": "Leave a review button"
+  },
+  "offlineLabelTitle": {
+    "message": "Du er for øyeblikket frakoblet",
+    "description": "Offline label"
+  },
+  "offlineLabelDescription": {
+    "message": "Noen funksjoner er utilgjengelige til du kobles til igjen",
+    "description": "Offline label description"
+  },
+  "offlineLabelTryAgain": {
+    "message": "Prøv igjen",
+    "description": "Offline label try again button"
+  },
+  "updateChromeLabelTitle": {
+    "message": "Chrome må oppdateres",
+    "description": "Update Chrome label"
+  },
+  "updateChromeLabelDescription": {
+    "message": "Oppdater for å få tilgang til flere funksjoner",
+    "description": "Update Chrome label description"
+  },
+  "learnMoreLabel": {
+    "message": "Lær mer",
+    "description": "Learn more button"
+  },
+  "overLimitLabelTitle": {
+    "message": "Videoen er for lang til å behandles på enheten",
+    "description": "Over 5 minutes limit label in editor"
+  },
+  "overLimitLabelDescription": {
+    "message": "Redigering og MP4-eksport er ikke tilgjengelig",
+    "description": "Over 5 minutes limit description in editor"
+  },
+  "videoProcessingLabelTitle": {
+    "message": "Videoen behandles lokalt...",
+    "description": "Video processing label in editor"
+  },
+  "videoProcessingLabelDescription": {
+    "message": "Lær om den raskere skylversjonen",
+    "description": "Video processing description in editor"
+  },
+  "sandboxEditTitle": {
+    "message": "Rediger",
+    "description": "Edit title in sandbox editor page"
+  },
+  "noConnectionLabel": {
+    "message": "Ingen tilkobling",
+    "description": "No connection label"
+  },
+  "notAvailableLabel": {
+    "message": "Ikke tilgjengelig",
+    "description": "Not available label"
+  },
+  "editButtonTitle": {
+    "message": "Rediger video",
+    "description": "Trim label button"
+  },
+  "editButtonDescription": {
+    "message": "Beskjær, klipp ut eller demp videoen",
+    "description": "Trim label"
+  },
+  "preparingLabel": {
+    "message": "Forbereder video, vennligst vent...",
+    "description": "Preparing label"
+  },
+  "cropButtonTitle": {
+    "message": "Beskjær",
+    "description": "Crop label button"
+  },
+  "cropButtonDescription": {
+    "message": "Beskjær og endre størrelse på videoen",
+    "description": "Crop label"
+  },
+  "addAudioButtonTitle": {
+    "message": "Legg til lyd",
+    "description": "Add audio label button"
+  },
+  "addAudioButtonDescription": {
+    "message": "Last opp din egen lyd for å legge til i videoen",
+    "description": "Add audio label"
+  },
+  "sandboxSaveTitle": {
+    "message": "Lagre",
+    "description": "Save title in sandbox editor page"
+  },
+  "signOutDriveLabel": {
+    "message": "Logg av Google Drive",
+    "description": "Sign out of Google Drive label"
+  },
+  "savingDriveLabel": {
+    "message": "Lagrer...",
+    "description": "Saving to Google Drive label"
+  },
+  "saveDriveButtonTitle": {
+    "message": "Lagre til Google Drive",
+    "description": "Save to Google Drive button"
+  },
+  "saveDriveButtonDescription": {
+    "message": "Lagre den gjeldende versjonen til Google Drive",
+    "description": "Save to Google Drive label"
+  },
+  "signInDriveLabel": {
+    "message": "Logg på og lagre til Google Drive",
+    "description": "Sign in to Google Drive label"
+  },
+  "downloadingLabel": {
+    "message": "Laster ned...",
+    "description": "Downloading label"
+  },
+  "downloadWEBMButtonTitle": {
+    "message": "Last ned som .webm",
+    "description": "Download WEBM button"
+  },
+  "downloadWEBMButtonDescription": {
+    "message": "Eksporter en .webm-video",
+    "description": "Download WEBM label"
+  },
+  "downloadMP4ButtonTitle": {
+    "message": "Last ned som .mp4",
+    "description": "Download MP4 button"
+  },
+  "downloadMP4ButtonDescription": {
+    "message": "Eksporter en .mp4-video (anbefalt)",
+    "description": "Download MP4 label"
+  },
+  "downloadGIFButtonTitle": {
+    "message": "Last ned som .gif",
+    "description": "Download GIF button"
+  },
+  "downloadGIFButtonDescription": {
+    "message": "Eksporter en GIF (maks. 30 sekunder)",
+    "description": "Download GIF label"
+  },
+  "replaceAudioEditor": {
+    "message": "Erstatt eksisterende lyd",
+    "description": "Replace audio button in editor"
+  },
+  "zoomToPointPopup": {
+    "message": "Zoom til markør",
+    "description": "Zoom to point popup"
+  },
+  "stayInPagePopup": {
+    "message": "Bli på siden under opptak",
+    "description": "Stay in page popup"
+  },
+  "micReminderPopup": {
+    "message": "Mikrofon avslått advarsel",
+    "description": "Mic reminder popup"
+  },
+  "helpPopup": {
+    "message": "Hjelp",
+    "description": "Help popup button"
+  },
+  "pausedRecordingToast": {
+    "message": "Opptaket er satt på pause. Trykk avspillingsknappen for å fortsette.",
+    "description": "Paused recording modal title"
+  },
+  "chromePermissionsModalTitle": {
+    "message": "CocoShot har ikke tillatelse til å ta opp skjermen din",
+    "description": "Permission modal title"
+  },
+  "chromePermissionsModalDescription": {
+    "message": "For at skjermopptak skal fungere, må du tillate CocoShot å ta opp skjermen din når tillatelsesforespørselen vises. (Du kan trekke den tilbake når som helst i utvidelsens innstillinger.)",
+    "description": "Permission modal description"
+  },
+  "chromePermissionsModalAction": {
+    "message": "Aktiver skjermopptak",
+    "description": "Permission modal action"
+  },
+  "chromePermissionsModalCancel": {
+    "message": "Avbryt",
+    "description": "Permission modal cancel"
+  },
+  "micMutedModalTitle": {
+    "message": "Mikrofonen din er dempet",
+    "description": "Microphone muted modal title"
+  },
+  "micMutedModalDescription": {
+    "message": "Hvis du vil at stemmen din skal inkluderes i opptaket, må du slå på mikrofonen. Vil du fortsette opptaket uten lyd uansett?",
+    "description": "Microphone muted modal description"
+  },
+  "micMutedModalAction": {
+    "message": "Ja, fortsett",
+    "description": "Microphone muted modal continue"
+  },
+  "micMutedModalCancel": {
+    "message": "Avbryt",
+    "description": "Microphone muted modal cancel"
+  },
+  "countdownMessage": {
+    "message": "Slapp av. Klikk hvor som helst for å stoppe nedtellingen.",
+    "description": "Countdown message"
+  },
+  "sandboxEditorTooSmallInfo": {
+    "message": "Redigering kan være unøyaktig for korte tidsrom på grunn av intervallene mellom bildene.",
+    "description": "Info about the editor being too small"
+  },
+  "processingBannerEditor": {
+    "message": "Videoen behandles, avspillingen kan være unøyaktig eller avbrutt.",
+    "description": "Processing banner in editor"
+  },
+  "croppingInfoTitle": {
+    "message": "Beskjæring kan ta en stund",
+    "description": "Cropping info title"
+  },
+  "croppingInfoDescription": {
+    "message": "Oppgrader for raskere behandling",
+    "description": "Cropping info description"
+  },
+  "micOnToast": {
+    "message": "Mikrofon aktivert",
+    "description": "Microphone enabled toast title"
+  },
+  "micOffToast": {
+    "message": "Mikrofon deaktivert",
+    "description": "Microphone disabled toast title"
+  },
+  "recordingTooShortMsg": {
+    "message": "Opptaket var kortere enn 3 sekunder og ble ikke lagret.",
+    "description": "Toast message shown when recording is too short"
+  },
+  "hideUIAlerts": {
+    "message": "Skjul UI-varslinger",
+    "description": "Hide UI alerts button"
+  },
+  "noShowAgain": {
+    "message": "Ikke vis igjen",
+    "description": "Don't show again button"
+  },
+  "toolbarHoverOnly": {
+    "message": "Skjul verktøylinje når den ikke er i bruk",
+    "description": "Only show toolbar on hover button"
+  },
+  "startRecording": {
+    "message": "Start opptak",
+    "description": "Start recording button in recording screen"
+  },
+  "stopRecording": {
+    "message": "Stopp opptak",
+    "description": "Stop recording button in recording scren"
+  },
+  "updateAnnouncementTitle": {
+    "message": "Velkommen til den nye CocoShot!",
+    "description": "Update announcement title for existing users"
+  },
+  "updateAnnouncementLearnMore": {
+    "message": "Lær mer om oppdateringen.",
+    "description": "Update announcement learn more link for existing users"
+  },
+  "updateAnnouncementButton": {
+    "message": "Kom i gang",
+    "description": "Update announcement button for existing users"
+  },
+  "streamErrorModalTitle": {
+    "message": "Feil ved start av opptak",
+    "description": "Stream error modal title"
+  },
+  "streamErrorModalDescription": {
+    "message": "Det oppstod en feil ved start av opptaksprosessen. Vennligst start nettleseren på nytt og prøv igjen. Hvis problemet fortsetter, ta kontakt med oss på support@cocoshot.net.",
+    "description": "Stream error modal description"
+  },
+  "highestQuality": {
+    "message": "Høyeste kvalitet",
+    "description": "Highest quality toggle label in popup"
+  },
+  "restoreRecording": {
+    "message": "Gjenopprett siste videoopptak",
+    "description": "Restore last recording button in popup"
+  },
+  "havingIssuesButton": {
+    "message": "Har du problemer?",
+    "description": "Having issues button in editor"
+  },
+  "havingIssuesModalTitle": {
+    "message": "Ser du ikke opptaket ditt?",
+    "description": "Having issues modal title in editor"
+  },
+  "havingIssuesModalDescription": {
+    "message": "Hvis du er ferdig med å ta opp, men ikke ser videoen din på denne siden, kan du prøve å laste ned rå videodata hvis de eksisterer. Alternativt kan du kontakte oss ved å sende inn en feilrapport.",
+    "description": "Having issues modal description in editor"
+  },
+  "havingIssuesModalButton": {
+    "message": "Last ned rå videodata",
+    "description": "Having issues modal button in editor"
+  },
+  "havingIssuesModalButton2": {
+    "message": "Rapporter feil",
+    "description": "Having issues modal button 2 in editor"
+  },
+  "noRecordingFound": {
+    "message": "Ingen opptak funnet, beklager :(",
+    "description": "No recording found alert in editor"
+  },
+  "memoryLimitTitle": {
+    "message": "Minnegrense nådd",
+    "description": "Memory limit reached title"
+  },
+  "memoryLimitDescription": {
+    "message": "Enheten din har ikke nok minne til opptak, noe som fører til at økten avsluttes automatisk. For å ta opp lengre videoer, bør du vurdere å redusere videokvaliteten eller frigjøre lagringsplass på enheten.",
+    "description": "Memory limit reached description"
+  },
+  "understoodButton": {
+    "message": "Forstått",
+    "description": "Understood button"
+  },
+  "notEnoughSpaceTitle": {
+    "message": "Ikke nok plass",
+    "description": "Not enough space title"
+  },
+  "notEnoughSpaceDescription": {
+    "message": "CocoShot trenger minst 1GB ledig plass for å ta opp. Vennligst frigjør litt plass og prøv igjen.",
+    "description": "Not enough space description"
+  },
+  "clearSpaceButton": {
+    "message": "Fjern tidligere opptak",
+    "description": "Clear previous recordings button"
+  },
+  "sandboxAdvancedTitle": {
+    "message": "Avansert",
+    "description": "Advanced section in sandbox editor page"
+  },
+  "rawRecordingButtonTitle": {
+    "message": "Last ned rå videofil",
+    "description": "Download raw recording button"
+  },
+  "rawRecordingButtonDescription": {
+    "message": "Eksporter de originale opptaksdataene",
+    "description": "Download raw recording label"
+  },
+  "troubleshootButtonTitle": {
+    "message": "Få hjelp med opptaket ditt",
+    "description": "Troubleshoot button"
+  },
+  "troubleShootButtonDescription": {
+    "message": "Gjenopprett videoen din og løs andre problemer",
+    "description": "Troubleshoot label"
+  },
+  "rawRecordingModalTitle": {
+    "message": "Last ned rå videofil",
+    "description": "Raw recording modal title"
+  },
+  "rawRecordingModalDescription": {
+    "message": "Den rå videofilen refererer til det uendrede opptaket som ble opprettet direkte av CocoShot. Siden denne filen ikke er behandlet eller redigert, kan den være ganske stor og inkompatibel med noen enheter. Hvis du opplever problemer med den behandlede versjonen, kan du bruke denne filen til å hente det originale opptaket.",
+    "description": "Raw recording modal description"
+  },
+  "rawRecordingModalButton": {
+    "message": "Last ned",
+    "description": "Raw recording modal button"
+  },
+  "showWaveformButton": {
+    "message": "Vis lydbølgeform",
+    "description": "Button text to show audio waveform"
+  },
+  "troubleshootModalTitle": {
+    "message": "Last ned systeminformasjon og videodata og send for feilsøking",
+    "description": "Troubleshoot modal title"
+  },
+  "troubleshootModalDescription": {
+    "message": "Når du har lastet ned filen, vennligst send den til support@cocoshot.net sammen med eventuelle tilleggsdetaljer som kan være nyttige. Vi vil bruke denne informasjonen til å hjelpe deg med å løse problemer med utvidelsen og, hvis mulig, gjenopprette videoen din.",
+    "description": "Troubleshoot modal description"
+  },
+  "troubleshootModalButton": {
+    "message": "Last ned",
+    "description": "Troubleshoot modal button"
+  },
+  "overLimitModalTitle": {
+    "message": "Videoen er for lang til å behandles på enheten din",
+    "description": "Over 5 minutes limit modal title"
+  },
+  "overLimitModalDescription": {
+    "message": "Siden CocoShot prioriterer personvern og opererer fullstendig på din lokale enhet, er den bundet av maskinvarens muligheter. Håndtering av en video av denne varigheten ville være altfor tidkrevende og kreve betydelige systemressurser. Du kan fortsatt skaffe WEBM-filen eller råopptaket, selv om redigeringsfunksjonene og MP4-eksporten ikke vil være tilgjengelige. Men hvis du er klar over de potensielle utfordringene, kan du fortsette med å behandle videoen uansett.",
+    "description": "Over 5 minutes limit modal description"
+  },
+  "overLimitModalButton": {
+    "message": "Jeg forstår risikoen, prøv likevel",
+    "description": "Over 5 minutes limit modal button"
+  },
+  "overLimitModalLearnMore": {
+    "message": "Lær mer om behandling av lange videoer.",
+    "description": "Over 5 minutes limit modal learn more link with a dot"
+  },
+  "recoveryModeTitle": {
+    "message": "Gjenopprettingsmodus",
+    "description": "Recovery mode title"
+  },
+  "downloadForTroubleshootingOption": {
+    "message": "Last ned data for feilsøking",
+    "description": "Download for troubleshooting option"
+  },
+  "getHelpNav": {
+    "message": "Hjelpesenter",
+    "description": "Get help nav item"
+  },
+  "audioWarningTitle": {
+    "message": "Ta opp datamaskinlyd",
+    "description": "Audio warning title"
+  },
+  "audioWarningDescription": {
+    "message": "For å ta opp lyd fra denne siden, må du bytte til «$tab$».",
+    "description": "Audio warning description",
+    "placeholders": {
+      "tab": {
+        "content": "$1",
+        "example": "Tab area"
+      }
+    }
+  },
+  "extensionNotSupportedTitle": {
+    "message": "Utvidelse støttes ikke på fane",
+    "description": "Extension not supported on tab"
+  },
+  "extensionNotSupportedDescription": {
+    "message": "CocoShot er ikke kompatibel med fanen du nettopp brukte. Du kan fortsatt starte opptak fra denne siden og deretter gå tilbake til den fanen, men vær oppmerksom på at kamerafeeden og redigeringsverktøylinjen ikke vises.",
+    "description": "Extension not supported on tab description"
+  },
+  "backupsTitle": {
+    "message": "Sett opp en lokal sikkerhetskopi for CocoShot-opptakene dine",
+    "description": "Backups title"
+  },
+  "backupsDescription1": {
+    "message": "Oppretthold duplikater av hvert opptak du lager. Uten å sette opp sikkerhetskopier, vil opptakene dine kun bli lagret når du eksplisitt velger å laste dem ned.",
+    "description": "Backups description"
+  },
+  "backupsDescription2": {
+    "message": "Hvis du prøver å lagre opptak til Nedlastinger eller andre systemmapper, må du kanskje opprette en ny mappe på forhånd.",
+    "description": "Backups description"
+  },
+  "backupsSelectFolder": {
+    "message": "Velg en mappe",
+    "description": "Select a folder button"
+  },
+  "backupsNotNow": {
+    "message": "Ikke nå",
+    "description": "Not now button"
+  },
+  "backupsOnTitle": {
+    "message": " Opptakene dine sikkerhetskopieres lokalt",
+    "description": "Backups on title"
+  },
+  "backupsOnDescription": {
+    "message": "For å unngå å bli bedt om tillatelse hver gang du tar opp, anbefaler vi å la denne fanen være åpen.",
+    "description": "Backups on description"
+  },
+  "backupsClose": {
+    "message": "Lukk fanen likevel",
+    "description": "Close tab anyway button"
+  },
+  "backupsStop": {
+    "message": "Slutt å sikkerhetskopiere alle opptak",
+    "description": "Stop backups button"
+  },
+  "backupsConfirmTitle": {
+    "message": "Vennligst bekreft tilgang til din lokale CocoShot-sikkerhetskopimappe",
+    "description": "Backups confirm title"
+  },
+  "backupsConfirmDescription": {
+    "message": "Vi beklager, men vi trenger tillatelsen din igjen for å fortsette sikkerhetskopiering av opptakene dine. Dessverre må vi be om denne tillatelsen hver gang denne fanen lukkes, noe som kan skje når du slår av nettleseren eller starter datamaskinen på nytt.",
+    "description": "Backups confirm description"
+  },
+  "backupsConfirmAllow": {
+    "message": "Tillat CocoShot å fortsette å sikkerhetskopiere opptak",
+    "description": "Backups confirm allow button"
+  },
+  "backupsToggle": {
+    "message": "Sikkerhetskopier opptak",
+    "description": "Backups toggle label"
+  },
+  "backupPermissionFailTitle": {
+    "message": "Tillatelse ikke gitt for å sikkerhetskopiere opptaket",
+    "description": "Backup permission fail title"
+  },
+  "backupPermissionFailDescription": {
+    "message": "Du har ikke valgt en mappe for lagring av opptakssikkerhetskopier. Avhengig av nettleserens versjon eller operativsystem, kan du bli bedt om å velge denne mappen hver gang du starter et opptak. Du kan prøve oppsettprosessen igjen, eller slå av sikkerhetskopier helt hvis du ikke vil gi tillatelser gjentatte ganger.",
+    "description": "Backup permission fail description"
+  },
+  "recordAudioWarningMacTitle": {
+    "message": "Ta opp datamaskinlyd",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningMacDescription": {
+    "message": "På macOS-systemer er du begrenset til å ta opp lyd fra individuelle faner. Velg Chrome-faneopptaksalternativet og bekreft at innstillingen 'Også del fanelyd' er slått på.",
+    "description": "macOS audio warning description"
+  },
+  "recordAudioWarningOtherTitle": {
+    "message": "Ta opp datamaskinlyd",
+    "description": "Record audio warning title"
+  },
+  "recordAudioWarningOtherDescription": {
+    "message": "Hvis du ønsker å ta opp lyd fra datamaskinen din, sørg for at alternativet 'Del systemlyd' er aktivert. Hvis dette alternativet ikke er synlig, bør du vurdere å oppdatere Chrome eller bytte til fanemodus for opptak.",
+    "description": "Other audio warning description"
+  },
+  "maxResolutionLabel": {
+    "message": "Maks oppløsning",
+    "description": "Max resolution label in settings menu"
+  },
+  "maxFPSLabel": {
+    "message": "Maks FPS",
+    "description": "Max FPS label in settings menu"
+  },
+  "notEnoughRAM": {
+    "message": "Ikke nok RAM",
+    "description": "Not enough RAM label in settings menu"
+  },
+  "resizeWindowLabel": {
+    "message": "Endre størrelse på vindu",
+    "description": "Resize window label in settings menu"
+  },
+  "screenTooSmallTooltip": {
+    "message": "Skjermen er for liten for denne oppløsningen",
+    "description": "Screen too small tooltip in settings menu"
+  },
+  "maxResolutionTooltip": {
+    "message": "Kan ikke ta opp med denne oppløsningen på enheten din",
+    "description": "Maxed out resolution tooltip in settings menu"
+  },
+  "permissionDeniedTitle": {
+    "message": "Tillatelse avslått",
+    "description": "Permission denied warning title"
+  },
+  "cameraMicPermissionDenied": {
+    "message": "Kamera- og mikrofontillatelser kreves for opptak. Vennligst gi tillatelser i nettleserinnstillingene dine.",
+    "description": "Camera and microphone permission denied message"
+  },
+  "cameraPermissionDenied": {
+    "message": "Kameratillatelse kreves for opptak. Vennligst gi tillatelse i nettleserinnstillingene dine.",
+    "description": "Camera permission denied message"
+  },
+  "micPermissionDenied": {
+    "message": "Mikrofontillatelse kreves for opptak. Vennligst gi tillatelse i nettleserinnstillingene dine.",
+    "description": "Microphone permission denied message"
+  },
+  "fixPermissionAction": {
+    "message": "Fiks tillatelser",
+    "description": "Fix permissions button text"
+  },
+  "screenRecordingSettingsTitle": {
+    "message": "Skjermopptaksinnstillinger",
+    "description": "Settings menu title"
+  },
+  "hours": {
+    "message": "t",
+    "description": "Hours unit abbreviation"
+  },
+  "minutes": {
+    "message": "m",
+    "description": "Minutes unit abbreviation"
+  },
+  "seconds": {
+    "message": "s",
+    "description": "Seconds unit abbreviation"
+  },
+  "requestCameraPermissionLoading": {
+    "message": "Ber om kameratillatelse...",
+    "description": "Loading message when requesting camera permission"
+  },
+  "requestMicrophonePermissionLoading": {
+    "message": "Ber om mikrofontillatelse...",
+    "description": "Loading message when requesting microphone permission"
+  },
+  "requestCameraPermission": {
+    "message": "Be om kameratillatelse",
+    "description": "Button text to request camera permission"
+  },
+  "requestMicrophonePermission": {
+    "message": "Be om mikrofontillatelse",
+    "description": "Button text to request microphone permission"
+  },
+  "permissionsModalReview": {
+    "message": "Se over tillatelser",
+    "description": "Review permissions button"
+  },
+  "customiseOptionsAriaLabel": {
+    "message": "Tilpass alternativer",
+    "description": "Aria label for settings menu button"
+  },
+  "recordedVideosTitle": {
+    "message": "Tatte opp videoer",
+    "description": "Title for recorded videos tab"
+  },
+  "noVideosRecordedYet": {
+    "message": "Ingen videoer tatt opp ennå",
+    "description": "Empty state message for videos tab"
+  },
+  "pushToMuteLabel": {
+    "message": "Trykk for å dempe",
+    "description": "Push to mute label"
+  },
+  "cameraPermissionMessage": {
+    "message": "Vi trenger din tillatelse for å få tilgang til kameraet ditt",
+    "description": "Camera permission modal message"
+  },
+  "microphonePermissionMessage": {
+    "message": "Vi trenger din tillatelse for å få tilgang til mikrofonen din",
+    "description": "Microphone permission modal message"
+  },
+  "reviewButton": {
+    "message": "Se over",
+    "description": "Review button in permissions modal"
+  },
+  "colorPickerTooltip": {
+    "message": "Fargevelger",
+    "description": "Color picker tooltip"
+  },
+  "closeTooltip": {
+    "message": "Lukk",
+    "description": "Close button tooltip"
+  },
+  "eyeDropperTooltip": {
+    "message": "Velg farge fra skjerm",
+    "description": "Eye dropper tool tooltip"
+  },
+  "eyeDropperNotSupportedMessage": {
+    "message": "EyeDropper API støttes ikke i denne nettleseren. Vennligst bruk en moderne nettleser som Chrome 95+ eller Edge 95+.",
+    "description": "Eye dropper not supported message"
+  },
+  "selectBlurRegionTooltip": {
+    "message": "Velg uskarphet-region",
+    "description": "Select blur region button tooltip"
+  },
+  "deleteAllBlurRegionsTooltip": {
+    "message": "Slett alle uskarphet-regioner",
+    "description": "Delete all blur regions button tooltip"
+  },
+  "lineWidthTooltip": {
+    "message": "Linjebredde",
+    "description": "Line width tool tooltip"
+  },
+  "thinPresetLabel": {
+    "message": "Tynn",
+    "description": "Thin line width preset label"
+  },
+  "mediumPresetLabel": {
+    "message": "Middels",
+    "description": "Medium line width preset label"
+  },
+  "boldPresetLabel": {
+    "message": "Tykk",
+    "description": "Bold line width preset label"
+  },
+  "extraBoldPresetLabel": {
+    "message": "Ekstra tykk",
+    "description": "Extra bold line width preset label"
+  },
+  "backupsFolderName": {
+    "message": "CocoShot-opptak",
+    "description": "Name of the folder where backups are stored"
+  },
+  "backupSetupFailed": {
+    "message": "Kunne ikke opprette lokal sikkerhetskopi. Ta kontakt med oss på $supportEmail$ for mer hjelp. Du kan fortsatt ta opp skjermen.",
+    "description": "Error message when backup setup fails",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "backupBrowserNotSupported": {
+    "message": "Nettleseren din støtter ikke lokale sikkerhetskopier. Ta kontakt med oss på $supportEmail$ for mer hjelp. Du kan fortsatt ta opp skjermen.",
+    "description": "Error message when browser doesn't support backups",
+    "placeholders": {
+      "supportEmail": {
+        "content": "$1",
+        "example": "support@coco-shot.io"
+      }
+    }
+  },
+  "zoomToPointModalTitle": {
+    "message": "Hvordan bruke Zoom til markør",
+    "description": "Zoom to point tutorial modal title"
+  },
+  "zoomToPointModalDescription": {
+    "message": "Mens du tar opp, hold nede tastatursnarveien for å zoome mot markørposisjonen din. Slipp tastene for å zoome ut. Dette er flott for å fremheve bestemte områder av skjermen under opptaket.",
+    "description": "Zoom to point tutorial modal description"
+  },
+  "zoomToPointModalButton": {
+    "message": "Skjønner!",
+    "description": "Zoom to point tutorial modal button"
+  },
+  "regionSizeTitle": {
+    "message": "Regionstørrelse",
+    "description": "Region size title in dimension selector"
+  },
+  "quickPresetsLabel": {
+    "message": "Forhåndsinnstillinger",
+    "description": "Quick presets label in dimension selector"
+  },
+  "resetButtonLabel": {
+    "message": "Tilbakestill",
+    "description": "Reset button label in dimension selector"
+  },
+  "cameraEffectNoneLabel": {
+    "message": "Ingen",
+    "description": "None effect label in camera settings"
+  },
+  "cameraEffectBlurLabel": {
+    "message": "Uskarp",
+    "description": "Blur effect label in camera settings"
+  },
+  "cameraEffectBokehLabel": {
+    "message": "Bokeh",
+    "description": "Bokeh effect label in camera settings"
+  },
+  "cameraEffectImageLabel": {
+    "message": "Bilde",
+    "description": "Image effect label in camera settings"
+  },
+  "videoEditorEmptyPreview": {
+    "message": "Vennligst last inn en videofil først",
+    "description": "Empty preview message in video editor"
+  },
+  "videoEditorDownloadWebM": {
+    "message": "Last ned som WebM",
+    "description": "Download as WebM button in video editor"
+  },
+  "videoEditorDownloadMP4": {
+    "message": "Last ned som MP4",
+    "description": "Download as MP4 button in video editor"
+  },
+  "videoEditorConverting": {
+    "message": "Konverterer...",
+    "description": "Converting message in video editor"
+  },
+  "videoEditorProcessingChunks": {
+    "message": "Behandler biter:",
+    "description": "Processing chunks message in video editor"
+  },
+  "videoEditorVideoTooLarge": {
+    "message": "Videostørrelsen overskrider anbefalt grense (maks 1GB), noe som kan føre til behandlingsfeil",
+    "description": "Video too large warning in video editor"
+  },
+  "videoEditorLargeVideoWarning": {
+    "message": "Du laster inn en stor video (1GB). Behandling kan ta lang tid. Fortsette?",
+    "description": "Large video warning in video editor"
+  },
+  "videoEditorUnsupportedFormat": {
+    "message": "Videoformatet støttes ikke. Vennligst prøv et annet videoformat.",
+    "description": "Unsupported video format message in video editor"
+  },
+  "videoEditorDownloadFailed": {
+    "message": "Nedlasting mislyktes. Vennligst prøv igjen.",
+    "description": "Download failed message in video editor"
+  },
+  "videoEditorMP4ConversionNotAvailableTitle": {
+    "message": "MP4-konvertering ikke tilgjengelig",
+    "description": "Title for MP4 conversion not available modal"
+  },
+  "videoEditorMP4ConversionNotAvailableDescription": {
+    "message": "Denne videoen er for stor til å konverteres til MP4 i nettleseren. Vennligst last den ned som WebM i stedet.",
+    "description": "Description for MP4 conversion not available modal"
+  },
+  "videoEditorConvertingToMP4": {
+    "message": "Konverterer til MP4...",
+    "description": "Message shown when converting to MP4"
+  },
+  "videoEditorDownloadFromOPFSFailed": {
+    "message": "Kunne ikke laste ned video. Vennligst prøv igjen.",
+    "description": "Failed to download from OPFS message"
+  },
+  "videoEditorEditVideo": {
+    "message": "rediger video",
+    "description": "Edit video button text in video editor"
+  },
+  "videoEditorComingSoon": {
+    "message": "Kommer snart.",
+    "description": "Coming soon tooltip in video editor"
+  },
+  "videoEditorVideoPreview": {
+    "message": "Videoforhåndsvisning",
+    "description": "Video preview title in video editor"
+  },
+  "videoEditorOK": {
+    "message": "OK",
+    "description": "OK button text in video editor modal"
+  },
+  "videoEditorWritingToStorage": {
+    "message": "Skriver til lagring...",
+    "description": "Message shown when writing video to storage"
+  }
+}
